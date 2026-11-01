@@ -1,0 +1,36 @@
+name: Review checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: application/frontend/package-lock.json
+      - name: Install declared Python dependencies
+        run: |
+          python -c 'import tomllib,pathlib; p=tomllib.loads(pathlib.Path("application/pyproject.toml").read_text()); print("\n".join(p["project"]["dependencies"]))' > "$RUNNER_TEMP/uniion-requirements.txt"
+          python -m pip install -r "$RUNNER_TEMP/uniion-requirements.txt"
+      - run: npm ci --prefix application/frontend
+      - name: Frontend build
+        working-directory: application/frontend
+        run: npm run build
+      - name: Python tests and module boundaries
+        working-directory: application
+        run: |
+          python -B -m unittest discover -s tests -p 'test_*.py'
+          python -B scripts/check_boundaries.py
+      - name: Frontend tests
+        working-directory: application
+        run: node --test frontend/state/*.test.mjs frontend/host/*.test.mjs
