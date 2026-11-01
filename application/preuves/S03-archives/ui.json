@@ -1,0 +1,18 @@
+{
+  "viewports": [
+    {
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  ],
+  "downloads": 6,
+  "afterServerRestart": true
+}

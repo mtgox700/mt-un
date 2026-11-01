@@ -1,0 +1,21 @@
+<sc-if value="{{ isOnboarding }}" hint-placeholder-val="{{ false }}">
+        <div style="animation: fadeUp .45s ease-out; max-width: 720px; margin: 0 auto;">
+          <h1 style="font-family:var(--fTitle); font-size: 30px; margin: 0 0 6px;">Prise en main</h1>
+          <p style="margin: 0 0 18px; color: var(--ink5); font-size: 14px;">{{ onbSummary }}</p>
+          <div style="height: 9px; border-radius: 99px; background: var(--chip); overflow: hidden; margin-bottom: 24px;">
+            <div style="height: 100%; border-radius: 99px; background: linear-gradient(to right, var(--ac), var(--ac2)); width: {{ onbWidth }}; transition: width .3s;"></div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 12px;">
+            <sc-for list="{{ onbSteps }}" as="st" hint-placeholder-count="4">
+              <section style="background: var(--surface); border: 1px solid {{ st.border }}; border-radius: 20px; padding: 20px; display: flex; gap: 16px; align-items: flex-start;">
+                <span style="width: 28px; height: 28px; flex: 0 0 28px; border-radius: 99px; background: {{ st.badgeBg }}; color: {{ st.badgeColor }}; font-size: 12.5px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ st.mark }}</span>
+                <div style="flex: 1; min-width: 0;">
+                  <div style="font-family:var(--fTitle); font-size: 19px; margin-bottom: 5px;">{{ st.title }}</div>
+                  <p style="margin: 0 0 14px; font-size: 13.5px; color: var(--ink5); line-height: 1.6;">{{ st.desc }}</p>
+                  <button onClick="{{ st.go }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 11px 18px; font-size: 13px; font-weight: 700; background: {{ st.btnBg }}; color: {{ st.btnColor }};">{{ st.action }}</button>
+                </div>
+              </section>
+            </sc-for>
+          </div>
+        </div>
+      </sc-if>

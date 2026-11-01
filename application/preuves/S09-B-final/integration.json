@@ -1,0 +1,410 @@
+{
+  "passed": true,
+  "count": 101,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "author_mfa",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reader_mfa",
+      "ok": true
+    },
+    {
+      "test": "meeting_created",
+      "ok": true
+    },
+    {
+      "test": "consent_saved",
+      "ok": true
+    },
+    {
+      "test": "meeting_author_has_no_implicit_audio",
+      "ok": true
+    },
+    {
+      "test": "manager_self_grant_refused",
+      "ok": true
+    },
+    {
+      "test": "audio_rights_granted",
+      "ok": true
+    },
+    {
+      "test": "stale_grant_refused",
+      "ok": true
+    },
+    {
+      "test": "manager_has_no_implicit_audio",
+      "ok": true
+    },
+    {
+      "test": "invalid_container_refused",
+      "ok": true
+    },
+    {
+      "test": "stale_consent_refused",
+      "ok": true
+    },
+    {
+      "test": "setup_current_rights",
+      "ok": true
+    },
+    {
+      "test": "setup_no_implicit_right",
+      "ok": true
+    },
+    {
+      "test": "manage_email_self_denied",
+      "ok": true
+    },
+    {
+      "test": "begin_prepared",
+      "ok": true
+    },
+    {
+      "test": "same_begin_same_audio",
+      "ok": true
+    },
+    {
+      "test": "first_part",
+      "ok": true
+    },
+    {
+      "test": "incomplete_cannot_finish",
+      "ok": true
+    },
+    {
+      "test": "part_replay",
+      "ok": true
+    },
+    {
+      "test": "part_overwrite_denied",
+      "ok": true
+    },
+    {
+      "test": "part_past_end_denied",
+      "ok": true
+    },
+    {
+      "test": "fractional_part_denied",
+      "ok": true
+    },
+    {
+      "test": "other_actor_progress_denied",
+      "ok": true
+    },
+    {
+      "test": "restart_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "restart_mfa",
+      "ok": true
+    },
+    {
+      "test": "progress_after_restart",
+      "ok": true
+    },
+    {
+      "test": "part_two",
+      "ok": true
+    },
+    {
+      "test": "part_three",
+      "ok": true
+    },
+    {
+      "test": "complete_real_scan",
+      "ok": true
+    },
+    {
+      "test": "complete_replay",
+      "ok": true
+    },
+    {
+      "test": "exact_reloaded_audio",
+      "ok": true
+    },
+    {
+      "test": "foreign_transfer_denied",
+      "ok": true
+    },
+    {
+      "test": "chunk_table_private",
+      "ok": true
+    },
+    {
+      "test": "manager_restart_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "manager_restart_mfa",
+      "ok": true
+    },
+    {
+      "test": "default_local_hours",
+      "ok": true
+    },
+    {
+      "test": "member_cannot_set_local_hours",
+      "ok": true
+    },
+    {
+      "test": "admin_sets_local_hours",
+      "ok": true
+    },
+    {
+      "test": "policy_persists",
+      "ok": true
+    },
+    {
+      "test": "bad_local_hours",
+      "ok": true
+    },
+    {
+      "test": "sequence_first",
+      "ok": true
+    },
+    {
+      "test": "sequence_replay",
+      "ok": true
+    },
+    {
+      "test": "sequence_rewrite_denied",
+      "ok": true
+    },
+    {
+      "test": "second_segment",
+      "ok": true
+    },
+    {
+      "test": "sequence_gap_denied",
+      "ok": true
+    },
+    {
+      "test": "sequence_second_offset",
+      "ok": true
+    },
+    {
+      "test": "sequence_list",
+      "ok": true
+    },
+    {
+      "test": "source_begin",
+      "ok": true
+    },
+    {
+      "test": "derivative_quarantined_with_original",
+      "ok": true
+    },
+    {
+      "test": "source_not_readable_before_scan",
+      "ok": true
+    },
+    {
+      "test": "source_incomplete_denied",
+      "ok": true
+    },
+    {
+      "test": "source_part_0",
+      "ok": true
+    },
+    {
+      "test": "source_part_1",
+      "ok": true
+    },
+    {
+      "test": "source_immutable",
+      "ok": true
+    },
+    {
+      "test": "source_real_scan",
+      "ok": true
+    },
+    {
+      "test": "derivative_released_after_original_scan",
+      "ok": true
+    },
+    {
+      "test": "source_replay",
+      "ok": true
+    },
+    {
+      "test": "source_download_distinct",
+      "ok": true
+    },
+    {
+      "test": "grant_download_for_original",
+      "ok": true
+    },
+    {
+      "test": "source_exact_bytes",
+      "ok": true
+    },
+    {
+      "test": "source_other_actor_denied",
+      "ok": true
+    },
+    {
+      "test": "source_other_org_denied",
+      "ok": true
+    },
+    {
+      "test": "source_private_tables",
+      "ok": true
+    },
+    {
+      "test": "blocked_source_prepare",
+      "ok": true
+    },
+    {
+      "test": "blocked_source_part",
+      "ok": true
+    },
+    {
+      "test": "real_infected_original_denied",
+      "ok": true
+    },
+    {
+      "test": "infected_original_blocks_derivative",
+      "ok": true
+    },
+    {
+      "test": "blocked_source_replay_denied",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_0",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_1",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_2",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_3",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_4",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_5",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_6",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_7",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_8",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_9",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_10",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_11",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_12",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_13",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_14",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_15",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_16",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_17",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_18",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_19",
+      "ok": true
+    },
+    {
+      "test": "capacity_segment_20",
+      "ok": true
+    },
+    {
+      "test": "more_than_twenty_segments_can_be_prepared",
+      "ok": true
+    },
+    {
+      "test": "withdrawal",
+      "ok": true
+    },
+    {
+      "test": "withdrawn_progress_denied",
+      "ok": true
+    },
+    {
+      "test": "withdrawn_completion_denied",
+      "ok": true
+    },
+    {
+      "test": "withdrawn_original_denied",
+      "ok": true
+    },
+    {
+      "test": "withdrawn_sequence_denied",
+      "ok": true
+    }
+  ]
+}

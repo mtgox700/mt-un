@@ -1,0 +1,6 @@
+import assert from 'node:assert/strict';
+import {attachPublicationNotices} from '../modules/agenda/notifications.js';
+let rows=[{id:'n',event:'e',version:1,title:'ODJ',created:'2026-10-27',read:false}],calls=[],opened=0;
+const c={state:{},setState(){},flash(){},renderVals:()=>({notifications:[],hasUnread:false,goNotifs:async()=>{},markAllRead:()=>{}}),refreshAgendaHome:async()=>{},go:async()=>true,moduleStores:{module:()=>({read:()=>({agenda:[{id:'e'}]}),update(){}})},agVals:()=>({evt:{odj:async()=>opened++}})};
+const request=async(path,p)=>{calls.push(p);if(path.endsWith('notices')){if(p.read_id)rows=rows.map(n=>({...n,read:true}));return rows;}return {};};
+attachPublicationNotices(c,request,'org');await c.renderVals().goNotifs();assert.equal(c.renderVals().notifications.length,1);await c.renderVals().notifications[0].go();assert.equal(opened,1);assert.equal(c.renderVals().notifications[0].dot,'var(--bd2)');await c.renderVals().markAllRead();assert.equal(calls.at(-1).read_id,'00000000-0000-0000-0000-000000000000');c.clearIdentity();assert.equal(c.renderVals().notifications.length,0);console.log('Publication notices: authorized opening, durable read command, atomic read-all and cleanup OK');

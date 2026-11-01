@@ -1,0 +1,177 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			305 button Accueil
+				306 image
+				307 text Accueil
+			329 button Assistant
+				330 image
+				331 text Assistant
+			320 button Dossiers
+				321 image
+				322 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			326 button Réunions
+				327 image
+				328 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			165 button Formations
+				166 image
+				167 text Formations
+			302 button Communication
+				303 image
+				304 text Communication
+			336 button Application mobile
+				337 image
+				338 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			339 button Intranet
+				340 image
+				341 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			162 button Raccourcis
+				163 image
+				164 text Raccourcis
+			308 button Réglages
+				309 image
+				310 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable) RECETTE
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				342 text unii
+				343 text 3
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		335 container
+			344 text UNII SUGGÈRE
+			345 button À vérifier avant validation FO · Atelier de préparation : exemple fictif
+			346 button Page à compléter · NAO 2027 : où en sommes-nous ?
+			439 button À vérifier avant validation FO · Heures supplémentaires : ce que prévoit l'accord
+			347 text PUBLIÉ DANS L'APPLICATION FO
+			348 heading Application mobile, Value: 1
+				349 text Application mobile
+			350 text Créez les pages de votre organisation publiées dans l'application mobile FO : actualités, permanences, contacts, droits. Les adhérents et salariés les retrouvent dans l'espace « Section syndicale FO ». unii rédige, vous validez, la fédération publie. 1 pages en ligne 4 en préparation 412 vues ce mois
+			351 tab group Application mobile
+				352 tab (selectable, settable, boolean) Mes pages · 5, Value: 0
+				353 tab (selected, settable, boolean) Éditeur · Atelier de préparation : exe…, Value: 1
+			354 button ← Toutes les pages
+			355 text En relecture
+			356 container
+				357 text Titre de la page
+				358 text field (settable) Titre de la page, Value: Atelier de préparation : exemple fictif
+			359 text Type de page
+			360 checkbox Actualité, Value: 1
+			361 checkbox Permanences, Value: 0
+			362 checkbox Contacts des élus, Value: 0
+			363 checkbox Événement, Value: 0
+			364 checkbox Vos droits, Value: 0
+			365 checkbox Adhésion, Value: 0
+			366 text Visible par
+			367 checkbox Tous les salariés, Value: 1
+			368 checkbox Adhérents FO, Value: 0
+			369 checkbox Élus et mandatés, Value: 0
+			370 heading Rédiger avec unii, Value: 2
+				371 text Rédiger avec unii
+			372 text unii propose une page prête pour le téléphone — vous relisez avant tout envoi.
+			373 text entry area (settable) Exemple fictif : atelier de préparation mardi à 10 h salle A. Accueil, présentation et questions.
+			374 button Générer la page
+			375 button Adapter au mobile
+			376 button Proposer la notification
+			377 heading Contenu, Value: 2
+				378 text Contenu
+			379 text ENCADRÉ PRATIQUE
+			380 button Monter
+			381 button Descendre
+			382 button Supprimer le bloc
+			383 text entry area (settable) Exemple fictif proposé par la section syndicale Force Ouvrière (FO).
+			384 text TEXTE
+			385 button Monter
+			386 button Descendre
+			387 button Supprimer le bloc
+			388 text entry area (settable) Atelier de préparation : mardi à 10 h, salle A.
+Date complète : [à compléter].
+Source : éléments fictifs fournis, à contrôler avant publication.
+			389 text TEXTE
+			390 button Monter
+			391 button Descendre
+			392 button Supprimer le bloc
+			393 text entry area (settable) Au programme : accueil, présentation et questions.
+Source : éléments fictifs fournis, à contrôler avant publication.
+			394 text ENCADRÉ PRATIQUE
+			395 button Monter
+			396 button Descendre
+			397 button Supprimer le bloc
+			398 text entry area (settable) Sources
+Éléments fournis — exemple fictif, date/version : [à compléter] — message de demande, rubrique « Éléments fournis » ; source non vérifiée, à contrôler avant publication.
+			399 text BOUTON
+			400 button Monter
+			401 button Descendre
+			402 button Supprimer le bloc
+			403 text entry area (settable) Voir les modalités : [à compléter]
+			404 text Ajouter :
+			405 button + Intertitre
+				406 text + 
+				407 text Intertitre
+			408 button + Texte
+				409 text + 
+				410 text Texte
+			411 button + Encadré pratique
+				412 text + 
+				413 text Encadré pratique
+			414 button + Contact
+				415 text + 
+				416 text Contact
+			417 button + Bouton
+				418 text + 
+				419 text Bouton
+			420 heading Notification push, Value: 2
+				421 text Notification push
+			422 text Envoyée à la mise en ligne. À réserver aux informations utiles.
+			423 switch Description: Notification push, Value: 1
+			424 text field (settable) Découvrez « Atelier de préparation : exemple fictif » sur l’application FO.
+			425 text 75 / 120 caractères
+			426 heading Publication, Value: 2
+				427 text Publication
+			428 text Brouillon En relecture Validation FO En ligne
+			429 text Un second membre relit la page : exactitude, ton, données personnelles.
+			430 button Relecture validée — soumettre à FO
+			431 button Vérifier avec unii avant envoi
+			432 text APERÇU DANS L'APPLICATION 9:41 ●●● 5G ‹ FO Section syndicale FO
+			433 container
+				434 text ACTUALITÉ Atelier de préparation : exemple fictif Visible par : tous les salariés · mis à jour à l'instant Exemple fictif proposé par la section syndicale Force Ouvrière (FO). Atelier de préparation : mardi à 10 h, salle A.
+Date complète : [à compléter].
+Source : éléments fictifs fournis, à contrôler avant publication. Au programme : accueil, présentation et questions.
+Source : éléments fictifs fournis, à contrôler avant publication. Sources
+Éléments fournis — exemple fictif, date/version : [à compléter] — message de demande, rubrique « Éléments fournis » ; source non vérifiée, à contrôler avant publication. Voir les modalités : [à compléter]
+			435 text Accueil Actus Mon syndicat Profil FO
+			436 container
+				437 text FO ·  Section syndicale FO
+			438 text Découvrez « Atelier de préparation : exemple fictif » sur l’application FO.
+		440 text Page envoyée en relecture à un second membre
+
+The focused UI element is 430 button Relecture validée — soumettre à FO

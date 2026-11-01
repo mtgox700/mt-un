@@ -1,0 +1,142 @@
+Browser tab: 12, Title: "127.0.0.1:5054/uniion App v3.dc.html", URL: "http://127.0.0.1:5054/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+	1 container dc-root
+		232 container
+			233 image uniion
+			234 button Réduire le menu
+			235 button Accueil
+				236 image
+				237 text Accueil
+			238 button Assistant
+				239 image
+				240 text Assistant
+			241 button Dossiers
+				242 image
+				243 text Dossiers
+			244 button Messages
+				245 image
+				246 text Messages
+			247 button Agenda
+				248 image
+				249 text Agenda
+			250 button Réunions
+				251 image
+				252 text Réunions
+			253 button Documents
+				254 image
+				255 text Documents
+			256 button Formations
+				257 image
+				258 text Formations
+			259 button Communication
+				260 image
+				261 text Communication
+			262 button Application mobile
+				263 image
+				264 text Application mobile
+			265 button Adhérents
+				266 image
+				267 text Adhérents
+			268 button Intranet
+				269 image
+				270 text Intranet
+			271 button Reporting
+				272 image
+				273 text Reporting
+			274 button Raccourcis
+				275 image
+				276 text Raccourcis
+			277 button Réglages
+				278 image
+				279 text Réglages
+			280 text ASSISTANT IA Une question de droit ?
+			281 button Ouvrir le chat
+			282 button SM Sophie Marchand Déléguée syndicale
+				283 text SM
+				284 text Sophie Marchand
+				285 text Déléguée syndicale
+			286 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				138 text unii
+				139 text 2
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			215 text UNII SUGGÈRE
+			216 button Échéance dans 24 h · Signalement — Service Logistique
+			217 button Échéance dans 4 h · Accident Atelier B
+			287 text JURIDIQUE
+			353 heading RECETTE CLOTURE — dossier fictif, Value: 1
+				354 text RECETTE CLOTURE — dossier fictif
+			355 text Dossier créé vide pendant la recette, renommé pour identification.
+			356 button Modifier le dossier
+			357 button Supprimer le dossier
+			293 text ÉCHÉANCE
+			294 text 15 j
+			295 text STATUT
+			296 text En cours
+			297 text RÉFÉRENT
+			298 text Sophie M.
+			299 heading Historique, Value: 2
+				300 text Historique
+			301 text Aujourd'hui
+			302 text Dossier créé
+			303 text Créé par Sophie Marchand depuis le mobile.
+			304 text field (settable)
+			305 button Ajouter
+			306 heading Actions, Value: 2
+				307 text Actions
+			308 button Analyser sans identité →
+			309 text NIVEAU STANDARD Masquage léger — aucun nom détecté
+			310 button Générer un courrier à la direction
+			311 button Pièces jointes 0
+				312 image
+				313 text Pièces jointes
+				314 text 0
+			315 button Faire avancer le dossier
+			316 image
+			317 text Assistant du dossier Contexte chargé
+			318 button Mode assistant, Help: Ouvrir ce sujet dans l'Assistant
+			319 text Juridique Échéance 15 j 0 pièce Niveau standard
+			320 text CONTEXTE DU DOSSIER CHARGÉ
+			321 text J'ai lu « RECETTE CLOTURE — dossier fictif » : catégorie Juridique, échéance 15 j, 1 entrées d'historique. Posez votre question, je réponds sur ce dossier en citant les textes applicables.
+			322 button Quels textes s'appliquent ici ?
+			323 button Quels délais dois-je respecter ?
+			324 button Que demander à la direction ?
+			325 button Résume l'historique en 5 lignes
+			326 text field (settable)
+			327 button Envoyer à l'assistant
+				328 image
+			329 text Masquage heuristique avant envoi · traitement via votre compte ChatGPT.
+			330 button En savoir plus sur la sécurité
+			331 button Analyse complète →
+			332 heading Assigner à un élu, Value: 2
+				333 text Assigner à un élu
+			334 text Seuls les élus formés SSCT apparaissent en gras.
+			335 button SM Sophie Marchand Référent
+				336 text SM
+				337 text Sophie Marchand
+				338 text Référent
+			339 button JD Jean-Paul Diallo Trésorier
+				340 text JD
+				341 text Jean-Paul Diallo
+				342 text Trésorier
+			343 button LC Leïla Chaïb Élue titulaire
+				344 text LC
+				345 text Leïla Chaïb
+				346 text Élue titulaire
+			347 button MA Marc Aubert Suppléant
+				348 text MA
+				349 text Marc Aubert
+				350 text Suppléant
+			351 text CLOISONNEMENT
+			352 text Prototype local : données enregistrées dans ce navigateur. Chiffrement et journal d’accès de production à intégrer.
+		358 text Dossier déplacé vers « En cours »
+
+The focused UI element is 315 button Faire avancer le dossier

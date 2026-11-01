@@ -1,0 +1,35 @@
+<sc-if value="{{ isMembres }}" hint-placeholder-val="{{ false }}">
+        <div style="animation: fadeUp .45s ease-out;">
+          <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 20px;">
+            <div>
+              <h1 style="font-family:var(--fTitle); font-size: 28px; margin: 0 0 4px;">Organisation &amp; membres</h1>
+              <p style="margin: 0; color: var(--ink5); font-size: 14px;">{{ memberSummary }}</p>
+            </div>
+            <button onClick="{{ invite }}" style="border: none; border-radius: 99px; padding: 12px 20px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 13.5px; font-weight: 700; cursor: pointer;">+ Inviter un membre</button>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; margin-bottom: 20px;">
+            <sc-for list="{{ orgStats }}" as="o" hint-placeholder-count="4">
+              <div style="background: var(--surface); border: 1px solid var(--bd); border-radius: 18px; padding: 18px;">
+                <div style="font-family:var(--fTitle); font-size: 26px; color: var(--acTx);">{{ o.value }}</div>
+                <div style="font-size: 12px; color: var(--ink5); margin-top: 3px;">{{ o.label }}</div>
+              </div>
+            </sc-for>
+          </div>
+
+          <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 22px; padding: 10px 20px;">
+            <sc-for list="{{ members }}" as="m" hint-placeholder-count="5">
+              <div style="display: flex; align-items: center; gap: 14px; padding: 15px 0; border-bottom: 1px solid var(--bd); flex-wrap: wrap;">
+                <span style="width: 34px; height: 34px; flex: 0 0 34px; border-radius: 99px; background: var(--chip); color: var(--ink4); font-size: 11.5px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ m.initials }}</span>
+                <span style="flex: 1; min-width: 140px;">
+                  <span style="display: block; font-size: 14px; font-weight: 600;">{{ m.name }}</span>
+                  <span style="display: block; font-size: 12.5px; color: var(--ink6); margin-top: 2px;">{{ m.role }} · {{ m.last }}</span>
+                </span>
+                <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; border-radius: 99px; padding: 5px 11px; background: {{ m.statusBg }}; color: {{ m.statusColor }};">{{ m.status }}</span>
+                <button onClick="{{ m.del.act }}" style="cursor: pointer; border: 1px solid var(--bd2); background: {{ m.del.bg }}; color: {{ m.del.fg }}; border-radius: 99px; padding: 8px 14px; font-size: 12px; font-weight: 600;" style-hover="border-color: var(--dangerBd2); color: var(--dangerTx2);">{{ m.del.label }}</button>
+                <button onClick="{{ m.go }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 8px 14px; font-size: 12px; font-weight: 600; color: var(--ink4);" style-hover="border-color: var(--acMid); color: var(--acTx);">{{ m.action }}</button>
+              </div>
+            </sc-for>
+          </section>
+        </div>
+      </sc-if>

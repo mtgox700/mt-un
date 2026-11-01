@@ -1,0 +1,17 @@
+[
+  {
+    "viewport": "desktop",
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "viewport": "tablette",
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "viewport": "mobile",
+    "pages": 2,
+    "complete": true
+  }
+]

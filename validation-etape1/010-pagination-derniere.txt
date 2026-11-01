@@ -1,0 +1,116 @@
+Browser tab: 9, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+1 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	2 container Dimensions de recette
+		3 button Bureau 1280
+		4 button Mobile 390
+		5 button Tablette 768
+		6 button Tablette paysage 1024
+		7 text 390 × 844
+	8 container Description: Prototype inchangé, ID: prototype
+		9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			10 container dc-root
+				11 container
+					12 image uniion
+					129 button ← Retour
+					13 image
+					14 text field (settable)
+					15 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					18 button
+						19 image
+					20 button Se déconnecter
+						21 image
+				22 container
+					273 text ADHÉSION ET COTISATIONS
+					274 heading Adhérents, Value: 1
+						275 text Adhérents
+					276 text 12 adhérents suivis sur 3 entreprises · 3 cotisations en retard · 2 adhésions à finaliser 12 adhérents actifs 58 % à jour de cotisation 3 retards à relancer 5 listes de diffusion
+					277 tab group Vues du module adhérents
+						278 tab (selected, settable, boolean) Adhérents, Value: 1
+						279 tab (selectable, settable, boolean) Listes de diffusion, Value: 0
+						280 tab (selectable, settable, boolean) Cotisations, Value: 0
+					281 text FILTRER LES ADHÉRENTS
+					282 text field (settable) Rechercher un adhérent
+					283 container
+						284 text ENTREPRISE
+						285 pop up button (collapsed, settable) ENTREPRISE, Value: Toutes, Secondary Actions: Expand
+							286 menu
+								287 (selected) Toutes
+								288 Métallurgie Valenciennes SA
+								289 Valmétal Logistique
+								290 VMV Services
+					291 container
+						292 text ÉTABLISSEMENT
+						293 pop up button (collapsed, settable) ÉTABLISSEMENT, Value: Tous, Secondary Actions: Expand
+							294 menu
+								295 (selected) Tous
+								296 Site de Valenciennes
+								297 Site de Denain
+								298 Plateforme de Prouvy
+								299 Siège de Lille
+					300 container
+						301 text SECTION
+						302 pop up button (collapsed, settable) SECTION, Value: Toutes, Secondary Actions: Expand
+							303 menu
+								304 (selected) Toutes
+								305 Section Atelier
+								306 Section Logistique
+								307 Section Tertiaire
+								308 Section Maintenance
+					309 container
+						310 text DIRECTION
+						311 pop up button (collapsed, settable) DIRECTION, Value: Toutes, Secondary Actions: Expand
+							312 menu
+								313 (selected) Toutes
+								314 Production
+								315 Supply Chain
+								316 Fonctions support
+								317 Technique
+					318 container
+						319 text COTISATION
+						320 pop up button (collapsed, settable) COTISATION, Value: Toutes, Secondary Actions: Expand
+							321 menu
+								322 (selected) Toutes
+								323 À jour
+								324 En retard
+								325 Adhésion en cours
+					326 text field (settable) Nom de la nouvelle liste de diffusion
+					327 button Créer une liste depuis ces critères
+					328 text 12 adhérents sur 12
+					329 button Tout sélectionner
+					330 button Envoyer un message
+					331 checkbox Description: Sélectionner Bruno Waeles, Value: 0
+					332 button Bruno Waeles Site de Denain · Section Maintenance
+						333 text Bruno Waeles
+						335 text Site de Denain · Section Maintenance
+					336 text 16,50 €/mois · Prélèvement SEPA À JOUR
+					337 button Ouvrir la fiche de Bruno Waeles
+					338 checkbox Description: Sélectionner Fatou Sarr, Value: 0
+					339 button Fatou Sarr Site de Valenciennes · Section Atelier
+						340 text Fatou Sarr
+						341 text Site de Valenciennes · Section Atelier
+					342 text 12,90 €/mois · Prélèvement SEPA EN RETARD
+					343 button Ouvrir la fiche de Fatou Sarr
+					363 text 11–12 sur 12
+					364 button Page précédente
+					365 button (disabled) Page suivante
+					366 text L'appartenance syndicale est une donnée sensible : le fichier reste chiffré sur l'appareil, n'est jamais transmis à l'employeur et les exports sont journalisés.
+					367 button Importer un fichier CSV
+					368 button Nouveau bulletin d'adhésion
+				113 container
+					226 button Accueil
+						227 image
+						228 text Accueil
+					117 button Dossiers
+						118 image
+						119 text Dossiers
+					120 button Agenda
+						121 image
+						122 text Agenda
+					123 button Réunions
+						124 image
+						125 text Réunions
+					126 button Réglages
+						127 image
+						128 text Réglages
+
+The focused UI element is 9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

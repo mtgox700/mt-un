@@ -1,0 +1,8 @@
+PASS recipient summary capped at eight
+PASS subject input updates module
+PASS channel changes preview
+PASS attachment toggle
+PASS send uses campaign service
+PASS cancel preserves route
+PASS bulletin opens document port
+7 campaign presenter checks passed

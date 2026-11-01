@@ -1,0 +1,1 @@
+import View from '../../generated/admin-dashboard.jsx';import {defineModule} from '../../host/module-contract.js';export {View};export default defineModule({id:'admin-dashboard',routes:['admin'],View});

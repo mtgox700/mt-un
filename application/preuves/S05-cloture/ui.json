@@ -1,0 +1,23 @@
+{
+  "formats": [
+    [
+      390,
+      844
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1440,
+      1000
+    ]
+  ],
+  "preview_two_pages_all_formats": true,
+  "reader_disposal_request_refused_all_formats": true,
+  "mobile_rescan": true,
+  "tablet_request_and_approval": true,
+  "mobile_restore": true,
+  "horizontal_overflow_observed": false,
+  "all_action_role_format_combinations_clicked": false
+}

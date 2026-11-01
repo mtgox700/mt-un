@@ -1,0 +1,666 @@
+[
+  {
+    "label": "Identité de marque-360",
+    "heading": "Identité de marque",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Profil & mandat-360",
+    "heading": "Sophie Marchand",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Notifications Granularité-360",
+    "heading": "Notifications",
+    "overflow": [],
+    "scrollWidth": 360,
+    "width": 360
+  },
+  {
+    "label": "Contacts & groupes Annuaire-360",
+    "heading": "Contacts & groupes",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Mémoire de l.assistant Faits-360",
+    "heading": "Mémoire de l'assistant",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Actions d.unii Actions-360",
+    "heading": "Actions d'unii",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Extensions Modules-360",
+    "heading": "Extensions",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Configuration IA Fournisseur-360",
+    "heading": "Configuration IA",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Sécurité Double-360",
+    "heading": "Sécurité",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Confidentialité & RGPD-360",
+    "heading": "Confidentialité & RGPD",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Organisation & membres-360",
+    "heading": "Organisation & membres",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Espace admin Tableau-360",
+    "heading": "Tableau de bord organisation",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Prise en main Convention-360",
+    "heading": "Prise en main",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Import CSV-360",
+    "heading": "Importer des adhérents",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Import CSV-768",
+    "heading": "Importer des adhérents",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Fiche adhérent-360",
+    "heading": "Karim Benali",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Fiche adhérent-768",
+    "heading": "Karim Benali",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Modification adhérent-360",
+    "heading": "Karim Benali",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Modification adhérent-768",
+    "heading": "Karim Benali",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Message adhérents-360",
+    "heading": "Message aux adhérents",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Message adhérents-768",
+    "heading": "Message aux adhérents",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Générateur-360",
+    "heading": "Générateur de pages HTML",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Générateur-768",
+    "heading": "Générateur de pages HTML",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Suivi-360",
+    "heading": "Suivi des publications",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Suivi-768",
+    "heading": "Suivi des publications",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Charte-360",
+    "heading": "Charte des sites",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Charte-768",
+    "heading": "Charte des sites",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Editeur intranet-360",
+    "heading": "NAO 2027 : où en sont les négociations ?",
+    "overflow": [
+      {
+        "left": 282,
+        "right": 388.3515625,
+        "tag": "BUTTON",
+        "text": "Rechercher"
+      }
+    ],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Editeur intranet-768",
+    "heading": "NAO 2027 : où en sont les négociations ?",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Envoi webmaster-360",
+    "heading": "Envoyer au webmaster",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Envoi webmaster-768",
+    "heading": "Envoyer au webmaster",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Modale invitation-360",
+    "heading": "Organisation & membres",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Modale invitation-768",
+    "heading": "Organisation & membres",
+    "overflow": [],
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "label": "Modale contact-360",
+    "heading": "Contacts & groupes",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Modale contact-768",
+    "heading": "Contacts & groupes",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Modale groupe-360",
+    "heading": "Contacts & groupes",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Modale groupe-768",
+    "heading": "Contacts & groupes",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Modale membres groupe-360",
+    "heading": "Contacts & groupes",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Modale membres groupe-768",
+    "heading": "Contacts & groupes",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Nouveau dossier-360",
+    "heading": "Nouveau dossier",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Nouveau dossier-768",
+    "heading": "Nouveau dossier",
+    "overflow": [],
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "label": "Détail dossier-360",
+    "heading": "Accident Atelier B",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Détail dossier-768",
+    "heading": "Accident Atelier B",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Modale édition dossier-360",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Modale édition dossier-768",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Pièces jointes-360",
+    "heading": "Pièces jointes",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Pièces jointes-768",
+    "heading": "Pièces jointes",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Aperçu pièce-360",
+    "heading": "Pièces jointes",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Aperçu pièce-768",
+    "heading": "Pièces jointes",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Panneau unii-360",
+    "heading": "Pièces jointes",
+    "overflow": [
+      {
+        "left": -8,
+        "right": 352,
+        "tag": "ASIDE",
+        "text": "\n      \n        \n        \n          unii\n          Dossiers · Dél"
+      }
+    ],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Panneau unii-768",
+    "heading": "Pièces jointes",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Infos discussion-360",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Infos discussion-768",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Modale transfert-360",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Modale transfert-768",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Modale classement dossier-360",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Modale classement dossier-768",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Enregistrement consentement-360",
+    "heading": "Avant d'enregistrer",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Enregistrement consentement-768",
+    "heading": "Avant d'enregistrer",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Réunion PV-360",
+    "heading": "Deuxième séance de négociation",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Réunion PV-768",
+    "heading": "Deuxième séance de négociation",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Résultats sondage-360",
+    "heading": "Priorités salariales 2027",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Résultats sondage-768",
+    "heading": "Priorités salariales 2027",
+    "overflow": [],
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "label": "Nouveau sondage-360",
+    "heading": "Nouveau sondage",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Nouveau sondage-768",
+    "heading": "Nouveau sondage",
+    "overflow": [],
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "label": "Signature document-360",
+    "heading": "Signature du document",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Signature document-768",
+    "heading": "Signature du document",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Éditeur application mobile-360",
+    "heading": "Application mobile",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Éditeur application mobile-768",
+    "heading": "Application mobile",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Atelier de contenus-360",
+    "heading": "Communication",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Atelier de contenus-768",
+    "heading": "Communication",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Pôle communication-360",
+    "heading": "Communication",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Pôle communication-768",
+    "heading": "Communication",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Formations généralistes 31-360",
+    "heading": "Formations",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Formations généralistes 31-768",
+    "heading": "Formations",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Se former avec unii-360",
+    "heading": "Formations",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Se former avec unii-768",
+    "heading": "Formations",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Identité de marque-768",
+    "heading": "Identité de marque",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Profil & mandat-768",
+    "heading": "Sophie Marchand",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Notifications Granularité-768",
+    "heading": "Notifications",
+    "overflow": [],
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "label": "Contacts & groupes Annuaire-768",
+    "heading": "Contacts & groupes",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Mémoire de l.assistant Faits-768",
+    "heading": "Mémoire de l'assistant",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Actions d.unii Actions-768",
+    "heading": "Actions d'unii",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Extensions Modules-768",
+    "heading": "Extensions",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Configuration IA Fournisseur-768",
+    "heading": "Configuration IA",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Sécurité Double-768",
+    "heading": "Sécurité",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Confidentialité & RGPD-768",
+    "heading": "Confidentialité & RGPD",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Organisation & membres-768",
+    "heading": "Organisation & membres",
+    "overflow": [],
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "label": "Espace admin Tableau-768",
+    "heading": "Tableau de bord organisation",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Prise en main Convention-768",
+    "heading": "Prise en main",
+    "overflow": [],
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "label": "Éditeur intranet corrigé-360",
+    "heading": "NAO 2027 : où en sont les négociations ?",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Éditeur intranet corrigé-768",
+    "heading": "NAO 2027 : où en sont les négociations ?",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  },
+  {
+    "label": "Panneau unii corrigé-360",
+    "heading": "NAO 2027 : où en sont les négociations ?",
+    "overflow": [],
+    "scrollWidth": 352,
+    "width": 352
+  },
+  {
+    "label": "Panneau unii corrigé-768",
+    "heading": "NAO 2027 : où en sont les négociations ?",
+    "overflow": [],
+    "scrollWidth": 760,
+    "width": 760
+  }
+]

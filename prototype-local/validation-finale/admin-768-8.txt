@@ -1,0 +1,53 @@
+Browser tab: 13, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container
+		2 text uniion
+		3 text CONSOLE D'ADMINISTRATION
+		4 container
+			47 button Supervision
+				48 image
+				49 text Supervision
+			32 button Organisations
+				33 image
+				34 text Organisations
+			35 button Utilisateurs
+				36 image
+				37 text Utilisateurs
+			38 button Clés API IA
+				39 image
+				40 text Clés API IA
+			41 button Éditeur de l’application
+				42 image
+				43 text Éditeur de l’application
+			44 button Abonnements et paiements
+				45 image
+				46 text Abonnements et paiements
+			50 button Journal d’audit
+				51 image
+				52 text Journal d’audit
+		26 text SA Super administrateur admin@uniion.fr
+		27 button Se déconnecter
+		28 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+		53 heading Supervision, Value: 1
+			54 text Supervision
+		55 text État de la plateforme au 11 septembre 2026.
+		56 text ORGANISATIONS ACTIVES
+		57 text 2 / 3
+		58 text 1 essai en cours
+		59 text COMPTES UTILISATEURS
+		60 text 7
+		61 text 5 actifs
+		62 text MFA ACTIVÉE
+		63 text 57 %
+		64 text 3 comptes à relancer
+		65 text REQUÊTES IA (30 J)
+		66 text 8 470
+		67 text Coût estimé 214 €
+		68 text Quota IA à 80 % — UD 59 — Lille
+		69 text Relever le plafond ou prévenir l’organisation.
+		70 text 2 comptes sans MFA
+		71 text Nadia Ferrand, Claire Dubois — relance possible en un clic.
+		72 text Essai CSE Brasserie du Nord — 12 jours restants
+		73 text Aucune commande enregistrée.
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

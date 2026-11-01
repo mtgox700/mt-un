@@ -1,0 +1,48 @@
+Browser tab: 3, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 21-23, 193-197, 202-203, 206-207, 211, 214-220, 222-228, 230-301
++			193 button Réunions
++				194 image
++				195 text Réunions
++				196 text unii
++				197 text 2
+~			198 text UNII SUGGÈRE
+~			199 button PV en relecture · Deuxième séance de négociation
+~			200 button PV à rédiger · Visite de site — atelier peinture
+~			201 text SÉANCES & PROCÈS-VERBAUX
++			202 heading Réunions, Value: 1
++				203 text Réunions
+~			204 text 3 séances au registre · 2 PV en cours, 2 enregistrements en attente de destruction
+~			205 button Enregistrer une réunion Dictaphone avec marqueurs de séance. Consentement des participants demandé avant le premier octet.
++				206 text Enregistrer une réunion
++				207 text Dictaphone avec marqueurs de séance. Consentement des participants demandé avant le premier octet.
+~			208 text Importer un enregistrement Fichier du dictaphone, de la visio ou de la salle. Chiffré sur l'appareil, même règle de destruction. Choisir un fichier audio
+~			209 button Choisir un fichier audio
+~			210 heading TOUTES LES RÉUNIONS, Value: 2
++				211 text TOUTES LES RÉUNIONS
+~			212 text 3 séances
+~			213 button CSE ORDINAIRE 26 août 2026 · 14 h 00 · 1 h 52 Réunion ordinaire du 26 août Audio détruit — PV archivé APPROUVÉ
++				214 text CSE ORDINAIRE
++				215 text 26 août 2026 · 14 h 00
++				216 text  · 
++				217 text 1 h 52
++				218 text Réunion ordinaire du 26 août
++				219 text Audio détruit — PV archivé
++				220 text APPROUVÉ
+~			221 button RÉUNION NAO 12 août 2026 · 09 h 30 · 2 h 07 Deuxième séance de négociation Audio conservé — destruction dans 12 j EN RELECTURE
++				222 text RÉUNION NAO
++				223 text 12 août 2026 · 09 h 30
++				224 text  · 
++				225 text 2 h 07
++				226 text Deuxième séance de négociation
++				227 text Audio conservé — destruction dans 12 j
++				228 text EN RELECTURE
+~			229 button CSSCT 29 juillet 2026 · 10 h 00 · 58 min Visite de site — atelier peinture Audio conservé — destruction dans 3 j À RÉDIGER
++				230 text CSSCT
++				231 text 29 juillet 2026 · 10 h 00
++				232 text  · 
++				233 text 58 min
++				234 text Visite de site — atelier peinture
++				235 text Audio conservé — destruction dans 3 j
++				236 text À RÉDIGER
+The focused UI element is 1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

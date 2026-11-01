@@ -1,0 +1,2357 @@
+{
+  "conditions_template": [
+    {
+      "ligne": 105,
+      "condition": " notAuthed "
+    },
+    {
+      "ligne": 107,
+      "condition": " isDesktop "
+    },
+    {
+      "ligne": 123,
+      "condition": " isMobile "
+    },
+    {
+      "ligne": 127,
+      "condition": " authStepId "
+    },
+    {
+      "ligne": 137,
+      "condition": " authHasErr "
+    },
+    {
+      "ligne": 153,
+      "condition": " authStepSso "
+    },
+    {
+      "ligne": 165,
+      "condition": " authStepMfa "
+    },
+    {
+      "ligne": 174,
+      "condition": " authHasErr "
+    },
+    {
+      "ligne": 183,
+      "condition": " authIsAdmin "
+    },
+    {
+      "ligne": 194,
+      "condition": " adminAuthed "
+    },
+    {
+      "ligne": 203,
+      "condition": " n.active "
+    },
+    {
+      "ligne": 209,
+      "condition": " n.idle "
+    },
+    {
+      "ligne": 232,
+      "condition": " adm.isSup "
+    },
+    {
+      "ligne": 256,
+      "condition": " adm.isOrgs "
+    },
+    {
+      "ligne": 284,
+      "condition": " adm.isUsers "
+    },
+    {
+      "ligne": 292,
+      "condition": " f.on "
+    },
+    {
+      "ligne": 293,
+      "condition": " f.off "
+    },
+    {
+      "ligne": 297,
+      "condition": " adm.usersEmpty "
+    },
+    {
+      "ligne": 330,
+      "condition": " adm.isKeys "
+    },
+    {
+      "ligne": 339,
+      "condition": " adm.keyNew "
+    },
+    {
+      "ligne": 347,
+      "condition": " p.on "
+    },
+    {
+      "ligne": 348,
+      "condition": " p.off "
+    },
+    {
+      "ligne": 385,
+      "condition": " adm.isEditor "
+    },
+    {
+      "ligne": 408,
+      "condition": " adm.edBannerShown "
+    },
+    {
+      "ligne": 435,
+      "condition": " adm.isBilling "
+    },
+    {
+      "ligne": 444,
+      "condition": " p.pop "
+    },
+    {
+      "ligne": 467,
+      "condition": " p.on "
+    },
+    {
+      "ligne": 468,
+      "condition": " p.off "
+    },
+    {
+      "ligne": 477,
+      "condition": " adm.isLogs "
+    },
+    {
+      "ligne": 502,
+      "condition": " authed "
+    },
+    {
+      "ligne": 505,
+      "condition": " isDesktop "
+    },
+    {
+      "ligne": 507,
+      "condition": " sbFull "
+    },
+    {
+      "ligne": 509,
+      "condition": " brandDefaultLogo "
+    },
+    {
+      "ligne": 509,
+      "condition": " brandHasCustomLogo "
+    },
+    {
+      "ligne": 513,
+      "condition": " sbMini "
+    },
+    {
+      "ligne": 522,
+      "condition": " item.active "
+    },
+    {
+      "ligne": 525,
+      "condition": " sbFull "
+    },
+    {
+      "ligne": 528,
+      "condition": " item.idle "
+    },
+    {
+      "ligne": 531,
+      "condition": " sbFull "
+    },
+    {
+      "ligne": 537,
+      "condition": " sbFull "
+    },
+    {
+      "ligne": 556,
+      "condition": " sbMini "
+    },
+    {
+      "ligne": 569,
+      "condition": " isMobile "
+    },
+    {
+      "ligne": 570,
+      "condition": " brandDefaultLogo "
+    },
+    {
+      "ligne": 570,
+      "condition": " brandHasCustomLogo "
+    },
+    {
+      "ligne": 572,
+      "condition": " showBack "
+    },
+    {
+      "ligne": 582,
+      "condition": " unii.hasSugg "
+    },
+    {
+      "ligne": 583,
+      "condition": " unii.locked "
+    },
+    {
+      "ligne": 587,
+      "condition": " hasUnread "
+    },
+    {
+      "ligne": 598,
+      "condition": " aiErrOpen "
+    },
+    {
+      "ligne": 609,
+      "condition": " aiHasRetry "
+    },
+    {
+      "ligne": 617,
+      "condition": " hasToast "
+    },
+    {
+      "ligne": 623,
+      "condition": " unii.showStrip "
+    },
+    {
+      "ligne": 633,
+      "condition": " isAccueil "
+    },
+    {
+      "ligne": 709,
+      "condition": " isViewer "
+    },
+    {
+      "ligne": 731,
+      "condition": " viewerIsDoc "
+    },
+    {
+      "ligne": 736,
+      "condition": " viewerIsEvent "
+    },
+    {
+      "ligne": 745,
+      "condition": " isDossiers "
+    },
+    {
+      "ligne": 768,
+      "condition": " c.isGhost "
+    },
+    {
+      "ligne": 771,
+      "condition": " c.isCard "
+    },
+    {
+      "ligne": 782,
+      "condition": " c.hasUniiTip "
+    },
+    {
+      "ligne": 785,
+      "condition": " c.grabbed "
+    },
+    {
+      "ligne": 789,
+      "condition": " c.canLeft "
+    },
+    {
+      "ligne": 796,
+      "condition": " c.canRight "
+    },
+    {
+      "ligne": 801,
+      "condition": " c.aiOpen "
+    },
+    {
+      "ligne": 811,
+      "condition": " m.isUser "
+    },
+    {
+      "ligne": 814,
+      "condition": " m.isBot "
+    },
+    {
+      "ligne": 821,
+      "condition": " c.aiTyping "
+    },
+    {
+      "ligne": 852,
+      "condition": " col.empty "
+    },
+    {
+      "ligne": 864,
+      "condition": " isNouveau "
+    },
+    {
+      "ligne": 877,
+      "condition": " t.selected "
+    },
+    {
+      "ligne": 880,
+      "condition": " t.idle "
+    },
+    {
+      "ligne": 896,
+      "condition": " isDossier "
+    },
+    {
+      "ligne": 900,
+      "condition": " dossier.reading "
+    },
+    {
+      "ligne": 908,
+      "condition": " dossier.editing "
+    },
+    {
+      "ligne": 1001,
+      "condition": " m.isUser "
+    },
+    {
+      "ligne": 1004,
+      "condition": " m.isBot "
+    },
+    {
+      "ligne": 1011,
+      "condition": " dchatTyping "
+    },
+    {
+      "ligne": 1047,
+      "condition": " e.selected "
+    },
+    {
+      "ligne": 1054,
+      "condition": " e.idle "
+    },
+    {
+      "ligne": 1074,
+      "condition": " isReporting "
+    },
+    {
+      "ligne": 1084,
+      "condition": " p.selected "
+    },
+    {
+      "ligne": 1087,
+      "condition": " p.idle "
+    },
+    {
+      "ligne": 1096,
+      "condition": " t.selected "
+    },
+    {
+      "ligne": 1099,
+      "condition": " t.idle "
+    },
+    {
+      "ligne": 1105,
+      "condition": " repIsCse "
+    },
+    {
+      "ligne": 1177,
+      "condition": " repIsUsage "
+    },
+    {
+      "ligne": 1320,
+      "condition": " isPieces "
+    },
+    {
+      "ligne": 1338,
+      "condition": " uploading "
+    },
+    {
+      "ligne": 1363,
+      "condition": " noPieces "
+    },
+    {
+      "ligne": 1369,
+      "condition": " hasPiece "
+    },
+    {
+      "ligne": 1409,
+      "condition": " isSignature "
+    },
+    {
+      "ligne": 1419,
+      "condition": " doc.selected "
+    },
+    {
+      "ligne": 1422,
+      "condition": " doc.idle "
+    },
+    {
+      "ligne": 1430,
+      "condition": " sigHasOrigin "
+    },
+    {
+      "ligne": 1444,
+      "condition": " sigSigned "
+    },
+    {
+      "ligne": 1446,
+      "condition": " sigIsScript "
+    },
+    {
+      "ligne": 1449,
+      "condition": " sigIsSerif "
+    },
+    {
+      "ligne": 1452,
+      "condition": " sigIsPrint "
+    },
+    {
+      "ligne": 1458,
+      "condition": " sigUnsigned "
+    },
+    {
+      "ligne": 1486,
+      "condition": " sigUnsigned "
+    },
+    {
+      "ligne": 1496,
+      "condition": " st.selected "
+    },
+    {
+      "ligne": 1499,
+      "condition": " st.idle "
+    },
+    {
+      "ligne": 1508,
+      "condition": " sigCanSign "
+    },
+    {
+      "ligne": 1511,
+      "condition": " sigBlocked "
+    },
+    {
+      "ligne": 1517,
+      "condition": " sigSigned "
+    },
+    {
+      "ligne": 1544,
+      "condition": " isAssistant "
+    },
+    {
+      "ligne": 1546,
+      "condition": " asst.notFull "
+    },
+    {
+      "ligne": 1557,
+      "condition": " asst.hasBack "
+    },
+    {
+      "ligne": 1567,
+      "condition": " asst.notFull "
+    },
+    {
+      "ligne": 1570,
+      "condition": " asst.full "
+    },
+    {
+      "ligne": 1607,
+      "condition": " asst.empty "
+    },
+    {
+      "ligne": 1629,
+      "condition": " l.selected "
+    },
+    {
+      "ligne": 1632,
+      "condition": " l.idle "
+    },
+    {
+      "ligne": 1640,
+      "condition": " m.isUser "
+    },
+    {
+      "ligne": 1643,
+      "condition": " m.payload "
+    },
+    {
+      "ligne": 1654,
+      "condition": " m.isBot "
+    },
+    {
+      "ligne": 1658,
+      "condition": " m.reidLine "
+    },
+    {
+      "ligne": 1663,
+      "condition": " m.logLine "
+    },
+    {
+      "ligne": 1666,
+      "condition": " m.hasSuggest "
+    },
+    {
+      "ligne": 1676,
+      "condition": " m.canMemo "
+    },
+    {
+      "ligne": 1681,
+      "condition": " m.memoDone "
+    },
+    {
+      "ligne": 1687,
+      "condition": " typing "
+    },
+    {
+      "ligne": 1711,
+      "condition": " showAiDisclaimer "
+    },
+    {
+      "ligne": 1725,
+      "condition": " isNewPoll "
+    },
+    {
+      "ligne": 1741,
+      "condition": " npStep1 "
+    },
+    {
+      "ligne": 1752,
+      "condition": " t.selected "
+    },
+    {
+      "ligne": 1755,
+      "condition": " t.idle "
+    },
+    {
+      "ligne": 1787,
+      "condition": " npStep2 "
+    },
+    {
+      "ligne": 1793,
+      "condition": " t.selected "
+    },
+    {
+      "ligne": 1802,
+      "condition": " t.idle "
+    },
+    {
+      "ligne": 1819,
+      "condition": " c.selected "
+    },
+    {
+      "ligne": 1822,
+      "condition": " c.idle "
+    },
+    {
+      "ligne": 1852,
+      "condition": " npStep3 "
+    },
+    {
+      "ligne": 1903,
+      "condition": " npCanReview "
+    },
+    {
+      "ligne": 1906,
+      "condition": " npAwaiting "
+    },
+    {
+      "ligne": 1909,
+      "condition": " npApproved "
+    },
+    {
+      "ligne": 1918,
+      "condition": " npHasPrev "
+    },
+    {
+      "ligne": 1921,
+      "condition": " npHasNext "
+    },
+    {
+      "ligne": 1930,
+      "condition": " isSondages "
+    },
+    {
+      "ligne": 1960,
+      "condition": " isSondage "
+    },
+    {
+      "ligne": 1997,
+      "condition": " isReunions "
+    },
+    {
+      "ligne": 2018,
+      "condition": " noImport "
+    },
+    {
+      "ligne": 2023,
+      "condition": " hasImport "
+    },
+    {
+      "ligne": 2038,
+      "condition": " importDone "
+    },
+    {
+      "ligne": 2072,
+      "condition": " isRecord "
+    },
+    {
+      "ligne": 2080,
+      "condition": " recConsent "
+    },
+    {
+      "ligne": 2124,
+      "condition": " recAsking "
+    },
+    {
+      "ligne": 2139,
+      "condition": " recActive "
+    },
+    {
+      "ligne": 2141,
+      "condition": " recErr "
+    },
+    {
+      "ligne": 2166,
+      "condition": " recRunning "
+    },
+    {
+      "ligne": 2169,
+      "condition": " recPaused "
+    },
+    {
+      "ligne": 2172,
+      "condition": " recStoppable "
+    },
+    {
+      "ligne": 2175,
+      "condition": " recDone "
+    },
+    {
+      "ligne": 2182,
+      "condition": " recMarkable "
+    },
+    {
+      "ligne": 2199,
+      "condition": " recHasMarks "
+    },
+    {
+      "ligne": 2209,
+      "condition": " recNoMarks "
+    },
+    {
+      "ligne": 2219,
+      "condition": " isReunion "
+    },
+    {
+      "ligne": 2247,
+      "condition": " reu.hasOrdre "
+    },
+    {
+      "ligne": 2264,
+      "condition": " reu.hasAudio "
+    },
+    {
+      "ligne": 2274,
+      "condition": " reu.hasAudio "
+    },
+    {
+      "ligne": 2288,
+      "condition": " reu.isDestroyed "
+    },
+    {
+      "ligne": 2311,
+      "condition": " reu.hasMarkers "
+    },
+    {
+      "ligne": 2324,
+      "condition": " reu.noMarkers "
+    },
+    {
+      "ligne": 2343,
+      "condition": " reu.hasAccess "
+    },
+    {
+      "ligne": 2362,
+      "condition": " isDocs "
+    },
+    {
+      "ligne": 2370,
+      "condition": " charteHasLogo "
+    },
+    {
+      "ligne": 2373,
+      "condition": " charteNoLogo "
+    },
+    {
+      "ligne": 2385,
+      "condition": " canUseBrandLogo "
+    },
+    {
+      "ligne": 2388,
+      "condition": " charteHasLogo "
+    },
+    {
+      "ligne": 2450,
+      "condition": " isDocEdit "
+    },
+    {
+      "ligne": 2478,
+      "condition": " docTabContent "
+    },
+    {
+      "ligne": 2480,
+      "condition": " dsx.hasMissing "
+    },
+    {
+      "ligne": 2495,
+      "condition": " docModeBlocks "
+    },
+    {
+      "ligne": 2516,
+      "condition": " b.editable "
+    },
+    {
+      "ligne": 2519,
+      "condition": " b.canImg "
+    },
+    {
+      "ligne": 2521,
+      "condition": " b.hasImg "
+    },
+    {
+      "ligne": 2523,
+      "condition": " b.hasImg "
+    },
+    {
+      "ligne": 2526,
+      "condition": " b.isBreak "
+    },
+    {
+      "ligne": 2533,
+      "condition": " b.hint "
+    },
+    {
+      "ligne": 2542,
+      "condition": " docModeSource "
+    },
+    {
+      "ligne": 2552,
+      "condition": " docTabStyle "
+    },
+    {
+      "ligne": 2554,
+      "condition": " dsx.hasSuggs "
+    },
+    {
+      "ligne": 2562,
+      "condition": " dsx.hasAsk "
+    },
+    {
+      "ligne": 2567,
+      "condition": " dsx.locked "
+    },
+    {
+      "ligne": 2587,
+      "condition": " dsx.hasCur "
+    },
+    {
+      "ligne": 2590,
+      "condition": " dsx.hasNotice "
+    },
+    {
+      "ligne": 2593,
+      "condition": " dsx.hasSlots "
+    },
+    {
+      "ligne": 2601,
+      "condition": " sl.hasImg "
+    },
+    {
+      "ligne": 2607,
+      "condition": " dsx.hasPals "
+    },
+    {
+      "ligne": 2610,
+      "condition": " dsx.hasFonts "
+    },
+    {
+      "ligne": 2613,
+      "condition": " dsx.hasFmt "
+    },
+    {
+      "ligne": 2623,
+      "condition": " docTabCharte "
+    },
+    {
+      "ligne": 2678,
+      "condition": " charteHasLogo "
+    },
+    {
+      "ligne": 2681,
+      "condition": " charteNoLogo "
+    },
+    {
+      "ligne": 2689,
+      "condition": " charteHasLogo "
+    },
+    {
+      "ligne": 2712,
+      "condition": " charteIdentOverride "
+    },
+    {
+      "ligne": 2740,
+      "condition": " docOverflow "
+    },
+    {
+      "ligne": 2751,
+      "condition": " pg.isExt "
+    },
+    {
+      "ligne": 2752,
+      "condition": " pg.showHeader "
+    },
+    {
+      "ligne": 2758,
+      "condition": " pg.hasLogo "
+    },
+    {
+      "ligne": 2766,
+      "condition": " b.isExt "
+    },
+    {
+      "ligne": 2767,
+      "condition": " b.isTag "
+    },
+    {
+      "ligne": 2770,
+      "condition": " b.isH1 "
+    },
+    {
+      "ligne": 2773,
+      "condition": " b.isH2 "
+    },
+    {
+      "ligne": 2776,
+      "condition": " b.isH3 "
+    },
+    {
+      "ligne": 2779,
+      "condition": " b.isP "
+    },
+    {
+      "ligne": 2782,
+      "condition": " b.isUl "
+    },
+    {
+      "ligne": 2789,
+      "condition": " b.isQuote "
+    },
+    {
+      "ligne": 2792,
+      "condition": " b.isTable "
+    },
+    {
+      "ligne": 2802,
+      "condition": " pg.showFooter "
+    },
+    {
+      "ligne": 2818,
+      "condition": " isTract "
+    },
+    {
+      "ligne": 2827,
+      "condition": " dt.selected "
+    },
+    {
+      "ligne": 2830,
+      "condition": " dt.idle "
+    },
+    {
+      "ligne": 2843,
+      "condition": " t.selected "
+    },
+    {
+      "ligne": 2846,
+      "condition": " t.idle "
+    },
+    {
+      "ligne": 2866,
+      "condition": " tractReady "
+    },
+    {
+      "ligne": 2869,
+      "condition": " brandDefaultLogo "
+    },
+    {
+      "ligne": 2869,
+      "condition": " brandHasCustomLogo "
+    },
+    {
+      "ligne": 2902,
+      "condition": " signable "
+    },
+    {
+      "ligne": 2910,
+      "condition": " tractEmpty "
+    },
+    {
+      "ligne": 2923,
+      "condition": " isRaccourcis "
+    },
+    {
+      "ligne": 2934,
+      "condition": " sc.editing "
+    },
+    {
+      "ligne": 2959,
+      "condition": " sc.empty "
+    },
+    {
+      "ligne": 2974,
+      "condition": " s.armed "
+    },
+    {
+      "ligne": 2991,
+      "condition": " isAgenda "
+    },
+    {
+      "ligne": 3024,
+      "condition": " ag.filterOn "
+    },
+    {
+      "ligne": 3031,
+      "condition": " ag.isMonth "
+    },
+    {
+      "ligne": 3047,
+      "condition": " dy.hasMore "
+    },
+    {
+      "ligne": 3058,
+      "condition": " ag.isList "
+    },
+    {
+      "ligne": 3076,
+      "condition": " ag.newOpen "
+    },
+    {
+      "ligne": 3137,
+      "condition": " ag.newClosed "
+    },
+    {
+      "ligne": 3154,
+      "condition": " ag.selEmpty "
+    },
+    {
+      "ligne": 3160,
+      "condition": " ag.hasEvt "
+    },
+    {
+      "ligne": 3182,
+      "condition": " ag.evt.hasInvites "
+    },
+    {
+      "ligne": 3220,
+      "condition": " adh.isList "
+    },
+    {
+      "ligne": 3241,
+      "condition": " adh.tabList "
+    },
+    {
+      "ligne": 3261,
+      "condition": " adh.hasCrit "
+    },
+    {
+      "ligne": 3278,
+      "condition": " adh.hasSel "
+    },
+    {
+      "ligne": 3282,
+      "condition": " adh.hasSel "
+    },
+    {
+      "ligne": 3293,
+      "condition": " a.selected "
+    },
+    {
+      "ligne": 3302,
+      "condition": " a.hasMandat "
+    },
+    {
+      "ligne": 3310,
+      "condition": " a.showPill "
+    },
+    {
+      "ligne": 3316,
+      "condition": " adh.empty "
+    },
+    {
+      "ligne": 3319,
+      "condition": " adh.hasPager "
+    },
+    {
+      "ligne": 3332,
+      "condition": " adh.showCotis "
+    },
+    {
+      "ligne": 3340,
+      "condition": " adh.tabGroupes "
+    },
+    {
+      "ligne": 3359,
+      "condition": " g.editing "
+    },
+    {
+      "ligne": 3378,
+      "condition": " g.reading "
+    },
+    {
+      "ligne": 3389,
+      "condition": " adh.tabCotis "
+    },
+    {
+      "ligne": 3445,
+      "condition": " adh.noRetard "
+    },
+    {
+      "ligne": 3466,
+      "condition": " adh.imp.isImport "
+    },
+    {
+      "ligne": 3482,
+      "condition": " adh.imp.hasText "
+    },
+    {
+      "ligne": 3492,
+      "condition": " adh.imp.hasMissing "
+    },
+    {
+      "ligne": 3496,
+      "condition": " adh.imp.hasText "
+    },
+    {
+      "ligne": 3509,
+      "condition": " rw.valid "
+    },
+    {
+      "ligne": 3512,
+      "condition": " rw.invalid "
+    },
+    {
+      "ligne": 3517,
+      "condition": " rw.hasNotes "
+    },
+    {
+      "ligne": 3531,
+      "condition": " adh.imp.canImport "
+    },
+    {
+      "ligne": 3534,
+      "condition": " adh.imp.hasText "
+    },
+    {
+      "ligne": 3574,
+      "condition": " adh.isFiche "
+    },
+    {
+      "ligne": 3586,
+      "condition": " adh.fiche.hasMandat "
+    },
+    {
+      "ligne": 3589,
+      "condition": " adh.fiche.showPill "
+    },
+    {
+      "ligne": 3596,
+      "condition": " adh.fiche.canPaid "
+    },
+    {
+      "ligne": 3600,
+      "condition": " adh.fiche.reading "
+    },
+    {
+      "ligne": 3607,
+      "condition": " adh.fiche.editing "
+    },
+    {
+      "ligne": 3650,
+      "condition": " adh.fiche.showCotis "
+    },
+    {
+      "ligne": 3661,
+      "condition": " adh.fiche.hasDu "
+    },
+    {
+      "ligne": 3669,
+      "condition": " h.ok "
+    },
+    {
+      "ligne": 3710,
+      "condition": " adh.isMsg "
+    },
+    {
+      "ligne": 3722,
+      "condition": " adh.msg.isGroupe "
+    },
+    {
+      "ligne": 3745,
+      "condition": " adh.msg.hasMore "
+    },
+    {
+      "ligne": 3810,
+      "condition": " isIntranet "
+    },
+    {
+      "ligne": 3829,
+      "condition": " siteIsPublic "
+    },
+    {
+      "ligne": 3834,
+      "condition": " siteIsIntra "
+    },
+    {
+      "ligne": 3882,
+      "condition": " b.isBar "
+    },
+    {
+      "ligne": 3885,
+      "condition": " b.isImg "
+    },
+    {
+      "ligne": 3888,
+      "condition": " b.isMap "
+    },
+    {
+      "ligne": 3895,
+      "condition": " b.isRow "
+    },
+    {
+      "ligne": 3902,
+      "condition": " b.isFaces "
+    },
+    {
+      "ligne": 3910,
+      "condition": " b.isForm "
+    },
+    {
+      "ligne": 3916,
+      "condition": " b.isBullets "
+    },
+    {
+      "ligne": 3983,
+      "condition": " isWebGen "
+    },
+    {
+      "ligne": 4014,
+      "condition": " wgx.has "
+    },
+    {
+      "ligne": 4059,
+      "condition": " wgRunning "
+    },
+    {
+      "ligne": 4068,
+      "condition": " wgWaiting "
+    },
+    {
+      "ligne": 4081,
+      "condition": " isWebEdit "
+    },
+    {
+      "ligne": 4099,
+      "condition": " pgx.has "
+    },
+    {
+      "ligne": 4105,
+      "condition": " pgx.hasPals "
+    },
+    {
+      "ligne": 4122,
+      "condition": " b.canDel "
+    },
+    {
+      "ligne": 4127,
+      "condition": " pgx.hasSecs "
+    },
+    {
+      "ligne": 4139,
+      "condition": " pgHasBack "
+    },
+    {
+      "ligne": 4146,
+      "condition": " pgNotReviewed "
+    },
+    {
+      "ligne": 4163,
+      "condition": " isTabPreview "
+    },
+    {
+      "ligne": 4165,
+      "condition": " pgx.hasDevs "
+    },
+    {
+      "ligne": 4177,
+      "condition": " pgx.isFrame "
+    },
+    {
+      "ligne": 4178,
+      "condition": " pgx.noFrame "
+    },
+    {
+      "ligne": 4183,
+      "condition": " isTabCode "
+    },
+    {
+      "ligne": 4190,
+      "condition": " srcDirty "
+    },
+    {
+      "ligne": 4202,
+      "condition": " isWebPub "
+    },
+    {
+      "ligne": 4267,
+      "condition": " pubBlocked "
+    },
+    {
+      "ligne": 4278,
+      "condition": " isWebQueue "
+    },
+    {
+      "ligne": 4297,
+      "condition": " st.on "
+    },
+    {
+      "ligne": 4307,
+      "condition": " q.hasBack "
+    },
+    {
+      "ligne": 4313,
+      "condition": " q.isPub "
+    },
+    {
+      "ligne": 4328,
+      "condition": " isWebCharte "
+    },
+    {
+      "ligne": 4362,
+      "condition": " wcPreviewHasLogo "
+    },
+    {
+      "ligne": 4365,
+      "condition": " wcPreviewMono "
+    },
+    {
+      "ligne": 4398,
+      "condition": " wcCustom "
+    },
+    {
+      "ligne": 4450,
+      "condition": " wcLogoHasImg "
+    },
+    {
+      "ligne": 4458,
+      "condition": " wcLogoOwn "
+    },
+    {
+      "ligne": 4494,
+      "condition": " isNotifs "
+    },
+    {
+      "ligne": 4516,
+      "condition": " isSearch "
+    },
+    {
+      "ligne": 4531,
+      "condition": " noResults "
+    },
+    {
+      "ligne": 4539,
+      "condition": " isUniiCfg "
+    },
+    {
+      "ligne": 4546,
+      "condition": " unii.cfg.custom "
+    },
+    {
+      "ligne": 4553,
+      "condition": " unii.cfg.planOk "
+    },
+    {
+      "ligne": 4554,
+      "condition": " unii.locked "
+    },
+    {
+      "ligne": 4576,
+      "condition": " md.lot "
+    },
+    {
+      "ligne": 4585,
+      "condition": " a.hasApply "
+    },
+    {
+      "ligne": 4600,
+      "condition": " isExtensions "
+    },
+    {
+      "ligne": 4613,
+      "condition": " ext.empty "
+    },
+    {
+      "ligne": 4639,
+      "condition": " x.hasErrs "
+    },
+    {
+      "ligne": 4648,
+      "condition": " ext.hasOrphan "
+    },
+    {
+      "ligne": 4662,
+      "condition": " ext.hasSources "
+    },
+    {
+      "ligne": 4677,
+      "condition": " ext.hasTest "
+    },
+    {
+      "ligne": 4687,
+      "condition": " isParams "
+    },
+    {
+      "ligne": 4708,
+      "condition": " navOrderCustom "
+    },
+    {
+      "ligne": 4739,
+      "condition": " isProfil "
+    },
+    {
+      "ligne": 4769,
+      "condition": " org.reading "
+    },
+    {
+      "ligne": 4772,
+      "condition": " org.editing "
+    },
+    {
+      "ligne": 4788,
+      "condition": " org.reading "
+    },
+    {
+      "ligne": 4800,
+      "condition": " org.editing "
+    },
+    {
+      "ligne": 4806,
+      "condition": " f.hasHint "
+    },
+    {
+      "ligne": 4854,
+      "condition": " c.on "
+    },
+    {
+      "ligne": 4855,
+      "condition": " c.off "
+    },
+    {
+      "ligne": 4862,
+      "condition": " p.pop "
+    },
+    {
+      "ligne": 4863,
+      "condition": " p.current "
+    },
+    {
+      "ligne": 4873,
+      "condition": " p.other "
+    },
+    {
+      "ligne": 4876,
+      "condition": " p.current "
+    },
+    {
+      "ligne": 4930,
+      "condition": " isCommunication "
+    },
+    {
+      "ligne": 4939,
+      "condition": " tb.hasN "
+    },
+    {
+      "ligne": 4944,
+      "condition": " com.isPlan "
+    },
+    {
+      "ligne": 4950,
+      "condition": " com.hasToValidate "
+    },
+    {
+      "ligne": 4974,
+      "condition": " p.hasContent "
+    },
+    {
+      "ligne": 4982,
+      "condition": " com.noRows "
+    },
+    {
+      "ligne": 5000,
+      "condition": " com.planCustom "
+    },
+    {
+      "ligne": 5006,
+      "condition": " com.isAtelier "
+    },
+    {
+      "ligne": 5055,
+      "condition": " com.hasOut "
+    },
+    {
+      "ligne": 5057,
+      "condition": " com.noOut "
+    },
+    {
+      "ligne": 5060,
+      "condition": " com.outBusy "
+    },
+    {
+      "ligne": 5063,
+      "condition": " com.hasOut "
+    },
+    {
+      "ligne": 5064,
+      "condition": " com.out.local "
+    },
+    {
+      "ligne": 5069,
+      "condition": " com.out.hasVisuel "
+    },
+    {
+      "ligne": 5081,
+      "condition": " com.isPole "
+    },
+    {
+      "ligne": 5148,
+      "condition": " com.noReq "
+    },
+    {
+      "ligne": 5153,
+      "condition": " com.hasReq "
+    },
+    {
+      "ligne": 5157,
+      "condition": " com.hasReqNote "
+    },
+    {
+      "ligne": 5168,
+      "condition": " isMobApp "
+    },
+    {
+      "ligne": 5191,
+      "condition": " mob.isList "
+    },
+    {
+      "ligne": 5205,
+      "condition": " p.hasSugg "
+    },
+    {
+      "ligne": 5237,
+      "condition": " mob.isEdit "
+    },
+    {
+      "ligne": 5312,
+      "condition": " mob.e.pushOn "
+    },
+    {
+      "ligne": 5356,
+      "condition": " b.isH "
+    },
+    {
+      "ligne": 5357,
+      "condition": " b.isP "
+    },
+    {
+      "ligne": 5358,
+      "condition": " b.isInfo "
+    },
+    {
+      "ligne": 5359,
+      "condition": " b.isContact "
+    },
+    {
+      "ligne": 5360,
+      "condition": " b.isBtn "
+    },
+    {
+      "ligne": 5369,
+      "condition": " mob.e.pushOn "
+    },
+    {
+      "ligne": 5382,
+      "condition": " isFormations "
+    },
+    {
+      "ligne": 5393,
+      "condition": " tb.hasN "
+    },
+    {
+      "ligne": 5397,
+      "condition": " fm.showSearch "
+    },
+    {
+      "ligne": 5402,
+      "condition": " fm.isIa "
+    },
+    {
+      "ligne": 5438,
+      "condition": " fm.iaNone "
+    },
+    {
+      "ligne": 5468,
+      "condition": " fm.isGen "
+    },
+    {
+      "ligne": 5483,
+      "condition": " it.oblig "
+    },
+    {
+      "ligne": 5501,
+      "condition": " fm.genNone "
+    },
+    {
+      "ligne": 5506,
+      "condition": " fm.isUnii "
+    },
+    {
+      "ligne": 5507,
+      "condition": " fm.busy "
+    },
+    {
+      "ligne": 5516,
+      "condition": " fm.showSetup "
+    },
+    {
+      "ligne": 5563,
+      "condition": " fm.noSessions "
+    },
+    {
+      "ligne": 5569,
+      "condition": " fm.inSession "
+    },
+    {
+      "ligne": 5584,
+      "condition": " fm.s.local "
+    },
+    {
+      "ligne": 5588,
+      "condition": " fm.s.notDone "
+    },
+    {
+      "ligne": 5589,
+      "condition": " fm.s.showIntro "
+    },
+    {
+      "ligne": 5602,
+      "condition": " fm.s.m.hasEx "
+    },
+    {
+      "ligne": 5617,
+      "condition": " fm.s.m.hasFb "
+    },
+    {
+      "ligne": 5628,
+      "condition": " fm.s.m.answered "
+    },
+    {
+      "ligne": 5634,
+      "condition": " fm.s.hasPrev "
+    },
+    {
+      "ligne": 5639,
+      "condition": " fm.s.finished "
+    },
+    {
+      "ligne": 5650,
+      "condition": " fm.s.hasSources "
+    },
+    {
+      "ligne": 5663,
+      "condition": " cm.isU "
+    },
+    {
+      "ligne": 5664,
+      "condition": " cm.isB "
+    },
+    {
+      "ligne": 5666,
+      "condition": " fm.s.chatBusy "
+    },
+    {
+      "ligne": 5680,
+      "condition": " isContacts "
+    },
+    {
+      "ligne": 5723,
+      "condition": " p.hasGroups "
+    },
+    {
+      "ligne": 5726,
+      "condition": " p.notMe "
+    },
+    {
+      "ligne": 5731,
+      "condition": " ctp.noRows "
+    },
+    {
+      "ligne": 5737,
+      "condition": " isMemoire "
+    },
+    {
+      "ligne": 5776,
+      "condition": " it.notEditing "
+    },
+    {
+      "ligne": 5779,
+      "condition": " it.editing "
+    },
+    {
+      "ligne": 5785,
+      "condition": " it.notEditing "
+    },
+    {
+      "ligne": 5789,
+      "condition": " it.editing "
+    },
+    {
+      "ligne": 5799,
+      "condition": " mem.empty "
+    },
+    {
+      "ligne": 5802,
+      "condition": " mem.hasAny "
+    },
+    {
+      "ligne": 5811,
+      "condition": " isPrefs "
+    },
+    {
+      "ligne": 5832,
+      "condition": " isIaSecu "
+    },
+    {
+      "ligne": 5873,
+      "condition": " isSecurite "
+    },
+    {
+      "ligne": 5909,
+      "condition": " noDevices "
+    },
+    {
+      "ligne": 5932,
+      "condition": " isRgpd "
+    },
+    {
+      "ligne": 6006,
+      "condition": " isMembres "
+    },
+    {
+      "ligne": 6044,
+      "condition": " isMarque "
+    },
+    {
+      "ligne": 6053,
+      "condition": " brandPreviewOn "
+    },
+    {
+      "ligne": 6056,
+      "condition": " brandPreviewOff "
+    },
+    {
+      "ligne": 6067,
+      "condition": " s.selected "
+    },
+    {
+      "ligne": 6070,
+      "condition": " s.idle "
+    },
+    {
+      "ligne": 6150,
+      "condition": " l.hasImg "
+    },
+    {
+      "ligne": 6153,
+      "condition": " l.isMono "
+    },
+    {
+      "ligne": 6166,
+      "condition": " l.hasImg "
+    },
+    {
+      "ligne": 6173,
+      "condition": " brandDarkNoLogo "
+    },
+    {
+      "ligne": 6258,
+      "condition": " isApikey "
+    },
+    {
+      "ligne": 6269,
+      "condition": " llm.hasKey "
+    },
+    {
+      "ligne": 6280,
+      "condition": " llm.testMsg "
+    },
+    {
+      "ligne": 6317,
+      "condition": " p.selected "
+    },
+    {
+      "ligne": 6326,
+      "condition": " p.idle "
+    },
+    {
+      "ligne": 6399,
+      "condition": " wa.shell "
+    },
+    {
+      "ligne": 6401,
+      "condition": " wa.showList "
+    },
+    {
+      "ligne": 6417,
+      "condition": " wa.hasQ "
+    },
+    {
+      "ligne": 6421,
+      "condition": " wa.isChats "
+    },
+    {
+      "ligne": 6424,
+      "condition": " f.hasN "
+    },
+    {
+      "ligne": 6437,
+      "condition": " c.isBc "
+    },
+    {
+      "ligne": 6438,
+      "condition": " c.mineTick "
+    },
+    {
+      "ligne": 6440,
+      "condition": " c.muted "
+    },
+    {
+      "ligne": 6441,
+      "condition": " c.pinned "
+    },
+    {
+      "ligne": 6442,
+      "condition": " c.hasUnread "
+    },
+    {
+      "ligne": 6447,
+      "condition": " wa.noRows "
+    },
+    {
+      "ligne": 6452,
+      "condition": " wa.isContacts "
+    },
+    {
+      "ligne": 6467,
+      "condition": " wa.hasGroups "
+    },
+    {
+      "ligne": 6505,
+      "condition": " wa.showChat "
+    },
+    {
+      "ligne": 6508,
+      "condition": " wa.showBack "
+    },
+    {
+      "ligne": 6518,
+      "condition": " wa.isBc "
+    },
+    {
+      "ligne": 6528,
+      "condition": " m.isSys "
+    },
+    {
+      "ligne": 6531,
+      "condition": " m.mine "
+    },
+    {
+      "ligne": 6535,
+      "condition": " m.fwd "
+    },
+    {
+      "ligne": 6536,
+      "condition": " m.hasReply "
+    },
+    {
+      "ligne": 6537,
+      "condition": " m.hasChan "
+    },
+    {
+      "ligne": 6540,
+      "condition": " m.hasSubj "
+    },
+    {
+      "ligne": 6544,
+      "condition": " m.hasAtt "
+    },
+    {
+      "ligne": 6547,
+      "condition": " m.checked "
+    },
+    {
+      "ligne": 6549,
+      "condition": " m.menuOpen "
+    },
+    {
+      "ligne": 6558,
+      "condition": " m.theirs "
+    },
+    {
+      "ligne": 6562,
+      "condition": " m.showWho "
+    },
+    {
+      "ligne": 6565,
+      "condition": " m.fwd "
+    },
+    {
+      "ligne": 6566,
+      "condition": " m.hasReply "
+    },
+    {
+      "ligne": 6568,
+      "condition": " m.checked "
+    },
+    {
+      "ligne": 6570,
+      "condition": " m.menuOpen "
+    },
+    {
+      "ligne": 6579,
+      "condition": " m.isAi "
+    },
+    {
+      "ligne": 6588,
+      "condition": " m.reid "
+    },
+    {
+      "ligne": 6592,
+      "condition": " m.ok "
+    },
+    {
+      "ligne": 6601,
+      "condition": " th.busy "
+    },
+    {
+      "ligne": 6610,
+      "condition": " th.panel "
+    },
+    {
+      "ligne": 6617,
+      "condition": " th.hasQuote "
+    },
+    {
+      "ligne": 6620,
+      "condition": " th.selMode "
+    },
+    {
+      "ligne": 6633,
+      "condition": " wa.hasReply "
+    },
+    {
+      "ligne": 6650,
+      "condition": " wa.showEmpty "
+    },
+    {
+      "ligne": 6664,
+      "condition": " wa.infoOpen "
+    },
+    {
+      "ligne": 6676,
+      "condition": " wa.info.canEdit "
+    },
+    {
+      "ligne": 6677,
+      "condition": " wa.info.canEditCt "
+    },
+    {
+      "ligne": 6678,
+      "condition": " wa.info.isAdh "
+    },
+    {
+      "ligne": 6679,
+      "condition": " wa.info.isBc "
+    },
+    {
+      "ligne": 6682,
+      "condition": " wa.info.hasDesc "
+    },
+    {
+      "ligne": 6688,
+      "condition": " wa.info.isDirect "
+    },
+    {
+      "ligne": 6693,
+      "condition": " wa.info.hasCtGroups "
+    },
+    {
+      "ligne": 6696,
+      "condition": " wa.info.isBc "
+    },
+    {
+      "ligne": 6704,
+      "condition": " wa.info.isGroup "
+    },
+    {
+      "ligne": 6707,
+      "condition": " wa.info.canEdit "
+    },
+    {
+      "ligne": 6717,
+      "condition": " u.isAdmin "
+    },
+    {
+      "ligne": 6719,
+      "condition": " u.canAct "
+    },
+    {
+      "ligne": 6745,
+      "condition": " isOffline "
+    },
+    {
+      "ligne": 6781,
+      "condition": " isOnboarding "
+    },
+    {
+      "ligne": 6804,
+      "condition": " isAdmin "
+    },
+    {
+      "ligne": 6812,
+      "condition": " si.selected "
+    },
+    {
+      "ligne": 6815,
+      "condition": " si.idle "
+    },
+    {
+      "ligne": 6867,
+      "condition": " isMobile "
+    },
+    {
+      "ligne": 6873,
+      "condition": " anonOpen "
+    },
+    {
+      "ligne": 6887,
+      "condition": " l.selected "
+    },
+    {
+      "ligne": 6890,
+      "condition": " l.idle "
+    },
+    {
+      "ligne": 6918,
+      "condition": " anonNoTag "
+    },
+    {
+      "ligne": 6923,
+      "condition": " anonHasPieces "
+    },
+    {
+      "ligne": 6934,
+      "condition": " anonResidual "
+    },
+    {
+      "ligne": 6945,
+      "condition": " anonClearAllowed "
+    },
+    {
+      "ligne": 6948,
+      "condition": " anonIsRps "
+    },
+    {
+      "ligne": 6957,
+      "condition": " previewOpen "
+    },
+    {
+      "ligne": 6968,
+      "condition": " piecePreviewText "
+    },
+    {
+      "ligne": 6968,
+      "condition": " piecePreviewBinary "
+    },
+    {
+      "ligne": 6978,
+      "condition": " unii.isOpen "
+    },
+    {
+      "ligne": 6987,
+      "condition": " unii.hasMsgs "
+    },
+    {
+      "ligne": 6991,
+      "condition": " unii.locked "
+    },
+    {
+      "ligne": 7002,
+      "condition": " unii.unlocked "
+    },
+    {
+      "ligne": 7004,
+      "condition": " unii.itemFixed "
+    },
+    {
+      "ligne": 7007,
+      "condition": " unii.hasItems "
+    },
+    {
+      "ligne": 7015,
+      "condition": " unii.hasPanelSuggs "
+    },
+    {
+      "ligne": 7032,
+      "condition": " unii.noActs "
+    },
+    {
+      "ligne": 7033,
+      "condition": " unii.hasHidden "
+    },
+    {
+      "ligne": 7037,
+      "condition": " mm.u "
+    },
+    {
+      "ligne": 7040,
+      "condition": " mm.b "
+    },
+    {
+      "ligne": 7042,
+      "condition": " mm.local "
+    },
+    {
+      "ligne": 7045,
+      "condition": " mm.canApply "
+    },
+    {
+      "ligne": 7052,
+      "condition": " unii.busy "
+    },
+    {
+      "ligne": 7065,
+      "condition": " isMobile "
+    },
+    {
+      "ligne": 7068,
+      "condition": " item.active "
+    },
+    {
+      "ligne": 7074,
+      "condition": " item.idle "
+    },
+    {
+      "ligne": 7086,
+      "condition": " dragging "
+    },
+    {
+      "ligne": 7098,
+      "condition": " fwm.open "
+    },
+    {
+      "ligne": 7121,
+      "condition": " dpm.open "
+    },
+    {
+      "ligne": 7139,
+      "condition": " dpm.noRows "
+    },
+    {
+      "ligne": 7146,
+      "condition": " ctm.open "
+    },
+    {
+      "ligne": 7152,
+      "condition": " ctm.showCats "
+    },
+    {
+      "ligne": 7165,
+      "condition": " ctm.canDel "
+    },
+    {
+      "ligne": 7166,
+      "condition": " ctm.canDel "
+    },
+    {
+      "ligne": 7174,
+      "condition": " grm.open "
+    },
+    {
+      "ligne": 7182,
+      "condition": " grm.hasChips "
+    },
+    {
+      "ligne": 7209,
+      "condition": " sheetOpen "
+    },
+    {
+      "ligne": 7212,
+      "condition": " sheetForm "
+    },
+    {
+      "ligne": 7220,
+      "condition": " o.selected "
+    },
+    {
+      "ligne": 7229,
+      "condition": " o.idle "
+    },
+    {
+      "ligne": 7241,
+      "condition": " sheetHasChecks "
+    },
+    {
+      "ligne": 7246,
+      "condition": " ch.on "
+    },
+    {
+      "ligne": 7249,
+      "condition": " ch.off "
+    },
+    {
+      "ligne": 7258,
+      "condition": " sheetHasField "
+    },
+    {
+      "ligne": 7261,
+      "condition": " sheetHasErr "
+    },
+    {
+      "ligne": 7272,
+      "condition": " sheetDone "
+    },
+    {
+      "ligne": 7281,
+      "condition": " sheetIsFile "
+    }
+  ],
+  "surfaces": [
+    {
+      "ligne": 53,
+      "role": "dialog",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "    [data-screen-label=\"Éditeur de page intranet\"] .up-search input { width: 100%; min-width: 0; flex: 1 1 150px; }\n    aside[data-screen-label=\"Panneau unii\"][role=\"dialog\"] { width: min(440px, 100%) !important; height: var(--mobile-vh, 100dvh) !important; max-height: var(--mobile-vh, 100dvh) !important; bottom: auto !important; }\n    [role=\"dialog\"] { min-width: 0; overflow-wrap: anywhere; }\n    [role=\"dialog\"] input, [role=\"dialog\"] textarea, [role=\"dialog\"] select { min-width: 0; max-width: 100%; }",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 54,
+      "role": "dialog",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "    aside[data-screen-label=\"Panneau unii\"][role=\"dialog\"] { width: min(440px, 100%) !important; height: var(--mobile-vh, 100dvh) !important; max-height: var(--mobile-vh, 100dvh) !important; bottom: auto !important; }\n    [role=\"dialog\"] { min-width: 0; overflow-wrap: anywhere; }\n    [role=\"dialog\"] input, [role=\"dialog\"] textarea, [role=\"dialog\"] select { min-width: 0; max-width: 100%; }\n    .mobile-control { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 14px; margin-bottom: 10px; border: 1px solid var(--bd2); border-radius: 14px; background: var(--surface); color: var(--ink3); font: inherit; font-size: 13px; cursor: pointer; }",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 55,
+      "role": "dialog",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "    [role=\"dialog\"] { min-width: 0; overflow-wrap: anywhere; }\n    [role=\"dialog\"] input, [role=\"dialog\"] textarea, [role=\"dialog\"] select { min-width: 0; max-width: 100%; }\n    .mobile-control { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 14px; margin-bottom: 10px; border: 1px solid var(--bd2); border-radius: 14px; background: var(--surface); color: var(--ink3); font: inherit; font-size: 13px; cursor: pointer; }\n    .app-header > div { flex-wrap: wrap; gap: 6px !important; padding: 10px 12px !important; }",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 55,
+      "role": "dialog",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "    [role=\"dialog\"] { min-width: 0; overflow-wrap: anywhere; }\n    [role=\"dialog\"] input, [role=\"dialog\"] textarea, [role=\"dialog\"] select { min-width: 0; max-width: 100%; }\n    .mobile-control { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 14px; margin-bottom: 10px; border: 1px solid var(--bd2); border-radius: 14px; background: var(--surface); color: var(--ink3); font: inherit; font-size: 13px; cursor: pointer; }\n    .app-header > div { flex-wrap: wrap; gap: 6px !important; padding: 10px 12px !important; }",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 55,
+      "role": "dialog",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "    [role=\"dialog\"] { min-width: 0; overflow-wrap: anywhere; }\n    [role=\"dialog\"] input, [role=\"dialog\"] textarea, [role=\"dialog\"] select { min-width: 0; max-width: 100%; }\n    .mobile-control { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 14px; margin-bottom: 10px; border: 1px solid var(--bd2); border-radius: 14px; background: var(--surface); color: var(--ink3); font: inherit; font-size: 13px; cursor: pointer; }\n    .app-header > div { flex-wrap: wrap; gap: 6px !important; padding: 10px 12px !important; }",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 99,
+      "role": "dialog",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "    main input, main select, main textarea { max-width: 100%; }\n    [role=\"dialog\"] { max-height: calc(var(--mobile-vh, 100dvh) - 24px) !important; overflow-y: auto !important; }\n  }\n</style>",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 138,
+      "role": "alert",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "            <sc-if value=\"{{ authHasErr }}\" hint-placeholder-val=\"{{ false }}\">\n              <p role=\"alert\" style=\"margin: 0; background: var(--dangerBg); border: 1px solid var(--dangerBd2); color: var(--dangerTx2); border-radius: 12px; padding: 11px 13px; font-size: 12.5px; line-height: 1.5;\">{{ authErr }}</p>\n            </sc-if>\n            <button onClick=\"{{ authSubmitId }}\" style=\"cursor: pointer; border: none; border-radius: 99px; padding: 15px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 14.5px; font-weight: 700;\">Continuer</button>",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 175,
+      "role": "alert",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "          <sc-if value=\"{{ authHasErr }}\" hint-placeholder-val=\"{{ false }}\">\n            <p role=\"alert\" style=\"margin: 0 0 14px; background: var(--dangerBg); border: 1px solid var(--dangerBd2); color: var(--dangerTx2); border-radius: 12px; padding: 11px 13px; font-size: 12.5px; line-height: 1.5;\">{{ authErr }}</p>\n          </sc-if>\n          <div style=\"display: flex; flex-direction: column; gap: 10px;\">",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 599,
+      "role": "alert",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "  <sc-if value=\"{{ aiErrOpen }}\" hint-placeholder-val=\"{{ false }}\">\n    <div class=\"app-notice app-error\" role=\"alert\" style=\"position: fixed; bottom: 96px; right: 20px; z-index: 61; max-width: 380px; background: var(--surface); border: 1.5px solid var(--dangerBd); border-radius: 18px; padding: 16px 18px; box-shadow: 0 24px 50px -24px hsl(var(--shC) / .5); animation: fadeUp .3s ease-out;\">\n      <div style=\"display: flex; gap: 10px; align-items: flex-start;\">\n        <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"var(--danger)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"flex: 0 0 auto; margin-top: 2px;\"><path d=\"M12 9v4M12 17h.01\"></path><path d=\"M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z\"></path></svg>",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 618,
+      "role": "status",
+      "libelle": "Fermer la notification",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "  <sc-if value=\"{{ hasToast }}\" hint-placeholder-val=\"{{ false }}\">\n    <div class=\"app-notice app-status\" role=\"status\" aria-live=\"polite\" style=\"position: fixed; bottom: 96px; left: 50%; transform: translateX(-50%); z-index: 60; background: var(--inkSurf); color: #FFFFFF; border-radius: 99px; padding: 13px 22px; font-size: 13.5px; font-weight: 600; box-shadow: 0 20px 40px -18px hsl(var(--shC) / .7); animation: fadeUp .3s ease-out; max-width: 90vw; text-align: center;\"><span>{{ toast }}</span><button class=\"mobile-control notice-close\" aria-label=\"Fermer la notification\" onClick=\"{{ dismissToast }}\">✕</button></div>\n  </sc-if>\n",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 786,
+      "role": "status",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "                      <sc-if value=\"{{ c.grabbed }}\" hint-placeholder-val=\"{{ false }}\">\n                        <div role=\"status\" style=\"margin: 0 9px 7px; background: var(--acBg); border: 1px solid var(--acBd); border-radius: 10px; padding: 7px 10px; font-size: 11.5px; font-weight: 700; color: var(--acTx3);\">Carte saisie — ← → pour déplacer, Espace pour déposer</div>\n                      </sc-if>\n                      <div style=\"display: flex; gap: 6px; border-top: 1px solid var(--surf2); padding: 7px 9px;\">",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 822,
+      "role": "status",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "                            <sc-if value=\"{{ c.aiTyping }}\" hint-placeholder-val=\"{{ false }}\">\n                              <div role=\"status\" style=\"align-self: flex-start; display: flex; gap: 5px; background: var(--surface); border: 1px solid var(--acBd); border-radius: 99px; padding: 9px 13px;\">\n                                <span style=\"width: 6px; height: 6px; border-radius: 99px; background: var(--ac); animation: blink 1s infinite;\"></span>\n                                <span style=\"width: 6px; height: 6px; border-radius: 99px; background: var(--ac); animation: blink 1s .2s infinite;\"></span>",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 2142,
+      "role": "status",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "              <sc-if value=\"{{ recErr }}\" hint-placeholder-val=\"{{ false }}\">\n                <div role=\"status\" style=\"display: flex; gap: 10px; align-items: flex-start; background: var(--acBg); border: 1px solid var(--acBd2); border-radius: 16px; padding: 13px 15px; margin-bottom: 16px;\">\n                  <svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"var(--warnTx)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"flex: 0 0 auto; margin-top: 2px;\"><path d=\"M12 9v4M12 17h.01\"></path><path d=\"M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z\"></path></svg>\n                  <span style=\"font-size: 12.5px; line-height: 1.55; color: var(--warnTx);\">{{ recErr }}</span>",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 2741,
+      "role": "status",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "              <sc-if value=\"{{ docOverflow }}\" hint-placeholder-val=\"{{ false }}\">\n                <div data-print-hide=\"1\" role=\"status\" style=\"display: flex; gap: 9px; align-items: flex-start; background: var(--acBg); border: 1px solid var(--acBd2); border-radius: 14px; padding: 11px 13px; margin-bottom: 14px;\">\n                  <svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"var(--warnTx)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"flex: 0 0 auto; margin-top: 2px;\"><path d=\"M12 9v4M12 17h.01\"></path><path d=\"M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z\"></path></svg>\n                  <span style=\"font-size: 12px; line-height: 1.55; color: var(--warnTx);\">{{ overflowMsg }}</span>",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 6875,
+      "role": "dialog",
+      "libelle": "Contrôle d'anonymisation",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "    <div style=\"position: fixed; inset: 0; z-index: 80; background: hsl(var(--shC) / .62); backdrop-filter: blur(3px); display: flex; align-items: center; justify-content: center; padding: 18px;\">\n      <div role=\"dialog\" aria-modal=\"true\" aria-label=\"Contrôle d'anonymisation\" style=\"width: 100%; max-width: 640px; max-height: 90vh; overflow: auto; background: var(--surface); border-radius: 24px; animation: scaleIn .22s ease-out;\">\n        <div style=\"display: flex; align-items: center; gap: 11px; padding: 18px 22px; background: var(--okDeep); color: #FFFFFF; border-radius: 24px 24px 0 0;\">\n          <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z\"></path></svg>",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 6959,
+      "role": "dialog",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "    <div style=\"position: fixed; inset: 0; z-index: 70; background: hsl(var(--shC) / .62); backdrop-filter: blur(3px); display: flex; align-items: center; justify-content: center; padding: 20px;\">\n      <div role=\"dialog\" aria-modal=\"true\" style=\"width: 100%; max-width: 560px; max-height: 86vh; overflow: auto; background: var(--surface); border-radius: 24px; padding: 24px; animation: scaleIn .25s ease-out;\">\n        <div style=\"display: flex; align-items: flex-start; gap: 12px; margin-bottom: 16px;\">\n          <span style=\"flex: 1; min-width: 0;\">",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 6980,
+      "role": "dialog",
+      "libelle": "unii",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "    <div onClick=\"{{ unii.close }}\" style=\"position: fixed; inset: 0; z-index: 45; background: hsl(var(--shC) / .18);\"></div>\n    <aside data-screen-label=\"Panneau unii\" role=\"dialog\" aria-modal=\"true\" aria-label=\"unii\" style=\"position: fixed; top: 0; right: 0; bottom: 0; z-index: 50; width: min(440px, 100vw); background: var(--surface); border-left: 1px solid var(--bd); box-shadow: -24px 0 48px -28px hsl(var(--shC) / .5); display: flex; flex-direction: column; animation: fadeUp .25s ease-out; font-family: var(--fBody); color: var(--ink);\">\n      <div style=\"padding: 16px 18px; border-bottom: 1px solid var(--bd); display: flex; align-items: center; gap: 10px;\">\n        <span style=\"width: 34px; height: 34px; flex: 0 0 34px; border-radius: 99px; background: linear-gradient(135deg, var(--ac), var(--ac2)); color: #FFFFFF; display: flex; align-items: center; justify-content: center;\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z\"></path></svg></span>",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 7100,
+      "role": "dialog",
+      "libelle": "{{ fwm.title }}",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "  <div style=\"position: fixed; inset: 0; z-index: 86; background: hsl(var(--shC) / .62); backdrop-filter: blur(3px); display: flex; align-items: center; justify-content: center; padding: 18px;\">\n    <div role=\"dialog\" aria-modal=\"true\" aria-label=\"{{ fwm.title }}\" style=\"width: 100%; max-width: 480px; max-height: 92vh; overflow: auto; background: var(--surface); border-radius: 24px; animation: scaleIn .22s ease-out; padding: 24px; display: flex; flex-direction: column; gap: 12px;\">\n      <h2 style=\"font-family: var(--fTitle); font-size: 22px; margin: 0; color: var(--ink);\">{{ fwm.title }}</h2>\n      <div style=\"border-left: 3px solid var(--ac); background: var(--surf2); border-radius: 4px 10px 10px 4px; padding: 9px 12px;\"><div style=\"font-size: 12px; font-weight: 700; color: var(--acTx);\">{{ fwm.head }}</div><div style=\"font-size: 13px; color: var(--ink3); line-height: 1.5; max-height: 60px; overflow: hidden;\">{{ fwm.text }}</div></div>",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 7123,
+      "role": "dialog",
+      "libelle": "{{ dpm.title }}",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "  <div style=\"position: fixed; inset: 0; z-index: 86; background: hsl(var(--shC) / .62); backdrop-filter: blur(3px); display: flex; align-items: center; justify-content: center; padding: 18px;\">\n    <div role=\"dialog\" aria-modal=\"true\" aria-label=\"{{ dpm.title }}\" style=\"width: 100%; max-width: 520px; max-height: 92vh; overflow: auto; background: var(--surface); border-radius: 24px; animation: scaleIn .22s ease-out; padding: 24px; display: flex; flex-direction: column; gap: 12px;\">\n      <h2 style=\"font-family: var(--fTitle); font-size: 22px; margin: 0; color: var(--ink);\">{{ dpm.title }}</h2>\n      <div style=\"border-left: 3px solid var(--ac); background: var(--surf2); border-radius: 4px 10px 10px 4px; padding: 9px 12px;\"><div style=\"font-size: 12px; font-weight: 700; color: var(--acTx);\">{{ dpm.head }}</div><div style=\"font-size: 13px; color: var(--ink3); line-height: 1.5; max-height: 60px; overflow: hidden;\">{{ dpm.text }}</div></div>",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 7148,
+      "role": "dialog",
+      "libelle": "{{ ctm.title }}",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "  <div style=\"position: fixed; inset: 0; z-index: 86; background: hsl(var(--shC) / .62); backdrop-filter: blur(3px); display: flex; align-items: center; justify-content: center; padding: 18px;\">\n    <div role=\"dialog\" aria-modal=\"true\" aria-label=\"{{ ctm.title }}\" style=\"width: 100%; max-width: 480px; max-height: 90vh; overflow: auto; background: var(--surface); border-radius: 24px; animation: scaleIn .22s ease-out; padding: 24px; display: flex; flex-direction: column; gap: 12px;\">\n      <h2 style=\"font-family: var(--fTitle); font-size: 22px; margin: 0 0 4px; color: var(--ink);\">{{ ctm.title }}</h2>\n      <label style=\"display: flex; flex-direction: column; gap: 6px;\"><span style=\"font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);\">Nom complet</span><input value=\"{{ ctm.name }}\" onChange=\"{{ ctm.onName }}\" placeholder=\"Prénom Nom\" style=\"width: 100%; box-sizing: border-box; background: var(--surf2); border: 1px solid var(--bd2); border-radius: 12px; padding: 11px 13px; font-size: 13.5px; color: var(--ink); outline: none;\" /></label>",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 7176,
+      "role": "dialog",
+      "libelle": "{{ grm.title }}",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "  <div style=\"position: fixed; inset: 0; z-index: 86; background: hsl(var(--shC) / .62); backdrop-filter: blur(3px); display: flex; align-items: center; justify-content: center; padding: 18px;\">\n    <div role=\"dialog\" aria-modal=\"true\" aria-label=\"{{ grm.title }}\" style=\"width: 100%; max-width: 520px; max-height: 92vh; overflow: auto; background: var(--surface); border-radius: 24px; animation: scaleIn .22s ease-out; padding: 24px; display: flex; flex-direction: column; gap: 12px;\">\n      <h2 style=\"font-family: var(--fTitle); font-size: 22px; margin: 0 0 4px; color: var(--ink);\">{{ grm.title }}</h2>\n      <label style=\"display: flex; flex-direction: column; gap: 6px;\"><span style=\"font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);\">Nom du groupe</span><input value=\"{{ grm.name }}\" onChange=\"{{ grm.onName }}\" placeholder=\"Commission Égalité professionnelle\" style=\"width: 100%; box-sizing: border-box; background: var(--surf2); border: 1px solid var(--bd2); border-radius: 12px; padding: 11px 13px; font-size: 13.5px; color: var(--ink); outline: none;\" /></label>",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 7211,
+      "role": "dialog",
+      "libelle": "{{ sheetTitle }}",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "  <div style=\"position: fixed; inset: 0; z-index: 85; background: hsl(var(--shC) / .62); backdrop-filter: blur(3px); display: flex; align-items: center; justify-content: center; padding: 18px;\">\n    <div role=\"dialog\" aria-modal=\"true\" aria-label=\"{{ sheetTitle }}\" style=\"width: 100%; max-width: 520px; max-height: 90vh; overflow: auto; background: var(--surface); border-radius: 24px; animation: scaleIn .22s ease-out;\">\n      <sc-if value=\"{{ sheetForm }}\" hint-placeholder-val=\"{{ true }}\">\n        <div style=\"padding: 24px 24px 8px;\">",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    },
+    {
+      "ligne": 7262,
+      "role": "alert",
+      "libelle": "Dynamique / non nommé",
+      "type": "Déclaration de surface, pas une modale unique par état",
+      "extrait_source": "            <sc-if value=\"{{ sheetHasErr }}\" hint-placeholder-val=\"{{ false }}\">\n              <div role=\"alert\" style=\"font-size: 12.5px; color: var(--dangerTx2); margin-bottom: 6px;\">{{ sheetErr }}</div>\n            </sc-if>\n          </sc-if>",
+      "recette": "Vérifier ouverture/fermeture, focus/clavier, défilement, texte long et absence recouvrement hors modal ; variantes code figées dans archive"
+    }
+  ],
+  "variantes_sheet_appelees": [
+    {
+      "id": "diffuse",
+      "ligne_appel": 12958
+    },
+    {
+      "id": "reset",
+      "ligne_appel": 13225
+    },
+    {
+      "id": "signed",
+      "ligne_appel": 13315
+    },
+    {
+      "id": "exportRep",
+      "ligne_appel": 13882
+    },
+    {
+      "id": "relaunch",
+      "ligne_appel": 14039
+    },
+    {
+      "id": "editSignature",
+      "ligne_appel": 14097
+    },
+    {
+      "id": "exportAudit",
+      "ligne_appel": 14129
+    },
+    {
+      "id": "exportData",
+      "ligne_appel": 14142
+    },
+    {
+      "id": "invite",
+      "ligne_appel": 14168
+    }
+  ],
+  "limite": "Extraction statique : conditions imbriquées et variantes ne sont pas assimilées à des écrans uniques. Les états générés et les chemins dynamiques demandent une recette complémentaire."
+}

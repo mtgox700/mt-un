@@ -1,0 +1,96 @@
+Browser tab: 4, Title: "127.0.0.1:5052/uniion App v3.dc.html", URL: "http://127.0.0.1:5052/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			158 button Accueil
+				159 image
+				160 text Accueil
+			161 button Assistant
+				162 image
+				163 text Assistant
+			170 button Dossiers
+				171 image
+				172 text Dossiers
+			173 button Messages
+				174 image
+				175 text Messages
+			176 button Agenda
+				177 image
+				178 text Agenda
+			186 button Réunions
+				187 image
+				188 text Réunions
+			189 button Documents
+				190 image
+				191 text Documents
+			192 button Formations
+				193 image
+				194 text Formations
+			202 button Communication
+				203 image
+				204 text Communication
+			205 button Application mobile
+				206 image
+				207 text Application mobile
+			208 button Adhérents
+				209 image
+				210 text Adhérents
+			211 button Intranet
+				212 image
+				213 text Intranet
+			214 button Reporting
+				215 image
+				216 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			157 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		169 container
+			217 text PILOTAGE
+			218 heading Reporting, Value: 1
+				219 text Reporting
+			220 text Du 1er janvier au 26 août 2026 · 416 salariés · 24 élus
+			221 button Année 2026
+			222 button 12 derniers mois
+			223 button Mandat 2024–2028
+			224 checkbox Bilan de mandat, Value: 1
+			225 checkbox Utilisation de l'application, Value: 0
+			226 text DOSSIERS TRAITÉS 84 +18 % vs 2025 DOSSIERS CLOS 71 85 % de résolution DÉLAI MOYEN 9 j −3 j vs 2025 PARTICIPATION SONDAGES 72 % +9 pts
+			227 heading Dossiers par mois, Value: 2
+				228 text Dossiers par mois
+			229 text Ouverts en orange, clos en gris.
+			230 text Jan Fév Mar Avr Mai Juin Juil Août
+			231 heading Répartition par thème, Value: 2
+				232 text Répartition par thème
+			233 text Salaires et primes 26 dossiers · 31 % Santé et sécurité 21 dossiers · 25 % Temps de travail 15 dossiers · 18 % Discipline et sanctions 12 dossiers · 14 % Égalité et discriminations 10 dossiers · 12 %
+			234 heading Activité du mandat, Value: 2
+				235 text Activité du mandat
+			236 text Réunions CSE 8 ordinaires, 2 extraordinaires 10 Séances de négociation NAO, télétravail, égalité pro 6 Sondages diffusés 72 % de participation moyenne 9 Consultations de l'assistant 96 % sourcées convention ou code 1 240 Heures de délégation sur 1 920 h de crédit annuel 1 412
+			237 heading Exporter le bilan, Value: 2
+				238 text Exporter le bilan
+			239 text Le bilan reprend la mise en forme attendue pour l'annexe du rapport annuel du CSE. Aucune donnée nominative de salarié n'y figure.
+			240 button Bilan annuel (PDF)
+			241 button Données détaillées (Excel)
+			242 button Partager en lecture seule aux élus
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html

@@ -1,0 +1,150 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			171 button Accueil
+				172 image
+				173 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			165 button Formations
+				166 image
+				167 text Formations
+			187 button Communication
+				188 image
+				189 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			162 button Raccourcis
+				163 image
+				164 text Raccourcis
+			144 button Réglages
+				145 image
+				146 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable) RECETTE
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				190 text unii
+				191 text 1
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			192 text UNII SUGGÈRE
+			193 button 2 idées à transformer en publication
+			194 text MOINS D'ADMINISTRATIF, PLUS DE TERRAIN
+			195 heading Communication, Value: 1
+				196 text Communication
+			197 text Planifiez, rédigez et diffusez la communication de la section vers les salariés et les adhérents. unii accélère l'écriture, l'équipe uniion peut prendre le relais.
+			198 tab group Communication
+				199 tab (selectable, settable, boolean) Plan éditorial 6, Value: 0
+				200 tab (selected, settable, boolean) Atelier de contenus, Value: 1
+				201 tab (selectable, settable, boolean) Pôle communication, Value: 0
+			202 heading Nouvelle publication, Value: 2
+				203 text Nouvelle publication
+			204 text FORMAT
+			205 checkbox Post réseau social, Value: 1
+			206 checkbox Article intranet, Value: 0
+			207 checkbox Newsletter, Value: 0
+			208 checkbox Affiche / flyer, Value: 0
+			209 checkbox Résumé de PV, Value: 0
+			210 checkbox Script vidéo courte, Value: 0
+			211 checkbox Sondage, Value: 0
+			212 text OBJECTIF
+			213 checkbox Informer, Help: Rendre clair ce qui ne l'est pas, même un PV indigeste, Value: 1
+			214 checkbox Fédérer, Help: Créer des rendez-vous qui rapprochent élus et salariés, Value: 0
+			215 checkbox Valoriser, Help: Montrer les actions, avantages et initiatives, Value: 0
+			216 checkbox Engager, Help: Donner envie de participer, de répondre, de venir, Value: 0
+			217 text Rendre clair ce qui ne l'est pas, même un PV indigeste
+			218 text CANAL DE DIFFUSION
+			219 checkbox Intranet, Value: 1
+			220 checkbox E-mail aux adhérents, Value: 0
+			221 checkbox Page de la section, Value: 0
+			222 checkbox LinkedIn, Value: 0
+			223 checkbox Affichage sur site, Value: 0
+			224 checkbox Application uniion, Value: 0
+			225 text SUJET ET ÉLÉMENTS CLÉS
+			226 text entry area (settable) Exemple entièrement fictif pour recette : annoncer un atelier de découverte du rôle des élus mardi à 10 h salle A.
+			227 button Compte rendu de la réunion CSE
+			228 button Point d'étape NAO
+			229 button Campagne d'adhésion
+			230 button Permanence syndicale
+			231 button Assemblée générale de section
+			232 text TON
+			233 checkbox Direct, Value: 1
+			234 checkbox Chaleureux, Value: 0
+			235 checkbox Institutionnel, Value: 0
+			236 container
+				237 text DATE DE DIFFUSION
+				238 date field (settable) DATE DE DIFFUSION, Value: 2026-10-16
+					239 container
+						240 stepper
+						241 stepper
+						242 stepper
+					243 pop up button Show date picker Show date picker
+			244 button Proposer une autre version
+			245 button Retour au plan
+			246 container
+				247 text Noms et identifiants sont anonymisés avant l'envoi à l'IA. unii écrit avec le vocabulaire des  représentants syndicaux  : PV, plénière, ASC, NAO, BDESE — chaque sigle est expliqué aux salariés.
+			248 heading Proposition, Value: 2
+				249 text Proposition
+			250 text Post réseau social · Intranet · Informer
+			251 container
+				252 text TITRE
+				253 text field (settable) TITRE, Value: Atelier fictif : découvrez le rôle des élus
+			254 container
+				255 text ACCROCHE
+				256 text field (settable) ACCROCHE, Value: Salariés et adhérents, que souhaitez-vous savoir sur le rôle des élus ?
+			257 container
+				258 text TEXTE
+				259 text entry area (settable) TEXTE, Value: La section syndicale vous propose un atelier de découverte mardi à 10 h, salle A. Venez poser vos questions sur le comité social et économique (CSE) et échanger sur vos attentes. L’objectif : mieux comprendre le rôle des élus et identifier les sujets que vous souhaitez aborder avec eux.
+Attention : cette annonce est entièrement fictive et destinée à un test. Elle ne constitue pas une invitation réelle.
+			260 container
+				261 text APPEL À L'ACTION
+				262 text field (settable) APPEL À L'ACTION, Value: Pour ce test, indiquez les questions que vous aimeriez poser.
+			263 container
+				264 text Visuel conseillé ·  Prévoir une illustration de discussion avec la mention bien visible « Exemple fictif ». Sources Consigne utilisateur — exemple fictif pour recette, date non précisée, rubrique « Sujet et éléments » — message de cette conversation ; source non vérifiée, à contrôler avant toute diffusion réelle.
+			265 button Ajouter au plan éditorial
+			266 button Copier
+			267 button Confier la mise en forme au pôle
+		186 text Sondage diffusé à 416 salariés (push + QR code)
+
+The focused UI element is 200 tab (selected, settable, boolean) Atelier de contenus, Value: 1

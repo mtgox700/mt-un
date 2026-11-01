@@ -1,0 +1,27 @@
+from pathlib import Path
+source=Path(__file__).with_name('s02_support_access.py').read_text().split('x=Client();y=Client()')[0];exec(compile(source,str(Path(__file__).with_name('s02_support_access.py')),'exec'))
+from datetime import datetime,timezone,timedelta
+x=Client();y=Client()
+def registry(c):return c.call('/identity/support-agents',{})
+def save(c,enabled=True,user=b['id'],name='Agent de recette'):return c.call('/identity/support-agents/save',{'user_id':user,'name':name,'enabled':enabled})
+check('anonymous_registry_denied',registry(x)[0]==403);check('manager_login',x.login(a)[0]==200);check('aal1_registry_denied',registry(x)[0]==403)
+(st,_,_),_=verify(x,f['factor'],f['secret']);check('manager_mfa',st==200)
+# This dedicated test user is not a global admin until explicitly provisioned below.
+sql(f"insert into uniion_private.super_admins values('{a['id']}',false) on conflict(user_id) do update set active=false;")
+check('organization_manager_denied',registry(x)[0]==403);check('organization_manager_mutation_denied',save(x)[0]==403)
+sql(f"update uniion_private.super_admins set active=true where user_id='{a['id']}';")
+check('superadmin_registry',registry(x)[0]==200);check('no_business_bypass',api.resources(x.state()['access_token'],foreign)==[])
+check('agent_login',y.login(b)[0]==200);(st,_,_),_=verify(y,f['recipientFactor'],f['recipientSecret']);check('agent_mfa',st==200)
+check('agent_registry_denied',registry(y)[0]==403);check('agent_self_enable_denied',save(y)[0]==403)
+check('unknown_account_denied',save(x,user=str(uuid.uuid4()))[0]==403);check('empty_name_denied',save(x,name=' ')[0]==403);check('extra_role_denied',x.call('/identity/support-agents/save',{'user_id':b['id'],'name':'Test','enabled':True,'superAdmin':True})[0]==403)
+data={'organization_id':org,'ticket':tid,'agents':[b['id']],'resources':[rid],'until':(datetime.now(timezone.utc)+timedelta(hours=1)).isoformat(),'download':False}
+st,d,_=x.call('/identity/support/approve',data);gid=d.get('id');check('grant_fixture',st==200)
+check('request_fixture',y.call('/identity/support/request',{'organization_id':org,'ticket':tid,'reason':'Recette registre global'})[0]==200)
+def read():return y.call('/identity/support/read',{'organization_id':org,'ticket':tid,'grant':gid,'resource':rid,'download':False})
+check('before_disable_read',read()[0]==200);check('disable',save(x,False)[0]==200);check('disabled_read_denied',read()[0]==403);check('disabled_context_denied',y.call('/identity/support',{'organization_id':org})[0]==403)
+check('reenable',save(x,True)[0]==200);check('reenable_no_access',read()[0]==403)
+check('reassign',x.call('/identity/support/assign',{'organization_id':org,'ticket':tid,'agents':[b['id']]})[0]==200);check('reassign_old_grant_denied',read()[0]==403)
+context=y.call('/identity/support',{'organization_id':org})[1];check('pending_cancelled',context['tickets'][0]['requests'][0]['status']=='cancelled')
+sql(f"update uniion_private.super_admins set active=false where user_id='{a['id']}';");check('global_role_revocation',registry(x)[0]==403);check('revoked_global_mutation',save(x)[0]==403)
+sql(f"update uniion_private.super_admins set active=true where user_id='{a['id']}';")
+(ROOT/'.local-auth/s02-support-registry.json').write_text(json.dumps({'organization':org,'ticket':tid}));out=ROOT/'preuves/S02-support-registre';out.mkdir(exist_ok=True);(out/'integration.json').write_text(json.dumps({'passed':True,'count':len(checks),'checks':checks},indent=2));print(json.dumps({'passed':True,'count':len(checks)}))

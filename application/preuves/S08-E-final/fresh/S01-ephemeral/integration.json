@@ -1,0 +1,210 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "fresh_auth_storage_ready",
+      "ok": true
+    },
+    {
+      "test": "all_140_migrations_from_empty_database",
+      "ok": true
+    },
+    {
+      "test": "fictional_user_created_0",
+      "ok": true
+    },
+    {
+      "test": "login_0",
+      "ok": true
+    },
+    {
+      "test": "fictional_user_created_1",
+      "ok": true
+    },
+    {
+      "test": "login_1",
+      "ok": true
+    },
+    {
+      "test": "own_read_0",
+      "ok": true
+    },
+    {
+      "test": "foreign_read_denied_0",
+      "ok": true
+    },
+    {
+      "test": "foreign_write_denied_0",
+      "ok": true
+    },
+    {
+      "test": "own_read_1",
+      "ok": true
+    },
+    {
+      "test": "foreign_read_denied_1",
+      "ok": true
+    },
+    {
+      "test": "foreign_write_denied_1",
+      "ok": true
+    },
+    {
+      "test": "share_aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "mfa_enroll_0",
+      "ok": true
+    },
+    {
+      "test": "mfa_authorize_0",
+      "ok": true
+    },
+    {
+      "test": "mfa_verified_0",
+      "ok": true
+    },
+    {
+      "test": "mfa_required_0",
+      "ok": true
+    },
+    {
+      "test": "mfa_other_org_still_denied_0",
+      "ok": true
+    },
+    {
+      "test": "mfa_enroll_1",
+      "ok": true
+    },
+    {
+      "test": "mfa_authorize_1",
+      "ok": true
+    },
+    {
+      "test": "mfa_verified_1",
+      "ok": true
+    },
+    {
+      "test": "mfa_required_1",
+      "ok": true
+    },
+    {
+      "test": "mfa_other_org_still_denied_1",
+      "ok": true
+    },
+    {
+      "test": "explicit_share_created",
+      "ok": true
+    },
+    {
+      "test": "share_unaccepted_denied",
+      "ok": true
+    },
+    {
+      "test": "share_accepted",
+      "ok": true
+    },
+    {
+      "test": "share_explicit_read_allowed",
+      "ok": true
+    },
+    {
+      "test": "share_does_not_open_direct_table",
+      "ok": true
+    },
+    {
+      "test": "foreign_attachment_prepare_denied",
+      "ok": true
+    },
+    {
+      "test": "own_attachment_prepare_allowed",
+      "ok": true
+    },
+    {
+      "test": "file_without_upload_finish_denied",
+      "ok": true
+    },
+    {
+      "test": "unscanned_file_get_denied",
+      "ok": true
+    },
+    {
+      "test": "file_not_explicitly_shared_denied",
+      "ok": true
+    },
+    {
+      "test": "member_cannot_read_scanner_job",
+      "ok": true
+    },
+    {
+      "test": "member_cannot_forge_clean_result",
+      "ok": true
+    },
+    {
+      "test": "recipient_cannot_request_foreign_scan",
+      "ok": true
+    },
+    {
+      "test": "share_download_not_granted",
+      "ok": true
+    },
+    {
+      "test": "share_revoked",
+      "ok": true
+    },
+    {
+      "test": "share_read_after_revocation_denied",
+      "ok": true
+    },
+    {
+      "test": "fresh_provider_unapproved",
+      "ok": true
+    },
+    {
+      "test": "fresh_authorize_denied",
+      "ok": true
+    },
+    {
+      "test": "fresh_member_cannot_approve",
+      "ok": true
+    },
+    {
+      "test": "fresh_private_registry_not_exposed",
+      "ok": true
+    },
+    {
+      "test": "fresh_draft_receipts_empty",
+      "ok": true
+    },
+    {
+      "test": "fresh_draft_apply_denied",
+      "ok": true
+    },
+    {
+      "test": "fresh_registry_empty",
+      "ok": true
+    },
+    {
+      "test": "fresh_no_activation",
+      "ok": true
+    },
+    {
+      "test": "fresh_ledger_schema2",
+      "ok": true
+    },
+    {
+      "test": "fresh_history_empty",
+      "ok": true
+    },
+    {
+      "test": "revoked_member_denied",
+      "ok": true
+    }
+  ],
+  "count": 50,
+  "source_accessed": false,
+  "fresh_database": true,
+  "container": "uniion-ci-fb28367b",
+  "automatic_deletion": false
+}

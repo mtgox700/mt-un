@@ -1,0 +1,53 @@
+[
+  {
+    "format": "desktop",
+    "homeReal": true,
+    "demoAbsent": true,
+    "overflow": false
+  },
+  {
+    "format": "desktop",
+    "detail": true,
+    "overflow": false
+  },
+  {
+    "format": "tablette",
+    "homeReal": true,
+    "demoAbsent": true,
+    "overflow": false
+  },
+  {
+    "format": "tablette",
+    "detail": true,
+    "overflow": false
+  },
+  {
+    "format": "mobile",
+    "homeReal": true,
+    "demoAbsent": true,
+    "overflow": false
+  },
+  {
+    "format": "mobile",
+    "detail": true,
+    "overflow": false
+  },
+  {
+    "editPersisted": true
+  },
+  {
+    "format": "mobile",
+    "selectedDay": true,
+    "detail": true
+  },
+  {
+    "format": "tablette",
+    "selectedDay": true,
+    "detail": true
+  },
+  {
+    "format": "desktop",
+    "selectedDay": true,
+    "detail": true
+  }
+]

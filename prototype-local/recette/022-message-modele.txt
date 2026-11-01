@@ -1,0 +1,124 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			103 button Documents
+				104 image
+				105 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			181 button Adhérents
+				182 image
+				183 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			89 button Réglages
+				90 image
+				91 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			228 text COMMUNICATION
+			229 heading Message aux adhérents, Value: 1
+				230 text Message aux adhérents
+			231 tab group Choix des destinataires
+				232 tab (selected, settable, boolean) Sélection / filtres, Value: 1
+				233 tab (selectable, settable, boolean) Liste de diffusion, Value: 0
+			234 text Sélection manuelle 1 destinataire Karim Benali
+			235 heading CANAL, Value: 2
+				236 text CANAL
+			237 checkbox E-mail, Value: 1
+			238 checkbox SMS, Value: 0
+			239 checkbox Notification app, Value: 0
+			240 heading MODÈLES DE MESSAGE, Value: 2
+				241 text MODÈLES DE MESSAGE
+			242 checkbox Relance de cotisation, Value: 0
+			243 checkbox Convocation à l'assemblée, Value: 1
+			244 checkbox Bienvenue au nouvel adhérent, Value: 0
+			245 checkbox Point sur les négociations, Value: 0
+			246 container
+				247 text OBJET
+				248 text field (settable) OBJET, Value: Assemblée des adhérents — mardi 2 septembre, 12 h 15
+			249 container
+				250 text MESSAGE
+				251 text entry area (settable) MESSAGE, Value: Bonjour,
+
+Vous êtes convié à l'assemblée des adhérents mardi 2 septembre à 12 h 15, au réfectoire du site.
+
+Ordre du jour : compte rendu de la deuxième séance NAO, mandat de négociation pour la séance du 8 septembre, budget de la section.
+
+Le vote sur le mandat de négociation est réservé aux adhérents à jour de cotisation.
+
+Sophie Marchand — Secrétaire
+			252 text Joindre le bulletin d'adhésion Pièce jointe générée depuis le modèle de la bibliothèque documentaire, à la charte de l'organisation.
+			253 switch Description: Joindre le bulletin d'adhésion, Value: 0
+			254 button Envoyer
+			255 button Annuler
+			256 heading Aperçu de l'envoi, Value: 2
+				257 text Aperçu de l'envoi
+			258 text E-mail envoyé en copie cachée : les adhérents ne voient jamais la liste des destinataires.
+			259 text OBJET
+			264 text Assemblée des adhérents — mardi 2 septembre, 12 h 15
+			265 text Bonjour,
+
+Vous êtes convié à l'assemblée des adhérents mardi 2 septembre à 12 h 15, au réfectoire du site.
+
+Ordre du jour : compte rendu de la deuxième séance NAO, mandat de négociation pour la séance du 8 septembre, budget de la section.
+
+Le vote sur le mandat de négociation est réservé aux adhérents à jour de cotisation.
+
+Sophie Marchand — Secrétaire
+			260 heading LIEN AVEC LES DOCUMENTS, Value: 2
+				261 text LIEN AVEC LES DOCUMENTS
+			262 text Le bulletin d'adhésion est un modèle de la bibliothèque : identité, situation professionnelle, cotisation, mandat SEPA et mention RGPD sur la donnée sensible.
+			263 button Ouvrir le modèle de bulletin dans l'éditeur →
+
+The focused UI element is 243 checkbox Convocation à l'assemblée, Value: 1

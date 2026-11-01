@@ -1,0 +1,40 @@
+{
+  "module_id": "example.module",
+  "version": "1.0.0",
+  "schema_version": 1,
+  "owner_tables": [
+    "module_owned_table"
+  ],
+  "routes": [
+    "declared.route"
+  ],
+  "commands": [
+    "declared.command.v1"
+  ],
+  "events_published": [
+    "declared.event.v1"
+  ],
+  "events_consumed": [],
+  "required_permissions": [
+    "example.read"
+  ],
+  "dependencies": [
+    {
+      "module": "core.identity",
+      "compatible_version": "1.x"
+    }
+  ],
+  "external_purposes": [],
+  "offline": {
+    "allowed_resource_types": [],
+    "requires_device_lease": true
+  },
+  "commercial": {
+    "entitlement_required": true
+  },
+  "lifecycle": {
+    "disable": "block new commands and pending jobs without deleting data",
+    "remove_data": "D07 approved exact deletion batch"
+  },
+  "security": "Manifest describes capabilities; server permission checks and database policies enforce them. No arbitrary module JS URLs."
+}

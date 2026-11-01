@@ -1,0 +1,124 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		1533 text 1024 × 768
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				1534 container
+					1535 image uniion
+					1536 button Réduire le menu
+					1589 button Accueil
+						1590 image
+						1591 text Accueil
+					1540 button Assistant
+						1541 image
+						1542 text Assistant
+					1543 button Dossiers
+						1544 image
+						1545 text Dossiers
+					1546 button Messages
+						1547 image
+						1548 text Messages
+					1549 button Agenda
+						1550 image
+						1551 text Agenda
+					1552 button Réunions
+						1553 image
+						1554 text Réunions
+					1555 button Documents
+						1556 image
+						1557 text Documents
+					1558 button Formations
+						1559 image
+						1560 text Formations
+					1561 button Communication
+						1562 image
+						1563 text Communication
+					1564 button Application mobile
+						1565 image
+						1566 text Application mobile
+					1567 button Adhérents
+						1568 image
+						1569 text Adhérents
+					1570 button Intranet
+						1571 image
+						1572 text Intranet
+					1573 button Reporting
+						1574 image
+						1575 text Reporting
+					1576 button Raccourcis
+						1577 image
+						1578 text Raccourcis
+					1592 button Réglages
+						1593 image
+						1594 text Réglages
+					1582 text ASSISTANT IA Une question de droit ?
+					1583 button Ouvrir le chat
+					1584 button SM Sophie Marchand Déléguée syndicale
+						1585 text SM
+						1586 text Sophie Marchand
+						1587 text Déléguée syndicale
+					1588 button Se déconnecter
+				10 container
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				1334 container
+					1595 text Connexion du modèle — démo locale
+					1596 text Connecté à ChatGPT via Codex local
+					1597 text Essai local avec votre compte ChatGPT. Les requêtes utilisent vos limites Codex.
+					1598 text field (settable)
+					1599 button Enregistrer la clé
+					1600 text MODÈLE
+					1601 button Codex · rapide
+					1602 button Codex · équilibré
+					1603 button Codex · approfondi
+					1604 button Tester la connexion
+					1605 text Version locale : connexion via Codex, sans clé API supplémentaire. Les réglages et statistiques de fournisseur ci-dessous sont des exemples ; ils ne pilotent pas cette connexion.
+					1606 text ADMIN ORGANISATION
+					1607 heading Configuration IA, Value: 1
+						1608 text Configuration IA
+					1609 text Modèle utilisé par l'Assistant Juridique, la Recherche Légale et le Générateur de documents.
+					1610 text Anonymisation avant inférence
+					1611 text Verrouillée par la politique de l'organisation — non désactivable en séance.
+					1612 switch Description: Anonymisation avant inférence — verrouillée sur activé, Value: 1
+					1613 text Zéro donnée nominative hors Union européenne. Zéro réutilisation pour l'entraînement — clause contractuelle avec le fournisseur. Journal d'empreintes sans texte en clair. 38 appels 0 identité fuitée
+					1614 text FOURNISSEUR & MODÈLE
+					1615 button Offre mutualisée uniion Incluse dans l’abonnement · Claude Sonnet
+						1616 text Offre mutualisée uniion
+						1617 text Incluse dans l’abonnement · Claude Sonnet
+					1618 button Anthropic — Claude Clé propre à l’organisation · UE
+						1619 text Anthropic — Claude
+						1620 text Clé propre à l’organisation · UE
+					1621 button Mistral — Large Clé propre · hébergement France
+						1622 text Mistral — Large
+						1623 text Clé propre · hébergement France
+					1624 text CLÉ API
+					1625 text •••• •••• •••• •••• 8pWvA1
+					1626 button Afficher
+					1627 text Chiffrée au repos dans un coffre dédié, jamais réaffichée en clair après enregistrement. Dernière rotation : 14/06/2026.
+					1628 button Enregistrer la clé API
+					1629 button Révoquer
+					1630 heading Consommation — août, Value: 2
+						1631 text Consommation — août
+					1632 text Assistant juridique 1 240 requêtes Génération de documents 312 requêtes Recherche légale 96 requêtes Coût estimé 84,20 € / 150 € de quota
+					1633 heading Comportement du modèle, Value: 2
+						1634 text Comportement du modèle
+					1635 text Prudence juridique Élevée
+					1636 button Basse
+					1637 button Moyenne
+					1638 button Élevée
+					1639 text Sourçage obligatoire des réponses juridiques
+					1640 button
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

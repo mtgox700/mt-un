@@ -1,0 +1,1100 @@
+[
+  {
+    "id": "AUTH",
+    "section": "Connexion (identifiant, SSO, double authentification, accès admin)",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "001-mobile-connexion"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ADM",
+    "section": "Console super-admin — coque",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "complement_reprise": "Voir validation-complementaire/reprise : 7 rubriques parcourues, filtres utilisateurs exécutés, F24/F25 ; aucune validation des opérations sensibles.",
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ADM-SUP",
+    "section": "Console admin — Supervision",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "complement_reprise": "Voir validation-complementaire/reprise : 7 rubriques parcourues, filtres utilisateurs exécutés, F24/F25 ; aucune validation des opérations sensibles.",
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ADM-ORG",
+    "section": "Console admin — Organisations",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "complement_reprise": "Voir validation-complementaire/reprise : 7 rubriques parcourues, filtres utilisateurs exécutés, F24/F25 ; aucune validation des opérations sensibles.",
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ADM-USR",
+    "section": "Console admin — Utilisateurs",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "complement_reprise": "Voir validation-complementaire/reprise : 7 rubriques parcourues, filtres utilisateurs exécutés, F24/F25 ; aucune validation des opérations sensibles.",
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ADM-KEY",
+    "section": "Console admin — Clés IA",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "complement_reprise": "Voir validation-complementaire/reprise : 7 rubriques parcourues, filtres utilisateurs exécutés, F24/F25 ; aucune validation des opérations sensibles.",
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ADM-EDI",
+    "section": "Console admin — Éditeur (paramètres plateforme)",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "complement_reprise": "Voir validation-complementaire/reprise : 7 rubriques parcourues, filtres utilisateurs exécutés, F24/F25 ; aucune validation des opérations sensibles.",
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ADM-FAC",
+    "section": "Console admin — Offres & facturation",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "complement_reprise": "Voir validation-complementaire/reprise : 7 rubriques parcourues, filtres utilisateurs exécutés, F24/F25 ; aucune validation des opérations sensibles.",
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ADM-LOG",
+    "section": "Console admin — Journaux",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "complement_reprise": "Voir validation-complementaire/reprise : 7 rubriques parcourues, filtres utilisateurs exécutés, F24/F25 ; aucune validation des opérations sensibles.",
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "COQ-SB",
+    "section": "Coque — barre latérale bureau",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "COQ-MH",
+    "section": "Coque — en-tête mobile",
+    "recette_precedente": "Non exercé",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "002-mobile-accueil"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "COQ-UNII",
+    "section": "Coque — bandeau unii",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ACC",
+    "section": "Accueil",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "002-mobile-accueil",
+      "021-tablette-accueil"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "LEC",
+    "section": "Lecteur document / séance",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "DOS",
+    "section": "Dossiers kanban",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "003-mobile-Dossiers",
+      "022-tablette-Dossiers"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "DOS-NEW",
+    "section": "Nouveau dossier",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "DOS-DET",
+    "section": "Detail dossier",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "REP",
+    "section": "Reporting",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "013-mobile-Bilan de mandat",
+      "032-tablette-Bilan de mandat"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "PJ",
+    "section": "Pieces jointes",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "SIG",
+    "section": "Signature electronique",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Parcours ciblé exécuté — couverture partielle",
+    "preuves": [
+      "052-paysage-signature-document",
+      "053-signature-sans-consentement",
+      "054-mobile-signature"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "IA",
+    "section": "Assistant ia",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "016-mobile-Assistant IA",
+      "035-tablette-Assistant IA"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "SON-NEW",
+    "section": "Nouveau sondage",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "SON-NEW-1",
+    "section": "Étape 1 : questions",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "SON-NEW-2",
+    "section": "Étape 2 : diffusion",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "SON-NEW-3",
+    "section": "Étape 3 : relecture & diffusion",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "SON",
+    "section": "Liste sondages",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "014-mobile-Sondages",
+      "033-tablette-Sondages"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "SON-DET",
+    "section": "Detail sondage",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "REU",
+    "section": "Reunions — liste",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "005-mobile-Réunions",
+      "024-tablette-Réunions"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "REU-DIC",
+    "section": "Reunions — dictaphone",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "058-mobile-micro-consentement"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "REU-DIC-1",
+    "section": "Consentement",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "058-mobile-micro-consentement"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "REU-DIC-2",
+    "section": "Attente d'autorisation micro",
+    "recette_precedente": "Non exercé",
+    "nouveau_statut": "Tests de logique avec mocks uniquement — aucun micro réel",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "REU-DIC-3",
+    "section": "En cours / pause / terminé",
+    "recette_precedente": "Non exercé",
+    "nouveau_statut": "Tests de logique avec mocks uniquement — aucun micro réel",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "REU-DET",
+    "section": "Reunions — detail",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [
+      {
+        "section": "REU-DET",
+        "parcours": "Écouter",
+        "attendu": "Ouvrir une lecture audio et journaliser",
+        "observe": "Simple message de succès",
+        "statut": "Simulation F26",
+        "preuve": "012-reunion-ecouter"
+      },
+      {
+        "section": "REU-DET",
+        "parcours": "PV depuis marqueurs",
+        "attendu": "Générer un brouillon lié à la réunion",
+        "observe": "14 blocs créés ; quatre marqueurs repris ; avertissement de dépassement de page affiché ; contenu à relire",
+        "statut": "Génération réelle ; anomalie de navigation F27",
+        "preuve": "017-pv-genere-navigation-forcee"
+      }
+    ],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "DOC",
+    "section": "Espace documents — accueil",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "006-mobile-Documents",
+      "025-tablette-Documents"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "DOC-EDI",
+    "section": "Espace documents — editeur",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Parcours ciblé exécuté — couverture partielle",
+    "preuves": [
+      "051-paysage-document-editeur",
+      "057-mobile-agenda-odj"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "DOC-EDI-C",
+    "section": "Panneau contenu",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "DOC-EDI-S",
+    "section": "Panneau style (fourni par les extensions)",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "DOC-EDI-CH",
+    "section": "Panneau charte",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "DOC-GEN",
+    "section": "Generateur de documents",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "RAC",
+    "section": "Raccourcis",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "AGE",
+    "section": "Agenda partagé",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Parcours ciblé exécuté — couverture partielle",
+    "preuves": [
+      "004-mobile-Agenda",
+      "023-tablette-Agenda"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [
+      {
+        "section": "AGE",
+        "parcours": "Événement vide",
+        "attendu": "Refuser un intitulé vide",
+        "observe": "Donnez un intitulé à l’événement",
+        "statut": "Validé sur ce cas",
+        "preuve": "026-agenda-titre-vide"
+      },
+      {
+        "section": "AGE",
+        "parcours": "Fin avant début",
+        "attendu": "Refuser 08:00 après début 09:00",
+        "observe": "L’heure de fin doit suivre l’heure de début ; annulation sans création",
+        "statut": "Validé sur ce cas",
+        "preuve": "027-agenda-horaire-inverse"
+      }
+    ],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ADH",
+    "section": "Adherents — liste / groupes / cotisations",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "011-mobile-Adhérents",
+      "030-tablette-Adhérents"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [
+      {
+        "section": "ADH",
+        "parcours": "Pagination",
+        "attendu": "Passer de 1–5 à 6–10 puis 11–12",
+        "observe": "Dernière page atteinte et bouton suivant désactivé",
+        "statut": "Validé sur ce cas",
+        "preuve": "010-pagination-derniere"
+      }
+    ],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ADH-IMP",
+    "section": "Adherents — import csv",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ADH-FIC",
+    "section": "Adherents — fiche",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [
+      {
+        "section": "ADH-FIC",
+        "parcours": "Annulation de fiche",
+        "attendu": "Abandonner la valeur temporaire",
+        "observe": "Valeur initiale maintenue",
+        "statut": "Validé sur ce cas",
+        "preuve": "005-fiche-annulation"
+      },
+      {
+        "section": "ADH-FIC",
+        "parcours": "Sauvegarde et rechargement",
+        "attendu": "Conserver la modification",
+        "observe": "Valeur RECETTE PERSISTANCE retrouvée après reconnexion ; valeur initiale restaurée ensuite",
+        "statut": "Validé sur ce cas",
+        "preuve": "007-fiche-apres-rechargement"
+      }
+    ],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ADH-MSG",
+    "section": "Adherents — message",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [
+      {
+        "section": "ADH-MSG",
+        "parcours": "Message vide",
+        "attendu": "Objet et texte obligatoires",
+        "observe": "Refus explicite obtenu ; aucun envoi",
+        "statut": "Validé sur ce cas",
+        "preuve": "002-message-vide-validation"
+      }
+    ],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "INT",
+    "section": "Intranet — accueil",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "012-mobile-Intranet",
+      "031-tablette-Intranet"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "INT-GEN",
+    "section": "Intranet — generateur de pages",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "INT-EDI",
+    "section": "Intranet — editeur de page",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "INT-PUB",
+    "section": "Intranet — envoi au webmaster",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "INT-SUI",
+    "section": "Intranet — suivi des publications",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "INT-CHA",
+    "section": "Intranet — gabarit du site",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "NOT",
+    "section": "Centre de notifications",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "RCH",
+    "section": "Recherche",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "UNII-CFG",
+    "section": "Reglages unii",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "048-paysage-unii"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "EXT",
+    "section": "Extensions",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "PAR",
+    "section": "Parametres",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "017-mobile-reglages",
+      "036-tablette-reglages"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "PAR-PRO",
+    "section": "Profil",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Parcours ciblé exécuté — couverture partielle",
+    "preuves": [
+      "018-mobile-profil",
+      "019-mobile-profil-edition",
+      "020-mobile-profil-annulation"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [
+      {
+        "section": "PAR-PRO",
+        "parcours": "Modifier signature",
+        "attendu": "Ouvrir les champs à modifier",
+        "observe": "Succès immédiat sans édition",
+        "statut": "Simulation F30",
+        "preuve": "031-profil-signature-edition"
+      }
+    ],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "COM",
+    "section": "Communication",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "009-mobile-Communication",
+      "028-tablette-Communication"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "COM-PLAN",
+    "section": "Plan éditorial",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "COM-ATE",
+    "section": "Atelier de contenus",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "COM-POL",
+    "section": "Pôle communication",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "MOB",
+    "section": "Application mobile",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "010-mobile-Application mobile",
+      "029-tablette-Application mobile"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "FOR",
+    "section": "Formations",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "008-mobile-Formations",
+      "027-tablette-Formations"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "FOR-IA",
+    "section": "Catalogue ia",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [
+      {
+        "section": "FOR-IA",
+        "parcours": "Recherche absente",
+        "attendu": "État vide compréhensible",
+        "observe": "Aucune formation ne correspond à ces critères",
+        "statut": "Validé sur ce cas",
+        "preuve": "018-formation-vide-confirme"
+      }
+    ],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "FOR-GEN",
+    "section": "Catalogue généraliste",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [
+      {
+        "section": "FOR-GEN",
+        "parcours": "Catalogue et demande/retrait",
+        "attendu": "Demande au bureau et retrait",
+        "observe": "Changement local uniquement, aucun service d’envoi dans fmRequest",
+        "statut": "Simulation F28",
+        "preuve": "021-demande-session-retiree"
+      }
+    ],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "FOR-UNII",
+    "section": "Formation avec unii",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "CTC",
+    "section": "Contacts & groupes",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "MEM",
+    "section": "Memoire assistant",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Parcours ciblé exécuté — couverture partielle",
+    "preuves": [
+      "037-tablette-memoire",
+      "038-tablette-memoire-ajout",
+      "039-tablette-memoire-edition",
+      "040-tablette-memoire-enregistree"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "complement_reprise": "Persistance après reconnexion prouvée : reprise/020-memoire-apres-reconnexion.",
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "PAR-NOT",
+    "section": "Preferences notifications",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Inspection — anomalie accessibilité F21",
+    "preuves": [
+      "041-tablette-notifications"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "SEC-IA",
+    "section": "Securite — documentation ia",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "PAR-SEC",
+    "section": "Securite",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "043-paysage-securite"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "PAR-RGPD",
+    "section": "Rgpd",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "044-paysage-rgpd"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "PAR-MBR",
+    "section": "Membres",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "045-paysage-membres"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [
+      {
+        "section": "PAR-MBR",
+        "parcours": "Invitation vide et annulation",
+        "attendu": "Refuser une adresse vide puis fermer",
+        "observe": "Message de validation puis retour à cinq membres",
+        "statut": "Validé sur ce cas ; invitation réelle non testée",
+        "preuve": "024-invitation-vide-refusee"
+      }
+    ],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "PAR-MAR",
+    "section": "Identite de marque",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "046-paysage-marque"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "PAR-IA",
+    "section": "Config ia",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "047-paysage-ia"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [
+      {
+        "section": "PAR-IA",
+        "parcours": "Tester connexion",
+        "attendu": "Réponse du service IA",
+        "observe": "Réponse reçue : OK",
+        "statut": "Validé sur ce cas",
+        "preuve": "034-connexion-ia-resultat"
+      }
+    ],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "MSG",
+    "section": "Messages — liste + fil + infos",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "007-mobile-Messages",
+      "026-tablette-Messages"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "OFF",
+    "section": "Mode hors ligne",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Parcours partiel + simulation confirmée F20",
+    "preuves": [
+      "015-mobile-Hors ligne",
+      "034-tablette-Hors ligne"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ONB",
+    "section": "Onboarding",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "049-paysage-onboarding"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [
+      {
+        "section": "ONB",
+        "parcours": "Importer CSV élus",
+        "attendu": "Ouvrir le parcours d’import",
+        "observe": "Ouvre seulement la liste des membres",
+        "statut": "Anomalie F29",
+        "preuve": "030-onboarding-import-csv"
+      }
+    ],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "ADB",
+    "section": "Tableau de bord admin",
+    "recette_precedente": "Écran inspecté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "050-paysage-admin"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "MOD-ANON",
+    "section": "Fenêtre — Contrôle d'anonymisation",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Navigation / état inspecté",
+    "preuves": [
+      "059-tablette-erreur-ia-serveur-arrete",
+      "060-tablette-erreur-ia-reessayer"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "MOD-IAERR",
+    "section": "Fenêtre — Erreur IA",
+    "recette_precedente": "Non exercé",
+    "nouveau_statut": "Erreur et nouvelle tentative exécutées — anomalie F18",
+    "preuves": [
+      "059-tablette-erreur-ia-serveur-arrete",
+      "060-tablette-erreur-ia-reessayer"
+    ],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "UNII",
+    "section": "Panneau unii (assistant latéral)",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "MOD-FWM",
+    "section": "Fenêtre — fwm (transfert/webmaster)",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "MOD-DPM",
+    "section": "Fenêtre — dpm",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "MOD-CTM",
+    "section": "Fenêtre — contact",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "MOD-GRM",
+    "section": "Fenêtre — groupe",
+    "recette_precedente": "Parcours exécuté",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  },
+  {
+    "id": "MOD-SHEET",
+    "section": "Feuille mobile (sheet)",
+    "recette_precedente": "Parcours partiel",
+    "nouveau_statut": "Pas de nouveau test UI dans cette passe",
+    "preuves": [],
+    "validation_globale": "Non prononcée",
+    "cas_etape1": [],
+    "decision": "Couverture ciblée documentée ; pas de validation globale implicite."
+  }
+]

@@ -1,0 +1,1627 @@
+{
+  "version": "2026-10-23-v1",
+  "statut": "candidate",
+  "date": "2026-10-23",
+  "files": [
+    {
+      "path": "LIRE-MOI.txt",
+      "size": 3738,
+      "sha256": "1be1f3f7ed7b11c415e5bf9df2cb63483a6dbe5cd5e9c320c82a2440167bc2c2"
+    },
+    {
+      "path": "application/LIRE-MOI.txt",
+      "size": 219,
+      "sha256": "c705548c14186be0aee5cdee8650e2f3295c1b184f379e784a043aeaa921627c"
+    },
+    {
+      "path": "application/Lancer.command",
+      "size": 163,
+      "sha256": "b51d92e6b998b366801b3202bfbe043037c6122354922ccf4fa05543469bcdf3"
+    },
+    {
+      "path": "application/corrections/avant/prototype.html",
+      "size": 1402605,
+      "sha256": "5c17681a2cb40d73388e95c74a464ca5096b3d2f7e7b81b7235454717f548592"
+    },
+    {
+      "path": "application/corrections/avant/server.py",
+      "size": 6897,
+      "sha256": "a7d5e53fb2cacf1d7f9f9af75fde19f67c35d535e5376aa5678ba02172b6cd26"
+    },
+    {
+      "path": "application/exports.py",
+      "size": 5373,
+      "sha256": "a9c60814da37b6aada7f20e5e28c1b63505c671537c513a1f080a1d1747b9788"
+    },
+    {
+      "path": "application/public/Guide extensions uniion.md",
+      "size": 24479,
+      "sha256": "7f00317086be1dbad916295a2dcd7ebe315d2e01417ac59b54afd106945ce9df"
+    },
+    {
+      "path": "application/public/extensions/uniion-studio.js",
+      "size": 89885,
+      "sha256": "e09e05d005cbc25152e84caab4e562016c5f8e6d903ec29f18bce1048ddf1b38"
+    },
+    {
+      "path": "application/public/support.js",
+      "size": 69150,
+      "sha256": "8fe7df74405f3c55f49b7249c74ea1397e65d07dea2b1bd3b4a489bec2e28cbe"
+    },
+    {
+      "path": "application/public/uniion App v3.dc.html",
+      "size": 1411146,
+      "sha256": "aab89a268b862fa5ab7ab487daf09d895139ec9bdb56f8a2ebff543d4cd7f591"
+    },
+    {
+      "path": "application/public/uniion-logo.png",
+      "size": 13183,
+      "sha256": "88a861b5d5aace4ddbcfd818fb65389e6a0ba14e1491b9b9951d2c85d189bb5c"
+    },
+    {
+      "path": "application/server.py",
+      "size": 8244,
+      "sha256": "62a7673e7f658377f4d02579fdb9415a5ccf1cd2920adfe4594c885255f6c9d9"
+    },
+    {
+      "path": "application/tests/bridge_test.py",
+      "size": 1478,
+      "sha256": "71bb64a4a8bf137b629fdfc3773a72f9f53ae14aaffcf51aaa40754007ecd04e"
+    },
+    {
+      "path": "application/tests/design_test.py",
+      "size": 723,
+      "sha256": "8776cfb58ca5d87f64ab349bd59831dbcba13d118776e563879c12438172bebf"
+    },
+    {
+      "path": "application/tests/exports_test.py",
+      "size": 1003,
+      "sha256": "6a9323da514711d3260fd330b48713ab77ba1b55bc4e34ba9cc97532bc6d98d7"
+    },
+    {
+      "path": "application/tests/regression.cjs",
+      "size": 7503,
+      "sha256": "ad61e0996dc298df57e5135f60874b290daa87e8e290b555c03a160ae76acc64"
+    },
+    {
+      "path": "captures/ACC.jpg",
+      "size": 70605,
+      "sha256": "97bf66367c9b80c6c6762b20224dc4ce25f03b389b90bfe170a4c3c9ae1cc394"
+    },
+    {
+      "path": "captures/ACC.txt",
+      "size": 4670,
+      "sha256": "4aeac04fb4ff0e7fa32a5307e5186fd445c3fb20f9eb0bc705e03a2fc48cca9b"
+    },
+    {
+      "path": "captures/ADH.jpg",
+      "size": 60153,
+      "sha256": "af15cccd78a58db68427757d349b1f0fc2917e2afb4403b3aaacca491ad659bd"
+    },
+    {
+      "path": "captures/ADH.txt",
+      "size": 6034,
+      "sha256": "62393ff46ae9c146dad7a39c85b8fd9909673815db8dae306b97bb215a05455f"
+    },
+    {
+      "path": "captures/AGE.jpg",
+      "size": 63393,
+      "sha256": "5449ff09f6b0f2cf10243f9a3dae2244de03fc0b787e129541e5a3696adb9d0c"
+    },
+    {
+      "path": "captures/AGE.txt",
+      "size": 6221,
+      "sha256": "83569aea3d916ed499ff03a52eeb7b851991c2f8c89031c3c8d490f6113acfcb"
+    },
+    {
+      "path": "captures/AUTH-MFA.jpg",
+      "size": 53443,
+      "sha256": "a75f3e9a762d12cfdf89619b7454d6f50e80e3ccbb0a5203937e30b6d830dc3e"
+    },
+    {
+      "path": "captures/AUTH-MFA.txt",
+      "size": 1149,
+      "sha256": "5b2e21e3bc203ba9d46f7cbe75c834011db489d4994a5f2c41219cd4c8bfcb0e"
+    },
+    {
+      "path": "captures/AUTH.jpg",
+      "size": 53991,
+      "sha256": "5cbe2deb67711c1827db4b0ead6b34cc30e5f770b30bf77879585559afa2bc85"
+    },
+    {
+      "path": "captures/AUTH.txt",
+      "size": 1252,
+      "sha256": "083af19a6ce3b4a3125111d98625d8876a757c2642108184d505a919da7a0b7b"
+    },
+    {
+      "path": "captures/COM.jpg",
+      "size": 92914,
+      "sha256": "ad31326c6842d73248b05a92cfb3ec504344cf91f96aa42df7f76459185f9c75"
+    },
+    {
+      "path": "captures/COM.txt",
+      "size": 6296,
+      "sha256": "7cfe5f6c35fe10ae80ec64bd0e201effb61d6be46f102b63613f969cf0c6887f"
+    },
+    {
+      "path": "captures/DOC.jpg",
+      "size": 76287,
+      "sha256": "7dfa1b7d36bb440f0f3791da550a51672bebd23a5446d9e0e6e8944d20d631cb"
+    },
+    {
+      "path": "captures/DOC.txt",
+      "size": 5317,
+      "sha256": "97cf6295d445b4e7bc122752debda80a7145eee3dccd9100d4a328461eca8f15"
+    },
+    {
+      "path": "captures/DOS.jpg",
+      "size": 71475,
+      "sha256": "241ba0bbca98e245b558f6ba378eb7f99981ed000da5908625fd114045b423db"
+    },
+    {
+      "path": "captures/DOS.txt",
+      "size": 5011,
+      "sha256": "fe009ac792da1b7f0c46d9d9536ffd99a3696e88fb77029a380f96a790eb8080"
+    },
+    {
+      "path": "captures/FOR.jpg",
+      "size": 83498,
+      "sha256": "49d34a4e0f50de6f2406d8768aac39e7dbbe9d34926442be1695ee38a52ea304"
+    },
+    {
+      "path": "captures/FOR.txt",
+      "size": 13675,
+      "sha256": "fb3fe5355fb1e6e3b0beaf0b19d2c0d916c2f8e16862e47e860c3db7c2f921b7"
+    },
+    {
+      "path": "captures/IA.jpg",
+      "size": 72484,
+      "sha256": "9a7798dae2a735472e003bd7c9ab2064ad7ad413d58146d707507e40fc415f72"
+    },
+    {
+      "path": "captures/IA.txt",
+      "size": 3953,
+      "sha256": "14a739e4d789122b1ff15e29b0365f1d31503051eb718fba7490f44a8d56a47c"
+    },
+    {
+      "path": "captures/MOB.jpg",
+      "size": 82930,
+      "sha256": "c7a95c334c6c4da858d8bdbde4d69612a2def3a7903cc8c90c9a320bd58e00e2"
+    },
+    {
+      "path": "captures/MOB.txt",
+      "size": 5187,
+      "sha256": "69225d400b2d7ab6fc044196bfe3c73077af8ff0913d07c6d82e1ceb986fbf17"
+    },
+    {
+      "path": "captures/MSG.jpg",
+      "size": 72657,
+      "sha256": "cf20f3721f48a01e4a347bc0fe6d821baedc8ca8cc90f5bdc2e9493d7e550625"
+    },
+    {
+      "path": "captures/MSG.txt",
+      "size": 4084,
+      "sha256": "b23ae670496e04624435b1527fadae8bcd0e94708d6c38023668c9452cd1fad9"
+    },
+    {
+      "path": "captures/PAR.jpg",
+      "size": 83760,
+      "sha256": "f399a90cdb706d399a7abfec61a602231a57ec026b59641e0fff0d6fd2f64853"
+    },
+    {
+      "path": "captures/PAR.txt",
+      "size": 8484,
+      "sha256": "1631e2c1437945b1d2b459fcf51cf5dc6381d14fe25a09af2710a254456f8b65"
+    },
+    {
+      "path": "captures/RAC.jpg",
+      "size": 62123,
+      "sha256": "7c0e79caa5314d21e223d5f0c8b0483eff6c228487f96e8b272ff8961cdb5491"
+    },
+    {
+      "path": "captures/RAC.txt",
+      "size": 2649,
+      "sha256": "ee3e84e133da62e79b1958e5721d2bd34cc8c92ca57d338fd15d4383567c3566"
+    },
+    {
+      "path": "captures/REP.jpg",
+      "size": 84579,
+      "sha256": "1ddd5e12143957825a763c56867068fcb237241318104eaaf37c36130451bdf4"
+    },
+    {
+      "path": "captures/REP.txt",
+      "size": 3431,
+      "sha256": "47b39607af179a80f065f3f4b33f052824a417b9071851b51a82445a408f7b5c"
+    },
+    {
+      "path": "captures/REU.jpg",
+      "size": 69422,
+      "sha256": "606acac9289be47858748434ffef037a2e36e48857c574b758af2210a68d879d"
+    },
+    {
+      "path": "captures/REU.txt",
+      "size": 3811,
+      "sha256": "6a82c359477ee545c00a3126a0f04a232fd82316362d8b7d67fc37c5d8ff4205"
+    },
+    {
+      "path": "captures/WEB.jpg",
+      "size": 67626,
+      "sha256": "e186e1a28c36598e2da69d9fb2087f1c24969f49720482ea256eb987dc374e19"
+    },
+    {
+      "path": "captures/WEB.txt",
+      "size": 7917,
+      "sha256": "0a1454e8e39d05a721b22d55a120387eab14d8653c7f828d05098c4d0c495209"
+    },
+    {
+      "path": "captures/index.json",
+      "size": 2714,
+      "sha256": "bd26da1237f02a4b21ae339ad04e122e9a514ea308649e8f5ea8969890e7838f"
+    },
+    {
+      "path": "index.html",
+      "size": 22340,
+      "sha256": "035e3bf5330af942e8b0e2db7c36d697bf4c323985130c1bd8eb70b0d46894dd"
+    },
+    {
+      "path": "matrice-validation.json",
+      "size": 68147,
+      "sha256": "0f345655491d11025e50ce22cf563b0a58d9a785b51b4f388df640a3d1e2aae9"
+    },
+    {
+      "path": "parcours.json",
+      "size": 5509,
+      "sha256": "4f638ce0544ce79bf9dd8c211c6eb87169920ec4e221bdaaa463f27d874f2f1b"
+    },
+    {
+      "path": "preuves/corrections/RAPPORT-CORRECTIONS.html",
+      "size": 6692,
+      "sha256": "81d74fb1aa166af38ba64cf792eba6af3b54a9b0d65db023a53c4927e65ca147"
+    },
+    {
+      "path": "preuves/corrections/RAPPORT-CORRECTIONS.txt",
+      "size": 6255,
+      "sha256": "c2ec65f46b90f809335f6b60db7bb2aee01072b9685caa7aadb98852253d9468"
+    },
+    {
+      "path": "preuves/corrections/avant/prototype.html",
+      "size": 1402605,
+      "sha256": "5c17681a2cb40d73388e95c74a464ca5096b3d2f7e7b81b7235454717f548592"
+    },
+    {
+      "path": "preuves/corrections/avant/server.py",
+      "size": 6897,
+      "sha256": "a7d5e53fb2cacf1d7f9f9af75fde19f67c35d535e5376aa5678ba02172b6cd26"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Accueil.txt",
+      "size": 4824,
+      "sha256": "6e3c41de357ccacc1b0c497ab4b9b599cd50c059010e81795d85a17cf6faf425"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Adhérents.txt",
+      "size": 6034,
+      "sha256": "243f2c1bad1d7c5ddd6758f454169c57185843082c7d0e86defc1bcdbcf8e109"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Agenda.txt",
+      "size": 6490,
+      "sha256": "f2b499f5cd7d489fed8324e9474e848e78eceb7d4f109c88633df46a5935cce7"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Application mobile.txt",
+      "size": 5640,
+      "sha256": "4155cde8856cc39a523a0b27ed45f0a22909d73bb603b5162e658f256c93d58b"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Assistant.txt",
+      "size": 6673,
+      "sha256": "b9f7f18c74b141630e948dd97605dba91a23bea3c92103ba35fe5e7bb47d10a3"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Communication.txt",
+      "size": 6787,
+      "sha256": "1c268c136256eb850acfc1132ca3f3ccb9c712edaa213f64ab018964960c7bf7"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Documents.txt",
+      "size": 6123,
+      "sha256": "fae824852749393f9bc4d6a1fdd7a7c6d2b048f2f06b3cfadd25d6580d43874d"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Dossiers.txt",
+      "size": 6427,
+      "sha256": "f69a91573c66fe4cf95035c9b1d36dccabd062d7b1817d8f750809c2b10fe57b"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Formations.txt",
+      "size": 13680,
+      "sha256": "a87ed52d95750a4edeaa82ca9974810cc27a96bc0e3ff4ea7ac56091c436e9bd"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Intranet.txt",
+      "size": 7530,
+      "sha256": "4cc6bbfa33f23b41a48c041055bf16128431cd3b7daf337616b5bb8aa0a3857b"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Messages.txt",
+      "size": 4674,
+      "sha256": "c8976fcf49c75bdab5a4b8e181e8fc4d29c53315a3269b092a2b8fb846daa56e"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Raccourcis.txt",
+      "size": 1584,
+      "sha256": "b5176a93131773b9588306b118bb7b8848090f9b264a516e6f17813163fb38ae"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Reporting.txt",
+      "size": 2238,
+      "sha256": "c5d35351bb9fca9b11b8df81a5a9002a83360950a9a2aa1d677f7144ecf3365d"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Réglages.txt",
+      "size": 8484,
+      "sha256": "bfdae37747c407e316e942f48ffb29f3c216097eb9fa5904cc8b14173e66b3d0"
+    },
+    {
+      "path": "preuves/corrections/ecrans/Réunions.txt",
+      "size": 2654,
+      "sha256": "1b0536047c7dc467e458775a8909d7037d0ed1208fdeb00903eff8b5085f71e6"
+    },
+    {
+      "path": "preuves/corrections/messagerie-corrigee.png",
+      "size": 105288,
+      "sha256": "760f03170488127c56d1ea36a88b0d35141ee6c96c8160ccd7850fab5d7dc69e"
+    },
+    {
+      "path": "preuves/corrections/messagerie-ia.txt",
+      "size": 1279,
+      "sha256": "49bed5d615b262b08db71c1e34293ee02783ed3a39764c6589d32c18876f596e"
+    },
+    {
+      "path": "preuves/corrections/tests-exports.txt",
+      "size": 102,
+      "sha256": "af55efa5c3ceb122f8184c380aa405d3f3b4e7e0c1e892773d0eff31d0645c8a"
+    },
+    {
+      "path": "preuves/corrections/tests-regression.txt",
+      "size": 1102,
+      "sha256": "730d64b5d5017065c42320c593be7acaa76a76eb1c9f37f501e823659231df71"
+    },
+    {
+      "path": "preuves/corrections/verification-design.txt",
+      "size": 71,
+      "sha256": "2d6ab382a92c953f5ad11321b2fbc5af2ae82a57472227f614aa900cf0097016"
+    },
+    {
+      "path": "preuves/recette-initiale/001-auth-recovery.txt",
+      "size": 1716,
+      "sha256": "342f82e1b90e4252cd7f54a6ff8fbe58affd061fa61fcddc516588f1b590b436"
+    },
+    {
+      "path": "preuves/recette-initiale/002-auth-recovery-result.txt",
+      "size": 1511,
+      "sha256": "1da81cc8b500a0483ecd25c8360a5d127c84abaf135ceea0f0f2e815c46d1265"
+    },
+    {
+      "path": "preuves/recette-initiale/002-dossier-nouveau.txt",
+      "size": 2292,
+      "sha256": "f1e74d3541fbce69d602f6c390c69971e4bd372689dbf6fda52ba2f7c8b04547"
+    },
+    {
+      "path": "preuves/recette-initiale/003-auth-sso.txt",
+      "size": 1111,
+      "sha256": "183baad925313113dfe053818e0d7d6808cbaf681d0cfa2351ea524d6bd031ca"
+    },
+    {
+      "path": "preuves/recette-initiale/003-dossier-vide.txt",
+      "size": 4430,
+      "sha256": "d47cf417f92874f0d0f9871826458f5e09a47c31916d640b08914f5bb2255fab"
+    },
+    {
+      "path": "preuves/recette-initiale/003-style-journal.txt",
+      "size": 12736,
+      "sha256": "d02e879a9c27eeb4b969eb29a2397bf88c2f9b34cd37d237c1a22c3aed7de36d"
+    },
+    {
+      "path": "preuves/recette-initiale/004-auth-sso-mfa.txt",
+      "size": 1160,
+      "sha256": "bd75fb4f03142e2101ba6980f7e6fda2629063623c11267a066b176698bbe122"
+    },
+    {
+      "path": "preuves/recette-initiale/004-dossier-modifier.txt",
+      "size": 4562,
+      "sha256": "4413683da98ded8efd060f5539cc646cbfa06dac7e075b272d5636a76720a063"
+    },
+    {
+      "path": "preuves/recette-initiale/004-editeur-charte.txt",
+      "size": 6766,
+      "sha256": "af2266b59ed0f7f62f06450f06032d1b1c04f9ba252545afd71ede3913138b66"
+    },
+    {
+      "path": "preuves/recette-initiale/005-auth-mfa-invalide.txt",
+      "size": 1237,
+      "sha256": "3623b5ff66de06d6feeacded70822f051dbf4c00ae6bc071901b5bb25279efcd"
+    },
+    {
+      "path": "preuves/recette-initiale/005-dossier-edite.txt",
+      "size": 4420,
+      "sha256": "8155564bdc911485ca69b07c6abebcfdc023fbc7138432b99adb268a5ff06321"
+    },
+    {
+      "path": "preuves/recette-initiale/005-signature.txt",
+      "size": 3747,
+      "sha256": "c9efac8c3d7520526fe799c7b826fe24f77d035b7853092448f1512faae5a9d0"
+    },
+    {
+      "path": "preuves/recette-initiale/006-accueil.txt",
+      "size": 4746,
+      "sha256": "a3b360ea7a400cb73c5830438f8b715d84929a0f88c18d41fb7c92f896b7e3d2"
+    },
+    {
+      "path": "preuves/recette-initiale/006-dossier-edition-clavier.txt",
+      "size": 4420,
+      "sha256": "8155564bdc911485ca69b07c6abebcfdc023fbc7138432b99adb268a5ff06321"
+    },
+    {
+      "path": "preuves/recette-initiale/006-reunion-detail.txt",
+      "size": 4120,
+      "sha256": "0c1b2f9d1d3b49dfeeb0db7d25c9f19045f4f8f39d0ee1c363f125f866d8c760"
+    },
+    {
+      "path": "preuves/recette-initiale/007-dossiers.txt",
+      "size": 4971,
+      "sha256": "2c4690ac1dd0b61ec9979db6b0d295bfd3b90af2e296d2e19d5420fe5ca828af"
+    },
+    {
+      "path": "preuves/recette-initiale/007-pv-ia-lancement.txt",
+      "size": 4170,
+      "sha256": "e5928f033a2663b5d77f359a9bfb1100229aec6c4abc466b21adac23b9a08a35"
+    },
+    {
+      "path": "preuves/recette-initiale/007-titre-saisi.txt",
+      "size": 4580,
+      "sha256": "037aab5db0ee0d0291a8466422c18d00b61e8193f8ed6b8372b4e0884bd3f2d9"
+    },
+    {
+      "path": "preuves/recette-initiale/008-dossier-ia.txt",
+      "size": 4456,
+      "sha256": "3a410d090151424835534ae1c7bdabf1ed9d87bcfbb23528a41921db6211b1ae"
+    },
+    {
+      "path": "preuves/recette-initiale/008-enregistrement-consentement.txt",
+      "size": 3328,
+      "sha256": "5fa1ecc69579111ffd746830ab503d7a48e5f8c01dc00513d9ade1effdc9b91c"
+    },
+    {
+      "path": "preuves/recette-initiale/009-dossier-ia-resultat.txt",
+      "size": 4425,
+      "sha256": "d8ec297fee9c6348ad6271aab88f6ee354cf22df80b959e48306f0e9ba40e1e2"
+    },
+    {
+      "path": "preuves/recette-initiale/009-enregistrement-autorise-demo.txt",
+      "size": 3412,
+      "sha256": "a27bd6e4142df0e310a5b23ccc0c459e611ec8238a1b7fa6d386aec269277f57"
+    },
+    {
+      "path": "preuves/recette-initiale/010-pieces-vide.txt",
+      "size": 2535,
+      "sha256": "5566099a75bcd00edf85a5eca6eb403147752e7d7a6bbad518057b01e005779f"
+    },
+    {
+      "path": "preuves/recette-initiale/010-retour-accueil.txt",
+      "size": 4749,
+      "sha256": "ab25c83f38d57aab74334b93f40b12f59fb7be0ff34a7d774ddeafb52e003bec"
+    },
+    {
+      "path": "preuves/recette-initiale/011-pieces-depot.txt",
+      "size": 2641,
+      "sha256": "f602e206334b18532a68775cf6a8b4badf8e714dbd423d7fa394ccb69d26f15e"
+    },
+    {
+      "path": "preuves/recette-initiale/011-sondages.txt",
+      "size": 2879,
+      "sha256": "3a3f1f0dd4b9cd6f0c78d58ca5d60af54abdc9f119fbde4e98e02426e04cb981"
+    },
+    {
+      "path": "preuves/recette-initiale/012-pieces-resultat.txt",
+      "size": 3125,
+      "sha256": "bb84f42717f1b4a12c35229017ea437a849223fa24565929f81b5aed6bfed752"
+    },
+    {
+      "path": "preuves/recette-initiale/012-sondage-creation.txt",
+      "size": 2761,
+      "sha256": "8b86583ed9b4292aa2eae13b8bfd71094be0e07efe6e15637c7352b4405c9f82"
+    },
+    {
+      "path": "preuves/recette-initiale/013-documents.txt",
+      "size": 5271,
+      "sha256": "c5795b80015142d977f384bc3531e664b9c13c8a05cdb12676cbccd4a2bb3c17"
+    },
+    {
+      "path": "preuves/recette-initiale/013-sondage-suggestions.txt",
+      "size": 3145,
+      "sha256": "ad3dc16d9ae2cde2f19491fe808d10186117338a904a61c423cff3b8bc7cbb67"
+    },
+    {
+      "path": "preuves/recette-initiale/014-generateur-document.txt",
+      "size": 2758,
+      "sha256": "5eab8ff087e0c76dd29aeb47188b3ec2fc2b27157d8084a4c8accbf3bff08fc2"
+    },
+    {
+      "path": "preuves/recette-initiale/014-sondage-diffusion.txt",
+      "size": 3335,
+      "sha256": "08260a789cd7fbac3d1c18c8ef2d3e8ac7b72b452407bb938c721e682ac87a5b"
+    },
+    {
+      "path": "preuves/recette-initiale/015-document-ia-lancement.txt",
+      "size": 2889,
+      "sha256": "ea5b015e2535aacfb783199c1fa87943a015d8004994bf3a5c8bb220cd2d9a00"
+    },
+    {
+      "path": "preuves/recette-initiale/015-sondage-relecture.txt",
+      "size": 3554,
+      "sha256": "0b8c6a3f1af8d64796c75ba0ce2dae5737c8c8988bd2fdee4aee4b75370c7c36"
+    },
+    {
+      "path": "preuves/recette-initiale/016-agenda.txt",
+      "size": 6188,
+      "sha256": "57f1b1e34dceaa87fea95229a47ea5fb6a9803302abecea8e81c9fdb44595986"
+    },
+    {
+      "path": "preuves/recette-initiale/016-sondage-envoye.txt",
+      "size": 3581,
+      "sha256": "3ce5ed657e4e8be21b3ded24b4dc338cb66c6b32af3b805007690114e91cf55e"
+    },
+    {
+      "path": "preuves/recette-initiale/017-adherents.txt",
+      "size": 6052,
+      "sha256": "088315806dbc8eeae47f2430734c2fc91205e9f863823f2b9ca7da8a9fdc77fb"
+    },
+    {
+      "path": "preuves/recette-initiale/017-agenda-nouveau.txt",
+      "size": 6246,
+      "sha256": "aa97722a7e97a6c70506893b98aeaed1af3d266e75097e5bdc1e5becd8014acb"
+    },
+    {
+      "path": "preuves/recette-initiale/018-adherent-fiche.txt",
+      "size": 3655,
+      "sha256": "d6a9c904315ab5d6aba7b3fb6c4824bb9fcfc7f9260b17b4a83f71bbf93c149e"
+    },
+    {
+      "path": "preuves/recette-initiale/018-agenda-cree.txt",
+      "size": 7045,
+      "sha256": "5d4e7be371f6c968d36ebd5a7fc4809a09dbe94f1c500f22cbcdcc9227897cce"
+    },
+    {
+      "path": "preuves/recette-initiale/019-adherent-edition.txt",
+      "size": 5147,
+      "sha256": "4a2a22a5aea0d218ab0b068d2e319983526abd4ae2a8091e6badc1066f5c2197"
+    },
+    {
+      "path": "preuves/recette-initiale/019-agenda-vers-odj.txt",
+      "size": 10182,
+      "sha256": "a32fdb7e1b160a02a6f776810e5d400e7ca8e3c85583da7e8c6b5a9e47e6028e"
+    },
+    {
+      "path": "preuves/recette-initiale/020-adherent-enregistre.txt",
+      "size": 3703,
+      "sha256": "ab2c9689ca6c189f75ebeb4086d76c807a88e3ebd8845ff740eb66c31abae2ee"
+    },
+    {
+      "path": "preuves/recette-initiale/020-editeur-style.txt",
+      "size": 12593,
+      "sha256": "57587d20210c1ce6b3703814f7fba9265b11780e87ee23db18559a9413ddb22a"
+    },
+    {
+      "path": "preuves/recette-initiale/021-adherent-message.txt",
+      "size": 3497,
+      "sha256": "23616146c4b8d0da0c5f82d2cb3ae535aea6f99d1332069e13090f24bb49c998"
+    },
+    {
+      "path": "preuves/recette-initiale/021-signature-document-incoherent.txt",
+      "size": 3747,
+      "sha256": "c9efac8c3d7520526fe799c7b826fe24f77d035b7853092448f1512faae5a9d0"
+    },
+    {
+      "path": "preuves/recette-initiale/022-message-modele.txt",
+      "size": 4357,
+      "sha256": "c9e8facb0a107452147668124c107053971f949e896ac9bcc24368086ceaaaee"
+    },
+    {
+      "path": "preuves/recette-initiale/022-reunions.txt",
+      "size": 3781,
+      "sha256": "5de29ec9476c2e4435c49e48232d5abe3f02c5940b88db0dc6e05ddb7dfbcc36"
+    },
+    {
+      "path": "preuves/recette-initiale/023-document-ia-resultat.txt",
+      "size": 3104,
+      "sha256": "4bc5b3528fb8a0d8293500c11702de6ffcd1d07963b8cb08c863e54ebcca3751"
+    },
+    {
+      "path": "preuves/recette-initiale/023-import-csv.txt",
+      "size": 4231,
+      "sha256": "582cecdbe4922d72537ae49d2f07e868fc64f8b3fd8852edd9b5b8ad1a32677b"
+    },
+    {
+      "path": "preuves/recette-initiale/024-import-exemple.txt",
+      "size": 5479,
+      "sha256": "4b103f9abd098b14b8d568472ea82112f6a6722c1675e24dfe866b214ddfa908"
+    },
+    {
+      "path": "preuves/recette-initiale/024-tract-resultat-attendu.txt",
+      "size": 5387,
+      "sha256": "362e23331a7088201cc875d8105bbb3b673ebfad6662c4ca8a911c07dc429809"
+    },
+    {
+      "path": "preuves/recette-initiale/025-import-resultat.txt",
+      "size": 6067,
+      "sha256": "a025ba3a853a0d4630dcf2afed702ca5b2e8454bb08007b3a2750ea0fb1221c5"
+    },
+    {
+      "path": "preuves/recette-initiale/025-notification-ia-resultat.txt",
+      "size": 8785,
+      "sha256": "b034d991c8a9938302a345c3c849cd97080be0f210da421c22f7158b7b30b916"
+    },
+    {
+      "path": "preuves/recette-initiale/026-configuration-ia.txt",
+      "size": 4321,
+      "sha256": "1a140d84995f25f4d23ba0f29bb9bfc5ea29534491ca5a80ec0b1e264e923aec"
+    },
+    {
+      "path": "preuves/recette-initiale/026-cotisations.txt",
+      "size": 4440,
+      "sha256": "b4c19959e905f2e44fcd44d28aa56eae81fa20d3f0ed908ca59c7d6d9a358c9f"
+    },
+    {
+      "path": "preuves/recette-initiale/027-autotest-extensions.txt",
+      "size": 5620,
+      "sha256": "cae961ce7e9b26a8b4c036bed11a90b0728938728caa073460e18a54dbcc4f0b"
+    },
+    {
+      "path": "preuves/recette-initiale/027-listes-diffusion.txt",
+      "size": 3685,
+      "sha256": "9ca16c26f28bc348075f20d7dbc391a8fdb26767c15af34933b7b9567eae6657"
+    },
+    {
+      "path": "preuves/recette-initiale/028-documents-apres-ia.txt",
+      "size": 6107,
+      "sha256": "8a55d8445b6f70675907583f0b134c695dcec95a096df2a6fd98544d92350e21"
+    },
+    {
+      "path": "preuves/recette-initiale/028-preferences-notifications-detail.txt",
+      "size": 2429,
+      "sha256": "4aa660de777604edc402a92a90f8daecdfb3cb1b547e71dfb8aafafd02de61c0"
+    },
+    {
+      "path": "preuves/recette-initiale/029-communication-resultat-fallback.txt",
+      "size": 5958,
+      "sha256": "2479168f49e86617212650b6338d56d855244acc73fdf6ab7a0de5b2c9f43bdb"
+    },
+    {
+      "path": "preuves/recette-initiale/029-document-ia-retest.txt",
+      "size": 3090,
+      "sha256": "b0b2f90e8dd3dbeb850dc40398b3ced735fd67a9acf75abacd451415697ae6e1"
+    },
+    {
+      "path": "preuves/recette-initiale/030-formation-attente-prolongee.txt",
+      "size": 5901,
+      "sha256": "220ac323671518be20a28db009ca4db39630ecd7309e250c780506cb9c3bf09a"
+    },
+    {
+      "path": "preuves/recette-initiale/030-tract-diffusion.txt",
+      "size": 5962,
+      "sha256": "f93f5e9f78900eaf2ab35a2b2ce39b0c87568c994a551bd4b174edc555b484d6"
+    },
+    {
+      "path": "preuves/recette-initiale/031-messages.txt",
+      "size": 4075,
+      "sha256": "7897812b97c14a1e27d58227bdc6c96f6cbae2e6dca1bcf4aeec4f150135fdf7"
+    },
+    {
+      "path": "preuves/recette-initiale/031-raccourci-sauve.txt",
+      "size": 2819,
+      "sha256": "4d0f7ec01d04a4b4b4d52feaea9219cd9e25aff983a0a380b238342721b9b9f7"
+    },
+    {
+      "path": "preuves/recette-initiale/032-conversation.txt",
+      "size": 4756,
+      "sha256": "0c1e07340b7d1aecb577d801d48b7255a589a7295867fc055530af0ac4bed77c"
+    },
+    {
+      "path": "preuves/recette-initiale/032-formation-correction-resultat.txt",
+      "size": 7085,
+      "sha256": "2069b7a8510e3b049592dd2f4b768a87b2f135ade5fe9a760b62c305c442d9df"
+    },
+    {
+      "path": "preuves/recette-initiale/033-message-envoye-local.txt",
+      "size": 4882,
+      "sha256": "22feb0449cfdc822a8a5f668ed7b5ac7885dce0968460cea275ab5c619b02ae0"
+    },
+    {
+      "path": "preuves/recette-initiale/033-recherche-resultats.txt",
+      "size": 1975,
+      "sha256": "1033693a57d40014cfe1990a9f041774eb2ec1052c2b8aa323b3e6d2a26be93f"
+    },
+    {
+      "path": "preuves/recette-initiale/034-communication-ia-resultat2.txt",
+      "size": 6237,
+      "sha256": "83c261244796083cb42e2e69466b8a84881e01da8fec312e214e74ebf8ae8dd1"
+    },
+    {
+      "path": "preuves/recette-initiale/034-message-unii.txt",
+      "size": 6029,
+      "sha256": "2a1908b717e7692264f01023b0842623c68ed01f605a47509c0a1790df5d87e9"
+    },
+    {
+      "path": "preuves/recette-initiale/035-lecteur-contenu.txt",
+      "size": 2497,
+      "sha256": "8c94413e30fc67f6bc9df4b7e8b4bb6bb1a19884dd2edb40f1bab5720ef5c6a7"
+    },
+    {
+      "path": "preuves/recette-initiale/035-message-unii-resumer.txt",
+      "size": 6029,
+      "sha256": "2a1908b717e7692264f01023b0842623c68ed01f605a47509c0a1790df5d87e9"
+    },
+    {
+      "path": "preuves/recette-initiale/036-assistant-masquage.txt",
+      "size": 4946,
+      "sha256": "c1d9b30a0d1110ec0d71bc13b5520aadf892dbad6a0d1759bc61db2a1d692167"
+    },
+    {
+      "path": "preuves/recette-initiale/036-unii-ferme.txt",
+      "size": 4916,
+      "sha256": "976d1caa262ad0b0f728999651a8aa19a3bc5d88227549e4f03660ae5b19b0ed"
+    },
+    {
+      "path": "preuves/recette-initiale/037-assistant-reponse-resultat.txt",
+      "size": 5692,
+      "sha256": "3d49bc30997f9c28bf699a2917b898a62fee10162a53c87621773145adab1780"
+    },
+    {
+      "path": "preuves/recette-initiale/037-conversation-infos.txt",
+      "size": 6036,
+      "sha256": "26f297772b5d26bb1081fb9aba13c61c71323468f7307da1291930b1d3112d9c"
+    },
+    {
+      "path": "preuves/recette-initiale/038-contacts-groupes.txt",
+      "size": 6505,
+      "sha256": "5d784da6bea48cd21667fa91a105773b80c8006eed12887fdd2994c2aaaf48d0"
+    },
+    {
+      "path": "preuves/recette-initiale/038-dossier-guide-invite.txt",
+      "size": 4537,
+      "sha256": "117e5a887c85821728d18a48cb70f7e6027c82d5edf2d2f51e316b70a72c8464"
+    },
+    {
+      "path": "preuves/recette-initiale/039-contact-nouveau.txt",
+      "size": 7204,
+      "sha256": "efe54b2804d11fc3a939eb8291084145d7ee6a6d6e4e5a201aafd17c0e993643"
+    },
+    {
+      "path": "preuves/recette-initiale/039-dossier-ia-resultat.txt",
+      "size": 5412,
+      "sha256": "11f18ad8635f1d5c08addff097a5b8689dd41594bd11de88cd9174f84b488a4e"
+    },
+    {
+      "path": "preuves/recette-initiale/040-assistant-hors-perimetre.txt",
+      "size": 5475,
+      "sha256": "eb9824a7901444f27f68b840e07d573aed8c855817a59cd41cb46cb94811917d"
+    },
+    {
+      "path": "preuves/recette-initiale/040-contact-cree.txt",
+      "size": 6668,
+      "sha256": "dae5d8d3252b1a6ea2591b91322dd7a7b8ea3512dfa80a11680949afaa7fe485"
+    },
+    {
+      "path": "preuves/recette-initiale/041-assistant-refus-resultat.txt",
+      "size": 5267,
+      "sha256": "3c2ff1dbb2ede5e2fbe7f11cc0015569a40497239f324e45a59aa178f5b5786a"
+    },
+    {
+      "path": "preuves/recette-initiale/041-conversation-fictive.txt",
+      "size": 4327,
+      "sha256": "718e3aee8c0c6b121b91c0d87ea2ab0d60a73e6944563fa740c0275aef8ce893"
+    },
+    {
+      "path": "preuves/recette-initiale/042-assistant-refus-final.txt",
+      "size": 5767,
+      "sha256": "4fb865ad8f02ebb28b6ed378ff1294e072a2c3a04f411d387a534907387fcce2"
+    },
+    {
+      "path": "preuves/recette-initiale/042-mention-unii-sans-reponse.txt",
+      "size": 4293,
+      "sha256": "6cdf2ea3c453dcdda254247a69bc79b66d1bc94f763612ce1875286dc004f1aa"
+    },
+    {
+      "path": "preuves/recette-initiale/043-intranet.txt",
+      "size": 7895,
+      "sha256": "3b6ff2c1a27841367a72d59029247aedb879fd7f80d35c4b3da39e39cf5b701c"
+    },
+    {
+      "path": "preuves/recette-initiale/043-masquage-rps-fictif.txt",
+      "size": 6026,
+      "sha256": "b8f89175fd110f569232a3a6af61e2d7360d73db6e4f726491ae0657c3733d10"
+    },
+    {
+      "path": "preuves/recette-initiale/044-masquage-rps-effectif.txt",
+      "size": 6101,
+      "sha256": "a2cb6e3076f6780334d17969172538944ec6fd581ef60c500cb74d3673a6dc46"
+    },
+    {
+      "path": "preuves/recette-initiale/044-page-generateur.txt",
+      "size": 3866,
+      "sha256": "7d5dba2ed1d21df07c76c157d60f98ff524299572e23b2f0437838a4a29a0fa8"
+    },
+    {
+      "path": "preuves/recette-initiale/045-masquage-residu-bloque.txt",
+      "size": 5979,
+      "sha256": "833f388b63e0c225ba5eb40e853b9177a4d9061f7b6e445750c8f48fb90ed082"
+    },
+    {
+      "path": "preuves/recette-initiale/045-page-ia-lancement.txt",
+      "size": 3781,
+      "sha256": "d63a4a046e254def0d62c86bac86cad3858462acad88e8b8684c0068f69e043f"
+    },
+    {
+      "path": "preuves/recette-initiale/046-masquage-connu-releve.txt",
+      "size": 5851,
+      "sha256": "c925f162612b7d44cdfd87cf0e6320bd7cedc2dbcff7dc5abb35be57a3f83adb"
+    },
+    {
+      "path": "preuves/recette-initiale/046-page-ia-resultat.txt",
+      "size": 12177,
+      "sha256": "96c6f3144b7f7a86f9649fc74fa72a8661970c29810672f370d208eec0c135b9"
+    },
+    {
+      "path": "preuves/recette-initiale/047-export-csv-retour-xlsx.txt",
+      "size": 3800,
+      "sha256": "e6c099736a13878d6716e27c09e479cb35c41696df21a8fbe85942bb46d9806e"
+    },
+    {
+      "path": "preuves/recette-initiale/047-page-apercu-mobile.txt",
+      "size": 12299,
+      "sha256": "331ff9e7bbe02c048ef46928f6fe43975e987e9e0b8e06e6667250ab1ff802cf"
+    },
+    {
+      "path": "preuves/recette-initiale/048-message-absent-dossier.txt",
+      "size": 5413,
+      "sha256": "c0462aceaec7d3002e818f357b8c7dcd21acc70a9dfb13fad323ca9690ab60c6"
+    },
+    {
+      "path": "preuves/recette-initiale/048-page-code-html.txt",
+      "size": 12087,
+      "sha256": "a62b83745ea2e5abe0df23a260e0ca6992bcf5aa4ce9f1a9b80ecc29a5965a25"
+    },
+    {
+      "path": "preuves/recette-initiale/049-page-relecture.txt",
+      "size": 12124,
+      "sha256": "4cafe233331731670e5c2e160612f00f78942952348b56c25940c07d184824d6"
+    },
+    {
+      "path": "preuves/recette-initiale/049-recherche-document-genere-absent.txt",
+      "size": 1926,
+      "sha256": "f29fc9879063e5dcc6ecba9163365301c526a137a8ac3108671f46b258420b1b"
+    },
+    {
+      "path": "preuves/recette-initiale/050-publication.txt",
+      "size": 3157,
+      "sha256": "cd84fe86bc31e38eee326914ee7935d8df2714c3522b3814949c29f41792bb6c"
+    },
+    {
+      "path": "preuves/recette-initiale/051-publication-file.txt",
+      "size": 4122,
+      "sha256": "28ab736885d8f9b7eba31b71694e2f9465c7a14f8495bbdc81f08e9a729d619e"
+    },
+    {
+      "path": "preuves/recette-initiale/052-mobile.txt",
+      "size": 5174,
+      "sha256": "1e2bd7a5c3376d782a2eddac72825693b87ed80a0d20971327d73266a5e6515c"
+    },
+    {
+      "path": "preuves/recette-initiale/053-mobile-editeur.txt",
+      "size": 5559,
+      "sha256": "cfe6c835ce2e0101f8ebdd8b8c2c6d2b1acb0a5030dc8845de0d6e9564ff9294"
+    },
+    {
+      "path": "preuves/recette-initiale/054-mobile-ia-lancement.txt",
+      "size": 5669,
+      "sha256": "1c03547fd4dcfe3ce81c6a6535d2261eef94f66b706c2746f45c7a1f8ba2006f"
+    },
+    {
+      "path": "preuves/recette-initiale/055-mobile-ia-resultat.txt",
+      "size": 6159,
+      "sha256": "6b0e415b62421352307a07d0eed62e253606cd9571143138fe0a0d7fb85c9652"
+    },
+    {
+      "path": "preuves/recette-initiale/056-mobile-notification-ia.txt",
+      "size": 8255,
+      "sha256": "1cff24a8f2794f13e6109214ec00c1042ce1ba63c64f4cc3a55e3c358f671216"
+    },
+    {
+      "path": "preuves/recette-initiale/057-notification-appliquee.txt",
+      "size": 9129,
+      "sha256": "9b2809900fd825096639cfcee7cb2fe821799e7ac7d16cfe25b2ee97ebdfa6dc"
+    },
+    {
+      "path": "preuves/recette-initiale/058-formations.txt",
+      "size": 13671,
+      "sha256": "629aedd0901dd65a345082d93f1bca375df30bc72d29cb03118b93ae97d3b02f"
+    },
+    {
+      "path": "preuves/recette-initiale/059-formation-unii.txt",
+      "size": 4655,
+      "sha256": "f7eff85cd12d3f0bfc202bde1fc91c013bc898b85ac6a3da7eed2563dbe17e29"
+    },
+    {
+      "path": "preuves/recette-initiale/060-formation-demarree.txt",
+      "size": 2641,
+      "sha256": "7681d0aca1f0341435c9156802cb4787ca89c8d3697e16bd4bae2e1b5cab3853"
+    },
+    {
+      "path": "preuves/recette-initiale/061-reglages.txt",
+      "size": 8462,
+      "sha256": "f0eb05d72431a64794d4260c5f90280032a93dd92c53b21676d2c4be307ff8a8"
+    },
+    {
+      "path": "preuves/recette-initiale/062-connexion-ia-test.txt",
+      "size": 4372,
+      "sha256": "22e04f7914e527d4ae16b273678a22dca97d73f9499894bf1a3993dd92008802"
+    },
+    {
+      "path": "preuves/recette-initiale/063-reglages-retour.txt",
+      "size": 8430,
+      "sha256": "ff9cdc63bb5a3054460a972da4c3b6b14c5110079aee6a62f588d6d4bf4b7812"
+    },
+    {
+      "path": "preuves/recette-initiale/064-extensions.txt",
+      "size": 5004,
+      "sha256": "f379d42f5f821fc1f7a283afaa7ad5c8f5202557b58c80d4a84d120146579e6f"
+    },
+    {
+      "path": "preuves/recette-initiale/065-parametres-retour2.txt",
+      "size": 8462,
+      "sha256": "f0eb05d72431a64794d4260c5f90280032a93dd92c53b21676d2c4be307ff8a8"
+    },
+    {
+      "path": "preuves/recette-initiale/066-profil.txt",
+      "size": 7319,
+      "sha256": "2da6e53f29279dcfeeeb5d17b980059033c7bedf29583b9a707ccb7411aa98b7"
+    },
+    {
+      "path": "preuves/recette-initiale/067-profil-modifier.txt",
+      "size": 9520,
+      "sha256": "78f62b0eebcd296c148e35e4df62a0fc618b9fc81a5c099d8faec63dc52f590a"
+    },
+    {
+      "path": "preuves/recette-initiale/068-parametres-index.txt",
+      "size": 8430,
+      "sha256": "ff9cdc63bb5a3054460a972da4c3b6b14c5110079aee6a62f588d6d4bf4b7812"
+    },
+    {
+      "path": "preuves/recette-initiale/069-preferences-notifications.txt",
+      "size": 2429,
+      "sha256": "4aa660de777604edc402a92a90f8daecdfb3cb1b547e71dfb8aafafd02de61c0"
+    },
+    {
+      "path": "preuves/recette-initiale/070-parametres-pour-memoire.txt",
+      "size": 8430,
+      "sha256": "ff9cdc63bb5a3054460a972da4c3b6b14c5110079aee6a62f588d6d4bf4b7812"
+    },
+    {
+      "path": "preuves/recette-initiale/071-memoire.txt",
+      "size": 3984,
+      "sha256": "726dca441b254fae9dcc4563e55e5372ad5c913b485b935437c18501f7417a9f"
+    },
+    {
+      "path": "preuves/recette-initiale/072-actions-unii.txt",
+      "size": 19115,
+      "sha256": "f8b51a0a22470de0ba70a930feb7dc475ce87f57c35e30b4153e6ef6bbc725d5"
+    },
+    {
+      "path": "preuves/recette-initiale/073-securite.txt",
+      "size": 3356,
+      "sha256": "c14435ef8e5f20e6b224d444deef156d1a2dd26aa6f6e13c543da4355a6c4706"
+    },
+    {
+      "path": "preuves/recette-initiale/074-rgpd.txt",
+      "size": 3589,
+      "sha256": "e61ac696342c4bf1983371df60e6bb493ab8890888a00f7ed544971ffae171db"
+    },
+    {
+      "path": "preuves/recette-initiale/075-membres.txt",
+      "size": 2555,
+      "sha256": "cd0163438c1978c8c66ca23be04bff2f88fb7db471e9c5aec89d2763f58d3efb"
+    },
+    {
+      "path": "preuves/recette-initiale/076-hors-ligne.txt",
+      "size": 3321,
+      "sha256": "137841478db7055368a54d65ae478315ade49a39b40e9160c617806d2318311b"
+    },
+    {
+      "path": "preuves/recette-initiale/077-onboarding.txt",
+      "size": 2487,
+      "sha256": "5f2ea53d8f4d3176cba7227e0b188d6b3ffd48110078894881b0177c0c3f5195"
+    },
+    {
+      "path": "preuves/recette-initiale/078-marque.txt",
+      "size": 7530,
+      "sha256": "02fea0b8bd2dd92d0e496415081cb1299d4c675dcf9f8acde73743dba82ae670"
+    },
+    {
+      "path": "preuves/recette-initiale/079-admin-organisation.txt",
+      "size": 3546,
+      "sha256": "126325353c8cd82026f37f9b1a43a5e8dc8d65f4d471d7c8b546063bc2c2f8b6"
+    },
+    {
+      "path": "preuves/recette-initiale/080-formation-resultat.txt",
+      "size": 2644,
+      "sha256": "3e11f6c2bfd669e0cade1fbdefe13b49c2f3f9ae1c8f7384f673d8dad491be23"
+    },
+    {
+      "path": "preuves/recette-initiale/081-communication.txt",
+      "size": 6295,
+      "sha256": "cb2a084264df6425e07aed50b7ad3e53b56e1eb54306688b4790a6995a84af08"
+    },
+    {
+      "path": "preuves/recette-initiale/082-communication-atelier.txt",
+      "size": 4695,
+      "sha256": "35411b507929102dbc4843b91cc3084a75f162d9d3e56bc7a4e7bbeedb4ad006"
+    },
+    {
+      "path": "preuves/recette-initiale/083-communication-generation.txt",
+      "size": 6009,
+      "sha256": "2ee0e926e8082f7de3b18bc074d0d42c6d808cd43e18f4faac68425e7f28cae2"
+    },
+    {
+      "path": "preuves/recette-initiale/084-formation-exercice-quiz.txt",
+      "size": 6251,
+      "sha256": "762b7f819a1df735c895b8b99231ec051537007e931ad06049a4b7885d01045f"
+    },
+    {
+      "path": "preuves/recette-initiale/085-reporting.txt",
+      "size": 3421,
+      "sha256": "c00632c5628a65a7d28f0c9f28fd00a51e8e9024def06c372b377e67e047c32f"
+    },
+    {
+      "path": "preuves/recette-initiale/086-reporting-utilisation.txt",
+      "size": 4853,
+      "sha256": "d91be34aace97bf2154b86b22d169d9712192d9f532f6b5d8ddb3ce9e76cb5f4"
+    },
+    {
+      "path": "preuves/recette-initiale/087-raccourcis.txt",
+      "size": 2639,
+      "sha256": "d359fbfe07e80993690205d62483f55ca259f73cea3563621907e22e6bdf6144"
+    },
+    {
+      "path": "preuves/recette-initiale/088-raccourci-nouveau.txt",
+      "size": 3065,
+      "sha256": "0dee33b7f61f1d58b9e7bd053a264c947c031ed6d0ed8d632b0b78f34622da82"
+    },
+    {
+      "path": "preuves/recette-initiale/089-raccourci-validation-vide.txt",
+      "size": 3056,
+      "sha256": "1d4328cd1cc24f2b467626bbda98c02f490d82d8096c86e2b13e32fdca232066"
+    },
+    {
+      "path": "preuves/recette-initiale/090-formation-question.txt",
+      "size": 7159,
+      "sha256": "552f03651966bab52476099375a933b8eda97407a306deed4239e4ee08b719d5"
+    },
+    {
+      "path": "preuves/recette-initiale/091-formation-module2.txt",
+      "size": 5837,
+      "sha256": "4ad82e6e9a6b9e536c337ba8c701a6b98e8af2948b32b70ab1895b33f8c4a382"
+    },
+    {
+      "path": "preuves/recette-initiale/092-formation-module3.txt",
+      "size": 6018,
+      "sha256": "036247e0a878d6bd9989157566e8f9d1480508ac241489fac555e73ec6f49df8"
+    },
+    {
+      "path": "preuves/recette-initiale/093-formation-module4.txt",
+      "size": 6033,
+      "sha256": "8e8f050dafd09be1c9d51fddc89034c177460f7fbbb36436869b577256189480"
+    },
+    {
+      "path": "preuves/recette-initiale/094-formation-terminee.txt",
+      "size": 5591,
+      "sha256": "818bbe245e00c2bc53be80c65d34f2b9cff34d38e6fd7577af35a78dc12afb4b"
+    },
+    {
+      "path": "preuves/recette-initiale/095-formation-attestation.txt",
+      "size": 6490,
+      "sha256": "32e7092b03c4636a17072ded2904a61ccc00184b87106fa9088a0fd07eca34cd"
+    },
+    {
+      "path": "preuves/recette-initiale/096-formations-generalistes.txt",
+      "size": 14661,
+      "sha256": "50fe8811127e0288f5e0e5407f984a6b8a0f582741296fdd4cff8e97089a15e7"
+    },
+    {
+      "path": "preuves/recette-initiale/097-communication-reprise.txt",
+      "size": 5964,
+      "sha256": "8c18d3fc28dbb7257ade2f241afd60f746564ac29d9c8530140e01fbd5de7e37"
+    },
+    {
+      "path": "preuves/recette-initiale/098-communication-nouvel-essai.txt",
+      "size": 6010,
+      "sha256": "2a1bf4f7802dd46cc24786cd48165216d19f77c985d1f5f883a43564aef79f65"
+    },
+    {
+      "path": "preuves/recette-initiale/099-communication-pole.txt",
+      "size": 8573,
+      "sha256": "cf51383295951f699452f5367acfb0d4bcd7f5c92e4b00a6773408410b52b995"
+    },
+    {
+      "path": "preuves/recette-initiale/100-recherche-globale.txt",
+      "size": 1917,
+      "sha256": "8f699a4caa1c290e7dc6fe84c88c2fff4c60ff305c060ce96cf955b9efc6bb06"
+    },
+    {
+      "path": "preuves/recette-initiale/101-notifications-centre.txt",
+      "size": 2868,
+      "sha256": "db5d88c4deba3afc687e86d4415ff7469a276d4c47f0f7f5c77ec6e529080a81"
+    },
+    {
+      "path": "preuves/recette-initiale/102-sondage-detail-notification.txt",
+      "size": 2499,
+      "sha256": "aa9f0f6be6295a9d8bfa91cfca21a96f88f6e29c59c20328cfb5dff53ae0aee8"
+    },
+    {
+      "path": "preuves/recette-initiale/103-accueil-parcours-restants.txt",
+      "size": 4792,
+      "sha256": "b7fb36a43ace518c63d58b730460936a7cbff48010882b2f37341bb7fee09879"
+    },
+    {
+      "path": "preuves/recette-initiale/104-sondages-retour.txt",
+      "size": 2914,
+      "sha256": "7b8f59dc2fa0f406c42700f285072763ac47543a0168608c0a1dec0e33b99b81"
+    },
+    {
+      "path": "preuves/recette-initiale/105-sondage-relecture-retour.txt",
+      "size": 2796,
+      "sha256": "9e351bb8bc4debb2e610dba69e19a7f3d157d91e140306971ed62fda5be2afd3"
+    },
+    {
+      "path": "preuves/recette-initiale/106-sondage-cible2.txt",
+      "size": 3370,
+      "sha256": "698faee3e713b513c4e19edb27fa6932e8748f95121c9ab7b5b9ae198c5fccbb"
+    },
+    {
+      "path": "preuves/recette-initiale/107-sondage-validation2.txt",
+      "size": 3480,
+      "sha256": "3a5b1de40a4c34624c20c776d73f0a6ae209d6b60e610283daabee2aab5f1ec3"
+    },
+    {
+      "path": "preuves/recette-initiale/108-sondage-attente2.txt",
+      "size": 3507,
+      "sha256": "e5e1316e479a3ee7535496fbf2d5dff0ac71e282fc65121bf93379d6d1a5bcc4"
+    },
+    {
+      "path": "preuves/recette-initiale/109-sondage-valide2.txt",
+      "size": 3515,
+      "sha256": "03241cefe5c43eef2557d1b8c56b7e41b8088a4e1969b23b5d0817ec3fa51d28"
+    },
+    {
+      "path": "preuves/recette-initiale/110-sondage-diffusion-locale.txt",
+      "size": 2533,
+      "sha256": "2a23013bdbd51f285659b860127c6c6829f62db2b55d5360fd63e954b7192284"
+    },
+    {
+      "path": "preuves/recette-initiale/111-communication-plan-ajout.txt",
+      "size": 6864,
+      "sha256": "41586a7362ff90def5bc7bb819471195aeb05271d505294c78b43287c0f349e5"
+    },
+    {
+      "path": "preuves/recette-initiale/112-securite-detail.txt",
+      "size": 3440,
+      "sha256": "e05ead10d1b106c878b4e71fe13f0bee23e184025ccf4d618a0bf30d1b4e4f95"
+    },
+    {
+      "path": "preuves/recette-initiale/113-securite-ia.txt",
+      "size": 11547,
+      "sha256": "934a38216b59c3b0e983c41a1c431964ba846187d10a4126edfd602d0922ce9f"
+    },
+    {
+      "path": "preuves/recette-initiale/114-offline-base.txt",
+      "size": 3338,
+      "sha256": "c7800cedf9c40b1a78b1bed3ebcabe144edf6fe20a9c4c008310ffa3478fd433"
+    },
+    {
+      "path": "preuves/recette-initiale/115-lecteur-document.txt",
+      "size": 2497,
+      "sha256": "8c94413e30fc67f6bc9df4b7e8b4bb6bb1a19884dd2edb40f1bab5720ef5c6a7"
+    },
+    {
+      "path": "preuves/recette-initiale/116-lecteur-joindre.txt",
+      "size": 3167,
+      "sha256": "67b6d9bd308598ed364602a453726d313e003360864cbc822dbdf5f8b597bdfd"
+    },
+    {
+      "path": "preuves/recette-initiale/117-piece-apercu.txt",
+      "size": 3594,
+      "sha256": "966fe97676e0523fc5b719ad06125b4f71777baeb2a13e1dbe5f45c03d181a99"
+    },
+    {
+      "path": "preuves/recette-initiale/118-reunions-enregistrement.txt",
+      "size": 3619,
+      "sha256": "65c247e2fdd72b69db1009d457dcb46221180db36574b4bc7ee5e6fbb06e1487"
+    },
+    {
+      "path": "preuves/recette-initiale/119-reunions-liste2.txt",
+      "size": 3837,
+      "sha256": "25385c3a8c002bfd4a913011f872a3abd321271bd61e2e4e81f169ad3c7149d6"
+    },
+    {
+      "path": "preuves/recette-initiale/120-enregistreur-consentements.txt",
+      "size": 3368,
+      "sha256": "6b61e85a894bfdcc66007dab0ed2a8fc0bf4aa7c5d62e5a6f701f18c0bf6b785"
+    },
+    {
+      "path": "preuves/recette-initiale/121-assistant-principal.txt",
+      "size": 4007,
+      "sha256": "6ff6cec135f1c6ca9fbbedc3dae3f04f03c418750a7b8950fa1e5036b64b9a07"
+    },
+    {
+      "path": "preuves/recette-initiale/122-assistant-envoi.txt",
+      "size": 4946,
+      "sha256": "c1d9b30a0d1110ec0d71bc13b5520aadf892dbad6a0d1759bc61db2a1d692167"
+    },
+    {
+      "path": "preuves/recette-initiale/123-assistant-confirme.txt",
+      "size": 4834,
+      "sha256": "63dc9a8e6fca047610cc9f06b60224d8ff775fd2874a1c9d088efe6c65c8e992"
+    },
+    {
+      "path": "preuves/recette-initiale/124-intranet-onglets.txt",
+      "size": 8265,
+      "sha256": "5ab1bb1dab98c0b9ba873399be0a8702615e91e05a3efde971e290a4a8b88289"
+    },
+    {
+      "path": "preuves/recette-initiale/125-intranet-charte.txt",
+      "size": 5596,
+      "sha256": "7381258e538b913b2dad0275dcca4a7efb1473995763f10dd087db7f6f1398bc"
+    },
+    {
+      "path": "preuves/recette-initiale/126-intranet-retour-charte.txt",
+      "size": 8265,
+      "sha256": "5ab1bb1dab98c0b9ba873399be0a8702615e91e05a3efde971e290a4a8b88289"
+    },
+    {
+      "path": "preuves/recette-initiale/127-site-internet.txt",
+      "size": 7624,
+      "sha256": "737eea567392d053393d929cea1f38eb94a7df1a5bb77c5caf0fee4d331cd48e"
+    },
+    {
+      "path": "preuves/recette-initiale/128-mobile-relecture.txt",
+      "size": 6972,
+      "sha256": "ff0de8f69da984ab854c3b68761b45af3c350cdd7dacc3936bdd84490e025e2d"
+    },
+    {
+      "path": "preuves/recette-initiale/129-mobile-valider.txt",
+      "size": 7107,
+      "sha256": "e3d554ae6177adffc74c0382ffb5736028dbaa32b9434650159bc93584d83188"
+    },
+    {
+      "path": "preuves/recette-initiale/130-mobile-soumis-fo.txt",
+      "size": 7042,
+      "sha256": "2a5024c83f97774b005bcee2c832ac7928af2b8b3a43ad86b3d134309aa46f5a"
+    },
+    {
+      "path": "preuves/recette-initiale/131-mobile-validation-fo.txt",
+      "size": 7027,
+      "sha256": "05a9fdda98a5d4b56ab67b5a206b9b9783511d377675df0b36a1d78093517a62"
+    },
+    {
+      "path": "preuves/recette-initiale/132-dossier-guide.txt",
+      "size": 4537,
+      "sha256": "117e5a887c85821728d18a48cb70f7e6027c82d5edf2d2f51e316b70a72c8464"
+    },
+    {
+      "path": "preuves/recette-initiale/133-dossier-guide-etat.txt",
+      "size": 4450,
+      "sha256": "7cbbbdedd7b5220b2d62c8879c36d45f9b93f844f8ce0d0342b34404515a95f4"
+    },
+    {
+      "path": "preuves/recette-initiale/134-guide-masquage2.txt",
+      "size": 5422,
+      "sha256": "6060792d07b248850dcf6d4132a0416020bfa38b725a0c2cd56d2e2c89a5a9ec"
+    },
+    {
+      "path": "preuves/recette-initiale/135-guide-demande.txt",
+      "size": 5330,
+      "sha256": "02be109393ec6d6889973063b648b32c173775402278476babbd970777dedf72"
+    },
+    {
+      "path": "preuves/recette-initiale/136-dossiers-verification.txt",
+      "size": 5498,
+      "sha256": "902bbe80d13a7bdc17e9ee91fac6c1b818c3e6ac6511bf46d098c6736f835b93"
+    },
+    {
+      "path": "preuves/recette-initiale/137-kanban-deplacement.txt",
+      "size": 5625,
+      "sha256": "70dfbf9927c4a9e3718869518837505fe893d4934a5f492b61633c7b2cecf0c3"
+    },
+    {
+      "path": "preuves/recette-initiale/138-dossier-neuf-detail.txt",
+      "size": 5412,
+      "sha256": "11f18ad8635f1d5c08addff097a5b8689dd41594bd11de88cd9174f84b488a4e"
+    },
+    {
+      "path": "preuves/recette-initiale/139-dossier-edition-repro.txt",
+      "size": 5585,
+      "sha256": "1b9fe12157b676b7a5a35283d8c162c0ba5f73bc49b42c813ab1357669a4fb62"
+    },
+    {
+      "path": "preuves/recette-initiale/140-dossier-edition-echec-confirme.txt",
+      "size": 5443,
+      "sha256": "9c6f2912e8cc5db4d3c930652e1bb17114c0cb3b4b8a17930a6b3c6bfa6bb39f"
+    },
+    {
+      "path": "preuves/recette-initiale/141-guide-suite.txt",
+      "size": 6264,
+      "sha256": "c1b0c76f8e694c7bbb1fb29b8a15a2bab19981bb1c86e3f56a4643e69f5c7818"
+    },
+    {
+      "path": "preuves/recette-initiale/142-guide-creation.txt",
+      "size": 6276,
+      "sha256": "01fcda4d39d7701e8e88da13b737391cfca1a937696879449a95772c66ff74ce"
+    },
+    {
+      "path": "preuves/recette-initiale/143-guide-resultat-creation.txt",
+      "size": 8353,
+      "sha256": "e83f820ac80ae74e79e7121d22a7debbf11ba1256d7526ca449ef028f7484c63"
+    },
+    {
+      "path": "preuves/recette-initiale/144-persistance-apres-rechargement.txt",
+      "size": 1238,
+      "sha256": "b21acc73fb10e9b69c97b11b406c8df75a68082acddc1a5a157c7d5d2b22fe9e"
+    },
+    {
+      "path": "preuves/recette-initiale/145-admin-connexion.txt",
+      "size": 1241,
+      "sha256": "2d6e6ee8512d37ff9e0622f8c0e574425d219191de0a2f58f4190b174212fddf"
+    },
+    {
+      "path": "preuves/recette-initiale/146-admin-mfa.txt",
+      "size": 1259,
+      "sha256": "163b4342c1b92afb0f0465bf4cf92a971c86bd2972cf2d9e95b2447dc8a99052"
+    },
+    {
+      "path": "preuves/recette-initiale/147-admin-supervision.txt",
+      "size": 1614,
+      "sha256": "dd55ccd95cc46e9e8081f4cfd33a3cec707326da01112f6c164fd4d6fb5051b3"
+    },
+    {
+      "path": "preuves/recette-initiale/148-admin-organisations.txt",
+      "size": 1676,
+      "sha256": "5815f5d30e1bf124357267a638ebe5e3a053f325551b7a82e0b1b25a6c3aeed7"
+    },
+    {
+      "path": "preuves/recette-initiale/149-admin-utilisateurs.txt",
+      "size": 2969,
+      "sha256": "c555e3c2640cabb3058f66b7a8ce912caf15492c9e479f55f90323ef72b31735"
+    },
+    {
+      "path": "preuves/recette-initiale/150-admin-cles.txt",
+      "size": 2117,
+      "sha256": "6adfdcf84b30cd3e54306d7ca06817cc297c2ff63606397cb322a1b5bc0a1bbf"
+    },
+    {
+      "path": "preuves/recette-initiale/151-admin-editeur.txt",
+      "size": 2629,
+      "sha256": "32aa449cd0f23751c8345cdcb027f25ab22d272d82bca7dcaae595a752f9d349"
+    },
+    {
+      "path": "preuves/recette-initiale/152-admin-facturation.txt",
+      "size": 2088,
+      "sha256": "66fa62f8127396fc34052fc6e5d0802315edc32530683940979ff380e28ba8b1"
+    },
+    {
+      "path": "preuves/recette-initiale/153-admin-journal.txt",
+      "size": 1691,
+      "sha256": "44ba5c6990a860dbeafbaab6f19f41b1e5ff90cdd62ed28a39edef5fa53e8af8"
+    },
+    {
+      "path": "preuves/recette-initiale/154-admin-deconnexion.txt",
+      "size": 1238,
+      "sha256": "b21acc73fb10e9b69c97b11b406c8df75a68082acddc1a5a157c7d5d2b22fe9e"
+    },
+    {
+      "path": "preuves/recette-initiale/155-sso-reconnexion.txt",
+      "size": 1112,
+      "sha256": "4c6a0ce5d60c6cd99d333b99a6ea6519b480ff59fbf24f11b9c6c302ef6a4f6e"
+    },
+    {
+      "path": "preuves/recette-initiale/156-sso-code.txt",
+      "size": 1161,
+      "sha256": "f12a927c0369be04af609552a6d577fa269522ecd6dd552facd7b7c052ce3430"
+    },
+    {
+      "path": "preuves/recette-initiale/157-persistance-accueil.txt",
+      "size": 4828,
+      "sha256": "66772e2f59bfa3a33fdb3d06a56edc4c4f09efa980f4e9ee45e113dee6a737b8"
+    },
+    {
+      "path": "preuves/recette-initiale/158-persistance-dossiers.txt",
+      "size": 6326,
+      "sha256": "40d59af0a2d4d8d897206fe6058e2f0a003552ca8e4280b663ec14bbffbc3421"
+    },
+    {
+      "path": "preuves/recette-initiale/159-persistance-communication.txt",
+      "size": 6734,
+      "sha256": "df9f1326eebfdc8ccbdcca0eb5d48dd6cbf21b2897c3f39a0462051bb84f8723"
+    },
+    {
+      "path": "preuves/recette-initiale/160-persistance-raccourcis.txt",
+      "size": 2740,
+      "sha256": "81b578648ddc23234fea162e19840ae3614bdc2b890ed715cbba33484d0573c8"
+    },
+    {
+      "path": "preuves/recette-initiale/161-persistance-mobile.txt",
+      "size": 5142,
+      "sha256": "98ea0304e4ac69917146536017b763962fc743a4c02ff356a9bbc4a1e451050f"
+    },
+    {
+      "path": "preuves/recette-initiale/162-persistance-formations.txt",
+      "size": 13644,
+      "sha256": "b0d086e16e28038a02781b1fd6887a334c8fd6fac57d7f3f01967b45fd8d6221"
+    },
+    {
+      "path": "preuves/recette-initiale/163-assistant-test-refus.txt",
+      "size": 6283,
+      "sha256": "2fd06c43e067905b4e14769c33ec7c2d3fa099601bff3f650ba5ebb559a33a3d"
+    },
+    {
+      "path": "preuves/recette-initiale/164-assistant-nouveau-test.txt",
+      "size": 4678,
+      "sha256": "550c42cb6590a7465bc0974bb902d1609cb4612a66b63a9adc6ce011037982fd"
+    },
+    {
+      "path": "preuves/recette-initiale/165-assistant-masquage-fictif.txt",
+      "size": 4997,
+      "sha256": "9232e1744ddf77f1a0530ee4957eae0637e86238c32b8e55b87a37209b53f07b"
+    },
+    {
+      "path": "preuves/recette-initiale/166-masquage-annule.txt",
+      "size": 5017,
+      "sha256": "096e3e490539a9dfa5ed0e891dce80f578d9be31e4019930fd723b7ae0a237dd"
+    },
+    {
+      "path": "preuves/recette-initiale/167-ia-erreur-refus.txt",
+      "size": 6071,
+      "sha256": "d783f999e6e76ac38b62acb58374a137db0e6767ec4430e79ca024bb26ea0817"
+    },
+    {
+      "path": "preuves/recette-initiale/168-reporting-export-test.txt",
+      "size": 3397,
+      "sha256": "ed59cfe34aec41d9015a666e8fc34740aec9a7ea435872dd8dce19cff8d5d106"
+    },
+    {
+      "path": "preuves/recette-initiale/169-reporting-export-options.txt",
+      "size": 3943,
+      "sha256": "9e8b787e920adcb427a34ffd9bd4b1d691350340ac12e42c93721517f52f6f75"
+    },
+    {
+      "path": "preuves/recette-initiale/170-messagerie-tests-fin.txt",
+      "size": 4206,
+      "sha256": "ba7882800c25f32cb8bb6ac4a304ddcc838909721b734e7b2b2f949ebf6d5ec1"
+    },
+    {
+      "path": "preuves/recette-initiale/171-groupe-nouveau.txt",
+      "size": 8745,
+      "sha256": "07e565e055147e06e721dc6b76aa84f651ca86cd1e4dd02da4730e07e374f40b"
+    },
+    {
+      "path": "preuves/recette-initiale/172-groupe-cree.txt",
+      "size": 4746,
+      "sha256": "d2a4219c2f4e378c77710cb742de951277ebbaadfaa58c912ce636d32003bfce"
+    },
+    {
+      "path": "preuves/recette-initiale/173-groupe-message.txt",
+      "size": 4875,
+      "sha256": "ab2c702114b964986825fb6dc76c6999e9d75a263b52404b7f4b88aac82907be"
+    },
+    {
+      "path": "preuves/recette-initiale/174-message-actions.txt",
+      "size": 5097,
+      "sha256": "3a692739d4dc20c44e0756f0bca7e266ca226ad327619531dad23cb3d9b43df7"
+    },
+    {
+      "path": "preuves/recette-initiale/175-message-choix-dossier.txt",
+      "size": 7313,
+      "sha256": "f51a93d672eccb05a082a4ecd499348e1f04822ee19fd1f788b038916dcb07cb"
+    },
+    {
+      "path": "preuves/recette-initiale/176-message-verse.txt",
+      "size": 4979,
+      "sha256": "868b10832baa2773cbcb34141a8496dafe358cdcc5a59306cbbee1182c944e12"
+    },
+    {
+      "path": "preuves/recette-initiale/177-documents-pv-verification.txt",
+      "size": 6113,
+      "sha256": "5c079143f3f8105d18f9b753ffa98b89c36b05beb68f145b68e76e46a225679c"
+    },
+    {
+      "path": "preuves/recette-initiale/178-pv-genere-ouvert.txt",
+      "size": 12004,
+      "sha256": "7ecab03186c540783309c20cced27f7c78955ad47eb30918474510ca40dacad7"
+    },
+    {
+      "path": "preuves/recette-initiale/179-groupe-transfert.txt",
+      "size": 5003,
+      "sha256": "5e05c56d5c40018a6ee006ca8dbf0eab17ea38ebb20a2199c148e1fa6b582174"
+    },
+    {
+      "path": "preuves/recette-initiale/180-transfert-modal.txt",
+      "size": 5641,
+      "sha256": "200b96af468e3dd7c6d3b5aa7d533190f7eb9d8494e41fe6a34fa65525b9d3c3"
+    },
+    {
+      "path": "preuves/recette-initiale/181-transfert-effectue.txt",
+      "size": 5128,
+      "sha256": "0bb37a41534e34c286cbc10bd1255fa4ea7f083a0a4cc4ef84428e117cd32c1b"
+    },
+    {
+      "path": "preuves/recette-initiale/RAPPORT-RECETTE.html",
+      "size": 35994,
+      "sha256": "6249816ec7a7048870b6b188199b21d7edfbe4a4f169fb0c6f31b19e63b079ca"
+    },
+    {
+      "path": "preuves/recette-initiale/RAPPORT-RECETTE.txt",
+      "size": 27740,
+      "sha256": "33f33d224ba982d5691a3913142f44ee5b87e490221bed7b10dea889a6b91dc5"
+    },
+    {
+      "path": "preuves/recette-initiale/couverture.json",
+      "size": 22149,
+      "sha256": "06ab5f29a85b51f377d189b8569dc39ab0402141421aefbc7d4ff5c4f2aa4b2b"
+    },
+    {
+      "path": "preuves/recette-initiale/dossier-edition-echec.png",
+      "size": 84280,
+      "sha256": "2c2225c852185eb2052fa98584c1b139f2a65641760ede564156a160d0b2a8e3"
+    },
+    {
+      "path": "preuves/recette-initiale/empreintes-avant.txt",
+      "size": 549,
+      "sha256": "f746063401babc770c64ae751be8d4e7330021145628dcfef35cb0461442e3a0"
+    },
+    {
+      "path": "preuves/recette-initiale/masquage-identifiants-fictifs.png",
+      "size": 56220,
+      "sha256": "9e37904e0bf9dc70ecc2e078be184f125543c15a641fbb1e529dddf5ddbc3f6b"
+    },
+    {
+      "path": "preuves/recette-initiale/mention-unii.png",
+      "size": 75976,
+      "sha256": "d85f582ba89b7d2bc4e659f9254a96f052d5ea85bd7fd651253e1f27a375fb60"
+    },
+    {
+      "path": "preuves/recette-initiale/verification-integrite.txt",
+      "size": 559,
+      "sha256": "f53fff1671c05ec7ee51334bcf37b5677af9d6236113045e5ed6741c14631f41"
+    },
+    {
+      "path": "preuves/tests-gel-design.txt",
+      "size": 71,
+      "sha256": "2d6ab382a92c953f5ad11321b2fbc5af2ae82a57472227f614aa900cf0097016"
+    },
+    {
+      "path": "preuves/tests-gel-exports.txt",
+      "size": 102,
+      "sha256": "af55efa5c3ceb122f8184c380aa405d3f3b4e7e0c1e892773d0eff31d0645c8a"
+    },
+    {
+      "path": "preuves/tests-gel-javascript.txt",
+      "size": 1102,
+      "sha256": "730d64b5d5017065c42320c593be7acaa76a76eb1c9f37f501e823659231df71"
+    },
+    {
+      "path": "verifier.py",
+      "size": 629,
+      "sha256": "8ce68b057bd56a828bcd77c3ae5724284e588bbc480b066f7872726646f2b2e8"
+    }
+  ]
+}

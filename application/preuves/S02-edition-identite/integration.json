@@ -1,0 +1,106 @@
+{
+  "checks": [
+    {
+      "test": "anonymous_write_refused",
+      "ok": true
+    },
+    {
+      "test": "admin_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_write_refused",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "admin_mfa",
+      "ok": true
+    },
+    {
+      "test": "organization_save_authorized",
+      "ok": true
+    },
+    {
+      "test": "organization_persisted",
+      "ok": true
+    },
+    {
+      "test": "organization_edit_does_not_grant_rights",
+      "ok": true
+    },
+    {
+      "test": "foreign_organization_refused",
+      "ok": true
+    },
+    {
+      "test": "rights_alone_not_edit",
+      "ok": true
+    },
+    {
+      "test": "privilege_field_refused",
+      "ok": true
+    },
+    {
+      "test": "invalid_siret_refused",
+      "ok": true
+    },
+    {
+      "test": "member_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "member_mfa",
+      "ok": true
+    },
+    {
+      "test": "member_organization_write_refused",
+      "ok": true
+    },
+    {
+      "test": "own_profile_saved",
+      "ok": true
+    },
+    {
+      "test": "profile_persisted",
+      "ok": true
+    },
+    {
+      "test": "profile_not_leaked_other_org",
+      "ok": true
+    },
+    {
+      "test": "other_user_field_refused",
+      "ok": true
+    },
+    {
+      "test": "login_email_change_refused",
+      "ok": true
+    },
+    {
+      "test": "foreign_profile_write_refused",
+      "ok": true
+    },
+    {
+      "test": "direct_rpc_organization_refused",
+      "ok": true
+    },
+    {
+      "test": "no_business_rights_added",
+      "ok": true
+    },
+    {
+      "test": "csrf_write_refused",
+      "ok": true
+    }
+  ],
+  "count": 25,
+  "passed": true
+}

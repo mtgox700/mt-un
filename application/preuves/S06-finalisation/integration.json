@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "count": 32,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "create",
+      "ok": true
+    },
+    {
+      "test": "writer_correction_denied",
+      "ok": true
+    },
+    {
+      "test": "short_reason_denied",
+      "ok": true
+    },
+    {
+      "test": "correction_allowed",
+      "ok": true
+    },
+    {
+      "test": "review_same_rejected_version_denied",
+      "ok": true
+    },
+    {
+      "test": "save_corrected_version",
+      "ok": true
+    },
+    {
+      "test": "review_new_version",
+      "ok": true
+    },
+    {
+      "test": "publish_archive_and_notice",
+      "ok": true
+    },
+    {
+      "test": "history_reader",
+      "ok": true
+    },
+    {
+      "test": "archive_without_download_denied",
+      "ok": true
+    },
+    {
+      "test": "archive_download",
+      "ok": true
+    },
+    {
+      "test": "notice_recipient",
+      "ok": true
+    },
+    {
+      "test": "foreign_history_denied",
+      "ok": true
+    },
+    {
+      "test": "notice_hidden_after_revocation",
+      "ok": true
+    },
+    {
+      "test": "history_revoked_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_trash_denied",
+      "ok": true
+    },
+    {
+      "test": "trash_request",
+      "ok": true
+    },
+    {
+      "test": "pending_still_readable",
+      "ok": true
+    },
+    {
+      "test": "ordinary_approve_denied",
+      "ok": true
+    },
+    {
+      "test": "super_admin_approve",
+      "ok": true
+    },
+    {
+      "test": "trashed_get_denied",
+      "ok": true
+    },
+    {
+      "test": "trashed_archive_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_restore_denied",
+      "ok": true
+    },
+    {
+      "test": "restore_allowed",
+      "ok": true
+    },
+    {
+      "test": "restored_archive_exact",
+      "ok": true
+    },
+    {
+      "test": "restored_document",
+      "ok": true
+    },
+    {
+      "test": "queued_start",
+      "ok": true
+    },
+    {
+      "test": "queued_pdf_complete",
+      "ok": true
+    },
+    {
+      "test": "reader_job_denied",
+      "ok": true
+    },
+    {
+      "test": "completed_job_revocation_denied",
+      "ok": true
+    }
+  ]
+}

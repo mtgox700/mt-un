@@ -1,0 +1,10 @@
+{
+  "fresh_checks": 92,
+  "last_migration_107_applied_on_fresh_database": true,
+  "final_backup": "20261029T174845Z",
+  "restore_checks": 301,
+  "restored_auth_access_checks": 12,
+  "incident": "Antivirus indisponible et lenteur Docker pendant la recette",
+  "recovery": "Redémarrage ClamAV et arrêt sans suppression des piles isolées créées pour ce lot",
+  "download_retested_after_recovery": true
+}

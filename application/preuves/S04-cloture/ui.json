@@ -1,0 +1,37 @@
+{
+  "environment": "Supabase local et navigateur intégré, données fictives",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 1440,
+      "height": 1000
+    }
+  ],
+  "checks": {
+    "creation_liste_sur_trois_formats": true,
+    "activation_ancienne_fiche_sur_trois_formats": true,
+    "refus_creation_liste_lecteur_sur_trois_formats": true,
+    "commandes_financieres_absentes_lecteur_sur_trois_formats": true,
+    "edition_liste_mobile": true,
+    "persistance_apres_reconnexion": true,
+    "libelles_filtres_corriges": true,
+    "debordement_horizontal_fiche": [
+      390,
+      768,
+      1440
+    ],
+    "filtre_financier_et_masquage_lecteur_trois_formats": true
+  },
+  "limits": [
+    "Viewports émulés, pas appareils physiques",
+    "Recette UI ciblée sur les parcours finalisés ; non-régression complète du domaine testée par intégration",
+    "Notifications transitoires fermables ; pas de conclusion générale sur tous les écrans de l’application"
+  ]
+}

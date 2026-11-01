@@ -1,0 +1,14 @@
+[
+  {
+    "viewport": "mobile",
+    "denied": true
+  },
+  {
+    "viewport": "tablette",
+    "denied": true
+  },
+  {
+    "viewport": "desktop",
+    "denied": true
+  }
+]

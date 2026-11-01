@@ -1,0 +1,146 @@
+[
+  {
+    "id": "001-adherents-sans-selection",
+    "label": "adherents-sans-selection"
+  },
+  {
+    "id": "002-message-vide-validation",
+    "label": "message-vide-validation"
+  },
+  {
+    "id": "003-fiche-adherent",
+    "label": "fiche-adherent"
+  },
+  {
+    "id": "004-fiche-modifier",
+    "label": "fiche-modifier"
+  },
+  {
+    "id": "005-fiche-annulation",
+    "label": "fiche-annulation"
+  },
+  {
+    "id": "006-fiche-enregistree",
+    "label": "fiche-enregistree"
+  },
+  {
+    "id": "007-fiche-apres-rechargement",
+    "label": "fiche-apres-rechargement"
+  },
+  {
+    "id": "008-fiche-restauree",
+    "label": "fiche-restauree"
+  },
+  {
+    "id": "009-pagination-adherents",
+    "label": "pagination-adherents"
+  },
+  {
+    "id": "010-pagination-derniere",
+    "label": "pagination-derniere"
+  },
+  {
+    "id": "011-reunion-detail",
+    "label": "reunion-detail"
+  },
+  {
+    "id": "012-reunion-ecouter",
+    "label": "reunion-ecouter"
+  },
+  {
+    "id": "013-reunion-pv-editeur",
+    "label": "reunion-pv-editeur"
+  },
+  {
+    "id": "014-reunion-pv-attente",
+    "label": "reunion-pv-attente"
+  },
+  {
+    "id": "015-formations-accueil",
+    "label": "formations-accueil"
+  },
+  {
+    "id": "016-formation-recherche-vide",
+    "label": "formation-recherche-vide"
+  },
+  {
+    "id": "017-pv-genere-navigation-forcee",
+    "label": "pv-genere-navigation-forcee"
+  },
+  {
+    "id": "018-formation-vide-confirme",
+    "label": "formation-vide-confirme"
+  },
+  {
+    "id": "019-catalogue-general",
+    "label": "catalogue-general"
+  },
+  {
+    "id": "020-demande-session",
+    "label": "demande-session"
+  },
+  {
+    "id": "021-demande-session-retiree",
+    "label": "demande-session-retiree"
+  },
+  {
+    "id": "022-membres-organisation",
+    "label": "membres-organisation"
+  },
+  {
+    "id": "023-invitation-formulaire",
+    "label": "invitation-formulaire"
+  },
+  {
+    "id": "024-invitation-vide-refusee",
+    "label": "invitation-vide-refusee"
+  },
+  {
+    "id": "025-agenda-nouveau",
+    "label": "agenda-nouveau"
+  },
+  {
+    "id": "026-agenda-titre-vide",
+    "label": "agenda-titre-vide"
+  },
+  {
+    "id": "027-agenda-horaire-inverse",
+    "label": "agenda-horaire-inverse"
+  },
+  {
+    "id": "028-agenda-annule",
+    "label": "agenda-annule"
+  },
+  {
+    "id": "029-onboarding",
+    "label": "onboarding"
+  },
+  {
+    "id": "030-onboarding-import-csv",
+    "label": "onboarding-import-csv"
+  },
+  {
+    "id": "031-profil-signature-edition",
+    "label": "profil-signature-edition"
+  },
+  {
+    "id": "032-configuration-ia",
+    "label": "configuration-ia"
+  },
+  {
+    "id": "033-connexion-ia-test",
+    "label": "connexion-ia-test"
+  },
+  {
+    "id": "034-connexion-ia-resultat",
+    "label": "connexion-ia-resultat"
+  },
+  {
+    "id": "035-reunion-pv-lien-persistant",
+    "label": "reunion-pv-lien-persistant"
+  },
+  {
+    "id": "036-pv-apres-rechargement",
+    "label": "pv-apres-rechargement"
+  }
+]

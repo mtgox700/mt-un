@@ -1,0 +1,82 @@
+Browser tab: 9, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+1 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	2 container Dimensions de recette
+		3 button Bureau 1280
+		4 button Mobile 390
+		5 button Tablette 768
+		6 button Tablette paysage 1024
+		7 text 390 × 844
+	8 container Description: Prototype inchangé, ID: prototype
+		9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			10 container dc-root
+				11 container
+					12 image uniion
+					129 button ← Retour
+					13 image
+					14 text field (settable)
+					15 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					18 button
+						19 image
+					20 button Se déconnecter
+						21 image
+				22 container
+					229 button ← Tous les adhérents
+						230 text ← 
+						231 text Tous les adhérents
+					232 heading Karim Benali, Value: 1
+						233 text Karim Benali
+					234 container
+						235 text RECETTE PERSISTANCE  ·  Adhérent depuis mars 2019
+					236 text DÉLÉGUÉ DE SECTION À JOUR
+					237 button Envoyer un message
+					238 button Modifier la fiche
+					239 button Retirer du fichier
+					240 heading COORDONNÉES, Value: 2
+						241 text COORDONNÉES
+					242 text Courriel k.benali@mv-sa.fr Téléphone 06 12 44 87 21 Emploi RECETTE PERSISTANCE Bulletin Signé le 12 mars 2019
+					243 heading RATTACHEMENT, Value: 2
+						244 text RATTACHEMENT
+					245 text Entreprise Métallurgie Valenciennes SA Établissement Site de Valenciennes Section Section Atelier Direction Production
+					246 heading COTISATION, Value: 2
+						247 text COTISATION
+					248 text MODE DE RÈGLEMENT
+					249 text Prélèvement SEPA
+					250 text MONTANT
+					251 text 14,20 €/mois
+					252 text DERNIER VERSEMENT
+					253 text 5 août 2026
+					254 text PROCHAINE ÉCHÉANCE
+					255 text 5 septembre 2026
+					256 text août 2026 Cotisation encaissée — 14,20 €/mois juillet 2026 Cotisation encaissée — 14,20 €/mois juin 2026 Cotisation encaissée — 14,20 €/mois janvier 2026 Attestation fiscale 2025 transmise
+					257 heading DOCUMENTS LIÉS, Value: 2
+						258 text DOCUMENTS LIÉS
+					259 text Bulletin d'adhésion Signé le 12 mars 2019
+					260 button Ouvrir
+					261 text Attestation fiscale 2025 Crédit d'impôt de 66 % — PDF signé
+					262 button Ouvrir
+					263 text Notice des droits de l'adhérent Assistance juridique, fonds de solidarité
+					264 button Envoyer
+					265 heading LISTES DE DIFFUSION, Value: 2
+						266 text LISTES DE DIFFUSION
+					267 text Tous les adhérents Atelier — Valenciennes Délégués et élus
+					268 container
+						269 text Ces listes se déduisent du rattachement et du statut de cotisation : aucun ajout manuel à maintenir.  Les messages partent en copie cachée.
+				112 text Session ouverte — appareil de confiance enregistré
+				113 container
+					226 button Accueil
+						227 image
+						228 text Accueil
+					117 button Dossiers
+						118 image
+						119 text Dossiers
+					120 button Agenda
+						121 image
+						122 text Agenda
+					123 button Réunions
+						124 image
+						125 text Réunions
+					126 button Réglages
+						127 image
+						128 text Réglages
+
+The focused UI element is 9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

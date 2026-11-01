@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Profil refuse nom",
+    "result": "PASS"
+  },
+  {
+    "name": "Profil refuse siret",
+    "result": "PASS"
+  },
+  {
+    "name": "Profil refuse email",
+    "result": "PASS"
+  },
+  {
+    "name": "Profil refuse mandatFin",
+    "result": "PASS"
+  },
+  {
+    "name": "Profil annulation",
+    "result": "PASS"
+  },
+  {
+    "name": "Profil sauvegarde et restauration",
+    "result": "PASS"
+  },
+  {
+    "name": "Contact nom requis",
+    "result": "PASS"
+  },
+  {
+    "name": "Contact création et restauration",
+    "result": "PASS"
+  },
+  {
+    "name": "Groupe nom requis",
+    "result": "PASS"
+  },
+  {
+    "name": "Groupe membre requis",
+    "result": "PASS"
+  },
+  {
+    "name": "Groupe créé et restauré",
+    "result": "PASS"
+  },
+  {
+    "name": "Fiche refuse courriel doublon",
+    "result": "PASS"
+  },
+  {
+    "name": "Agenda création édition restauration",
+    "result": "PASS"
+  },
+  {
+    "name": "Agenda date impossible refusée",
+    "result": "FAIL",
+    "detail": "Expected values to be strictly equal:\n\n13 !== 12\n"
+  },
+  {
+    "name": "Suppression adhérent exemple persiste",
+    "result": "FAIL",
+    "detail": "The expression evaluated to a falsy value:\n\n  assert(!reload(a).state.adherents.some(x=>x.id===id))\n"
+  },
+  {
+    "name": "Suppression événement exemple persiste",
+    "result": "FAIL",
+    "detail": "The expression evaluated to a falsy value:\n\n  assert(!reload(a).state.agenda.some(x=>x.id===id))\n"
+  },
+  {
+    "name": "CSV valide importé et restauré",
+    "result": "PASS"
+  },
+  {
+    "name": "CSV invalide refusé",
+    "result": "PASS"
+  },
+  {
+    "name": "CSV courriel @ seul refusé",
+    "result": "FAIL",
+    "detail": "Expected values to be strictly equal:\n\n1 !== 0\n"
+  },
+  {
+    "name": "CSV doublon exact refusé",
+    "result": "PASS"
+  },
+  {
+    "name": "CSV doublon casse différente refusé",
+    "result": "FAIL",
+    "detail": "Expected values to be strictly equal:\n\n2 !== 1\n"
+  },
+  {
+    "name": "CSV champ cité avec séparateur conservé",
+    "result": "FAIL",
+    "detail": "Expected values to be strictly equal:\n\n0 !== 1\n"
+  },
+  {
+    "name": "Stockage corrompu ne plante pas",
+    "result": "PASS"
+  },
+  {
+    "name": "Authentification refuse mauvais courriel",
+    "result": "PASS"
+  },
+  {
+    "name": "MFA refuse mauvais code",
+    "result": "PASS"
+  },
+  {
+    "name": "Import audio conserve les octets",
+    "result": "FAIL",
+    "detail": "The expression evaluated to a falsy value:\n\n  assert(JSON.stringify(a.state.reunions[0]).includes('RIFF-test'))\n"
+  },
+  {
+    "name": "Relecture demandée ne marque pas déjà relue",
+    "result": "FAIL",
+    "detail": "Expected \"actual\" to be strictly unequal to:\n\n'Relue'"
+  },
+  {
+    "name": "Brouillon marque ne modifie pas la marque active",
+    "result": "PASS"
+  },
+  {
+    "name": "Marque publiée conservée en stockage isolé",
+    "result": "PASS"
+  },
+  {
+    "name": "Action unii désactivée masquée",
+    "result": "PASS"
+  },
+  {
+    "name": "Action unii limitée au rôle",
+    "result": "PASS"
+  }
+]

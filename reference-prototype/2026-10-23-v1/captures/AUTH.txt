@@ -1,0 +1,26 @@
+Browser tab: 4, Title: "127.0.0.1:5052/uniion App v3.dc.html", URL: "http://127.0.0.1:5052/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 text uniion
+		3 heading L'outil des élus, pas celui de la direction., Value: 1
+			4 text L'outil des élus, pas celui de la direction.
+		5 text Prototype local : dossiers, assistant juridique, consultations des salariés et bilan de mandat. Données de démonstration ; hébergement et protections de production à intégrer.
+		6 text Chiffrement cible AES-256 Cible RGPD · démonstration locale Anonymisation avant inférence IA
+		7 heading Connexion, Value: 2
+			8 text Connexion
+		9 text Compte militant de la section syndicale Métallurgie — Valenciennes.
+		10 container
+			11 text Adresse professionnelle
+			12 text field (settable) Adresse professionnelle, Value: <redacted>
+		13 container
+			14 text Mot de passe
+			15 text field (settable) Mot de passe
+		16 button Continuer
+		17 text ou
+		18 button SSO fédération (SAML)
+			19 image
+			20 text SSO fédération (SAML)
+		21 button Mot de passe oublié ?
+		22 button Accès super administrateur (admin@uniion.fr)
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html

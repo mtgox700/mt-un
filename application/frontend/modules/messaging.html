@@ -1,0 +1,354 @@
+<sc-if value="{{ wa.shell }}" hint-placeholder-val="{{ false }}">
+        <div data-screen-label="Messages" style="animation: fadeUp .45s ease-out; position: relative; display: flex; height: calc(100vh - 150px); min-height: 560px; background: var(--surface); border: 1px solid var(--bd); border-radius: 22px; overflow: hidden; box-shadow: 0 24px 60px -44px hsl(var(--shC) / .5);">
+          <sc-if value="{{ wa.showList }}" hint-placeholder-val="{{ true }}">
+            <aside style="flex: {{ wa.listFlex }}; min-width: 0; display: flex; flex-direction: column; border-right: 1px solid var(--bd); background: var(--surface);">
+              <div style="display: flex; align-items: center; gap: 4px; padding: 14px 10px 10px 18px;">
+                <h1 style="font-family: var(--fTitle); font-size: 22px; margin: 0; flex: 1; min-width: 0;">{{ wa.paneTitle }}</h1>
+                <button onClick="{{ wa.newChat }}" title="Nouvelle discussion" aria-label="Nouvelle discussion" style="flex: 0 0 auto; cursor: pointer; border: none; background: transparent; width: 38px; height: 38px; border-radius: 99px; color: var(--ink4); display: flex; align-items: center; justify-content: center;" style-hover="background: var(--surf2); color: var(--acTx);"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.4 2.6a2.1 2.1 0 1 1 3 3L12 15l-4 1 1-4Z"></path></svg></button>
+                <button onClick="{{ wa.newGroup }}" title="Nouveau groupe" aria-label="Nouveau groupe" style="flex: 0 0 auto; cursor: pointer; border: none; background: transparent; width: 38px; height: 38px; border-radius: 99px; color: var(--ink4); display: flex; align-items: center; justify-content: center;" style-hover="background: var(--surf2); color: var(--acTx);"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M13 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"></path></svg></button>
+                <button onClick="{{ wa.newBc }}" title="Nouvelle diffusion aux adhérents" aria-label="Nouvelle diffusion aux adhérents" style="flex: 0 0 auto; cursor: pointer; border: none; background: transparent; width: 38px; height: 38px; border-radius: 99px; color: var(--ink4); display: flex; align-items: center; justify-content: center;" style-hover="background: var(--surf2); color: var(--acTx);"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 18-5v12L3 14v-3z"></path><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path></svg></button>
+              </div>
+              <div role="tablist" aria-label="Vue" style="display: flex; gap: 4px; margin: 0 14px 10px; background: var(--surf2); border-radius: 12px; padding: 3px;">
+                <sc-for list="{{ wa.panes }}" as="p" hint-placeholder-count="2">
+                  <button onClick="{{ p.go }}" role="tab" aria-selected="{{ p.on }}" style="flex: 1; cursor: pointer; border: none; border-radius: 9px; padding: 8px 10px; font-size: 12.5px; font-weight: 700; background: {{ p.bg }}; color: {{ p.fg }};">{{ p.label }}</button>
+                </sc-for>
+              </div>
+              <div style="margin: 0 14px 10px; display: flex; align-items: center; gap: 9px; background: var(--surf2); border-radius: 12px; padding: 0 8px 0 12px; color: var(--ink6);">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+                <input value="{{ wa.q }}" onChange="{{ wa.onQ }}" placeholder="{{ wa.qPh }}" aria-label="Rechercher" style="flex: 1; min-width: 0; border: none; background: transparent; outline: none; font-size: 13.5px; padding: 10px 0; color: var(--ink);" />
+                <sc-if value="{{ wa.hasQ }}" hint-placeholder-val="{{ false }}">
+                  <button onClick="{{ wa.clearQ }}" aria-label="Effacer la recherche" style="cursor: pointer; border: none; background: transparent; color: var(--ink5); font-size: 16px; width: 26px; height: 26px; border-radius: 99px;">×</button>
+                </sc-if>
+              </div>
+              <sc-if value="{{ wa.isChats }}" hint-placeholder-val="{{ true }}">
+                <div style="display: flex; flex-wrap: wrap; gap: 6px; padding: 0 14px 12px;">
+                  <sc-for list="{{ wa.filters }}" as="f" hint-placeholder-count="6">
+                    <button onClick="{{ f.go }}" aria-pressed="{{ f.on }}" style="cursor: pointer; border: 1px solid {{ f.bd }}; background: {{ f.bg }}; color: {{ f.fg }}; border-radius: 99px; padding: 6px 11px; font-size: 12px; font-weight: 600; display: inline-flex; gap: 6px; align-items: center;">{{ f.label }}<sc-if value="{{ f.hasN }}" hint-placeholder-val="{{ false }}"><span style="font-size: 11px; font-weight: 700;">{{ f.n }}</span></sc-if></button>
+                  </sc-for>
+                </div>
+                <div style="flex: 1; min-height: 0; overflow-y: auto; border-top: 1px solid var(--bd);">
+                  <sc-for list="{{ wa.rows }}" as="c" hint-placeholder-count="5">
+                    <button onClick="{{ c.go }}" style="width: 100%; text-align: left; cursor: pointer; display: flex; gap: 12px; align-items: center; background: {{ c.bg }}; border: none; border-bottom: 1px solid var(--bd); padding: 11px 16px; color: inherit;" style-hover="background: var(--surf2);">
+                      <span aria-hidden="true" style="width: 46px; height: 46px; flex: 0 0 46px; border-radius: 99px; background: {{ c.avatarBg }}; color: #FFFFFF; font-size: 14px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ c.initials }}</span>
+                      <span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px;">
+                        <span style="display: flex; gap: 8px; align-items: baseline;">
+                          <span style="flex: 1; min-width: 0; font-size: 14.5px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ c.name }}</span>
+                          <span style="flex: 0 0 auto; font-size: 11.5px; color: {{ c.timeFg }}; font-weight: {{ c.timeW }};">{{ c.time }}</span>
+                        </span>
+                        <span style="display: flex; gap: 6px; align-items: center; color: var(--ink6);">
+                          <sc-if value="{{ c.isBc }}" hint-placeholder-val="{{ false }}"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 18-5v12L3 14v-3z"></path><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path></svg></sc-if>
+                          <sc-if value="{{ c.mineTick }}" hint-placeholder-val="{{ false }}"><span style="flex: 0 0 auto; color: var(--info); font-size: 11.5px; font-weight: 700; letter-spacing: -.12em;">{{ messageAck }}</span></sc-if>
+                          <span style="flex: 1; min-width: 0; font-size: 13px; color: var(--ink5); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ c.prefix }}{{ c.preview }}</span>
+                          <sc-if value="{{ c.muted }}" hint-placeholder-val="{{ false }}"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.7 3A6 6 0 0 1 18 8a21.3 21.3 0 0 0 .6 5"></path><path d="M17 17H3s3-2 3-9a4.67 4.67 0 0 1 .3-1.7"></path><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"></path><path d="m2 2 20 20"></path></svg></sc-if>
+                          <sc-if value="{{ c.pinned }}" hint-placeholder-val="{{ false }}"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 17v5"></path><path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16h14v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z"></path></svg></sc-if>
+                          <sc-if value="{{ c.hasUnread }}" hint-placeholder-val="{{ false }}"><span style="flex: 0 0 auto; min-width: 20px; height: 20px; border-radius: 99px; background: var(--ac); color: #FFFFFF; font-size: 11px; font-weight: 700; display: flex; align-items: center; justify-content: center; padding: 0 6px;">{{ c.unread }}</span></sc-if>
+                        </span>
+                      </span>
+                    </button>
+                  </sc-for>
+                  <sc-if value="{{ messagingMore }}" hint-placeholder-val="{{ false }}"><button onClick="{{ messagingMoreGo }}" style="cursor: pointer; border: 1px solid var(--bd); background: var(--surface); color: var(--acTx); border-radius: 10px; padding: 9px 14px; margin: 12px;">{{ messagingMoreLabel }}</button></sc-if>
+                  <sc-if value="{{ wa.noRows }}" hint-placeholder-val="{{ false }}">
+                    <div style="padding: 32px 22px; text-align: center; font-size: 13px; color: var(--ink5); line-height: 1.6; text-wrap: pretty;">{{ wa.noRowsText }}</div>
+                  </sc-if>
+                </div>
+              </sc-if>
+              <sc-if value="{{ wa.isContacts }}" hint-placeholder-val="{{ false }}">
+                <div style="flex: 1; min-height: 0; overflow-y: auto; border-top: 1px solid var(--bd); padding: 6px 0 10px;">
+                  <button onClick="{{ wa.newGroup }}" style="width: 100%; text-align: left; cursor: pointer; display: flex; gap: 12px; align-items: center; background: transparent; border: none; padding: 9px 18px; color: var(--ink);" style-hover="background: var(--surf2);">
+                <span aria-hidden="true" style="width: 40px; height: 40px; flex: 0 0 40px; border-radius: 99px; background: var(--ac); color: #FFFFFF; display: flex; align-items: center; justify-content: center;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M13 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"></path></svg></span>
+                <span style="font-size: 14px; font-weight: 600;">Nouveau groupe</span>
+              </button>
+                  <button onClick="{{ wa.newContact }}" style="width: 100%; text-align: left; cursor: pointer; display: flex; gap: 12px; align-items: center; background: transparent; border: none; padding: 9px 18px; color: var(--ink);" style-hover="background: var(--surf2);">
+                <span aria-hidden="true" style="width: 40px; height: 40px; flex: 0 0 40px; border-radius: 99px; background: var(--ac); color: #FFFFFF; display: flex; align-items: center; justify-content: center;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M19 8v6M22 11h-6"></path></svg></span>
+                <span style="font-size: 14px; font-weight: 600;">Nouveau contact</span>
+              </button>
+                  <button onClick="{{ wa.newBc }}" style="width: 100%; text-align: left; cursor: pointer; display: flex; gap: 12px; align-items: center; background: transparent; border: none; padding: 9px 18px; color: var(--ink);" style-hover="background: var(--surf2);">
+                <span aria-hidden="true" style="width: 40px; height: 40px; flex: 0 0 40px; border-radius: 99px; background: var(--ac); color: #FFFFFF; display: flex; align-items: center; justify-content: center;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 18-5v12L3 14v-3z"></path><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path></svg></span>
+                <span style="font-size: 14px; font-weight: 600;">Nouvelle diffusion aux adhérents</span>
+              </button>
+                  <button onClick="{{ wa.manage }}" style="margin: 6px 18px 0; cursor: pointer; border: none; background: transparent; padding: 0; font-size: 12.5px; font-weight: 700; color: var(--acTx);">Gérer les contacts et les groupes dans les réglages →</button>
+                  <sc-if value="{{ wa.hasGroups }}" hint-placeholder-val="{{ true }}">
+                    <div style="padding: 14px 18px 6px; font-size: 10.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--acTx2);">Groupes</div>
+                    <sc-for list="{{ wa.groupRows }}" as="g" hint-placeholder-count="3">
+                <button onClick="{{ g.go }}" style="width: 100%; text-align: left; cursor: pointer; display: flex; gap: 12px; align-items: center; background: transparent; border: none; padding: 9px 18px; color: inherit;" style-hover="background: var(--surf2);">
+                  <span aria-hidden="true" style="width: 40px; height: 40px; flex: 0 0 40px; border-radius: 99px; background: {{ g.avatarBg }}; color: #FFFFFF; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ g.initials }}</span>
+                  <span style="flex: 1; min-width: 0; border-bottom: 1px solid var(--bd); padding-bottom: 9px;">
+                    <span style="display: block; font-size: 14px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ g.name }}</span>
+                    <span style="display: block; font-size: 12.5px; color: var(--ink5); margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ g.role }}</span>
+                  </span>
+                </button>
+              </sc-for>
+                  </sc-if>
+                  <div style="padding: 14px 18px 6px; font-size: 10.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--acTx2);">Équipe & contacts externes</div>
+                  <sc-for list="{{ wa.teamRows }}" as="p" hint-placeholder-count="3">
+                <button onClick="{{ p.go }}" style="width: 100%; text-align: left; cursor: pointer; display: flex; gap: 12px; align-items: center; background: transparent; border: none; padding: 9px 18px; color: inherit;" style-hover="background: var(--surf2);">
+                  <span aria-hidden="true" style="width: 40px; height: 40px; flex: 0 0 40px; border-radius: 99px; background: {{ p.avatarBg }}; color: #FFFFFF; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ p.initials }}</span>
+                  <span style="flex: 1; min-width: 0; border-bottom: 1px solid var(--bd); padding-bottom: 9px;">
+                    <span style="display: block; font-size: 14px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ p.name }}</span>
+                    <span style="display: block; font-size: 12.5px; color: var(--ink5); margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ p.role }}</span>
+                  </span>
+                </button>
+              </sc-for>
+                  <div style="padding: 14px 18px 6px; font-size: 10.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--acTx2);">Adhérents</div>
+                  <sc-for list="{{ wa.adhRows }}" as="p" hint-placeholder-count="3">
+                <button onClick="{{ p.go }}" style="width: 100%; text-align: left; cursor: pointer; display: flex; gap: 12px; align-items: center; background: transparent; border: none; padding: 9px 18px; color: inherit;" style-hover="background: var(--surf2);">
+                  <span aria-hidden="true" style="width: 40px; height: 40px; flex: 0 0 40px; border-radius: 99px; background: {{ p.avatarBg }}; color: #FFFFFF; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ p.initials }}</span>
+                  <span style="flex: 1; min-width: 0; border-bottom: 1px solid var(--bd); padding-bottom: 9px;">
+                    <span style="display: block; font-size: 14px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ p.name }}</span>
+                    <span style="display: block; font-size: 12.5px; color: var(--ink5); margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ p.role }}</span>
+                  </span>
+                </button>
+              </sc-for>
+                </div>
+              </sc-if>
+              <div style="padding: 10px 18px; border-top: 1px solid var(--bd); display: flex; gap: 8px; align-items: center; font-size: 11.5px; color: var(--ink6);"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg><span>{{ messagingFooter }} — aucun envoi externe.</span></div>
+            </aside>
+          </sc-if>
+
+          <sc-if value="{{ wa.showChat }}" hint-placeholder-val="{{ false }}">
+            <section style="flex: 1; min-width: 0; display: flex; flex-direction: column; background: var(--surf2);">
+              <div class="chat-toolbar" style="display: flex; align-items: center; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--bd); background: var(--surface);">
+                <sc-if value="{{ wa.showBack }}" hint-placeholder-val="{{ false }}">
+                  <button onClick="{{ wa.back }}" aria-label="Retour aux discussions" style="flex: 0 0 auto; cursor: pointer; border: none; background: transparent; width: 38px; height: 38px; border-radius: 99px; color: var(--ink4); display: flex; align-items: center; justify-content: center;" style-hover="background: var(--surf2); color: var(--acTx);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg></button>
+                </sc-if>
+                <button class="chat-title" onClick="{{ wa.toggleInfo }}" style="flex: 1; min-width: 0; cursor: pointer; border: none; background: transparent; padding: 0; display: flex; align-items: center; gap: 12px; text-align: left; color: inherit;">
+                  <span aria-hidden="true" style="width: 40px; height: 40px; flex: 0 0 40px; border-radius: 99px; background: {{ convo.avatarBg }}; color: #FFFFFF; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ convo.initials }}</span>
+                  <span style="min-width: 0;">
+                    <span style="display: block; font-size: 15px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ convo.name }}</span>
+                    <span style="display: block; font-size: 12px; color: var(--ink6); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ wa.chatSub }}</span>
+                  </span>
+                </button>
+                <sc-if value="{{ wa.isBc }}" hint-placeholder-val="{{ false }}">
+                  <button onClick="{{ wa.bcSend }}" style="flex: 0 0 auto; cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); color: var(--ink3); border-radius: 99px; padding: 8px 13px; font-size: 12.5px; font-weight: 600;" style-hover="border-color: var(--acMid); color: var(--acTx);">Nouvel envoi</button>
+                </sc-if>
+                <button onClick="{{ th.toggleSel }}" style="flex: 0 0 auto; cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); color: var(--ink3); border-radius: 99px; padding: 8px 13px; font-size: 12.5px; font-weight: 600;" style-hover="border-color: var(--acMid); color: var(--acTx);">{{ th.selLabel }}</button>
+                <button onClick="{{ th.toggleUnii }}" title="Solliciter unii sur ce fil" style="flex: 0 0 auto; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; border: none; background: linear-gradient(135deg, var(--ac), var(--ac2)); color: #FFFFFF; border-radius: 99px; padding: 8px 14px; font-size: 12.5px; font-weight: 700;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"></path></svg>unii</button>
+                <button onClick="{{ wa.toggleInfo }}" title="Infos" aria-label="Infos de la discussion" style="flex: 0 0 auto; cursor: pointer; border: none; background: transparent; width: 38px; height: 38px; border-radius: 99px; color: var(--ink4); display: flex; align-items: center; justify-content: center;" style-hover="background: var(--surf2); color: var(--acTx);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4M12 8h.01"></path></svg></button>
+              </div>
+              <div ref="{{ wa.ref }}" onMouseUp="{{ th.onMouseUp }}" onClick="{{ wa.closeMenu }}" style="flex: 1; min-height: 0; overflow-y: auto; padding: 16px 5% 20px; display: flex; flex-direction: column; gap: 6px; background-color: var(--surf2); background-image: radial-gradient(hsl(var(--shC) / .07) 1px, transparent 1px); background-size: 16px 16px;">
+                <div style="align-self: center; max-width: 440px; display: flex; gap: 7px; align-items: center; background: var(--warnBg); color: var(--warnTx2); border-radius: 10px; padding: 7px 12px; font-size: 11.5px; line-height: 1.45; text-align: center; margin-bottom: 8px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg><span>{{ convocationNotice }}</span></div>
+                <sc-if value="{{ messagingStatus }}" hint-placeholder-val="{{ false }}"><div role="status" style="font-size: 12px; color: var(--ink5);">{{ messagingStatus }}</div></sc-if>
+                <sc-if value="{{ messageRecent }}"><button onClick="{{ messageRecentGo }}" style="align-self:center;cursor:pointer;border:1px solid var(--bd);background:var(--surface);color:var(--acTx);border-radius:10px;padding:9px 14px;">Messages récents</button></sc-if>
+                <sc-if value="{{ messageMore }}" hint-placeholder-val="{{ false }}"><button onClick="{{ messageMoreGo }}" style="align-self: center; cursor: pointer; border: 1px solid var(--bd); background: var(--surface); color: var(--acTx); border-radius: 10px; padding: 9px 14px;">Messages précédents</button></sc-if>
+                <sc-for list="{{ historyFiles }}" as="file"><button onClick="{{ file.download }}" style="align-self:flex-end;max-width:100%;overflow-wrap:anywhere;cursor:pointer;border:1px solid var(--bd2);background:var(--surface);border-radius:9px;padding:7px 10px;color:var(--ink3);font-size:12.5px;">Télécharger {{ file.name }}</button><button onClick="{{ file.classify }}" style="align-self:flex-end;max-width:100%;overflow-wrap:anywhere;cursor:pointer;border:1px solid var(--bd2);background:var(--surface);border-radius:9px;padding:7px 10px;color:var(--ink3);font-size:12.5px;">Classer {{ file.name }} dans un dossier</button></sc-for>
+                <sc-for list="{{ convo.messages }}" as="m" hint-placeholder-count="3">
+                  <sc-if value="{{ m.isSys }}" hint-placeholder-val="{{ false }}">
+                    <div style="align-self: center; background: var(--surface); color: var(--ink5); border-radius: 10px; padding: 6px 12px; font-size: 11.5px; box-shadow: 0 1px 1px hsl(var(--shC) / .08); text-align: center; max-width: 80%;">{{ m.text }}</div>
+                  </sc-if>
+                  <sc-if value="{{ m.mine }}" hint-placeholder-val="{{ false }}">
+                    <div onClick="{{ m.pick }}" style="position: relative; align-self: flex-end; max-width: 78%; cursor: {{ m.cursor }}; border-radius: 16px; outline: 2px solid {{ m.selBd }}; outline-offset: 3px;">
+                      <div style="position: relative; background: var(--acBg); border: 1px solid var(--acBd); color: var(--ink); border-radius: 14px 4px 14px 14px; padding: 8px 32px 6px 12px; font-size: 14px; line-height: 1.5; box-shadow: 0 1px 1px hsl(var(--shC) / .08);">
+                        <button onClick="{{ m.toggleMenu }}" aria-label="Actions sur le message" title="Actions" style="position: absolute; top: 3px; right: 4px; cursor: pointer; border: none; background: transparent; width: 24px; height: 22px; border-radius: 6px; color: var(--ink6); display: flex; align-items: center; justify-content: center; opacity: .75;" style-hover="opacity: 1; background: hsl(var(--shC) / .08);"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+                        <sc-if value="{{ m.fwd }}" hint-placeholder-val="{{ false }}"><div style="display: flex; gap: 5px; align-items: center; font-size: 11.5px; font-style: italic; color: var(--ink5); margin-bottom: 3px;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 14 5-5-5-5"></path><path d="M20 9H9.5A5.5 5.5 0 0 0 4 14.5 5.5 5.5 0 0 0 9.5 20H13"></path></svg>Transféré</div></sc-if>
+                        <sc-if value="{{ m.hasReply }}" hint-placeholder-val="{{ false }}"><div style="border-left: 3px solid var(--ac); background: hsl(var(--shC) / .05); border-radius: 4px 8px 8px 4px; padding: 6px 9px; margin: 2px 0 6px;"><div style="font-size: 12px; font-weight: 700; color: var(--acTx);">{{ m.replyWho }}</div><div style="font-size: 12.5px; color: var(--ink4); line-height: 1.45; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 420px;">{{ m.replyText }}</div></div></sc-if>
+                        <sc-if value="{{ m.hasChan }}" hint-placeholder-val="{{ false }}">
+                          <div style="display: flex; gap: 6px; align-items: center; font-size: 11px; font-weight: 700; color: var(--acTx2); margin-bottom: 4px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 18-5v12L3 14v-3z"></path><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path></svg>{{ m.chanLabel }}</div>
+                        </sc-if>
+                        <sc-if value="{{ m.hasSubj }}" hint-placeholder-val="{{ false }}">
+                          <div style="font-weight: 700; margin-bottom: 2px;">{{ m.subj }}</div>
+                        </sc-if>
+                        <div style="white-space: pre-line; overflow-wrap: anywhere;">{{ m.text }}</div>
+                        <sc-if value="{{ m.hasAtt }}" hint-placeholder-val="{{ false }}">
+                          <div role="button" tabIndex="0" onClick="{{ m.openAttachment }}" onKeyDown="{{ m.attachmentKey }}" style="cursor:pointer;overflow-wrap:anywhere;display: flex; gap: 8px; align-items: center; margin-top: 7px; background: var(--surface); border-radius: 9px; padding: 7px 10px; font-size: 12.5px; color: var(--ink3);"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v5h6"></path></svg>{{ m.att }}</div>
+                        </sc-if>
+                        <div style="display: flex; justify-content: flex-end; gap: 6px; align-items: center; font-size: 10.5px; color: var(--ink6); margin-top: 3px;"><sc-if value="{{ m.checked }}" hint-placeholder-val="{{ false }}"><span style="color: var(--acTx); font-weight: 700;">✓ sélectionné</span></sc-if>{{ m.time }}<span style="color: var(--info); font-weight: 700; letter-spacing: -.12em;">{{ messageAck }}</span></div>
+                      </div>
+                      <sc-if value="{{ m.menuOpen }}" hint-placeholder-val="{{ false }}">
+                      <div role="menu" style="position: absolute; top: 30px; right: 0; z-index: 6; min-width: 250px; background: var(--surface); border: 1px solid var(--bd); border-radius: 14px; box-shadow: 0 18px 40px -16px hsl(var(--shC) / .45); padding: 6px; display: flex; flex-direction: column;">
+                        <sc-for list="{{ m.acts }}" as="x" hint-placeholder-count="5">
+                          <button onClick="{{ x.go }}" role="menuitem" style="text-align: left; cursor: pointer; border: none; background: transparent; border-radius: 9px; padding: 9px 12px; font-size: 13.5px; color: var(--ink2);" style-hover="background: var(--surf2); color: var(--acTx);">{{ x.label }}</button>
+                        </sc-for>
+                      </div>
+                    </sc-if>
+                    </div>
+                  </sc-if>
+                  <sc-if value="{{ m.theirs }}" hint-placeholder-val="{{ true }}">
+                    <div onClick="{{ m.pick }}" style="position: relative; align-self: flex-start; max-width: 78%; cursor: {{ m.cursor }}; border-radius: 16px; outline: 2px solid {{ m.selBd }}; outline-offset: 3px;">
+                      <div style="position: relative; background: var(--surface); color: var(--ink); border-radius: 4px 14px 14px 14px; padding: 8px 32px 6px 12px; font-size: 14px; line-height: 1.5; box-shadow: 0 1px 1px hsl(var(--shC) / .1);">
+                        <button onClick="{{ m.toggleMenu }}" aria-label="Actions sur le message" title="Actions" style="position: absolute; top: 3px; right: 4px; cursor: pointer; border: none; background: transparent; width: 24px; height: 22px; border-radius: 6px; color: var(--ink6); display: flex; align-items: center; justify-content: center; opacity: .75;" style-hover="opacity: 1; background: hsl(var(--shC) / .08);"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+                        <sc-if value="{{ m.showWho }}" hint-placeholder-val="{{ false }}">
+                          <div style="font-size: 12px; font-weight: 700; color: {{ m.whoFg }}; margin-bottom: 2px;">{{ m.who }}</div>
+                        </sc-if>
+                        <sc-if value="{{ m.fwd }}" hint-placeholder-val="{{ false }}"><div style="display: flex; gap: 5px; align-items: center; font-size: 11.5px; font-style: italic; color: var(--ink5); margin-bottom: 3px;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 14 5-5-5-5"></path><path d="M20 9H9.5A5.5 5.5 0 0 0 4 14.5 5.5 5.5 0 0 0 9.5 20H13"></path></svg>Transféré</div></sc-if>
+                        <sc-if value="{{ m.hasReply }}" hint-placeholder-val="{{ false }}"><div style="border-left: 3px solid var(--ac); background: hsl(var(--shC) / .05); border-radius: 4px 8px 8px 4px; padding: 6px 9px; margin: 2px 0 6px;"><div style="font-size: 12px; font-weight: 700; color: var(--acTx);">{{ m.replyWho }}</div><div style="font-size: 12.5px; color: var(--ink4); line-height: 1.45; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 420px;">{{ m.replyText }}</div></div></sc-if>
+                        <div style="white-space: pre-line; overflow-wrap: anywhere;">{{ m.text }}</div>
+                        <sc-if value="{{ m.hasAtt }}" hint-placeholder-val="{{ false }}">
+                          <div role="button" tabIndex="0" onClick="{{ m.openAttachment }}" onKeyDown="{{ m.attachmentKey }}" style="cursor:pointer;overflow-wrap:anywhere;display: flex; gap: 8px; align-items: center; margin-top: 7px; background: var(--surface); border-radius: 9px; padding: 7px 10px; font-size: 12.5px; color: var(--ink3);"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v5h6"></path></svg>{{ m.att }}</div>
+                        </sc-if>
+                        <div style="display: flex; justify-content: flex-end; gap: 6px; font-size: 10.5px; color: var(--ink6); margin-top: 3px;"><sc-if value="{{ m.checked }}" hint-placeholder-val="{{ false }}"><span style="color: var(--acTx); font-weight: 700;">✓ sélectionné</span></sc-if>{{ m.time }}</div>
+                      </div>
+                      <sc-if value="{{ m.menuOpen }}" hint-placeholder-val="{{ false }}">
+                      <div role="menu" style="position: absolute; top: 30px; left: 0; z-index: 6; min-width: 250px; background: var(--surface); border: 1px solid var(--bd); border-radius: 14px; box-shadow: 0 18px 40px -16px hsl(var(--shC) / .45); padding: 6px; display: flex; flex-direction: column;">
+                        <sc-for list="{{ m.acts }}" as="x" hint-placeholder-count="5">
+                          <button onClick="{{ x.go }}" role="menuitem" style="text-align: left; cursor: pointer; border: none; background: transparent; border-radius: 9px; padding: 9px 12px; font-size: 13.5px; color: var(--ink2);" style-hover="background: var(--surf2); color: var(--acTx);">{{ x.label }}</button>
+                        </sc-for>
+                      </div>
+                    </sc-if>
+                    </div>
+                  </sc-if>
+                <sc-if value="{{ m.isAi }}" hint-placeholder-val="{{ false }}">
+                  <div style="align-self: stretch; background: var(--acBg); border: 1px solid var(--acBd); border-radius: 18px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px;">
+                    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
+                      <span style="display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 700; color: #FFFFFF; background: var(--ac); border-radius: 99px; padding: 3px 9px;"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"></path></svg>unii</span>
+                      <span style="font-size: 11.5px; color: var(--acTx3); min-width: 0;">{{ m.ctxLabel }} · visible par vous seule</span>
+                      <span style="margin-left: auto; font-size: 11px; color: var(--ink6);">{{ m.time }}</span>
+                    </div>
+                    <div style="font-size: 12.5px; color: var(--ink4); font-style: italic;">« {{ m.ask }} »</div>
+                    <div style="font-size: 14px; line-height: 1.6; color: var(--ink2); white-space: pre-line; overflow-wrap: anywhere;">{{ m.text }}</div>
+                    <sc-if value="{{ m.reid }}" hint-placeholder-val="{{ false }}">
+                      <div style="font-size: 11.5px; color: var(--okTx);">{{ m.reid }}</div>
+                    </sc-if>
+                    <div style="display: flex; flex-wrap: wrap; gap: 6px; padding-top: 4px;">
+                      <sc-if value="{{ m.ok }}" hint-placeholder-val="{{ true }}">
+                        <button onClick="{{ m.insert }}" style="cursor: pointer; border: none; background: var(--ac); color: #FFFFFF; border-radius: 99px; padding: 6px 12px; font-size: 12px; font-weight: 700;">Insérer dans ma réponse</button>
+                        <button onClick="{{ m.toAsst }}" style="cursor: pointer; border: 1px solid var(--acBd); background: var(--surface); color: var(--acTx); border-radius: 99px; padding: 6px 12px; font-size: 12px; font-weight: 700;">Poursuivre dans l'assistant</button>
+                      </sc-if>
+                      <button onClick="{{ m.hide }}" style="cursor: pointer; border: 1px solid var(--bd2); background: transparent; color: var(--ink5); border-radius: 99px; padding: 6px 12px; font-size: 12px; font-weight: 600;">Masquer</button>
+                    </div>
+                  </div>
+                </sc-if>
+                </sc-for>
+              <sc-if value="{{ th.busy }}" hint-placeholder-val="{{ false }}">
+                <div style="align-self: flex-start; display: flex; align-items: center; gap: 8px; background: var(--acBg); border-radius: 99px; padding: 9px 14px; font-size: 12.5px; color: var(--acTx);">
+                  <span style="width: 6px; height: 6px; border-radius: 99px; background: var(--ac); animation: blink 1s infinite;"></span>
+                  <span style="width: 6px; height: 6px; border-radius: 99px; background: var(--ac); animation: blink 1s .2s infinite;"></span>
+                  <span style="width: 6px; height: 6px; border-radius: 99px; background: var(--ac); animation: blink 1s .4s infinite;"></span>
+                  unii travaille sur « {{ th.busyAsk }} »
+                </div>
+              </sc-if>
+              </div>
+            <sc-if value="{{ th.panel }}" hint-placeholder-val="{{ false }}">
+              <div style="padding: 12px 16px; border-top: 1px solid var(--acBd); background: var(--acBg2, var(--acBg)); display: flex; flex-direction: column; gap: 10px;">
+                <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+                  <span style="display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 700; color: #FFFFFF; background: var(--ac); border-radius: 99px; padding: 3px 9px;"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"></path></svg>unii</span>
+                  <span style="flex: 1; min-width: 0; font-size: 12.5px; color: var(--acTx3);">Travaille sur : <strong>{{ th.ctxLabel }}</strong></span>
+                  <button onClick="{{ th.clear }}" aria-label="Fermer unii" style="cursor: pointer; border: none; background: transparent; color: var(--ink5); width: 28px; height: 28px; border-radius: 99px; font-size: 16px;" style-hover="background: var(--surface);">×</button>
+                </div>
+                <sc-if value="{{ th.hasQuote }}" hint-placeholder-val="{{ false }}">
+                  <div style="border-left: 3px solid var(--ac); background: var(--surface); border-radius: 4px 10px 10px 4px; padding: 8px 12px; font-size: 13px; line-height: 1.5; color: var(--ink3); font-style: italic;">{{ th.quote }}</div>
+                </sc-if>
+                <sc-if value="{{ th.selMode }}" hint-placeholder-val="{{ false }}">
+                  <div style="font-size: 12px; color: var(--ink5);">Touchez les messages à inclure, ou surlignez un passage à la souris.</div>
+                </sc-if>
+                <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+                  <sc-for list="{{ th.presets }}" as="p" hint-placeholder-count="4">
+                    <button onClick="{{ p.go }}" style="cursor: pointer; border: 1px solid var(--acBd); background: var(--surface); color: var(--acTx); border-radius: 99px; padding: 7px 12px; font-size: 12.5px; font-weight: 700;" style-hover="border-color: var(--ac);">{{ p.label }}</button>
+                  </sc-for>
+                  <button onClick="{{ th.toAsst }}" style="cursor: pointer; display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--bd2); background: var(--surface); color: var(--ink3); border-radius: 99px; padding: 7px 12px; font-size: 12.5px; font-weight: 600;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"></path><path d="M7 7h10v10"></path></svg>Passer en mode assistant</button>
+                  <sc-if value="{{ th.canOpenHistory }}" hint-placeholder-val="{{ false }}"><button onClick="{{ th.openHistory }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); color: var(--ink3); border-radius: 99px; padding: 7px 12px; font-size: 12.5px; font-weight: 600;">Ouvrir les messages sélectionnés</button></sc-if>
+                  <button onClick="{{ th.toDossier }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); color: var(--ink3); border-radius: 99px; padding: 7px 12px; font-size: 12.5px; font-weight: 600;">{{ th.dosLabel }}</button>
+                </div>
+                <div style="font-size: 11.5px; color: var(--ink6);">Ou écrivez « @unii » suivi de votre consigne dans le champ ci-dessous. Les réponses de unii ne sont visibles que par vous.</div>
+              </div>
+            </sc-if>
+              <sc-if value="{{ wa.hasReply }}" hint-placeholder-val="{{ false }}">
+                <div style="padding: 10px 14px 0; background: var(--surface); border-top: 1px solid var(--bd); display: flex; gap: 10px; align-items: center;">
+                  <div style="flex: 1; min-width: 0; border-left: 3px solid var(--ac); background: var(--surf2); border-radius: 4px 10px 10px 4px; padding: 7px 11px;">
+                    <div style="font-size: 12px; font-weight: 700; color: var(--acTx);">{{ wa.replyHead }}</div>
+                    <div style="font-size: 12.5px; color: var(--ink4); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ wa.replyText }}</div>
+                  </div>
+                  <button onClick="{{ wa.cancelReply }}" aria-label="Annuler la réponse" style="flex: 0 0 auto; cursor: pointer; border: none; background: transparent; width: 32px; height: 32px; border-radius: 99px; color: var(--ink5); font-size: 18px;" style-hover="background: var(--surf2);">×</button>
+                </div>
+              </sc-if>
+              <div style="padding: 10px 14px; border-top: 1px solid var(--bd); background: var(--surface); display: flex; gap: 8px; align-items: center;">
+                <button onClick="{{ attach }}" title="Joindre" aria-label="Joindre un fichier" style="flex: 0 0 auto; cursor: pointer; border: none; background: transparent; width: 38px; height: 38px; border-radius: 99px; color: var(--ink4); display: flex; align-items: center; justify-content: center;" style-hover="background: var(--surf2); color: var(--acTx);"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48"></path></svg></button>
+                <input value="{{ msgDraft }}" onChange="{{ onMsg }}" onKeyDown="{{ onMsgKey }}" placeholder="{{ wa.composerPh }}" aria-label="Votre message" style="flex: 1; min-width: 0; border: 1px solid var(--bd); background: var(--surf2); border-radius: 12px; padding: 11px 14px; outline: none; font-size: 14px; color: var(--ink);" />
+                <button onClick="{{ sendMsg }}" aria-label="Envoyer" style="flex: 0 0 auto; border: none; border-radius: 99px; width: 42px; height: 42px; background: var(--ac); color: #FFFFFF; cursor: pointer; display: flex; align-items: center; justify-content: center;"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"></path><path d="M22 2 11 13"></path></svg></button>
+              </div>
+            </section>
+          </sc-if>
+
+          <sc-if value="{{ wa.showEmpty }}" hint-placeholder-val="{{ false }}">
+            <section style="flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; padding: 40px; text-align: center; background: var(--surf2); border-bottom: 5px solid var(--ac);">
+              <span aria-hidden="true" style="width: 74px; height: 74px; border-radius: 99px; background: var(--acBg); color: var(--acTx); display: flex; align-items: center; justify-content: center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path><path d="M8 9h8M8 13h5"></path></svg></span>
+              <h2 style="font-family: var(--fTitle); font-size: 26px; margin: 0;">Messages de la section</h2>
+              <p style="margin: 0; max-width: 420px; font-size: 13.5px; line-height: 1.65; color: var(--ink5); text-wrap: pretty;">Échangez avec les élus en direct ou en groupe, et retrouvez ici chaque envoi fait aux adhérents depuis « Envoyer un message ».</p>
+              <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
+                <button onClick="{{ wa.newChat }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 11px 18px; background: var(--ac); color: #FFFFFF; font-size: 13px; font-weight: 700;">Nouvelle discussion</button>
+                <button onClick="{{ wa.newGroup }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 11px 16px; font-size: 13px; font-weight: 600; color: var(--ink3);">Nouveau groupe</button>
+                <button onClick="{{ wa.newBc }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 11px 16px; font-size: 13px; font-weight: 600; color: var(--ink3);">Diffuser aux adhérents</button>
+              </div>
+              <div style="display: flex; gap: 7px; align-items: center; font-size: 11.5px; color: var(--ink6); margin-top: 8px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>{{ messagingFooter }}</div>
+            </section>
+          </sc-if>
+
+          <sc-if value="{{ wa.infoOpen }}" hint-placeholder-val="{{ false }}">
+            <aside style="position: {{ wa.drPos }}; top: 0; right: 0; bottom: 0; width: {{ wa.drW }}; flex: 0 0 auto; z-index: 3; background: var(--surface); border-left: 1px solid var(--bd); display: flex; flex-direction: column; box-shadow: {{ wa.drShadow }};">
+              <div style="display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-bottom: 1px solid var(--bd);">
+                <button onClick="{{ wa.closeInfo }}" aria-label="Fermer les infos" style="flex: 0 0 auto; cursor: pointer; border: none; background: transparent; width: 38px; height: 38px; border-radius: 99px; color: var(--ink4); display: flex; align-items: center; justify-content: center; font-size: 20px;" style-hover="background: var(--surf2); color: var(--acTx);">×</button>
+                <span style="font-size: 14.5px; font-weight: 700;">{{ wa.info.title }}</span>
+              </div>
+              <div style="flex: 1; min-height: 0; overflow-y: auto; background: var(--surf2); display: flex; flex-direction: column; gap: 8px;">
+                <div style="background: var(--surface); padding: 24px 20px 18px; display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center;">
+                  <span aria-hidden="true" style="width: 88px; height: 88px; flex: 0 0 88px; border-radius: 99px; background: {{ wa.info.avatarBg }}; color: #FFFFFF; font-size: 26px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ wa.info.initials }}</span>
+                  <div style="font-family: var(--fTitle); font-size: 20px; font-weight: 700; margin-top: 8px;">{{ wa.info.name }}</div>
+                  <div style="font-size: 12.5px; color: var(--ink5);">{{ wa.info.sub }}</div>
+                  <div style="display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 8px;">
+                    <sc-if value="{{ wa.info.canEdit }}" hint-placeholder-val="{{ false }}"><button onClick="{{ wa.info.edit }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 8px 14px; font-size: 12.5px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Modifier le groupe</button></sc-if>
+                    <sc-if value="{{ wa.info.canEditCt }}" hint-placeholder-val="{{ false }}"><button onClick="{{ wa.info.editCt }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 8px 14px; font-size: 12.5px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Modifier le contact</button></sc-if>
+                    <sc-if value="{{ wa.info.isAdh }}" hint-placeholder-val="{{ false }}"><button onClick="{{ wa.info.fiche }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 8px 14px; font-size: 12.5px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Voir la fiche adhérent</button></sc-if>
+                    <sc-if value="{{ wa.info.isBc }}" hint-placeholder-val="{{ false }}"><button onClick="{{ wa.bcSend }}" style="cursor: pointer; border: none; background: var(--ac); border-radius: 99px; padding: 8px 14px; font-size: 12.5px; font-weight: 700; color: #FFFFFF;">Nouvel envoi</button></sc-if>
+                  </div>
+                </div>
+                <sc-if value="{{ wa.info.hasDesc }}" hint-placeholder-val="{{ false }}">
+                  <div style="background: var(--surface); padding: 14px 20px;">
+                    <div style="font-size: 11.5px; color: var(--ink6); margin-bottom: 4px;">Description</div>
+                    <div style="font-size: 13.5px; line-height: 1.55; color: var(--ink2);">{{ wa.info.desc }}</div>
+                  </div>
+                </sc-if>
+                <sc-if value="{{ wa.info.isDirect }}" hint-placeholder-val="{{ false }}">
+                  <div style="background: var(--surface); padding: 14px 20px; display: flex; flex-direction: column; gap: 10px;">
+                    <div><div style="font-size: 11.5px; color: var(--ink6);">Catégorie</div><div style="font-size: 13.5px;">{{ wa.info.catLabel }}</div></div>
+                    <div><div style="font-size: 11.5px; color: var(--ink6);">Téléphone</div><div style="font-size: 13.5px;">{{ wa.info.tel }}</div></div>
+                    <div><div style="font-size: 11.5px; color: var(--ink6);">E-mail</div><div style="font-size: 13.5px; overflow-wrap: anywhere;">{{ wa.info.email }}</div></div>
+                    <sc-if value="{{ wa.info.hasCtGroups }}" hint-placeholder-val="{{ false }}"><div><div style="font-size: 11.5px; color: var(--ink6);">Groupes en commun</div><div style="font-size: 13.5px;">{{ wa.info.ctGroups }}</div></div></sc-if>
+                  </div>
+                </sc-if>
+                <sc-if value="{{ wa.info.isBc }}" hint-placeholder-val="{{ false }}">
+                  <div style="background: var(--surface); padding: 14px 20px; display: flex; flex-direction: column; gap: 10px;">
+                    <div><div style="font-size: 11.5px; color: var(--ink6);">Destinataires</div><div style="font-size: 13.5px;">{{ wa.info.bcCount }}</div></div>
+                    <div><div style="font-size: 11.5px; color: var(--ink6);">Dernier canal</div><div style="font-size: 13.5px;">{{ wa.info.bcChan }}</div></div>
+                    <p style="margin: 0; font-size: 12px; line-height: 1.55; color: var(--ink5);">Les destinataires reçoivent chaque envoi individuellement et ne voient pas les autres. Leurs réponses arrivent en message direct.</p>
+                    <button onClick="{{ wa.info.bcList }}" style="align-self: flex-start; cursor: pointer; border: none; background: transparent; padding: 0; font-size: 12.5px; font-weight: 700; color: var(--acTx);">Gérer les listes dans Adhérents →</button>
+                  </div>
+                </sc-if>
+                <sc-if value="{{ wa.info.showMembers }}" hint-placeholder-val="{{ false }}">
+                  <div style="background: var(--surface); padding: 12px 0 6px;">
+                    <div style="padding: 0 20px 6px; font-size: 12.5px; color: var(--ink5);">{{ wa.info.memberCount }}</div>
+                    <sc-if value="{{ wa.info.canEdit }}" hint-placeholder-val="{{ false }}">
+                      <button onClick="{{ wa.info.addMembers }}" style="width: 100%; text-align: left; cursor: pointer; display: flex; gap: 12px; align-items: center; background: transparent; border: none; padding: 8px 20px; color: var(--ink);" style-hover="background: var(--surf2);">
+                        <span aria-hidden="true" style="width: 38px; height: 38px; flex: 0 0 38px; border-radius: 99px; background: var(--ac); color: #FFFFFF; display: flex; align-items: center; justify-content: center;"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M19 8v6M22 11h-6"></path></svg></span>
+                        <span style="font-size: 14px; font-weight: 600;">Ajouter des membres</span>
+                      </button>
+                    </sc-if>
+                    <sc-for list="{{ wa.info.members }}" as="u" hint-placeholder-count="4">
+                      <div style="display: flex; gap: 12px; align-items: center; padding: 8px 20px;">
+                        <span aria-hidden="true" style="width: 38px; height: 38px; flex: 0 0 38px; border-radius: 99px; background: {{ u.avatarBg }}; color: #FFFFFF; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ u.initials }}</span>
+                        <span style="flex: 1; min-width: 0;">
+                          <span style="display: flex; gap: 6px; align-items: center;"><span style="font-size: 14px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ u.name }}</span><sc-if value="{{ u.isAdmin }}" hint-placeholder-val="{{ false }}"><span style="flex: 0 0 auto; font-size: 10.5px; font-weight: 700; color: var(--okTx); background: var(--okBg); border-radius: 6px; padding: 2px 6px;">Admin</span></sc-if></span>
+                          <span style="display: block; font-size: 12px; color: var(--ink5); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ u.role }}</span>
+                          <sc-if value="{{ u.canRevokeHistory }}" hint-placeholder-val="{{ false }}"><button onClick="{{ u.revokeHistory }}" style="cursor: pointer; border: none; background: transparent; color: var(--acTx); padding: 6px 0; font-size: 12px;">{{ u.historyLabel }}</button></sc-if>
+                          <sc-if value="{{ u.canAct }}" hint-placeholder-val="{{ false }}">
+                            <span style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 4px;">
+                              <button onClick="{{ u.msg }}" style="cursor: pointer; border: none; background: transparent; padding: 0; font-size: 11.5px; font-weight: 700; color: var(--acTx);">Écrire</button>
+                              <button onClick="{{ u.toggleAdmin }}" style="cursor: pointer; border: none; background: transparent; padding: 0; font-size: 11.5px; font-weight: 700; color: var(--ink4);">{{ u.adminLabel }}</button>
+                              <button onClick="{{ u.remove }}" style="cursor: pointer; border: none; background: transparent; padding: 0; font-size: 11.5px; font-weight: 700; color: var(--dangerTx2);">Retirer</button>
+                            </span>
+                          </sc-if>
+                        </span>
+                      </div>
+                    </sc-for>
+                  </div>
+                </sc-if>
+                <div style="background: var(--surface); padding: 6px 20px;">
+                  <div style="display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--bd);"><span style="flex: 1; font-size: 13.5px;">Mettre en sourdine</span><button onClick="{{ wa.info.toggleMute }}" role="switch" aria-label="Mettre en sourdine" style="flex: 0 0 auto; cursor: pointer; border: none; width: 44px; height: 24px; border-radius: 99px; position: relative; background: {{ wa.info.muteBg }};"><span style="position: absolute; top: 3px; left: {{ wa.info.muteLeft }}; width: 18px; height: 18px; border-radius: 99px; background: #FFFFFF; transition: left .18s ease;"></span></button></div>
+                  <div style="display: flex; align-items: center; gap: 12px; padding: 10px 0;"><span style="flex: 1; font-size: 13.5px;">Épingler en haut de la liste</span><button onClick="{{ wa.info.togglePin }}" role="switch" aria-label="Épingler" style="flex: 0 0 auto; cursor: pointer; border: none; width: 44px; height: 24px; border-radius: 99px; position: relative; background: {{ wa.info.pinBg }};"><span style="position: absolute; top: 3px; left: {{ wa.info.pinLeft }}; width: 18px; height: 18px; border-radius: 99px; background: #FFFFFF; transition: left .18s ease;"></span></button></div>
+                </div>
+                <div style="background: var(--surface); padding: 12px 20px 16px;">
+                  <button onClick="{{ wa.info.del.act }}" style="cursor: pointer; border: none; background: {{ wa.info.del.bg }}; border-radius: 10px; padding: 9px 12px; margin-left: -12px; font-size: 13.5px; font-weight: 700; color: var(--dangerTx2);">{{ wa.info.del.label }}</button>
+                </div>
+              </div>
+            </aside>
+          </sc-if>
+        </div>
+      </sc-if>

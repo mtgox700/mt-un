@@ -1,0 +1,178 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			129 button Intranet
+				130 image
+				131 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			89 button Réglages
+				90 image
+				91 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			132 text SITE INTERNE DE L'ORGANISATION
+			133 heading Intranet, Value: 1
+				134 text Intranet
+			135 text 5 pages suivies · 1 en ligne, 1 en attente du webmaster
+			136 tab group Choisir le site à gérer
+				137 tab (selectable, settable, boolean) Intranet 5 pages intranet.section-valenciennes.fr, Value: 0
+Intranet
+5 pages
+intranet.section-valenciennes.fr
+				138 tab (selectable, settable, boolean) Site internet 3 pages section-valenciennes.fr, Value: 0
+Site internet
+3 pages
+section-valenciennes.fr
+			139 text SALARIÉS AUTHENTIFIÉS Vous pouvez y publier des comptes rendus de séance, des positions de négociation et des documents de travail : l'audience est interne et identifiée. 1 pages en ligne 1 en attente webmaster 2 en préparation 1 retour à traiter
+			140 button Générateur de pages HTML Points clés → page rédigée, mise au gabarit du site, HTML propre.
+				141 text Générateur de pages HTML
+				142 text Points clés → page rédigée, mise au gabarit du site, HTML propre.
+			143 button Suivi des publications 1 demande en attente · 1 retour à traiter
+				144 text Suivi des publications
+				145 text 1 demande en attente · 1 retour à traiter
+			146 heading GABARITS DE PAGE, Value: 2
+				147 text GABARITS DE PAGE
+			148 button Actualité Un fait récent, un chapô, deux ou trois sections courtes. RUBRIQUE ACTUALITÉS
+				149 text Actualité
+				150 text Un fait récent, un chapô, deux ou trois sections courtes.
+				151 text RUBRIQUE ACTUALITÉS
+			152 button Communiqué interne Position de la section, ton institutionnel, signature du bureau. UNE PAGE
+				153 text Communiqué interne
+				154 text Position de la section, ton institutionnel, signature du bureau.
+				155 text UNE PAGE
+			156 button Fiche pratique Ce que dit le texte, ce que ça change pour vous, qui contacter. RUBRIQUE VOS DROITS
+				157 text Fiche pratique
+				158 text Ce que dit le texte, ce que ça change pour vous, qui contacter.
+				159 text RUBRIQUE VOS DROITS
+			160 button Questions-réponses Questions fréquentes sur un dispositif ou un accord, en blocs repliables. BLOCS REPLIABLES
+				161 text Questions-réponses
+				162 text Questions fréquentes sur un dispositif ou un accord, en blocs repliables.
+				163 text BLOCS REPLIABLES
+			164 button Événement Réunion d'information, permanence, assemblée : date, lieu, inscription. AVEC INSCRIPTION
+				165 text Événement
+				166 text Réunion d'information, permanence, assemblée : date, lieu, inscription.
+				167 text AVEC INSCRIPTION
+			168 button Compte rendu de séance Repris depuis un PV approuvé, allégé pour les salariés. DEPUIS RÉUNIONS
+				169 text Compte rendu de séance
+				170 text Repris depuis un PV approuvé, allégé pour les salariés.
+				171 text DEPUIS RÉUNIONS
+			172 heading ARBORESCENCE DU SITE, Value: 2
+				173 text ARBORESCENCE DU SITE
+			174 button Actualités 2 pages /intranet/actualites Communiqués, comptes rendus de séance, mobilisations.
+				175 text Actualités
+				176 text 2 pages
+				177 text /intranet/actualites
+				178 text Communiqués, comptes rendus de séance, mobilisations.
+			179 button Vos droits 1 page /intranet/vos-droits Fiches pratiques : congés, télétravail, temps de travail.
+				180 text Vos droits
+				181 text 1 page
+				182 text /intranet/vos-droits
+				183 text Fiches pratiques : congés, télétravail, temps de travail.
+			184 button La section 1 page /intranet/la-section Élus et mandats, permanences, procès-verbaux, comptes.
+				185 text La section
+				186 text 1 page
+				187 text /intranet/la-section
+				188 text Élus et mandats, permanences, procès-verbaux, comptes.
+			189 button Négociations 0 page /intranet/negociations NAO, accords en cours, positions déposées.
+				190 text Négociations
+				191 text 0 page
+				192 text /intranet/negociations
+				193 text NAO, accords en cours, positions déposées.
+			194 button Loisirs & ASC 1 page /intranet/asc Chèques vacances, billetterie, arbre de Noël.
+				195 text Loisirs & ASC
+				196 text 1 page
+				197 text /intranet/asc
+				198 text Chèques vacances, billetterie, arbre de Noël.
+			199 button Nous contacter 0 page /intranet/contacts Formulaire de saisine, coordonnées, alerte confidentielle.
+				200 text Nous contacter
+				201 text 0 page
+				202 text /intranet/contacts
+				203 text Formulaire de saisine, coordonnées, alerte confidentielle.
+			204 heading PAGES DE INTRANET.SECTION-VALENCIENNES.FR, Value: 2
+				205 text PAGES DE  INTRANET.SECTION-VALENCIENNES.FR
+			206 text 5 pages
+			207 button NAO 2027 : où en sont les négociations ? Actualités · Sophie Marchand · modifiée il y a 12 min BROUILLON
+				208 text NAO 2027 : où en sont les négociations ?
+				209 text Actualités · Sophie Marchand · modifiée il y a 12 min
+				210 text BROUILLON
+			211 button Supprimer
+			212 button Sécurité atelier B : ce que le CSE a obtenu Actualités · Jean-Paul Deniau · modifiée hier RELUE
+				213 text Sécurité atelier B : ce que le CSE a obtenu
+				214 text Actualités · Jean-Paul Deniau · modifiée hier
+				215 text RELUE
+			216 button Supprimer
+			217 button Chèques vacances 2026 : mode d'emploi Loisirs & ASC · Karim Belkacem · modifiée il y a 2 j EN ATTENTE WEBMASTER
+				218 text Chèques vacances 2026 : mode d'emploi
+				219 text Loisirs & ASC · Karim Belkacem · modifiée il y a 2 j
+				220 text EN ATTENTE WEBMASTER
+			221 button Supprimer
+			222 button Permanences des élus — rentrée 2026 La section · Sophie Marchand · modifiée il y a 6 j PUBLIÉE
+				223 text Permanences des élus — rentrée 2026
+				224 text La section · Sophie Marchand · modifiée il y a 6 j
+				225 text PUBLIÉE
+			226 button Supprimer
+			227 button Télétravail : vos droits après l'avenant Vos droits · Sophie Marchand · modifiée il y a 3 j RETOURNÉE
+				228 text Télétravail : vos droits après l'avenant
+				229 text Vos droits · Sophie Marchand · modifiée il y a 3 j
+				230 text RETOURNÉE
+			231 button Supprimer
+			232 text Vous éditez l'intranet au titre du rôle « communication ». 3 adhérents disposent de ce rôle ; les autres ont un accès en lecture.
+			233 button Charte de ce site
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

@@ -1,0 +1,1 @@
+{"name":"uniion-frontend-local","version":"0.1.0","private":true,"type":"module","scripts":{"build":"node build.mjs"},"dependencies":{"react":"18.3.1","react-dom":"18.3.1"},"devDependencies":{"acorn":"8.15.0","esbuild":"0.25.12","parse5":"7.3.0"}}

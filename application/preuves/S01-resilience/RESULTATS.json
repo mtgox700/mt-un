@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-26T18:12:06.217531+01:00",
+  "status": "Qualification locale des crashs terminée ; S01 reste ouvert sur les activations et infrastructures",
+  "checks_this_run": 185,
+  "suites": [
+    {
+      "name": "Tests unitaires et simulations de crash",
+      "count": 94,
+      "proof": "run-20261026T181206/unit.log"
+    },
+    {
+      "name": "Crashes pendant un renouvellement Supabase réel",
+      "count": 13,
+      "proof": "run-20261026T181206/crashes.json"
+    },
+    {
+      "name": "MFA avec stockage durable",
+      "count": 11,
+      "proof": "run-20261026T181206/mfa.json"
+    },
+    {
+      "name": "Redémarrages HTTP réels",
+      "count": 13,
+      "proof": "run-20261026T181206/http-restarts.json"
+    },
+    {
+      "name": "Reprise des révocations et stockage durable",
+      "count": 13,
+      "proof": "run-20261026T181206/durable.json"
+    },
+    {
+      "name": "Régression HTTP",
+      "count": 9,
+      "proof": "run-20261026T181206/http.json"
+    },
+    {
+      "name": "Récupération du mot de passe",
+      "count": 20,
+      "proof": "run-20261026T181206/password.json"
+    },
+    {
+      "name": "Cloisonnement Supabase",
+      "count": 12,
+      "proof": "run-20261026T181206/isolation.json"
+    }
+  ],
+  "references_unchanged": 834,
+  "source_worker_config_file_present": false,
+  "remaining": [
+    {
+      "stage": "Activation S01",
+      "item": "Configurer et activer le worker Auth privilégié sur la pile source, désigner les super administrateurs habilités et superviser son exécution. La récupération complète d’appareil perdu est déjà testée sur cible isolée ; aucune configuration serveur dédiée n’a été fournie pour la source."
+    },
+    {
+      "stage": "Supervision et dimensionnement",
+      "item": "Brancher un collecteur indépendant et les notifications sur les diagnostics de sessions. Le fichier de santé et le moniteur local sont actifs, mais aucun nouveau canal d’alerte externe n’a été créé. Qualifier les capacités et délais avec les volumes cibles ; une révocation globale ambiguë peut nécessiter une vérification opérateur."
+    },
+    {
+      "stage": "Infrastructure",
+      "item": "Créer le dépôt distant et activer la CI, les environnements séparés, Supabase managé Europe, OVH, HTTPS/cookies Secure et la gestion des secrets. La préparation CI installe désormais la dépendance cryptographique déclarée, mais aucune exécution distante n’a eu lieu."
+    },
+    {
+      "stage": "Production et sauvegardes",
+      "item": "Choisir et tester l’architecture cible : le stockage livré fonctionne entre processus sur un même hôte. Un déploiement multi-hôtes requiert un stockage distribué et une gestion centralisée des clés. Déporter les sauvegardes et leurs clés, puis vérifier RPO/RTO sur les volumes et infrastructures de production."
+    },
+    {
+      "stage": "S02 et suites",
+      "item": "Raccorder les écrans et emails au socle, puis poursuivre le portage des modules métier, écritures, fichiers et partages en respectant S00 et la référence visuelle."
+    }
+  ],
+  "production_ready": false,
+  "evidence_snapshot": "run-20261026T181206"
+}

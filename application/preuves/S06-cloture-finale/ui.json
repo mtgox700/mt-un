@@ -1,0 +1,23 @@
+{
+  "viewports": {
+    "mobile": [
+      390,
+      844
+    ],
+    "tablette": [
+      768,
+      1024
+    ],
+    "desktop": [
+      1440,
+      1000
+    ]
+  },
+  "confirmation_visible_all": true,
+  "cancel_desktop_tablette": true,
+  "save_logout_mobile_then_relogin_persisted": true,
+  "discard_desktop_then_relogin_not_persisted": true,
+  "pdf_downloads_all": true,
+  "device_type": "émulation de viewport, pas appareils physiques",
+  "error_cases": "tests unitaires : erreur de sauvegarde, double confirmation, changement d’identité"
+}

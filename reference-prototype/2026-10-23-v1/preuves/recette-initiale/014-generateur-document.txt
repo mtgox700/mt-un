@@ -1,0 +1,93 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			68 button Accueil
+				69 image
+				70 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			17 button Agenda
+				18 image
+				19 text Agenda
+			20 button Réunions
+				21 image
+				22 text Réunions
+			80 button Documents
+				81 image
+				82 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				61 text unii
+				62 text 1
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			75 text UNII SUGGÈRE
+			76 button Brouillon à relire · NAO 2027 — où en sont les négociations
+			83 text COMMUNICATION & MOBILISATION
+			84 heading Générateur de documents, Value: 1
+				85 text Générateur de documents
+			86 text TYPE DE DOCUMENT
+			87 button Tract
+			88 button Courrier
+			89 button Ordre du jour
+			90 text POINTS CLÉS
+			91 text entry area (settable) NAO 2027 — la direction propose 0,8 %. 68 % des salariés demandent une revalorisation générale. Appeler à l'AG du personnel mardi.
+			92 button Passer en mode assistant
+			93 text TON
+			94 button Combatif
+			95 button Pédagogique
+			96 button Institutionnel
+			97 button Générer le document
+			98 text Le prompt part anonymisé : noms, matricules et établissement sont remplacés par des jetons. La signature (Sophie Marchand — CSE) est recollée localement après génération.
+			99 button En savoir plus sur la sécurité
+			100 image
+			101 text aperçu du document Lancez la génération pour voir la mise en page automatique.
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

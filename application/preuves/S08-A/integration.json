@@ -1,0 +1,222 @@
+{
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "author_enroll",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "reader_enroll",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "platform_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "platform_enroll",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_organization_denied",
+      "ok": true
+    },
+    {
+      "test": "initial_revoke",
+      "ok": true
+    },
+    {
+      "test": "before_approval_denied",
+      "ok": true
+    },
+    {
+      "test": "org_admin_cannot_approve",
+      "ok": true
+    },
+    {
+      "test": "platform_approval",
+      "ok": true
+    },
+    {
+      "test": "before_activation_denied",
+      "ok": true
+    },
+    {
+      "test": "platform_no_implicit_activation",
+      "ok": true
+    },
+    {
+      "test": "org_activation",
+      "ok": true
+    },
+    {
+      "test": "write_permission_denied",
+      "ok": true
+    },
+    {
+      "test": "platform_no_business_access",
+      "ok": true
+    },
+    {
+      "test": "server_question_only",
+      "ok": true
+    },
+    {
+      "test": "unknown_fixture_denied",
+      "ok": true
+    },
+    {
+      "test": "no_provider_on_denials",
+      "ok": true
+    },
+    {
+      "test": "csrf_denied",
+      "ok": true
+    },
+    {
+      "test": "origin_denied",
+      "ok": true
+    },
+    {
+      "test": "bearer_bypass_denied",
+      "ok": true
+    },
+    {
+      "test": "success",
+      "ok": true
+    },
+    {
+      "test": "first_request",
+      "ok": true
+    },
+    {
+      "test": "duplicate_request_refused",
+      "ok": true
+    },
+    {
+      "test": "direct_rpc_without_write_denied",
+      "ok": true
+    },
+    {
+      "test": "private_provider_table_hidden",
+      "ok": true
+    },
+    {
+      "test": "private_activation_table_hidden",
+      "ok": true
+    },
+    {
+      "test": "module_enabled_denied",
+      "ok": true
+    },
+    {
+      "test": "module_authorized_denied",
+      "ok": true
+    },
+    {
+      "test": "module_valid_until_denied",
+      "ok": true
+    },
+    {
+      "test": "commercial_expired_denied",
+      "ok": true
+    },
+    {
+      "test": "suspended_denied",
+      "ok": true
+    },
+    {
+      "test": "reapprove",
+      "ok": true
+    },
+    {
+      "test": "new_approval_invalidates_activation",
+      "ok": true
+    },
+    {
+      "test": "old_version_denied",
+      "ok": true
+    },
+    {
+      "test": "reactivate",
+      "ok": true
+    },
+    {
+      "test": "started",
+      "ok": true
+    },
+    {
+      "test": "cancel_route",
+      "ok": true
+    },
+    {
+      "test": "cancel_discards_response",
+      "ok": true
+    },
+    {
+      "test": "revoked_during_generation",
+      "ok": true
+    },
+    {
+      "test": "activation_restored",
+      "ok": true
+    },
+    {
+      "test": "logout_started",
+      "ok": true
+    },
+    {
+      "test": "logout_while_running",
+      "ok": true
+    },
+    {
+      "test": "logout_discards_response",
+      "ok": true
+    },
+    {
+      "test": "relogin",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "configuration_persistent",
+      "ok": true
+    },
+    {
+      "test": "audit_rows",
+      "ok": true
+    }
+  ],
+  "count": 54,
+  "passed": true
+}

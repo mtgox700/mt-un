@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "create",
+      "ok": true
+    },
+    {
+      "test": "no_assignment_authority_denied",
+      "ok": true
+    },
+    {
+      "test": "ungranted_recipient_denied",
+      "ok": true
+    },
+    {
+      "test": "read_only_recipient_denied",
+      "ok": true
+    },
+    {
+      "test": "self_assignment_denied",
+      "ok": true
+    },
+    {
+      "test": "writer_without_assignment_authority_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_org_denied",
+      "ok": true
+    },
+    {
+      "test": "stale_version_denied",
+      "ok": true
+    },
+    {
+      "test": "suspended_target_denied",
+      "ok": true
+    },
+    {
+      "test": "expired_target_denied",
+      "ok": true
+    },
+    {
+      "test": "eligible_target_listed",
+      "ok": true
+    },
+    {
+      "test": "assignment_saved",
+      "ok": true
+    },
+    {
+      "test": "old_owner_read_denied",
+      "ok": true
+    },
+    {
+      "test": "old_owner_write_denied",
+      "ok": true
+    },
+    {
+      "test": "old_owner_rls_denied",
+      "ok": true
+    },
+    {
+      "test": "new_owner_and_history",
+      "ok": true
+    },
+    {
+      "test": "new_owner_write_allowed",
+      "ok": true
+    },
+    {
+      "test": "replay_denied",
+      "ok": true
+    },
+    {
+      "test": "fixture_mobile",
+      "ok": true
+    },
+    {
+      "test": "fixture_tablette",
+      "ok": true
+    },
+    {
+      "test": "fixture_desktop",
+      "ok": true
+    }
+  ],
+  "count": 23
+}

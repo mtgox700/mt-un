@@ -1,0 +1,18 @@
+{
+  "integrite": {
+    "count": 834,
+    "changed": [],
+    "passed": true
+  },
+  "preuves": {
+    "count": 2187,
+    "changed": [],
+    "passed": true
+  },
+  "secret_scan": {
+    "files": 11,
+    "flagged_paths": [],
+    "passed": true,
+    "scope": "S08 fixture secrets and JWT patterns, not exhaustive"
+  }
+}

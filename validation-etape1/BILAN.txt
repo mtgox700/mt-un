@@ -1,0 +1,15 @@
+Étape 1 — bilan de recette complémentaire du 23 octobre 2026
+
+36 captures supplémentaires, 15 cas documentés. Tests sur la référence gelée servie au port 5054, données de démonstration uniquement. Aucun fichier applicatif modifié. Dimensions simulées 390 × 844 et 768 × 1024 : pas une certification sur appareils physiques.
+
+20 tests de non-régression JavaScript réussis. 4 tests de fichiers exportés réussis avec le Python du runtime fourni ; le premier lancement avec Python système échouait faute d’openpyxl, avant tout test. Référence : 324 fichiers conformes au manifeste.
+
+Deux appels IA réels aboutis : génération du PV depuis les marqueurs et test de connexion OK. L’exactitude juridique ne fait pas partie de cette validation fonctionnelle. Le PV généré dépasse une page ; le prototype affiche l’avertissement prévu. Son impression complète n’a pas été validée dans cette passe.
+
+Cinq nouveaux constats F26–F30, en complément de F18–F25. Les captures 013/014 montrent l’attente, pas un PV terminé. La capture 016 correspond à l’interruption du catalogue par le résultat IA ; l’état vide du catalogue est prouvé par 018. Aucun envoi réel de message ou d’invitation effectué. La demande de formation n’a qu’un effet local, confirmé par le code, puis a été retirée. L’emploi de la fiche adhérent a été restauré. Le PV de test reste en brouillon dans le navigateur de recette.
+
+Clôture de l’étape : NON PRONONCÉE. Les simulations ne peuvent pas être validées comme services réels. Les parcours de micro réel, import de vrais fichiers, signature avec valeur juridique, invitations reçues, diffusion reçue, facturation, permissions multi-utilisateurs et mode hors ligne réel restent non validés. Les formulaires et variantes non exercés dans les preuves restent à couvrir ; la matrice conserve explicitement cette limite au lieu de convertir une inspection en succès.
+
+Pour finir la recette : couvrir les variantes restantes des formulaires métier (incluant annulation/rechargement), vérifier le PV généré à l’impression, exécuter les parcours sur appareils physiques avec microphone et fichiers de test. Pour les services simulés, décider à l’étape 2 du comportement cible, puis les retester lorsqu’ils existent. Ne pas engager de correction de design à partir de ce rapport sans arbitrage préalable.
+
+Contrôle supplémentaire : le PV généré et son lien depuis la réunion persistent après rechargement et reconnexion (captures 035 et 036).

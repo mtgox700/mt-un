@@ -1,0 +1,35 @@
+{
+  "viewports": [
+    {
+      "format": "desktop",
+      "document": 1440,
+      "viewport": 1440,
+      "readAllowed": true,
+      "editDenied": true
+    },
+    {
+      "format": "tablette",
+      "document": 768,
+      "viewport": 768,
+      "readAllowed": true,
+      "editDenied": true
+    },
+    {
+      "format": "mobile",
+      "document": 390,
+      "viewport": 390,
+      "readAllowed": true,
+      "editDenied": true
+    }
+  ],
+  "writer_actions": [
+    "création mobile",
+    "note mobile",
+    "état mobile",
+    "édition échéance tablette",
+    "état terminé desktop"
+  ],
+  "reader_server_note_denied_mobile": true,
+  "notification_disappeared": true,
+  "physical_devices": false
+}

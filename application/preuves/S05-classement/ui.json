@@ -1,0 +1,35 @@
+{
+  "refus": [
+    {
+      "size": "desktop",
+      "error": "Classement refusé : droits insuffisants ou dossier modifié.",
+      "dimensions": {
+        "scroll": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "size": "tablette",
+      "error": "Classement refusé : droits insuffisants ou dossier modifié.",
+      "dimensions": {
+        "scroll": 820,
+        "width": 820
+      }
+    },
+    {
+      "size": "mobile",
+      "error": "Classement refusé : droits insuffisants ou dossier modifié.",
+      "dimensions": {
+        "scroll": 390,
+        "width": 390
+      }
+    }
+  ],
+  "authorized": [
+    "mobile: classement message et PDF, aperçu PDF, téléchargement ICS",
+    "tablette: classement ICS idempotent, aperçu et téléchargement PDF",
+    "desktop: classement ICS initial, aperçu et téléchargement PDF"
+  ],
+  "persistence": "Message et deux fichiers retrouvés après déconnexion/reconnexion sous le lecteur puis auteur",
+  "reserve": "Une répétition aperçu sous lecteur a échoué et vidé la liste temporaire; nouvelle session auteur et relecture réussies. Cause non isolée."
+}

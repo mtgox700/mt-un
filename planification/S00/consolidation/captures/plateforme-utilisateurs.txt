@@ -1,0 +1,108 @@
+- complementary:
+  - generic: uniion
+  - generic: Console d'administration
+  - navigation:
+    - button "Supervision":
+      - generic: Supervision
+    - button "Organisations":
+      - generic: Organisations
+    - button "Utilisateurs":
+      - generic: Utilisateurs
+    - button "Clés API IA":
+      - generic: Clés API IA
+    - button "Éditeur de l’application":
+      - generic: Éditeur de l’application
+    - button "Abonnements et paiements":
+      - generic: Abonnements et paiements
+    - button "Journal d’audit":
+      - generic: Journal d’audit
+  - generic: SA
+  - generic: Super administrateur
+  - generic: admin@uniion.fr
+  - button "Se déconnecter":
+- main:
+  - generic: Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+  - heading "Utilisateurs" [level=1]
+  - paragraph: Tous les comptes, toutes organisations confondues. 7 comptes affiché(s).
+  - textbox "Rechercher un nom, un e-mail, une organisation"
+  - button "Tous"
+  - button "Actif"
+  - button "Suspendu"
+  - button "Invitation en attente"
+  - generic: SM
+  - generic: Sophie Marchand
+  - generic: sophie.marchand@syndicat-valenciennes.fr
+  - generic: Métallurgie — Valenciennes
+  - generic: Déléguée syndicale
+  - generic: Actif
+  - generic: MFA active · vu il y a 4 min
+  - button "Assistance"
+  - button "Réinit. MFA"
+  - button "Relancer"
+  - button "Suspendre"
+  - generic: KB
+  - generic: Karim Belhadj
+  - generic: karim.belhadj@syndicat-valenciennes.fr
+  - generic: Métallurgie — Valenciennes
+  - generic: Trésorier
+  - generic: Actif
+  - generic: MFA active · vu il y a 2 h
+  - button "Assistance"
+  - button "Réinit. MFA"
+  - button "Relancer"
+  - button "Suspendre"
+  - generic: NF
+  - generic: Nadia Ferrand
+  - generic: nadia.ferrand@syndicat-valenciennes.fr
+  - generic: Métallurgie — Valenciennes
+  - generic: Secrétaire
+  - generic: Actif
+  - generic: Sans MFA · vu hier
+  - button "Assistance"
+  - button "Réinit. MFA"
+  - button "Relancer"
+  - button "Suspendre"
+  - generic: YL
+  - generic: Yann Lemoine
+  - generic: yann.lemoine@ud59.fr
+  - generic: UD 59 — Lille
+  - generic: Administrateur d’organisation
+  - generic: Actif
+  - generic: MFA active · vu il y a 3 j
+  - button "Assistance"
+  - button "Réinit. MFA"
+  - button "Relancer"
+  - button "Suspendre"
+  - generic: CD
+  - generic: Claire Dubois
+  - generic: claire.dubois@ud59.fr
+  - generic: UD 59 — Lille
+  - generic: Militante
+  - generic: Suspendu
+  - generic: Sans MFA · vu il y a 28 j
+  - button "Assistance"
+  - button "Réinit. MFA"
+  - button "Relancer"
+  - button "Réactiver"
+  - generic: AS
+  - generic: Ahmed Saïdi
+  - generic: ahmed.saidi@cse-brasserie.fr
+  - generic: CSE Brasserie du Nord
+  - generic: Secrétaire
+  - generic: Invitation en attente
+  - generic: Sans MFA · vu jamais
+  - button "Assistance"
+  - button "Réinit. MFA"
+  - button "Relancer"
+  - button "Suspendre"
+  - generic: LR
+  - generic: Léa Ravel
+  - generic: lea.ravel@cse-brasserie.fr
+  - generic: CSE Brasserie du Nord
+  - generic: Militante
+  - generic: Actif
+  - generic: MFA active · vu il y a 1 j
+  - button "Assistance"
+  - button "Réinit. MFA"
+  - button "Relancer"
+  - button "Suspendre"

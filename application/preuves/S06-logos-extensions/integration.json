@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "count": 24,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "created",
+      "ok": true
+    },
+    {
+      "test": "unscanned_direct_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "remote_logo_denied",
+      "ok": true
+    },
+    {
+      "test": "fake_image_denied",
+      "ok": true
+    },
+    {
+      "test": "scanned_image_extensions_saved",
+      "ok": true
+    },
+    {
+      "test": "reload_identical",
+      "ok": true
+    },
+    {
+      "test": "stale_denied",
+      "ok": true
+    },
+    {
+      "test": "unknown_style_denied",
+      "ok": true
+    },
+    {
+      "test": "invalid_options_denied",
+      "ok": true
+    },
+    {
+      "test": "external_photo_denied",
+      "ok": true
+    },
+    {
+      "test": "svg_saved",
+      "ok": true
+    },
+    {
+      "test": "active_svg_denied",
+      "ok": true
+    },
+    {
+      "test": "receipt_forgery_denied",
+      "ok": true
+    },
+    {
+      "test": "other_created",
+      "ok": true
+    },
+    {
+      "test": "receipt_other_document_denied",
+      "ok": true
+    },
+    {
+      "test": "revocation_read_denied",
+      "ok": true
+    },
+    {
+      "test": "real_eicar_blocked",
+      "ok": true
+    },
+    {
+      "test": "scanner_unavailable_fails_closed",
+      "ok": true
+    },
+    {
+      "test": "jpeg_photo_scanned_saved",
+      "ok": true
+    },
+    {
+      "test": "jpeg_photo_reloaded",
+      "ok": true
+    }
+  ]
+}

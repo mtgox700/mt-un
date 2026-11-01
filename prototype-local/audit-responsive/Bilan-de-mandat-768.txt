@@ -1,0 +1,58 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			8 button
+				9 image
+			10 button Se déconnecter
+				11 image
+		12 container
+			13 text PILOTAGE
+			14 heading Reporting, Value: 1
+				15 text Reporting
+			16 text Du 1er janvier au 26 août 2026 · 416 salariés · 24 élus
+			17 button Année 2026
+			18 button 12 derniers mois
+			19 button Mandat 2024–2028
+			20 checkbox Bilan de mandat, Value: 1
+			21 checkbox Utilisation de l'application, Value: 0
+			22 text DOSSIERS TRAITÉS 84 +18 % vs 2025 DOSSIERS CLOS 71 85 % de résolution DÉLAI MOYEN 9 j −3 j vs 2025 PARTICIPATION SONDAGES 72 % +9 pts
+			23 heading Dossiers par mois, Value: 2
+				24 text Dossiers par mois
+			25 text Ouverts en orange, clos en gris.
+			26 text Jan Fév Mar Avr Mai Juin Juil Août
+			27 heading Répartition par thème, Value: 2
+				28 text Répartition par thème
+			29 text Salaires et primes 26 dossiers · 31 % Santé et sécurité 21 dossiers · 25 % Temps de travail 15 dossiers · 18 % Discipline et sanctions 12 dossiers · 14 % Égalité et discriminations 10 dossiers · 12 %
+			30 heading Activité du mandat, Value: 2
+				31 text Activité du mandat
+			32 text Réunions CSE 8 ordinaires, 2 extraordinaires 10 Séances de négociation NAO, télétravail, égalité pro 6 Sondages diffusés 72 % de participation moyenne 9 Consultations de l'assistant 96 % sourcées convention ou code 1 240 Heures de délégation sur 1 920 h de crédit annuel 1 412
+			33 heading Exporter le bilan, Value: 2
+				34 text Exporter le bilan
+			35 text Le bilan reprend la mise en forme attendue pour l'annexe du rapport annuel du CSE. Aucune donnée nominative de salarié n'y figure.
+			36 button Bilan annuel (PDF)
+			37 button Données détaillées (Excel)
+			38 button Partager en lecture seule aux élus
+		39 container
+			40 button Accueil
+				41 image
+				42 text Accueil
+			43 button Dossiers
+				44 image
+				45 text Dossiers
+			46 button Agenda
+				47 image
+				48 text Agenda
+			49 button Réunions
+				50 image
+				51 text Réunions
+			52 button Réglages
+				53 image
+				54 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

@@ -1,0 +1,142 @@
+Browser tab: 9, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+1 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	2 container Dimensions de recette
+		3 button Bureau 1280
+		4 button Mobile 390
+		5 button Tablette 768
+		6 button Tablette paysage 1024
+		657 text 768 × 1024
+	8 container Description: Prototype inchangé, ID: prototype
+		9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			10 container dc-root
+				11 container
+					12 image uniion
+					129 button ← Retour
+					13 image
+					14 text field (settable)
+					15 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					18 button
+						19 image
+					20 button Se déconnecter
+						21 image
+				22 container
+					658 text PLANIFICATION PARTAGÉE
+					659 heading Agenda, Value: 1
+						660 text Agenda
+					661 text Séances, négociations, permanences et échéances de mandat — visibles de tous les militants. 12 événements — 12 au total .
+					662 button Mois précédent
+					663 text Septembre 2026
+					664 button Mois suivant
+					665 button Aujourd'hui
+					666 tab group Affichage
+						667 tab (selected, settable, boolean) Mois, Value: 1
+						668 tab (selectable, settable, boolean) Liste, Value: 0
+					669 button Nouvel événement
+					670 checkbox Réunion de section, Value: 0
+					671 checkbox Négociation, Value: 0
+					672 checkbox Permanence syndicale, Value: 0
+					673 checkbox Formation, Value: 0
+					674 checkbox Assemblée générale, Value: 0
+					675 checkbox Échéance, Value: 0
+					676 text LUN MAR MER JEU VEN SAM DIM
+					677 button Sélectionner le 2026-08-31
+					678 button Sélectionner le 2026-09-01
+					679 button Sélectionner le 2026-09-02
+					680 button NAO — 3ᵉ séance
+					681 button Assemblée des adhérents
+					682 button Sélectionner le 2026-09-03
+					683 button CSE ordinaire — septembre
+					684 button Sélectionner le 2026-09-04
+					685 button Permanence des élus
+					686 button Sélectionner le 2026-09-05
+					687 button Sélectionner le 2026-09-06
+					688 button Sélectionner le 2026-09-07
+					689 button Sélectionner le 2026-09-08
+					690 button Réponse de la direction — enquête Atelier B
+					691 button Sélectionner le 2026-09-09
+					692 button Sélectionner le 2026-09-10
+					693 button Formation SSCT — module 2
+					694 button Sélectionner le 2026-09-11
+					695 button Sélectionner le 2026-09-12
+					696 button Sélectionner le 2026-09-13
+					697 button Sélectionner le 2026-09-14
+					698 button Permanence des élus
+					699 button Sélectionner le 2026-09-15
+					700 button Sélectionner le 2026-09-16
+					701 button Sélectionner le 2026-09-17
+					702 button CSSCT — visite de l'atelier B
+					703 button Sélectionner le 2026-09-18
+					704 button Sélectionner le 2026-09-19
+					705 button Sélectionner le 2026-09-20
+					706 button Sélectionner le 2026-09-21
+					707 button Sélectionner le 2026-09-22
+					708 button NAO — 4ᵉ séance
+					709 button Sélectionner le 2026-09-23
+					710 button Sélectionner le 2026-09-24
+					711 button Dépôt du PV de septembre
+					712 button Sélectionner le 2026-09-25
+					713 button Sélectionner le 2026-09-26
+					714 button Sélectionner le 2026-09-27
+					715 button Sélectionner le 2026-09-28
+					716 button Sélectionner le 2026-09-29
+					717 button Réunion de section — Prouvy
+					718 button Sélectionner le 2026-09-30
+					719 button Sélectionner le 2026-10-01
+					720 button Entrée en vigueur — accord télétravail
+					721 button Sélectionner le 2026-10-02
+					722 button Sélectionner le 2026-10-03
+					723 button Sélectionner le 2026-10-04
+					724 button Sélectionner le 2026-10-05
+					725 button Sélectionner le 2026-10-06
+					726 button Sélectionner le 2026-10-07
+					727 button Sélectionner le 2026-10-08
+					728 button Sélectionner le 2026-10-09
+					729 button Sélectionner le 2026-10-10
+					730 button Sélectionner le 2026-10-11
+					766 container
+						767 heading Jeudi 3 septembre, Value: 2
+							768 text Jeudi 3 septembre
+						769 button + Ajouter
+						770 button RÉUNION DE SECTION CSE ordinaire — septembre 09 h 00 → 12 h 30 · Salle du conseil, siège
+							771 text RÉUNION DE SECTION
+							772 text CSE ordinaire — septembre
+							773 text 09 h 00 → 12 h 30
+							774 text  · 
+							775 text Salle du conseil, siège
+					776 container
+						777 heading PROCHAINES ÉCHÉANCES, Value: 2
+							778 text PROCHAINES ÉCHÉANCES
+						779 button NAO — 3ᵉ séance Mercredi 2 septembre · 09 h 00
+							780 text NAO — 3ᵉ séance
+							781 text Mercredi 2 septembre · 09 h 00
+						782 button Assemblée des adhérents Mercredi 2 septembre · 12 h 15
+							783 text Assemblée des adhérents
+							784 text Mercredi 2 septembre · 12 h 15
+						785 button CSE ordinaire — septembre Jeudi 3 septembre · 09 h 00
+							786 text CSE ordinaire — septembre
+							787 text Jeudi 3 septembre · 09 h 00
+						788 button Permanence des élus Vendredi 4 septembre · 12 h 00
+							789 text Permanence des élus
+							790 text Vendredi 4 septembre · 12 h 00
+						791 button Réponse de la direction — enquête Atelier B Mardi 8 septembre
+							792 text Réponse de la direction — enquête Atelier B
+							793 text Mardi 8 septembre
+						794 text Les rappels sont envoyés aux militants concernés 48 h avant l'échéance, par notification et par courriel.
+				113 container
+					632 button Accueil
+						633 image
+						634 text Accueil
+					117 button Dossiers
+						118 image
+						119 text Dossiers
+					760 button Agenda
+						761 image
+						762 text Agenda
+					224 button Réunions
+						225 image
+						226 text Réunions
+					763 button Réglages
+						764 image
+						765 text Réglages
+
+The focused UI element is 9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

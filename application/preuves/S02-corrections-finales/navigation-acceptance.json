@@ -1,0 +1,28 @@
+{
+  "subroutes": [
+    {
+      "route": "sondage",
+      "denied": true
+    },
+    {
+      "route": "newpoll",
+      "denied": true
+    },
+    {
+      "route": "reunion",
+      "denied": true
+    },
+    {
+      "route": "record",
+      "denied": true
+    },
+    {
+      "route": "signature",
+      "denied": true
+    }
+  ],
+  "guardedEntryDenied": true,
+  "transversalEntryDenied": true,
+  "historyEntryDenied": true,
+  "passed": true
+}

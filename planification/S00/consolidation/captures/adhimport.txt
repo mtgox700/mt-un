@@ -1,0 +1,106 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Adhésions
+  - heading "Importer des adhérents" [level=1]
+  - paragraph: Fichier CSV encodé en UTF-8, une ligne d'en-tête puis une ligne par adhérent. Séparateur point-virgule ou virgule, les deux sont acceptés.
+  - button "Télécharger le modèle CSV"
+  - button "Choisir un fichier…"
+  - button "Charger l'exemple"
+  - generic: Aucun fichier chargé
+  - generic: Contenu du fichier — modifiable avant import
+  - textbox "Contenu du fichier — modifiable avant import":
+    - /placeholder: Collez ici le contenu de votre fichier CSV…
+  - button "Retour aux adhérents"
+  - heading "Colonnes attendues" [level=2]
+  - generic: prenom
+  - generic: Prénom
+  - generic: obligatoire
+  - generic: nom
+  - generic: Nom
+  - generic: obligatoire
+  - generic: email
+  - generic: Courriel
+  - generic: obligatoire
+  - generic: telephone
+  - generic: Téléphone
+  - generic: facultative
+  - generic: entreprise
+  - generic: Entreprise
+  - generic: obligatoire
+  - generic: etablissement
+  - generic: Établissement
+  - generic: obligatoire
+  - generic: section
+  - generic: Section
+  - generic: facultative
+  - generic: direction
+  - generic: Direction
+  - generic: facultative
+  - generic: emploi
+  - generic: Emploi occupé
+  - generic: facultative
+  - generic: date_adhesion
+  - generic: Date d'adhésion
+  - generic: facultative
+  - generic: mode_reglement
+  - generic: Mode de règlement
+  - generic: facultative
+  - generic: montant
+  - generic: Montant de cotisation
+  - generic: facultative
+  - generic: modele-import-adherents.csv
+  - generic: prenom;nom;email;telephone;entreprise;etablissement;section;direction;emploi;date_adhesion;mode_reglement;montant Lucie;Baradel;l.baradel@mv-sa.fr;06 11 22 33 44;Métallurgie Valenciennes SA;Site de Valenciennes;Section Atelier;Production;Opératrice ligne 2;01/09/2026;Prélèvement SEPA;13,40 €/mois Ahmed;Zerrouki;a.zerrouki@valmetal-log.fr;07 88 55 21 09;Valmétal Logistique;Plateforme de Prouvy;Section Logistique;Supply Chain;Cariste;01/09/2026;Chèque;11,80 €/mois Hélène;Trouvain;h.trouvain@vmv-services.fr;;VMV Services;Siège de Lille;Section Tertiaire;Fonctions support;Gestionnaire ADV;15/09/2026;Virement annuel;150 €/an
+  - heading "Ce que fait l'import" [level=2]
+  - list:
+    - listitem: Chaque ligne valide crée une adhésion au statut « Adhésion en cours », bulletin à faire signer.
+    - listitem: Les doublons de courriel, dans le fichier comme dans le fichier des adhérents, sont écartés.
+    - listitem: Une entreprise, section ou direction inconnue est créée à l'import et reste filtrable.
+    - listitem: "Le fichier n'est lu que sur l'appareil : rien n'est envoyé à un serveur, l'import est journalisé."

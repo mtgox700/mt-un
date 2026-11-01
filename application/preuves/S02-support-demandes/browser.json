@@ -1,0 +1,67 @@
+{
+  "checks": [
+    {
+      "phase": "demande",
+      "width": 1440,
+      "height": 900,
+      "overflow": false
+    },
+    {
+      "phase": "demande",
+      "width": 768,
+      "height": 1024,
+      "overflow": false
+    },
+    {
+      "phase": "demande",
+      "width": 390,
+      "height": 844,
+      "overflow": false
+    },
+    {
+      "phase": "affectation",
+      "width": 390,
+      "height": 844,
+      "overflow": false
+    },
+    {
+      "phase": "affectation",
+      "width": 768,
+      "height": 1024,
+      "overflow": false
+    },
+    {
+      "phase": "affectation",
+      "width": 1440,
+      "height": 900,
+      "overflow": false
+    },
+    {
+      "phase": "retrait",
+      "width": 1440,
+      "height": 900,
+      "revoked": true,
+      "noAuthorizedStatus": true,
+      "overflow": false
+    },
+    {
+      "phase": "retrait",
+      "width": 768,
+      "height": 1024,
+      "revoked": true,
+      "noAuthorizedStatus": true,
+      "overflow": false
+    },
+    {
+      "phase": "retrait",
+      "width": 390,
+      "height": 844,
+      "revoked": true,
+      "noAuthorizedStatus": true,
+      "overflow": false
+    }
+  ],
+  "requestSubmitted": true,
+  "requestApproved": true,
+  "assignmentRemoved": true
+}

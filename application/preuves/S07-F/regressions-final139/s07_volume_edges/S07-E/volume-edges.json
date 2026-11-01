@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "count": 13,
+  "checks": [
+    {
+      "test": "login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "mfa",
+      "ok": true
+    },
+    {
+      "test": "login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "mfa",
+      "ok": true
+    },
+    {
+      "test": "unread_equivalent_author",
+      "ok": true
+    },
+    {
+      "test": "unread_equivalent_history_restricted",
+      "ok": true
+    },
+    {
+      "test": "null_action_denied",
+      "ok": true
+    },
+    {
+      "test": "null_action_denied",
+      "ok": true
+    },
+    {
+      "test": "revision_helper_private",
+      "ok": true
+    },
+    {
+      "test": "file_quarantine_changes_revision",
+      "ok": true
+    },
+    {
+      "test": "restored_file_revision_matches",
+      "ok": true
+    }
+  ]
+}

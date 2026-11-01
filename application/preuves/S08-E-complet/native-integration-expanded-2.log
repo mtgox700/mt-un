@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/tests/s08_native_integration.py", line 110, in <module>
+    st,cfg,_=ai(x,'actions',action='settings',payload={});check('settings_read',st==200 and cfg['manage'])
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/tests/s08_native_integration.py", line 26, in check
+    insert into uniion_private.identity_profiles values('{org}','{a['id']}','Camille Recette','Membre'),('{org}','{b['id']}','Alex Recette','Membre');commit;""")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: settings_read

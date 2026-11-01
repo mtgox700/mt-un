@@ -1,0 +1,155 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			5 button Accueil
+				6 image
+				7 text Accueil
+			129 button Assistant
+				130 image
+				131 text Assistant
+			132 button Dossiers
+				133 image
+				134 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			17 button Agenda
+				18 image
+				19 text Agenda
+			20 button Réunions
+				21 image
+				22 text Réunions
+			23 button Documents
+				24 image
+				25 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			58 button ← Retour
+			59 image
+			60 text field (settable) RECETTE
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				135 text unii
+				136 text 2
+			62 button
+				63 image
+			64 button Se déconnecter
+				65 image
+		137 container
+			138 text UNII SUGGÈRE
+			139 button Échéance dans 24 h · Signalement — Service Logistique
+			140 button Échéance dans 4 h · Accident Atelier B
+			141 text JURIDIQUE
+			210 container
+				211 text INTITULÉ
+				212 text field (settable) INTITULÉ, Value: Nouveau dossier sans titre
+			213 container
+				214 text DESCRIPTION
+				215 text entry area (settable) DESCRIPTION, Value: Contexte à compléter.
+			216 container
+				217 text ÉCHÉANCE
+				218 text field (settable) ÉCHÉANCE, Value: 15 j
+			219 button Terminer la modification
+			147 text ÉCHÉANCE
+			148 text 15 j
+			149 text STATUT
+			150 text En cours
+			151 text RÉFÉRENT
+			152 text Sophie M.
+			153 heading Historique, Value: 2
+				154 text Historique
+			155 text Aujourd'hui
+			156 text Dossier créé
+			157 text Créé par Sophie Marchand depuis le mobile.
+			158 text Aujourd'hui
+			159 text Déplacé vers En cours
+			160 text Statut modifié par Sophie Marchand depuis le tableau des dossiers.
+			161 text field (settable)
+			162 button Ajouter
+			163 heading Actions, Value: 2
+				164 text Actions
+			165 button Analyser sans identité →
+			166 text NIVEAU STANDARD Masquage léger — aucun nom détecté
+			167 button Générer un courrier à la direction
+			168 button Pièces jointes 1
+				169 image
+				170 text Pièces jointes
+				171 text 1
+			172 button Faire avancer le dossier
+			173 image
+			174 text Assistant du dossier Contexte chargé
+			175 button Mode assistant, Help: Ouvrir ce sujet dans l'Assistant
+			176 text Juridique Échéance 15 j 1 pièce Niveau standard
+			177 container
+				178 text CONTEXTE DU DOSSIER CHARGÉ J'ai lu « Nouveau dossier sans titre » : catégorie Juridique, échéance 15 j, 1 entrées d'historique. Posez votre question, je réponds sur ce dossier en citant les textes applicables. Résume l'historique en 5 lignes DOSSIER « NOUVEAU DOSSIER SANS TITRE » — CONTEXTE FOURNI, NON DATÉ, RUBRIQUE « CONTEXTE DU DOSSIER » Le dossier « Nouveau dossier sans titre » est présenté comme juridique (présentation du dossier, non datée).
+Son contexte indique seulement « Contexte à compléter » (rubrique « Contexte du dossier »).
+Aucune chronologie propre à ce dossier n’est renseignée dans cette rubrique ; son historique reste à établir.
+Vous pouvez verser un relevé daté des faits, courriers et démarches des élus ; faites vérifier cette chronologie avant tout usage contentieux.
+Sources : Dossier « Nouveau dossier sans titre » — présentation et contexte, non datés — message transmis, source non vérifiée, à contrôler.
+
+Contexte transmis (masqué, niveau STANDARD) : Contexte à compléter.
+			179 button Quels textes s'appliquent ici ?
+			180 button Quels délais dois-je respecter ?
+			181 button Que demander à la direction ?
+			182 button Résume l'historique en 5 lignes
+			183 text field (settable)
+			184 button Envoyer à l'assistant
+				185 image
+			186 text Noms et matricules masqués avant envoi · réponses non conservées côté modèle.
+			187 button En savoir plus sur la sécurité
+			188 button Analyse complète →
+			189 heading Assigner à un élu, Value: 2
+				190 text Assigner à un élu
+			191 text Seuls les élus formés SSCT apparaissent en gras.
+			192 button SM Sophie Marchand Référent
+				193 text SM
+				194 text Sophie Marchand
+				195 text Référent
+			196 button JD Jean-Paul Diallo Trésorier
+				197 text JD
+				198 text Jean-Paul Diallo
+				199 text Trésorier
+			200 button LC Leïla Chaïb Élue titulaire
+				201 text LC
+				202 text Leïla Chaïb
+				203 text Élue titulaire
+			204 button MA Marc Aubert Suppléant
+				205 text MA
+				206 text Marc Aubert
+				207 text Suppléant
+			208 text CLOISONNEMENT
+			209 text Ce dossier est chiffré et invisible pour l'employeur. Journal d'accès conservé 5 ans (audit RGPD).
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

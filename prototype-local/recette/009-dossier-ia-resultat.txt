@@ -1,0 +1,142 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			68 button Accueil
+				69 image
+				70 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			71 button Dossiers
+				72 image
+				73 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			17 button Agenda
+				18 image
+				19 text Agenda
+			20 button Réunions
+				21 image
+				22 text Réunions
+			23 button Documents
+				24 image
+				25 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				61 text unii
+				62 text 2
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			75 text UNII SUGGÈRE
+			76 button Échéance dans 24 h · Signalement — Service Logistique
+			77 button Échéance dans 4 h · Accident Atelier B
+			78 text JURIDIQUE
+			144 heading Nouveau dossier sans titre, Value: 1
+				145 text Nouveau dossier sans titre
+			146 text Contexte à compléter.
+			147 button Modifier le dossier
+			148 button Supprimer le dossier
+			84 text ÉCHÉANCE
+			85 text 15 j
+			86 text STATUT
+			87 text À traiter
+			88 text RÉFÉRENT
+			89 text Sophie M.
+			90 heading Historique, Value: 2
+				91 text Historique
+			92 text Aujourd'hui
+			93 text Dossier créé
+			94 text Créé par Sophie Marchand depuis le mobile.
+			95 text field (settable)
+			96 button Ajouter
+			97 heading Actions, Value: 2
+				98 text Actions
+			99 button Analyser sans identité →
+			100 text NIVEAU STANDARD Masquage léger — aucun nom détecté
+			101 button Générer un courrier à la direction
+			102 button Pièces jointes 0
+				103 image
+				104 text Pièces jointes
+				105 text 0
+			106 button Faire avancer le dossier
+			107 image
+			108 text Assistant du dossier Contexte chargé
+			109 button Mode assistant, Help: Ouvrir ce sujet dans l'Assistant
+			110 text Juridique Échéance 15 j 0 pièce Niveau standard
+			111 text CONTEXTE DU DOSSIER CHARGÉ
+			112 text J'ai lu « Nouveau dossier sans titre » : catégorie Juridique, échéance 15 j, 1 entrées d'historique. Posez votre question, je réponds sur ce dossier en citant les textes applicables.
+			150 text Résume l'historique en 5 lignes
+			113 button Quels textes s'appliquent ici ?
+			114 button Quels délais dois-je respecter ?
+			115 button Que demander à la direction ?
+			116 button Résume l'historique en 5 lignes
+			117 text field (settable)
+			118 button Envoyer à l'assistant
+				119 image
+			120 text Noms et matricules masqués avant envoi · réponses non conservées côté modèle.
+			121 button En savoir plus sur la sécurité
+			122 button Analyse complète →
+			123 heading Assigner à un élu, Value: 2
+				124 text Assigner à un élu
+			125 text Seuls les élus formés SSCT apparaissent en gras.
+			126 button SM Sophie Marchand Référent
+				127 text SM
+				128 text Sophie Marchand
+				129 text Référent
+			130 button JD Jean-Paul Diallo Trésorier
+				131 text JD
+				132 text Jean-Paul Diallo
+				133 text Trésorier
+			134 button LC Leïla Chaïb Élue titulaire
+				135 text LC
+				136 text Leïla Chaïb
+				137 text Élue titulaire
+			138 button MA Marc Aubert Suppléant
+				139 text MA
+				140 text Marc Aubert
+				141 text Suppléant
+			142 text CLOISONNEMENT
+			143 text Ce dossier est chiffré et invisible pour l'employeur. Journal d'accès conservé 5 ans (audit RGPD).
+
+The focused UI element is 116 button Résume l'historique en 5 lignes

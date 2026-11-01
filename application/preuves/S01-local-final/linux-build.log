@@ -1,0 +1,48 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 215B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.13-slim
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.13-slim@sha256:d98cc29d3266e535dd9da1099688d9cb3ca4753813571e071763d17725460962
+#4 resolve docker.io/library/python:3.13-slim@sha256:d98cc29d3266e535dd9da1099688d9cb3ca4753813571e071763d17725460962 done
+#4 CACHED
+
+#5 [2/3] RUN python -m pip install --no-cache-dir cryptography==50.0.2
+#5 3.714 Collecting cryptography==50.0.2
+#5 3.926   Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_aarch64.whl.metadata (4.4 kB)
+#5 4.131 Collecting cffi>=2.0.0 (from cryptography==50.0.2)
+#5 4.234   Downloading cffi-2.1.1-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl.metadata (2.5 kB)
+#5 4.304 Collecting pycparser (from cffi>=2.0.0->cryptography==50.0.2)
+#5 4.352   Downloading pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
+#5 4.415 Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_aarch64.whl (4.7 MB)
+#5 5.243    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 6.4 MB/s  0:00:00
+#5 5.297 Downloading cffi-2.1.1-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl (222 kB)
+#5 5.414 Downloading pycparser-3.12-py3-none-any.whl (62 kB)
+#5 5.662 Installing collected packages: pycparser, cffi, cryptography
+#5 6.826 
+#5 6.827 Successfully installed cffi-2.1.1 cryptography-50.0.2 pycparser-3.12
+#5 6.828 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#5 DONE 7.0s
+
+#6 [3/3] WORKDIR /app
+#6 DONE 0.0s
+
+#7 exporting to image
+#7 exporting layers
+#7 exporting layers 0.8s done
+#7 exporting manifest sha256:ecec318508cceb0f83cbd1cc810871fbef35e0f03d17ebd3b52c0bf9151a35a8 done
+#7 exporting config sha256:5078d0f3f7a778ed6fbe439ecb8b23092f6e47314c65b9fff972c08b371e4a59 done
+#7 exporting attestation manifest sha256:7f19e9da6124461e0ef14e6ea3e59a82e096380f137c96fe820267aae29cb03b done
+#7 exporting manifest list sha256:f9d1c1ace7bf9b1ae1a5ae7b892daf92dfa65c7e298bffd871a6a734a13f647b done
+#7 naming to docker.io/library/uniion-quality:local done
+#7 unpacking to docker.io/library/uniion-quality:local
+#7 unpacking to docker.io/library/uniion-quality:local 0.4s done
+#7 DONE 1.3s

@@ -1,0 +1,88 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - heading "Sécurité" [level=1]
+  - generic: Double authentification (MFA)
+  - generic: Obligatoire pour les rôles admin.
+  - button
+  - generic: Verrouillage biométrique
+  - generic: Face ID à l'ouverture de l'app.
+  - button
+  - generic: SSO fédération (OIDC)
+  - generic: Connexion via l'annuaire de l'union.
+  - button
+  - button "Sécurité de l'assistant et conformité RGPD Modèle souverain, anonymisation, durées de conservation, documentation de référence.":
+    - generic: Sécurité de l'assistant et conformité RGPD
+    - generic: Modèle souverain, anonymisation, durées de conservation, documentation de référence.
+    - generic: ›
+  - heading "Appareils connectés" [level=2]
+  - generic: iPhone 15 — Sophie
+  - generic: Valenciennes · actif à l'instant
+  - button "Déconnecter"
+  - generic: MacBook Air — bureau CSE
+  - generic: Valenciennes · il y a 2 jours
+  - button "Déconnecter"
+  - generic: Chrome — Windows
+  - generic: Lille · il y a 3 semaines
+  - button "Déconnecter"
+  - heading "Journal d'audit" [level=2]
+  - generic: 25 août · 08 h 22
+  - generic: Accès au dossier « Accident Atelier B »
+  - generic: Jean-Paul Diallo
+  - generic: 24 août · 19 h 04
+  - generic: Document généré (tract NAO)
+  - generic: Sophie Marchand
+  - generic: 23 août · 17 h 45
+  - generic: Pièces ajoutées au dossier harcèlement
+  - generic: Sophie Marchand
+  - generic: 22 août · 11 h 12
+  - generic: "Changement de rôle : Cabinet Berger → lecture seule"
+  - generic: Sophie Marchand
+  - button "Exporter le journal (CSV)"

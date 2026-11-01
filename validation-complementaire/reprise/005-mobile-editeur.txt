@@ -1,0 +1,68 @@
+Browser tab: 8, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		6 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 text uniion CONSOLE D'ADMINISTRATION
+					37 button Supervision
+						38 image
+						39 text Supervision
+					40 button Organisations
+						41 image
+						42 text Organisations
+					43 button Utilisateurs
+						44 image
+						45 text Utilisateurs
+					46 button Clés API IA
+						47 image
+						48 text Clés API IA
+					49 button Éditeur de l’application
+						50 image
+						51 text Éditeur de l’application
+					27 button Abonnements et paiements
+						28 image
+						29 text Abonnements et paiements
+					30 button Journal d’audit
+						31 image
+						32 text Journal d’audit
+					33 text SA Super administrateur admin@uniion.fr
+					34 button Se déconnecter
+				35 container
+					36 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+					52 heading Éditeur de l'application, Value: 1
+						53 text Éditeur de l'application
+					54 text Réglages globaux, message d'information et gabarits livrés à toutes les organisations.
+					55 heading Disponibilité, Value: 2
+						56 text Disponibilité
+					57 switch Description: Mode maintenance, Value: 0
+					58 text Mode maintenance Ferme l’accès aux utilisateurs et affiche une page d’attente.
+					59 switch Description: Nouvelles organisations, Value: 1
+					60 text Nouvelles organisations Autorise la création de comptes depuis le site public.
+					61 switch Description: Assistant IA disponible, Value: 1
+					62 text Assistant IA disponible Coupe globalement les appels au modèle en cas d’incident. Bandeau d'information (visible par tous)
+					63 text entry area (settable) Bandeau d'information (visible par tous)
+					64 button Appliquer à la plateforme
+					65 heading Gabarits livrés, Value: 2
+						66 text Gabarits livrés
+					67 text Modèles de documents et de pages proposés par défaut dans chaque organisation. Tract A4 v3  · mis à jour le  09/09/2026 Publié
+					68 button Modifier
+					69 text Convocation de réunion v2  · mis à jour le  28/08/2026 Publié
+					70 button Modifier
+					71 text Compte rendu de section v5  · mis à jour le  02/09/2026 Publié
+					72 button Modifier
+					73 text Page intranet — actualité v1  · mis à jour le  11/09/2026 Brouillon
+					74 button Publier
+					75 text Version de prompt en service : 
+					76 text v4.2
+					77 text  · rétention des échanges IA : 
+					78 text 36 mois
+					79 text .
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

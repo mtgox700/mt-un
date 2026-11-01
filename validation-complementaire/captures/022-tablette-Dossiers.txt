@@ -1,0 +1,114 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		808 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+						809 text unii
+						810 text 2
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				557 container
+					906 text GESTION DE PROJET
+					907 heading Suivi des demandes, Value: 1
+						908 text Suivi des demandes
+					909 text 6  dossiers · 2 échéances légales · mandat de déléguée syndicale Glissez une carte pour changer son état — ou sélectionnez-la et utilisez ← →
+					910 button + Nouveau dossier
+					911 text À TRAITER (3)
+					912 checkbox Description: Signalement — Service Logistique. Espace pour saisir la carte, ou glissez-la., Value: 0
+						913 text HARCÈLEMENT
+						914 text Signalement — Service Logistique
+						915 text Besoin de planifier un RDV avec Mme Leroy suite à son mail d'hier.
+						916 text SO
+						917 text 24 h
+					918 button unii · suite à donner
+					919 button Interroger l'assistant sur « Signalement — Service Logistique »
+						920 image
+						921 text IA
+					922 button Déplacer « Signalement — Service Logistique » vers En cours
+					923 checkbox Description: Accident Atelier B. Espace pour saisir la carte, ou glissez-la., Value: 0
+						924 text CSSCT
+						925 text Accident Atelier B
+						926 text Enquête CSSCT déclenchée. Accusé de réception attendu.
+						927 text JE
+						928 text 4 h
+					929 button unii · suite à donner
+					930 button Interroger l'assistant sur « Accident Atelier B »
+						931 image
+						932 text IA
+					933 button Déplacer « Accident Atelier B » vers En cours
+					934 checkbox Description: Valider devis traiteur. Espace pour saisir la carte, ou glissez-la., Value: 0
+						935 text ASC / NOËL
+						936 text Valider devis traiteur
+						937 text Trois offres reçues, arbitrage budget commission ASC.
+						938 text LE
+						939 text 5 j
+					940 button Interroger l'assistant sur « Valider devis traiteur »
+						941 image
+						942 text IA
+					943 button Déplacer « Valider devis traiteur » vers En cours
+					944 text EN COURS (2)
+					945 checkbox Description: Dossier inaptitude M. Martin. Espace pour saisir la carte, ou glissez-la., Value: 0
+						946 text JURIDIQUE
+						947 text Dossier inaptitude M. Martin
+						948 text Recherche de reclassement en cours. Attente retour RH.
+						949 text JE
+						950 text 3 j
+					951 button Déplacer « Dossier inaptitude M. Martin » vers À traiter
+					952 button Interroger l'assistant sur « Dossier inaptitude M. Martin »
+						953 image
+						954 text IA
+					955 button Déplacer « Dossier inaptitude M. Martin » vers Terminé
+					956 checkbox Description: Négociation PAP. Espace pour saisir la carte, ou glissez-la., Value: 0
+						957 text NÉGOCIATION
+						958 text Négociation PAP
+						959 text Protocole préélectoral — 2e réunion programmée.
+						960 text SO
+						961 text 10 j
+					962 button Déplacer « Négociation PAP » vers À traiter
+					963 button Interroger l'assistant sur « Négociation PAP »
+						964 image
+						965 text IA
+					966 button Déplacer « Négociation PAP » vers Terminé
+					967 text TERMINÉ (1)
+					968 checkbox Description: Inscription formation SSCT. Espace pour saisir la carte, ou glissez-la., Value: 0
+						969 text FORMATION
+						970 text Inscription formation SSCT
+						971 text Trois élus inscrits à la session de novembre.
+						972 text LE
+						973 text Clos
+					974 button Déplacer « Inscription formation SSCT » vers En cours
+					975 button Interroger l'assistant sur « Inscription formation SSCT »
+						976 image
+						977 text IA
+				112 container
+					978 button Accueil
+						979 image
+						980 text Accueil
+					981 button Dossiers
+						982 image
+						983 text Dossiers
+					318 button Agenda
+						319 image
+						320 text Agenda
+					410 button Réunions
+						411 image
+						412 text Réunions
+					903 button Réglages
+						904 image
+						905 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

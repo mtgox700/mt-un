@@ -1,0 +1,8 @@
+PASS initial list
+PASS company filter resets page
+PASS combined filters exclude mismatches
+PASS case insensitive text search
+PASS selection toggles without changing data
+PASS detail lookup
+PASS criteria labels retained
+7 member filter checks passed

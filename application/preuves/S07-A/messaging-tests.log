@@ -1,0 +1,18 @@
+✔ uncertain retry uses identical key; draft and double-click protected (39.423833ms)
+✔ late reads and sends cannot repopulate a cleared identity (0.503625ms)
+✔ late send leaves another conversation draft untouched (0.167375ms)
+✔ pagination merges without duplicate and refuses stale thread responses (0.97475ms)
+✔ denied read erases private content with no demo fallback (0.174958ms)
+✔ conversation load and participants exclude prototype contacts (0.291833ms)
+✔ late confirmed send after logout cannot restore data or draft (0.127542ms)
+✔ unavailable attachment does not call legacy mutation (0.110292ms)
+✔ drafts survive navigation between discussions in memory (0.217917ms)
+✔ late list cannot navigate after identity change (0.40125ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 101.216167

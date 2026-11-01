@@ -1,0 +1,91 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			305 button Accueil
+				306 image
+				307 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			320 button Dossiers
+				321 image
+				322 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			323 button Réunions
+				324 image
+				325 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			165 button Formations
+				166 image
+				167 text Formations
+			302 button Communication
+				303 image
+				304 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			162 button Raccourcis
+				163 image
+				164 text Raccourcis
+			308 button Réglages
+				309 image
+				310 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable) RECETTE
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				314 text unii
+				315 text 2
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		316 container
+			317 text UNII SUGGÈRE
+			318 button PV en relecture · Deuxième séance de négociation
+			319 button PV à rédiger · Visite de site — atelier peinture
+			326 button Réunions
+			327 heading Avant d'enregistrer, Value: 1
+				328 text Avant d'enregistrer
+			329 text L'enregistrement d'une séance suppose l'accord des personnes présentes. Deux confirmations sont requises avant que le micro ne s'ouvre.
+			330 text TYPE DE RÉUNION
+			331 checkbox CSE ordinaire, Value: 1
+			332 checkbox CSSCT, Value: 0
+			333 checkbox Réunion NAO, Value: 0
+			334 checkbox Préparatoire élus, Value: 0
+			335 checkbox Value: 1, Les personnes présentes ont été informées de l'enregistrement À annoncer en ouverture de séance, avant le premier mot consigné.
+			336 checkbox Value: 1, La séance ne s'y est pas opposée Un refus, même d'une seule personne, interdit l'enregistrement — prise de notes uniquement.
+			337 heading Ce qui est fait de l'enregistrement, Value: 2
+				338 text Ce qui est fait de l'enregistrement
+			339 text Le fichier reste chiffré sur cet appareil : il n'est jamais téléversé sur un serveur. Transcription et extraction passent par l'anonymisation avant inférence — noms et matricules remplacés par des jetons. Destruction certifiée dès l'approbation du PV, ou au bout de 30 jours — au premier des deux. Chaque écoute est inscrite au journal d'accès, consultable par les élus.
+			340 button Ouvrir le micro et enregistrer
+			341 text Le navigateur demandera l'accès au micro. En cas de refus, la maquette basculera en enregistrement simulé.
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

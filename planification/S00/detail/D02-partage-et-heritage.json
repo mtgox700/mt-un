@@ -1,0 +1,33 @@
+{
+  "decision": "D02",
+  "statut": "Validée par l’utilisateur",
+  "choix": "Une organisation par structure autonome, sans accès hérité. Partage explicite et unidirectionnel de ressources sélectionnées en lecture seule, téléchargement contrôlé séparément. Héritage volontaire de collections de référence versionnées avec approbation des mises à jour.",
+  "partage": {
+    "autorite": "Acteur habilité sur les ressources ; rôle administratif seul insuffisant",
+    "destinataires": "Organisation nommée et bénéficiaires autorisés ; acceptation explicite du destinataire",
+    "perimetre": "Ressources et éléments inclus explicitement sélectionnés ; aucun ajout automatique des ressources futures",
+    "permissions": "Lecture seule ; téléchargement accordé séparément ; pas de modification, repartage ou accès hors ligne",
+    "duree": "Expiration obligatoire renouvelable ; révocation par le propriétaire",
+    "propriete": "Données conservées dans organisation source ; aucun accès réciproque implicite",
+    "audit": "Création, acceptation, consultations, téléchargements et révocation",
+    "limite": "Révocation des accès futurs ; impossibilité de récupérer un fichier déjà téléchargé",
+    "derives": "Recherche, IA, exports et traitements différés respectent le périmètre et la révocation"
+  },
+  "collections": {
+    "contenu": "Liste autorisée : identité graphique, modèles, textes institutionnels approuvés et informations publiques ; aucun contenu métier confidentiel, secret ou donnée personnelle interne",
+    "publication": "Habilitation spécifique ; versions et aperçu des changements",
+    "abonnement": "Volontaire, explicite pour chaque organisation ; aucune propagation automatique",
+    "mise_a_jour": "Approbation par organisation destinataire avant application ; adaptations locales préservées",
+    "historique": "Documents produits conservent leur version ; retrait ne supprime pas les documents déjà créés"
+  },
+  "implementation": "À concevoir et tester ; aucune politique de production modifiée",
+  "tests_requis": [
+    "Refus bidirectionnel sans partage",
+    "Accès limité aux bénéficiaires et ressources sélectionnés",
+    "Pièces non incluses inaccessibles",
+    "Expiration et révocation dans API, fichiers, recherche, IA et jobs",
+    "Abonnement à une collection sans accès métier",
+    "Refus écriture, repartage et accès hors ligne",
+    "Téléchargement refusé sans autorisation spécifique"
+  ]
+}

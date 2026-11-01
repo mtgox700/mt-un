@@ -1,0 +1,515 @@
+[
+  {
+    "cle": "profileSignature",
+    "cibles": "user_preferences",
+    "action": "import_controlé",
+    "transformation": "Texte de pied de document ; jamais preuve signature ni identité authentifiée",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "cached",
+    "cibles": "offline_manifests,offline_leases,sync_receipts",
+    "action": "recalculer",
+    "transformation": "Ne pas importer booléens de cache ou heure comme preuve serveur ; vérifier blob et version",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "lastSync",
+    "cibles": "offline_manifests,offline_leases,sync_receipts",
+    "action": "recalculer",
+    "transformation": "Ne pas importer booléens de cache ou heure comme preuve serveur ; vérifier blob et version",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "autoSync",
+    "cibles": "user_preferences",
+    "action": "import_controlé",
+    "transformation": "Préférence utilisateur ; limites et autorisations serveur prioritaires",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "onb",
+    "cibles": "user_preferences",
+    "action": "import_controlé",
+    "transformation": "État ergonomique et ordre modules existants seulement ; aucune activation de module",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "navOrder",
+    "cibles": "user_preferences",
+    "action": "import_controlé",
+    "transformation": "État ergonomique et ordre modules existants seulement ; aucune activation de module",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "navMini",
+    "cibles": "user_preferences",
+    "action": "import_controlé",
+    "transformation": "État ergonomique et ordre modules existants seulement ; aucune activation de module",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "shortcuts",
+    "cibles": "organization_shortcuts",
+    "action": "import_controlé",
+    "transformation": "URL et icônes validées ; retirer scripts et URLs contenant secrets",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "admLogs",
+    "cibles": "audit_events",
+    "action": "archive_non_probante",
+    "transformation": "Conserver seulement si nécessaire comme historique importé non authentifié ; ne pas inventer audit serveur",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "adhLog",
+    "cibles": "audit_events",
+    "action": "archive_non_probante",
+    "transformation": "Conserver seulement si nécessaire comme historique importé non authentifié ; ne pas inventer audit serveur",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "mobPages",
+    "cibles": "pages,page_versions,sites",
+    "action": "import_brouillon",
+    "transformation": "Conserver variantes canal et site ; collision IDs séparée ; statut publié/relu non reconduit ; blocs whitelist",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "pages",
+    "cibles": "pages,page_versions,sites",
+    "action": "import_brouillon",
+    "transformation": "Conserver variantes canal et site ; collision IDs séparée ; statut publié/relu non reconduit ; blocs whitelist",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "signed",
+    "cibles": "review_requests,review_events",
+    "action": "ne_pas_importer",
+    "transformation": "Booléen de signature simulée ne prouve ni validation ni signature",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "sigSnapshot",
+    "cibles": "documents,document_versions",
+    "action": "import_brouillon",
+    "transformation": "Document figé récupérable comme contenu sans statut signé ; relier source si prouvable",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "localEffort",
+    "cibles": "user_preferences",
+    "action": "import_controlé",
+    "transformation": "Préférence IA bornée aux valeurs supportées ; pas modèle arbitraire",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "extCfg",
+    "cibles": "module_installations,module_catalog",
+    "action": "ne_pas_importer",
+    "transformation": "Ni scripts/URLs externes ni activation ; reconfigurer catalogue et entitlement côté serveur",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "org",
+    "cibles": "organizations,organization_settings",
+    "action": "import_controlé",
+    "transformation": "Champs descriptifs seulement vers organisation explicitement choisie ; jamais déterminer tenant depuis JSON",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "plan",
+    "cibles": "module_entitlements,payment_events",
+    "action": "ne_pas_importer",
+    "transformation": "Offre affichée ou carte factice sans valeur de paiement ; droits créés par paiement vérifié ou super admin",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "planCycle",
+    "cibles": "module_entitlements,payment_events",
+    "action": "ne_pas_importer",
+    "transformation": "Offre affichée ou carte factice sans valeur de paiement ; droits créés par paiement vérifié ou super admin",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "planCard",
+    "cibles": "module_entitlements,payment_events",
+    "action": "ne_pas_importer",
+    "transformation": "Offre affichée ou carte factice sans valeur de paiement ; droits créés par paiement vérifié ou super admin",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "admUsers",
+    "cibles": "identities,memberships,role_bindings",
+    "action": "recreer",
+    "transformation": "Noms/emails candidats à invitations après validation ; pas rôles, état actif, MFA ou mot de passe importés",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "members",
+    "cibles": "identities,memberships,role_bindings",
+    "action": "recreer",
+    "transformation": "Noms/emails candidats à invitations après validation ; pas rôles, état actif, MFA ou mot de passe importés",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "admOrgs",
+    "cibles": "organizations",
+    "action": "recreer",
+    "transformation": "Création séparée par super admin ; pas batch multitenant autoautorisé",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "admKeys",
+    "cibles": "provider_connections",
+    "action": "ne_pas_importer",
+    "transformation": "Ne pas exporter valeurs de clés ; reprovisionner via coffre serveur",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "admEditor",
+    "cibles": "platform_settings",
+    "action": "recreer",
+    "transformation": "Configurer côté plateforme après validation ; pas HTML/script libre issu navigateur",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "adherents",
+    "cibles": "member_records,dues_entries",
+    "action": "import_controlé",
+    "transformation": "Normaliser dates, montants, contacts ; données syndicales restreintes ; cotisations sous droit séparé",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "groupes",
+    "cibles": "recipient_lists",
+    "action": "import_controlé",
+    "transformation": "Listes adhérents ; membres résolus par table IDs du même batch ; pas groupe habilitation",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "dossiers",
+    "cibles": "dossiers,dossier_entries,resources",
+    "action": "import_controlé",
+    "transformation": "UUID serveur, chronologie et statut métier validés ; référent via membership validé, pas nom libre comme droit",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "pieces",
+    "cibles": "files,file_versions",
+    "action": "import_controlé",
+    "transformation": "Métadonnées rapprochées blobs par dossier/id/version ; binaire absent signalé, jamais fichier fantôme prêt",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "docs",
+    "cibles": "documents,document_versions",
+    "action": "import_brouillon",
+    "transformation": "Blocs structurés validés et versions ; anciens statuts Signé/Relu non probants ; nouvelle validation D13",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "reunions",
+    "cibles": "meetings,recordings,transcripts",
+    "action": "import_controlé",
+    "transformation": "Séparer audio, marqueurs, PV et métadonnées ; consentement/authenticité hérités non certifiés ; ACL recréées",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "pollsData",
+    "cibles": "polls",
+    "action": "import_brouillon",
+    "transformation": "Totaux demo et absence bulletins ne deviennent pas votes ; mode et information D06 à choisir avant ouverture",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "agenda",
+    "cibles": "events",
+    "action": "import_controlé",
+    "transformation": "Dates absolues UTC + timezone ; données relatives ambiguës en quarantaine ; participants locaux résolus",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "brand",
+    "cibles": "organization_settings",
+    "action": "import_controlé",
+    "transformation": "Schéma marque/document fermé ; actifs logo dans fichiers privés ou collection publiée explicitement",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "charte",
+    "cibles": "organization_settings",
+    "action": "import_controlé",
+    "transformation": "Schéma marque/document fermé ; actifs logo dans fichiers privés ou collection publiée explicitement",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "webCharte",
+    "cibles": "sites,organization_settings",
+    "action": "import_controlé",
+    "transformation": "Configuration par site, champs autorisés ; inherit demo ne crée pas abonnement D02",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "wcSite",
+    "cibles": "user_preferences",
+    "action": "import_controlé",
+    "transformation": "Sélection onglet/site seulement ; aucun site ou publication créée par préférence",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "webSite",
+    "cibles": "user_preferences",
+    "action": "import_controlé",
+    "transformation": "Sélection onglet/site seulement ; aucun site ou publication créée par préférence",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "dchats",
+    "cibles": "ai_threads,ai_messages",
+    "action": "import_controlé",
+    "transformation": "Un fil par dossier et propriétaire ; dépendances ACL dossier ; pas contexte global",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "messages",
+    "cibles": "ai_threads,ai_messages",
+    "action": "import_controlé",
+    "transformation": "Conversation active IA à rapprocher de aiConvId/aiConvs ; dédoublonner hash, ne pas fusionner conversations humaines",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "convos",
+    "cibles": "conversations,conversation_members,messages",
+    "action": "import_controlé",
+    "transformation": "Messages humains ; participants candidats à confirmer ; autorisations et grants historiques D11 reconstruits",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "contacts",
+    "cibles": "directory_contacts",
+    "action": "import_controlé",
+    "transformation": "Contact distinct identité et adhérent ; listes de personnes ne créent pas compte ni droits",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "fmSessions",
+    "cibles": "training_sessions",
+    "action": "import_controlé",
+    "transformation": "Sessions/progression importées comme historique non certifié ; pas attestation officielle créée",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "fmReq",
+    "cibles": "training_requests",
+    "action": "import_brouillon",
+    "transformation": "Préparée localement conservée en demande brouillon ; aucun email fournisseur autoenvoyé",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "comPlan",
+    "cibles": "editorial_items",
+    "action": "import_brouillon",
+    "transformation": "Dates, formats, contenus ; validations et publications réinitialisées ; exemples exclus sauf sélection explicite",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "comReq",
+    "cibles": "communication_requests",
+    "action": "import_brouillon",
+    "transformation": "Demande locale ; statut transmis de démo non confirmé ; aucune transmission automatique",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "uniiCfg",
+    "cibles": "organization_ai_settings",
+    "action": "import_controlé",
+    "transformation": "Actions proposées et configuration bornées ; ne donne pas autorité API",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "uniiRole",
+    "cibles": "role_bindings",
+    "action": "ne_pas_importer",
+    "transformation": "Rôle simulé non fiable ; seul serveur et délégation D03",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "uniiPills",
+    "cibles": "user_preferences",
+    "action": "import_controlé",
+    "transformation": "Préférence suggestions sans accès aux sources supplémentaires",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "aiConvs",
+    "cibles": "ai_threads,ai_messages",
+    "action": "import_controlé",
+    "transformation": "UUID et propriétaire par organisation ; sources non vérifiées marquées ; pas de job IA autoexécuté",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "aiConvId",
+    "cibles": "user_preferences",
+    "action": "import_controlé",
+    "transformation": "Pointer conversation active via mapping si importée, sinon null",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "aiMem",
+    "cibles": "ai_memories",
+    "action": "import_controlé",
+    "transformation": "Mémoire limitée à compte/org et dépendances sources ; éléments à approuver avant réutilisation IA",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "aiMemOn",
+    "cibles": "user_preferences",
+    "action": "import_controlé",
+    "transformation": "Préférence ; ne remplace pas activation et autorisation fournisseur",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "flags",
+    "cibles": "user_preferences,organization_ai_settings",
+    "action": "split_controlé",
+    "transformation": "Séparer visible/push/email/sms/dnd/escalade des flags mfa/bio/sso : ces derniers rejetés, état fourni par authentification réelle ; sourcing sous configuration autorisée",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "devices",
+    "cibles": "registered_devices",
+    "action": "ne_pas_importer",
+    "transformation": "Appareils de démo ne deviennent pas appareils de confiance ; nouvel enrôlement explicite",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "unread",
+    "cibles": "notifications",
+    "action": "recalculer",
+    "transformation": "Compteurs issus lectures serveur ; pas preuve notification reçue",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  },
+  {
+    "cle": "notifRead",
+    "cibles": "notifications",
+    "action": "import_controlé",
+    "transformation": "Rapprocher IDs existants autorisés seulement ; notifications seed non importées",
+    "source": "localStorage / uniion.demo.v4",
+    "preuve_ligne": "8071",
+    "protection": "Organisation imposée par serveur ; whitelist champs, droits reconstruits, simulation sans écriture puis validation explicite ; payload non fiable."
+  }
+]

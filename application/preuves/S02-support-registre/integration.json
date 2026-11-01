@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "count": 30,
+  "checks": [
+    {
+      "test": "anonymous_registry_denied",
+      "ok": true
+    },
+    {
+      "test": "manager_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_registry_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "manager_mfa",
+      "ok": true
+    },
+    {
+      "test": "organization_manager_denied",
+      "ok": true
+    },
+    {
+      "test": "organization_manager_mutation_denied",
+      "ok": true
+    },
+    {
+      "test": "superadmin_registry",
+      "ok": true
+    },
+    {
+      "test": "no_business_bypass",
+      "ok": true
+    },
+    {
+      "test": "agent_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "agent_mfa",
+      "ok": true
+    },
+    {
+      "test": "agent_registry_denied",
+      "ok": true
+    },
+    {
+      "test": "agent_self_enable_denied",
+      "ok": true
+    },
+    {
+      "test": "unknown_account_denied",
+      "ok": true
+    },
+    {
+      "test": "empty_name_denied",
+      "ok": true
+    },
+    {
+      "test": "extra_role_denied",
+      "ok": true
+    },
+    {
+      "test": "grant_fixture",
+      "ok": true
+    },
+    {
+      "test": "request_fixture",
+      "ok": true
+    },
+    {
+      "test": "before_disable_read",
+      "ok": true
+    },
+    {
+      "test": "disable",
+      "ok": true
+    },
+    {
+      "test": "disabled_read_denied",
+      "ok": true
+    },
+    {
+      "test": "disabled_context_denied",
+      "ok": true
+    },
+    {
+      "test": "reenable",
+      "ok": true
+    },
+    {
+      "test": "reenable_no_access",
+      "ok": true
+    },
+    {
+      "test": "reassign",
+      "ok": true
+    },
+    {
+      "test": "reassign_old_grant_denied",
+      "ok": true
+    },
+    {
+      "test": "pending_cancelled",
+      "ok": true
+    },
+    {
+      "test": "global_role_revocation",
+      "ok": true
+    },
+    {
+      "test": "revoked_global_mutation",
+      "ok": true
+    }
+  ]
+}

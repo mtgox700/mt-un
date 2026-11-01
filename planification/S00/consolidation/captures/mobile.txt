@@ -1,0 +1,123 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+    - generic: "2"
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: unii suggère
+  - 'button "Page à compléter · NAO 2027 : où en sommes-nous ?"'
+  - 'button "À vérifier avant validation FO · Heures supplémentaires : ce que prévoit l''accord"'
+  - text: Publié dans l'application FO
+  - heading "Application mobile" [level=1]
+  - paragraph: "Créez les pages de votre organisation publiées dans l'application mobile FO : actualités, permanences, contacts, droits. Les adhérents et salariés les retrouvent dans l'espace « Section syndicale FO ». unii rédige, vous validez, la fédération publie."
+  - generic: "1"
+  - generic: pages en ligne
+  - generic: "3"
+  - generic: en préparation
+  - generic: "412"
+  - generic: vues ce mois
+  - tablist "Application mobile":
+    - tab "Mes pages · 4" [selected]
+    - tab "Éditeur"
+  - heading "Vos pages" [level=2]
+  - generic: Espace « Section syndicale FO » dans l'application FO
+  - article:
+    - generic: En ligne
+    - generic: Permanences
+    - heading "Nos permanences du mois d'octobre" [level=3]
+    - generic: Tous les salariés · 3 blocs · mis à jour 28 sept. · 412 vues
+    - button "Modifier"
+    - button "Supprimer"
+  - article:
+    - generic: Brouillon
+    - generic: Actualité
+    - button "À compléter":
+      - generic: À compléter
+    - 'heading "NAO 2027 : où en sommes-nous ?" [level=3]'
+    - generic: Tous les salariés · 1 bloc · mis à jour hier
+    - button "Modifier"
+    - button "Supprimer"
+  - article:
+    - generic: Validation FO
+    - generic: Contacts des élus
+    - heading "Vos représentants et comment les joindre" [level=3]
+    - generic: Tous les salariés · 3 blocs · mis à jour 30 sept.
+    - button "Modifier"
+    - button "Supprimer"
+  - article:
+    - generic: En relecture
+    - generic: Vos droits
+    - button "À vérifier":
+      - generic: À vérifier
+    - 'heading "Heures supplémentaires : ce que prévoit l''accord" [level=3]'
+    - generic: Adhérents FO · 4 blocs · mis à jour 1er oct.
+    - button "Modifier"
+    - button "Supprimer"
+  - generic: "Circuit de publication : Brouillon → Relecture par un pair → Validation FO → En ligne dans l'application."
+  - heading "Créer une page" [level=2]
+  - paragraph: Partez d'un modèle adapté au téléphone, ou laissez unii rédiger une première version.
+  - button "Actualité Une info, ce qu'elle change, la suite.":
+    - generic: Actualité
+    - generic: Une info, ce qu'elle change, la suite.
+  - button "Permanences Horaires, lieu, comment venir.":
+    - generic: Permanences
+    - generic: Horaires, lieu, comment venir.
+  - button "Contacts des élus Qui joindre, pour quoi.":
+    - generic: Contacts des élus
+    - generic: Qui joindre, pour quoi.
+  - button "Événement Date, lieu, inscription.":
+    - generic: Événement
+    - generic: Date, lieu, inscription.
+  - button "Vos droits Une question, une réponse claire.":
+    - generic: Vos droits
+    - generic: Une question, une réponse claire.
+  - button "Adhésion Pourquoi et comment rejoindre FO.":
+    - generic: Adhésion
+    - generic: Pourquoi et comment rejoindre FO.
+  - button "Quelles pages créer ? Demander à unii":
+    - text: Quelles pages créer ? Demander à unii

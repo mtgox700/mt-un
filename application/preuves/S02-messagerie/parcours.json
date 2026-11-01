@@ -1,0 +1,26 @@
+[
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "sent": true,
+    "noOverflow": true
+  },
+  {
+    "size": {
+      "width": 820,
+      "height": 1180
+    },
+    "sent": true,
+    "noOverflow": true
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "sent": true,
+    "noOverflow": true
+  }
+]

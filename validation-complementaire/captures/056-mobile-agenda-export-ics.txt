@@ -1,0 +1,154 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		1641 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					1642 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				1334 container
+					1753 text PLANIFICATION PARTAGÉE
+					1754 heading Agenda, Value: 1
+						1755 text Agenda
+					1756 text Séances, négociations, permanences et échéances de mandat — visibles de tous les militants. 12 événements — 12 au total .
+					1757 button Mois précédent
+					1758 text Septembre 2026
+					1759 button Mois suivant
+					1760 button Aujourd'hui
+					1761 tab group Affichage
+						1762 tab (selected, settable, boolean) Mois, Value: 1
+						1763 tab (selectable, settable, boolean) Liste, Value: 0
+					1764 button Nouvel événement
+					1765 checkbox Réunion de section, Value: 0
+					1766 checkbox Négociation, Value: 0
+					1767 checkbox Permanence syndicale, Value: 0
+					1768 checkbox Formation, Value: 0
+					1769 checkbox Assemblée générale, Value: 0
+					1770 checkbox Échéance, Value: 0
+					1771 text LUN MAR MER JEU VEN SAM DIM
+					1772 button Sélectionner le 2026-08-31
+					1773 button Sélectionner le 2026-09-01
+					1774 button Sélectionner le 2026-09-02
+					1775 button NAO — 3ᵉ séance
+					1776 button Assemblée des adhérents
+					1777 button Sélectionner le 2026-09-03
+					1778 button CSE ordinaire — septembre
+					1779 button Sélectionner le 2026-09-04
+					1780 button Permanence des élus
+					1781 button Sélectionner le 2026-09-05
+					1782 button Sélectionner le 2026-09-06
+					1783 button Sélectionner le 2026-09-07
+					1784 button Sélectionner le 2026-09-08
+					1785 button Réponse de la direction — enquête Atelier B
+					1786 button Sélectionner le 2026-09-09
+					1787 button Sélectionner le 2026-09-10
+					1788 button Formation SSCT — module 2
+					1789 button Sélectionner le 2026-09-11
+					1790 button Sélectionner le 2026-09-12
+					1791 button Sélectionner le 2026-09-13
+					1792 button Sélectionner le 2026-09-14
+					1793 button Permanence des élus
+					1794 button Sélectionner le 2026-09-15
+					1795 button Sélectionner le 2026-09-16
+					1796 button Sélectionner le 2026-09-17
+					1797 button CSSCT — visite de l'atelier B
+					1798 button Sélectionner le 2026-09-18
+					1799 button Sélectionner le 2026-09-19
+					1800 button Sélectionner le 2026-09-20
+					1801 button Sélectionner le 2026-09-21
+					1802 button Sélectionner le 2026-09-22
+					1803 button NAO — 4ᵉ séance
+					1804 button Sélectionner le 2026-09-23
+					1805 button Sélectionner le 2026-09-24
+					1806 button Dépôt du PV de septembre
+					1807 button Sélectionner le 2026-09-25
+					1808 button Sélectionner le 2026-09-26
+					1809 button Sélectionner le 2026-09-27
+					1810 button Sélectionner le 2026-09-28
+					1811 button Sélectionner le 2026-09-29
+					1812 button Réunion de section — Prouvy
+					1813 button Sélectionner le 2026-09-30
+					1814 button Sélectionner le 2026-10-01
+					1815 button Entrée en vigueur — accord télétravail
+					1816 button Sélectionner le 2026-10-02
+					1817 button Sélectionner le 2026-10-03
+					1818 button Sélectionner le 2026-10-04
+					1819 button Sélectionner le 2026-10-05
+					1820 button Sélectionner le 2026-10-06
+					1821 button Sélectionner le 2026-10-07
+					1822 button Sélectionner le 2026-10-08
+					1823 button Sélectionner le 2026-10-09
+					1824 button Sélectionner le 2026-10-10
+					1825 button Sélectionner le 2026-10-11
+					1826 container
+						1827 heading Jeudi 3 septembre, Value: 2
+							1828 text Jeudi 3 septembre
+						1829 button + Ajouter
+						1830 button RÉUNION DE SECTION CSE ordinaire — septembre 09 h 00 → 12 h 30 · Salle du conseil, siège
+							1831 text RÉUNION DE SECTION
+							1832 text CSE ordinaire — septembre
+							1833 text 09 h 00 → 12 h 30
+							1834 text  · 
+							1835 text Salle du conseil, siège
+					1861 container
+						1862 text RÉUNION DE SECTION
+						1863 button Fermer le détail
+						1864 heading CSE ordinaire — septembre, Value: 2
+							1865 text CSE ordinaire — septembre
+						1866 text QUAND Jeudi 3 septembre 09 h 00 → 12 h 30 OÙ Salle du conseil, siège ORGANISATION Secrétaire du CSE Titulaires Suppléants Représentants syndicaux Ordre du jour transmis 3 jours avant. Avis différé sur la réorganisation logistique. Visibilité —  Militants seulement  :  Visible des seuls titulaires et suppléants.
+						1867 button Modifier
+						1868 button Convoquer
+						1869 button Ordre du jour
+						1870 button Exporter .ics
+						1871 button Retirer
+					1836 container
+						1837 heading PROCHAINES ÉCHÉANCES, Value: 2
+							1838 text PROCHAINES ÉCHÉANCES
+						1839 button NAO — 3ᵉ séance Mercredi 2 septembre · 09 h 00
+							1840 text NAO — 3ᵉ séance
+							1841 text Mercredi 2 septembre · 09 h 00
+						1842 button Assemblée des adhérents Mercredi 2 septembre · 12 h 15
+							1843 text Assemblée des adhérents
+							1844 text Mercredi 2 septembre · 12 h 15
+						1845 button CSE ordinaire — septembre Jeudi 3 septembre · 09 h 00
+							1846 text CSE ordinaire — septembre
+							1847 text Jeudi 3 septembre · 09 h 00
+						1848 button Permanence des élus Vendredi 4 septembre · 12 h 00
+							1849 text Permanence des élus
+							1850 text Vendredi 4 septembre · 12 h 00
+						1851 button Réponse de la direction — enquête Atelier B Mardi 8 septembre
+							1852 text Réponse de la direction — enquête Atelier B
+							1853 text Mardi 8 septembre
+						1854 text Les rappels sont envoyés aux militants concernés 48 h avant l'échéance, par notification et par courriel.
+				1872 text Fichier .ics généré — importable dans Outlook, Thunderbird ou Google Agenda
+				1643 container
+					1855 button Accueil
+						1856 image
+						1857 text Accueil
+					1647 button Dossiers
+						1648 image
+						1649 text Dossiers
+					1858 button Agenda
+						1859 image
+						1860 text Agenda
+					1653 button Réunions
+						1654 image
+						1655 text Réunions
+					1750 button Réglages
+						1751 image
+						1752 text Réglages
+
+The focused UI element is 1870 button Exporter .ics

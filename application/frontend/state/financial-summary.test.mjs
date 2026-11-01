@@ -1,0 +1,9 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {financialSummary} from '../modules/contacts/financial-summary.js';
+const c={flash(){},go(){},adhMarkPaid(){}};
+const base={dueCents:2000,paidDueCents:200,remainingCents:1800,overdueCents:1000,quarterCents:100,undatedCents:200,assessedMembers:1,upToDateMembers:0,arrears:[],modes:[],asOf:'2026-10-28'};
+test('summary displays money recovery rather than member percentage',()=>{const v=financialSummary(base,[],c,false);assert.equal(v.recouvPct,'10 %');assert.equal(v.up,'0 %');assert.match(v.cotisStats[0].value,/1,00/);});
+test('empty ledger is unknown, never 100 percent recovered',()=>{const v=financialSummary({...base,dueCents:0,assessedMembers:0},[],c,false);assert.equal(v.recouvPct,'—');assert.equal(v.up,'—');assert.match(v.emptyArrears,/Aucune échéance exigible/);});
+test('missing authorization/data yields no figures or overdue members',()=>{const v=financialSummary(null,[],c,false);assert.deepEqual(v.cotisStats,[]);assert.deepEqual(v.retards,[]);assert.equal(v.noRetard,false);});
+test('overdue action opens the actual member before payment, read-only refuses',async()=>{const events=[];const ctl={...c,go:(...a)=>events.push(a),adhMarkPaid:id=>events.push(id)};const s={...base,arrears:[{id:'a',cents:1000,dueOn:'2026-10-26'}]};const rows=[{id:'a',prenom:'A',nom:'B'}];await financialSummary(s,rows,ctl,false).retards[0].paid();assert.equal(events.length,0);await financialSummary(s,rows,ctl,true).retards[0].paid();assert.equal(events[0][1].adherentId,'a');assert.equal(events[1],'a');});
+
+test('refused navigation never opens a payment draft',async()=>{let writes=0;const s={...base,arrears:[{id:'a',cents:1,dueOn:'2026-10-26'}]};await financialSummary(s,[{id:'a',prenom:'A',nom:'B'}],{...c,go:async()=>false,adhMarkPaid:()=>writes++},true).retards[0].paid();assert.equal(writes,0);});

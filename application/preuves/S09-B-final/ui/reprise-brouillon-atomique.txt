@@ -1,0 +1,51 @@
+- banner:
+  - img "uniion"
+  - button "Retour": ← ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…"
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - generic "Tous les modules": Menu
+- main:
+  - button "Réunions":
+    - text: Réunions
+  - status: Brouillon chiffré retrouvé ; confirmez à nouveau le consentement avant reprise.
+  - button "Durée d’accès locale"
+  - button "Reprendre un brouillon mis de côté"
+  - heading "Avant d'enregistrer" [level=1]
+  - paragraph: L'enregistrement d'une séance suppose l'accord des personnes présentes. Deux confirmations sont requises avant que le micro ne s'ouvre.
+  - button "Préparer une réunion"
+  - generic: Réunion serveur
+  - button "Réunion S09 entièrement fictive" [pressed]
+  - checkbox "Les personnes présentes ont été informées de l'enregistrement À annoncer en ouverture de séance, avant le premier mot consigné.":
+    - generic: Les personnes présentes ont été informées de l'enregistrement
+    - generic: À annoncer en ouverture de séance, avant le premier mot consigné.
+  - checkbox "La séance ne s'y est pas opposée Un refus, même d'une seule personne, interdit l'enregistrement — prise de notes uniquement.":
+    - generic: La séance ne s'y est pas opposée
+    - generic: Un refus, même d'une seule personne, interdit l'enregistrement — prise de notes uniquement.
+  - heading "Ce qui est fait de l'enregistrement" [level=2]
+  - generic: Recette fictive uniquement. Capture PCM jusqu’à huit heures, en segments de deux minutes maximum.
+  - generic: Brouillon chiffré sur cet appareil ; blocs transférés et contrôlés avant confirmation serveur.
+  - generic: Le consentement et les habilitations sont revérifiés. Aucune suppression automatique.
+  - generic: Transcription non connectée. Les accès audio sont audités.
+  - button "Confirmez puis sauvegardez le brouillon" [disabled]
+  - paragraph: Pour une capture, le navigateur demandera l’accès au micro. Un refus ne déclenche aucune simulation.
+  - generic: Enregistrement terminé
+  - generic: Réunion
+  - generic: 00:00
+  - button "Enregistrer la séance"
+  - button "Mettre de côté"
+  - heading "Marqueurs posés" [level=2]
+  - generic: 0 marqueur
+  - paragraph: Aucun marqueur pour l'instant. Posez-en un au moment d'un vote, d'un engagement de la direction ou d'un désaccord.
+- navigation:
+  - button "Accueil":
+    - generic: Accueil
+  - button "Dossiers":
+    - generic: Dossiers
+  - button "Agenda":
+    - generic: Agenda
+  - button "Réunions":
+    - generic: Réunions
+  - button "Réglages":
+    - generic: Réglages

@@ -1,0 +1,42 @@
+{
+  "statut": "Réserves documentaires S00 demandées levées ; spécifications consolidées et référence visuelle versionnée",
+  "schema": {
+    "entities": 95,
+    "operations": 40,
+    "commands": 9,
+    "future_security_scenarios": 16
+  },
+  "migration": {
+    "persisted_fields": 57,
+    "additional_storage_families": 4,
+    "status": "Correspondance et procédure finalisées ; exécution import/base future, aucun transfert réel"
+  },
+  "visual": {
+    "routes": 60,
+    "formats": 3,
+    "new_route_captures": 180,
+    "extra_captures": 12,
+    "historical_screenshots": 117,
+    "status": "États de référence capturés ; catalogue des 23 surfaces, 9 variantes et 532 conditions source conservé ; pas recette exhaustive de toutes combinaisons"
+  },
+  "checks": {
+    "documentary_tests": 7,
+    "passed": 7,
+    "prototype_files_unchanged": 494
+  },
+  "not_claimed": [
+    "SQL/RLS déployés",
+    "Sécurité de production démontrée",
+    "Migration de données réelles réalisée",
+    "Restauration RPO/RTO réussie",
+    "Toutes interactions et claviers physiques validés"
+  ],
+  "remaining": [
+    "Choix fournisseurs D09 et cohérence suppressions D07",
+    "Région/offre/dimensionnement et preuves RPO/RTO",
+    "Tarifs et règles commerciales dont facturation des partages",
+    "Durées métier et bornes/autorité réglage hors ligne",
+    "Capacité réelle et calendrier",
+    "Validation des nouveaux écrans induits par décisions avant réalisation D10"
+  ]
+}

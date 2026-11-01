@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "count": 15,
+  "checks": [
+    {
+      "test": "restored_login_0",
+      "ok": true
+    },
+    {
+      "test": "aal1_refused_0",
+      "ok": true
+    },
+    {
+      "test": "restored_mfa_0",
+      "ok": true
+    },
+    {
+      "test": "restored_login_1",
+      "ok": true
+    },
+    {
+      "test": "aal1_refused_1",
+      "ok": true
+    },
+    {
+      "test": "restored_mfa_1",
+      "ok": true
+    },
+    {
+      "test": "restored_document_authorized",
+      "ok": true
+    },
+    {
+      "test": "restored_document_reader",
+      "ok": true
+    },
+    {
+      "test": "restored_write_denied",
+      "ok": true
+    },
+    {
+      "test": "restored_archive_authorized",
+      "ok": true
+    },
+    {
+      "test": "restored_archive_bytes",
+      "ok": true
+    },
+    {
+      "test": "restored_archive_reader_denied",
+      "ok": true
+    },
+    {
+      "test": "restored_foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "restored_revocation_denies_history",
+      "ok": true
+    },
+    {
+      "test": "private_archives_denied",
+      "ok": true
+    }
+  ]
+}

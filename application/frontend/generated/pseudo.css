@@ -1,0 +1,288 @@
+.s02-pseudo-0:hover{box-shadow: 0 18px 40px -22px hsl(var(--shC) / .35);}
+.s02-pseudo-1:hover{border-color: var(--acMid);}
+.s02-pseudo-2:hover{border-color: var(--acMid); background: var(--surface);}
+.s02-pseudo-3:hover{background: rgba(255,255,255,.06);}
+.s02-pseudo-4:hover{border-color: var(--acMid);}
+.s02-pseudo-5:hover{border-color: var(--ac);}
+.s02-pseudo-6:hover{border-color: var(--acMid); color: var(--acTx2);}
+.s02-pseudo-7:hover{border-color: var(--ac);}
+.s02-pseudo-8:hover{border-color: var(--acMid); color: var(--acTx2);}
+.s02-pseudo-9:hover{border-color: var(--ac);}
+.s02-pseudo-10:hover{border-color: var(--acMid); color: var(--acTx2);}
+.s02-pseudo-11:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-12:hover{color: var(--dangerTx2);}
+.s02-pseudo-13:focus{border-color: var(--acMid);}
+.s02-pseudo-14:focus{border-color: var(--acMid);}
+.s02-pseudo-15:focus{border-color: var(--acMid);}
+.s02-pseudo-16:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-17:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-18:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-19:hover{background: rgba(255,255,255,.28);}
+.s02-pseudo-20:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-21:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-22:hover{border-color: var(--acMid);}
+.s02-pseudo-23:hover{color: var(--acTx);}
+.s02-pseudo-24:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-25:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-26:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-27:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-28:hover{background: var(--surf2); color: var(--acTx);}
+.s02-pseudo-29:hover{background: var(--surf2); color: var(--acTx);}
+.s02-pseudo-30:hover{background: var(--surf2); color: var(--acTx);}
+.s02-pseudo-31:hover{background: var(--surf2);}
+.s02-pseudo-32:hover{background: var(--surf2);}
+.s02-pseudo-33:hover{background: var(--surf2);}
+.s02-pseudo-34:hover{background: var(--surf2);}
+.s02-pseudo-35:hover{background: var(--surf2);}
+.s02-pseudo-36:hover{background: var(--surf2);}
+.s02-pseudo-37:hover{background: var(--surf2);}
+.s02-pseudo-38:hover{background: var(--surf2); color: var(--acTx);}
+.s02-pseudo-39:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-40:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-41:hover{background: var(--surf2); color: var(--acTx);}
+.s02-pseudo-42:hover{opacity: 1; background: hsl(var(--shC) / .08);}
+.s02-pseudo-43:hover{background: var(--surf2); color: var(--acTx);}
+.s02-pseudo-44:hover{opacity: 1; background: hsl(var(--shC) / .08);}
+.s02-pseudo-45:hover{background: var(--surf2); color: var(--acTx);}
+.s02-pseudo-46:hover{background: var(--surface);}
+.s02-pseudo-47:hover{border-color: var(--ac);}
+.s02-pseudo-48:hover{background: var(--surf2);}
+.s02-pseudo-49:hover{background: var(--surf2); color: var(--acTx);}
+.s02-pseudo-50:hover{background: var(--surf2); color: var(--acTx);}
+.s02-pseudo-51:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-52:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-53:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-54:hover{background: var(--surf2);}
+.s02-pseudo-55:hover{background: var(--surf2);}
+.s02-pseudo-56:hover{background: var(--surf2);}
+.s02-pseudo-57:hover{background: var(--surf2);}
+.s02-pseudo-58:hover{border-color: var(--ink6);}
+.s02-pseudo-59:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-60:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-61:hover{border-color: var(--ink6);}
+.s02-pseudo-62:hover{border-color: var(--ink6);}
+.s02-pseudo-63:hover{border-color: var(--acMid);}
+.s02-pseudo-64:hover{border-color: var(--acMid); color: var(--acTx2);}
+.s02-pseudo-65:hover{border-color: var(--acMid); color: var(--acTx2);}
+.s02-pseudo-66:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-67:focus{border-color: var(--acMid);}
+.s02-pseudo-68:focus{border-color: var(--acMid);}
+.s02-pseudo-69:hover{color: var(--dangerTx2);}
+.s02-pseudo-70:hover{border-color: var(--ink6);}
+.s02-pseudo-71:hover{color: var(--acTx);}
+.s02-pseudo-72:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-73:hover{color: var(--acTx);}
+.s02-pseudo-74:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-75:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-76:hover{color: var(--dangerTx2);}
+.s02-pseudo-77:hover{color: var(--danger);}
+.s02-pseudo-78:focus{border-color: var(--acMid);}
+.s02-pseudo-79:hover{color: var(--danger);}
+.s02-pseudo-80:hover{color: var(--danger);}
+.s02-pseudo-81:hover{color: var(--danger);}
+.s02-pseudo-82:focus{border-color: var(--acMid);}
+.s02-pseudo-83:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-84:hover{border-color: var(--dangerBd2); color: var(--dangerTx2);}
+.s02-pseudo-85:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-86:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-87:hover{border-color: var(--acMid);}
+.s02-pseudo-88:hover{border-color: var(--bd2);}
+.s02-pseudo-89:hover{border-color: var(--ink6);}
+.s02-pseudo-90:hover{border-color: var(--ink6);}
+.s02-pseudo-91:hover{border-color: var(--acMid);}
+.s02-pseudo-92:hover{border-color: var(--acMid);}
+.s02-pseudo-93:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-94:hover{color: var(--acTx);}
+.s02-pseudo-95:hover{border-color: var(--acMid);}
+.s02-pseudo-96:hover{color: var(--danger);}
+.s02-pseudo-97:focus{border-color: var(--acMid);}
+.s02-pseudo-98:focus{border-color: var(--acMid);}
+.s02-pseudo-99:focus{border-color: var(--acMid);}
+.s02-pseudo-100:focus{border-color: var(--acMid);}
+.s02-pseudo-101:focus{border-color: var(--acMid);}
+.s02-pseudo-102:focus{border-color: var(--acMid);}
+.s02-pseudo-103:hover{color: var(--acTx2);}
+.s02-pseudo-104:hover{border-color: var(--acMid);}
+.s02-pseudo-105:hover{color: var(--ink3);}
+.s02-pseudo-106:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-107:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-108:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-109:hover{color: var(--danger);}
+.s02-pseudo-110:hover{background: rgba(255,255,255,.07);}
+.s02-pseudo-111:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-112:hover{color: var(--danger);}
+.s02-pseudo-113:hover{border-color: var(--acMid); transform: translateY(-2px);}
+.s02-pseudo-114:hover{border-color: var(--acMid);}
+.s02-pseudo-115:hover{border-color: var(--dangerBd2); color: var(--dangerTx2);}
+.s02-pseudo-116:hover{border-color: var(--acMid);}
+.s02-pseudo-117:focus{border-bottom-color: var(--acMid);}
+.s02-pseudo-118:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-119:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-120:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-121:hover{background: var(--chip); color: var(--ink);}
+.s02-pseudo-122:hover{background: var(--chip); color: var(--ink);}
+.s02-pseudo-123:hover{background: var(--dangerBg); color: var(--danger);}
+.s02-pseudo-124:focus{border-color: var(--ac);}
+.s02-pseudo-125:focus{border-color: var(--ac);}
+.s02-pseudo-126:focus{border-color: var(--ac);}
+.s02-pseudo-127:focus{border-color: var(--ac);}
+.s02-pseudo-128:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-129:hover{color: var(--danger);}
+.s02-pseudo-130:focus{border-color: var(--ac);}
+.s02-pseudo-131:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-132:focus{border-color: var(--ac);}
+.s02-pseudo-133:focus{border-color: var(--ac);}
+.s02-pseudo-134:focus{border-color: var(--ac);}
+.s02-pseudo-135:hover{background: rgba(255,255,255,.09); color: #FFFFFF;}
+.s02-pseudo-136:hover{background: rgba(255,255,255,.12);}
+.s02-pseudo-137:hover{border-color: var(--dangerBd2); color: var(--dangerTx2);}
+.s02-pseudo-138:focus{border-color: var(--ac);}
+.s02-pseudo-139:hover{border-color: var(--acMid);}
+.s02-pseudo-140:hover{border-color: var(--acMid);}
+.s02-pseudo-141:hover{border-color: var(--acMid);}
+.s02-pseudo-142:hover{border-color: var(--acMid);}
+.s02-pseudo-143:hover{border-color: var(--dangerBd2); color: var(--dangerTx2);}
+.s02-pseudo-144:hover{opacity: .9;}
+.s02-pseudo-145:hover{border-color: var(--acMid);}
+.s02-pseudo-146:hover{border-color: var(--acMid);}
+.s02-pseudo-147:hover{border-color: var(--acMid);}
+.s02-pseudo-148:hover{border-color: var(--acMid);}
+.s02-pseudo-149:hover{background: var(--surf2); color: var(--acTx);}
+.s02-pseudo-150:hover{background: var(--surf2); color: var(--acTx);}
+.s02-pseudo-151:hover{background: var(--surf2); color: var(--ink);}
+.s02-pseudo-152:hover{border-color: var(--dangerBd2); background: var(--dangerBg); color: var(--dangerTx2);}
+.s02-pseudo-153:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-154:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-155:hover{border-color: var(--dangerBd2); background: var(--dangerBg); color: var(--dangerTx2);}
+.s02-pseudo-156:hover{border-color: var(--ink6);}
+.s02-pseudo-157:hover{border-color: var(--ac);}
+.s02-pseudo-158:hover{border-color: var(--ink6);}
+.s02-pseudo-159:hover{border-color: var(--ink6);}
+.s02-pseudo-160:hover{border-color: var(--ink6);}
+.s02-pseudo-161:hover{border-color: var(--ink6);}
+.s02-pseudo-162:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-163:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-164:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-165:hover{border-color: var(--ac); background: var(--acBg);}
+.s02-pseudo-166:hover{border-color: var(--acMid);}
+.s02-pseudo-167:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-168:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-169:hover{background: var(--dangerBg);}
+.s02-pseudo-170:focus{border-color: var(--ac);}
+.s02-pseudo-171:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-172:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-173:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-174:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-175:hover{background: var(--surf2);}
+.s02-pseudo-176:hover{background: var(--dangerBg); color: var(--danger);}
+.s02-pseudo-177:hover{border-color: var(--ok);}
+.s02-pseudo-178:hover{text-decoration: underline;}
+.s02-pseudo-179:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-180:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-181:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-182:hover{border-color: var(--dangerBd); color: var(--danger);}
+.s02-pseudo-183:hover{border-color: var(--ac); color: var(--acTx);}
+.s02-pseudo-184:hover{border-color: var(--acMid);}
+.s02-pseudo-185:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-186:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-187:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-188:hover{color: var(--acTx);}
+.s02-pseudo-189:hover{border-color: var(--acMid); box-shadow: 0 16px 36px -26px hsl(var(--shC) / .4);}
+.s02-pseudo-190:hover{border-color: var(--dangerBd2); color: var(--dangerTx2);}
+.s02-pseudo-191:hover{transform: translateY(-2px);}
+.s02-pseudo-192:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-193:hover{border-color: var(--dangerBd); color: var(--danger);}
+.s02-pseudo-194:hover{border-color: var(--acMid);}
+.s02-pseudo-195:hover{color: var(--acTx);}
+.s02-pseudo-196:hover{border-color: var(--dangerBd); color: var(--danger);}
+.s02-pseudo-197:hover{color: #FCA5A5;}
+.s02-pseudo-198:hover{transform: translateY(-1px);}
+.s02-pseudo-199:hover{color: var(--acTx);}
+.s02-pseudo-200:hover{border-color: var(--acMid);}
+.s02-pseudo-201:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-202:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-203:hover{background: rgba(255,255,255,.1);}
+.s02-pseudo-204:hover{border-color: var(--acMid); background: var(--surface);}
+.s02-pseudo-205:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-206:hover{border-color: var(--acMid);}
+.s02-pseudo-207:hover{color: var(--acTx);}
+.s02-pseudo-208:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-209:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-210:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-211:hover{opacity: .9;}
+.s02-pseudo-212:hover{border-color: var(--acMid); box-shadow: 0 6px 20px rgba(0,0,0,.05);}
+.s02-pseudo-213:hover{border-color: var(--acMid);}
+.s02-pseudo-214:hover{border-color: var(--danger); color: var(--danger);}
+.s02-pseudo-215:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-216:hover{border-color: var(--ink6);}
+.s02-pseudo-217:hover{border-color: var(--acMid);}
+.s02-pseudo-218:hover{border-color: var(--acMid); transform: translateY(-2px); box-shadow: 0 10px 26px -18px rgba(0,0,0,.35);}
+.s02-pseudo-219:hover{border-color: var(--acMid);}
+.s02-pseudo-220:hover{border-color: var(--acMid);}
+.s02-pseudo-221:hover{border-color: var(--dangerBd2); color: var(--dangerTx2);}
+.s02-pseudo-222:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-223:hover{border-color: var(--acMid);}
+.s02-pseudo-224:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-225:hover{border-color: var(--acMid);}
+.s02-pseudo-226:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-227:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-228:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-229:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-230:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-231:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-232:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-233:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-234:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-235:hover{border-color: var(--ac);}
+.s02-pseudo-236:hover{border-color: var(--dangerBd2); color: var(--dangerTx2);}
+.s02-pseudo-237:hover{color: var(--acTx);}
+.s02-pseudo-238:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-239:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-240:hover{border-color: var(--acMid);}
+.s02-pseudo-241:hover{border-color: var(--acMid);}
+.s02-pseudo-242:hover{border-color: var(--acMid); box-shadow: 0 16px 36px -26px hsl(var(--shC) / .4);}
+.s02-pseudo-243:hover{color: var(--acTx);}
+.s02-pseudo-244:hover{border-color: var(--acMid);}
+.s02-pseudo-245:hover{border-color: var(--acMid);}
+.s02-pseudo-246:hover{color: var(--acTx2);}
+.s02-pseudo-247:hover{color: var(--danger);}
+.s02-pseudo-248:focus{border-color: var(--acMid);}
+.s02-pseudo-249:hover{border-color: var(--dangerBd2); color: var(--dangerTx2);}
+.s02-pseudo-250:hover{border-color: var(--acMid);}
+.s02-pseudo-251:hover{opacity: .9;}
+.s02-pseudo-252:hover{border-color: var(--acMid);}
+.s02-pseudo-253:hover{border-color: var(--acMid);}
+.s02-pseudo-254:hover{background: var(--acBd);}
+.s02-pseudo-255:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-256:hover{background: var(--acBd);}
+.s02-pseudo-257:hover{background: rgba(255,255,255,.14);}
+.s02-pseudo-258:hover{background: var(--acBd);}
+.s02-pseudo-259:hover{border-color: var(--acMid);}
+.s02-pseudo-260:hover{background: var(--acBd);}
+.s02-pseudo-261:hover{border-color: var(--acMid);}
+.s02-pseudo-262:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-263:hover{color: var(--acTx);}
+.s02-pseudo-264:hover{background: var(--surf2);}
+.s02-pseudo-265:hover{background: var(--dangerBg);}
+.s02-pseudo-266:hover{background: var(--dangerBg);}
+.s02-pseudo-267:hover{color: var(--acTx);}
+.s02-pseudo-268:hover{background: rgba(255,255,255,.09);}
+.s02-pseudo-269:hover{border-color: var(--ok);}
+.s02-pseudo-270:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-271:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-272:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-273:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-274:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-275:hover{border-color: var(--ac);}
+.s02-pseudo-276:hover{color: var(--acTx);}
+.s02-pseudo-277:hover{color: var(--danger);}
+.s02-pseudo-278:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-279:hover{border-color: var(--acMid);}
+.s02-pseudo-280:hover{border-color: var(--acMid); color: var(--acTx);}
+.s02-pseudo-281:hover{border-color: var(--ok); color: var(--okTx);}
+.s02-pseudo-282:hover{border-color: var(--ink6);}
+.s02-pseudo-283:hover{border-color: var(--acMid); background: var(--surf2);}
+.s02-pseudo-284:hover{border-color: var(--acMid);}
+.s02-pseudo-285:hover{border-color: var(--bd2);}
+.s02-pseudo-286:hover{border-color: var(--ink6);}
+.s02-pseudo-287:hover{border-color: var(--ink6);}

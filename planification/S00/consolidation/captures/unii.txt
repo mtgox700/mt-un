@@ -1,0 +1,469 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - heading "Actions d'unii" [level=1]
+  - paragraph: Choisissez les actions qu'unii propose dans chaque module et les rôles qui peuvent les utiliser. Sans rôle coché, l'action est ouverte à tous.
+  - generic: Formule
+  - generic: Élu 2.0
+  - generic: unii inclus · 37 actions actives sur 37
+  - generic: Pastilles de suggestion
+  - generic: "unii signale dans les modules ce qui mérite votre attention : échéance proche, brouillon à relire, messages non lus."
+  - switch "Pastilles de suggestion" [checked]
+  - strong: Tester un rôle
+  - text: — l'application affiche les actions d'unii telles que les voit ce rôle.
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e" [pressed]
+  - button "Élu·e SSCT"
+  - heading "Accueil" [level=2]
+  - generic: 2 / 2 actives
+  - switch "Désactiver" [checked]
+  - generic: Faire le point de la semaine
+  - generic: Échéances, dossiers urgents, réunions à préparer. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Par quoi commencer ?
+  - generic: Une seule priorité, justifiée. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - heading "Dossiers" [level=2]
+  - generic: Actions applicables
+  - generic: 5 / 5 actives
+  - switch "Désactiver" [checked]
+  - generic: Proposer la suite à donner
+  - generic: Prochaines étapes concrètes, avec qui et quand. · Sur un élément · bouton « Ajouter à la chronologie »
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Résumer la chronologie
+  - generic: Les faits essentiels en quelques lignes. · Sur un élément · bouton « Ajouter à la chronologie »
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Vérifier les délais légaux
+  - generic: Délais applicables et échéances à surveiller. · Sur un élément · bouton « Ajouter à la chronologie »
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Rédiger un courrier à la direction
+  - generic: Courrier ferme et courtois, prêt à relire. · Sur un élément · bouton « Ajouter à la chronologie »
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Prioriser mes dossiers
+  - generic: Classement par urgence et enjeu. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - heading "Réunions" [level=2]
+  - generic: Actions applicables
+  - generic: 4 / 4 actives
+  - switch "Désactiver" [checked]
+  - generic: Préparer les questions à poser
+  - generic: Questions par point de l'ordre du jour. · Sur un élément
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Extraire décisions et actions
+  - generic: Décisions, votes, engagements, suites. · Sur un élément
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Résumé pour les salariés
+  - generic: Ce qu'il faut retenir, en clair. · Sur un élément
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Rédiger le projet de PV
+  - generic: Trame de procès-verbal à compléter. · Sur un élément
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - heading "Documents" [level=2]
+  - generic: Actions applicables
+  - generic: 4 / 4 actives
+  - switch "Désactiver" [checked]
+  - generic: Relire ton et clarté
+  - generic: Corrections et formulations proposées. · Sur un élément · bouton « Insérer dans le document »
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Simplifier pour les salariés
+  - generic: Version courte et sans jargon. · Sur un élément · bouton « Insérer dans le document »
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Repérer les risques juridiques
+  - generic: Diffamation, confidentialité, affirmations à sourcer. · Sur un élément
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Proposer un document à produire
+  - generic: Selon l'actualité de l'instance. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - heading "Messages" [level=2]
+  - generic: 2 / 2 actives
+  - switch "Désactiver" [checked]
+  - generic: Résumer le fil
+  - generic: Points clés et décisions. · Sur un élément
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Proposer une réponse
+  - generic: Réponse courte, prête à envoyer. · Sur un élément
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - heading "Agenda" [level=2]
+  - generic: 2 / 2 actives
+  - switch "Désactiver" [checked]
+  - generic: Préparer la prochaine réunion
+  - generic: Ordre du jour, documents à relire. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Rappeler les délais de convocation
+  - generic: Convocation, ordre du jour, documents. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - heading "Communication" [level=2]
+  - generic: 2 / 2 actives
+  - switch "Désactiver" [checked]
+  - generic: Proposer le plan du mois
+  - generic: Temps forts et publications à prévoir. · Sur le module · bouton « Ajouter au plan éditorial »
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Reformuler pour les salariés
+  - generic: Plus court, plus clair. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - heading "Application mobile" [level=2]
+  - generic: 5 / 5 actives
+  - switch "Désactiver" [checked]
+  - generic: Rédiger le contenu de la page
+  - generic: Intertitre, paragraphes courts, appel à l'action. · Sur un élément · bouton « Insérer dans la page »
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Adapter à la lecture mobile
+  - generic: Plus court, une idée par bloc. · Sur un élément · bouton « Remplacer le contenu »
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Rédiger la notification push
+  - generic: Trois propositions de 90 caractères. · Sur un élément · bouton « Utiliser comme notification »
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Vérifier avant publication
+  - generic: Données personnelles, ton, exactitude. · Sur un élément
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Proposer les pages à créer
+  - generic: Selon l'actualité de l'organisation. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - heading "Formations" [level=2]
+  - generic: 1 / 1 actives
+  - switch "Désactiver" [checked]
+  - generic: Recommander une formation
+  - generic: Selon le mandat et l'ancienneté. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - heading "Adhérents" [level=2]
+  - generic: 2 / 2 actives
+  - switch "Désactiver" [checked]
+  - generic: Rédiger un message à une liste
+  - generic: Objet et texte prêts à envoyer. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Préparer une relance
+  - generic: Relance bienveillante et claire. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - heading "Sondages" [level=2]
+  - generic: 2 / 2 actives
+  - switch "Désactiver" [checked]
+  - generic: Rédiger des questions neutres
+  - generic: Sans orienter les réponses. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Analyser les résultats
+  - generic: Synthèse prête à publier. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - heading "Intranet" [level=2]
+  - generic: 1 / 1 actives
+  - switch "Désactiver" [checked]
+  - generic: Vérifier la lisibilité des pages
+  - generic: Titres, longueur, appels à l'action. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - heading "Reporting" [level=2]
+  - generic: 2 / 2 actives
+  - switch "Désactiver" [checked]
+  - generic: Expliquer un indicateur
+  - generic: Ce qu'il mesure, comment le lire. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Rédiger le bilan du mandat
+  - generic: Bilan annuel prêt à présenter. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - heading "Raccourcis" [level=2]
+  - generic: 1 / 1 actives
+  - switch "Désactiver" [checked]
+  - generic: Suggérer des raccourcis utiles
+  - generic: Sites officiels pour votre mandat. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - heading "Réglages" [level=2]
+  - generic: 2 / 2 actives
+  - switch "Désactiver" [checked]
+  - generic: Expliquer un réglage
+  - generic: À quoi sert chaque paramètre. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"
+  - switch "Désactiver" [checked]
+  - generic: Aider à configurer les rôles
+  - generic: Qui accède à quelles actions d'unii. · Sur le module
+  - button "Tous les rôles"
+  - button "Secrétaire"
+  - button "Trésorier·e"
+  - button "Élu·e titulaire"
+  - button "Élu·e suppléant·e"
+  - button "Délégué·e syndical·e"
+  - button "Élu·e SSCT"

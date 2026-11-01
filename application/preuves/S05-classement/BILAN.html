@@ -1,0 +1,29 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>S05 — Classement</title><style>body{font:16px/1.6 system-ui;max-width:1000px;margin:40px auto;padding:0 20px;color:#202631;background:#fafafa}pre{white-space:pre-wrap;font:inherit}img{max-width:100%;border:1px solid #ddd;border-radius:16px}a{color:#b34a20}</style><pre># S05 — Classement des contenus serveur dans les dossiers
+
+29 octobre 2026 — Supabase local, comptes et contenus fictifs. Skill uniion appliqué.
+
+## Réalisé
+
+Le menu existant « Envoyer dans un dossier » classe une convocation durable dans l’historique du dossier. Les fichiers de cette convocation proposent le même sélecteur ; les archives PDF/ICS apparaissent ensuite dans le coffre, avec aperçu PDF et téléchargement contrôlé. Les références persistent après changement de session. Aucun texte fourni par le navigateur n’est copié dans le dossier.
+
+Migration 103 : table privée case_links, RLS, aucun accès direct utilisateur. Classement par identifiant source, verrouillage/version du dossier, unicité et rejeu idempotent. Audit sans contenu métier. Écriture du dossier obligatoire ; lecture de la source obligatoire. Consultation, compteurs, aperçu et téléchargement recontrôlent la source et la cible. Une référence ne crée aucun nouveau droit. Retirer l’audience source masque le texte et les fichiers ; retirer le dossier bloque aussi les octets. Les contrôles sont répétés avant livraison.
+
+## Tests exécutés
+
+- 26 contrôles d’intégration réussis : MFA, diffusion locale, classement message/PDF/ICS, doublons, version périmée, anonyme, autre organisation, lecteur sans écriture, source inconnue, révocation source et cible, aperçu et téléchargement.
+- 93 tests frontaux et 145 tests Python réussis. Compilation et frontières des modules OK.
+- UI réelle à 390×844, 820×1180 et 1440×1000 : classement initial message/PDF mobile et ICS desktop ; rejeu ICS tablette ; refus du lecteur aux trois tailles. Message et deux fichiers relus après reconnexion.
+- PDF téléchargé avec signature PDF valide ; ICS téléchargé avec BEGIN:VCALENDAR. Aperçu PDF observé aux trois formats. L’aperçu affiche la première page.
+- Les captures ont révélé un PDF recadré sur mobile et un refus masqué par la modale : correction de l’ajustement de l’image et erreur en ligne dans la modale, avec les styles existants. Aucun débordement horizontal de page constaté aux dimensions testées.
+- 834 références protégées vérifiées : aucune modification du prototype ni de S00.
+
+## Limites et réserves
+
+Une répétition d’aperçu sous le compte lecteur a échoué et vidé temporairement la liste. Une nouvelle session auteur a retrouvé les références et permis aperçu/téléchargement. La cause n’est pas isolée : ne pas présenter ce résultat comme un refus de permission validé. Le signalement des erreurs temporaires reste à préciser.
+
+Le raccordement des références couvre les fichiers retournés par l’historique serveur ; les essais de ce lot ont porté sur les archives PDF/ICS. La recette spécifique des fichiers libres classés et de leur mise en corbeille reste à compléter. Les conversations de démonstration et l’éditeur Documents local ne sont pas intégrés, conformément au périmètre choisi.
+
+Les références ne se versionnent ni ne se suppriment depuis le coffre : ces actions restent explicitement bloquées. Un circuit de retrait de référence reste à définir/raccorder. Création de dossier assistée depuis un message, signature, courrier et IA restent non raccordés. Aucun fournisseur externe activé.
+
+S05 reste ouvert : accueil et extraction restante, reprise d’analyse UI, pagination/recette étendue des fichiers, clôture des réserves de classement, recette globale sur pile neuve et restauration cohérente des nouvelles tables avec fichiers et droits. Aucune restauration complète de case_links n’a été effectuée dans ce lot. Pas de déploiement.
+</pre><p><a href="integration.json">Contrôles intégration</a> · <a href="ui.json">Recette UI</a> · <a href="integrite.json">Intégrité</a></p><h2>Desktop</h2><img src="desktop-classement.png"><h2>Refus mobile corrigé</h2><img width="390" src="mobile-refus.png"><h2>Aperçu mobile corrigé</h2><img width="390" src="mobile-apercu.png"></html>

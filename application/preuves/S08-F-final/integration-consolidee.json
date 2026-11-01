@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "total": 331,
+  "suites": [
+    {
+      "proof": "transverse/S08-A/policy-edges.json",
+      "passed": true,
+      "checks": 18
+    },
+    {
+      "proof": "transverse/S08-E-complet/native-integration.json",
+      "passed": true,
+      "checks": 140
+    },
+    {
+      "proof": "transverse/S08-E-complet/native-followup.json",
+      "passed": true,
+      "checks": 34
+    },
+    {
+      "proof": "transverse/S08-D/integration.json",
+      "passed": true,
+      "checks": 33
+    },
+    {
+      "proof": "transverse/S08-C/integration.json",
+      "passed": true,
+      "checks": 29
+    },
+    {
+      "proof": "transverse/S08-B/integration.json",
+      "passed": true,
+      "checks": 47
+    },
+    {
+      "proof": "transverse/S08-E/integration.json",
+      "passed": true,
+      "checks": 30
+    }
+  ]
+}

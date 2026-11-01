@@ -1,0 +1,317 @@
+[
+  {
+    "id": "001-mobile-connexion",
+    "label": "mobile-connexion",
+    "shot": true
+  },
+  {
+    "id": "002-mobile-accueil",
+    "label": "mobile-accueil",
+    "shot": true
+  },
+  {
+    "id": "003-mobile-Dossiers",
+    "label": "mobile-Dossiers",
+    "shot": true
+  },
+  {
+    "id": "004-mobile-Agenda",
+    "label": "mobile-Agenda",
+    "shot": true
+  },
+  {
+    "id": "005-mobile-Réunions",
+    "label": "mobile-Réunions",
+    "shot": true
+  },
+  {
+    "id": "006-mobile-Documents",
+    "label": "mobile-Documents",
+    "shot": true
+  },
+  {
+    "id": "007-mobile-Messages",
+    "label": "mobile-Messages",
+    "shot": true
+  },
+  {
+    "id": "008-mobile-Formations",
+    "label": "mobile-Formations",
+    "shot": true
+  },
+  {
+    "id": "009-mobile-Communication",
+    "label": "mobile-Communication",
+    "shot": true
+  },
+  {
+    "id": "010-mobile-Application mobile",
+    "label": "mobile-Application mobile",
+    "shot": true
+  },
+  {
+    "id": "011-mobile-Adhérents",
+    "label": "mobile-Adhérents",
+    "shot": true
+  },
+  {
+    "id": "012-mobile-Intranet",
+    "label": "mobile-Intranet",
+    "shot": true
+  },
+  {
+    "id": "013-mobile-Bilan de mandat",
+    "label": "mobile-Bilan de mandat",
+    "shot": true
+  },
+  {
+    "id": "014-mobile-Sondages",
+    "label": "mobile-Sondages",
+    "shot": true
+  },
+  {
+    "id": "015-mobile-Hors ligne",
+    "label": "mobile-Hors ligne",
+    "shot": true
+  },
+  {
+    "id": "016-mobile-Assistant IA",
+    "label": "mobile-Assistant IA",
+    "shot": true
+  },
+  {
+    "id": "017-mobile-reglages",
+    "label": "mobile-reglages",
+    "shot": true
+  },
+  {
+    "id": "018-mobile-profil",
+    "label": "mobile-profil",
+    "shot": true
+  },
+  {
+    "id": "019-mobile-profil-edition",
+    "label": "mobile-profil-edition",
+    "shot": true
+  },
+  {
+    "id": "020-mobile-profil-annulation",
+    "label": "mobile-profil-annulation",
+    "shot": true
+  },
+  {
+    "id": "021-tablette-accueil",
+    "label": "tablette-accueil",
+    "shot": true
+  },
+  {
+    "id": "022-tablette-Dossiers",
+    "label": "tablette-Dossiers",
+    "shot": true
+  },
+  {
+    "id": "023-tablette-Agenda",
+    "label": "tablette-Agenda",
+    "shot": true
+  },
+  {
+    "id": "024-tablette-Réunions",
+    "label": "tablette-Réunions",
+    "shot": true
+  },
+  {
+    "id": "025-tablette-Documents",
+    "label": "tablette-Documents",
+    "shot": true
+  },
+  {
+    "id": "026-tablette-Messages",
+    "label": "tablette-Messages",
+    "shot": true
+  },
+  {
+    "id": "027-tablette-Formations",
+    "label": "tablette-Formations",
+    "shot": true
+  },
+  {
+    "id": "028-tablette-Communication",
+    "label": "tablette-Communication",
+    "shot": true
+  },
+  {
+    "id": "029-tablette-Application mobile",
+    "label": "tablette-Application mobile",
+    "shot": true
+  },
+  {
+    "id": "030-tablette-Adhérents",
+    "label": "tablette-Adhérents",
+    "shot": true
+  },
+  {
+    "id": "031-tablette-Intranet",
+    "label": "tablette-Intranet",
+    "shot": true
+  },
+  {
+    "id": "032-tablette-Bilan de mandat",
+    "label": "tablette-Bilan de mandat",
+    "shot": true
+  },
+  {
+    "id": "033-tablette-Sondages",
+    "label": "tablette-Sondages",
+    "shot": true
+  },
+  {
+    "id": "034-tablette-Hors ligne",
+    "label": "tablette-Hors ligne",
+    "shot": true
+  },
+  {
+    "id": "035-tablette-Assistant IA",
+    "label": "tablette-Assistant IA",
+    "shot": true
+  },
+  {
+    "id": "036-tablette-reglages",
+    "label": "tablette-reglages",
+    "shot": true
+  },
+  {
+    "id": "037-tablette-memoire",
+    "label": "tablette-memoire",
+    "shot": true
+  },
+  {
+    "id": "038-tablette-memoire-ajout",
+    "label": "tablette-memoire-ajout",
+    "shot": true
+  },
+  {
+    "id": "039-tablette-memoire-edition",
+    "label": "tablette-memoire-edition",
+    "shot": true
+  },
+  {
+    "id": "040-tablette-memoire-enregistree",
+    "label": "tablette-memoire-enregistree",
+    "shot": true
+  },
+  {
+    "id": "041-tablette-notifications",
+    "label": "tablette-notifications",
+    "shot": true
+  },
+  {
+    "id": "042-paysage-accueil",
+    "label": "paysage-accueil",
+    "shot": true
+  },
+  {
+    "id": "043-paysage-securite",
+    "label": "paysage-securite",
+    "shot": true
+  },
+  {
+    "id": "044-paysage-rgpd",
+    "label": "paysage-rgpd",
+    "shot": true
+  },
+  {
+    "id": "045-paysage-membres",
+    "label": "paysage-membres",
+    "shot": true
+  },
+  {
+    "id": "046-paysage-marque",
+    "label": "paysage-marque",
+    "shot": true
+  },
+  {
+    "id": "047-paysage-ia",
+    "label": "paysage-ia",
+    "shot": true
+  },
+  {
+    "id": "048-paysage-unii",
+    "label": "paysage-unii",
+    "shot": true
+  },
+  {
+    "id": "049-paysage-onboarding",
+    "label": "paysage-onboarding",
+    "shot": true
+  },
+  {
+    "id": "050-paysage-admin",
+    "label": "paysage-admin",
+    "shot": true
+  },
+  {
+    "id": "051-paysage-document-editeur",
+    "label": "paysage-document-editeur",
+    "shot": true
+  },
+  {
+    "id": "052-paysage-signature-document",
+    "label": "paysage-signature-document",
+    "shot": true
+  },
+  {
+    "id": "053-signature-sans-consentement",
+    "label": "signature-sans-consentement",
+    "shot": true
+  },
+  {
+    "id": "054-mobile-signature",
+    "label": "mobile-signature",
+    "shot": true
+  },
+  {
+    "id": "055-mobile-agenda-detail",
+    "label": "mobile-agenda-detail",
+    "shot": true
+  },
+  {
+    "id": "056-mobile-agenda-export-ics",
+    "label": "mobile-agenda-export-ics",
+    "shot": true
+  },
+  {
+    "id": "057-mobile-agenda-odj",
+    "label": "mobile-agenda-odj",
+    "shot": true
+  },
+  {
+    "id": "058-mobile-micro-consentement",
+    "label": "mobile-micro-consentement",
+    "shot": true
+  },
+  {
+    "id": "059-tablette-erreur-ia-serveur-arrete",
+    "label": "tablette-erreur-ia-serveur-arrete",
+    "shot": true
+  },
+  {
+    "id": "060-tablette-erreur-ia-reessayer",
+    "label": "tablette-erreur-ia-reessayer",
+    "shot": true
+  },
+  {
+    "id": "061-tablette-horsligne-serveur-arrete",
+    "label": "tablette-horsligne-serveur-arrete",
+    "shot": true
+  },
+  {
+    "id": "062-horsligne-synchronisation-sans-serveur",
+    "label": "horsligne-synchronisation-sans-serveur",
+    "shot": true
+  },
+  {
+    "id": "063-horsligne-lecteur-sans-serveur",
+    "label": "horsligne-lecteur-sans-serveur",
+    "shot": true
+  }
+]

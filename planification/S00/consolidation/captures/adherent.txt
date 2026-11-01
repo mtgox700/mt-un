@@ -1,0 +1,109 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - button "← Tous les adhérents"
+  - generic: KB
+  - heading "Karim Benali" [level=1]
+  - paragraph: Opérateur ligne 3 · Adhérent depuis mars 2019
+  - generic: Délégué de section
+  - generic: À jour
+  - button "Envoyer un message"
+  - button "Modifier la fiche"
+  - button "Retirer du fichier"
+  - heading "Coordonnées" [level=2]
+  - generic: Courriel
+  - generic: k.benali@mv-sa.fr
+  - generic: Téléphone
+  - generic: 06 12 44 87 21
+  - generic: Emploi
+  - generic: Opérateur ligne 3
+  - generic: Bulletin
+  - generic: Signé le 12 mars 2019
+  - heading "Rattachement" [level=2]
+  - generic: Entreprise
+  - generic: Métallurgie Valenciennes SA
+  - generic: Établissement
+  - generic: Site de Valenciennes
+  - generic: Section
+  - generic: Section Atelier
+  - generic: Direction
+  - generic: Production
+  - heading "Cotisation" [level=2]
+  - generic: Mode de règlement
+  - generic: Prélèvement SEPA
+  - generic: Montant
+  - generic: 14,20 €/mois
+  - generic: Dernier versement
+  - generic: 5 août 2026
+  - generic: Prochaine échéance
+  - generic: 5 septembre 2026
+  - generic: août 2026
+  - generic: Cotisation encaissée — 14,20 €/mois
+  - generic: juillet 2026
+  - generic: Cotisation encaissée — 14,20 €/mois
+  - generic: juin 2026
+  - generic: Cotisation encaissée — 14,20 €/mois
+  - generic: janvier 2026
+  - generic: Attestation fiscale 2025 transmise
+  - heading "Documents liés" [level=2]
+  - generic: Bulletin d'adhésion
+  - generic: Signé le 12 mars 2019
+  - button "Ouvrir"
+  - generic: Attestation fiscale 2025
+  - generic: Crédit d'impôt de 66 % — PDF signé
+  - button "Ouvrir"
+  - generic: Notice des droits de l'adhérent
+  - generic: Assistance juridique, fonds de solidarité
+  - button "Envoyer"
+  - heading "Listes de diffusion" [level=2]
+  - generic: Tous les adhérents
+  - generic: Atelier — Valenciennes
+  - generic: Délégués et élus
+  - paragraph: "Ces listes se déduisent du rattachement et du statut de cotisation : aucun ajout manuel à maintenir. Les messages partent en copie cachée."

@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {createModuleStores} from './module-stores.js';import {attachAgenda} from '../modules/agenda/service.js';
+const stores=createModuleStores({agenda:[{id:'demo'}],agNew:{title:'Test',type:'cse',date:'2026-10-27',start:'09:00',end:'10:00',lieu:'',visib:'elus',notes:'',rappel:false}});
+let reject=false,calls=0,msg='';const row={id:'server',version:1,title:'Test',date:'2026-10-27',rappel:false};
+const controller={moduleStores:stores,flash:m=>msg=m,agVals:()=>({evt:{edit:()=>stores.module('agenda').update(s=>({agNew:{...s.agNew,rappel:true}}))}})};
+attachAgenda(controller,async(path,data)=>{calls++;if(reject)throw Error();return path.endsWith('/save')?row:[row];},'org');
+assert.deepEqual(stores.module('agenda').read().agenda,[]);
+await controller.refreshAgenda();assert.equal(stores.module('agenda').read().agenda[0].id,'server');
+await controller.agCreate();assert.equal(stores.module('agenda').read().agEvtId,'server');assert.equal(msg,'Événement enregistré.');
+controller.agVals().evt.edit();assert.equal(stores.module('agenda').read().agNew.rappel,false);
+reject=true;await controller.agCreate();assert.match(msg,/refusé/);assert.equal(stores.module('agenda').read().agenda.length,1);
+await assert.rejects(controller.refreshAgenda());assert.deepEqual(stores.module('agenda').read().agenda,[]);
+const before=calls;controller.agDelete();assert.equal(calls,before);assert.match(msg,/super admin/);
+await controller.agVals().evt.ics();assert.equal(calls,before+1);assert.match(msg,/Export refusé/);
+controller.clearIdentity();assert.equal(stores.module('agenda').read().agNew.notes,'');
+console.log('Agenda service: load, save, refusal, clearing, deletion and export safeguards OK');

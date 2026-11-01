@@ -1,0 +1,75 @@
+{
+  "checks": [
+    {
+      "test": "login",
+      "ok": true
+    },
+    {
+      "test": "primary_enroll",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "primary_verified",
+      "ok": true
+    },
+    {
+      "test": "backup_enroll",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "backup_verified",
+      "ok": true
+    },
+    {
+      "test": "two_verified_factors",
+      "ok": true
+    },
+    {
+      "test": "new_password_login",
+      "ok": true
+    },
+    {
+      "test": "password_alone_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "backup_allows_aal2",
+      "ok": true
+    },
+    {
+      "test": "backup_own_business",
+      "ok": true
+    },
+    {
+      "test": "backup_cross_org_denied",
+      "ok": true
+    },
+    {
+      "test": "primary_removal_with_backup",
+      "ok": true
+    },
+    {
+      "test": "last_backup_removal_denied",
+      "ok": true
+    },
+    {
+      "test": "removed_primary_challenge_denied",
+      "ok": true
+    }
+  ],
+  "count": 17,
+  "passed": true,
+  "secrets_persisted": false
+}

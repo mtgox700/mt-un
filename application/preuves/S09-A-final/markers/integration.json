@@ -1,0 +1,246 @@
+{
+  "passed": true,
+  "count": 60,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "author_mfa",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reader_mfa",
+      "ok": true
+    },
+    {
+      "test": "meeting_created",
+      "ok": true
+    },
+    {
+      "test": "consent_saved",
+      "ok": true
+    },
+    {
+      "test": "meeting_author_has_no_implicit_audio",
+      "ok": true
+    },
+    {
+      "test": "manager_self_grant_refused",
+      "ok": true
+    },
+    {
+      "test": "audio_rights_granted",
+      "ok": true
+    },
+    {
+      "test": "stale_grant_refused",
+      "ok": true
+    },
+    {
+      "test": "manager_has_no_implicit_audio",
+      "ok": true
+    },
+    {
+      "test": "invalid_container_refused",
+      "ok": true
+    },
+    {
+      "test": "stale_consent_refused",
+      "ok": true
+    },
+    {
+      "test": "real_storage_and_scan",
+      "ok": true
+    },
+    {
+      "test": "duration_verified_100ms",
+      "ok": true
+    },
+    {
+      "test": "initial_empty",
+      "ok": true
+    },
+    {
+      "test": "manager_without_audio_denied",
+      "ok": true
+    },
+    {
+      "test": "first_revision_saved",
+      "ok": true
+    },
+    {
+      "test": "separate_read_same_marker",
+      "ok": true
+    },
+    {
+      "test": "stale_version_denied",
+      "ok": true
+    },
+    {
+      "test": "past_end_refused",
+      "ok": true
+    },
+    {
+      "test": "negative_refused",
+      "ok": true
+    },
+    {
+      "test": "fraction_refused",
+      "ok": true
+    },
+    {
+      "test": "bool_time_refused",
+      "ok": true
+    },
+    {
+      "test": "extra_refused",
+      "ok": true
+    },
+    {
+      "test": "missing_refused",
+      "ok": true
+    },
+    {
+      "test": "duplicate_refused",
+      "ok": true
+    },
+    {
+      "test": "kind_refused",
+      "ok": true
+    },
+    {
+      "test": "note_limit_refused",
+      "ok": true
+    },
+    {
+      "test": "null_note_refused",
+      "ok": true
+    },
+    {
+      "test": "count_refused",
+      "ok": true
+    },
+    {
+      "test": "bad_version_refused",
+      "ok": true
+    },
+    {
+      "test": "extra_parent_refused",
+      "ok": true
+    },
+    {
+      "test": "invalid_writes_leave_version",
+      "ok": true
+    },
+    {
+      "test": "valid_update",
+      "ok": true
+    },
+    {
+      "test": "clear_new_revision",
+      "ok": true
+    },
+    {
+      "test": "previous_versions_retained",
+      "ok": true
+    },
+    {
+      "test": "markers_do_not_change_consent",
+      "ok": true
+    },
+    {
+      "test": "private_marker_table",
+      "ok": true
+    },
+    {
+      "test": "forged_duration_denied",
+      "ok": true
+    },
+    {
+      "test": "cross_org_marker_refused",
+      "ok": true
+    },
+    {
+      "test": "other_meeting_created",
+      "ok": true
+    },
+    {
+      "test": "cross_meeting_refused",
+      "ok": true
+    },
+    {
+      "test": "readonly_audio_grant",
+      "ok": true
+    },
+    {
+      "test": "readonly_marker_get",
+      "ok": true
+    },
+    {
+      "test": "readonly_marker_save_denied",
+      "ok": true
+    },
+    {
+      "test": "write_grant_restored",
+      "ok": true
+    },
+    {
+      "test": "source_note_saved",
+      "ok": true
+    },
+    {
+      "test": "restart_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "restart_mfa",
+      "ok": true
+    },
+    {
+      "test": "restart_marker_persistence",
+      "ok": true
+    },
+    {
+      "test": "concurrent_single_winner",
+      "ok": true
+    },
+    {
+      "test": "concurrent_version_not_overwritten",
+      "ok": true
+    },
+    {
+      "test": "withdrawal_saved",
+      "ok": true
+    },
+    {
+      "test": "withdrawal_denies_marker_read",
+      "ok": true
+    },
+    {
+      "test": "withdrawal_denies_marker_write",
+      "ok": true
+    },
+    {
+      "test": "no_content_in_marker_audit",
+      "ok": true
+    }
+  ]
+}

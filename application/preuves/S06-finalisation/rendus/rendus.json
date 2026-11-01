@@ -1,0 +1,23 @@
+{
+  "renders": [
+    {
+      "format": "a4",
+      "pages": 12,
+      "blocks": 12,
+      "passed": true
+    },
+    {
+      "format": "a5",
+      "pages": 12,
+      "blocks": 12,
+      "passed": true
+    },
+    {
+      "format": "wide",
+      "pages": 12,
+      "blocks": 12,
+      "passed": true
+    }
+  ],
+  "overflow_denied": true
+}

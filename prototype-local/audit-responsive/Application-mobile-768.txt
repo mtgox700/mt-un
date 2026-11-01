@@ -1,0 +1,100 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				8 text unii
+				9 text 2
+			10 button
+				11 image
+			12 button Se déconnecter
+				13 image
+		14 container
+			15 text UNII SUGGÈRE
+			16 button Page à compléter · NAO 2027 : où en sommes-nous ?
+			17 button À vérifier avant validation FO · Heures supplémentaires : ce que prévoit l'accord
+			18 text PUBLIÉ DANS L'APPLICATION FO
+			19 heading Application mobile, Value: 1
+				20 text Application mobile
+			21 text Créez les pages de votre organisation publiées dans l'application mobile FO : actualités, permanences, contacts, droits. Les adhérents et salariés les retrouvent dans l'espace « Section syndicale FO ». unii rédige, vous validez, la fédération publie. 1 pages en ligne 3 en préparation 412 vues ce mois
+			22 tab group Application mobile
+				23 tab (selected, settable, boolean) Mes pages · 4, Value: 1
+				24 tab (selectable, settable, boolean) Éditeur, Value: 0
+			25 heading Vos pages, Value: 2
+				26 text Vos pages
+			27 text Espace « Section syndicale FO » dans l'application FO
+			28 container
+				29 text En ligne Permanences
+				30 heading Nos permanences du mois d'octobre, Value: 3
+					31 text Nos permanences du mois d'octobre
+				32 text Tous les salariés · 3 blocs · mis à jour 28 sept. · 412 vues
+				33 button Modifier
+				34 button Supprimer
+			35 container
+				36 text Brouillon Actualité
+				37 button À compléter, Help: Page à compléter · NAO 2027 : où en sommes-nous ?
+				38 heading NAO 2027 : où en sommes-nous ?, Value: 3
+					39 text NAO 2027 : où en sommes-nous ?
+				40 text Tous les salariés · 1 bloc · mis à jour hier
+				41 button Modifier
+				42 button Supprimer
+			43 container
+				44 text Validation FO Contacts des élus
+				45 heading Vos représentants et comment les joindre, Value: 3
+					46 text Vos représentants et comment les joindre
+				47 text Tous les salariés · 3 blocs · mis à jour 30 sept.
+				48 button Modifier
+				49 button Supprimer
+			50 container
+				51 text En relecture Vos droits
+				52 button À vérifier, Help: À vérifier avant validation FO · Heures supplémentaires : ce que prévoit l'accord
+				53 heading Heures supplémentaires : ce que prévoit l'accord, Value: 3
+					54 text Heures supplémentaires : ce que prévoit l'accord
+				55 text Adhérents FO · 4 blocs · mis à jour 1er oct.
+				56 button Modifier
+				57 button Supprimer
+			58 text Circuit de publication : Brouillon → Relecture par un pair → Validation FO → En ligne dans l'application.
+			59 heading Créer une page, Value: 2
+				60 text Créer une page
+			61 text Partez d'un modèle adapté au téléphone, ou laissez unii rédiger une première version.
+			62 button Actualité Une info, ce qu'elle change, la suite.
+				63 text Actualité
+				64 text Une info, ce qu'elle change, la suite.
+			65 button Permanences Horaires, lieu, comment venir.
+				66 text Permanences
+				67 text Horaires, lieu, comment venir.
+			68 button Contacts des élus Qui joindre, pour quoi.
+				69 text Contacts des élus
+				70 text Qui joindre, pour quoi.
+			71 button Événement Date, lieu, inscription.
+				72 text Événement
+				73 text Date, lieu, inscription.
+			74 button Vos droits Une question, une réponse claire.
+				75 text Vos droits
+				76 text Une question, une réponse claire.
+			77 button Adhésion Pourquoi et comment rejoindre FO.
+				78 text Adhésion
+				79 text Pourquoi et comment rejoindre FO.
+			80 button Quelles pages créer ? Demander à unii
+		81 container
+			82 button Accueil
+				83 image
+				84 text Accueil
+			85 button Dossiers
+				86 image
+				87 text Dossiers
+			88 button Agenda
+				89 image
+				90 text Agenda
+			91 button Réunions
+				92 image
+				93 text Réunions
+			94 button Réglages
+				95 image
+				96 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

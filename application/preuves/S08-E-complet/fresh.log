@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/operations/s08_e_complet_fresh.py", line 34, in <module>
+    exec(compile(source,str(ROOT/'operations/ephemeral_ci.py'),'exec'))
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/operations/ephemeral_ci.py", line 65, in <module>
+    credentials.clear()
+                        
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/operations/ephemeral_ci.py", line 31, in main
+    check('all_24_migrations_from_empty_database',len(migrations)==24)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/operations/ephemeral_ci.py", line 9, in check
+    if not ok:raise RuntimeError('CI check failed: '+label)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CI check failed: all_136_migrations_from_empty_database

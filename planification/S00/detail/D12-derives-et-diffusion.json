@@ -1,0 +1,35 @@
+{
+  "decision": "D12",
+  "statut": "Validée par l’utilisateur",
+  "choix": "Restrictions des sources héritées par défaut pour les contenus dérivés ; diffusion possible de version distincte après relecture humaine et autorisation spécifique, sans accès aux sources.",
+  "par_defaut": [
+    "Résumé IA conserve restrictions des sources utilisées",
+    "Dérivé multisource accessible seulement aux lecteurs autorisés sur toutes les sources utilisées",
+    "Export ou copie ne devient pas automatiquement partageable",
+    "Retrait de droit source entraîne réexamen des accès dérivés"
+  ],
+  "diffusion_approuvee": [
+    "Version distincte avec retrait des informations confidentielles",
+    "Relecture humaine obligatoire ; IA ou masquage automatique insuffisant",
+    "Validation par acteur avec permission spécifique de diffusion et habilitations sur sources concernées",
+    "Destinataires, usage et téléchargement explicitement définis",
+    "Version, sources, validateur et date tracés sans divulguer métadonnées privées aux destinataires",
+    "Toute modification du contenu nécessite nouvelle validation avant diffusion",
+    "Autorisation de version approuvée indépendante des droits individuels sur sources, toujours révocable",
+    "Suppression source déclenche examen des dérivés selon D07"
+  ],
+  "cloisonnement": [
+    "Aucun accès aux sources accordé par diffusion du dérivé",
+    "Partage inter-organisations soumis D02",
+    "Ressource reçue en lecture seule ne peut être repartagée par transformation en résumé"
+  ],
+  "tests_requis": [
+    "Refus lecture dérivé si une source nécessaire inaccessible",
+    "Retrait ACL source pris en compte dans recherche, IA et restitution du dérivé ordinaire",
+    "Diffusion impossible sans relecture et habilitation spécifique",
+    "Version approuvée consultable sans accès aux sources ni fuite de leurs métadonnées",
+    "Modification invalide approbation de diffusion pour nouvelle version",
+    "Transformation ne contourne pas interdiction repartage inter-organisations"
+  ],
+  "implementation": "Spécification validée ; contrôles et tests à implémenter"
+}

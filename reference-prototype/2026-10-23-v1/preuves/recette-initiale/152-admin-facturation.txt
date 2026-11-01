@@ -1,0 +1,57 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 text uniion CONSOLE D'ADMINISTRATION
+			30 button Supervision
+				31 image
+				32 text Supervision
+			33 button Organisations
+				34 image
+				35 text Organisations
+			36 button Utilisateurs
+				37 image
+				38 text Utilisateurs
+			39 button Clés API IA
+				40 image
+				41 text Clés API IA
+			42 button Éditeur de l’application
+				43 image
+				44 text Éditeur de l’application
+			45 button Abonnements et paiements
+				46 image
+				47 text Abonnements et paiements
+			23 button Journal d’audit
+				24 image
+				25 text Journal d’audit
+			26 text SA Super administrateur admin@uniion.fr
+			27 button Se déconnecter
+		28 container
+			29 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+			48 heading Abonnements et paiements, Value: 1
+				49 text Abonnements et paiements
+			50 text Revenu mensuel récurrent : 
+			51 text 1 297 € HT
+			52 text . Élu 1.0 99 € HT/mois 1 abonnement(s) Élu 2.0 POPULAIRE 199 € HT/mois 1 abonnement(s) Élu 3.0 499 € HT/mois 0 abonnement(s) Élu 4.0 999 € HT/mois 1 abonnement(s) Métallurgie — Valenciennes Élu 2.0  ·  199 € HT/mois  ·  Actif
+			53 button Émettre une facture
+			54 button Relancer
+			55 button Élu 1.0
+			56 button Élu 2.0
+			57 button Élu 3.0
+			58 button Élu 4.0
+			59 text UD 59 — Lille Élu 4.0  ·  999 € HT/mois  ·  Actif
+			60 button Émettre une facture
+			61 button Relancer
+			62 button Élu 1.0
+			63 button Élu 2.0
+			64 button Élu 3.0
+			65 button Élu 4.0
+			66 text CSE Brasserie du Nord Élu 1.0  ·  99 € HT/mois  ·  Essai — 12 j restants
+			67 button Émettre une facture
+			68 button Relancer
+			69 button Élu 1.0
+			70 button Élu 2.0
+			71 button Élu 3.0
+			72 button Élu 4.0
+
+The focused UI element is 1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

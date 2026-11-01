@@ -1,0 +1,117 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			141 button Formations
+				142 image
+				143 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			144 button Réglages
+				145 image
+				146 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			147 text ASSISTANT IA
+			148 heading Mémoire de l'assistant, Value: 1
+				149 text Mémoire de l'assistant
+			150 text Les faits retenus ici accompagnent chaque question posée à l'IA, d'une conversation à l'autre. Ils restent dans ce navigateur, sont anonymisés avant envoi et ne sont jamais cités comme source juridique.
+			151 text Utiliser la mémoire dans les réponses
+			152 text 4 éléments actifs transmis (anonymisés) à chaque requête IA
+			153 switch Description: Activer ou suspendre la mémoire, Value: 0
+			154 text AJOUTER UN ÉLÉMENT
+			155 button Mandat & organisation
+			156 button Textes applicables
+			157 button Préférences de rédaction
+			158 button Sujets en cours
+			159 text entry area (settable)
+			160 button Ajouter à la mémoire
+			161 heading Mandat & organisation, Value: 3
+				162 text Mandat & organisation
+			163 text 1
+			164 switch Description: Activer ou désactiver cet élément, Value: 0
+			165 text Élue titulaire au CSE et secrétaire adjointe ; mandat jusqu’en juin 2027.
+			166 text Ajouté manuellement · 3 oct. 2026
+			167 button Modifier
+			168 button Oublier
+			169 heading Textes applicables, Value: 3
+				170 text Textes applicables
+			171 text 1
+			172 switch Description: Activer ou désactiver cet élément, Value: 0
+			173 text Convention collective nationale de la Métallurgie applicable ; accord d’entreprise télétravail signé en mars 2025.
+			174 text Proposé par l’assistant · 11 oct. 2026
+			175 button Modifier
+			176 button Oublier
+			177 heading Préférences de rédaction, Value: 3
+				178 text Préférences de rédaction
+			179 text 1
+			180 switch Description: Activer ou désactiver cet élément, Value: 0
+			181 text Réponses courtes : d’abord le délai légal, puis un plan d’action daté.
+			182 text Ajouté manuellement · 17 oct. 2026
+			183 button Modifier
+			184 button Oublier
+			185 heading Sujets en cours, Value: 3
+				186 text Sujets en cours
+			187 text 1
+			188 switch Description: Activer ou désactiver cet élément, Value: 0
+			189 text NAO 2026 ouverte : revendication de 4,5 % d’augmentation générale.
+			190 text Retenu depuis une réponse · 21 oct. 2026
+			191 button Modifier
+			192 button Oublier
+			193 button Tout oublier
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

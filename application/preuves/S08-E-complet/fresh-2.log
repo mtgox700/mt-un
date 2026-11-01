@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/operations/s08_e_complet_fresh.py", line 34, in <module>
+    exec(compile(source,str(ROOT/'operations/ephemeral_ci.py'),'exec'))
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/operations/ephemeral_ci.py", line 65, in <module>
+    credentials.clear()
+                        
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/operations/ephemeral_ci.py", line 50, in main
+    foreign=services.request(client,3000,'/uniion_resources?select=id&organization_id=eq.'+accounts[1-i]['org'],a['token'])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/operations/ephemeral_ci.py", line 9, in check
+    if not ok:raise RuntimeError('CI check failed: '+label)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CI check failed: own_read_0

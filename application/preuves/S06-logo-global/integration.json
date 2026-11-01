@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "count": 24,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "business_writer_not_admin",
+      "ok": true
+    },
+    {
+      "test": "default_initial",
+      "ok": true
+    },
+    {
+      "test": "old_created",
+      "ok": true
+    },
+    {
+      "test": "reader_save_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "unscanned_direct_denied",
+      "ok": true
+    },
+    {
+      "test": "scanner_down_denied",
+      "ok": true
+    },
+    {
+      "test": "scanned_default_saved",
+      "ok": true
+    },
+    {
+      "test": "reader_sees_default",
+      "ok": true
+    },
+    {
+      "test": "other_organization_keeps_default",
+      "ok": true
+    },
+    {
+      "test": "old_document_unchanged",
+      "ok": true
+    },
+    {
+      "test": "new_document_snapshot",
+      "ok": true
+    },
+    {
+      "test": "inherited_receipt_allows_save",
+      "ok": true
+    },
+    {
+      "test": "stale_default_denied",
+      "ok": true
+    },
+    {
+      "test": "clear_default",
+      "ok": true
+    },
+    {
+      "test": "old_snapshot_survives_clear",
+      "ok": true
+    },
+    {
+      "test": "empty_snapshot",
+      "ok": true
+    },
+    {
+      "test": "remote_image_denied",
+      "ok": true
+    },
+    {
+      "test": "reset_scanned_logo",
+      "ok": true
+    },
+    {
+      "test": "history_preserved",
+      "ok": true
+    },
+    {
+      "test": "suspended_admin_denied",
+      "ok": true
+    }
+  ]
+}

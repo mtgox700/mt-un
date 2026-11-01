@@ -1,0 +1,45 @@
+{
+  "authorized": [
+    {
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "csv": true,
+      "pdf": true,
+      "scroll": 390
+    },
+    {
+      "label": "tablette",
+      "width": 768,
+      "height": 1024,
+      "csv": true,
+      "pdf": true,
+      "scroll": 768
+    },
+    {
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "csv": true,
+      "pdf": true,
+      "scroll": 1440
+    }
+  ],
+  "denied": [
+    {
+      "label": "mobile",
+      "noCsv": true,
+      "noReceipt": true
+    },
+    {
+      "label": "tablette",
+      "noCsv": true,
+      "noReceipt": true
+    },
+    {
+      "label": "desktop",
+      "noCsv": true,
+      "noReceipt": true
+    }
+  ]
+}

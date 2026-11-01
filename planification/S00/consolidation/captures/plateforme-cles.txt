@@ -1,0 +1,57 @@
+- complementary:
+  - generic: uniion
+  - generic: Console d'administration
+  - navigation:
+    - button "Supervision":
+      - generic: Supervision
+    - button "Organisations":
+      - generic: Organisations
+    - button "Utilisateurs":
+      - generic: Utilisateurs
+    - button "Clés API IA":
+      - generic: Clés API IA
+    - button "Éditeur de l’application":
+      - generic: Éditeur de l’application
+    - button "Abonnements et paiements":
+      - generic: Abonnements et paiements
+    - button "Journal d’audit":
+      - generic: Journal d’audit
+  - generic: SA
+  - generic: Super administrateur
+  - generic: admin@uniion.fr
+  - button "Se déconnecter":
+- main:
+  - generic: Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+  - heading "Clés API IA" [level=1]
+  - paragraph: Les clés ne quittent jamais la passerelle serveur. Affichage et copie tracés.
+  - button "Créer une clé"
+  - generic: Production — assistant juridique
+  - generic: Mistral (Paris) · créée le 04/03/2026
+  - generic: Active
+  - code: sk-live••••-••••-••••77b2
+  - button "Afficher"
+  - button "Copier"
+  - button "Renouveler"
+  - button "Révoquer"
+  - generic: 26 k consommées
+  - generic: plafond 40 k req./mois
+  - generic: Production — synthèse de documents
+  - generic: Mistral (Paris) · créée le 19/05/2026
+  - generic: Active
+  - code: sk-live••••-••••-••••8ee1
+  - button "Afficher"
+  - button "Copier"
+  - button "Renouveler"
+  - button "Révoquer"
+  - generic: 9 k consommées
+  - generic: plafond 25 k req./mois
+  - generic: Recette — bac à sable
+  - generic: Scaleway Génératif (Paris) · créée le 11/01/2026
+  - generic: Révoquée
+  - code: sk-test••••-••••-••••3f51
+  - button "Afficher"
+  - button "Copier"
+  - button "Renouveler"
+  - button "Réactiver"
+  - generic: 0 k consommées
+  - generic: plafond 5 k req./mois

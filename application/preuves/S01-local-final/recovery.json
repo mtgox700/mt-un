@@ -1,0 +1,191 @@
+{
+  "checks": [
+    {
+      "test": "outside_identity_created_only_on_isolated_target",
+      "ok": true
+    },
+    {
+      "test": "password_login_04c59d",
+      "ok": true
+    },
+    {
+      "test": "outside_auth_enrollment_exists",
+      "ok": true
+    },
+    {
+      "test": "outside_cannot_register_uniion_trust",
+      "ok": true
+    },
+    {
+      "test": "outside_auth_totp_verified",
+      "ok": true
+    },
+    {
+      "test": "outside_identity_recovery_denied",
+      "ok": true
+    },
+    {
+      "test": "password_login_820411",
+      "ok": true
+    },
+    {
+      "test": "enroll_lost-device",
+      "ok": true
+    },
+    {
+      "test": "authorize_lost-device",
+      "ok": true
+    },
+    {
+      "test": "verify_lost-device",
+      "ok": true
+    },
+    {
+      "test": "require_lost-device",
+      "ok": true
+    },
+    {
+      "test": "password_login_9bcea9",
+      "ok": true
+    },
+    {
+      "test": "enroll_reviewer",
+      "ok": true
+    },
+    {
+      "test": "authorize_reviewer",
+      "ok": true
+    },
+    {
+      "test": "verify_reviewer",
+      "ok": true
+    },
+    {
+      "test": "require_reviewer",
+      "ok": true
+    },
+    {
+      "test": "password_login_820411",
+      "ok": true
+    },
+    {
+      "test": "cancellable_request_created",
+      "ok": true
+    },
+    {
+      "test": "requester_can_cancel",
+      "ok": true
+    },
+    {
+      "test": "cancelled_request_cannot_be_approved",
+      "ok": true
+    },
+    {
+      "test": "cancelled_request_cannot_delete_factor",
+      "ok": true
+    },
+    {
+      "test": "request_without_old_device",
+      "ok": true
+    },
+    {
+      "test": "self_approval_refused",
+      "ok": true
+    },
+    {
+      "test": "ordinary_user_cannot_claim_worker_job",
+      "ok": true
+    },
+    {
+      "test": "worker_cannot_run_before_approval",
+      "ok": true
+    },
+    {
+      "test": "approved_by_distinct_verified_operator",
+      "ok": true
+    },
+    {
+      "test": "approval_not_replayable",
+      "ok": true
+    },
+    {
+      "test": "old_owner_business_session_closed",
+      "ok": true
+    },
+    {
+      "test": "worker_target_bound_to_request",
+      "ok": true
+    },
+    {
+      "test": "official_auth_deletion_completed",
+      "ok": true
+    },
+    {
+      "test": "worker_job_not_replayable",
+      "ok": true
+    },
+    {
+      "test": "password_login_820411",
+      "ok": true
+    },
+    {
+      "test": "mfa_still_required_after_worker",
+      "ok": true
+    },
+    {
+      "test": "temporary_reenrollment_permit",
+      "ok": true
+    },
+    {
+      "test": "enroll_replacement",
+      "ok": true
+    },
+    {
+      "test": "authorize_replacement",
+      "ok": true
+    },
+    {
+      "test": "verify_replacement",
+      "ok": true
+    },
+    {
+      "test": "require_replacement",
+      "ok": true
+    },
+    {
+      "test": "replacement_distinct",
+      "ok": true
+    },
+    {
+      "test": "recovered_aal2_allowed",
+      "ok": true
+    },
+    {
+      "test": "permit_consumed",
+      "ok": true
+    },
+    {
+      "test": "own_data_recovered",
+      "ok": true
+    },
+    {
+      "test": "cross_org_still_denied",
+      "ok": true
+    },
+    {
+      "test": "operator_no_implicit_business_access",
+      "ok": true
+    },
+    {
+      "test": "old_factor_absent",
+      "ok": true
+    }
+  ],
+  "passed": true,
+  "count": 45,
+  "isolated_target": "uniion-restore-9f9c9815",
+  "source_admin_key_read": false,
+  "source_factors_changed": false,
+  "temporary_service_key_generated": true,
+  "production_admission": false
+}

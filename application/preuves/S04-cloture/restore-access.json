@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "count": 16,
+  "checks": [
+    {
+      "test": "restored_login_0",
+      "ok": true
+    },
+    {
+      "test": "aal1_refused_0",
+      "ok": true
+    },
+    {
+      "test": "restored_mfa_0",
+      "ok": true
+    },
+    {
+      "test": "restored_login_1",
+      "ok": true
+    },
+    {
+      "test": "aal1_refused_1",
+      "ok": true
+    },
+    {
+      "test": "restored_mfa_1",
+      "ok": true
+    },
+    {
+      "test": "authorized_register",
+      "ok": true
+    },
+    {
+      "test": "lists_restored",
+      "ok": true
+    },
+    {
+      "test": "reader_finance_hidden",
+      "ok": true
+    },
+    {
+      "test": "foreign_isolated",
+      "ok": true
+    },
+    {
+      "test": "nonmember_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_list_write_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_list_write_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_export_denied",
+      "ok": true
+    },
+    {
+      "test": "writer_export_allowed",
+      "ok": true
+    },
+    {
+      "test": "private_table_denied",
+      "ok": true
+    }
+  ]
+}

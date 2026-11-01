@@ -1,0 +1,28 @@
+{
+  "decision": "D09",
+  "statut": "Cadre validé ; fournisseurs à choisir",
+  "choix": "Cadre intégrations validé : fournisseurs approuvés par super admin, activation explicite par organisation, connecteurs remplaçables, données minimisées et aucun transfert ou fournisseur de secours implicite. Fournisseurs restant à choisir ; articulation avec D07 reportée explicitement.",
+  "regles": [
+    "Super admin approuve fournisseurs, usages et destinations de traitement",
+    "Organisation active explicitement fonctions externes autorisées sans élargissement des droits métier",
+    "Traitement rattaché à organisation, utilisateur et ressources autorisées ; aucun contexte ou historique IA partagé implicitement entre organisations",
+    "Secrets côté serveur, jamais navigateur ou stockage hors ligne",
+    "Droits revérifiés avant envoi et restitution",
+    "Aucun basculement silencieux vers fournisseur non approuvé",
+    "Connecteurs remplaçables ; contenus transmis minimisés"
+  ],
+  "services": {
+    "IA_transcription": "Seuls contenus nécessaires et autorisés",
+    "signature": "Version approuvée du document et informations nécessaires des signataires",
+    "email": "Notifications minimales avec lien application plutôt que contenu confidentiel ou pièce jointe",
+    "push": "Aucun contenu métier sensible dans notification"
+  },
+  "fournisseurs": "Restant à choisir sur comparatif vérifié des fonctions, confidentialité, localisation et coûts ; aucune sélection approuvée ici",
+  "D07": "Articulation des suppressions et copies temporaires fournisseur reportée à la demande utilisateur ; aucune exception ou suppression autorisée implicitement",
+  "conditions_avant_branchement": [
+    "Approuver fournisseur et conditions de traitement",
+    "Vérifier conservation, suppression, réutilisation des données et localisation effective",
+    "Résoudre articulation D07 pour les flux concernés avant données réelles"
+  ],
+  "implementation": "Cadre validé, intégrations non implémentées ni validées en production"
+}

@@ -1,0 +1,1 @@
+import View from '../../generated/members.jsx';import {defineModule} from '../../host/module-contract.js';export {View};export default defineModule({id:'members',routes:['adherents'],View});

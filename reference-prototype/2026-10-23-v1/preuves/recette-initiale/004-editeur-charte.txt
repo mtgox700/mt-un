@@ -1,0 +1,158 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			68 button Accueil
+				69 image
+				70 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			20 button Réunions
+				21 image
+				22 text Réunions
+			83 button Documents
+				84 image
+				85 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				86 text unii
+				87 text 2
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			88 text UNII SUGGÈRE
+			89 button Brouillon à relire · Compte rendu — réunion de la section syndicale
+			90 button Brouillon à relire · NAO 2027 — où en sont les négociations
+			91 button Revenir à la liste des documents
+			92 text Titre du document
+			93 text field (settable) Titre du document, Value: Compte rendu — réunion de la section syndicale
+			94 button Imprimer / PDF
+			95 button Faire signer
+			96 button Diffuser
+			97 tab group Panneaux de l'éditeur
+				98 tab (selectable, settable, boolean) Contenu, Value: 0
+				99 tab (selected, settable, boolean) Charte graphique, Value: 1
+				100 tab (selectable, settable, boolean) Style, Value: 0
+			318 text COULEUR D'ACCENT
+			319 checkbox Description: Couleur d'accent #DC2626, Value: 1
+			320 checkbox Description: Couleur d'accent #EA580C, Value: 0
+			321 checkbox Description: Couleur d'accent #B91C1C, Value: 0
+			322 checkbox Description: Couleur d'accent #1D4ED8, Value: 0
+			323 checkbox Description: Couleur d'accent #15803D, Value: 0
+			324 checkbox Description: Couleur d'accent #111827, Value: 0
+			325 container
+				326 text Code hexadécimal
+				327 text field (settable) Code hexadécimal, Value: #DC2626
+			328 text COULEUR DU TEXTE
+			329 checkbox Description: Couleur du texte : Noir encre, Value: 1
+			330 checkbox Description: Couleur du texte : Gris ardoise, Value: 0
+			331 checkbox Description: Couleur du texte : Brun chaud, Value: 0
+			332 container
+				333 text POLICE DES TITRES
+				334 pop up button (collapsed, settable) POLICE DES TITRES, Value: Philosopher, Secondary Actions: Expand
+					335 menu
+						336 (selected) Philosopher
+						337 Montserrat
+						338 Lora
+						339 Inter
+						340 Georgia
+			341 container
+				342 text POLICE DU TEXTE
+				343 pop up button (collapsed, settable) POLICE DU TEXTE, Value: Inter, Secondary Actions: Expand
+					344 menu
+						345 Philosopher
+						346 Montserrat
+						347 Lora
+						348 (selected) Inter
+						349 Georgia
+			350 text DENSITÉ DU TEXTE
+			351 checkbox Compact, Value: 0
+			352 checkbox Standard, Value: 1
+			353 checkbox Confort, Value: 0
+			354 text LOGO DE L'ORGANISATION
+			355 image Logo actuel de l'organisation
+			356 container
+				357 text Importer un logo
+				358 button Importer un logo
+			359 button Retirer le logo
+			360 text PNG ou SVG, fond transparent de préférence. Le fichier reste sur l'appareil.
+			361 text EN-TÊTE & PIED DE PAGE Afficher l'en-tête
+			362 switch Description: Afficher l'en-tête, Value: 1
+			363 text Afficher le pied de page
+			364 switch Description: Afficher le pied de page, Value: 1
+			365 text Titres en majuscules
+			366 switch Description: Titres en majuscules, Value: 0
+			367 container
+				368 text Nom de l'émetteur
+				369 text field (settable) Nom de l'émetteur, Value: SECTION MÉTA VAL
+			370 container
+				371 text Section / établissement
+				372 text field (settable) Section / établissement, Value: Local syndical — 12 rue de la Fonderie
+			373 container
+				374 text Email de contact
+				375 text field (settable) Email de contact, Value: section@syndicat-valenciennes.fr
+			376 container
+				377 text Téléphone
+				378 text field (settable) Téléphone, Value: 03 27 14 88 20
+			191 checkbox A4 portrait, Value: 1
+			192 checkbox 16:9 paysage, Value: 0
+			193 checkbox A5 tract, Value: 0
+			194 checkbox Description: Zoom 50 %, Value: 0
+			195 checkbox Description: Zoom 72 %, Value: 1
+			196 checkbox Description: Zoom 100 %, Value: 0
+			197 text 2 pages · A4 portrait
+			198 container docPrint
+				314 container
+					315 text La Voix — SECTION MÉTA VAL LOCAL SYNDICAL — 12 RUE DE LA FONDERIE PAGE 1 / 2 SÉANCE DU 26 AOÛT 2026 Compte rendu — réunion de la section syndicale Pour la section : Sophie Marchand (déléguée syndicale, secrétaire), Jean-Paul Diallo (trésorier), Leïla Chaïb (déléguée du personnel), Marc Aubert (représentant de proximité). Pour la direction : Mme Rousseau (DRH), M. Fontaine (directeur de site). Présents Ordre du jour ■ Approbation du compte rendu de la séance du 24 juillet ■ Information sur l'accident de l'atelier B du 25 août ■ Consultation sur le projet de réorganisation logistique ■ Budget des activités sociales et culturelles — arbitrage rentrée Délibérations Point Décision Pour Contre Compte rendu de juillet Approuvé 4 0 Enquête atelier B Enquête paritaire ouverte 4 0 Réorganisation logistique Avis différé, expertise demandée 3 1
+				316 container
+					317 text La Voix — SECTION MÉTA VAL LOCAL SYNDICAL — 12 RUE DE LA FONDERIE PAGE 2 / 2 Mardi 23 septembre 2026, 14 h 00, salle du conseil. Les points à inscrire à l'ordre du jour doivent parvenir au secrétariat avant le 16 septembre. Questions diverses ■ Chaleur en atelier : la direction s'engage à installer deux points d'eau fraîche avant le 5 septembre ■ Planning des congés d'hiver : diffusion aux équipes avant le 15 octobre ■ Accès au local syndical le samedi : accord donné, badge à mettre à jour Prochaine séance
+
+The focused UI element is 99 tab (selected, settable, boolean) Charte graphique, Value: 1

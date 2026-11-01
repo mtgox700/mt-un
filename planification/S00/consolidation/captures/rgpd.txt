@@ -1,0 +1,87 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Politique organisation
+  - heading "Anonymisation avant inférence" [level=2]
+  - paragraph: Le coffre CSE — dossiers, pièces, noms, matricules — reste local. Le modèle ne reçoit qu'un payload masqué, relu et confirmé par l'élu. Zéro donnée nominative hors UE, zéro entraînement, journal d'empreintes sans clair.
+  - generic: 38 appels
+  - generic: 0 identité fuitée
+  - generic: Pièces jointes jamais transmises
+  - generic: Verrouillé ON
+  - switch "Anonymisation avant inférence — verrouillée par la politique de l'organisation" [checked]
+  - generic: Journal d'empreintes — aucun texte en clair
+  - generic: 7f3a91c1
+  - generic: Niveau RPS · 5 entités masquées · 26/08 14 h 12
+  - generic: 2b7cd430
+  - generic: Niveau RH sensible · 3 entités masquées · 25/08 09 h 41
+  - generic: e40a17b9
+  - generic: Niveau standard · 1 entité masquée · 24/08 18 h 05
+  - text: Conforme
+  - heading "Confidentialité & RGPD" [level=1]
+  - paragraph: Hébergement UE, chiffrement au repos et en transit, cloisonnement strict avec l'employeur.
+  - generic: Dossiers clos
+  - generic: 5 ans
+  - generic: Messages chiffrés
+  - generic: 2 ans
+  - generic: Logs d'usage IA
+  - generic: 12 mois
+  - generic: Votes de sondage
+  - generic: Anonymes, non liés
+  - heading "Exercer vos droits" [level=2]
+  - paragraph: Accès, rectification, effacement, portabilité — traité sous 30 jours.
+  - button "Exporter mes données (JSON)"
+  - button "Demander l'effacement"
+  - heading "Registre des traitements" [level=2]
+  - generic: Suivi des dossiers salariés
+  - generic: "Base légale : mission de représentation du personnel · données minimisées"
+  - generic: Messagerie interne des élus
+  - generic: "Base légale : intérêt légitime · chiffrement de bout en bout"
+  - generic: Consultations IA
+  - generic: "Base légale : consentement · non réutilisées pour l'entraînement"

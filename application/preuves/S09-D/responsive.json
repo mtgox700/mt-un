@@ -1,0 +1,23 @@
+[
+  {
+    "name": "desktop-publie",
+    "width": 1440,
+    "height": 1000,
+    "actualWidth": 1440,
+    "scrollWidth": 1440
+  },
+  {
+    "name": "tablette-publie",
+    "width": 768,
+    "height": 1024,
+    "actualWidth": 768,
+    "scrollWidth": 768
+  },
+  {
+    "name": "mobile-publie",
+    "width": 390,
+    "height": 844,
+    "actualWidth": 390,
+    "scrollWidth": 382
+  }
+]

@@ -1,0 +1,700 @@
+{
+  "checks": [
+    {
+      "screen": "accueil",
+      "headings": [
+        "recette-s01-mfa-0-783e1a30@uniion-local.example",
+        "Mes dossiers",
+        "Prochaines échéances"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "accueil",
+      "headings": [
+        "recette-s01-mfa-0-783e1a30@uniion-local.example",
+        "Mes dossiers",
+        "Prochaines échéances"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "accueil",
+      "headings": [
+        "recette-s01-mfa-0-783e1a30@uniion-local.example",
+        "Mes dossiers",
+        "Prochaines échéances"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "dossiers",
+      "headings": [
+        "Suivi des demandes"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "dossiers",
+      "headings": [
+        "Suivi des demandes"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "dossiers",
+      "headings": [
+        "Suivi des demandes"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "messagerie",
+      "headings": [
+        "Messages"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "messagerie",
+      "headings": [
+        "Messages"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "messagerie",
+      "headings": [
+        "Messages",
+        "Messages de la section"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "adherents",
+      "headings": [
+        "Représentants du personnel"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "adherents",
+      "headings": [
+        "Représentants du personnel"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "adherents",
+      "headings": [
+        "Représentants du personnel"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "filtres-adherents",
+      "headings": [
+        "Représentants du personnel"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "filtres-adherents",
+      "headings": [
+        "Représentants du personnel"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "filtres-adherents",
+      "headings": [
+        "Représentants du personnel"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "reglages",
+      "headings": [
+        "Paramètres",
+        "Ordre du menu de gauche"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "reglages",
+      "headings": [
+        "Paramètres",
+        "Ordre du menu de gauche"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "reglages",
+      "headings": [
+        "Paramètres",
+        "Ordre du menu de gauche"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "profil",
+      "headings": [
+        "recette-s01-mfa-0-783e1a30@uniion-local.example",
+        "Informations de l'organisation",
+        "Mon activité — août",
+        "Signature des documents"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "profil",
+      "headings": [
+        "recette-s01-mfa-0-783e1a30@uniion-local.example",
+        "Informations de l'organisation",
+        "Mon activité — août",
+        "Signature des documents"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "profil",
+      "headings": [
+        "recette-s01-mfa-0-783e1a30@uniion-local.example",
+        "Informations de l'organisation",
+        "Mon activité — août",
+        "Signature des documents"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "administration",
+      "headings": [
+        "Tableau de bord organisation",
+        "Activité par commission",
+        "Raccourcis d'administration"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "administration",
+      "headings": [
+        "Tableau de bord organisation",
+        "Activité par commission",
+        "Raccourcis d'administration"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "administration",
+      "headings": [
+        "Tableau de bord organisation",
+        "Activité par commission",
+        "Raccourcis d'administration"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "membres",
+      "headings": [
+        "Organisation & membres"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "membres",
+      "headings": [
+        "Organisation & membres"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "membres",
+      "headings": [
+        "Organisation & membres"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "invitation",
+      "headings": [
+        "Organisation & membres",
+        "Inviter des élus"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "invitation",
+      "headings": [
+        "Organisation & membres",
+        "Inviter des élus"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "invitation",
+      "headings": [
+        "Organisation & membres",
+        "Inviter des élus"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "organisations",
+      "headings": [
+        "Vos organisations",
+        "Recette S01 MFA 0",
+        "Recette invitations S01",
+        "Recette invitations S01"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "organisations",
+      "headings": [
+        "Vos organisations",
+        "Recette S01 MFA 0",
+        "Recette invitations S01",
+        "Recette invitations S01"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "organisations",
+      "headings": [
+        "Vos organisations",
+        "Recette S01 MFA 0",
+        "Recette invitations S01",
+        "Recette invitations S01"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "droits",
+      "headings": [
+        "Droits & membres"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "droits",
+      "headings": [
+        "Droits & membres"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "droits",
+      "headings": [
+        "Droits & membres"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "partages",
+      "headings": [
+        "Partages entre organisations"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "partages",
+      "headings": [
+        "Partages entre organisations"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "partages",
+      "headings": [
+        "Partages entre organisations"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "collections",
+      "headings": [
+        "Collections de référence",
+        "Charte et texte fictifs",
+        "Nouvelle collection fictive"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "collections",
+      "headings": [
+        "Collections de référence",
+        "Charte et texte fictifs",
+        "Nouvelle collection fictive"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "collections",
+      "headings": [
+        "Collections de référence",
+        "Charte et texte fictifs",
+        "Nouvelle collection fictive"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "support",
+      "headings": [
+        "Support temporaire",
+        "Ticket accès temporaire fictif"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "support",
+      "headings": [
+        "Support temporaire",
+        "Ticket accès temporaire fictif"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "support",
+      "headings": [
+        "Support temporaire",
+        "Ticket accès temporaire fictif"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "agents-support",
+      "headings": [
+        "Agents support"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "agents-support",
+      "headings": [
+        "Agents support"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "agents-support",
+      "headings": [
+        "Agents support"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "modules",
+      "headings": [
+        "Modules & accès",
+        "Réunions & comptes rendus",
+        "Signature électronique",
+        "Sondages"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "modules",
+      "headings": [
+        "Modules & accès",
+        "Réunions & comptes rendus",
+        "Signature électronique",
+        "Sondages"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "modules",
+      "headings": [
+        "Modules & accès",
+        "Réunions & comptes rendus",
+        "Signature électronique",
+        "Sondages"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "partenaires",
+      "headings": [
+        "Référentiel partenaires"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "partenaires",
+      "headings": [
+        "Référentiel partenaires"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "partenaires",
+      "headings": [
+        "Référentiel partenaires"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "journal",
+      "headings": [
+        "Journal du parcours"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "journal",
+      "headings": [
+        "Journal du parcours"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "journal",
+      "headings": [
+        "Journal du parcours"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "ressources",
+      "headings": [
+        "Ressources accessibles",
+        "Dans votre organisation",
+        "Partagées par une autre organisation"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "ressources",
+      "headings": [
+        "Ressources accessibles",
+        "Dans votre organisation",
+        "Partagées par une autre organisation"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "ressources",
+      "headings": [
+        "Ressources accessibles",
+        "Dans votre organisation",
+        "Partagées par une autre organisation"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "administration-corrigee",
+      "headings": [
+        "Tableau de bord organisation",
+        "Activité par commission",
+        "Raccourcis d'administration"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "administration-corrigee",
+      "headings": [
+        "Tableau de bord organisation",
+        "Activité par commission",
+        "Raccourcis d'administration"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "administration-corrigee",
+      "headings": [
+        "Tableau de bord organisation",
+        "Activité par commission",
+        "Raccourcis d'administration"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "modules-membre",
+      "headings": [
+        "Modules & accès",
+        "Réunions & comptes rendus",
+        "Signature électronique",
+        "Sondages"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "modules-membre",
+      "headings": [
+        "Modules & accès",
+        "Réunions & comptes rendus",
+        "Signature électronique",
+        "Sondages"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "modules-membre",
+      "headings": [
+        "Modules & accès",
+        "Réunions & comptes rendus",
+        "Signature électronique",
+        "Sondages"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "anomalie-retour-module-desactive",
+      "headings": [
+        "Sondages salariés"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "anomalie-retour-module-desactive",
+      "headings": [
+        "Sondages salariés"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "anomalie-retour-module-desactive",
+      "headings": [
+        "Sondages salariés"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "partenaires-refus",
+      "headings": [],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "partenaires-refus",
+      "headings": [],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "partenaires-refus",
+      "headings": [],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "agents-support-refus",
+      "headings": [],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "agents-support-refus",
+      "headings": [],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "agents-support-refus",
+      "headings": [],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "screen": "anomalie-historique-console",
+      "headings": [
+        "Support temporaire",
+        "Ticket accès temporaire fictif"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "screen": "anomalie-historique-console",
+      "headings": [
+        "Support temporaire",
+        "Ticket accès temporaire fictif"
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "screen": "anomalie-historique-console",
+      "headings": [
+        "Support temporaire",
+        "Ticket accès temporaire fictif"
+      ],
+      "overflow": false,
+      "width": 1440
+    }
+  ],
+  "globalRegistriesDenied": true,
+  "disabledModuleReopenedByBack": true,
+  "consoleHistoryDesynchronised": true,
+  "logoRestored": true,
+  "resourceLinkRestored": true
+}

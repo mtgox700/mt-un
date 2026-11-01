@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';import {createModuleStores} from './module-stores.js';import {createMessageMenu} from '../modules/messaging/menu.js';import {createCasePicker} from '../modules/cases/picker.js';
+let n=0;const test=(name,f)=>{f();console.log('PASS '+name);n++};const stores=createModuleStores({waMenu:0,dosPick:null,dosQ:'',dossiers:[{id:'a',title:'Fictif',tag:'CSSCT'}]});let selected,created,copied;
+const menu=createMessageMenu(stores.module('messaging'),{msgPayload:(c,m)=>({text:m.text,who:'Test',conv:c.name}),whoContact:()=>({id:'c',name:'Test Local'}),openDirect:id=>selected=id,openCasePicker:p=>stores.module('cases').update({dosPick:p,dosQ:''}),msgToNewDossier:p=>created=p,copyText:t=>copied=t,flash:()=>{}});
+const acts=menu.msgActs({name:'Groupe',kind:'group'},{text:'Texte fictif',who:'Test'});const run=label=>acts.find(a=>a.label===label).go();
+test('reply closes menu and preserves snippet',()=>{run('Répondre');assert.equal(stores.snapshot().waMenu,null);assert.equal(stores.snapshot().waReply.text,'Texte fictif')});
+test('private reply uses contact port',()=>{run('Répondre en privé à Test');assert.equal(selected,'c');assert.equal(stores.snapshot().waReply.from,'Groupe')});
+test('forward initializes selection',()=>{run('Transférer');assert.deepEqual(stores.snapshot().fwdSel,[])});
+test('case picker uses dedicated port',()=>{run('Envoyer dans un dossier');assert.equal(stores.module('cases').read().dosPick.text,'Texte fictif');assert.equal(stores.module('messaging').read().dosPick,undefined)});
+const picker=createCasePicker(stores.module('cases'),{msgToDossier:id=>selected=id,msgToNewDossier:p=>created=p});
+test('picker lists and routes selected case',()=>{picker.dpmVals().rows[0].go();assert.equal(selected,'a')});
+test('picker filters without mutating cases',()=>{picker.dpmVals().onQ({target:{value:'absent'}});assert.equal(picker.dpmVals().noRows,true);assert.equal(stores.snapshot().dossiers.length,1)});
+test('picker creates with preserved payload',()=>{picker.dpmVals().create();assert.equal(created.text,'Texte fictif')});
+test('picker closes without deleting content',()=>{picker.dpmVals().close();assert.equal(picker.dpmVals().open,false);assert.equal(stores.snapshot().dossiers.length,1)});
+test('copy delegates clipboard',()=>{run('Copier le texte');assert.equal(copied,'Texte fictif')});
+console.log(n+' menu checks passed');

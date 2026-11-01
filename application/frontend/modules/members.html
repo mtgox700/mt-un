@@ -1,0 +1,244 @@
+<sc-if value="{{ adh.isList }}" hint-placeholder-val="{{ false }}">
+        <div data-screen-label="Adhérents" style="animation: fadeUp .45s ease-out;">
+          <span style="background: var(--acBg); color: var(--acTx2); font-size: 10.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: 5px 11px; border-radius: 99px;">{{ adh.kicker }}</span>
+          <h1 style="font-family:var(--fTitle); font-size: 30px; margin: 13px 0 4px;">{{ adh.title }}</h1>
+          <p style="margin: 0 0 20px; color: var(--ink5); font-size: 14px;">{{ adh.summary }}</p>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 18px;">
+            <sc-for list="{{ adh.stats }}" as="s" hint-placeholder-count="4">
+              <div style="background: var(--surface); border: 1px solid var(--bd); border-radius: 18px; padding: 16px 18px;">
+                <div style="font-family:var(--fTitle); font-size: 26px; color: var(--ink);">{{ s.value }}</div>
+                <div style="font-size: 12px; color: var(--ink5); margin-top: 2px;">{{ s.label }}</div>
+              </div>
+            </sc-for>
+          </div>
+
+          <div role="tablist" aria-label="Vues du module adhérents" style="display: flex; gap: 4px; background: var(--surf2); border: 1px solid var(--bd); border-radius: 14px; padding: 4px; margin-bottom: 18px; max-width: 520px;">
+            <sc-for list="{{ adh.tabs }}" as="tb" hint-placeholder-count="3">
+              <button onClick="{{ tb.go }}" role="tab" aria-selected="{{ tb.on }}" style="flex: 1; cursor: pointer; border: none; border-radius: 11px; padding: 9px 12px; font-size: 12.5px; font-weight: 700; background: {{ tb.bg }}; color: {{ tb.fg }};">{{ tb.label }}</button>
+            </sc-for>
+          </div>
+
+          <sc-if value="{{ adh.tabList }}" hint-placeholder-val="{{ true }}">
+            <div>
+              <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 20px; padding: 18px; margin-bottom: 14px;">
+                <div style="display: flex; align-items: center; gap: 9px; margin-bottom: 14px;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--acTx)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h18l-7 8v7l-4 2v-9Z"></path></svg>
+                  <span style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5);">{{ adh.filterTitle }}</span>
+                </div>
+                <input value="{{ adh.fq }}" onChange="{{ adh.onQ }}" placeholder="Nom, courriel, emploi…" aria-label="{{ adh.searchLabel }}" style="width: 100%; background: var(--surf2); border: 1px solid var(--bd2); border-radius: 12px; padding: 12px 14px; font-size: 13.5px; color: var(--ink); outline: none; margin-bottom: 12px;" />
+                <button class="mobile-control" onClick="{{ toggleMobileFilters }}" aria-expanded="{{ mobileFilters }}">Filtres avancés</button><div class="mobile-collapse" data-open="{{ mobileFilters }}" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px;">
+                  <sc-for list="{{ adh.filters }}" as="fl" hint-placeholder-count="5">
+                    <label style="display: flex; flex-direction: column; gap: 5px;">
+                      <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">{{ fl.label }}</span>
+                      <select value="{{ fl.value }}" onChange="{{ fl.on }}" style="width: 100%; background: var(--surf2); border: 1px solid var(--bd2); border-radius: 11px; padding: 10px 11px; font-size: 13px; color: var(--ink3); outline: none;">
+                        <sc-for list="{{ fl.opts }}" as="o" hint-placeholder-count="4">
+                          <option value="{{ o.v }}">{{ o.label }}</option>
+                        </sc-for>
+                      </select>
+                    </label>
+                  </sc-for>
+                </div>
+                <sc-if value="{{ adh.hasCrit }}" hint-placeholder-val="{{ false }}">
+                  <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--bd);">
+                    <sc-for list="{{ adh.critChips }}" as="c" hint-placeholder-count="2">
+                      <span style="font-size: 11.5px; font-weight: 600; color: var(--acTx2); background: var(--acBg); border-radius: 99px; padding: 5px 11px;">{{ c }}</span>
+                    </sc-for>
+                    <button onClick="{{ adh.resetFilters }}" style="cursor: pointer; border: none; background: transparent; font-size: 12px; font-weight: 600; color: var(--ink5); text-decoration: underline;">Réinitialiser</button>
+                  </div>
+                </sc-if>
+                <div style="display: flex; flex-wrap: wrap; gap: 9px; align-items: center; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--bd);">
+                  <input value="{{ adh.gName }}" onChange="{{ adh.onGName }}" placeholder="Nom de la liste de diffusion…" aria-label="Nom de la nouvelle liste de diffusion" style="flex: 1; min-width: 200px; background: var(--surf2); border: 1px solid var(--bd2); border-radius: 99px; padding: 11px 15px; font-size: 13px; color: var(--ink); outline: none;" />
+                  <button onClick="{{ adh.createGroup }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 11px 18px; font-size: 13px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Créer une liste depuis ces critères</button>
+                </div>
+              </section>
+
+              <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                <span style="font-size: 12.5px; color: var(--ink5);">{{ adh.countLabel }}</span>
+                <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+                  <sc-if value="{{ adh.hasSel }}" hint-placeholder-val="{{ false }}">
+                    <span style="font-size: 12px; font-weight: 700; color: var(--acTx2);">{{ adh.selLabel }}</span>
+                  </sc-if>
+                  <button onClick="{{ adh.selectAll }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 9px 15px; font-size: 12.5px; font-weight: 600; color: var(--ink4);" style-hover="border-color: var(--ink6);">Tout sélectionner</button>
+                  <sc-if value="{{ adh.hasSel }}" hint-placeholder-val="{{ false }}">
+                    <button onClick="{{ adh.clearSel }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 9px 15px; font-size: 12.5px; font-weight: 600; color: var(--ink4);" style-hover="border-color: var(--ink6);">Effacer</button>
+                  </sc-if>
+                  <button onClick="{{ adh.msgSel }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 10px 18px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 12.5px; font-weight: 700; box-shadow: 0 8px 20px -10px hsl(var(--acH) 85% 45% / .55);">Envoyer un message</button>
+                </div>
+              </div>
+
+              <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 14px;">
+                <sc-for list="{{ adh.list }}" as="a" hint-placeholder-count="6">
+                  <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center; background: var(--surface); border: 1px solid var(--bd); border-radius: 18px; padding: 14px 16px;" style-hover="border-color: var(--acMid);">
+                    <button onClick="{{ a.toggle }}" role="checkbox" aria-checked="{{ a.selected }}" aria-label="Sélectionner {{ a.name }}" style="flex: 0 0 auto; width: 20px; height: 20px; cursor: pointer; border-radius: 6px; border: 1.5px solid {{ a.checkBd }}; background: {{ a.checkBg }}; display: flex; align-items: center; justify-content: center; padding: 0;">
+                      <sc-if value="{{ a.selected }}" hint-placeholder-val="{{ false }}">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 13 4 4L19 7"></path></svg>
+                      </sc-if>
+                    </button>
+                    <button onClick="{{ a.open }}" style="flex: 1; min-width: 200px; display: flex; gap: 12px; align-items: center; text-align: left; cursor: pointer; border: none; background: transparent; padding: 0;">
+                      <span aria-hidden="true" style="width: 38px; height: 38px; flex: 0 0 38px; border-radius: 99px; background: var(--acBg); color: var(--acTx2); font-size: 12.5px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ a.initials }}</span>
+                      <span style="min-width: 0;">
+                        <span style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+                          <span style="font-size: 14.5px; font-weight: 700; color: var(--ink);">{{ a.name }}</span>
+                          <sc-if value="{{ a.hasMandat }}" hint-placeholder-val="{{ false }}">
+                            <span style="font-size: 10px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--infoTx2); background: var(--infoBg); border-radius: 99px; padding: 3px 9px;">{{ a.mandat }}</span>
+                          </sc-if>
+                        </span>
+                        <span style="display: block; font-size: 12.5px; color: var(--ink5); margin-top: 3px;">{{ a.where }}</span>
+                      </span>
+                    </button>
+                    <span style="font-size: 12px; color: var(--ink5); min-width: 150px;">{{ a.cotis }}</span>
+                    <sc-if value="{{ a.showPill }}" hint-placeholder-val="{{ true }}">
+                      <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; padding: 5px 11px; border-radius: 99px; background: {{ a.pillBg }}; color: {{ a.pillFg }};">{{ a.statut }}</span>
+                    </sc-if>
+                    <button onClick="{{ a.open }}" aria-label="Ouvrir la fiche de {{ a.name }}" style="cursor: pointer; border: none; background: transparent; color: var(--ink6); font-size: 16px; padding: 0 2px;">›</button>
+                  </div>
+                </sc-for>
+                <sc-if value="{{ adh.empty }}" hint-placeholder-val="{{ false }}">
+                  <div style="border: 1px dashed var(--bd2); border-radius: 18px; padding: 26px; text-align: center; font-size: 13px; color: var(--ink5);">{{ adh.emptyNote }}</div>
+                </sc-if>
+                <sc-if value="{{ adh.hasPager }}" hint-placeholder-val="{{ false }}">
+                  <div style="display: flex; align-items: center; gap: 10px; padding: 4px 2px;">
+                    <span aria-live="polite" style="font-size: 12px; font-weight: 600; color: var(--ink5);">{{ adh.pageLabel }}</span>
+                    <button onClick="{{ adh.pagePrev }}" disabled="{{ adh.pagePrevOff }}" aria-label="Page précédente" style="margin-left: auto; cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; min-height: 44px; padding: 0 16px; font-size: 12.5px; font-weight: 700; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx2);">Précédent</button>
+                    <button onClick="{{ adh.pageNext }}" disabled="{{ adh.pageNextOff }}" aria-label="Page suivante" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; min-height: 44px; padding: 0 16px; font-size: 12.5px; font-weight: 700; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx2);">Suivant</button>
+                  </div>
+                </sc-if>
+              </div>
+
+              <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; background: var(--surf2); border: 1px solid var(--bd); border-radius: 18px; padding: 16px 18px;">
+                <p style="margin: 0; font-size: 12.5px; color: var(--ink5); line-height: 1.6; max-width: 560px;">{{ adh.sensNote }}</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 9px;">
+                  <button onClick="{{ adh.goImport }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 10px 18px; background: var(--inkSurf); color: #FFFFFF; font-size: 12.5px; font-weight: 700;">Importer un fichier CSV</button>
+                  <sc-if value="{{ adh.showCotis }}" hint-placeholder-val="{{ true }}">
+                    <button onClick="{{ adh.newBulletin }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 10px 18px; font-size: 12.5px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Nouveau bulletin d'adhésion</button>
+                  </sc-if>
+                </div>
+              </div>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ adh.tabGroupes }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; margin-bottom: 16px;">
+                <sc-for list="{{ adh.groupes }}" as="g" hint-placeholder-count="4">
+                  <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 20px; padding: 20px; display: flex; flex-direction: column; gap: 10px;">
+                    <div style="display: flex; flex-wrap: wrap; gap: 9px; align-items: center;">
+                      <span style="font-family:var(--fTitle); font-size: 19px; color: var(--ink);">{{ g.name }}</span>
+                      <span style="font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 4px 10px; border-radius: 99px; background: {{ g.typeBg }}; color: {{ g.typeFg }};">{{ g.typeLabel }}</span>
+                    </div>
+                    <span style="font-size: 12.5px; color: var(--ink5); line-height: 1.55;">{{ g.desc }}</span>
+                    <div style="display: flex; flex-wrap: wrap; gap: 7px;">
+                      <sc-for list="{{ g.chips }}" as="c" hint-placeholder-count="2">
+                        <span style="font-size: 11.5px; font-weight: 600; color: var(--ink4); background: var(--chip); border-radius: 99px; padding: 5px 10px;">{{ c }}</span>
+                      </sc-for>
+                    </div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline;">
+                      <span style="font-size: 13px; font-weight: 700; color: var(--ink2);">{{ g.count }}</span>
+                      <span style="font-size: 11.5px; color: var(--ink6);">{{ g.canal }}</span>
+                    </div>
+                    <sc-if value="{{ g.editing }}" hint-placeholder-val="{{ false }}">
+                      <div style="display: flex; flex-direction: column; gap: 9px;">
+                        <label style="display: flex; flex-direction: column; gap: 5px;">
+                          <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Nom de la liste</span>
+                          <input value="{{ g.renameVal }}" onChange="{{ g.onRename }}" style="width: 100%; background: var(--surf2); border: 1px solid var(--bd); border-radius: 12px; padding: 10px 12px; font-size: 13.5px; color: var(--ink); outline: none; font-family: inherit;" style-focus="border-color: var(--acMid);" />
+                        </label>
+                        <label style="display: flex; flex-direction: column; gap: 5px;">
+                          <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Usage</span>
+                          <input value="{{ g.descVal }}" onChange="{{ g.onDesc }}" style="width: 100%; background: var(--surf2); border: 1px solid var(--bd); border-radius: 12px; padding: 10px 12px; font-size: 13px; color: var(--ink); outline: none; font-family: inherit;" style-focus="border-color: var(--acMid);" />
+                        </label>
+                        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                          <button onClick="{{ g.done }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 10px 17px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 12.5px; font-weight: 700;">Terminer</button>
+                          <button onClick="{{ g.del.act }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 10px 15px; background: {{ g.del.bg }}; color: {{ g.del.fg }}; font-size: 12px; font-weight: 600;" style-hover="color: var(--dangerTx2);">{{ g.del.label }}</button>
+                        </div>
+                      </div>
+                    </sc-if>
+                    <div style="display: flex; flex-wrap: wrap; gap: 9px; margin-top: 2px;">
+                      <button onClick="{{ g.send }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 10px 17px; background: var(--inkSurf); color: #FFFFFF; font-size: 12.5px; font-weight: 700;">Envoyer un message</button>
+                      <button onClick="{{ g.show }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 10px 16px; font-size: 12.5px; font-weight: 600; color: var(--ink4);" style-hover="border-color: var(--ink6);">{{ g.showLabel }}</button>
+                      <sc-if value="{{ g.reading }}" hint-placeholder-val="{{ true }}">
+                        <button onClick="{{ g.edit }}" style="cursor: pointer; border: none; background: transparent; padding: 10px 6px; font-size: 12px; font-weight: 600; color: var(--ink5);" style-hover="color: var(--acTx);">Modifier</button>
+                      </sc-if>
+                    </div>
+                  </section>
+                </sc-for>
+              </div>
+              <p style="margin: 0; font-size: 12.5px; color: var(--ink5); line-height: 1.6;">{{ adh.listNote }} Créez-en une depuis le premier onglet en combinant les critères de filtre.</p>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ adh.tabCotis }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <section style="background: var(--inkSurf); border-radius: 22px; padding: 22px; color: #FFFFFF; margin-bottom: 16px;">
+                <div style="display: flex; flex-wrap: wrap; gap: 14px; align-items: baseline; justify-content: space-between; margin-bottom: 14px;">
+                  <h2 style="font-family:var(--fTitle); font-size: 20px; margin: 0;">Taux de recouvrement</h2>
+                  <span style="font-family:var(--fTitle); font-size: 26px; color: var(--acMid);">{{ adh.recouvPct }}</span>
+                </div>
+                <div style="height: 8px; border-radius: 99px; background: rgba(255,255,255,.16); overflow: hidden; margin-bottom: 18px;">
+                  <div style="height: 100%; width: {{ adh.recouvW }}; border-radius: 99px; background: linear-gradient(to right, var(--ac), var(--ac2));"></div>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px;">
+                  <sc-for list="{{ adh.cotisStats }}" as="s" hint-placeholder-count="3">
+                    <div>
+                      <div style="font-family:var(--fTitle); font-size: 22px;">{{ s.value }}</div>
+                      <div style="font-size: 12px; color: rgba(255,255,255,.66); margin-top: 3px; line-height: 1.5;">{{ s.label }}</div>
+                    </div>
+                  </sc-for>
+                </div>
+              </section>
+
+              <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 20px; padding: 20px; margin-bottom: 16px;">
+                <h2 style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin: 0 0 14px;">Modes de règlement</h2>
+                <div style="display: flex; flex-direction: column; gap: 12px;">
+                  <sc-for list="{{ adh.modes }}" as="md" hint-placeholder-count="3">
+                    <div>
+                      <div style="display: flex; justify-content: space-between; gap: 10px; font-size: 13px; margin-bottom: 6px;">
+                        <span style="font-weight: 600; color: var(--ink2);">{{ md.label }}</span>
+                        <span style="color: var(--ink5);">{{ md.n }}</span>
+                      </div>
+                      <div style="height: 6px; border-radius: 99px; background: var(--track); overflow: hidden;">
+                        <div style="height: 100%; width: {{ md.w }}; border-radius: 99px; background: var(--acMid);"></div>
+                      </div>
+                    </div>
+                  </sc-for>
+                </div>
+              </section>
+
+              <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                <h2 style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin: 0;">Retards de cotisation</h2>
+                <button onClick="{{ adh.relanceAll }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 10px 18px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 12.5px; font-weight: 700;">Relancer la liste « Cotisations en retard »</button>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 18px;">
+                <sc-for list="{{ adh.retards }}" as="rt" hint-placeholder-count="3">
+                  <div style="background: var(--surface); border: 1px solid var(--dangerBd2); border-radius: 18px; padding: 16px 18px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center;">
+                    <button onClick="{{ rt.open }}" style="flex: 1; min-width: 200px; text-align: left; cursor: pointer; border: none; background: transparent; padding: 0;">
+                      <span style="display: block; font-size: 14.5px; font-weight: 700; color: var(--ink);">{{ rt.name }}</span>
+                      <span style="display: block; font-size: 12.5px; color: var(--ink5); margin-top: 3px;">{{ rt.where }} · {{ rt.mode }}</span>
+                      <span style="display: block; font-size: 12px; color: var(--dangerTx2); margin-top: 4px;">{{ rt.echeance }}</span>
+                    </button>
+                    <span style="font-size: 13.5px; font-weight: 700; color: var(--dangerTx2); min-width: 120px;">{{ rt.du }}</span>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                      <button onClick="{{ rt.relance }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 9px 15px; font-size: 12.5px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Préparer une relance</button>
+                      <button onClick="{{ rt.paid }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 9px 15px; background: var(--ok); color: #FFFFFF; font-size: 12.5px; font-weight: 700;">Marquer réglé</button>
+                    </div>
+                  </div>
+                </sc-for>
+                <sc-if value="{{ adh.noRetard }}" hint-placeholder-val="{{ false }}">
+                  <div style="border: 1px dashed var(--okBd2); background: var(--okBg); border-radius: 18px; padding: 20px; font-size: 13px; color: var(--okTx);">{{ adh.emptyArrears }}</div>
+                </sc-if>
+              </div>
+
+              <h2 style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin: 0 0 12px;">Journal des envois</h2>
+              <div style="display: flex; flex-direction: column; gap: 8px;">
+                <sc-for list="{{ adh.log }}" as="lg" hint-placeholder-count="3">
+                  <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: baseline; background: var(--surf2); border: 1px solid var(--bd); border-radius: 14px; padding: 12px 15px;">
+                    <span style="font-size: 11.5px; font-family: 'IBM Plex Mono', ui-monospace, monospace; color: var(--ink6); min-width: 84px;">{{ lg.date }}</span>
+                    <span style="flex: 1; min-width: 200px; font-size: 13px; color: var(--ink3);">{{ lg.what }}</span>
+                    <span style="font-size: 11.5px; color: var(--ink6);">{{ lg.who }} · {{ lg.canal }}</span>
+                  </div>
+                </sc-for>
+              </div>
+            </div>
+          </sc-if>
+        </div>
+      </sc-if>

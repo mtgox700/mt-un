@@ -1,0 +1,282 @@
+{
+  "passed": true,
+  "count": 69,
+  "checks": [
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "empty_register",
+      "ok": true
+    },
+    {
+      "test": "read_only_import_denied",
+      "ok": true
+    },
+    {
+      "test": "import_saved",
+      "ok": true
+    },
+    {
+      "test": "no_user_created",
+      "ok": true
+    },
+    {
+      "test": "no_membership_created",
+      "ok": true
+    },
+    {
+      "test": "reloaded_from_database",
+      "ok": true
+    },
+    {
+      "test": "financial_fields_hidden",
+      "ok": true
+    },
+    {
+      "test": "financial_fields_authorized",
+      "ok": true
+    },
+    {
+      "test": "foreign_read_empty",
+      "ok": true
+    },
+    {
+      "test": "nonmember_admin_denied",
+      "ok": true
+    },
+    {
+      "test": "duplicate_case_denied",
+      "ok": true
+    },
+    {
+      "test": "atomic_import_denied",
+      "ok": true
+    },
+    {
+      "test": "atomic_no_partial_rows",
+      "ok": true
+    },
+    {
+      "test": "invalid_prenom",
+      "ok": true
+    },
+    {
+      "test": "invalid_email",
+      "ok": true
+    },
+    {
+      "test": "invalid_ent",
+      "ok": true
+    },
+    {
+      "test": "invalid_owner",
+      "ok": true
+    },
+    {
+      "test": "read_only_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "cross_org_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "edit_saved",
+      "ok": true
+    },
+    {
+      "test": "stale_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "new_value_read_by_second_actor",
+      "ok": true
+    },
+    {
+      "test": "profile_write_does_not_grant_finance",
+      "ok": true
+    },
+    {
+      "test": "nonfinancial_editor_allowed",
+      "ok": true
+    },
+    {
+      "test": "finance_preserved",
+      "ok": true
+    },
+    {
+      "test": "module_disabled_denied",
+      "ok": true
+    },
+    {
+      "test": "commercial_access_revoked_denied",
+      "ok": true
+    },
+    {
+      "test": "departed_member_denied",
+      "ok": true
+    },
+    {
+      "test": "private_table_denied",
+      "ok": true
+    },
+    {
+      "test": "new_Fin",
+      "ok": true
+    },
+    {
+      "test": "anonymous_end_denied",
+      "ok": true
+    },
+    {
+      "test": "nonfinancial_editor_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_end_denied",
+      "ok": true
+    },
+    {
+      "test": "reason_empty",
+      "ok": true
+    },
+    {
+      "test": "reason_long",
+      "ok": true
+    },
+    {
+      "test": "bad_date",
+      "ok": true
+    },
+    {
+      "test": "before_join",
+      "ok": true
+    },
+    {
+      "test": "stale",
+      "ok": true
+    },
+    {
+      "test": "extra",
+      "ok": true
+    },
+    {
+      "test": "end_saved",
+      "ok": true
+    },
+    {
+      "test": "schedule_stopped",
+      "ok": true
+    },
+    {
+      "test": "history_preserved",
+      "ok": true
+    },
+    {
+      "test": "end_retry",
+      "ok": true
+    },
+    {
+      "test": "replay_modified_denied",
+      "ok": true
+    },
+    {
+      "test": "second_ending_denied",
+      "ok": true
+    },
+    {
+      "test": "audit_once",
+      "ok": true
+    },
+    {
+      "test": "worker_after_end",
+      "ok": true
+    },
+    {
+      "test": "schedule_pause_stopped_denied",
+      "ok": true
+    },
+    {
+      "test": "schedule_preview_stopped_denied",
+      "ok": true
+    },
+    {
+      "test": "schedule_resume_stopped_denied",
+      "ok": true
+    },
+    {
+      "test": "schedule_resolve_preview_stopped_denied",
+      "ok": true
+    },
+    {
+      "test": "schedule_resolve_stopped_denied",
+      "ok": true
+    },
+    {
+      "test": "manual_new_charge_denied",
+      "ok": true
+    },
+    {
+      "test": "existing_payment_allowed",
+      "ok": true
+    },
+    {
+      "test": "status_visible_reader",
+      "ok": true
+    },
+    {
+      "test": "new_Future",
+      "ok": true
+    },
+    {
+      "test": "future_still_active",
+      "ok": true
+    },
+    {
+      "test": "future_boundary_charge_denied",
+      "ok": true
+    },
+    {
+      "test": "worker_stops_at_boundary",
+      "ok": true
+    },
+    {
+      "test": "worker_no_implicit_resume",
+      "ok": true
+    },
+    {
+      "test": "new_Mobile",
+      "ok": true
+    },
+    {
+      "test": "new_Tablette",
+      "ok": true
+    },
+    {
+      "test": "new_Desktop",
+      "ok": true
+    },
+    {
+      "test": "disabled_module_end_denied",
+      "ok": true
+    },
+    {
+      "test": "private_audit_not_granted",
+      "ok": true
+    }
+  ]
+}

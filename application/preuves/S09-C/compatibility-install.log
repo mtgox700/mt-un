@@ -1,0 +1,13 @@
+Collecting av==16.0.1
+  Downloading av-16.0.1-cp312-cp312-macosx_14_0_arm64.whl.metadata (4.6 kB)
+Downloading av-16.0.1-cp312-cp312-macosx_14_0_arm64.whl (21.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.8/21.8 MB 53.6 MB/s eta 0:00:00
+Installing collected packages: av
+  Attempting uninstall: av
+    Found existing installation: av 19.0.2
+    Uninstalling av-19.0.2:
+      Successfully uninstalled av-19.0.2
+Successfully installed av-16.0.1
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.2
+[notice] To update, run: /Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/.venv-transcription/bin/python3 -m pip install --upgrade pip

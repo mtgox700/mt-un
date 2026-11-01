@@ -1,0 +1,17 @@
+{
+  "decision": "D13",
+  "statut": "Validée par l’utilisateur",
+  "choix": "Circuits validés : second acteur obligatoire pour diffusions sensibles ou externes, permissions séparées et approbation par version. Validations internes par défaut ; signature électronique par prestataire en option dans un module dédié.",
+  "regles": [
+    "Rédaction, validation, publication et signature sont des permissions distinctes",
+    "Notes et brouillons enregistrables dans périmètre autorisé ; documents internes selon règles organisation",
+    "Diffusions sensibles ou externes : relecture et approbation par une autre personne habilitée, même en cas de cumul de rôles",
+    "Publications officielles et collections : validation habilitée puis publication autorisée",
+    "Approbation liée à version précise ; modification produit une nouvelle version à valider sans altérer ancienne version approuvée",
+    "Super admin sans droit automatique de validation métier ou signature",
+    "Refus et corrections tracés avec retour au brouillon",
+    "Validations officielles, publications et signatures effectives en ligne après vérification des droits"
+  ],
+  "signature": "Validations internes par défaut ; prestataire de signature électronique uniquement via module optionnel dédié soumis au catalogue, paiement ou geste commercial et habilitations D05 ; fournisseur et niveau de preuve à choisir selon D09",
+  "implementation": "Spécification validée ; circuits, preuves et tests à implémenter"
+}

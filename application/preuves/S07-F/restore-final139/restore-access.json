@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "count": 25,
+  "container": "uniion-restore-66c621e4",
+  "checks": [
+    {
+      "test": "sessions_not_restored",
+      "ok": true
+    },
+    {
+      "test": "login_0",
+      "ok": true
+    },
+    {
+      "test": "aal1_messaging_denied_0",
+      "ok": true
+    },
+    {
+      "test": "restored_mfa_0",
+      "ok": true
+    },
+    {
+      "test": "login_1",
+      "ok": true
+    },
+    {
+      "test": "aal1_messaging_denied_1",
+      "ok": true
+    },
+    {
+      "test": "restored_mfa_1",
+      "ok": true
+    },
+    {
+      "test": "login_2",
+      "ok": true
+    },
+    {
+      "test": "aal1_messaging_denied_2",
+      "ok": true
+    },
+    {
+      "test": "restored_mfa_2",
+      "ok": true
+    },
+    {
+      "test": "source_locate",
+      "ok": true
+    },
+    {
+      "test": "history_grant_restored",
+      "ok": true
+    },
+    {
+      "test": "hidden_history_denied",
+      "ok": true
+    },
+    {
+      "test": "forward_reference_restored",
+      "ok": true
+    },
+    {
+      "test": "forward_source_hidden",
+      "ok": true
+    },
+    {
+      "test": "reinvitation_no_old_history",
+      "ok": true
+    },
+    {
+      "test": "reinvitation_no_unread",
+      "ok": true
+    },
+    {
+      "test": "restored_private_bytes_exact",
+      "ok": true
+    },
+    {
+      "test": "restored_preview",
+      "ok": true
+    },
+    {
+      "test": "restored_download_separate",
+      "ok": true
+    },
+    {
+      "test": "restored_hidden_file_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_org_denied",
+      "ok": true
+    },
+    {
+      "test": "private_reads_denied",
+      "ok": true
+    },
+    {
+      "test": "restored_revocation_live_denied",
+      "ok": true
+    },
+    {
+      "test": "restored_revocation_bytes_denied",
+      "ok": true
+    }
+  ]
+}

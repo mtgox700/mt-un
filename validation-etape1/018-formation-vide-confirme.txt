@@ -1,0 +1,92 @@
+Browser tab: 9, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+1 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	2 container Dimensions de recette
+		3 button Bureau 1280
+		4 button Mobile 390
+		5 button Tablette 768
+		6 button Tablette paysage 1024
+		7 text 390 × 844
+	8 container Description: Prototype inchangé, ID: prototype
+		9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			10 container dc-root
+				11 container
+					12 image uniion
+					129 button ← Retour
+					13 image
+					14 text field (settable)
+					15 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					18 button
+						19 image
+					20 button Se déconnecter
+						21 image
+				22 container
+					227 text MONTÉE EN COMPÉTENCE
+					228 heading Formations, Value: 1
+						229 text Formations
+					230 text Deux catalogues pour vous former au mandat, et un mode où unii construit avec vous une session sur mesure, au rythme que vous choisissez.
+					231 tab group Formations
+						232 tab (selected, settable, boolean) Catalogue IA 20, Value: 1
+						233 tab (selectable, settable, boolean) Formations généralistes 31, Value: 0
+						234 tab (selectable, settable, boolean) Se former avec unii, Value: 0
+					235 text field (settable) Description: Rechercher une formation, Value: introuvable-recette
+					236 checkbox Tous, Value: 1
+					237 checkbox Sensibilisation, Value: 0
+					238 checkbox Atelier, Value: 0
+					239 checkbox Atelier métier, Value: 0
+					240 checkbox Cas pratique, Value: 0
+					241 checkbox Parcours avancé, Value: 0
+					242 text Aucune formation ne correspond à ces critères.
+					243 heading Parcours recommandés, Value: 2
+						244 text Parcours recommandés
+					245 text Alignés sur les niveaux d'offre Élu 1.0 à 4.0.
+					246 text ÉLU 1.0
+					247 text Découverte
+					248 text Intro IA · Cybersécurité · RGPD & IA
+					249 button Suivre avec unii
+					250 text ÉLU 2.0
+					251 text Augmenté
+					252 text IA appliquée à mon métier · Prompt juridique · Communiquer avec l'IA
+					253 button Suivre avec unii
+					254 text ÉLU 3.0
+					255 text Stratège
+					256 text Impacts de l'IA · NAO · BDESE · Accords collectifs
+					257 button Suivre avec unii
+					258 text ÉLU 4.0
+					259 text Orchestrateur
+					260 text Agents IA · Workflows · Base documentaire · Charte d'usage
+					261 button Suivre avec unii
+					262 heading Formats et durées, Value: 2
+						263 text Formats et durées
+					264 text FORMAT
+					265 text DURÉE
+					266 text PUBLIC
+					267 text Sensibilisation
+					268 text 2 à 3 h
+					269 text Tous les élus et adhérents
+					270 text Atelier métier
+					271 text 1 jour
+					272 text Élus CSE, délégués syndicaux
+					273 text Parcours agents IA
+					274 text 2 jours
+					275 text Référents numériques
+					276 text Formation direction / DRH
+					277 text 1/2 jour
+					278 text Négociation et accords sur l'IA
+				113 container
+					279 button Accueil
+						280 image
+						281 text Accueil
+					117 button Dossiers
+						118 image
+						119 text Dossiers
+					120 button Agenda
+						121 image
+						122 text Agenda
+					224 button Réunions
+						225 image
+						226 text Réunions
+					126 button Réglages
+						127 image
+						128 text Réglages
+
+The focused UI element is 9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

@@ -1,0 +1,188 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		1533 text 1024 × 768
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				1534 container
+					1535 image uniion
+					1536 button Réduire le menu
+					1589 button Accueil
+						1590 image
+						1591 text Accueil
+					1540 button Assistant
+						1541 image
+						1542 text Assistant
+					1543 button Dossiers
+						1544 image
+						1545 text Dossiers
+					1546 button Messages
+						1547 image
+						1548 text Messages
+					1549 button Agenda
+						1550 image
+						1551 text Agenda
+					1552 button Réunions
+						1553 image
+						1554 text Réunions
+					1555 button Documents
+						1556 image
+						1557 text Documents
+					1558 button Formations
+						1559 image
+						1560 text Formations
+					1561 button Communication
+						1562 image
+						1563 text Communication
+					1564 button Application mobile
+						1565 image
+						1566 text Application mobile
+					1567 button Adhérents
+						1568 image
+						1569 text Adhérents
+					1570 button Intranet
+						1571 image
+						1572 text Intranet
+					1573 button Reporting
+						1574 image
+						1575 text Reporting
+					1576 button Raccourcis
+						1577 image
+						1578 text Raccourcis
+					1592 button Réglages
+						1593 image
+						1594 text Réglages
+					1582 text ASSISTANT IA Une question de droit ?
+					1583 button Ouvrir le chat
+					1584 button SM Sophie Marchand Déléguée syndicale
+						1585 text SM
+						1586 text Sophie Marchand
+						1587 text Déléguée syndicale
+					1588 button Se déconnecter
+				10 container
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				1334 container
+					1595 text MARQUE BLANCHE · ADMINISTRATEURS
+					1596 heading Identité de marque, Value: 1
+						1597 text Identité de marque
+					1598 text Identité publiée · aucune modification en attente
+					1599 button Prévisualiser sur toute l'app
+					1600 button Réinitialiser
+					1601 button (disabled) Publier à l'organisation
+					1602 text PORTÉE
+					1603 button Organisation
+					1604 button Valenciennes
+					1605 button Douai
+					1606 button Siège
+					1607 text Réglage de référence. Les établissements en héritent, sauf surcharge explicite.
+					1608 heading Palette, Value: 2
+						1609 text Palette
+					1610 text Toute l'interface, les documents générés et les pages intranet suivent la couleur principale.
+					1611 checkbox Orange uniion Identité par défaut du produit., Value: 1
+					1612 checkbox Rouge militant Contraste fort, registre revendicatif., Value: 0
+					1613 checkbox Bleu institutionnel Registre paritaire et administratif., Value: 0
+					1614 checkbox Vert Santé, sécurité, conditions de travail., Value: 0
+					1615 checkbox Prune Différenciant, peu utilisé en entreprise., Value: 0
+					1616 checkbox Ardoise Sobre, sans connotation politique., Value: 0
+					1617 checkbox Value: 0, Neutre employeur Aucune dominante militante : pour les organisations qui ne veulent afficher aucune couleur syndicale.
+					1618 text COULEUR PRINCIPALE
+					1619 color well (settable) Description: Couleur principale, Value: #f97316
+					1620 text #F97316
+					1621 text SECONDAIRE
+					1622 color well (settable) Description: Couleur secondaire, Value: #dc2626
+					1623 text #DC2626
+					1624 text RAMPE DÉRIVÉE AUTOMATIQUEMENT
+					1625 text Contraste du texte blanc sur la couleur principale : 2.8:1 — insuffisant pour du petit texte. Les libellés sur fond coloré utilisent la nuance foncée dérivée (teinte 25°).
+					1626 heading Mode d'affichage, Value: 2
+						1627 text Mode d'affichage
+					1628 checkbox Clair Par défaut, adapté à l'impression., Value: 1
+					1629 checkbox Sombre Réunions du soir, écrans en salle., Value: 0
+					1630 heading Typographie, Value: 2
+						1631 text Typographie
+					1632 checkbox Aa Philosopher / Inter Le duo uniion : titres chaleureux, texte neutre., Value: 1
+						1633 text Aa
+						1634 text Philosopher / Inter
+						1635 text Le duo uniion : titres chaleureux, texte neutre.
+					1636 checkbox Aa Montserrat / Inter Militant et affirmé, proche des tracts imprimés., Value: 0
+						1637 text Aa
+						1638 text Montserrat / Inter
+						1639 text Militant et affirmé, proche des tracts imprimés.
+					1640 checkbox Aa Lora / Inter Institutionnel, lisible sur documents longs., Value: 0
+						1641 text Aa
+						1642 text Lora / Inter
+						1643 text Institutionnel, lisible sur documents longs.
+					1644 checkbox Aa Inter seul Sobre et discret, idéal pour un thème neutre., Value: 0
+						1645 text Aa
+						1646 text Inter seul
+						1647 text Sobre et discret, idéal pour un thème neutre.
+					1648 heading Logos, Value: 2
+						1649 text Logos
+					1650 text PNG ou SVG détouré, 512 px de côté minimum. Le monogramme sert d'avatar, de favicon et de repli. Les deux derniers emplacements sont facultatifs : sans eux, les sites reprennent le logo fond clair.
+					1651 text LOGO — FOND CLAIR
+					1652 container
+						1653 image Logo — fond clair
+						1654 text Remplacer
+					1655 text Taille
+					1656 text 100 %
+					1657 slider (settable, integer) Description: Taille — Logo — fond clair, Value: 100, ID: brandScale-logoLight
+					1658 button Réinitialiser
+					1659 button Retirer
+					1660 text LOGO — FOND SOMBRE
+					1661 text Déposer un fichier
+					1662 text Taille
+					1663 text 100 %
+					1664 slider (settable, integer) Description: Taille — Logo — fond sombre, Value: 100, ID: brandScale-logoDark
+					1665 button Réinitialiser
+					1666 text MONOGRAMME CARRÉ
+					1667 container
+						1668 text UN Déposer un fichier
+					1669 text Taille
+					1670 text 100 %
+					1671 slider (settable, integer) Description: Taille — Monogramme carré, Value: 100, ID: brandScale-mono
+					1672 button Réinitialiser
+					1673 text LOGO INTRANET
+					1674 text Facultatif — déposer
+					1675 text Taille
+					1676 text 100 %
+					1677 slider (settable, integer) Description: Taille — Logo intranet, Value: 100, ID: brandScale-logoIntranet
+					1678 button Réinitialiser
+					1679 text LOGO SITE PUBLIC
+					1680 text Facultatif — déposer
+					1681 text Taille
+					1682 text 100 %
+					1683 slider (settable, integer) Description: Taille — Logo site public, Value: 100, ID: brandScale-logoPublic
+					1684 button Réinitialiser
+					1685 text Monogramme de repli
+					1686 text field (settable) UN
+					1687 text Utilisé quand aucun logo n'est chargé — dans les avatars et le favicon.
+					1688 text Chaque logo a sa propre taille, de 60 à 300 %, proportions conservées : le logo fond clair (ou fond sombre selon le mode) règle la barre latérale et l'en-tête mobile, les logos intranet et site public règlent l'en-tête des sites. Une taille propre à un site peut être définie dans Intranet · Charte des sites.
+					1689 heading Aperçu, Value: 2
+						1690 text Aperçu
+					1691 text Écran de connexion, navigation et carte de dossier, avec le brouillon en cours.
+					1692 text uniion L'outil des élus, pas celui de la direction.
+					1693 text JURIDIQUE
+					1694 text Signalement — atelier B
+					1695 text Enquête paritaire demandée le 20 août, réponse attendue sous 8 jours.
+					1696 text SM J−3
+					1697 heading Portée sur les contenus, Value: 2
+						1698 text Portée sur les contenus
+					1699 text Le gabarit intranet hérite de ce thème Les pages publiées reprennent la couleur, les polices et le logo. La charte du site reste surchargeable pour respecter la maquette du webmaster.
+					1700 switch 1
+					1701 button Ouvrir le gabarit du site intranet →
+					1702 heading Journal des publications, Value: 2
+						1703 text Journal des publications
+					1704 text 12/03/2024 Identité initiale publiée — accent orange uniion Karim Benali
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

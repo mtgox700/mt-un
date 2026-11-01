@@ -1,0 +1,120 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			305 button Accueil
+				306 image
+				307 text Accueil
+			342 button Assistant
+				343 image
+				344 text Assistant
+			320 button Dossiers
+				321 image
+				322 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			326 button Réunions
+				327 image
+				328 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			165 button Formations
+				166 image
+				167 text Formations
+			302 button Communication
+				303 image
+				304 text Communication
+			345 button Application mobile
+				346 image
+				347 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			339 button Intranet
+				340 image
+				341 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			162 button Raccourcis
+				163 image
+				164 text Raccourcis
+			308 button Réglages
+				309 image
+				310 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable) RECETTE
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		348 container
+			349 text INTELLIGENCE ARTIFICIELLE
+			350 heading Votre expert juridique de poche, Value: 1
+				351 text Votre expert juridique de poche
+			352 text Sourcé sur la Convention Métallurgie et le Code du travail NOUVEAU DOSSIER Ouverture de dossier guidée — décrivez la situation
+			353 button Mémoire · 4, Help: Gérer la mémoire de l'assistant
+			354 button Créer le dossier
+			355 button Plein écran
+			356 button Nouvelle conversation
+			357 button Nouveau dossier guidé
+			358 text HISTORIQUE 3 conversations
+			359 button Toutes
+			360 button Assistant
+			361 button Réunions
+			362 button Exemple fictif de recette : propose une liste de préparation pour une réunion de Assistant il y a 1 min · 1 q.
+				363 text Exemple fictif de recette : propose une liste de préparation pour une réunion de
+				364 text Assistant
+				365 text il y a 1 min
+				366 text  · 
+				367 text 1 q.
+			368 button Description: Supprimer la conversation, Help: Supprimer
+			369 button Heures de délégation non payées en cas d'arrêt maladie Assistant 22 oct. · 1 q.
+				370 text Heures de délégation non payées en cas d'arrêt maladie
+				371 text Assistant
+				372 text 22 oct.
+				373 text  · 
+				374 text 1 q.
+			375 button Description: Supprimer la conversation, Help: Supprimer
+			376 button Projet de PV — CSE ordinaire de septembre Réunions 20 oct. · 1 q.
+				377 text Projet de PV — CSE ordinaire de septembre
+				378 text Réunions
+				379 text 20 oct.
+				380 text  · 
+				381 text 1 q.
+			382 button Description: Supprimer la conversation, Help: Supprimer
+			383 image
+			384 text uniion Assistant Aucune identité transmise NIVEAU D'ANONYMISATION
+			385 checkbox Standard, Help: NAO, budget, articles — masquage léger (matricules)., Value: 1
+			386 checkbox RH sensible, Help: Inaptitude, discipline — masquage nominatif + matricules., Value: 0
+			387 checkbox RPS, Help: Harcèlement, souffrance au travail — masquage maximal., Value: 0
+			400 text UNII · OUVERTURE DE DOSSIER
+			401 text Décrivez la situation : qui est concerné (fonction, service), les faits et leurs dates, ce que demande le salarié. Je vous pose les questions manquantes ; quand vous êtes prêt, cliquez « Créer le dossier » : je l’intitule, le qualifie et propose un plan d’action.
+			391 button Signalement de harcèlement
+			392 button Informations dues en NAO
+			393 button Enquête après accident
+			394 button Budget ASC
+			395 text field (settable)
+			396 button
+				397 image
+			398 text Réponses produites par un modèle de langage souverain hébergé dans l'Union européenne, sur le seul corpus de votre organisation (convention, accords, PV) et à partir d'un texte anonymisé — à vérifier avant tout usage contentieux.
+			399 button En savoir plus sur la sécurité
+
+The focused UI element is 357 button Nouveau dossier guidé

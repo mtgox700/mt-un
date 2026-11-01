@@ -1,0 +1,6 @@
+export function attachDocumentNotices(c,rpc){
+ let rows=[],epoch=0;
+ const load=async(read=null)=>{const stamp=epoch;const result=await rpc('notices',read?{read}:{});if(stamp===epoch){rows=result;c.setState({});}};
+ const render=c.renderVals.bind(c);c.renderVals=()=>{const v=render();return {...v,hasUnread:rows.some(n=>!n.read)||v.hasUnread,goNotifs:async()=>{const stamp=epoch;try{await load();}catch{rows=[];}if(stamp===epoch)return v.goNotifs?.();},notifications:[...rows.map(n=>({title:n.title,body:'Document publié · version '+n.version,time:new Date(n.created).toLocaleDateString('fr-FR'),dot:n.read?'var(--bd2)':'var(--ac)',border:n.read?'var(--chip)':'var(--acBd)',go:async()=>{const stamp=epoch;try{await rpc('history',{id:n.resource});if(stamp!==epoch)return;await load(n.id);await c.openDoc(n.resource);if(stamp===epoch&&c.curDoc().id===n.resource)await c.openDocumentHistory();}catch{rows=[];c.setState({});c.flash('Publication inaccessible : accès retiré.');}}})),...(v.notifications||[])],markAllRead:async()=>{try{await load('00000000-0000-0000-0000-000000000000');await v.markAllRead?.();}catch{c.flash('Lecture non enregistrée.');}}};};
+ const clear=c.clearIdentity?.bind(c);c.clearIdentity=()=>{epoch++;rows=[];clear?.();};
+}

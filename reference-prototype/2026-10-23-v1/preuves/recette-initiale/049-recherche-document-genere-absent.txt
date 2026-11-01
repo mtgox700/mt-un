@@ -1,0 +1,73 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 image uniion
+			5 button Réduire le menu
+			69 button Accueil
+				70 image
+				71 text Accueil
+			100 button Assistant
+				101 image
+				102 text Assistant
+			124 button Dossiers
+				125 image
+				126 text Dossiers
+			118 button Messages
+				119 image
+				120 text Messages
+			18 button Agenda
+				19 image
+				20 text Agenda
+			21 button Réunions
+				22 image
+				23 text Réunions
+			127 button Documents
+				128 image
+				129 text Documents
+			97 button Formations
+				98 image
+				99 text Formations
+			79 button Communication
+				80 image
+				81 text Communication
+			91 button Application mobile
+				92 image
+				93 text Application mobile
+			36 button Adhérents
+				37 image
+				38 text Adhérents
+			39 button Intranet
+				40 image
+				41 text Intranet
+			110 button Reporting
+				111 image
+				112 text Reporting
+			85 button Raccourcis
+				86 image
+				87 text Raccourcis
+			48 button Réglages
+				49 image
+				50 text Réglages
+			51 text ASSISTANT IA Une question de droit ?
+			52 button Ouvrir le chat
+			53 button SM Sophie Marchand Déléguée syndicale
+				54 text SM
+				55 text Sophie Marchand
+				56 text Déléguée syndicale
+			57 button Se déconnecter
+		58 container
+			75 button ← Retour
+			59 image
+			60 text field (settable) atelier peinture
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			64 button
+				65 image
+			66 button Se déconnecter
+				67 image
+		106 container
+			130 heading Recherche globale, Value: 1
+				131 text Recherche globale
+			132 text 0 résultat(s) pour « atelier peinture » Aucun résultat. Essayez « harcèlement », « NAO » ou « inaptitude ».
+
+The focused UI element is 60 text field (settable) atelier peinture

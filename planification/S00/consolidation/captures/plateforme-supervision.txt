@@ -1,0 +1,44 @@
+- complementary:
+  - generic: uniion
+  - generic: Console d'administration
+  - navigation:
+    - button "Supervision":
+      - generic: Supervision
+    - button "Organisations":
+      - generic: Organisations
+    - button "Utilisateurs":
+      - generic: Utilisateurs
+    - button "Clés API IA":
+      - generic: Clés API IA
+    - button "Éditeur de l’application":
+      - generic: Éditeur de l’application
+    - button "Abonnements et paiements":
+      - generic: Abonnements et paiements
+    - button "Journal d’audit":
+      - generic: Journal d’audit
+  - generic: SA
+  - generic: Super administrateur
+  - generic: admin@uniion.fr
+  - button "Se déconnecter":
+- main:
+  - generic: Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+  - heading "Supervision" [level=1]
+  - paragraph: État de la plateforme au 11 septembre 2026.
+  - generic: Organisations actives
+  - generic: 2 / 3
+  - generic: 1 essai en cours
+  - generic: Comptes utilisateurs
+  - generic: "7"
+  - generic: 5 actifs
+  - generic: MFA activée
+  - generic: 57 %
+  - generic: 3 comptes à relancer
+  - generic: Requêtes IA (30 j)
+  - generic: 8 470
+  - generic: Coût estimé 214 €
+  - generic: Quota IA à 80 % — UD 59 — Lille
+  - generic: Relever le plafond ou prévenir l’organisation.
+  - generic: 2 comptes sans MFA
+  - generic: Nadia Ferrand, Claire Dubois — relance possible en un clic.
+  - generic: Essai CSE Brasserie du Nord — 12 jours restants
+  - generic: Aucune commande enregistrée.

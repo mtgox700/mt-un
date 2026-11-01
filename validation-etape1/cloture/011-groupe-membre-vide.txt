@@ -1,0 +1,227 @@
+Browser tab: 12, Title: "127.0.0.1:5054/uniion App v3.dc.html", URL: "http://127.0.0.1:5054/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+	1 container dc-root
+		232 container
+			233 image uniion
+			234 button Réduire le menu
+			365 button Accueil
+				366 image
+				367 text Accueil
+			238 button Assistant
+				239 image
+				240 text Assistant
+			362 button Dossiers
+				363 image
+				364 text Dossiers
+			398 button Messages
+				399 image
+				400 text Messages
+			247 button Agenda
+				248 image
+				249 text Agenda
+			250 button Réunions
+				251 image
+				252 text Réunions
+			253 button Documents
+				254 image
+				255 text Documents
+			256 button Formations
+				257 image
+				258 text Formations
+			259 button Communication
+				260 image
+				261 text Communication
+			262 button Application mobile
+				263 image
+				264 text Application mobile
+			265 button Adhérents
+				266 image
+				267 text Adhérents
+			268 button Intranet
+				269 image
+				270 text Intranet
+			271 button Reporting
+				272 image
+				273 text Reporting
+			274 button Raccourcis
+				275 image
+				276 text Raccourcis
+			277 button Réglages
+				278 image
+				279 text Réglages
+			280 text ASSISTANT IA Une question de droit ?
+			281 button Ouvrir le chat
+			282 button SM Sophie Marchand Déléguée syndicale
+				283 text SM
+				284 text Sophie Marchand
+				285 text Déléguée syndicale
+			286 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				401 text unii
+				402 text 2
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			403 text UNII SUGGÈRE
+			404 button 2 non lus · Commission Négociation
+			405 button 1 non lu · Jean-Paul Diallo
+			406 container
+				407 heading Messages, Value: 1
+					408 text Messages
+				409 button Nouvelle discussion
+				410 button Nouveau groupe
+				411 button Nouvelle diffusion aux adhérents
+				412 tab group Vue
+					413 tab (selected, settable, boolean) Discussions, Value: 1
+					414 tab (selectable, settable, boolean) Contacts & groupes, Value: 0
+				415 text field (settable) Rechercher
+				416 checkbox Toutes, Value: 1
+				417 checkbox Non lues 2, Value: 0
+				418 checkbox Sans réponse de ma part 3, Value: 0
+				419 checkbox Dernier message de moi 1, Value: 0
+				420 checkbox Groupes 3, Value: 0
+				421 checkbox Diffusions, Value: 0
+				422 button Commission Négociation 09:20 Leïla C. : On maintient l'AG du personnel mardi 12 h 30 ? 2
+					423 text Commission Négociation
+					424 text 09:20
+					425 text Leïla C. : 
+					426 text On maintient l'AG du personnel mardi 12 h 30 ?
+					427 text 2
+				428 button Commission SSCT hier ✓✓ Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire.
+					429 text Commission SSCT
+					430 text hier
+					431 text ✓✓
+					432 text Vous : 
+					433 text Je prépare la grille d'enquête et je la dépose dans la base documentaire.
+				434 button Commission ASC lun. Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts.
+					435 text Commission ASC
+					436 text lun.
+					437 text Leïla C. : 
+					438 text Troisième devis traiteur reçu : 2 900 € pour 180 couverts.
+				439 button Jean-Paul Diallo lun. Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi. 1
+					440 text Jean-Paul Diallo
+					441 text lun.
+					442 text Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.
+					443 text 1
+				444 text Messagerie locale de démonstration — aucun envoi externe.
+			445 container
+				446 heading Messages de la section, Value: 2
+					447 text Messages de la section
+				448 text Échangez avec les élus en direct ou en groupe, et retrouvez ici chaque envoi fait aux adhérents depuis « Envoyer un message ».
+				449 button Nouvelle discussion
+				450 button Nouveau groupe
+				451 button Diffuser aux adhérents
+				452 text Messagerie locale de démonstration
+		557 text Ajoutez au moins un membre
+		453 container Nouveau groupe
+			454 heading Nouveau groupe, Value: 2
+				455 text Nouveau groupe
+			456 container
+				457 text NOM DU GROUPE
+				458 text field (settable) NOM DU GROUPE, Value: RECETTE annulation
+			459 container
+				460 text DESCRIPTION
+				461 text entry area (settable) DESCRIPTION
+			462 text MEMBRES 0 sélectionné + vous
+			463 text field (settable)
+			464 container
+				465 checkbox Jean-Paul Diallo Équipe & élus · Élu titulaire · Délégué syndical, Value: 0
+					466 text Jean-Paul Diallo
+					467 text Équipe & élus
+					468 text  · 
+					469 text Élu titulaire · Délégué syndical
+				470 checkbox Leïla Chaïb Équipe & élus · Élue · Commission ASC, Value: 0
+					471 text Leïla Chaïb
+					472 text Équipe & élus
+					473 text  · 
+					474 text Élue · Commission ASC
+				475 checkbox Marc Aubert Équipe & élus · Suppléant · Référent SSCT, Value: 0
+					476 text Marc Aubert
+					477 text Équipe & élus
+					478 text  · 
+					479 text Suppléant · Référent SSCT
+				480 checkbox Nadia Roussel Équipe & élus · Élue suppléante, Value: 0
+					481 text Nadia Roussel
+					482 text Équipe & élus
+					483 text  · 
+					484 text Élue suppléante
+				485 checkbox Thomas Lefèvre Équipe & élus · Représentant syndical au CSE, Value: 0
+					486 text Thomas Lefèvre
+					487 text Équipe & élus
+					488 text  · 
+					489 text Représentant syndical au CSE
+				490 checkbox Cabinet Berger Contact externe · Avocat conseil, Value: 0
+					491 text Cabinet Berger
+					492 text Contact externe
+					493 text  · 
+					494 text Avocat conseil
+				495 checkbox Karim Benali Adhérent·e · Opérateur ligne 3, Value: 0
+					496 text Karim Benali
+					497 text Adhérent·e
+					498 text  · 
+					499 text Opérateur ligne 3
+				500 checkbox Sandrine Lemoine Adhérent·e · Préparatrice de commandes, Value: 0
+					501 text Sandrine Lemoine
+					502 text Adhérent·e
+					503 text  · 
+					504 text Préparatrice de commandes
+				505 checkbox Mehdi Fournier Adhérent·e · Technicien maintenance, Value: 0
+					506 text Mehdi Fournier
+					507 text Adhérent·e
+					508 text  · 
+					509 text Technicien maintenance
+				510 checkbox Aurélie Pruvost Adhérent·e · Assistante ADV, Value: 0
+					511 text Aurélie Pruvost
+					512 text Adhérent·e
+					513 text  · 
+					514 text Assistante ADV
+				515 checkbox Thierry Dubois Adhérent·e · Chaudronnier, Value: 0
+					516 text Thierry Dubois
+					517 text Adhérent·e
+					518 text  · 
+					519 text Chaudronnier
+				520 checkbox Nadia Cherif Adhérent·e · Cariste, Value: 0
+					521 text Nadia Cherif
+					522 text Adhérent·e
+					523 text  · 
+					524 text Cariste
+				525 checkbox Pascal Vandenberghe Adhérent·e · Régleur presse, Value: 0
+					526 text Pascal Vandenberghe
+					527 text Adhérent·e
+					528 text  · 
+					529 text Régleur presse
+				530 checkbox Émilie Roussel Adhérent·e · Contrôleuse qualité, Value: 0
+					531 text Émilie Roussel
+					532 text Adhérent·e
+					533 text  · 
+					534 text Contrôleuse qualité
+				535 checkbox Jonathan Leclercq Adhérent·e · Magasinier, Value: 0
+					536 text Jonathan Leclercq
+					537 text Adhérent·e
+					538 text  · 
+					539 text Magasinier
+				540 checkbox Christine Delattre Adhérent·e · Gestionnaire paie, Value: 0
+					541 text Christine Delattre
+					542 text Adhérent·e
+					543 text  · 
+					544 text Gestionnaire paie
+				545 checkbox Bruno Waeles Adhérent·e · Électromécanicien, Value: 0
+					546 text Bruno Waeles
+					547 text Adhérent·e
+					548 text  · 
+					549 text Électromécanicien
+				550 checkbox Fatou Sarr Adhérent·e · Soudeuse, Value: 0
+					551 text Fatou Sarr
+					552 text Adhérent·e
+					553 text  · 
+					554 text Soudeuse
+			555 button Annuler
+			556 button Créer le groupe
+
+The focused UI element is 556 button Créer le groupe

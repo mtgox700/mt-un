@@ -1,0 +1,73 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			8 button
+				9 image
+			10 button Se déconnecter
+				11 image
+		12 container
+			13 image
+			14 heading Mode hors ligne, Value: 1
+				15 text Mode hors ligne
+			16 text En visite d'usine, en sous-sol ou en déplacement : votre base documentaire reste accessible et chiffrée sur l'appareil.
+			17 text Synchronisation intelligente
+			18 button
+			19 text Dernière synchronisation : jamais · 0 document en cache
+			20 button Tout synchroniser maintenant
+			21 heading Base documentaire, Value: 2
+				22 text Base documentaire
+			23 text 0 extraits conservés localement — PDF sources et démarrage hors connexion non disponibles
+			24 image
+			25 button Convention collective Métallurgie 2026 PDF · 4,2 Mo · v2026.1 · ouvrir
+				26 text Convention collective Métallurgie 2026
+				27 text PDF · 4,2 Mo · v2026.1
+				28 text  · ouvrir
+			29 button Télécharger
+			30 image
+			31 button Code du travail — extraits CSE PDF · 8,7 Mo · ouvrir
+				32 text Code du travail — extraits CSE
+				33 text PDF · 8,7 Mo
+				34 text  · ouvrir
+			35 button Télécharger
+			36 image
+			37 button Accord télétravail 2024 PDF · 1,1 Mo · ouvrir
+				38 text Accord télétravail 2024
+				39 text PDF · 1,1 Mo
+				40 text  · ouvrir
+			41 button Télécharger
+			42 image
+			43 button PV réunion CSE — juillet 2026 PDF · 640 Ko · ouvrir
+				44 text PV réunion CSE — juillet 2026
+				45 text PDF · 640 Ko
+				46 text  · ouvrir
+			47 button Télécharger
+			48 image
+			49 button Règlement intérieur du CSE PDF · 320 Ko · ouvrir
+				50 text Règlement intérieur du CSE
+				51 text PDF · 320 Ko
+				52 text  · ouvrir
+			53 button Télécharger
+		54 container
+			55 button Accueil
+				56 image
+				57 text Accueil
+			58 button Dossiers
+				59 image
+				60 text Dossiers
+			61 button Agenda
+				62 image
+				63 text Agenda
+			64 button Réunions
+				65 image
+				66 text Réunions
+			67 button Réglages
+				68 image
+				69 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

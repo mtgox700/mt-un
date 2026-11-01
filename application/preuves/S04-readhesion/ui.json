@@ -1,0 +1,73 @@
+{
+  "organization": "78a2fd4d-bd7f-4b6e-81e7-2d88852e29be",
+  "flows": [
+    {
+      "name": "Mobilepause",
+      "success": true,
+      "paused": true,
+      "balance": true
+    },
+    {
+      "name": "Mobileresume",
+      "success": true,
+      "state": true,
+      "balance": true,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "name": "Tablettepause",
+      "success": true,
+      "state": true,
+      "balance": true,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "name": "Tabletteresume",
+      "success": true,
+      "state": true,
+      "balance": true,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "name": "Desktoppause",
+      "success": true,
+      "state": true,
+      "balance": true,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "name": "Desktopresume",
+      "success": true,
+      "state": true,
+      "balance": true,
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  ],
+  "overlapBlocksConfirmation": true,
+  "denied": [
+    {
+      "label": "mobile",
+      "ended": true,
+      "noReturn": true,
+      "noCorrection": true
+    },
+    {
+      "label": "tablette",
+      "ended": true,
+      "noReturn": true,
+      "noCorrection": true
+    },
+    {
+      "label": "desktop",
+      "ended": true,
+      "noReturn": true,
+      "noCorrection": true
+    }
+  ],
+  "sessionInterruption": "Reconnexion nécessaire en cours de recette ; protections inchangées."
+}

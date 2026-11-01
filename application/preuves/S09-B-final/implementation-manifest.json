@@ -1,0 +1,10 @@
+{
+  "frontend/modules/meetings/audio-files.js": "b504512d4f56e9b9e4ca75d22893b9eebb16ae8ea296c97a9e31dd08a77a76f6",
+  "frontend/modules/meetings/audio-vault.js": "7edd880bed37c4d8ab7e12939f64fee8680fe3e3d0b03e58f114221ffd8f73ea",
+  "frontend/modules/meetings/pcm-recorder.js": "9557bae42c77cf9d58075689d1cc8edd02a3bc1565515a0eb50f4ef698a08a94",
+  "frontend/modules/meetings/service.js": "4b114b811134b923b0a2cce65e19860cd5e14e8c14b195e6cdbc69f254bca300",
+  "uniion/adapters/meeting_audio.py": "db65b8515780984eec64d9348ece2a27478863f224e4078cb0a1284efb3504a1",
+  "frontend/dist/application-native.js": "0e273f9005624a1c9bd0d47e51d95cf325f4607be0ed608196c24047b4a95126",
+  "supabase/migrations/202610310169_audio_sessions.sql": "c7d846f5c6a38417ae739aba165faa25bba5599ebe5af7ca754c25fd598bc45f",
+  "supabase/migrations/202610310170_audio_originals.sql": "5800b3977dc8633db88feb26a89155a2a095235c3fa79255737a6d9261a926ac"
+}

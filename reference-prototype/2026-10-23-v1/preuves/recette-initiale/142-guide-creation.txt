@@ -1,0 +1,138 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			5 button Accueil
+				6 image
+				7 text Accueil
+			66 button Assistant
+				67 image
+				68 text Assistant
+			69 button Dossiers
+				70 image
+				71 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			17 button Agenda
+				18 image
+				19 text Agenda
+			20 button Réunions
+				21 image
+				22 text Réunions
+			23 button Documents
+				24 image
+				25 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			58 button ← Retour
+			59 image
+			60 text field (settable) RECETTE
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			62 button
+				63 image
+			64 button Se déconnecter
+				65 image
+		72 container
+			73 text INTELLIGENCE ARTIFICIELLE
+			74 heading Votre expert juridique de poche, Value: 1
+				75 text Votre expert juridique de poche
+			76 text Sourcé sur la Convention Métallurgie et le Code du travail DOSSIERS Cas fictif pour recette : préparer collectivement une réunion d’information des
+			77 button Mémoire · 4, Help: Gérer la mémoire de l'assistant
+			78 button Qualification…
+			79 button Plein écran
+			80 button Nouvelle conversation
+			81 button Nouveau dossier guidé
+			82 text HISTORIQUE 4 conversations
+			83 button Toutes
+			84 button Assistant
+			85 button Dossiers
+			86 button Réunions
+			87 button Cas fictif pour recette : préparer collectivement une réunion d’information des Dossiers à l’instant · 1 q.
+				88 text Cas fictif pour recette : préparer collectivement une réunion d’information des
+				89 text Dossiers
+				90 text à l’instant
+				91 text  · 
+				92 text 1 q.
+			93 button Description: Supprimer la conversation, Help: Supprimer
+			94 button Exemple fictif de recette : propose une liste de préparation pour une réunion de Assistant il y a 2 min · 1 q.
+				95 text Exemple fictif de recette : propose une liste de préparation pour une réunion de
+				96 text Assistant
+				97 text il y a 2 min
+				98 text  · 
+				99 text 1 q.
+			100 button Description: Supprimer la conversation, Help: Supprimer
+			101 button Heures de délégation non payées en cas d'arrêt maladie Assistant 22 oct. · 1 q.
+				102 text Heures de délégation non payées en cas d'arrêt maladie
+				103 text Assistant
+				104 text 22 oct.
+				105 text  · 
+				106 text 1 q.
+			107 button Description: Supprimer la conversation, Help: Supprimer
+			108 button Projet de PV — CSE ordinaire de septembre Réunions 20 oct. · 1 q.
+				109 text Projet de PV — CSE ordinaire de septembre
+				110 text Réunions
+				111 text 20 oct.
+				112 text  · 
+				113 text 1 q.
+			114 button Description: Supprimer la conversation, Help: Supprimer
+			115 image
+			116 text uniion Assistant Aucune identité transmise NIVEAU D'ANONYMISATION
+			117 checkbox Standard, Help: NAO, budget, articles — masquage léger (matricules)., Value: 1
+			118 checkbox RH sensible, Help: Inaptitude, discipline — masquage nominatif + matricules., Value: 0
+			119 checkbox RPS, Help: Harcèlement, souffrance au travail — masquage maximal., Value: 0
+			120 container
+				121 text UNII · OUVERTURE DE DOSSIER Décrivez la situation : qui est concerné (fonction, service), les faits et leurs dates, ce que demande le salarié. Je vous pose les questions manquantes ; quand vous êtes prêt, cliquez « Créer le dossier » : je l’intitule, le qualifie et propose un plan d’action. Cas fictif pour recette : préparer collectivement une réunion d’information des élus le mois prochain, sans données personnelles. REÇU PAR LE MODÈLE Standard  ·  0 entité masquée Cas fictif pour recette : préparer collectivement une réunion d’information des élus le mois prochain, sans données personnelles. CORPUS FOURNI : AUCUN DÉLAI SPÉCIFIQUE IDENTIFIÉ POUR CETTE RÉUNION D’INFORMATION ; SOURCE NON VÉRIFIÉE. Aucun délai de préparation ou de convocation propre à cette réunion d’information n’est précisé dans le corpus. Versez le règlement intérieur du CSE et tout accord encadrant les réunions ; faites vérifier les règles avant tout usage contentieux.
+
+S’agit-il d’une réunion interne entre élus ou d’une réunion officielle du CSE, et à quelle date précise ?
+
+Quels thèmes souhaitez-vous traiter, pour quels participants désignés uniquement par fonction, et avec quel résultat attendu ?
+
+Vous pouvez dès maintenant préparer un ordre du jour provisoire et conserver une trace écrite des propositions et de la répartition des tâches.
+
+Sources : Corpus fourni — règles spécifiques non documentées — source non vérifiée, à contrôler. Journal d'appel IA · empreinte 7f3a26cfc1 · niveau Standard · 0 entités masquées · aucun clair enregistré
+				122 button Mémoriser
+			123 button Signalement de harcèlement
+			124 button Informations dues en NAO
+			125 button Enquête après accident
+			126 button Budget ASC
+			127 text field (settable)
+			128 button
+				129 image
+			130 text Réponses produites par un modèle de langage souverain hébergé dans l'Union européenne, sur le seul corpus de votre organisation (convention, accords, PV) et à partir d'un texte anonymisé — à vérifier avant tout usage contentieux.
+			131 button En savoir plus sur la sécurité
+		132 text unii qualifie le dossier…
+
+The focused UI element is 78 button Qualification…

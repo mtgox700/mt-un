@@ -1,0 +1,218 @@
+[
+  {
+    "style": "choc",
+    "format": "a4",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "style": "choc",
+    "format": "a5",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "style": "choc",
+    "format": "wide",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "style": "journal",
+    "format": "a4",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "journal",
+    "format": "a5",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "journal",
+    "format": "wide",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "infographie",
+    "format": "a4",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "infographie",
+    "format": "a5",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "infographie",
+    "format": "wide",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "institutionnel",
+    "format": "a4",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "institutionnel",
+    "format": "a5",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "institutionnel",
+    "format": "wide",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "photo",
+    "format": "a4",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "style": "photo",
+    "format": "a5",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "style": "photo",
+    "format": "wide",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "style": "serigraphie",
+    "format": "a4",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "style": "serigraphie",
+    "format": "a5",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "style": "serigraphie",
+    "format": "wide",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "style": "bulletin",
+    "format": "a4",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "bulletin",
+    "format": "a5",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "bulletin",
+    "format": "wide",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "qr",
+    "format": "a4",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "qr",
+    "format": "a5",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "qr",
+    "format": "wide",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "satirique",
+    "format": "a4",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "satirique",
+    "format": "a5",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "satirique",
+    "format": "wide",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "bd",
+    "format": "a4",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "style": "bd",
+    "format": "a5",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "style": "bd",
+    "format": "wide",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "style": "annonce",
+    "format": "a4",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "annonce",
+    "format": "a5",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "annonce",
+    "format": "wide",
+    "pages": 1,
+    "passed": true
+  },
+  {
+    "style": "retro",
+    "format": "a4",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "style": "retro",
+    "format": "a5",
+    "pages": 2,
+    "passed": true
+  },
+  {
+    "style": "retro",
+    "format": "wide",
+    "pages": 2,
+    "passed": true
+  }
+]

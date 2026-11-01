@@ -1,0 +1,102 @@
+[
+  {
+    "test": "module-contract.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "admin-presenter.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "admin-import.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "invitation.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "actions.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "invitations-s01.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "identity-s01.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "agenda.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "identity-edits.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "presenters.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "auth-resume.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "campaigns-ai.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "member-management.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "module-stores.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "publication-notices.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "member-filter.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "menus.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "permissions-navigation.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "agenda-workflows.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "navigation-guard.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "messaging.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "agenda-home.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "shared-content.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "members-s01.test.mjs",
+    "ok": true
+  },
+  {
+    "test": "campaign-presenter.test.mjs",
+    "ok": true
+  }
+]

@@ -1,0 +1,135 @@
+Browser tab: 12, Title: "127.0.0.1:5054/uniion App v3.dc.html", URL: "http://127.0.0.1:5054/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+	1 container dc-root
+		232 container
+			233 image uniion
+			234 button Réduire le menu
+			429 button Accueil
+				430 image
+				431 text Accueil
+			238 button Assistant
+				239 image
+				240 text Assistant
+			426 button Dossiers
+				427 image
+				428 text Dossiers
+			409 button Messages
+				410 image
+				411 text Messages
+			247 button Agenda
+				248 image
+				249 text Agenda
+			250 button Réunions
+				251 image
+				252 text Réunions
+			253 button Documents
+				254 image
+				255 text Documents
+			256 button Formations
+				257 image
+				258 text Formations
+			259 button Communication
+				260 image
+				261 text Communication
+			262 button Application mobile
+				263 image
+				264 text Application mobile
+			265 button Adhérents
+				266 image
+				267 text Adhérents
+			432 button Intranet
+				433 image
+				434 text Intranet
+			271 button Reporting
+				272 image
+				273 text Reporting
+			274 button Raccourcis
+				275 image
+				276 text Raccourcis
+			435 button Réglages
+				436 image
+				437 text Réglages
+			280 text ASSISTANT IA Une question de droit ?
+			281 button Ouvrir le chat
+			282 button SM Sophie Marchand Déléguée syndicale
+				283 text SM
+				284 text Sophie Marchand
+				285 text Déléguée syndicale
+			286 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			438 button Revenir aux paramètres
+			439 heading Extensions, Value: 1
+				440 text Extensions
+			441 text Les extensions ajoutent des styles, des blocs et des thèmes sans modifier le cœur d'uniion. Désactivée, une extension disparaît sans laisser de trace : vos contenus reviennent à leur rendu habituel. 1 extension chargée · API v1
+			442 heading uniion Studio, Value: 2
+				443 text uniion Studio
+			444 text Active v1.2.0 · uniion · API v1 · identifiant uniion-studio
+			445 text Styles graphiques de documents et tracts (dont satire, BD, détournement), blocs visuels, thèmes et sections pour les pages intranet et internet.
+			446 switch Description: Activer l'extension, Value: 1
+			447 text AUTORISATIONS Mettre en page les documents Ajouter des blocs aux documents Habiller les pages web Ajouter des sections aux pages Aperçus par appareil Donner des consignes de rédaction à unii Styles de documents · 12
+			448 checkbox Affiche choc, Value: 1
+			449 checkbox Journal syndical, Value: 1
+			450 checkbox Infographie, Value: 1
+			451 checkbox Institutionnel sobre, Value: 1
+			452 checkbox Photo pleine page, Value: 1
+			453 checkbox Sérigraphie militante, Value: 1
+			454 checkbox Bulletin d'information, Value: 1
+			455 checkbox Question / réponse, Value: 1
+			456 checkbox Journal satirique, Value: 1
+			457 checkbox Bande dessinée, Value: 1
+			458 checkbox Petite annonce parodique, Value: 1
+			459 checkbox Affiche rétro, Value: 1
+			460 text Blocs de documents · 12
+			461 checkbox Chiffre clé, Value: 1
+			462 checkbox Comparatif, Value: 1
+			463 checkbox Frise de dates, Value: 1
+			464 checkbox Photo, Value: 1
+			465 checkbox QR code, Value: 1
+			466 checkbox Coupon d'adhésion, Value: 1
+			467 checkbox Trombinoscope, Value: 1
+			468 checkbox Tampon, Value: 1
+			469 checkbox Bandeau surligné, Value: 1
+			470 checkbox Signature, Value: 1
+			471 checkbox Bulles de dialogue, Value: 1
+			472 checkbox Encadré « FO exige », Value: 1
+			473 text Thèmes de pages · 6
+			474 checkbox Éditorial, Value: 1
+			475 checkbox Moderne à cartes, Value: 1
+			476 checkbox Militant, Value: 1
+			477 checkbox Institutionnel, Value: 1
+			478 checkbox Magazine, Value: 1
+			479 checkbox Minimal, Value: 1
+			480 text Sections de pages · 7
+			481 checkbox Bandeau d'accroche, Value: 1
+			482 checkbox Chiffres clés, Value: 1
+			483 checkbox Frise de la négociation, Value: 1
+			484 checkbox FAQ dépliable, Value: 1
+			485 checkbox Cartes des élus, Value: 1
+			486 checkbox Agenda, Value: 1
+			487 checkbox Appel à adhérer, Value: 1
+			488 text Aperçus par appareil · 3
+			489 checkbox Ordinateur, Value: 1
+			490 checkbox Tablette, Value: 1
+			491 checkbox Mobile, Value: 1
+			492 heading Installer une extension, Value: 2
+				493 text Installer une extension
+			494 text Indiquez l'adresse du fichier de l'extension : chemin relatif (./extensions/…) ou adresse https. N'installez que des extensions dont vous connaissez l'éditeur.
+			495 text field (settable) Adresse de l'extension
+			496 button Installer
+			497 heading Auto-test de non-régression, Value: 2
+				498 text Auto-test de non-régression
+			499 text Compare le rendu avec et sans extensions, et rend chaque style sur chaque document.
+			500 button Lancer l'auto-test
+			501 text ✓ Pages web sans thème : 8 / 8 identiques au caractère près, extensions actives ou non ✓ Documents : 6 / 6 conservent tous leurs blocs après un aller-retour Markdown ✓ Blocs d'extension : 12 types conservés en Markdown (« :::type »), même extension désactivée ✓ Styles de documents : 72 / 72 rendus sans erreur (12 styles × 6 documents, avec tous les blocs) ✓ Thèmes de pages : 6 / 6 produisent une feuille de style limitée à leur page ✓ Sections de pages : 7 / 7 produisent du HTML sans script ✓ Aucune erreur d'extension journalisée
+		502 text Auto-test réussi — aucune régression détectée
+
+The focused UI element is 500 button Lancer l'auto-test

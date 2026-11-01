@@ -1,0 +1,2 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {prepareCaseHome} from '../modules/cases/presenter.js';
+test('home presents only current server rows and excludes closed cases',()=>{const calls=[],v=prepareCaseHome([{id:'a',title:'Autorisé',tag:'Dossier',due:'30 j',status:'todo'},{id:'b',title:'Clos',status:'done'}],(...a)=>calls.push(a));assert.equal(v.openCount,1);assert.equal(v.homeDossiers.length,1);v.homeDossiers[0].go();assert.deepEqual(calls,[['dossier',{dossierId:'a'}]]);assert.deepEqual(prepareCaseHome([],()=>{}).homeDossiers,[]);});

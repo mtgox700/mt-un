@@ -1,0 +1,112 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Pilotage
+  - heading "Reporting" [level=1]
+  - paragraph: Du 1er janvier au 26 août 2026 · 416 salariés · 24 élus
+  - button "Année 2026"
+  - button "12 derniers mois"
+  - button "Mandat 2024–2028"
+  - button "Bilan de mandat" [pressed]
+  - button "Utilisation de l'application"
+  - generic: Dossiers traités
+  - generic: "84"
+  - generic: +18 % vs 2025
+  - generic: Dossiers clos
+  - generic: "71"
+  - generic: 85 % de résolution
+  - generic: Délai moyen
+  - generic: 9 j
+  - generic: −3 j vs 2025
+  - generic: Participation sondages
+  - generic: 72 %
+  - generic: +9 pts
+  - heading "Dossiers par mois" [level=2]
+  - paragraph: Ouverts en orange, clos en gris.
+  - generic: Jan
+  - generic: Fév
+  - generic: Mar
+  - generic: Avr
+  - generic: Mai
+  - generic: Juin
+  - generic: Juil
+  - generic: Août
+  - heading "Répartition par thème" [level=2]
+  - generic: Salaires et primes
+  - generic: 26 dossiers · 31 %
+  - generic: Santé et sécurité
+  - generic: 21 dossiers · 25 %
+  - generic: Temps de travail
+  - generic: 15 dossiers · 18 %
+  - generic: Discipline et sanctions
+  - generic: 12 dossiers · 14 %
+  - generic: Égalité et discriminations
+  - generic: 10 dossiers · 12 %
+  - heading "Activité du mandat" [level=2]
+  - generic: Réunions CSE
+  - generic: 8 ordinaires, 2 extraordinaires
+  - generic: "10"
+  - generic: Séances de négociation
+  - generic: NAO, télétravail, égalité pro
+  - generic: "6"
+  - generic: Sondages diffusés
+  - generic: 72 % de participation moyenne
+  - generic: "9"
+  - generic: Consultations de l'assistant
+  - generic: 96 % sourcées convention ou code
+  - generic: 1 240
+  - generic: Heures de délégation
+  - generic: sur 1 920 h de crédit annuel
+  - generic: 1 412
+  - heading "Exporter le bilan" [level=2]
+  - paragraph: Le bilan reprend la mise en forme attendue pour l'annexe du rapport annuel du CSE. Aucune donnée nominative de salarié n'y figure.
+  - button "Bilan annuel (PDF)"
+  - button "Données détaillées (Excel)"
+  - button "Partager en lecture seule aux élus"

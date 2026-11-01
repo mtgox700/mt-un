@@ -1,0 +1,74 @@
+[
+  {
+    "command": "share.approve",
+    "module": "partage",
+    "input": "source org, target org/agent, resource versions, expiry, download",
+    "checks": "D03 source authority; D02/D04 bounded grant",
+    "event": "share.approved",
+    "execution": "Transaction commande/audit/outbox ; relecture ACL avant livraison ; schéma événement versionné et sans contenu sensible ; consumer idempotent ; org_id explicite ; aucun accès direct aux tables autre module"
+  },
+  {
+    "command": "support.close",
+    "module": "support",
+    "input": "ticket id, expected version",
+    "checks": "close ticket and revoke grants atomically",
+    "event": "support.closed",
+    "execution": "Transaction commande/audit/outbox ; relecture ACL avant livraison ; schéma événement versionné et sans contenu sensible ; consumer idempotent ; org_id explicite ; aucun accès direct aux tables autre module"
+  },
+  {
+    "command": "collection.accept",
+    "module": "référentiels",
+    "input": "subscription, offered version, expected version",
+    "checks": "local authority, published version, preserve overrides",
+    "event": "collection.accepted",
+    "execution": "Transaction commande/audit/outbox ; relecture ACL avant livraison ; schéma événement versionné et sans contenu sensible ; consumer idempotent ; org_id explicite ; aucun accès direct aux tables autre module"
+  },
+  {
+    "command": "payment.confirm",
+    "module": "facturation",
+    "input": "verified provider event and server order ref",
+    "checks": "signature, idempotency, organization/module correlation",
+    "event": "entitlement.changed",
+    "execution": "Transaction commande/audit/outbox ; relecture ACL avant livraison ; schéma événement versionné et sans contenu sensible ; consumer idempotent ; org_id explicite ; aucun accès direct aux tables autre module"
+  },
+  {
+    "command": "poll.grant",
+    "module": "sondages",
+    "input": "poll, named identity",
+    "checks": "super admin and mode without identity",
+    "event": "poll.access_changed",
+    "execution": "Transaction commande/audit/outbox ; relecture ACL avant livraison ; schéma événement versionné et sans contenu sensible ; consumer idempotent ; org_id explicite ; aucun accès direct aux tables autre module"
+  },
+  {
+    "command": "resource.delete",
+    "module": "conservation",
+    "input": "approved request and exact object version",
+    "checks": "super admin approval, matching manifest, no unexpected cascade",
+    "event": "resource.deleted",
+    "execution": "Transaction commande/audit/outbox ; relecture ACL avant livraison ; schéma événement versionné et sans contenu sensible ; consumer idempotent ; org_id explicite ; aucun accès direct aux tables autre module"
+  },
+  {
+    "command": "sync.apply",
+    "module": "socle",
+    "input": "operation id, base version, kind, whitelist payload",
+    "checks": "current rights, module entitlement, no tombstone, conflict check",
+    "event": "sync.accepted",
+    "execution": "Transaction commande/audit/outbox ; relecture ACL avant livraison ; schéma événement versionné et sans contenu sensible ; consumer idempotent ; org_id explicite ; aucun accès direct aux tables autre module"
+  },
+  {
+    "command": "review.approve",
+    "module": "validation",
+    "input": "request and version digest",
+    "checks": "second actor where required, permission, unchanged content",
+    "event": "review.approved",
+    "execution": "Transaction commande/audit/outbox ; relecture ACL avant livraison ; schéma événement versionné et sans contenu sensible ; consumer idempotent ; org_id explicite ; aucun accès direct aux tables autre module"
+  },
+  {
+    "command": "derived.release",
+    "module": "documents",
+    "input": "version digest, audience, use, download",
+    "checks": "human review and source permissions, no external reshare",
+    "event": "release.approved",
+    "execution": "Transaction commande/audit/outbox ; relecture ACL avant livraison ; schéma événement versionné et sans contenu sensible ; consumer idempotent ; org_id explicite ; aucun accès direct aux tables autre module"
+  }
+]

@@ -1,0 +1,79 @@
+Browser tab: 13, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container
+		2 text uniion
+		3 text CONSOLE D'ADMINISTRATION
+		4 container
+			53 button Supervision
+				54 image
+				55 text Supervision
+			56 button Organisations
+				57 image
+				58 text Organisations
+			59 button Utilisateurs
+				60 image
+				61 text Utilisateurs
+			62 button Clés API IA
+				63 image
+				64 text Clés API IA
+			65 button Éditeur de l’application
+				66 image
+				67 text Éditeur de l’application
+			68 button Abonnements et paiements
+				69 image
+				70 text Abonnements et paiements
+			50 button Journal d’audit
+				51 image
+				52 text Journal d’audit
+		26 text SA Super administrateur admin@uniion.fr
+		27 button Se déconnecter
+		28 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+		71 heading Abonnements et paiements, Value: 1
+			72 text Abonnements et paiements
+		73 container
+			74 text Revenu mensuel récurrent :  1 297 € HT .
+		75 text Élu 1.0
+		76 text 99 € HT/mois
+		77 text 1
+		78 text abonnement(s)
+		79 text Élu 2.0 POPULAIRE
+		80 text 199 € HT/mois
+		81 text 1
+		82 text abonnement(s)
+		83 text Élu 3.0
+		84 text 499 € HT/mois
+		85 text 0
+		86 text abonnement(s)
+		87 text Élu 4.0
+		88 text 999 € HT/mois
+		89 text 1
+		90 text abonnement(s)
+		91 text Métallurgie — Valenciennes
+		92 container
+			93 text Élu 2.0  ·  199 € HT/mois  ·  Actif
+		94 button Émettre une facture
+		95 button Relancer
+		96 button Élu 1.0
+		97 button Élu 2.0
+		98 button Élu 3.0
+		99 button Élu 4.0
+		100 text UD 59 — Lille
+		101 container
+			102 text Élu 4.0  ·  999 € HT/mois  ·  Actif
+		103 button Émettre une facture
+		104 button Relancer
+		105 button Élu 1.0
+		106 button Élu 2.0
+		107 button Élu 3.0
+		108 button Élu 4.0
+		109 text CSE Brasserie du Nord
+		110 container
+			111 text Élu 1.0  ·  99 € HT/mois  ·  Essai — 12 j restants
+		112 button Émettre une facture
+		113 button Relancer
+		114 button Élu 1.0
+		115 button Élu 2.0
+		116 button Élu 3.0
+		117 button Élu 4.0
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

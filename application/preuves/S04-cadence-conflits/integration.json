@@ -1,0 +1,266 @@
+{
+  "passed": true,
+  "count": 65,
+  "checks": [
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "empty_register",
+      "ok": true
+    },
+    {
+      "test": "read_only_import_denied",
+      "ok": true
+    },
+    {
+      "test": "import_saved",
+      "ok": true
+    },
+    {
+      "test": "no_user_created",
+      "ok": true
+    },
+    {
+      "test": "no_membership_created",
+      "ok": true
+    },
+    {
+      "test": "reloaded_from_database",
+      "ok": true
+    },
+    {
+      "test": "financial_fields_hidden",
+      "ok": true
+    },
+    {
+      "test": "financial_fields_authorized",
+      "ok": true
+    },
+    {
+      "test": "foreign_read_empty",
+      "ok": true
+    },
+    {
+      "test": "nonmember_admin_denied",
+      "ok": true
+    },
+    {
+      "test": "duplicate_case_denied",
+      "ok": true
+    },
+    {
+      "test": "atomic_import_denied",
+      "ok": true
+    },
+    {
+      "test": "atomic_no_partial_rows",
+      "ok": true
+    },
+    {
+      "test": "invalid_prenom",
+      "ok": true
+    },
+    {
+      "test": "invalid_email",
+      "ok": true
+    },
+    {
+      "test": "invalid_ent",
+      "ok": true
+    },
+    {
+      "test": "invalid_owner",
+      "ok": true
+    },
+    {
+      "test": "read_only_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "cross_org_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "edit_saved",
+      "ok": true
+    },
+    {
+      "test": "stale_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "new_value_read_by_second_actor",
+      "ok": true
+    },
+    {
+      "test": "profile_write_does_not_grant_finance",
+      "ok": true
+    },
+    {
+      "test": "nonfinancial_editor_allowed",
+      "ok": true
+    },
+    {
+      "test": "finance_preserved",
+      "ok": true
+    },
+    {
+      "test": "module_disabled_denied",
+      "ok": true
+    },
+    {
+      "test": "commercial_access_revoked_denied",
+      "ok": true
+    },
+    {
+      "test": "departed_member_denied",
+      "ok": true
+    },
+    {
+      "test": "private_table_denied",
+      "ok": true
+    },
+    {
+      "test": "new_schedule_after_migration",
+      "ok": true
+    },
+    {
+      "test": "automatic_coverage",
+      "ok": true
+    },
+    {
+      "test": "quarterly_terms_saved",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "past_date_denied",
+      "ok": true
+    },
+    {
+      "test": "quarterly_proposal",
+      "ok": true
+    },
+    {
+      "test": "manual_charge_created",
+      "ok": true
+    },
+    {
+      "test": "unknown_blocks",
+      "ok": true
+    },
+    {
+      "test": "reader_coverage_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_coverage_denied",
+      "ok": true
+    },
+    {
+      "test": "invalid_end_denied",
+      "ok": true
+    },
+    {
+      "test": "explicit_coverage",
+      "ok": true
+    },
+    {
+      "test": "same_coverage_retry",
+      "ok": true
+    },
+    {
+      "test": "coverage_not_silently_rewritten",
+      "ok": true
+    },
+    {
+      "test": "known_conflict_blocks",
+      "ok": true
+    },
+    {
+      "test": "direct_overlap_confirm_denied",
+      "ok": true
+    },
+    {
+      "test": "first_free_period",
+      "ok": true
+    },
+    {
+      "test": "reader_confirm_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_confirm_denied",
+      "ok": true
+    },
+    {
+      "test": "cadence_confirmed",
+      "ok": true
+    },
+    {
+      "test": "replay_no_duplicate_audit",
+      "ok": true
+    },
+    {
+      "test": "stale_confirm_denied",
+      "ok": true
+    },
+    {
+      "test": "new_cadence_stable",
+      "ok": true
+    },
+    {
+      "test": "historical_amounts_preserved",
+      "ok": true
+    },
+    {
+      "test": "unique_occurrence_offset",
+      "ok": true
+    },
+    {
+      "test": "worker_preserves_new_anchor",
+      "ok": true
+    },
+    {
+      "test": "coverage_audit_once",
+      "ok": true
+    },
+    {
+      "test": "revoked_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "ui_manual_fixture",
+      "ok": true
+    },
+    {
+      "test": "ui_annual_terms",
+      "ok": true
+    }
+  ]
+}

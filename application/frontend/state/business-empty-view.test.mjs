@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {Component} from '../generated/controller.js';
+import {createModuleStores} from './module-stores.js';import {attachModuleServices} from '../services/module-services.js';
+import {initialAgenda} from '../modules/agenda/presenter.js';
+globalThis.window={};
+test('empty server page list remains renderable after logout and on empty intranet',()=>{const c=new Component({userName:'Fictif',orgName:'Recette'});c.state={...c.state,...initialAgenda(),pages:[],pageId:null};attachModuleServices(c,createModuleStores(c.state,()=>{}));const v=c.webVals();assert.deepEqual(v.webPageList,[]);assert.equal(v.pgTitle,'Aucune page sélectionnée');assert.equal(v.webBlocks.length,0);});
+
+test('all native business lists can be empty while rendering logout',()=>{const c=new Component({userName:'Fictif',orgName:'Recette'});c.state={...c.state,...initialAgenda(),pages:[],pageId:null,reunions:[],reunionId:null,fmSessions:[],pollsData:[]};attachModuleServices(c,createModuleStores(c.state,()=>{}));assert.doesNotThrow(()=>c.renderVals());});
+test('native page preview never adds prototype dates or contact facts',()=>{const c=new Component({userName:'Fictif',orgName:'Recette'});c.state={...c.state,...initialAgenda(),pages:[{id:'native',serverRecord:true,version:2,title:'Texte fictif',chapo:'Résumé fictif',rubrique:'actus',slug:'page',status:'Brouillon',blocks:[{id:'p',t:'p',text:'Faits fictifs vérifiés.'}]}],pageId:'native'};attachModuleServices(c,createModuleStores(c.state,()=>{}));const html=c.webVals().pageSrc;assert.match(html,/Faits fictifs vérifiés/);assert.doesNotMatch(html,/Local B12|5 septembre 2026|Lecture 3 min|03 27 00/);assert.match(html,/Version 2/);});

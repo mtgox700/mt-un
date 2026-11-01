@@ -1,0 +1,96 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Intranet
+  - heading "Générateur de pages HTML" [level=1]
+  - generic: Gabarit
+  - button "Actualité"
+  - button "Communiqué interne"
+  - button "Fiche pratique"
+  - button "Questions-réponses"
+  - button "Événement"
+  - button "Compte rendu de séance"
+  - generic: Rubrique de destination
+  - button "Actualités"
+  - button "Vos droits"
+  - button "La section"
+  - button "Négociations"
+  - button "Loisirs & ASC"
+  - button "Nous contacter"
+  - paragraph: /intranet/actualites/…
+  - generic: Points clés
+  - textbox: "Séance NAO du 20 août : la direction propose 0,8 %, nous demandons 2,5 % et un talon de 60 €. Prochaine séance le 12 septembre. Renvoyer vers le sondage salariés."
+  - button "Passer en mode assistant":
+    - text: Passer en mode assistant
+  - generic: Ton
+  - button "Clair"
+  - button "Institutionnel"
+  - button "Mobilisateur"
+  - generic: Thème de la page
+  - button "Charte du site"
+  - button "Éditorial"
+  - button "Moderne à cartes"
+  - button "Militant"
+  - button "Institutionnel"
+  - button "Magazine"
+  - button "Minimal"
+  - paragraph: unii peut aussi composer avec les sections bandeau d'accroche, chiffres clés, frise de la négociation, faq dépliable, cartes des élus, agenda, appel à adhérer. Vous relisez avant tout envoi.
+  - button "Reformuler en langage clair Phrases courtes, pas de jargon juridique, tutoiement exclu.":
+    - generic: Reformuler en langage clair
+    - generic: Phrases courtes, pas de jargon juridique, tutoiement exclu.
+  - button "Générer le résumé d'accueil Chapô de 240 caractères pour la page d'accueil de l'intranet.":
+    - generic: Générer le résumé d'accueil
+    - generic: Chapô de 240 caractères pour la page d'accueil de l'intranet.
+  - button "Générer la page HTML"
+  - generic: "Prompt anonymisé avant envoi. Le HTML produit ne contient ni script ni style en ligne : seules les classes de la feuille du site sont utilisées."
+  - button "En savoir plus sur la sécurité":
+    - text: En savoir plus sur la sécurité
+  - generic: aperçu de la page
+  - generic: La page générée s'ouvre dans l'éditeur, avec aperçu navigateur et code HTML.

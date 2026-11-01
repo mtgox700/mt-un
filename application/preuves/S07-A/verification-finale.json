@@ -1,0 +1,8 @@
+{
+  "known_fixture_secrets_in_evidence": [],
+  "protected_files_changed": [],
+  "build": "passed",
+  "python": 150,
+  "frontend": 132,
+  "integration": 64
+}

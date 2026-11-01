@@ -1,0 +1,127 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+    - generic: "1"
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: unii suggère
+  - button "1 non lu · Jean-Paul Diallo"
+  - complementary:
+    - heading "Messages" [level=1]
+    - button "Nouvelle discussion":
+    - button "Nouveau groupe":
+    - button "Nouvelle diffusion aux adhérents":
+    - tablist "Vue":
+      - tab "Discussions" [selected]
+      - tab "Contacts & groupes"
+    - textbox "Rechercher":
+      - /placeholder: Rechercher une discussion ou un message
+    - button "Toutes" [pressed]:
+      - generic: Toutes
+    - button "Non lues 1":
+      - generic: Non lues
+      - generic: "1"
+    - button "Sans réponse de ma part 3":
+      - generic: Sans réponse de ma part
+      - generic: "3"
+    - button "Dernier message de moi 1":
+      - generic: Dernier message de moi
+      - generic: "1"
+    - button "Groupes 3":
+      - generic: Groupes
+      - generic: "3"
+    - button "Diffusions":
+      - generic: Diffusions
+    - 'button "Commission Négociation 09:20 Leïla C. : On maintient l''AG du personnel mardi 12 h 30 ?"':
+      - generic: CN
+      - generic: Commission Négociation
+      - generic: 09:20
+      - generic: "Leïla C. : On maintient l'AG du personnel mardi 12 h 30 ?"
+    - 'button "Commission SSCT hier ✓✓ Vous : Je prépare la grille d''enquête et je la dépose dans la base documentaire."':
+      - generic: SS
+      - generic: Commission SSCT
+      - generic: hier
+      - generic: ✓✓
+      - generic: "Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire."
+    - 'button "Commission ASC lun. Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts."':
+      - generic: AS
+      - generic: Commission ASC
+      - generic: lun.
+      - generic: "Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts."
+    - button "Jean-Paul Diallo lun. Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi. 1":
+      - generic: JD
+      - generic: Jean-Paul Diallo
+      - generic: lun.
+      - generic: Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.
+      - generic: "1"
+    - generic: Messagerie locale de démonstration — aucun envoi externe.
+  - button "Commission Négociation Vous, Jean-Paul, Leïla, Nadia, Thomas":
+    - generic: CN
+    - generic: Commission Négociation
+    - generic: Vous, Jean-Paul, Leïla, Nadia, Thomas
+  - button "Sélectionner"
+  - button "unii":
+    - text: unii
+  - button "Infos de la discussion":
+  - generic: Messages de démonstration conservés dans ce navigateur ; chiffrement de production à intégrer.
+  - button "Actions sur le message":
+  - generic: Jean-Paul D.
+  - generic: La direction propose 0,8 % sur les salaires de base.
+  - generic: 09:12
+  - button "Actions sur le message":
+  - generic: C'est très insuffisant par rapport à l'inflation. On demande la communication des marges.
+  - generic: 09:14
+  - generic: ✓✓
+  - button "Actions sur le message":
+  - generic: Leïla C.
+  - generic: On maintient l'AG du personnel mardi 12 h 30 ?
+  - generic: 09:20
+  - button "Joindre un fichier":
+  - textbox "Votre message":
+    - /placeholder: Message chiffré… ou @unii + consigne
+  - button "Envoyer":

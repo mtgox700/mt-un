@@ -1,0 +1,14 @@
+- generic: uniion
+- heading "L'outil des élus, pas celui de la direction." [level=1]
+- paragraph: "Prototype local : dossiers, assistant juridique, consultations des salariés et bilan de mandat. Données de démonstration ; hébergement et protections de production à intégrer."
+- generic: Chiffrement cible AES-256
+- generic: Cible RGPD · démonstration locale
+- generic: Anonymisation avant inférence IA
+- heading "Vérification en deux étapes" [level=2]
+- paragraph: Code à 6 chiffres envoyé sur iPhone 15 — Sophie (application uniion).
+- textbox "Code à six chiffres"
+- button "Vérifier et ouvrir la session"
+- button "Renvoyer un code"
+- button "Utiliser une clé de sécurité"
+- button "Changer de compte"
+- paragraph: "Démonstration : le code valide est 402913."

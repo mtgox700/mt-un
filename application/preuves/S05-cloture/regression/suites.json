@@ -1,0 +1,32 @@
+[
+  {
+    "suite": "s05_cases",
+    "passed": true,
+    "result": "{\"passed\": true, \"count\": 33}"
+  },
+  {
+    "suite": "s05_assignments",
+    "passed": true,
+    "result": "{\"passed\": true, \"count\": 23}"
+  },
+  {
+    "suite": "s05_files",
+    "passed": true,
+    "result": "{\"passed\": true, \"count\": 27}"
+  },
+  {
+    "suite": "s05_versions",
+    "passed": true,
+    "result": "{\"passed\": true, \"count\": 21}"
+  },
+  {
+    "suite": "s05_trash",
+    "passed": true,
+    "result": "{\"passed\": true, \"count\": 30}"
+  },
+  {
+    "suite": "s05_classification",
+    "passed": true,
+    "result": "{\"passed\": true, \"count\": 26}"
+  }
+]

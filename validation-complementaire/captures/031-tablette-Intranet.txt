@@ -1,0 +1,148 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		808 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				557 container
+					1190 text SITE INTERNE DE L'ORGANISATION
+					1191 heading Intranet, Value: 1
+						1192 text Intranet
+					1193 text 5 pages suivies · 1 en ligne, 1 en attente du webmaster
+					1194 tab group Choisir le site à gérer
+						1195 tab (selectable, settable, boolean) Intranet 5 pages intranet.section-valenciennes.fr, Value: 0
+Intranet
+5 pages
+intranet.section-valenciennes.fr
+						1196 tab (selectable, settable, boolean) Site internet 3 pages section-valenciennes.fr, Value: 0
+Site internet
+3 pages
+section-valenciennes.fr
+					1197 text SALARIÉS AUTHENTIFIÉS Vous pouvez y publier des comptes rendus de séance, des positions de négociation et des documents de travail : l'audience est interne et identifiée. 1 pages en ligne 1 en attente webmaster 2 en préparation 1 retour à traiter
+					1198 button Générateur de pages HTML Points clés → page rédigée, mise au gabarit du site, HTML propre.
+						1199 text Générateur de pages HTML
+						1200 text Points clés → page rédigée, mise au gabarit du site, HTML propre.
+					1201 button Suivi des publications 1 demande en attente · 1 retour à traiter
+						1202 text Suivi des publications
+						1203 text 1 demande en attente · 1 retour à traiter
+					1204 heading GABARITS DE PAGE, Value: 2
+						1205 text GABARITS DE PAGE
+					1206 button Actualité Un fait récent, un chapô, deux ou trois sections courtes. RUBRIQUE ACTUALITÉS
+						1207 text Actualité
+						1208 text Un fait récent, un chapô, deux ou trois sections courtes.
+						1209 text RUBRIQUE ACTUALITÉS
+					1210 button Communiqué interne Position de la section, ton institutionnel, signature du bureau. UNE PAGE
+						1211 text Communiqué interne
+						1212 text Position de la section, ton institutionnel, signature du bureau.
+						1213 text UNE PAGE
+					1214 button Fiche pratique Ce que dit le texte, ce que ça change pour vous, qui contacter. RUBRIQUE VOS DROITS
+						1215 text Fiche pratique
+						1216 text Ce que dit le texte, ce que ça change pour vous, qui contacter.
+						1217 text RUBRIQUE VOS DROITS
+					1218 button Questions-réponses Questions fréquentes sur un dispositif ou un accord, en blocs repliables. BLOCS REPLIABLES
+						1219 text Questions-réponses
+						1220 text Questions fréquentes sur un dispositif ou un accord, en blocs repliables.
+						1221 text BLOCS REPLIABLES
+					1222 button Événement Réunion d'information, permanence, assemblée : date, lieu, inscription. AVEC INSCRIPTION
+						1223 text Événement
+						1224 text Réunion d'information, permanence, assemblée : date, lieu, inscription.
+						1225 text AVEC INSCRIPTION
+					1226 button Compte rendu de séance Repris depuis un PV approuvé, allégé pour les salariés. DEPUIS RÉUNIONS
+						1227 text Compte rendu de séance
+						1228 text Repris depuis un PV approuvé, allégé pour les salariés.
+						1229 text DEPUIS RÉUNIONS
+					1230 heading ARBORESCENCE DU SITE, Value: 2
+						1231 text ARBORESCENCE DU SITE
+					1232 button Actualités 2 pages /intranet/actualites Communiqués, comptes rendus de séance, mobilisations.
+						1233 text Actualités
+						1234 text 2 pages
+						1235 text /intranet/actualites
+						1236 text Communiqués, comptes rendus de séance, mobilisations.
+					1237 button Vos droits 1 page /intranet/vos-droits Fiches pratiques : congés, télétravail, temps de travail.
+						1238 text Vos droits
+						1239 text 1 page
+						1240 text /intranet/vos-droits
+						1241 text Fiches pratiques : congés, télétravail, temps de travail.
+					1242 button La section 1 page /intranet/la-section Élus et mandats, permanences, procès-verbaux, comptes.
+						1243 text La section
+						1244 text 1 page
+						1245 text /intranet/la-section
+						1246 text Élus et mandats, permanences, procès-verbaux, comptes.
+					1247 button Négociations 0 page /intranet/negociations NAO, accords en cours, positions déposées.
+						1248 text Négociations
+						1249 text 0 page
+						1250 text /intranet/negociations
+						1251 text NAO, accords en cours, positions déposées.
+					1252 button Loisirs & ASC 1 page /intranet/asc Chèques vacances, billetterie, arbre de Noël.
+						1253 text Loisirs & ASC
+						1254 text 1 page
+						1255 text /intranet/asc
+						1256 text Chèques vacances, billetterie, arbre de Noël.
+					1257 button Nous contacter 0 page /intranet/contacts Formulaire de saisine, coordonnées, alerte confidentielle.
+						1258 text Nous contacter
+						1259 text 0 page
+						1260 text /intranet/contacts
+						1261 text Formulaire de saisine, coordonnées, alerte confidentielle.
+					1262 heading PAGES DE INTRANET.SECTION-VALENCIENNES.FR, Value: 2
+						1263 text PAGES DE  INTRANET.SECTION-VALENCIENNES.FR
+					1264 text 5 pages
+					1265 button NAO 2027 : où en sont les négociations ? Actualités · Sophie Marchand · modifiée il y a 12 min BROUILLON
+						1266 text NAO 2027 : où en sont les négociations ?
+						1267 text Actualités · Sophie Marchand · modifiée il y a 12 min
+						1268 text BROUILLON
+					1269 button Supprimer
+					1270 button Sécurité atelier B : ce que le CSE a obtenu Actualités · Jean-Paul Deniau · modifiée hier RELUE
+						1271 text Sécurité atelier B : ce que le CSE a obtenu
+						1272 text Actualités · Jean-Paul Deniau · modifiée hier
+						1273 text RELUE
+					1274 button Supprimer
+					1275 button Chèques vacances 2026 : mode d'emploi Loisirs & ASC · Karim Belkacem · modifiée il y a 2 j EN ATTENTE WEBMASTER
+						1276 text Chèques vacances 2026 : mode d'emploi
+						1277 text Loisirs & ASC · Karim Belkacem · modifiée il y a 2 j
+						1278 text EN ATTENTE WEBMASTER
+					1279 button Supprimer
+					1280 button Permanences des élus — rentrée 2026 La section · Sophie Marchand · modifiée il y a 6 j PUBLIÉE
+						1281 text Permanences des élus — rentrée 2026
+						1282 text La section · Sophie Marchand · modifiée il y a 6 j
+						1283 text PUBLIÉE
+					1284 button Supprimer
+					1285 button Télétravail : vos droits après l'avenant Vos droits · Sophie Marchand · modifiée il y a 3 j RETOURNÉE
+						1286 text Télétravail : vos droits après l'avenant
+						1287 text Vos droits · Sophie Marchand · modifiée il y a 3 j
+						1288 text RETOURNÉE
+					1289 button Supprimer
+					1290 text Vous éditez l'intranet au titre du rôle « communication ». 3 adhérents disposent de ce rôle ; les autres ont un accès en lecture.
+					1291 button Charte de ce site
+				112 container
+					1292 button Accueil
+						1293 image
+						1294 text Accueil
+					998 button Dossiers
+						999 image
+						1000 text Dossiers
+					1095 button Agenda
+						1096 image
+						1097 text Agenda
+					1187 button Réunions
+						1188 image
+						1189 text Réunions
+					903 button Réglages
+						904 image
+						905 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

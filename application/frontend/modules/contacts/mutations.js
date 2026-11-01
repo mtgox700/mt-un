@@ -1,0 +1,4 @@
+export function createContactMutations(store,{flash,initialsOf,clock,conversations,fallback}){return Object.freeze({
+ saveContact(){const e=store.read().ctEdit;if(!e)return;const name=String(e.name||'').trim();if(!name)return flash('Le nom est requis');const initials=initialsOf(name);if(e.id){conversations.rename(e.id,name,initials);store.update(s=>({ctEdit:null,contacts:(s.contacts||fallback).map(x=>x.id===e.id?{...x,name,initials,role:e.role,cat:e.cat,tel:e.tel,email:e.email}:x)}));flash('Contact mis à jour');}else{const id='c-'+clock();store.update(s=>({ctEdit:null,contacts:(s.contacts||fallback).concat([{id,name,initials,role:e.role||(e.cat==='externe'?'Contact externe':'Élu·e'),cat:e.cat,tel:e.tel,email:e.email}])}));flash('Contact « '+name+' » ajouté');}},
+ deleteContact(id){conversations.remove(id);store.update(s=>({ctEdit:null,contacts:(s.contacts||fallback).filter(x=>x.id!==id)}));flash('Contact supprimé');}
+});}

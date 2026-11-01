@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-26T18:22:21.787875+01:00",
+  "unit_tests": 102,
+  "watchdog_integration_checks": 7,
+  "passed": true,
+  "reference_hashes_checked": 834,
+  "references_unchanged": true,
+  "baseline_migrations_checked": 14,
+  "watchdog_installed": true,
+  "watchdog_health": {
+    "issues": [],
+    "sequence": 0,
+    "checked_at": 1793035306.042594,
+    "health": {
+      "ok": true,
+      "issues": [],
+      "checked_at": 1793035278.8103838,
+      "pending_revocations": 0,
+      "oldest_pending_seconds": 0
+    },
+    "last_event": null
+  },
+  "deployment_performed": false,
+  "desktop_notification_visibility_verified": false
+}

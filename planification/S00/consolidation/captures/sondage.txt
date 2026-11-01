@@ -1,0 +1,67 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Résultats
+  - heading "Priorités salariales 2027" [level=1]
+  - paragraph: 312 réponses sur 416 salariés · vote anonyme · clôture demain 18 h
+  - generic: Revalorisation générale des salaires
+  - generic: 68 %
+  - generic: Prime exceptionnelle
+  - generic: 17 %
+  - generic: Semaine de 4 jours
+  - generic: 11 %
+  - generic: Autre priorité
+  - generic: 4 %
+  - heading "Le mandat est clair" [level=2]
+  - paragraph: La revalorisation générale arrive largement en tête. Transformez ce résultat en tract de mobilisation avant la séance NAO du 3 septembre.
+  - button "Générer le tract →"
+  - button "Relancer les non-répondants"
+  - generic: Anonymat garanti
+  - paragraph: Aucun lien technique n'est conservé entre l'identité du votant et son choix.

@@ -1,0 +1,26 @@
+[
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "group": true,
+    "forward": true
+  },
+  {
+    "size": {
+      "width": 820,
+      "height": 1180
+    },
+    "group": true,
+    "forward": true
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "group": true,
+    "forward": true
+  }
+]

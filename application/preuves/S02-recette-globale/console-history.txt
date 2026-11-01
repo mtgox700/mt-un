@@ -1,0 +1,35 @@
+Browser tab: 68, Title: "Organisations, droits & partages · uniion", URL: "http://127.0.0.1:5068/s02/rights?organization=d3f217ee-313c-4e22-8ea8-9ddd74447d97#modules".
+1 AXWebArea Organisations, droits & partages · uniion, URL: 127.0.0.1:5068/s02/rights?organization=d3f217ee-313c-4e22-8ea8-9ddd74447d97#modules
+	2 container
+		3 link Description: uniion, Value: 127.0.0.1:5068/s02?organization=d3f217ee-313c-4e22-8ea8-9ddd74447d97&return=admin
+		4 text ESPACE ORGANISATION
+		5 container Parcours
+			6 button Organisations
+			7 button Droits & membres
+			8 button Partages
+			9 button Ressources accessibles
+			10 button Collections
+			11 button Support
+			12 button Modules
+			13 button Journal du parcours
+		14 link Description: ← Retour au prototype, Value: 127.0.0.1:5068/s02?organization=d3f217ee-313c-4e22-8ea8-9ddd74447d97&return=admin
+	15 container
+		16 text ESPACE ACTIF
+		20 text Recette accès support S02
+		17 button Changer d’organisation, ID: switch-org
+	19 container main
+		21 heading Support temporaire, Value: 1
+			22 text Support temporaire
+		23 text Un ticket ne donne aucun accès aux contenus métiers.
+		24 button Ouvrir un ticket
+		25 container
+			26 text Ouvert
+			27 heading Ticket accès temporaire fictif, Value: 2
+				28 text Ticket accès temporaire fictif
+			29 text 413bef94-d754-4608-a37f-d5c85fb1b0a4 · Recette accès support S02
+			30 button Demander un accès
+			31 button Clore le ticket
+			32 text Aucun accès métier autorisé.
+		33 text Aucune modification, aucun repartage, aucun accès hors ligne ni connexion au nom de l’utilisateur. La clôture révoque tous les accès ; rouvrir ne les réactive jamais.
+
+The focused UI element is 11 button Support

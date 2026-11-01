@@ -1,0 +1,66 @@
+Browser tab: 13, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container
+		2 text uniion
+		3 text CONSOLE D'ADMINISTRATION
+		4 container
+			53 button Supervision
+				54 image
+				55 text Supervision
+			56 button Organisations
+				57 image
+				58 text Organisations
+			59 button Utilisateurs
+				60 image
+				61 text Utilisateurs
+			62 button Clés API IA
+				63 image
+				64 text Clés API IA
+			41 button Éditeur de l’application
+				42 image
+				43 text Éditeur de l’application
+			44 button Abonnements et paiements
+				45 image
+				46 text Abonnements et paiements
+			50 button Journal d’audit
+				51 image
+				52 text Journal d’audit
+		26 text SA Super administrateur admin@uniion.fr
+		27 button Se déconnecter
+		28 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+		65 heading Clés API IA, Value: 1
+			66 text Clés API IA
+		67 text Les clés ne quittent jamais la passerelle serveur. Affichage et copie tracés.
+		68 button Créer une clé
+		69 text Production — assistant juridique
+		70 container
+			71 text Mistral (Paris)  · créée le  04/03/2026
+		72 text Active
+		73 text sk-live••••-••••-••••77b2
+		74 button Afficher
+		75 button Copier
+		76 button Renouveler
+		77 button Révoquer
+		78 text 26 k consommées plafond  40 k req./mois
+		79 text Production — synthèse de documents
+		80 container
+			81 text Mistral (Paris)  · créée le  19/05/2026
+		82 text Active
+		83 text sk-live••••-••••-••••8ee1
+		84 button Afficher
+		85 button Copier
+		86 button Renouveler
+		87 button Révoquer
+		88 text 9 k consommées plafond  25 k req./mois
+		89 text Recette — bac à sable
+		90 container
+			91 text Scaleway Génératif (Paris)  · créée le  11/01/2026
+		92 text Révoquée
+		93 text sk-test••••-••••-••••3f51
+		94 button Afficher
+		95 button Copier
+		96 button Renouveler
+		97 button Réactiver
+		98 text 0 k consommées plafond  5 k req./mois
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

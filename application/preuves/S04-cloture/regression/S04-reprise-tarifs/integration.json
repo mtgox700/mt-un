@@ -1,0 +1,338 @@
+{
+  "passed": true,
+  "count": 83,
+  "checks": [
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "empty_register",
+      "ok": true
+    },
+    {
+      "test": "read_only_import_denied",
+      "ok": true
+    },
+    {
+      "test": "import_saved",
+      "ok": true
+    },
+    {
+      "test": "no_user_created",
+      "ok": true
+    },
+    {
+      "test": "no_membership_created",
+      "ok": true
+    },
+    {
+      "test": "reloaded_from_database",
+      "ok": true
+    },
+    {
+      "test": "financial_fields_hidden",
+      "ok": true
+    },
+    {
+      "test": "financial_fields_authorized",
+      "ok": true
+    },
+    {
+      "test": "foreign_read_empty",
+      "ok": true
+    },
+    {
+      "test": "nonmember_admin_denied",
+      "ok": true
+    },
+    {
+      "test": "duplicate_case_denied",
+      "ok": true
+    },
+    {
+      "test": "atomic_import_denied",
+      "ok": true
+    },
+    {
+      "test": "atomic_no_partial_rows",
+      "ok": true
+    },
+    {
+      "test": "invalid_prenom",
+      "ok": true
+    },
+    {
+      "test": "invalid_email",
+      "ok": true
+    },
+    {
+      "test": "invalid_ent",
+      "ok": true
+    },
+    {
+      "test": "invalid_owner",
+      "ok": true
+    },
+    {
+      "test": "read_only_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "cross_org_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "edit_saved",
+      "ok": true
+    },
+    {
+      "test": "stale_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "new_value_read_by_second_actor",
+      "ok": true
+    },
+    {
+      "test": "profile_write_does_not_grant_finance",
+      "ok": true
+    },
+    {
+      "test": "nonfinancial_editor_allowed",
+      "ok": true
+    },
+    {
+      "test": "finance_preserved",
+      "ok": true
+    },
+    {
+      "test": "module_disabled_denied",
+      "ok": true
+    },
+    {
+      "test": "commercial_access_revoked_denied",
+      "ok": true
+    },
+    {
+      "test": "departed_member_denied",
+      "ok": true
+    },
+    {
+      "test": "private_table_denied",
+      "ok": true
+    },
+    {
+      "test": "historical_import_no_backfill",
+      "ok": true
+    },
+    {
+      "test": "reader_cannot_activate",
+      "ok": true
+    },
+    {
+      "test": "automatic_first_due",
+      "ok": true
+    },
+    {
+      "test": "no_payment_created",
+      "ok": true
+    },
+    {
+      "test": "schedule_persisted",
+      "ok": true
+    },
+    {
+      "test": "worker_replay_no_duplicate",
+      "ok": true
+    },
+    {
+      "test": "reader_schedule_hidden",
+      "ok": true
+    },
+    {
+      "test": "anonymous_pause_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_pause_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_pause_denied",
+      "ok": true
+    },
+    {
+      "test": "month_end_anchor",
+      "ok": true
+    },
+    {
+      "test": "annual_leap_anchor",
+      "ok": true
+    },
+    {
+      "test": "quarter_anchor",
+      "ok": true
+    },
+    {
+      "test": "future_not_generated_early",
+      "ok": true
+    },
+    {
+      "test": "authorized_pause",
+      "ok": true
+    },
+    {
+      "test": "paused_persisted",
+      "ok": true
+    },
+    {
+      "test": "pause_preserves_charges",
+      "ok": true
+    },
+    {
+      "test": "disabled_worker_no_write",
+      "ok": true
+    },
+    {
+      "test": "disabled_schedule_hidden",
+      "ok": true
+    },
+    {
+      "test": "existing_period_conflict",
+      "ok": true
+    },
+    {
+      "test": "conflict_keeps_single_entry",
+      "ok": true
+    },
+    {
+      "test": "changed_terms_require_review",
+      "ok": true
+    },
+    {
+      "test": "old_amount_preserved",
+      "ok": true
+    },
+    {
+      "test": "private_worker_denied",
+      "ok": true
+    },
+    {
+      "test": "cron_installed",
+      "ok": true
+    },
+    {
+      "test": "pause_for_resume",
+      "ok": true
+    },
+    {
+      "test": "anonymous_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "preview_no_write",
+      "ok": true
+    },
+    {
+      "test": "reader_resume_denied",
+      "ok": true
+    },
+    {
+      "test": "null_request_denied",
+      "ok": true
+    },
+    {
+      "test": "resume_authorized",
+      "ok": true
+    },
+    {
+      "test": "same_request_idempotent",
+      "ok": true
+    },
+    {
+      "test": "altered_replay_denied",
+      "ok": true
+    },
+    {
+      "test": "stale_revision_denied",
+      "ok": true
+    },
+    {
+      "test": "edit_tariff",
+      "ok": true
+    },
+    {
+      "test": "tariff_not_silently_applied",
+      "ok": true
+    },
+    {
+      "test": "both_tariffs_shown",
+      "ok": true
+    },
+    {
+      "test": "intervening_edit",
+      "ok": true
+    },
+    {
+      "test": "stale_member_denied",
+      "ok": true
+    },
+    {
+      "test": "new_tariff_confirmed",
+      "ok": true
+    },
+    {
+      "test": "historical_charge_unchanged",
+      "ok": true
+    },
+    {
+      "test": "audit_has_before_after",
+      "ok": true
+    },
+    {
+      "test": "resume_never_moves_backwards",
+      "ok": true
+    },
+    {
+      "test": "paused_periods_skipped",
+      "ok": true
+    },
+    {
+      "test": "disabled_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "resume_new_tariff_due_today",
+      "ok": true
+    },
+    {
+      "test": "worker_uses_confirmed_tariff",
+      "ok": true
+    },
+    {
+      "test": "no_missed_period_backfill",
+      "ok": true
+    }
+  ]
+}

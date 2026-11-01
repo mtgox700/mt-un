@@ -1,0 +1,78 @@
+{
+  "checks": [
+    {
+      "test": "login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "invalid_None_2",
+      "ok": true
+    },
+    {
+      "test": "invalid_unknown_3",
+      "ok": true
+    },
+    {
+      "test": "invalid_authorize_4",
+      "ok": true
+    },
+    {
+      "test": "invalid_authorize_5",
+      "ok": true
+    },
+    {
+      "test": "invalid_authorize_6",
+      "ok": true
+    },
+    {
+      "test": "invalid_authorize_7",
+      "ok": true
+    },
+    {
+      "test": "invalid_authorize_8",
+      "ok": true
+    },
+    {
+      "test": "invalid_activate_9",
+      "ok": true
+    },
+    {
+      "test": "invalid_activate_10",
+      "ok": true
+    },
+    {
+      "test": "invalid_approve_11",
+      "ok": true
+    },
+    {
+      "test": "authorized",
+      "ok": true
+    },
+    {
+      "test": "missing_read_denied",
+      "ok": true
+    },
+    {
+      "test": "revoked_membership_denied",
+      "ok": true
+    },
+    {
+      "test": "inactive_org_denied",
+      "ok": true
+    },
+    {
+      "test": "provider_error_sanitized",
+      "ok": true
+    },
+    {
+      "test": "policy_audit_without_content",
+      "ok": true
+    }
+  ],
+  "passed": true,
+  "count": 18
+}

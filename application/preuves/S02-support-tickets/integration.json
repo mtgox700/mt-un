@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "count": 25,
+  "checks": [
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "admin_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_create_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "admin_mfa",
+      "ok": true
+    },
+    {
+      "test": "empty_context",
+      "ok": true
+    },
+    {
+      "test": "empty_title_denied",
+      "ok": true
+    },
+    {
+      "test": "long_title_denied",
+      "ok": true
+    },
+    {
+      "test": "create_authorized",
+      "ok": true
+    },
+    {
+      "test": "foreign_context_denied",
+      "ok": true
+    },
+    {
+      "test": "forged_org_denied",
+      "ok": true
+    },
+    {
+      "test": "member_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "member_mfa",
+      "ok": true
+    },
+    {
+      "test": "other_member_ticket_hidden",
+      "ok": true
+    },
+    {
+      "test": "member_create",
+      "ok": true
+    },
+    {
+      "test": "own_ticket_visible",
+      "ok": true
+    },
+    {
+      "test": "manager_sees_two",
+      "ok": true
+    },
+    {
+      "test": "member_close_denied",
+      "ok": true
+    },
+    {
+      "test": "invalid_action_denied",
+      "ok": true
+    },
+    {
+      "test": "close_authorized",
+      "ok": true
+    },
+    {
+      "test": "double_close_denied",
+      "ok": true
+    },
+    {
+      "test": "reopen_without_access",
+      "ok": true
+    },
+    {
+      "test": "forged_grant_fields_denied",
+      "ok": true
+    },
+    {
+      "test": "no_implicit_resources",
+      "ok": true
+    }
+  ]
+}

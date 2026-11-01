@@ -1,0 +1,227 @@
+<sc-if value="{{ isAgenda }}" hint-placeholder-val="{{ false }}">
+        <div data-screen-label="Agenda" style="animation: fadeUp .45s ease-out;">
+          <span style="background: var(--infoBg); color: var(--infoTx2); font-size: 10.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: 5px 11px; border-radius: 99px;">Planification partagée</span>
+          <h1 style="font-family:var(--fTitle); font-size: 30px; margin: 13px 0 4px;">Agenda</h1>
+          <p style="margin: 0 0 22px; color: var(--ink5); font-size: 14px;">{{ ag.intro }} {{ ag.count }}.</p>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 14px;">
+            <div class="agenda-month-controls" style="display: flex; gap: 8px; align-items: center;">
+              <button onClick="{{ ag.prev }}" aria-label="Mois précédent" style="width: 36px; height: 36px; cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 12px; display: flex; align-items: center; justify-content: center;" style-hover="border-color: var(--acMid);">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ink4)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg>
+              </button>
+              <span style="font-family:var(--fTitle); font-size: 21px; min-width: 190px;">{{ ag.monthLabel }}</span>
+              <button onClick="{{ ag.next }}" aria-label="Mois suivant" style="width: 36px; height: 36px; cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 12px; display: flex; align-items: center; justify-content: center;" style-hover="border-color: var(--acMid);">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ink4)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+              </button>
+              <button onClick="{{ ag.today }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 9px 15px; font-size: 12.5px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Aujourd'hui</button>
+            </div>
+            <div style="display: flex; gap: 10px; align-items: center;">
+              <div role="tablist" aria-label="Affichage" style="display: flex; gap: 4px; background: var(--surf2); border-radius: 12px; padding: 4px;">
+                <sc-for list="{{ ag.views }}" as="v" hint-placeholder-count="2">
+                  <button onClick="{{ v.go }}" role="tab" aria-selected="{{ v.on }}" style="cursor: pointer; border: none; border-radius: 9px; padding: 8px 16px; font-size: 12.5px; font-weight: 700; background: {{ v.bg }}; color: {{ v.fg }};">{{ v.label }}</button>
+                </sc-for>
+              </div>
+              <button onClick="{{ ag.openNew }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 11px 20px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 13px; font-weight: 700;">Nouvel événement</button>
+            </div>
+          </div>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 7px; align-items: center; margin-bottom: 16px;">
+            <sc-for list="{{ ag.types }}" as="t" hint-placeholder-count="6">
+              <button onClick="{{ t.go }}" aria-pressed="{{ t.on }}" style="cursor: pointer; display: flex; align-items: center; gap: 7px; border: 1px solid {{ t.ring }}; border-radius: 99px; padding: 7px 13px; font-size: 12px; font-weight: 600; background: {{ t.bg }}; color: {{ t.fg }};">
+                <span aria-hidden="true" style="width: 7px; height: 7px; border-radius: 99px; background: {{ t.dot }};"></span>{{ t.label }}
+              </button>
+            </sc-for>
+            <sc-if value="{{ ag.filterOn }}" hint-placeholder-val="{{ false }}">
+              <button onClick="{{ ag.clearFilter }}" style="cursor: pointer; border: none; background: transparent; padding: 7px 4px; font-size: 12px; font-weight: 600; color: var(--ink5);" style-hover="color: var(--acTx);">Tout afficher</button>
+            </sc-if>
+          </div>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 18px; align-items: flex-start;">
+            <section style="flex: 1 1 720px; min-width: 0;">
+              <sc-if value="{{ ag.isMonth }}" hint-placeholder-val="{{ true }}">
+                <div style="background: var(--surface); border: 1px solid var(--bd); border-radius: 22px; padding: 14px;">
+                  <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 5px; margin-bottom: 6px;">
+                    <sc-for list="{{ ag.dayNames }}" as="dn" hint-placeholder-count="7">
+                      <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6); text-align: center; padding: 4px 0;">{{ dn.label }}</span>
+                    </sc-for>
+                  </div>
+                  <div style="display: flex; flex-direction: column; gap: 5px;">
+                    <sc-for list="{{ ag.weeks }}" as="w" hint-placeholder-count="6">
+                      <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 5px;">
+                        <sc-for list="{{ w.days }}" as="dy" hint-placeholder-count="7">
+                          <div style="min-width: 0; min-height: 92px; border: 1px solid {{ dy.ring }}; background: {{ dy.bg }}; border-radius: 12px; padding: 6px; display: flex; flex-direction: column; gap: 4px;">
+                            <button onClick="{{ dy.pick }}" aria-label="Sélectionner le {{ dy.iso }}" style="align-self: flex-start; cursor: pointer; border: none; background: transparent; padding: 1px 3px; font-size: 12.5px; font-weight: {{ dy.numWeight }}; color: {{ dy.numColor }};">{{ dy.num }}</button>
+                            <sc-for list="{{ dy.chips }}" as="c" hint-placeholder-count="0">
+                              <button onClick="{{ c.open }}" style="text-align: left; cursor: pointer; border: none; border-radius: 7px; padding: 4px 6px; background: {{ c.bg }}; color: {{ c.fg }}; font-size: 10.5px; font-weight: 600; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ c.label }}</button>
+                            </sc-for>
+                            <sc-if value="{{ dy.hasMore }}" hint-placeholder-val="{{ false }}">
+                              <span style="font-size: 10px; font-weight: 700; color: var(--ink6); padding-left: 4px;">{{ dy.more }}</span>
+                            </sc-if>
+                          </div>
+                        </sc-for>
+                      </div>
+                    </sc-for>
+                  </div>
+                </div>
+              </sc-if>
+
+              <sc-if value="{{ ag.isList }}" hint-placeholder-val="{{ false }}">
+                <div style="display: flex; flex-direction: column; gap: 9px;">
+                  <sc-for list="{{ ag.agenda }}" as="e" hint-placeholder-count="6">
+                    <button onClick="{{ e.open }}" style="text-align: left; cursor: pointer; display: flex; flex-wrap: wrap; gap: 13px; align-items: center; background: var(--surface); border: 1px solid var(--bd); border-radius: 18px; padding: 14px 17px; opacity: {{ e.op }};" style-hover="border-color: var(--acMid);">
+                      <span aria-hidden="true" style="width: 9px; height: 9px; flex: 0 0 auto; border-radius: 99px; background: {{ e.dot }};"></span>
+                      <span style="flex: 1 1 200px; min-width: 0;">
+                        <span style="display: block; font-size: 14px; font-weight: 600; color: var(--ink);">{{ e.title }}</span>
+                        <span style="display: block; font-size: 12.5px; color: var(--ink5); margin-top: 3px;">{{ e.when }} · {{ e.hours }}</span>
+                      </span>
+                      <span style="font-size: 12px; color: var(--ink5); min-width: 120px;">{{ e.lieu }}</span>
+                      <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; padding: 5px 11px; border-radius: 99px; background: {{ e.bg }}; color: {{ e.fg }};">{{ e.tLabel }}</span>
+                    </button>
+                  </sc-for>
+                </div>
+              </sc-if>
+            </section>
+
+            <aside style="flex: 0 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 16px;">
+              <sc-if value="{{ ag.newOpen }}" hint-placeholder-val="{{ false }}">
+                <section id="agenda-new" style="background: var(--surface); border: 1px solid var(--acBd2); border-radius: 22px; padding: 20px;">
+                  <div style="display: flex; gap: 12px; align-items: baseline; justify-content: space-between; margin-bottom: 16px;">
+                    <h2 style="font-family:var(--fTitle); font-size: 19px; margin: 0;">{{ ag.newTitle }}</h2>
+                    <button onClick="{{ ag.cancelNew }}" style="cursor: pointer; border: none; background: transparent; padding: 2px; font-size: 12px; font-weight: 600; color: var(--ink5);" style-hover="color: var(--danger);">Annuler</button>
+                  </div>
+                  <div style="display: flex; flex-direction: column; gap: 14px;">
+                    <label style="display: flex; flex-direction: column; gap: 6px;">
+                      <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Intitulé</span>
+                      <input value="{{ ag.f.title }}" onChange="{{ ag.f.onTitle }}" placeholder="Ex. CSE extraordinaire — réorganisation" style="width: 100%; background: var(--surf2); border: 1px solid var(--bd); border-radius: 13px; padding: 11px 13px; font-size: 13.5px; color: var(--ink); outline: none;" style-focus="border-color: var(--acMid);" />
+                    </label>
+                    <div>
+                      <span style="display: block; font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6); margin-bottom: 8px;">Nature</span>
+                      <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+                        <sc-for list="{{ ag.f.types }}" as="t" hint-placeholder-count="6">
+                          <button onClick="{{ t.go }}" aria-pressed="{{ t.on }}" style="cursor: pointer; border: 1.5px solid {{ t.ring }}; border-radius: 99px; padding: 8px 13px; font-size: 12px; font-weight: 600; background: {{ t.bg }}; color: {{ t.fg }};">{{ t.label }}</button>
+                        </sc-for>
+                      </div>
+                    </div>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 10px;">
+                      <label style="display: flex; flex-direction: column; gap: 6px;">
+                        <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Date</span>
+                        <input type="date" value="{{ ag.f.date }}" onChange="{{ ag.f.onDate }}" style="width: 100%; background: var(--surf2); border: 1px solid var(--bd); border-radius: 13px; padding: 10px 12px; font-size: 13px; color: var(--ink); outline: none;" style-focus="border-color: var(--acMid);" />
+                      </label>
+                      <label style="display: flex; flex-direction: column; gap: 6px;">
+                        <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Début</span>
+                        <input type="time" value="{{ ag.f.start }}" onChange="{{ ag.f.onStart }}" style="width: 100%; background: var(--surf2); border: 1px solid var(--bd); border-radius: 13px; padding: 10px 12px; font-size: 13px; color: var(--ink); outline: none;" style-focus="border-color: var(--acMid);" />
+                      </label>
+                      <label style="display: flex; flex-direction: column; gap: 6px;">
+                        <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Fin</span>
+                        <input type="time" value="{{ ag.f.end }}" onChange="{{ ag.f.onEnd }}" style="width: 100%; background: var(--surf2); border: 1px solid var(--bd); border-radius: 13px; padding: 10px 12px; font-size: 13px; color: var(--ink); outline: none;" style-focus="border-color: var(--acMid);" />
+                      </label>
+                    </div>
+                    <label style="display: flex; flex-direction: column; gap: 6px;">
+                      <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Lieu</span>
+                      <input value="{{ ag.f.lieu }}" onChange="{{ ag.f.onLieu }}" placeholder="Salle du conseil, local syndical, visioconférence…" style="width: 100%; background: var(--surf2); border: 1px solid var(--bd); border-radius: 13px; padding: 11px 13px; font-size: 13.5px; color: var(--ink); outline: none;" style-focus="border-color: var(--acMid);" />
+                    </label>
+                    <div>
+                      <span style="display: block; font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6); margin-bottom: 8px;">Visibilité</span>
+                      <div style="display: flex; flex-direction: column; gap: 6px;">
+                        <sc-for list="{{ ag.f.visibs }}" as="v" hint-placeholder-count="3">
+                          <button onClick="{{ v.go }}" aria-pressed="{{ v.on }}" style="text-align: left; cursor: pointer; border: 1.5px solid {{ v.ring }}; border-radius: 13px; padding: 10px 13px; font-size: 12.5px; font-weight: 600; background: {{ v.bg }}; color: {{ v.fg }};">{{ v.label }}</button>
+                        </sc-for>
+                      </div>
+                      <p style="margin: 8px 0 0; font-size: 11.5px; color: var(--ink5); line-height: 1.5;">{{ ag.f.visibNote }}</p>
+                    </div>
+                    <label style="display: flex; flex-direction: column; gap: 6px;">
+                      <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Note interne</span>
+                      <textarea value="{{ ag.f.notes }}" onChange="{{ ag.f.onNotes }}" placeholder="Préparation, documents à réunir, position à arrêter…" style="width: 100%; min-height: 74px; resize: vertical; background: var(--surf2); border: 1px solid var(--bd); border-radius: 13px; padding: 11px 13px; font-size: 13px; line-height: 1.6; color: var(--ink); outline: none; font-family: inherit;" style-focus="border-color: var(--acMid);"></textarea>
+                    </label>
+                    <div style="display: flex; gap: 12px; align-items: center; justify-content: space-between; background: var(--surf2); border-radius: 14px; padding: 11px 13px;">
+                      <span style="font-size: 13px; font-weight: 600; color: var(--ink2);">Rappel 48 h avant</span>
+                      <button onClick="{{ ag.f.toggleRappel }}" role="switch" aria-checked="{{ ag.f.rappelOn }}" aria-label="Rappel 48 h avant" style="width: 44px; height: 25px; flex: 0 0 auto; position: relative; cursor: pointer; border: none; border-radius: 99px; background: {{ ag.f.rappelBg }}; transition: background .18s;">
+                        <span aria-hidden="true" style="position: absolute; top: 3px; left: {{ ag.f.rappelLeft }}; width: 19px; height: 19px; border-radius: 99px; background: var(--surface); transition: left .18s;"></span>
+                      </button>
+                    </div>
+                    <button onClick="{{ ag.f.submit }}" style="width: 100%; cursor: pointer; border: none; border-radius: 99px; padding: 13px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 13.5px; font-weight: 700;">{{ ag.newCta }}</button>
+                  </div>
+                </section>
+              </sc-if>
+
+              <sc-if value="{{ ag.newClosed }}" hint-placeholder-val="{{ true }}">
+                <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 22px; padding: 20px;">
+                  <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: baseline; justify-content: space-between; margin-bottom: 14px;">
+                    <h2 style="font-family:var(--fTitle); font-size: 19px; margin: 0;">{{ ag.selLabel }}</h2>
+                    <button onClick="{{ ag.addHere }}" style="cursor: pointer; border: none; background: transparent; padding: 2px; font-size: 12px; font-weight: 700; color: var(--acTx);" style-hover="color: var(--acTx2);">+ Ajouter</button>
+                  </div>
+                  <div style="display: flex; flex-direction: column; gap: 9px;">
+                    <sc-for list="{{ ag.selList }}" as="e" hint-placeholder-count="2">
+                      <button onClick="{{ e.open }}" style="text-align: left; cursor: pointer; border: 1px solid {{ e.ring }}; background: var(--surf2); border-radius: 16px; padding: 13px 15px; display: flex; flex-direction: column; gap: 5px;" style-hover="border-color: var(--acMid);">
+                        <span style="display: flex; align-items: center; gap: 8px;">
+                          <span aria-hidden="true" style="width: 8px; height: 8px; border-radius: 99px; background: {{ e.dot }};"></span>
+                          <span style="font-size: 11px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--ink6);">{{ e.tLabel }}</span>
+                        </span>
+                        <span style="font-size: 14px; font-weight: 600; color: var(--ink);">{{ e.title }}</span>
+                        <span style="font-size: 12.5px; color: var(--ink5);">{{ e.hours }} · {{ e.lieu }}</span>
+                      </button>
+                    </sc-for>
+                    <sc-if value="{{ ag.selEmpty }}" hint-placeholder-val="{{ false }}">
+                      <p style="margin: 0; border: 1px dashed var(--bd2); border-radius: 16px; padding: 18px; font-size: 12.5px; color: var(--ink5); line-height: 1.6;">Aucun événement ce jour-là. Cliquez sur « Ajouter » pour inscrire une séance, une permanence ou une échéance.</p>
+                    </sc-if>
+                  </div>
+                </section>
+
+                <sc-if value="{{ ag.hasEvt }}" hint-placeholder-val="{{ false }}">
+                  <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 22px; padding: 20px;">
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                      <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 5px 11px; border-radius: 99px; background: {{ ag.evt.bg }}; color: {{ ag.evt.fg }};">{{ ag.evt.tLabel }}</span>
+                      <button onClick="{{ ag.evt.close }}" aria-label="Fermer le détail" style="cursor: pointer; border: none; background: transparent; padding: 2px; font-size: 12px; font-weight: 600; color: var(--ink5);" style-hover="color: var(--ink3);">Fermer</button>
+                    </div>
+                    <h2 style="font-family:var(--fTitle); font-size: 20px; margin: 0 0 12px;">{{ ag.evt.title }}</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-bottom: 14px;">
+                      <div style="background: var(--surf2); border-radius: 13px; padding: 11px 13px;">
+                        <div style="font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Quand</div>
+                        <div style="font-size: 13px; font-weight: 600; color: var(--ink2); margin-top: 4px;">{{ ag.evt.when }}</div>
+                        <div style="font-size: 12px; color: var(--ink5); margin-top: 2px;">{{ ag.evt.hours }}</div>
+                      </div>
+                      <div style="background: var(--surf2); border-radius: 13px; padding: 11px 13px;">
+                        <div style="font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Où</div>
+                        <div style="font-size: 13px; font-weight: 600; color: var(--ink2); margin-top: 4px; line-height: 1.4;">{{ ag.evt.lieu }}</div>
+                      </div>
+                      <div style="background: var(--surf2); border-radius: 13px; padding: 11px 13px;">
+                        <div style="font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Organisation</div>
+                        <div style="font-size: 13px; font-weight: 600; color: var(--ink2); margin-top: 4px; line-height: 1.4;">{{ ag.evt.org }}</div>
+                      </div>
+                    </div>
+                    <sc-if value="{{ ag.evt.hasInvites }}" hint-placeholder-val="{{ false }}">
+                      <div style="display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 14px;">
+                        <sc-for list="{{ ag.evt.invites }}" as="i" hint-placeholder-count="2">
+                          <span style="font-size: 12px; font-weight: 600; color: var(--acTx2); background: var(--acBg); border-radius: 99px; padding: 6px 12px;">{{ i.label }}</span>
+                        </sc-for>
+                      </div>
+                    </sc-if>
+                    <p style="margin: 0 0 6px; font-size: 13px; color: var(--ink4); line-height: 1.65;">{{ ag.evt.notes }}</p>
+                    <p style="margin: 0 0 16px; font-size: 11.5px; color: var(--ink6); line-height: 1.5;">Visibilité — {{ ag.evt.visib }} : {{ ag.evt.visibNote }}</p>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                      <button onClick="{{ ag.evt.edit }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 11px 16px; font-size: 12.5px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Modifier</button>
+                      <button onClick="{{ ag.evt.convoque }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 11px 18px; background: var(--inkSurf); color: #FFFFFF; font-size: 12.5px; font-weight: 700;">Convoquer</button>
+                      <button onClick="{{ ag.evt.odj }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 11px 16px; font-size: 12.5px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Ordre du jour</button>
+                      <button onClick="{{ ag.evt.ics }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 11px 16px; font-size: 12.5px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Exporter .ics</button>
+                      <button onClick="{{ ag.evt.remove }}" style="cursor: pointer; border: none; background: transparent; padding: 11px 6px; font-size: 12px; font-weight: 600; color: var(--ink5);" style-hover="color: var(--danger);">Retirer</button>
+                    </div>
+                  </section>
+                </sc-if>
+
+                <section style="background: var(--inkSurf); border-radius: 22px; padding: 20px; color: #FFFFFF;">
+                  <h2 style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--acMid); margin: 0 0 13px;">Prochaines échéances</h2>
+                  <div style="display: flex; flex-direction: column; gap: 4px;">
+                    <sc-for list="{{ ag.upcoming }}" as="u" hint-placeholder-count="4">
+                      <button onClick="{{ u.open }}" style="text-align: left; cursor: pointer; border: none; background: transparent; border-radius: 12px; padding: 9px 10px; display: flex; flex-direction: column; gap: 3px;" style-hover="background: rgba(255,255,255,.07);">
+                        <span style="font-size: 13.5px; font-weight: 600; color: #FFFFFF; line-height: 1.4;">{{ u.title }}</span>
+                        <span style="font-size: 12px; color: rgba(255,255,255,.66);">{{ u.when }}</span>
+                      </button>
+                    </sc-for>
+                  </div>
+                  <p style="margin: 14px 0 0; font-size: 11.5px; color: rgba(255,255,255,.55); line-height: 1.55;">{{ ag.rappelNote }}</p>
+                </section>
+              </sc-if>
+            </aside>
+          </div>
+        </div>
+      </sc-if>

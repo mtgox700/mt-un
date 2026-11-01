@@ -1,0 +1,143 @@
+[
+  {
+    "route": "accueil",
+    "width": 390,
+    "height": 844,
+    "headings": [
+      "Sophie Marchand",
+      "Mes dossiers",
+      "Prochaines échéances"
+    ],
+    "scroll": 382,
+    "rendered": true
+  },
+  {
+    "route": "dossiers",
+    "width": 390,
+    "height": 844,
+    "headings": [
+      "Suivi des demandes"
+    ],
+    "scroll": 382,
+    "rendered": true
+  },
+  {
+    "route": "dossier",
+    "width": 390,
+    "height": 844,
+    "headings": [
+      "Signalement — Service Logistique",
+      "Historique",
+      "Actions",
+      "Assigner à un élu"
+    ],
+    "scroll": 382,
+    "rendered": true
+  },
+  {
+    "route": "contacts",
+    "width": 390,
+    "height": 844,
+    "headings": [
+      "Contacts & groupes",
+      "Groupes de discussion",
+      "Contacts"
+    ],
+    "scroll": 382,
+    "rendered": true
+  },
+  {
+    "route": "accueil",
+    "width": 820,
+    "height": 1180,
+    "headings": [
+      "Sophie Marchand",
+      "Mes dossiers",
+      "Prochaines échéances"
+    ],
+    "scroll": 812,
+    "rendered": true
+  },
+  {
+    "route": "dossiers",
+    "width": 820,
+    "height": 1180,
+    "headings": [
+      "Suivi des demandes"
+    ],
+    "scroll": 812,
+    "rendered": true
+  },
+  {
+    "route": "dossier",
+    "width": 820,
+    "height": 1180,
+    "headings": [
+      "Signalement — Service Logistique",
+      "Historique",
+      "Actions",
+      "Assigner à un élu"
+    ],
+    "scroll": 812,
+    "rendered": true
+  },
+  {
+    "route": "contacts",
+    "width": 820,
+    "height": 1180,
+    "headings": [
+      "Contacts & groupes",
+      "Groupes de discussion",
+      "Contacts"
+    ],
+    "scroll": 812,
+    "rendered": true
+  },
+  {
+    "route": "accueil",
+    "width": 1440,
+    "height": 900,
+    "headings": [
+      "Sophie Marchand",
+      "Mes dossiers",
+      "Prochaines échéances"
+    ],
+    "scroll": 1432,
+    "rendered": true
+  },
+  {
+    "route": "dossiers",
+    "width": 1440,
+    "height": 900,
+    "headings": [
+      "Suivi des demandes"
+    ],
+    "scroll": 1432,
+    "rendered": true
+  },
+  {
+    "route": "dossier",
+    "width": 1440,
+    "height": 900,
+    "headings": [
+      "Signalement — Service Logistique",
+      "Historique",
+      "Actions",
+      "Assigner à un élu"
+    ],
+    "scroll": 1432,
+    "rendered": true
+  },
+  {
+    "route": "contacts",
+    "width": 1440,
+    "height": 900,
+    "headings": [
+      "Contacts & groupes",
+      "Groupes de discussion",
+      "Contacts"
+    ],
+    "scroll": 1432,
+    "rendered": true
+  }
+]

@@ -1,0 +1,168 @@
+Browser tab: 3, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 image uniion
+			5 button Réduire le menu
+			172 button Accueil
+				173 image
+				174 text Accueil
+			175 button Assistant
+				176 image
+				177 text Assistant
+			184 button Dossiers
+				185 image
+				186 text Dossiers
+			187 button Messages
+				188 image
+				189 text Messages
+			190 button Agenda
+				191 image
+				192 text Agenda
+			201 button Réunions
+				202 image
+				203 text Réunions
+			204 button Documents
+				205 image
+				206 text Documents
+			207 button Formations
+				208 image
+				209 text Formations
+			217 button Communication
+				218 image
+				219 text Communication
+			220 button Application mobile
+				221 image
+				222 text Application mobile
+			223 button Adhérents
+				224 image
+				225 text Adhérents
+			226 button Intranet
+				227 image
+				228 text Intranet
+			42 button Reporting
+				43 image
+				44 text Reporting
+			45 button Raccourcis
+				46 image
+				47 text Raccourcis
+			48 button Réglages
+				49 image
+				50 text Réglages
+			51 text ASSISTANT IA Une question de droit ?
+			52 button Ouvrir le chat
+			53 button SM Sophie Marchand Déléguée syndicale
+				54 text SM
+				55 text Sophie Marchand
+				56 text Déléguée syndicale
+			57 button Se déconnecter
+		58 container
+			165 button ← Retour
+			59 image
+			60 text field (settable)
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			64 button
+				65 image
+			66 button Se déconnecter
+				67 image
+		183 container
+			229 text SITE PUBLIC DE LA SECTION
+			230 heading Site internet, Value: 1
+				231 text Site internet
+			232 text 3 pages suivies · 1 en ligne, 0 en attente du webmaster
+			233 tab group Choisir le site à gérer
+				234 tab (selectable, settable, boolean) Intranet 6 pages intranet.section-valenciennes.fr, Value: 0
+Intranet
+6 pages
+intranet.section-valenciennes.fr
+				235 tab (selectable, settable, boolean) Site internet 3 pages section-valenciennes.fr, Value: 0
+Site internet
+3 pages
+section-valenciennes.fr
+			236 text OUVERT À TOUS · INDEXÉ Tout ce qui est publié ici est lisible par la direction, la presse et les moteurs de recherche : aucune donnée nominative de salarié, aucun élément de stratégie de négociation, aucune pièce de dossier. 1 pages en ligne 0 en attente webmaster 2 en préparation 0 retour à traiter
+			237 button Générateur de pages HTML Points clés → page rédigée, mise au gabarit du site, HTML propre.
+				238 text Générateur de pages HTML
+				239 text Points clés → page rédigée, mise au gabarit du site, HTML propre.
+			240 button Suivi des publications 0 demande en attente · 0 retour à traiter
+				241 text Suivi des publications
+				242 text 0 demande en attente · 0 retour à traiter
+			243 heading GABARITS DE PAGE, Value: 2
+				244 text GABARITS DE PAGE
+			245 button Page d'accueil Bandeau de mobilisation, trois combats en cours, appel à adhérer. VITRINE · PLEINE LARGEUR
+				246 text Page d'accueil
+				247 text Bandeau de mobilisation, trois combats en cours, appel à adhérer.
+				248 text VITRINE · PLEINE LARGEUR
+			249 button Communiqué de presse Date, lieu, position en trois paragraphes, contact presse en pied. CITABLE · FORMAT PRESSE
+				250 text Communiqué de presse
+				251 text Date, lieu, position en trois paragraphes, contact presse en pied.
+				252 text CITABLE · FORMAT PRESSE
+			253 button Page de campagne Une revendication, les chiffres qui la fondent, une pétition à signer. AVEC COMPTEUR DE SIGNATURES
+				254 text Page de campagne
+				255 text Une revendication, les chiffres qui la fondent, une pétition à signer.
+				256 text AVEC COMPTEUR DE SIGNATURES
+			257 button Adhérer Pourquoi se syndiquer, ce que couvre la cotisation, bulletin en ligne. AVEC FORMULAIRE
+				258 text Adhérer
+				259 text Pourquoi se syndiquer, ce que couvre la cotisation, bulletin en ligne.
+				260 text AVEC FORMULAIRE
+			261 button La section Bureau et mandats, implantation sur les sites, repères historiques. TROMBINOSCOPE
+				262 text La section
+				263 text Bureau et mandats, implantation sur les sites, repères historiques.
+				264 text TROMBINOSCOPE
+			265 button Contact & presse Local syndical, horaires de permanence, contact presse, plan d'accès. AVEC CARTE
+				266 text Contact & presse
+				267 text Local syndical, horaires de permanence, contact presse, plan d'accès.
+				268 text AVEC CARTE
+			269 heading ARBORESCENCE DU SITE, Value: 2
+				270 text ARBORESCENCE DU SITE
+			271 button Accueil 1 page / Vitrine : qui nous sommes, nos combats du moment, comment nous rejoindre.
+				272 text Accueil
+				273 text 1 page
+				274 text /
+				275 text Vitrine : qui nous sommes, nos combats du moment, comment nous rejoindre.
+			276 button Actualités publiques 1 page /actualites Communiqués destinés à la presse, aux salariés et aux sympathisants.
+				277 text Actualités publiques
+				278 text 1 page
+				279 text /actualites
+				280 text Communiqués destinés à la presse, aux salariés et aux sympathisants.
+			281 button Nos campagnes 0 page /campagnes Revendications en cours, pétitions, appels à mobilisation.
+				282 text Nos campagnes
+				283 text 0 page
+				284 text /campagnes
+				285 text Revendications en cours, pétitions, appels à mobilisation.
+			286 button Adhérer 1 page /adherer Pourquoi se syndiquer, montant de la cotisation, bulletin en ligne.
+				287 text Adhérer
+				288 text 1 page
+				289 text /adherer
+				290 text Pourquoi se syndiquer, montant de la cotisation, bulletin en ligne.
+			291 button La section 0 page /la-section Bureau, mandats, implantation, histoire de la section.
+				292 text La section
+				293 text 0 page
+				294 text /la-section
+				295 text Bureau, mandats, implantation, histoire de la section.
+			296 button Contact & presse 0 page /contact Coordonnées du local, contact presse, formulaire public.
+				297 text Contact & presse
+				298 text 0 page
+				299 text /contact
+				300 text Coordonnées du local, contact presse, formulaire public.
+			301 heading PAGES DE SECTION-VALENCIENNES.FR, Value: 2
+				302 text PAGES DE  SECTION-VALENCIENNES.FR
+			303 text 3 pages
+			304 button Accueil — Section syndicale Métallurgie Valenciennes Accueil · Karim Belkacem · modifiée il y a 11 j PUBLIÉE
+				305 text Accueil — Section syndicale Métallurgie Valenciennes
+				306 text Accueil · Karim Belkacem · modifiée il y a 11 j
+				307 text PUBLIÉE
+			308 button Supprimer
+			309 button Salaires : la direction s'arrête à 0,8 %, nous continuons Actualités publiques · Sophie Marchand · modifiée aujourd'hui RELUE
+				310 text Salaires : la direction s'arrête à 0,8 %, nous continuons
+				311 text Actualités publiques · Sophie Marchand · modifiée aujourd'hui
+				312 text RELUE
+			313 button Supprimer
+			314 button Adhérer à la section Adhérer · Karim Belkacem · modifiée il y a 4 j BROUILLON
+				315 text Adhérer à la section
+				316 text Adhérer · Karim Belkacem · modifiée il y a 4 j
+				317 text BROUILLON
+			318 button Supprimer
+			319 text Vous éditez le site public au titre du rôle « communication ». Toute page y passe par une relecture par un pair avant transmission au webmaster : elle engage la section vis-à-vis de la direction et de la presse.
+			320 button Charte de ce site
+
+The focused UI element is 1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

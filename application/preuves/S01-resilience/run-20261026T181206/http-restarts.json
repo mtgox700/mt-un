@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "test": "durable_bootstrap",
+      "ok": true
+    },
+    {
+      "test": "wrong_password_preserves_retry",
+      "ok": true
+    },
+    {
+      "test": "durable_login",
+      "ok": true
+    },
+    {
+      "test": "initial_own_access",
+      "ok": true
+    },
+    {
+      "test": "session_survives_process_restart",
+      "ok": true
+    },
+    {
+      "test": "opaque_cookie_preserved",
+      "ok": true
+    },
+    {
+      "test": "csrf_preserved",
+      "ok": true
+    },
+    {
+      "test": "own_access_after_restart",
+      "ok": true
+    },
+    {
+      "test": "foreign_access_still_denied",
+      "ok": true
+    },
+    {
+      "test": "csrf_still_required",
+      "ok": true
+    },
+    {
+      "test": "logout_committed",
+      "ok": true
+    },
+    {
+      "test": "logout_survives_process_restart",
+      "ok": true
+    },
+    {
+      "test": "business_denied_after_logout_restart",
+      "ok": true
+    }
+  ],
+  "passed": true,
+  "count": 13,
+  "real_process_restarts": 2
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "phase": "pdf",
+    "width": 1440,
+    "height": 900,
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "phase": "pdf",
+    "width": 768,
+    "height": 1024,
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "phase": "pdf",
+    "width": 390,
+    "height": 844,
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "phase": "image",
+    "width": 390,
+    "height": 844,
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "phase": "image",
+    "width": 768,
+    "height": 1024,
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "phase": "image",
+    "width": 1440,
+    "height": 900,
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "phase": "revoque",
+    "width": 1440,
+    "height": 900,
+    "revoked": true,
+    "previewButtons": 0,
+    "downloadButtons": 0,
+    "overflow": false
+  },
+  {
+    "phase": "revoque",
+    "width": 768,
+    "height": 1024,
+    "revoked": true,
+    "previewButtons": 0,
+    "downloadButtons": 0,
+    "overflow": false
+  },
+  {
+    "phase": "revoque",
+    "width": 390,
+    "height": 844,
+    "revoked": true,
+    "previewButtons": 0,
+    "downloadButtons": 0,
+    "overflow": false
+  }
+]

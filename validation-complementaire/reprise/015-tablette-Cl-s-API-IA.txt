@@ -1,0 +1,60 @@
+Browser tab: 8, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		63 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 text uniion CONSOLE D'ADMINISTRATION
+					76 button Supervision
+						77 image
+						78 text Supervision
+					79 button Organisations
+						80 image
+						81 text Organisations
+					73 button Utilisateurs
+						74 image
+						75 text Utilisateurs
+					82 button Clés API IA
+						83 image
+						84 text Clés API IA
+					49 button Éditeur de l’application
+						50 image
+						51 text Éditeur de l’application
+					52 button Abonnements et paiements
+						53 image
+						54 text Abonnements et paiements
+					67 button Journal d’audit
+						68 image
+						69 text Journal d’audit
+					33 text SA Super administrateur admin@uniion.fr
+					34 button Se déconnecter
+				35 container
+					36 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+					85 heading Clés API IA, Value: 1
+						86 text Clés API IA
+					87 text Les clés ne quittent jamais la passerelle serveur. Affichage et copie tracés.
+					88 button Créer une clé
+					89 text Production — assistant juridique Mistral (Paris)  · créée le  04/03/2026 Active sk-live••••-••••-••••77b2
+					90 button Afficher
+					91 button Copier
+					92 button Renouveler
+					93 button Révoquer
+					94 text 26 k consommées plafond  40 k req./mois Production — synthèse de documents Mistral (Paris)  · créée le  19/05/2026 Active sk-live••••-••••-••••8ee1
+					95 button Afficher
+					96 button Copier
+					97 button Renouveler
+					98 button Révoquer
+					99 text 9 k consommées plafond  25 k req./mois Recette — bac à sable Scaleway Génératif (Paris)  · créée le  11/01/2026 Révoquée sk-test••••-••••-••••3f51
+					100 button Afficher
+					101 button Copier
+					102 button Renouveler
+					103 button Réactiver
+					104 text 0 k consommées plafond  5 k req./mois
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

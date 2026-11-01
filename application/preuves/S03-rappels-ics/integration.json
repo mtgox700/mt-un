@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "count": 20,
+  "checks": [
+    {
+      "test": "anonymous_export_denied",
+      "ok": true
+    },
+    {
+      "test": "aal1_export_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "create_due",
+      "ok": true
+    },
+    {
+      "test": "authorized_ics",
+      "ok": true
+    },
+    {
+      "test": "no_download_permission_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_org_denied",
+      "ok": true
+    },
+    {
+      "test": "forged_event_denied",
+      "ok": true
+    },
+    {
+      "test": "two_recipient_jobs",
+      "ok": true
+    },
+    {
+      "test": "two_deliveries",
+      "ok": true
+    },
+    {
+      "test": "authorized_notification",
+      "ok": true
+    },
+    {
+      "test": "reader_notification",
+      "ok": true
+    },
+    {
+      "test": "no_duplicate_jobs",
+      "ok": true
+    },
+    {
+      "test": "second_due",
+      "ok": true
+    },
+    {
+      "test": "revoked_job_cancelled",
+      "ok": true
+    },
+    {
+      "test": "revoked_notifications_denied",
+      "ok": true
+    },
+    {
+      "test": "optout_notification_hidden",
+      "ok": true
+    },
+    {
+      "test": "failure_retained",
+      "ok": true
+    },
+    {
+      "test": "failure_not_blindly_retried",
+      "ok": true
+    }
+  ]
+}

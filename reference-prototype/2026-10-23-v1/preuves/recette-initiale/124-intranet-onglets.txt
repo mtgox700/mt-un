@@ -1,0 +1,183 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			305 button Accueil
+				306 image
+				307 text Accueil
+			329 button Assistant
+				330 image
+				331 text Assistant
+			320 button Dossiers
+				321 image
+				322 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			326 button Réunions
+				327 image
+				328 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			165 button Formations
+				166 image
+				167 text Formations
+			302 button Communication
+				303 image
+				304 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			332 button Intranet
+				333 image
+				334 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			162 button Raccourcis
+				163 image
+				164 text Raccourcis
+			308 button Réglages
+				309 image
+				310 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable) RECETTE
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		335 container
+			336 text SITE INTERNE DE L'ORGANISATION
+			337 heading Intranet, Value: 1
+				338 text Intranet
+			339 text 6 pages suivies · 1 en ligne, 2 en attente du webmaster
+			340 tab group Choisir le site à gérer
+				341 tab (selectable, settable, boolean) Intranet 6 pages intranet.section-valenciennes.fr, Value: 0
+Intranet
+6 pages
+intranet.section-valenciennes.fr
+				342 tab (selectable, settable, boolean) Site internet 3 pages section-valenciennes.fr, Value: 0
+Site internet
+3 pages
+section-valenciennes.fr
+			343 text SALARIÉS AUTHENTIFIÉS Vous pouvez y publier des comptes rendus de séance, des positions de négociation et des documents de travail : l'audience est interne et identifiée. 1 pages en ligne 2 en attente webmaster 2 en préparation 1 retour à traiter
+			344 button Générateur de pages HTML Points clés → page rédigée, mise au gabarit du site, HTML propre.
+				345 text Générateur de pages HTML
+				346 text Points clés → page rédigée, mise au gabarit du site, HTML propre.
+			347 button Suivi des publications 2 demandes en attente · 1 retour à traiter
+				348 text Suivi des publications
+				349 text 2 demandes en attente · 1 retour à traiter
+			350 heading GABARITS DE PAGE, Value: 2
+				351 text GABARITS DE PAGE
+			352 button Actualité Un fait récent, un chapô, deux ou trois sections courtes. RUBRIQUE ACTUALITÉS
+				353 text Actualité
+				354 text Un fait récent, un chapô, deux ou trois sections courtes.
+				355 text RUBRIQUE ACTUALITÉS
+			356 button Communiqué interne Position de la section, ton institutionnel, signature du bureau. UNE PAGE
+				357 text Communiqué interne
+				358 text Position de la section, ton institutionnel, signature du bureau.
+				359 text UNE PAGE
+			360 button Fiche pratique Ce que dit le texte, ce que ça change pour vous, qui contacter. RUBRIQUE VOS DROITS
+				361 text Fiche pratique
+				362 text Ce que dit le texte, ce que ça change pour vous, qui contacter.
+				363 text RUBRIQUE VOS DROITS
+			364 button Questions-réponses Questions fréquentes sur un dispositif ou un accord, en blocs repliables. BLOCS REPLIABLES
+				365 text Questions-réponses
+				366 text Questions fréquentes sur un dispositif ou un accord, en blocs repliables.
+				367 text BLOCS REPLIABLES
+			368 button Événement Réunion d'information, permanence, assemblée : date, lieu, inscription. AVEC INSCRIPTION
+				369 text Événement
+				370 text Réunion d'information, permanence, assemblée : date, lieu, inscription.
+				371 text AVEC INSCRIPTION
+			372 button Compte rendu de séance Repris depuis un PV approuvé, allégé pour les salariés. DEPUIS RÉUNIONS
+				373 text Compte rendu de séance
+				374 text Repris depuis un PV approuvé, allégé pour les salariés.
+				375 text DEPUIS RÉUNIONS
+			376 heading ARBORESCENCE DU SITE, Value: 2
+				377 text ARBORESCENCE DU SITE
+			378 button Actualités 3 pages /intranet/actualites Communiqués, comptes rendus de séance, mobilisations.
+				379 text Actualités
+				380 text 3 pages
+				381 text /intranet/actualites
+				382 text Communiqués, comptes rendus de séance, mobilisations.
+			383 button Vos droits 1 page /intranet/vos-droits Fiches pratiques : congés, télétravail, temps de travail.
+				384 text Vos droits
+				385 text 1 page
+				386 text /intranet/vos-droits
+				387 text Fiches pratiques : congés, télétravail, temps de travail.
+			388 button La section 1 page /intranet/la-section Élus et mandats, permanences, procès-verbaux, comptes.
+				389 text La section
+				390 text 1 page
+				391 text /intranet/la-section
+				392 text Élus et mandats, permanences, procès-verbaux, comptes.
+			393 button Négociations 0 page /intranet/negociations NAO, accords en cours, positions déposées.
+				394 text Négociations
+				395 text 0 page
+				396 text /intranet/negociations
+				397 text NAO, accords en cours, positions déposées.
+			398 button Loisirs & ASC 1 page /intranet/asc Chèques vacances, billetterie, arbre de Noël.
+				399 text Loisirs & ASC
+				400 text 1 page
+				401 text /intranet/asc
+				402 text Chèques vacances, billetterie, arbre de Noël.
+			403 button Nous contacter 0 page /intranet/contacts Formulaire de saisine, coordonnées, alerte confidentielle.
+				404 text Nous contacter
+				405 text 0 page
+				406 text /intranet/contacts
+				407 text Formulaire de saisine, coordonnées, alerte confidentielle.
+			408 heading PAGES DE INTRANET.SECTION-VALENCIENNES.FR, Value: 2
+				409 text PAGES DE  INTRANET.SECTION-VALENCIENNES.FR
+			410 text 6 pages
+			411 button Réunion de préparation : démonstration fictive Actualités · Sophie Marchand · modifiée à l'instant EN ATTENTE WEBMASTER
+				412 text Réunion de préparation : démonstration fictive
+				413 text Actualités · Sophie Marchand · modifiée à l'instant
+				414 text EN ATTENTE WEBMASTER
+			415 button Supprimer
+			416 button NAO 2027 : où en sont les négociations ? Actualités · Sophie Marchand · modifiée il y a 12 min BROUILLON
+				417 text NAO 2027 : où en sont les négociations ?
+				418 text Actualités · Sophie Marchand · modifiée il y a 12 min
+				419 text BROUILLON
+			420 button Supprimer
+			421 button Sécurité atelier B : ce que le CSE a obtenu Actualités · Jean-Paul Deniau · modifiée hier RELUE
+				422 text Sécurité atelier B : ce que le CSE a obtenu
+				423 text Actualités · Jean-Paul Deniau · modifiée hier
+				424 text RELUE
+			425 button Supprimer
+			426 button Chèques vacances 2026 : mode d'emploi Loisirs & ASC · Karim Belkacem · modifiée il y a 2 j EN ATTENTE WEBMASTER
+				427 text Chèques vacances 2026 : mode d'emploi
+				428 text Loisirs & ASC · Karim Belkacem · modifiée il y a 2 j
+				429 text EN ATTENTE WEBMASTER
+			430 button Supprimer
+			431 button Permanences des élus — rentrée 2026 La section · Sophie Marchand · modifiée il y a 6 j PUBLIÉE
+				432 text Permanences des élus — rentrée 2026
+				433 text La section · Sophie Marchand · modifiée il y a 6 j
+				434 text PUBLIÉE
+			435 button Supprimer
+			436 button Télétravail : vos droits après l'avenant Vos droits · Sophie Marchand · modifiée il y a 3 j RETOURNÉE
+				437 text Télétravail : vos droits après l'avenant
+				438 text Vos droits · Sophie Marchand · modifiée il y a 3 j
+				439 text RETOURNÉE
+			440 button Supprimer
+			441 text Vous éditez l'intranet au titre du rôle « communication ». 3 adhérents disposent de ce rôle ; les autres ont un accès en lecture.
+			442 button Charte de ce site
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

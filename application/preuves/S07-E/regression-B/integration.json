@@ -1,0 +1,222 @@
+{
+  "passed": true,
+  "count": 54,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "member_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "late_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "no_create_permission_denied",
+      "ok": true
+    },
+    {
+      "test": "group_created",
+      "ok": true
+    },
+    {
+      "test": "creation_replayed_once",
+      "ok": true
+    },
+    {
+      "test": "creation_reuse_changed_denied",
+      "ok": true
+    },
+    {
+      "test": "creator_admin",
+      "ok": true
+    },
+    {
+      "test": "org_admin_not_group_admin",
+      "ok": true
+    },
+    {
+      "test": "member_change_denied",
+      "ok": true
+    },
+    {
+      "test": "old_message_one",
+      "ok": true
+    },
+    {
+      "test": "old_reply_two",
+      "ok": true
+    },
+    {
+      "test": "add_member",
+      "ok": true
+    },
+    {
+      "test": "arrival_hides_old",
+      "ok": true
+    },
+    {
+      "test": "arrival_sequence_boundary",
+      "ok": true
+    },
+    {
+      "test": "stale_members_change_denied",
+      "ok": true
+    },
+    {
+      "test": "future_reply_sent",
+      "ok": true
+    },
+    {
+      "test": "reply_source_hidden",
+      "ok": true
+    },
+    {
+      "test": "history_without_authority_denied",
+      "ok": true
+    },
+    {
+      "test": "history_granted_one",
+      "ok": true
+    },
+    {
+      "test": "selected_only_and_quote_filtered",
+      "ok": true
+    },
+    {
+      "test": "history_granted_source",
+      "ok": true
+    },
+    {
+      "test": "quote_visible_after_grant",
+      "ok": true
+    },
+    {
+      "test": "history_revoke",
+      "ok": true
+    },
+    {
+      "test": "revoked_history_hidden",
+      "ok": true
+    },
+    {
+      "test": "history_again",
+      "ok": true
+    },
+    {
+      "test": "remove_member",
+      "ok": true
+    },
+    {
+      "test": "removed_read_denied",
+      "ok": true
+    },
+    {
+      "test": "removed_send_denied",
+      "ok": true
+    },
+    {
+      "test": "removed_list_hidden",
+      "ok": true
+    },
+    {
+      "test": "message_during_absence",
+      "ok": true
+    },
+    {
+      "test": "reinvite",
+      "ok": true
+    },
+    {
+      "test": "fresh_episode",
+      "ok": true
+    },
+    {
+      "test": "reinvite_no_restored_history",
+      "ok": true
+    },
+    {
+      "test": "old_episode_grant_denied",
+      "ok": true
+    },
+    {
+      "test": "send_after_reinvite",
+      "ok": true
+    },
+    {
+      "test": "new_boundary_only",
+      "ok": true
+    },
+    {
+      "test": "cannot_grant_beyond_own_access",
+      "ok": true
+    },
+    {
+      "test": "cannot_self_grant",
+      "ok": true
+    },
+    {
+      "test": "cannot_promote_self",
+      "ok": true
+    },
+    {
+      "test": "creator_cannot_target_self_role",
+      "ok": true
+    },
+    {
+      "test": "last_admin_cannot_leave",
+      "ok": true
+    },
+    {
+      "test": "promote_member",
+      "ok": true
+    },
+    {
+      "test": "promoted_can_manage",
+      "ok": true
+    },
+    {
+      "test": "promoted_has_no_history_authority",
+      "ok": true
+    },
+    {
+      "test": "second_admin_can_leave",
+      "ok": true
+    },
+    {
+      "test": "left_admin_denied",
+      "ok": true
+    },
+    {
+      "test": "readd_admin_as_regular",
+      "ok": true
+    },
+    {
+      "test": "role_not_restored",
+      "ok": true
+    },
+    {
+      "test": "concurrent_remove_effective",
+      "ok": true
+    },
+    {
+      "test": "ui_group_ready",
+      "ok": true
+    }
+  ]
+}

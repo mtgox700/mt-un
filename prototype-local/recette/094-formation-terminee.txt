@@ -1,0 +1,125 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			159 button Formations
+				160 image
+				161 text Formations
+			150 button Communication
+				151 image
+				152 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			162 button Raccourcis
+				163 image
+				164 text Raccourcis
+			144 button Réglages
+				145 image
+				146 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			165 text MONTÉE EN COMPÉTENCE
+			166 heading Formations, Value: 1
+				167 text Formations
+			168 text Deux catalogues pour vous former au mandat, et un mode où unii construit avec vous une session sur mesure, au rythme que vous choisissez.
+			169 tab group Formations
+				170 tab (selectable, settable, boolean) Catalogue IA 20, Value: 0
+				171 tab (selectable, settable, boolean) Formations généralistes 31, Value: 0
+				172 tab (selected, settable, boolean) Se former avec unii 1, Value: 1
+			173 button ← Mes sessions
+			174 text Premiers pas avec l’IA dans votre mandat CSE
+			175 text 30 min · Découverte · Élu·e CSE
+			176 text 100%
+			177 content list
+				178 button ✓ 1. Comprendre l’IA générative et ses limites 7 min
+					179 text ✓
+					180 text 1. Comprendre l’IA générative et ses limites
+					181 text 7 min
+				182 button ✓ 2. Choisir un usage utile et protéger les informations 8 min
+					183 text ✓
+					184 text 2. Choisir un usage utile et protéger les informations
+					185 text 8 min
+				186 button ✓ 3. Construire votre premier prompt syndical 7 min
+					187 text ✓
+					188 text 3. Construire votre premier prompt syndical
+					189 text 7 min
+				190 button ✓ 4. Contrôler le résultat avant de l’utiliser 8 min
+					191 text ✓
+					192 text 4. Contrôler le résultat avant de l’utiliser
+					193 text 8 min
+			229 heading Session terminée, Value: 2
+				230 text Session terminée
+			231 text Quiz : 4 bonnes réponses sur 4 · 4 modules suivis · 30 min
+			232 text À RETENIR
+			233 content list
+				234 text Utilisez l’IA pour préparer un travail, puis validez le résultat vous-même.
+				235 text Définissez une tâche courte, un corpus limité et un format précis.
+				236 text Ne transmettez pas de données personnelles inutiles ; conservez les jetons entre crochets.
+				237 text Exigez les passages sources et signalez explicitement les informations absentes.
+				238 text Distinguez toujours une disposition, une proposition, une revendication et un accord.
+			239 container
+				240 text Sources ·  Sources
+ACCORD TÉLÉTRAVAIL D’ENTREPRISE DU 12 AOÛT 2026 — extrait fourni, passages sur les jours éligibles, le matériel et les refus ; articles et pagination non fournis — emplacement interne : corpus du présent échange. Source non vérifiée : contrôlez le texte signé et son applicabilité.
+DOSSIER NAO 2027 — état des séances des 12 et 26 août, rubriques proposition de la direction et revendications de la délégation ; pagination non fournie — emplacement interne : corpus du présent échange. Source non vérifiée : contrôlez la version complète et les suites des négociations.
+PV DU CSE DE JUILLET 2026 et registre courant — version fournie, passage sur l’accident de l’atelier B du 25 août ; date propre du registre et pagination non fournies — emplacement interne : corpus du présent échange. Source non vérifiée : distinguez le PV du registre et contrôlez leurs dates.
+Notions générales sur l’IA générative et précautions d’anonymisation — source non vérifiée ; aucune documentation technique fournie ou consultée — contrôlez la documentation de l’outil et les consignes de votre organisation avant un usage réel.
+Les consignes, prompts et calendriers sont des propositions pédagogiques. Les exemples fictifs ne décrivent pas des événements établis ; les extraits juridiques du corpus ne sont pas validés par cette formation.
+			241 button Attestation de suivi
+			242 button Revoir depuis le début
+			243 button Nouvelle session
+			244 button Formations du catalogue
+			224 text unii Une question sur ce module ?
+			227 text Donne un exemple fictif de prompt pour préparer une réunion.
+			228 text unii réfléchit…
+			225 text field (settable) Question à unii
+			226 button Demander
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

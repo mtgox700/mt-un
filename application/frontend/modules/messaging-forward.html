@@ -1,0 +1,25 @@
+<sc-if value="{{ fwm.open }}" hint-placeholder-val="{{ false }}">
+  <div style="position: fixed; inset: 0; z-index: 86; background: hsl(var(--shC) / .62); backdrop-filter: blur(3px); display: flex; align-items: center; justify-content: center; padding: 18px;">
+    <div role="dialog" aria-modal="true" aria-label="{{ fwm.title }}" style="width: 100%; max-width: 480px; max-height: 92vh; overflow: auto; background: var(--surface); border-radius: 24px; animation: scaleIn .22s ease-out; padding: 24px; display: flex; flex-direction: column; gap: 12px;">
+      <h2 style="font-family: var(--fTitle); font-size: 22px; margin: 0; color: var(--ink);">{{ fwm.title }}</h2>
+      <div style="border-left: 3px solid var(--ac); background: var(--surf2); border-radius: 4px 10px 10px 4px; padding: 9px 12px;"><div style="font-size: 12px; font-weight: 700; color: var(--acTx);">{{ fwm.head }}</div><div style="font-size: 13px; color: var(--ink3); line-height: 1.5; max-height: 60px; overflow: hidden;">{{ fwm.text }}</div></div>
+      <sc-if value="{{ fwm.notice }}"><p style="font-size:12.5px;color:var(--ink5);margin:0;">{{ fwm.notice }}</p></sc-if>
+      <sc-if value="{{ fwm.error }}"><p role="alert" style="font-size:13px;color:var(--danger);margin:0;">{{ fwm.error }}</p></sc-if>
+      <div style="display: flex; align-items: center; gap: 9px; background: var(--surf2); border: 1px solid var(--bd2); border-radius: 12px; padding: 0 12px; color: var(--ink6);"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg><input value="{{ fwm.q }}" onChange="{{ fwm.onQ }}" placeholder="Rechercher une discussion…" style="flex: 1; min-width: 0; border: none; background: transparent; outline: none; font-size: 13.5px; padding: 10px 0; color: var(--ink);" /></div>
+      <div style="max-height: 300px; overflow-y: auto; border: 1px solid var(--bd); border-radius: 14px;">
+        <sc-for list="{{ fwm.rows }}" as="x" hint-placeholder-count="5">
+          <button onClick="{{ x.toggle }}" aria-pressed="{{ x.on }}" style="width: 100%; text-align: left; cursor: pointer; display: flex; gap: 11px; align-items: center; background: transparent; border: none; border-bottom: 1px solid var(--bd); padding: 9px 12px; color: inherit;" style-hover="background: var(--surf2);">
+            <span aria-hidden="true" style="width: 20px; height: 20px; flex: 0 0 20px; border-radius: 6px; border: 2px solid {{ x.boxBd }}; background: {{ x.boxBg }}; color: #FFFFFF; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ x.check }}</span><span aria-hidden="true" style="width: 34px; height: 34px; flex: 0 0 34px; border-radius: 99px; background: {{ x.avatarBg }}; color: #FFFFFF; font-size: 11px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ x.initials }}</span>
+            <span style="flex: 1; min-width: 0;"><span style="display: block; font-size: 13.5px; font-weight: 600;">{{ x.name }}</span><span style="display: block; font-size: 12px; color: var(--ink5);">{{ x.sub }}</span></span>
+          </button>
+        </sc-for>
+      </div>
+      <sc-if value="{{ fwm.more }}"><button onClick="{{ fwm.moreGo }}" style="cursor:pointer;border:1px solid var(--bd);background:var(--surface);border-radius:10px;padding:9px;">Autres discussions</button></sc-if>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+        <span style="font-size: 12.5px; color: var(--ink5);">{{ fwm.count }}</span>
+        <button onClick="{{ fwm.close }}" style="margin-left: auto; cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 11px 16px; font-size: 13px; font-weight: 600; color: var(--ink4);">Annuler</button>
+        <button onClick="{{ fwm.send }}" disabled="{{ fwm.busy }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 12px 20px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 13.5px; font-weight: 700;">{{ fwm.sendLabel }}</button>
+      </div>
+    </div>
+  </div>
+</sc-if>

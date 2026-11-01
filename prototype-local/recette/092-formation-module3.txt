@@ -1,0 +1,129 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			159 button Formations
+				160 image
+				161 text Formations
+			150 button Communication
+				151 image
+				152 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			162 button Raccourcis
+				163 image
+				164 text Raccourcis
+			144 button Réglages
+				145 image
+				146 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			165 text MONTÉE EN COMPÉTENCE
+			166 heading Formations, Value: 1
+				167 text Formations
+			168 text Deux catalogues pour vous former au mandat, et un mode où unii construit avec vous une session sur mesure, au rythme que vous choisissez.
+			169 tab group Formations
+				170 tab (selectable, settable, boolean) Catalogue IA 20, Value: 0
+				171 tab (selectable, settable, boolean) Formations généralistes 31, Value: 0
+				172 tab (selected, settable, boolean) Se former avec unii 1, Value: 1
+			173 button ← Mes sessions
+			174 text Premiers pas avec l’IA dans votre mandat CSE
+			175 text 30 min · Découverte · Élu·e CSE
+			176 text 50%
+			177 content list
+				178 button ✓ 1. Comprendre l’IA générative et ses limites 7 min
+					179 text ✓
+					180 text 1. Comprendre l’IA générative et ses limites
+					181 text 7 min
+				182 button ✓ 2. Choisir un usage utile et protéger les informations 8 min
+					183 text ✓
+					184 text 2. Choisir un usage utile et protéger les informations
+					185 text 8 min
+				186 button 3 3. Construire votre premier prompt syndical 7 min
+					187 text 3
+					188 text 3. Construire votre premier prompt syndical
+					189 text 7 min
+				190 button 4 4. Contrôler le résultat avant de l’utiliser 8 min
+					191 text 4
+					192 text 4. Contrôler le résultat avant de l’utiliser
+					193 text 8 min
+			196 text MODULE 3 SUR 4 · 7 MIN
+			197 heading 3. Construire votre premier prompt syndical, Value: 2
+				198 text 3. Construire votre premier prompt syndical
+			199 text Objectif : 
+			200 text Rédiger une consigne précisant la tâche, le corpus, les limites et le format.
+			201 heading Donner une consigne structurée, Value: 3
+				202 text Donner une consigne structurée
+			203 text Construisez votre prompt en quatre blocs : la tâche demandée, le document à utiliser, les limites à respecter et le format attendu. Par exemple, demandez une fiche de préparation plutôt qu’une réponse générale sur le télétravail. Ajoutez : « N’invente aucune disposition ; indique non précisé lorsque l’extrait ne répond pas. » Cette structure est une méthode pédagogique proposée pour faciliter votre relecture, sans promettre un résultat exact.
+			204 heading Exiger une trace pour chaque information, Value: 3
+				205 text Exiger une trace pour chaque information
+			206 text Demandez de rattacher chaque information au titre du document, à sa date et au passage utilisé. L’extrait télétravail fourni prévoit deux jours par semaine pour les postes éligibles. Source : ACCORD TÉLÉTRAVAIL D’ENTREPRISE DU 12 AOÛT 2026, extrait fourni, passage sur les jours éligibles, sans pagination. Pour un usage réel, contrôlez la version signée et son champ d’application : source non vérifiée.
+			207 text CAS CONCRET
+			208 text Prompt à essayer : « Pour préparer une discussion au CSE, utilise uniquement l’extrait de l’ACCORD TÉLÉTRAVAIL D’ENTREPRISE DU 12 AOÛT 2026 ci-dessous. Produis trois colonnes : disposition explicitement indiquée ; passage source ; question restant à clarifier. N’invente ni numéro d’article ni droit supplémentaire. Écris “non précisé” pour toute information absente. Conserve les jetons entre crochets. Voici l’extrait : [EXTRAIT]. »
+			209 text À VOUS · EXERCICE D'APPLICATION
+			210 text Adaptez ce prompt pour préparer trois questions sur le matériel et les refus de télétravail. Ajoutez une limite de longueur et exigez de distinguer les dispositions du document de vos demandes syndicales.
+			211 text entry area (settable)
+			212 button Faire relire par unii
+			215 text QUIZ
+			216 text L’extrait ne précise pas si un écran supplémentaire est pris en charge. Que demander à l’IA ?
+			217 button A. Compléter avec la pratique habituelle des entreprises
+			218 button B. Inventer une clause plausible
+			219 button C. Transformer votre souhait en obligation
+			220 button D. Signaler que cette prise en charge n’est pas précisée
+			229 button ← Module précédent
+			223 button Module suivant →
+			224 text unii Une question sur ce module ?
+			227 text Donne un exemple fictif de prompt pour préparer une réunion.
+			228 text unii réfléchit…
+			225 text field (settable) Question à unii
+			226 button Demander
+
+The focused UI element is 223 button Module suivant →

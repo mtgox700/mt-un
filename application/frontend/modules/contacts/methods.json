@@ -1,0 +1,10 @@
+[
+  {
+    "name": "groupMembers",
+    "code": "groupMembers(g) {\n    if (g.type === 'fixe') return this.state.adherents.filter((a) => (g.ids || []).indexOf(a.id) >= 0);\n    return this.state.adherents.filter((a) => this.adhMatch(a, g.crit || {}));\n  }"
+  },
+  {
+    "name": "contactById",
+    "code": "contactById(id) { return this.allContacts().find((x) => x.id === id); }"
+  }
+]

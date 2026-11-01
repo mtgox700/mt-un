@@ -1,0 +1,198 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - generic: SM
+  - heading "Sophie Marchand" [level=1]
+  - generic: Déléguée syndicale · Secrétaire de section
+  - generic: Mandat
+  - generic: Élue titulaire · 2024 — 2028
+  - generic: Fonction
+  - generic: Secrétaire du CSE
+  - generic: Organisation
+  - generic: Section syndicale Métallurgie — Valenciennes
+  - generic: Convention collective
+  - generic: 3109 — Métallurgie (convention collective nationale)
+  - generic: Commissions
+  - generic: Négociation · SSCT
+  - generic: Coordonnées visibles par les autres élus
+  - button
+  - heading "Informations de l'organisation" [level=2]
+  - button "Modifier"
+  - paragraph: SECTION MÉTA VAL · 24 sièges · 1 240 salariés
+  - generic: Nature de l'organisation
+  - button "CSE"
+  - button "Union départementale"
+  - button "Section syndicale" [pressed]
+  - paragraph: "Section d'entreprise ou d'établissement. Vocabulaire : adhérents, militants, réunion de section, cotisations."
+  - generic: Dénomination
+  - generic: Section syndicale Métallurgie — Valenciennes
+  - generic: Sigle
+  - generic: SECTION MÉTA VAL
+  - generic: SIRET
+  - generic: 412 857 336 00021
+  - generic: Convention collective
+  - generic: 3109 — Métallurgie (convention collective nationale)
+  - generic: Effectif de l'établissement
+  - generic: 1 240
+  - generic: Sièges au CSE
+  - generic: "24"
+  - generic: Début du mandat
+  - generic: 15 janvier 2024
+  - generic: Fin du mandat
+  - generic: 14 janvier 2028
+  - generic: Adresse du local
+  - generic: Local syndical — 12 rue de la Fonderie, 59300 Valenciennes
+  - generic: Courriel de l'instance
+  - generic: section@syndicat-valenciennes.fr
+  - generic: Téléphone
+  - generic: 03 27 14 88 20
+  - generic: Secrétaire
+  - generic: Sophie Marchand
+  - generic: Trésorier
+  - generic: Karim Benali
+  - paragraph: La convention collective renseignée ici détermine le corpus interrogé par l'assistant juridique. Les en-têtes de documents et les pages intranet reprennent la dénomination et l'adresse.
+  - heading "Mon activité — août" [level=2]
+  - generic: "12"
+  - generic: dossiers clos
+  - generic: "38"
+  - generic: questions IA
+  - generic: "5"
+  - generic: documents générés
+  - generic: "2"
+  - generic: sondages lancés
+  - heading "Signature des documents" [level=2]
+  - paragraph: Reprise automatiquement en pied des tracts et courriers générés.
+  - text: Sophie Marchand
+  - text: Déléguée syndicale — Section de Valenciennes
+  - text: sophie.marchand@cse-valenciennes.fr
+  - button "Signer un document"
+  - button "Modifier la signature"
+  - heading "Session" [level=2]
+  - paragraph: Ouverte depuis iPhone 15 — Valenciennes. La déconnexion purge le cache local chiffré.
+  - button "Se déconnecter"
+  - heading "Données de démonstration" [level=2]
+  - paragraph: Cette maquette conserve vos saisies (dossiers, adhérents, événements, identité de marque) dans le navigateur, sur cet appareil uniquement. Rien n'est envoyé à un serveur.
+  - button "Réinitialiser la démonstration"
+  - heading "Abonnement et paiements" [level=2]
+  - paragraph:
+    - text: Formule
+    - strong: Élu 2.0
+    - text: — 199 € HT / mois. Prochaine échéance le 01/10/2026.
+  - paragraph: La puissance de l'IA pour augmenter votre expertise.
+  - button "Mensuel"
+  - button "Annuel (2 mois offerts)"
+  - generic: Élu 1.0
+  - generic: 99 €
+  - generic: HT/mois
+  - paragraph: L'essentiel pour structurer votre activité d'élu.
+  - button "Revenir à Élu 1.0"
+  - button "Découvrir l'offre"
+  - generic: Gestion des demandes (Kanban)
+  - generic: Agenda partagé
+  - generic: Base documentaire
+  - generic: 5 dossiers inclus*
+  - generic: Populaire
+  - generic: Votre formule
+  - generic: Élu 2.0
+  - generic: 199 €
+  - generic: HT/mois
+  - paragraph: La puissance de l'IA pour augmenter votre expertise.
+  - generic: Formule actuelle
+  - button "Demander une démo"
+  - generic: Tout Élu 1.0 +
+  - generic: Assistant Syndicaliste IA
+  - generic: Génération de courriers
+  - generic: Analyse juridique instantanée
+  - generic: Élu 3.0
+  - generic: 499 €
+  - generic: HT/mois
+  - paragraph: Un expert humain dédié pour les situations complexes.
+  - button "Passer à Élu 3.0"
+  - button "Échanger avec un expert"
+  - generic: Tout Élu 2.0 +
+  - generic: Consultant dédié
+  - generic: Relecture stratégique
+  - generic: Assistance négociation
+  - generic: Élu 4.0
+  - generic: 999 €
+  - generic: HT/mois
+  - paragraph: La solution complète pour transformer votre organisation.
+  - button "Passer à Élu 4.0"
+  - button "Construire mon offre"
+  - generic: Tout inclus
+  - generic: Solution Complète
+  - generic: Support prioritaire 24/7
+  - generic: Formation sur site
+  - generic: API & Intégrations
+  - paragraph: "* Au-delà, 9 € HT par dossier supplémentaire. Prix hors taxes, TVA 20 %. Résiliation à tout moment, effet en fin de période."
+  - heading "Moyen de paiement" [level=3]
+  - generic: Visa
+  - generic: •••• •••• •••• 4417
+  - generic: Expire 08/2029 · Section Métallurgie Valenciennes
+  - button "Modifier le moyen de paiement"
+  - paragraph: Paiement traité par un prestataire européen conforme DSP2. Aucun numéro de carte n'est stocké par uniion.
+  - heading "Factures" [level=3]
+  - button "Tout exporter"
+  - generic: FA-2026-0091
+  - generic: 01/09/2026 · 238,80 €
+  - generic: Payée
+  - button "PDF"
+  - generic: FA-2026-0082
+  - generic: 01/08/2026 · 238,80 €
+  - generic: Payée
+  - button "PDF"
+  - generic: FA-2026-0074
+  - generic: 01/07/2026 · 238,80 €
+  - generic: Payée
+  - button "PDF"
+  - generic: FA-2026-0066
+  - generic: 01/06/2026 · 118,80 €
+  - generic: Payée
+  - button "PDF"

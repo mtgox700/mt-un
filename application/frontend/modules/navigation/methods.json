@@ -1,0 +1,10 @@
+[
+  {
+    "name": "go",
+    "code": "go(route, extra) {\n    if (route !== this.state.route) this.leaveAudio();\n    const st = Object.assign({ route: route, history: this.state.history.concat([this.state.route]) }, extra || {});\n    this.setState(st);\n    if (typeof window !== 'undefined') window.scrollTo(0, 0);\n  }"
+  },
+  {
+    "name": "back",
+    "code": "back() {\n    this.leaveAudio();\n    const h = this.state.history.slice();\n    const prev = h.pop() || 'accueil';\n    this.setState({ route: prev, history: h });\n    if (typeof window !== 'undefined') window.scrollTo(0, 0);\n  }"
+  }
+]

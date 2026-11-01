@@ -1,0 +1,96 @@
+Browser tab: 9, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+1 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	2 container Dimensions de recette
+		3 button Bureau 1280
+		4 button Mobile 390
+		5 button Tablette 768
+		6 button Tablette paysage 1024
+		7 text 390 × 844
+	8 container Description: Prototype inchangé, ID: prototype
+		9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			10 container dc-root
+				11 container
+					12 image uniion
+					129 button ← Retour
+					13 image
+					14 text field (settable)
+					15 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+						130 text unii
+						131 text 2
+					18 button
+						19 image
+					20 button Se déconnecter
+						21 image
+				22 container
+					132 text UNII SUGGÈRE
+					133 button PV en relecture · Deuxième séance de négociation
+					134 button PV à rédiger · Visite de site — atelier peinture
+					177 button Réunions
+					178 text RÉUNION NAO
+					179 heading Deuxième séance de négociation, Value: 1
+						180 text Deuxième séance de négociation
+					181 container
+						182 text 12 août 2026 · 09 h 30  · durée  2 h 07
+					183 text PROCÈS-VERBAL
+					184 text En relecture
+					185 text MARQUEURS
+					186 text 4
+					187 text ENREGISTREMENT
+					188 text 12 j restants
+					189 heading ORDRE DU JOUR, Value: 2
+						190 text ORDRE DU JOUR
+					191 text Enveloppe d'augmentation générale Transports et titres restaurant Télétravail
+					192 button Rédiger le PV depuis les marqueurs
+					193 button Passer en mode assistant
+					194 button Écouter l'enregistrement
+					195 button En savoir plus sur la sécurité
+					196 heading Rétention de l'audio, Value: 2
+						197 text Rétention de l'audio
+					198 text 12 JOURS RESTANTS
+					199 text L'enregistrement de cette séance est encore disponible pour la rédaction et la levée des désaccords d'interprétation. Il sera détruit automatiquement.
+					200 text Destruction certifiée dès l'approbation du PV, ou à échéance des 30 jours — au premier des deux.
+					201 heading Marqueurs de séance, Value: 2
+						202 text Marqueurs de séance
+					203 text Points d'ancrage du PV. Chaque marqueur pointe la seconde exacte du passage.
+					204 button 05:05 Enveloppe 2027 CHANGEMENT DE POINT
+						205 text 05:05
+						206 text Enveloppe 2027
+						207 text CHANGEMENT DE POINT
+					208 button 25:20 0,8 % contre 4,5 % — positions maintenues DÉSACCORD
+						209 text 25:20
+						210 text 0,8 % contre 4,5 % — positions maintenues
+						211 text DÉSACCORD
+					212 button 55:40 Chiffrage transports transmis avant le 2 septembre ENGAGEMENT DIRECTION
+						213 text 55:40
+						214 text Chiffrage transports transmis avant le 2 septembre
+						215 text ENGAGEMENT DIRECTION
+					216 button 1 h 33 min Base de calcul des grilles à confirmer À VÉRIFIER
+						217 text 1 h 33 min
+						218 text Base de calcul des grilles à confirmer
+						219 text À VÉRIFIER
+					220 heading Transcription & extraction, Value: 2
+						221 text Transcription & extraction
+					222 text Transcription en file d'attente. L'assistant en extraira quatre familles d'informations, chacune horodatée et citée.
+					223 text Décisions — objet, sens de la décision, base juridique invoquée Votes — pour, contre, abstention, résultat et quorum Engagements — qui, quoi, échéance, poussés en dossiers suivis Points en suspens — renvoyés à l'ordre du jour de la séance suivante
+					224 text Transcription et extraction passent par l'anonymisation avant inférence : les noms deviennent des jetons, recollés côté client.
+					225 heading Journal d'accès à l'enregistrement, Value: 2
+						226 text Journal d'accès à l'enregistrement
+					227 text Sophie Marchand Écoute — 41 min  ·  13 août · 11 h 05
+				113 container
+					171 button Accueil
+						172 image
+						173 text Accueil
+					117 button Dossiers
+						118 image
+						119 text Dossiers
+					120 button Agenda
+						121 image
+						122 text Agenda
+					174 button Réunions
+						175 image
+						176 text Réunions
+					126 button Réglages
+						127 image
+						128 text Réglages
+
+The focused UI element is 9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

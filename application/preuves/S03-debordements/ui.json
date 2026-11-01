@@ -1,0 +1,33 @@
+{
+  "scenario": "Sérigraphie : titre trop long refusé, titre Unis accepté, puis retour au Classique avec SVG",
+  "viewports": [
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "overflow_notice": true,
+      "corrected_download": true,
+      "pages": 2
+    },
+    {
+      "name": "tablette",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "overflow_notice": true,
+      "corrected_download": true,
+      "pages": 2
+    },
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "overflow_notice": true,
+      "corrected_download": true,
+      "pages": 2
+    }
+  ],
+  "classique_regression_download": true
+}

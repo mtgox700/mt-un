@@ -1,0 +1,27 @@
+✔ PCM encoder has consistent RIFF lengths and bounded samples (0.685083ms)
+✔ encrypted drafts cannot be decrypted under another organization or after tampering (4.660709ms)
+✔ transfer resumes missing blocks only after interrupted acknowledgement (55.850791ms)
+✔ identity change during begin prevents sending bytes or completing (0.502583ms)
+✔ denied audio permission never opens microphone or simulates recording (1.864833ms)
+✔ recovered import shows consent and save without losing its original (0.3675ms)
+✔ late vault read after logout cannot restore draft (0.576ms)
+✔ captured final chunk is persisted before upload and markers use server duration (6.668375ms)
+✔ cancelled microphone request stops a late stream and never starts capture (0.459416ms)
+✔ putting aside an active take waits for the asynchronous final segment (0.680166ms)
+✔ local lease expires and locks reads without removing encrypted data (0.430791ms)
+✔ PCM capture crosses segment boundary and writes global markers at relative server offsets (926.33325ms)
+✔ PCM processor emits actual samples with resampling, silence on output, and flush before stop (8.033333ms)
+✔ eight hours of processor frames retains only a one-second buffer (2259.026667ms)
+✔ long PCM import splits on exact frame boundaries with unchanged payload (10.251291ms)
+✔ malformed WAV is refused before creating segment receipts (0.354833ms)
+✔ durable PCM samples roundtrip without dropping the last partial chunk (0.146833ms)
+✔ original transfer resumes received parts and requires server scan (7.057666ms)
+✔ AIFF PCM16 converts without OS codecs and rejects inconsistent frame counts (0.390125ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2338.46325

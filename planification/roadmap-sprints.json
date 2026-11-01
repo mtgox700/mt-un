@@ -1,0 +1,500 @@
+{
+  "version": "1.0",
+  "date": "2026-10-24",
+  "status": "Plan proposé, non engagement calendaire",
+  "assumption": "Sprints de 2 semaines, équipe cible 2 développeurs polyvalents, QA à mi-temps, appui sécurité/infra et validation produit régulière. Capacité à confirmer en S00 puis réestimer après S03.",
+  "base_weeks": 34,
+  "reserve": "20–25 %, soit environ 41–43 semaines au total si les hypothèses de capacité se confirment.",
+  "sprints": [
+    {
+      "id": "S00",
+      "title": "Référence et décisions d’architecture",
+      "phase": "Cadrage",
+      "dependencies": [],
+      "weeks": "1–2",
+      "tasks": [
+        "Inventorier tous les écrans, états, modales et enchaînements ; rattacher les 69 tests existants aux fonctionnalités couvertes.",
+        "Compléter la référence mobile, tablette et desktop, dont notifications persistantes et clavier réel.",
+        "Écrire la matrice organisation/rôle/ressource ; traiter commissions, dossiers sensibles, groupes et invités.",
+        "Définir contrats des modules, services communs, événements, propriété des données et règles de dépendances.",
+        "Décider Supabase hébergé ou auto-hébergé, régions, fournisseur IA de production, transcription, signature, email/push et objectifs de reprise."
+      ],
+      "deliverables": [
+        "Cartographie des modules et dépendances",
+        "Référence visuelle versionnée et registre des écarts connus",
+        "Décisions d’architecture, modèle de menace et backlog estimé"
+      ],
+      "acceptance": [
+        "Chaque fonctionnalité du prototype possède un module propriétaire et un scénario de recette.",
+        "Les choix nécessaires à S01 sont décidés ; aucune capacité de production simulée n’est considérée comme acquise."
+      ],
+      "status": "Cadrage et réserves techniques documentaires terminés ; choix reportés explicites",
+      "artifacts": [
+        "S00/CARTOGRAPHIE-S00.html",
+        "S00/cloture/BILAN-CLOTURE-S00.html",
+        "S00/cloture/points-reportes.json",
+        "S00/consolidation/INDEX.html"
+      ],
+      "remaining": "Choix fournisseurs, détails politiques et capacité réelle restent suivis par échéance ; tests production à réaliser dans sprints concernés"
+    },
+    {
+      "id": "S01",
+      "title": "Identité et cloisonnement fort",
+      "phase": "Fondations",
+      "dependencies": [
+        "S00"
+      ],
+      "weeks": "3–4",
+      "tasks": [
+        "Créer les environnements séparés développement, recette et production, la chaîne de livraison et la gestion des secrets.",
+        "Implémenter identité, sessions, MFA, organisations et appartenances ; distinguer administration plateforme et administration organisation.",
+        "Définir droits SQL, politiques RLS, stockage privé, références entre objets du même tenant et droits sur ressources sensibles.",
+        "Créer les jeux de test A/B, utilisateurs multi-organisations, administrateurs, invités et comptes révoqués.",
+        "Réserver les privilèges globaux aux opérations plateforme contrôlées ; aucun accès métier implicite pour le super admin."
+      ],
+      "deliverables": [
+        "Socle identité et organisation",
+        "Migrations et politiques versionnées",
+        "Suite de tests de cloisonnement négatifs"
+      ],
+      "acceptance": [
+        "Une requête modifiée ne permet ni lecture ni écriture dans une autre organisation.",
+        "Fichiers, listes, recherches et références croisées refusent les accès illicites ; les tests passent aussi en accès direct aux interfaces exposées.",
+        "Une révocation coupe les nouveaux accès ; les limites de durée des liens déjà émis sont définies et testées."
+      ],
+      "status": "Clôturé pour le périmètre local — worker source configuré et 41 contrôles réels réussis ; qualification distante reportée",
+      "artifacts": [
+        "../application/README.md",
+        "../application/preuves/S01/BILAN.html",
+        "../application/preuves/S01-sessions-mfa/BILAN.html",
+        "../application/preuves/S01-finalisation/BILAN.html",
+        "../application/preuves/S01-identite/BILAN.html",
+        "../application/preuves/S01-sessions-durables/BILAN.html",
+        "../application/preuves/S01-administration/BILAN.html",
+        "../application/preuves/S01-resilience/BILAN.html",
+        "../application/preuves/S01-mfa-neuve/BILAN.html",
+        "../application/preuves/S01-worker-source/BILAN.html"
+      ],
+      "remaining": "Aucune réserve opérationnelle locale identifiée dans le périmètre testé. Qualification distante reportée : dépôt/CI, projets managés, secrets, HTTPS, supervision externe et restauration sur cible. S02 : portage frontal et hôte modulaire."
+    },
+    {
+      "id": "S02",
+      "title": "Hôte modulaire et interface commune",
+      "phase": "Fondations",
+      "dependencies": [
+        "S01"
+      ],
+      "weeks": "5–6",
+      "tasks": [
+        "Extraire palette, typographies, composants et variantes responsive du prototype.",
+        "Créer navigation, historique de retour, modales, notifications sans recouvrement, gestion des erreurs et chargements.",
+        "Implémenter manifeste, registre, routes, permissions, contributions et activation des modules par organisation.",
+        "Créer les contrats de fichiers, recherche, audit, jobs et IA ; isoler les données fictives dans un adaptateur de démonstration.",
+        "Contrôler les imports entre modules ; installer les comparaisons visuelles et tests de parcours en livraison continue."
+      ],
+      "deliverables": [
+        "Application hôte et bibliothèque UI",
+        "SDK interne versionné",
+        "Services transversaux et adaptateur temporaire du prototype"
+      ],
+      "acceptance": [
+        "Le socle affiche les mêmes éléments et parcours que la référence aux largeurs retenues.",
+        "Un module désactivé n’est accessible ni par URL ni par API ; aucune donnée n’est supprimée.",
+        "Une notification persistante ne couvre ni texte ni commande sur mobile/tablette."
+      ],
+      "status": "En cours — états et services séparés sur les premiers modules",
+      "remaining": "Séparer états/services et contrôleur commun, extraire les autres modules, raccorder droits S01 et compléter la recette de parcours.",
+      "artifacts": [
+        "../application/preuves/S02/BILAN.html",
+        "../application/frontend/manifest.json",
+        "../application/preuves/S02-compilation/BILAN.html",
+        "../application/preuves/S02-react/BILAN.html"
+      ],
+      "state_services_evidence": "application/preuves/S02-etats-services/BILAN.html",
+      "actions_services_evidence": "application/preuves/S02-actions-services/BILAN.html",
+      "messaging_evidence": "application/preuves/S02-messagerie/BILAN.html",
+      "messaging_views_evidence": "application/preuves/S02-vues-messagerie/BILAN.html",
+      "menus_evidence": "application/preuves/S02-menus/BILAN.html",
+      "campaigns_ai_evidence": "application/preuves/S02-campagnes-ia/BILAN.html",
+      "campaign_views_evidence": "application/preuves/S02-vues-campagnes/BILAN.html",
+      "members_evidence": "application/preuves/S02-adherents/BILAN.html",
+      "member_management_evidence": "application/preuves/S02-gestion-adherents/BILAN.html"
+    },
+    {
+      "id": "S03",
+      "title": "Module pilote Agenda",
+      "phase": "Extraction métier",
+      "dependencies": [
+        "S02"
+      ],
+      "weeks": "7–8",
+      "tasks": [
+        "Extraire calendrier, liste, création, modification, filtres et export ICS.",
+        "Brancher les données réelles avec droits et audit ; définir les rappels comme jobs durables.",
+        "Intégrer les contributions à l’accueil et les appels vers les futurs modules via contrats.",
+        "Tester activation, désactivation, dépendances et reprise d’une migration."
+      ],
+      "deliverables": [
+        "Premier module métier complet",
+        "Exemple de référence pour les autres modules",
+        "Bilan de capacité réelle et réestimation des sprints suivants"
+      ],
+      "acceptance": [
+        "Tous les scénarios Agenda passent en mobile/tablette/desktop et en isolation A/B.",
+        "Le module s’intègre sans ajouter de logique Agenda dans le noyau.",
+        "Les fonctions dépendant d’un module absent sont gérées explicitement."
+      ],
+      "status": "À démarrer"
+    },
+    {
+      "id": "S04",
+      "title": "Adhérents, annuaire et cotisations",
+      "phase": "Extraction métier",
+      "dependencies": [
+        "S03"
+      ],
+      "weeks": "9–10",
+      "tasks": [
+        "Migrer fiches, rattachements, cotisations, filtres, imports CSV et listes de diffusion.",
+        "Séparer appartenance à la plateforme, compte utilisateur, contact et adhérent.",
+        "Implémenter contrôles d’import, doublons, droits fins, export autorisé et audit des accès sensibles.",
+        "Conserver les écrans et prévoir les contrats de campagnes pour les modules suivants."
+      ],
+      "deliverables": [
+        "Module Adhérents",
+        "Annuaire partagé par contrat",
+        "Import/export contrôlés"
+      ],
+      "acceptance": [
+        "Import invalide ou doublon traité sans corruption ni fuite.",
+        "Les exports sont limités aux données autorisées et journalisés.",
+        "Un adhérent ne devient pas automatiquement utilisateur de la plateforme."
+      ],
+      "status": "À démarrer"
+    },
+    {
+      "id": "S05",
+      "title": "Dossiers et coffre de pièces",
+      "phase": "Extraction métier",
+      "dependencies": [
+        "S04"
+      ],
+      "weeks": "11–12",
+      "tasks": [
+        "Migrer dossiers, états, historique, affectations et notes.",
+        "Implémenter habilitations par dossier, pièces privées, versions, corbeille et restauration.",
+        "Créer les opérations publiques de classement d’un message et d’ajout d’un document.",
+        "Tester liens temporaires, téléchargements et suppression des droits après réaffectation."
+      ],
+      "deliverables": [
+        "Module Dossiers",
+        "Coffre de fichiers et versionnement",
+        "API métier de classement"
+      ],
+      "acceptance": [
+        "Accès refusé aux dossiers sensibles même pour un membre non habilité de la même organisation.",
+        "Versions et restaurations conservent les droits du dossier.",
+        "Aucun accès par simple connaissance de l’identifiant ou de l’URL d’un fichier."
+      ],
+      "status": "À démarrer"
+    },
+    {
+      "id": "S06",
+      "title": "Documents et exports",
+      "phase": "Extraction métier",
+      "dependencies": [
+        "S05"
+      ],
+      "weeks": "13–14",
+      "tasks": [
+        "Migrer éditeur, blocs, charte, modèles, aperçus et pagination.",
+        "Brancher exports PDF et autres formats réellement disponibles, avec jobs pour les rendus longs.",
+        "Préserver alternance Éditer/Aperçu mobile, zoom indépendant et impression multipage.",
+        "Définir les points d’extension des modèles, blocs et styles ; préparer le contrat de signature."
+      ],
+      "deliverables": [
+        "Module Documents",
+        "Service de rendu et export",
+        "Contrat des extensions documentaires"
+      ],
+      "acceptance": [
+        "Document de référence identique en aperçu et export, sans perte de contenu ni page manquante.",
+        "Les droits d’export et d’accès à chaque fichier sont vérifiés.",
+        "Les sources et livrables appartiennent au bon tenant."
+      ],
+      "status": "À démarrer"
+    },
+    {
+      "id": "S07",
+      "title": "Messagerie et collaboration",
+      "phase": "Extraction métier",
+      "dependencies": [
+        "S05",
+        "S04"
+      ],
+      "weeks": "15–16",
+      "tasks": [
+        "Migrer conversations, messages, groupes, membres et pièces ; brancher le temps réel.",
+        "Conserver transfert, réponse, informations et classement dans un dossier.",
+        "Filtrer abonnements temps réel, notifications et recherche selon l’appartenance réelle à la conversation.",
+        "Tester reconnexion, doublons, retrait de membre et interruption de session."
+      ],
+      "deliverables": [
+        "Module Messagerie",
+        "Événements et notifications de collaboration",
+        "Parcours Messages → Dossiers"
+      ],
+      "acceptance": [
+        "Un utilisateur hors groupe ne lit ni messages ni pièces, même dans la même organisation.",
+        "Après révocation, les nouveaux événements ne sont plus délivrés et les caches sensibles sont invalidés.",
+        "Le transfert exige les droits de lecture source et d’écriture destination."
+      ],
+      "status": "À démarrer"
+    },
+    {
+      "id": "S08",
+      "title": "IA commune et assistant",
+      "phase": "Services de production",
+      "dependencies": [
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "weeks": "17–18",
+      "tasks": [
+        "Intégrer le fournisseur de production via une passerelle serveur ; séparer le branchement local au compte ChatGPT de la cible de production.",
+        "Centraliser anonymisation, contexte, quotas, historique, mémoire, recherche documentaire et gestion des erreurs.",
+        "Vérifier les habilitations avant récupération et avant génération ; isoler index et caches par organisation et ressources autorisées.",
+        "Migrer les actions unii et l’assistant, puis brancher les modules déjà extraits.",
+        "Tester sortie de page, annulation, réponses tardives et données présentes dans documents non fiables."
+      ],
+      "deliverables": [
+        "Service IA commun",
+        "Module Assistant et actions unii",
+        "Évaluations de confidentialité et de qualité"
+      ],
+      "acceptance": [
+        "Aucun document non autorisé n’entre dans le contexte, la réponse, les citations ou la mémoire.",
+        "Un échec fournisseur n’est pas présenté comme une réponse réussie ; reprise et coûts sont visibles.",
+        "Les scénarios de confidentialité et les parcours IA de référence passent."
+      ],
+      "status": "À démarrer"
+    },
+    {
+      "id": "S09",
+      "title": "Réunions, audio et PV",
+      "phase": "Services de production",
+      "dependencies": [
+        "S06",
+        "S08"
+      ],
+      "weeks": "19–20",
+      "tasks": [
+        "Migrer consentement, capture, import, marqueurs, lecture et sauvegarde audio.",
+        "Intégrer transcription et production de PV comme traitements durables, avec progression et reprise.",
+        "Brancher relecture, approbation, archivage et politique de conservation.",
+        "Valider micro, interruptions et lecture sur appareils réels ; vérifier les formats audio pris en charge."
+      ],
+      "deliverables": [
+        "Module Réunions",
+        "Chaîne audio → transcription → PV",
+        "Règles de conservation exécutables"
+      ],
+      "acceptance": [
+        "Aucun faux enregistrement ni faux statut de transcription.",
+        "Les jobs restent liés à l’organisation et à la réunion même après navigation ou redémarrage.",
+        "Conservation, destruction et restauration suivent la politique décidée, avec audit."
+      ],
+      "status": "À démarrer"
+    },
+    {
+      "id": "S10",
+      "title": "Sondages et campagnes",
+      "phase": "Services de production",
+      "dependencies": [
+        "S04",
+        "S08"
+      ],
+      "weeks": "21–22",
+      "tasks": [
+        "Migrer création, relecture, diffusion, collecte, clôture et résultats.",
+        "Définir le modèle d’anonymat et les protections contre votes multiples et inférence d’identité.",
+        "Brancher les canaux de campagne choisis avec consentements/préférences, reprises et suivi réel.",
+        "Tester invitations expirées, destinataires exclus et accès aux résultats."
+      ],
+      "deliverables": [
+        "Module Sondages",
+        "Service de campagnes",
+        "Modèle d’anonymat documenté et testé"
+      ],
+      "acceptance": [
+        "Les résultats respectent les règles de confidentialité et d’accès définies.",
+        "Les états envoyé/livré/échoué correspondent à des événements réels.",
+        "Aucun export ou lien de réponse ne traverse une organisation."
+      ],
+      "status": "À démarrer"
+    },
+    {
+      "id": "S11",
+      "title": "Communication et publications",
+      "phase": "Extraction métier",
+      "dependencies": [
+        "S06",
+        "S08",
+        "S10"
+      ],
+      "weeks": "23–24",
+      "tasks": [
+        "Migrer plan éditorial et atelier de contenus.",
+        "Migrer intranet, site public, pages FO, charte, aperçus et circuits de validation.",
+        "Brancher publication/dépublication et prévisualisations privées ; distinguer contenus publics et internes.",
+        "Sécuriser contenus HTML, médias et références de fichiers ; isoler le rendu de code non fiable."
+      ],
+      "deliverables": [
+        "Modules Communication et Publications",
+        "Connecteurs de publication retenus",
+        "Parcours de validation sans modification visuelle"
+      ],
+      "acceptance": [
+        "Aucun brouillon ou document interne ne devient public implicitement.",
+        "La publication exige les droits, validations et destination corrects.",
+        "Aperçus, navigation et rendu mobile correspondent à la référence."
+      ],
+      "status": "À démarrer"
+    },
+    {
+      "id": "S12",
+      "title": "Formations, reporting et signatures",
+      "phase": "Complétude fonctionnelle",
+      "dependencies": [
+        "S08",
+        "S09",
+        "S10",
+        "S11"
+      ],
+      "weeks": "25–26",
+      "tasks": [
+        "Migrer catalogues, sessions, progression et attestations.",
+        "Construire le reporting à partir des données réelles, avec définitions d’indicateurs versionnées.",
+        "Intégrer le fournisseur de signature choisi et ses retours d’état ; conserver le parcours visuel.",
+        "Compléter profils, préférences, mémoire, paramètres et administration d’organisation."
+      ],
+      "deliverables": [
+        "Modules Formations et Reporting",
+        "Intégration de signature ou périmètre explicitement limité",
+        "Matrice fonctionnelle complétée"
+      ],
+      "acceptance": [
+        "Les indicateurs ne révèlent pas de données interdites par agrégation ou export.",
+        "Une attestation reflète une progression réelle.",
+        "Aucune signature simulée n’est présentée comme une signature de production."
+      ],
+      "status": "À démarrer"
+    },
+    {
+      "id": "S13",
+      "title": "Hors ligne et administration plateforme",
+      "phase": "Complétude fonctionnelle",
+      "dependencies": [
+        "S12"
+      ],
+      "weeks": "27–28",
+      "tasks": [
+        "Définir et implémenter le périmètre hors ligne autorisé selon la sensibilité des données.",
+        "Séparer caches par organisation/utilisateur, gérer changement de compte, expiration et conflits de synchronisation.",
+        "Finaliser console super admin : organisations, activation des modules, quotas, abonnements et audit plateforme.",
+        "Implémenter, si retenu, un accès d’assistance explicite, temporaire, limité et traçable, sans lecture métier par défaut."
+      ],
+      "deliverables": [
+        "Mode hors ligne maîtrisé",
+        "Console plateforme séparée",
+        "Tests de changement de session et de révocation"
+      ],
+      "acceptance": [
+        "Le super admin est le seul rôle de gestion globale ; les admins d’organisation restent limités à leur organisation.",
+        "Un changement de compte ne laisse pas accessibles les données locales du précédent.",
+        "Les limites de révocation hors connexion sont documentées et acceptées ; les données incompatibles avec ces limites ne sont pas mises en cache."
+      ],
+      "status": "À démarrer"
+    },
+    {
+      "id": "S14",
+      "title": "Preuve d’extensibilité et intégration complète",
+      "phase": "Qualification",
+      "dependencies": [
+        "S13"
+      ],
+      "weeks": "29–30",
+      "tasks": [
+        "Créer un petit module témoin avec routes, données propres, droits et contribution à l’accueil, sans modifier les modules existants.",
+        "Tester compatibilité du SDK, installation contrôlée, activation, désactivation, dépendances, migrations et retrait.",
+        "Rejouer les parcours transversaux de bout en bout et éliminer l’adaptateur temporaire du prototype.",
+        "Vérifier qu’aucune clé privilégiée, contournement ou état global métier ne subsiste côté client."
+      ],
+      "deliverables": [
+        "Module témoin et guide de développement",
+        "Catalogue de contrats stabilisé",
+        "Application entièrement migrée"
+      ],
+      "acceptance": [
+        "Ajouter le module témoin ne requiert pas de modifier le noyau métier ni les modules en place.",
+        "L’activation d’un module ne donne jamais de droits supplémentaires aux utilisateurs.",
+        "Les fonctions de production ne dépendent plus de simulations silencieuses."
+      ],
+      "status": "À démarrer"
+    },
+    {
+      "id": "S15",
+      "title": "Recette complète et préparation OVH",
+      "phase": "Qualification",
+      "dependencies": [
+        "S14"
+      ],
+      "weeks": "31–32",
+      "tasks": [
+        "Exécuter tests de sécurité indépendants, isolation, charge, pannes et reprise des jobs.",
+        "Recetter toutes les fonctionnalités du périmètre sur desktop, mobile/tablette et appareils réels.",
+        "Déployer en préproduction OVH ; configurer supervision, alertes, sauvegardes, rotation des secrets et procédures d’incident.",
+        "Tester restauration et retour arrière application ; valider séparément la stratégie des migrations de données.",
+        "Préparer migration des données, formation et exploitation."
+      ],
+      "deliverables": [
+        "Procès-verbal de recette",
+        "Rapport de sécurité et corrections",
+        "Dossier d’exploitation et répétition de bascule"
+      ],
+      "acceptance": [
+        "Aucun défaut bloquant de confidentialité, perte de données ou parcours essentiel.",
+        "Restauration réellement exécutée et objectifs de reprise mesurés.",
+        "Les écarts visuels/parcours sont corrigés ou explicitement arbitrés ; la migration de données est répétable."
+      ],
+      "status": "À démarrer"
+    },
+    {
+      "id": "S16",
+      "title": "Pilote puis mise en production progressive",
+      "phase": "Lancement",
+      "dependencies": [
+        "S15"
+      ],
+      "weeks": "33–34",
+      "tasks": [
+        "Démarrer avec une organisation pilote et un périmètre maîtrisé.",
+        "Surveiller erreurs, droits, traitements longs, coûts IA et retours utilisateurs.",
+        "Corriger les blocages, refaire les tests affectés, puis ouvrir aux autres organisations progressivement.",
+        "Transmettre documentation et procédures ; planifier les extensions suivantes."
+      ],
+      "deliverables": [
+        "Pilote accepté",
+        "Production ouverte progressivement",
+        "Backlog post-lancement"
+      ],
+      "acceptance": [
+        "Ouverture conditionnée au bilan pilote et à la disponibilité de la procédure de reprise.",
+        "Aucune ouverture générale avec fuite de données, perte de données ou blocage essentiel connu.",
+        "Les responsabilités d’exploitation et de support sont attribuées."
+      ],
+      "status": "À démarrer"
+    }
+  ]
+}

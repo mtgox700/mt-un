@@ -1,0 +1,193 @@
+Browser tab: 9, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+1 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	2 container Dimensions de recette
+		3 button Bureau 1280
+		4 button Mobile 390
+		5 button Tablette 768
+		6 button Tablette paysage 1024
+		7 text 390 × 844
+	8 container Description: Prototype inchangé, ID: prototype
+		9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			10 container dc-root
+				11 container
+					12 image uniion
+					129 button ← Retour
+					13 image
+					14 text field (settable)
+					15 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+						16 text unii
+						17 text 3
+					18 button
+						19 image
+					20 button Se déconnecter
+						21 image
+				22 container
+					23 text UNII SUGGÈRE
+					24 button Brouillon à relire · PV — Deuxième séance de négociation
+					25 button Brouillon à relire · Ordre du jour — CSE ordinaire — septembre
+					169 button Brouillon à relire · Recette fictive — document à signer
+					170 button Revenir à la liste des documents
+					171 text Titre du document
+					172 text field (settable) Titre du document, Value: PV — Deuxième séance de négociation
+					173 button Imprimer / PDF
+					174 button Faire signer
+					175 button Diffuser
+					176 tab group Panneaux de l'éditeur
+						177 tab (selected, settable, boolean) Contenu, Value: 1
+						178 tab (selectable, settable, boolean) Charte graphique, Value: 0
+						179 tab (selectable, settable, boolean) Style, Value: 0
+					180 text CONTENU
+					181 checkbox Blocs, Value: 1
+					182 checkbox Markdown, Value: 0
+					183 button Ajouter un bloc titre principal
+					184 button Ajouter un bloc intertitre
+					185 button Ajouter un bloc paragraphe
+					186 button Ajouter un bloc liste à puces
+					187 button Ajouter un bloc encadré réglementaire
+					188 button Ajouter un bloc tableau
+					189 button Ajouter un bloc badge de rubrique
+					190 button Ajouter un bloc saut de page
+					191 button Ajouter un bloc chiffre clé
+					192 button Ajouter un bloc comparatif
+					193 button Ajouter un bloc frise de dates
+					194 button Ajouter un bloc photo
+					195 button Ajouter un bloc qr code
+					196 button Ajouter un bloc coupon d'adhésion
+					197 button Ajouter un bloc trombinoscope
+					198 button Ajouter un bloc tampon
+					199 button Ajouter un bloc bandeau surligné
+					200 button Ajouter un bloc signature
+					201 button Ajouter un bloc bulles de dialogue
+					202 button Ajouter un bloc encadré « fo exige »
+					203 text BADGE DE RUBRIQUE
+					204 button Déplacer ce bloc vers le haut
+					205 button Déplacer ce bloc vers le bas
+					206 button Supprimer ce bloc
+					207 text entry area (settable) Description: Badge de rubrique, bloc 1 sur 14, Value: Réunion NAO — 12 août 2026
+					208 text TITRE PRINCIPAL
+					209 button Déplacer ce bloc vers le haut
+					210 button Déplacer ce bloc vers le bas
+					211 button Supprimer ce bloc
+					212 text entry area (settable) Description: Titre principal, bloc 2 sur 14, Value: Procès-verbal — Deuxième séance de négociation
+					213 text INTERTITRE
+					214 button Déplacer ce bloc vers le haut
+					215 button Déplacer ce bloc vers le bas
+					216 button Supprimer ce bloc
+					217 text entry area (settable) Description: Intertitre, bloc 3 sur 14, Value: Projet de procès-verbal — Deuxième séance de négociation NAO
+					218 text PARAGRAPHE
+					219 button Déplacer ce bloc vers le haut
+					220 button Déplacer ce bloc vers le bas
+					221 button Supprimer ce bloc
+					222 text entry area (settable) Description: Paragraphe, bloc 4 sur 14, Value: Séance du 12 août 2026 à 09 h 30 ; durée indiquée : 2 h 07. Lieu, participants et qualité des signataires : à compléter. Source : informations de séance fournies, rubrique d’identification du 12 août 2026, emplacement interne : présent échange.
+					223 text INTERTITRE
+					224 button Déplacer ce bloc vers le haut
+					225 button Déplacer ce bloc vers le bas
+					226 button Supprimer ce bloc
+					227 text entry area (settable) Description: Intertitre, bloc 5 sur 14, Value: Ordre du jour
+					228 text LISTE À PUCES
+					229 button Déplacer ce bloc vers le haut
+					230 button Déplacer ce bloc vers le bas
+					231 button Supprimer ce bloc
+					232 text entry area (settable) Description: Liste à puces, bloc 6 sur 14, Value: Enveloppe d’augmentation générale.
+Transports et titres restaurant.
+Télétravail.
+Source : informations de séance fournies, rubrique « Ordre du jour », 12 août 2026, emplacement interne : présent échange.
+					233 text Un élément par ligne.
+					234 text INTERTITRE
+					235 button Déplacer ce bloc vers le haut
+					236 button Déplacer ce bloc vers le bas
+					237 button Supprimer ce bloc
+					238 text entry area (settable) Description: Intertitre, bloc 7 sur 14, Value: Déroulement des échanges et délibérations
+					239 text PARAGRAPHE
+					240 button Déplacer ce bloc vers le haut
+					241 button Déplacer ce bloc vers le bas
+					242 button Supprimer ce bloc
+					243 text entry area (settable) Description: Paragraphe, bloc 8 sur 14, Value: À 05:05, les échanges passent au point « Enveloppe 2027 ». À 25:20, un désaccord est relevé entre les niveaux de 0,8 % et de 4,5 % ; les positions sont maintenues. L’attribution des positions et leur assiette à cette séance sont à compléter après contrôle. Sources : « Marqueurs relevés en séance (anonymisés) », séance du 12 août 2026, entrées 05:05 et 25:20, présent échange. Contenu des échanges sur les transports, les titres restaurant et le télétravail, ainsi que toute conclusion ou délibération : à compléter.
+					244 text INTERTITRE
+					245 button Déplacer ce bloc vers le haut
+					246 button Déplacer ce bloc vers le bas
+					247 button Supprimer ce bloc
+					248 text entry area (settable) Description: Intertitre, bloc 9 sur 14, Value: Engagement de la direction
+					249 text PARAGRAPHE
+					250 button Déplacer ce bloc vers le haut
+					251 button Déplacer ce bloc vers le bas
+					252 button Supprimer ce bloc
+					253 text entry area (settable) Description: Paragraphe, bloc 10 sur 14, Value: La direction s’engage à transmettre le chiffrage relatif aux transports avant le 2 septembre. Année de l’échéance, destinataires et modalités de transmission : à compléter. Source : « Marqueurs relevés en séance (anonymisés) », séance du 12 août 2026, entrée 55:40, présent échange.
+					254 text INTERTITRE
+					255 button Déplacer ce bloc vers le haut
+					256 button Déplacer ce bloc vers le bas
+					257 button Supprimer ce bloc
+					258 text entry area (settable) Description: Intertitre, bloc 11 sur 14, Value: Points à vérifier
+					259 text LISTE À PUCES
+					260 button Déplacer ce bloc vers le haut
+					261 button Déplacer ce bloc vers le bas
+					262 button Supprimer ce bloc
+					263 text entry area (settable) Description: Liste à puces, bloc 12 sur 14, Value: Base de calcul des grilles à confirmer ; responsable et échéance : à compléter. Source : « Marqueurs relevés en séance (anonymisés) », séance du 12 août 2026, entrée 1 h 33 min, présent échange.
+Contrôler la version documentaire applicable à cette séance avant toute attribution détaillée des propositions : le « DOSSIER NAO 2027, état des séances des 12 et 26 août » couvre également une séance postérieure. Source : corpus fourni, titre du dossier ; pagination et version précise : à compléter ; source non vérifiée.
+Confirmer les échanges effectivement intervenus sur le télétravail avant d’en consigner le contenu. Le corpus présente un « ACCORD TÉLÉTRAVAIL D’ENTREPRISE DU 12 AOÛT 2026 », sans section ni pagination : à compléter ; source non vérifiée, à contrôler. Son contenu ne vaut pas compte rendu des échanges de cette séance.
+					264 text Un élément par ligne.
+					265 text INTERTITRE
+					266 button Déplacer ce bloc vers le haut
+					267 button Déplacer ce bloc vers le bas
+					268 button Supprimer ce bloc
+					269 text entry area (settable) Description: Intertitre, bloc 13 sur 14, Value: Sources
+					270 text LISTE À PUCES
+					271 button Déplacer ce bloc vers le haut
+					272 button Déplacer ce bloc vers le bas
+					273 button Supprimer ce bloc
+					274 text entry area (settable) Description: Liste à puces, bloc 14 sur 14, Value: Informations de séance fournies — identification et ordre du jour, 12 août 2026 — emplacement interne : présent échange, message utilisateur ; titre documentaire formel : à compléter.
+Marqueurs relevés en séance (anonymisés) — séance du 12 août 2026, entrées 05:05, 25:20, 55:40 et 1 h 33 min — emplacement interne : présent échange, message utilisateur.
+DOSSIER NAO 2027, état des séances des 12 et 26 août — intitulé et périmètre chronologique ; version et pagination : à compléter — emplacement interne : corpus du présent échange ; source non vérifiée, à contrôler sur l’original.
+ACCORD TÉLÉTRAVAIL D’ENTREPRISE DU 12 AOÛT 2026 — intitulé ; section et pagination : à compléter — emplacement interne : corpus du présent échange ; source non vérifiée, à contrôler sur l’original.
+					275 text Un élément par ligne.
+					276 checkbox A4 portrait, Value: 1
+					277 checkbox 16:9 paysage, Value: 0
+					278 checkbox A5 tract, Value: 0
+					279 checkbox Description: Zoom 50 %, Value: 0
+					280 checkbox Description: Zoom 72 %, Value: 1
+					281 checkbox Description: Zoom 100 %, Value: 0
+					282 text 1 page · A4 portrait
+					283 text Le contenu de la page 1 dépasse la hauteur imprimable. Ajoutez un saut de page ou passez la densité en « compact ».
+					284 container
+						285 text SECTION MÉTA VAL Local syndical — 12 rue de la Fonderie
+						286 image Logo de l'organisation
+						287 text RÉUNION NAO — 12 AOÛT 2026
+						288 heading Procès-verbal — Deuxième séance de négociation, Value: 2
+							289 text Procès-verbal — Deuxième séance de négociation
+						290 heading Projet de procès-verbal — Deuxième séance de négociation NAO, Value: 3
+							291 text Projet de procès-verbal — Deuxième séance de négociation NAO
+						292 text Séance du 12 août 2026 à 09 h 30 ; durée indiquée : 2 h 07. Lieu, participants et qualité des signataires : à compléter. Source : informations de séance fournies, rubrique d’identification du 12 août 2026, emplacement interne : présent échange.
+						293 heading Ordre du jour, Value: 3
+							294 text Ordre du jour
+						295 text Enveloppe d’augmentation générale. Transports et titres restaurant. Télétravail. Source : informations de séance fournies, rubrique « Ordre du jour », 12 août 2026, emplacement interne : présent échange.
+						296 heading Déroulement des échanges et délibérations, Value: 3
+							297 text Déroulement des échanges et délibérations
+						298 text À 05:05, les échanges passent au point « Enveloppe 2027 ». À 25:20, un désaccord est relevé entre les niveaux de 0,8 % et de 4,5 % ; les positions sont maintenues. L’attribution des positions et leur assiette à cette séance sont à compléter après contrôle. Sources : « Marqueurs relevés en séance (anonymisés) », séance du 12 août 2026, entrées 05:05 et 25:20, présent échange. Contenu des échanges sur les transports, les titres restaurant et le télétravail, ainsi que toute conclusion ou délibération : à compléter.
+						299 heading Engagement de la direction, Value: 3
+							300 text Engagement de la direction
+						301 text La direction s’engage à transmettre le chiffrage relatif aux transports avant le 2 septembre. Année de l’échéance, destinataires et modalités de transmission : à compléter. Source : « Marqueurs relevés en séance (anonymisés) », séance du 12 août 2026, entrée 55:40, présent échange.
+						302 heading Points à vérifier, Value: 3
+							303 text Points à vérifier
+						304 text Base de calcul des grilles à confirmer ; responsable et échéance : à compléter. Source : « Marqueurs relevés en séance (anonymisés) », séance du 12 août 2026, entrée 1 h 33 min, présent échange. Contrôler la version documentaire applicable à cette séance avant toute attribution détaillée des propositions : le « DOSSIER NAO 2027, état des séances des 12 et 26 août » couvre également une séance postérieure. Source : corpus fourni, titre du dossier ; pagination et version précise : à compléter ; source non vérifiée. Confirmer les échanges effectivement intervenus sur le télétravail avant d’en consigner le contenu. Le corpus présente un « ACCORD TÉLÉTRAVAIL D’ENTREPRISE DU 12 AOÛT 2026 », sans section ni pagination : à compléter ; source non vérifiée, à contrôler. Son contenu ne vaut pas compte rendu des échanges de cette séance.
+						305 heading Sources, Value: 3
+							306 text Sources
+						307 text Informations de séance fournies — identification et ordre du jour, 12 août 2026 — emplacement interne : présent échange, message utilisateur ; titre documentaire formel : à compléter. Marqueurs relevés en séance (anonymisés) — séance du 12 août 2026, entrées 05:05, 25:20, 55:40 et 1 h 33 min — emplacement interne : présent échange, message utilisateur. DOSSIER NAO 2027, état des séances des 12 et 26 août — intitulé et périmètre chronologique ; version et pagination : à compléter — emplacement interne : corpus du présent échange ; source non vérifiée, à contrôler sur l’original. ACCORD TÉLÉTRAVAIL D’ENTREPRISE DU 12 AOÛT 2026 — intitulé ; section et pagination : à compléter — emplacement interne : corpus du présent échange ; source non vérifiée, à contrôler sur l’original. section@syndicat-valenciennes.fr — 03 27 14 88 20 Page 1 / 1
+				112 text Session ouverte — appareil de confiance enregistré
+				113 container
+					166 button Accueil
+						167 image
+						168 text Accueil
+					117 button Dossiers
+						118 image
+						119 text Dossiers
+					120 button Agenda
+						121 image
+						122 text Agenda
+					308 button Réunions
+						309 image
+						310 text Réunions
+					126 button Réglages
+						127 image
+						128 text Réglages
+
+The focused UI element is 9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

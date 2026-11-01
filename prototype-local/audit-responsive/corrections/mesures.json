@@ -1,0 +1,521 @@
+{
+  "measurements": [
+    {
+      "label": "conversation360",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "agenda360",
+      "heading": "Agenda",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "document-edition360",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "document-apercu360",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Accueil360",
+      "heading": "Sophie Marchand",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Assistant360",
+      "heading": "Votre expert juridique de poche",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Dossiers360",
+      "heading": "Suivi des demandes",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Messages360",
+      "heading": "Messages",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Agenda360",
+      "heading": "Agenda",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Réunions360",
+      "heading": "Réunions",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Documents360",
+      "heading": "Documents",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Formations360",
+      "heading": "Formations",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Communication360",
+      "heading": "Communication",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Application mobile360",
+      "heading": "Application mobile",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Adhérents360",
+      "heading": "Adhérents",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Intranet360",
+      "heading": "Intranet",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Reporting360",
+      "heading": "Reporting",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Raccourcis360",
+      "heading": "Raccourcis",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Réglages360",
+      "heading": "Paramètres",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Sondages360",
+      "heading": "Sondages salariés",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Hors ligne360",
+      "heading": "Mode hors ligne",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "adherents-filtres-360",
+      "heading": "Adhérents",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "Accueil768",
+      "heading": "Sophie Marchand",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Assistant768",
+      "heading": "Votre expert juridique de poche",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Dossiers768",
+      "heading": "Suivi des demandes",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Messages768",
+      "heading": "Messages",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Agenda768",
+      "heading": "Agenda",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Réunions768",
+      "heading": "Réunions",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Documents768",
+      "heading": "Documents",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Formations768",
+      "heading": "Formations",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Communication768",
+      "heading": "Communication",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Application mobile768",
+      "heading": "Application mobile",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Adhérents768",
+      "heading": "Adhérents",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Intranet768",
+      "heading": "Intranet",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Reporting768",
+      "heading": "Reporting",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Raccourcis768",
+      "heading": "Raccourcis",
+      "overflow": [],
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "label": "Réglages768",
+      "heading": "Paramètres",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Sondages768",
+      "heading": "Sondages salariés",
+      "overflow": [],
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "label": "Hors ligne768",
+      "heading": "Mode hors ligne",
+      "overflow": [],
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "label": "admin768",
+      "heading": "Supervision",
+      "overflow": [],
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "label": "admin-Supervision768",
+      "heading": "Supervision",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "admin-Organisations768",
+      "heading": "Organisations",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "admin-Utilisateurs768",
+      "heading": "Utilisateurs",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "admin-Clés API IA768",
+      "heading": "Clés API IA",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "admin-Éditeur de l’application768",
+      "heading": "Éditeur de l'application",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "admin-Abonnements et paiements768",
+      "heading": "Abonnements et paiements",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "admin-Journal d’audit768",
+      "heading": "Journal d'audit",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "admin-Supervision360",
+      "heading": "Supervision",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "admin-Organisations360",
+      "heading": "Organisations",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "admin-Utilisateurs360",
+      "heading": "Utilisateurs",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "admin-Clés API IA360",
+      "heading": "Clés API IA",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "admin-Éditeur de l’application360",
+      "heading": "Éditeur de l'application",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "admin-Abonnements et paiements360",
+      "heading": "Abonnements et paiements",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "admin-Journal d’audit360",
+      "heading": "Journal d'audit",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "zoom100-360",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "document-tablette768",
+      "overflow": [],
+      "scrollWidth": 760,
+      "width": 760
+    },
+    {
+      "label": "Accueil1024",
+      "heading": "Sophie Marchand",
+      "overflow": [],
+      "scrollWidth": 1016,
+      "width": 1016
+    },
+    {
+      "label": "Messages1024",
+      "heading": "Messages",
+      "overflow": [],
+      "scrollWidth": 1016,
+      "width": 1016
+    },
+    {
+      "label": "Agenda1024",
+      "heading": "Agenda",
+      "overflow": [],
+      "scrollWidth": 1016,
+      "width": 1016
+    },
+    {
+      "label": "Documents1024",
+      "heading": "Documents",
+      "overflow": [],
+      "scrollWidth": 1016,
+      "width": 1016
+    },
+    {
+      "label": "Adhérents1024",
+      "heading": "Adhérents",
+      "overflow": [],
+      "scrollWidth": 1016,
+      "width": 1016
+    },
+    {
+      "label": "Assistant1024",
+      "heading": "Votre expert juridique de poche",
+      "overflow": [],
+      "scrollWidth": 1016,
+      "width": 1016
+    },
+    {
+      "label": "document390-final",
+      "overflow": [],
+      "scrollWidth": 382,
+      "width": 382
+    },
+    {
+      "label": "conversation-final430",
+      "overflow": [],
+      "scrollWidth": 382,
+      "width": 382
+    },
+    {
+      "label": "assistant-final360",
+      "heading": "Votre expert juridique de poche",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "editeur-final360",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "admin-final-Supervision360",
+      "heading": "Supervision",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "admin-final-Organisations360",
+      "heading": "Organisations",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "admin-final-Utilisateurs360",
+      "heading": "Utilisateurs",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "admin-final-Clés API IA360",
+      "heading": "Clés API IA",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "admin-final-Éditeur de l’application360",
+      "heading": "Éditeur de l'application",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "admin-final-Abonnements et paiements360",
+      "heading": "Abonnements et paiements",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "admin-final-Journal d’audit360",
+      "heading": "Journal d'audit",
+      "overflow": [],
+      "scrollWidth": 352,
+      "width": 352
+    },
+    {
+      "label": "admin-final768",
+      "heading": "Journal d'audit",
+      "overflow": [],
+      "scrollWidth": 768,
+      "width": 768
+    }
+  ],
+  "desktopGeometryMatches": true,
+  "composer": {
+    "bottom": 343,
+    "height": 430,
+    "scrollWidth": 382,
+    "width": 382
+  }
+}

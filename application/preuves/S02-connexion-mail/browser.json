@@ -1,0 +1,8 @@
+{
+  "adminLoginMFA": true,
+  "wrongMfaRefused": true,
+  "localDelivery": true,
+  "recipientAccepted": true,
+  "tokenRemoved": true,
+  "unauthorizedSendRefused": true
+}

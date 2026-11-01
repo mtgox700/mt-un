@@ -1,0 +1,108 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		6 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+						413 text unii
+						414 text 2
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				21 container
+					415 text UNII SUGGÈRE
+					416 button Page à compléter · NAO 2027 : où en sommes-nous ?
+					417 button À vérifier avant validation FO · Heures supplémentaires : ce que prévoit l'accord
+					418 text PUBLIÉ DANS L'APPLICATION FO
+					419 heading Application mobile, Value: 1
+						420 text Application mobile
+					421 text Créez les pages de votre organisation publiées dans l'application mobile FO : actualités, permanences, contacts, droits. Les adhérents et salariés les retrouvent dans l'espace « Section syndicale FO ». unii rédige, vous validez, la fédération publie. 1 pages en ligne 3 en préparation 412 vues ce mois
+					422 tab group Application mobile
+						423 tab (selected, settable, boolean) Mes pages · 4, Value: 1
+						424 tab (selectable, settable, boolean) Éditeur, Value: 0
+					425 heading Vos pages, Value: 2
+						426 text Vos pages
+					427 text Espace « Section syndicale FO » dans l'application FO
+					428 container
+						429 text En ligne Permanences
+						430 heading Nos permanences du mois d'octobre, Value: 3
+							431 text Nos permanences du mois d'octobre
+						432 text Tous les salariés · 3 blocs · mis à jour 28 sept. · 412 vues
+						433 button Modifier
+						434 button Supprimer
+					435 container
+						436 text Brouillon Actualité
+						437 button À compléter, Help: Page à compléter · NAO 2027 : où en sommes-nous ?
+						438 heading NAO 2027 : où en sommes-nous ?, Value: 3
+							439 text NAO 2027 : où en sommes-nous ?
+						440 text Tous les salariés · 1 bloc · mis à jour hier
+						441 button Modifier
+						442 button Supprimer
+					443 container
+						444 text Validation FO Contacts des élus
+						445 heading Vos représentants et comment les joindre, Value: 3
+							446 text Vos représentants et comment les joindre
+						447 text Tous les salariés · 3 blocs · mis à jour 30 sept.
+						448 button Modifier
+						449 button Supprimer
+					450 container
+						451 text En relecture Vos droits
+						452 button À vérifier, Help: À vérifier avant validation FO · Heures supplémentaires : ce que prévoit l'accord
+						453 heading Heures supplémentaires : ce que prévoit l'accord, Value: 3
+							454 text Heures supplémentaires : ce que prévoit l'accord
+						455 text Adhérents FO · 4 blocs · mis à jour 1er oct.
+						456 button Modifier
+						457 button Supprimer
+					458 text Circuit de publication : Brouillon → Relecture par un pair → Validation FO → En ligne dans l'application.
+					459 heading Créer une page, Value: 2
+						460 text Créer une page
+					461 text Partez d'un modèle adapté au téléphone, ou laissez unii rédiger une première version.
+					462 button Actualité Une info, ce qu'elle change, la suite.
+						463 text Actualité
+						464 text Une info, ce qu'elle change, la suite.
+					465 button Permanences Horaires, lieu, comment venir.
+						466 text Permanences
+						467 text Horaires, lieu, comment venir.
+					468 button Contacts des élus Qui joindre, pour quoi.
+						469 text Contacts des élus
+						470 text Qui joindre, pour quoi.
+					471 button Événement Date, lieu, inscription.
+						472 text Événement
+						473 text Date, lieu, inscription.
+					474 button Vos droits Une question, une réponse claire.
+						475 text Vos droits
+						476 text Une question, une réponse claire.
+					477 button Adhésion Pourquoi et comment rejoindre FO.
+						478 text Adhésion
+						479 text Pourquoi et comment rejoindre FO.
+					480 button Quelles pages créer ? Demander à unii
+				112 container
+					481 button Accueil
+						482 image
+						483 text Accueil
+					221 button Dossiers
+						222 image
+						223 text Dossiers
+					318 button Agenda
+						319 image
+						320 text Agenda
+					410 button Réunions
+						411 image
+						412 text Réunions
+					125 button Réglages
+						126 image
+						127 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

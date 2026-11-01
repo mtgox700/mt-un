@@ -1,0 +1,50 @@
+[
+  {
+    "file": "captures/connexion-desktop.jpg",
+    "sha256": "0f9814799a9726034a32167388097321b6f2332687e7b1cf30bbc310a5eeb8c3"
+  },
+  {
+    "file": "captures/connexion-mobile.jpg",
+    "sha256": "6e0ec5384b9acc5694afc7d6ba869e59effb23c97d3865241385cf0afa90f3c3"
+  },
+  {
+    "file": "captures/connexion-tablette.jpg",
+    "sha256": "e9f4f6e8a29c617490551a5389b65622900c1d5ebbc7af7553461cb65a0fa365"
+  },
+  {
+    "file": "captures/mfa-desktop.jpg",
+    "sha256": "6d0eca76e2714c6a2d1fb32ecf772af3b15302c74a4f724efa9c2aa2cc8140fd"
+  },
+  {
+    "file": "captures/mfa-mobile.jpg",
+    "sha256": "cf8f824a78ec0d1a04568fd1f163e1c2708950765a2b258dd067104f392b36dd"
+  },
+  {
+    "file": "captures/mfa-tablette.jpg",
+    "sha256": "4d2244dd467d7644dea1eaa81b4ba9c2bb0df987fa710dd94665ca698e74bd7a"
+  },
+  {
+    "file": "captures/modale-groupe-desktop.jpg",
+    "sha256": "08e0a8376edb0a00d85b7098727defb811a802d64d1d0a6641b59909dd73919b"
+  },
+  {
+    "file": "captures/modale-groupe-mobile.jpg",
+    "sha256": "e44dd4587db749a2933f704a62ce5e8c1f2aa7a638cd53a049b734b965170162"
+  },
+  {
+    "file": "captures/modale-groupe-tablette.jpg",
+    "sha256": "98a46e32156b6ce3150d58cf594f9123e9218df290019bd8917905a780debc9d"
+  },
+  {
+    "file": "captures/modale-unii-desktop.jpg",
+    "sha256": "36b3b444d8bf2fb356b4727c30b1253ce08551c145011162bd53fb95a5ff3583"
+  },
+  {
+    "file": "captures/modale-unii-mobile.jpg",
+    "sha256": "436ef949265f26f67d8847dd8c3f0f8df882680ea9de62b6a38a0ad3bf7f2d4e"
+  },
+  {
+    "file": "captures/modale-unii-tablette.jpg",
+    "sha256": "3a2e1dab9ea6f3a381245a5d24ddebcd46a0d376f334108fbb6599c1b7bcf21e"
+  }
+]

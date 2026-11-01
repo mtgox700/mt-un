@@ -1,0 +1,277 @@
+Browser tab: 9, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+1 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	2 container Dimensions de recette
+		3 button Bureau 1280
+		4 button Mobile 390
+		5 button Tablette 768
+		6 button Tablette paysage 1024
+		7 text 390 × 844
+	8 container Description: Prototype inchangé, ID: prototype
+		9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			10 container dc-root
+				11 container
+					12 image uniion
+					129 button ← Retour
+					13 image
+					14 text field (settable)
+					15 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					18 button
+						19 image
+					20 button Se déconnecter
+						21 image
+				22 container
+					227 text MONTÉE EN COMPÉTENCE
+					228 heading Formations, Value: 1
+						229 text Formations
+					230 text Deux catalogues pour vous former au mandat, et un mode où unii construit avec vous une session sur mesure, au rythme que vous choisissez.
+					231 tab group Formations
+						232 tab (selectable, settable, boolean) Catalogue IA 20, Value: 0
+						233 tab (selected, settable, boolean) Formations généralistes 31, Value: 1
+						234 tab (selectable, settable, boolean) Se former avec unii, Value: 0
+					235 text field (settable) Rechercher une formation
+					282 checkbox Toutes, Value: 1
+					283 checkbox CSE & mandats, Value: 0
+					284 checkbox Santé & sécurité, Value: 0
+					285 checkbox Économie & restructurations, Value: 0
+					286 checkbox Droit & négociation, Value: 0
+					287 checkbox Harcèlement & RPS, Value: 0
+					288 checkbox Tous formats, Value: 1
+					289 checkbox Obligatoires · agréées DREETS, Value: 0
+					290 checkbox Inter-entreprises possible, Value: 0
+					291 checkbox Intra uniquement, Value: 0
+					292 text 31 formations · 5 obligatoires agréées DREETS CSE & mandats
+					293 heading Présider le CSE, Value: 3
+						294 text Présider le CSE
+					295 text 1 jour INTRA
+					296 text Obtenez les clés pour présider le CSE et garantir un dialogue social conforme et efficace.
+					297 button Réviser avec unii
+					298 button Demander une session
+					299 text Santé & sécurité
+					300 heading Plan de prévention des risques, Value: 3
+						301 text Plan de prévention des risques
+					302 text 1 jour INTER ou INTRA
+					303 text Comprendre les mécanismes de coordination entre les entreprises intervenantes et l'entreprise utilisatrice.
+					304 button Réviser avec unii
+					305 button Demander une session
+					306 text CSE & mandats
+					307 heading Le secrétaire du CSE, Value: 3
+						308 text Le secrétaire du CSE
+					309 text 1 jour INTER ou INTRA
+					310 text Maîtrisez pleinement vos missions et responsabilités de secrétaire du CSE.
+					311 button Réviser avec unii
+					312 button Demander une session
+					313 text Économie & restructurations
+					314 heading La base de données économiques, sociales et environnementales (BDESE), Value: 3
+						315 text La base de données économiques, sociales et environnementales (BDESE)
+					316 text 1/2 journée INTER ou INTRA
+					317 text Mieux comprendre la BDESE de votre entreprise, garantir sa conformité aux exigences légales et exploiter les données économiques, sociales et environnementales.
+					318 button Réviser avec unii
+					319 button Demander une session
+					320 text CSE & mandats
+					321 heading Trésorier du CSE, Value: 3
+						322 text Trésorier du CSE
+					323 text 1 jour INTER ou INTRA
+					324 text Obtenez les compétences pour gérer les budgets du CSE et assurer une gestion financière transparente.
+					325 button Réviser avec unii
+					326 button Demander une session
+					327 text Droit & négociation
+					328 heading Les bases du droit du travail, Value: 3
+						329 text Les bases du droit du travail
+					330 text 3 jours INTER ou INTRA
+					331 text Connaître les obligations légales qui encadrent la relation de travail.
+					332 button Réviser avec unii
+					333 button Demander une session
+					334 text Harcèlement & RPS
+					335 heading Prévenir et gérer les risques psychosociaux, Value: 3
+						336 text Prévenir et gérer les risques psychosociaux
+					337 text 1 jour INTER ou INTRA
+					338 text Comprendre les enjeux des risques psychosociaux, en identifier les facteurs et mettre en œuvre une démarche préventive : stress, souffrance au travail, burn-out, harcèlement moral, qualité de vie au travail.
+					339 button Réviser avec unii
+					340 button Demander une session
+					341 text Économie & restructurations
+					342 heading Fusion : impact sur les salariés et leurs élus, Value: 3
+						343 text Fusion : impact sur les salariés et leurs élus
+					344 text 1 jour INTER ou INTRA
+					345 text Comprendre les étapes et les conséquences d'une fusion, et les outils pour assurer votre mission d'information et de consultation au sein du CSE.
+					346 button Réviser avec unii
+					347 button Demander une session
+					348 text Santé & sécurité Obligatoire Agréée DREETS
+					349 heading SSCT : santé et sécurité au travail, moins de 50 salariés, Value: 3
+						350 text SSCT : santé et sécurité au travail, moins de 50 salariés
+					351 text 5 jours INTER ou INTRA
+					352 text Obtenez les outils légaux et pratiques pour devenir un acteur clé de la santé et sécurité au travail.
+					353 button Réviser avec unii
+					354 button Demander une session
+					355 text Harcèlement & RPS
+					356 heading Référent harcèlement, Value: 3
+						357 text Référent harcèlement
+					358 text 1 jour INTER ou INTRA
+					359 text Obtenez les compétences pour prévenir, gérer et agir efficacement en tant que référent harcèlement.
+					360 button Réviser avec unii
+					361 button Demander une session
+					362 text Harcèlement & RPS
+					363 heading Prévention du harcèlement (à destination des salariés), Value: 3
+						364 text Prévention du harcèlement (à destination des salariés)
+					365 text 1/2 journée INTER ou INTRA
+					366 text Reconnaître les comportements inappropriés, distinguer les formes de harcèlement et connaître les bons réflexes pour agir ou signaler une situation à risque.
+					367 button Réviser avec unii
+					368 button Demander une session
+					369 text Harcèlement & RPS
+					370 heading RPS : les définir et s'en protéger, Value: 3
+						371 text RPS : les définir et s'en protéger
+					372 text 1 jour INTRA
+					373 text Former les élus du CSE à prévenir les risques psychosociaux au travail.
+					374 button Réviser avec unii
+					375 button Demander une session
+					376 text Harcèlement & RPS
+					377 heading Prévention du harcèlement pour les managers, Value: 3
+						378 text Prévention du harcèlement pour les managers
+					379 text 1 jour INTRA
+					380 text Obtenez les outils pour prévenir le harcèlement et adopter un management respectueux et responsable.
+					381 button Réviser avec unii
+					382 button Demander une session
+					383 text Santé & sécurité Obligatoire Agréée DREETS
+					384 heading SSCT : renouvellement obligatoire (plus de 50 salariés), Value: 3
+						385 text SSCT : renouvellement obligatoire (plus de 50 salariés)
+					386 text 3 jours INTRA
+					387 text Obtenez les outils légaux et pratiques pour devenir un acteur clé de la santé et sécurité au travail.
+					388 button Réviser avec unii
+					389 button Demander une session
+					390 text Harcèlement & RPS
+					391 heading Sensibilisation à la médiation en entreprise, Value: 3
+						392 text Sensibilisation à la médiation en entreprise
+					393 text 1 jour INTER ou INTRA
+					394 text Comprendre le processus de médiation et adopter une posture favorisant un dialogue constructif et apaisé dans les relations professionnelles.
+					395 button Réviser avec unii
+					396 button Demander une session
+					397 text CSE & mandats
+					398 heading Confidentialité et rôle du CSE dans les relations de travail, Value: 3
+						399 text Confidentialité et rôle du CSE dans les relations de travail
+					400 text 2 jours INTRA
+					401 text Assurer la confidentialité et défendre les droits des salariés dans les relations individuelles de travail.
+					402 button Réviser avec unii
+					403 button Demander une session
+					404 text Économie & restructurations
+					405 heading Plan de sauvegarde de l'emploi (PSE), Value: 3
+						406 text Plan de sauvegarde de l'emploi (PSE)
+					407 text 1/2 journée INTRA
+					408 text Analyser, négocier et défendre efficacement les intérêts des salariés face au PSE.
+					409 button Réviser avec unii
+					410 button Demander une session
+					411 text CSE & mandats
+					412 heading Commission de la formation, Value: 3
+						413 text Commission de la formation
+					414 text 1 jour INTRA
+					415 text Piloter la commission de formation, maîtriser vos obligations légales et la montée en compétence des élus.
+					416 button Réviser avec unii
+					417 button Demander une session
+					418 text Économie & restructurations Obligatoire Agréée DREETS
+					419 heading Formation économique du CSE — 3 jours, Value: 3
+						420 text Formation économique du CSE — 3 jours
+					421 text 3 jours INTER ou INTRA
+					422 text Formez-vous aux aspects juridiques et économiques pour renforcer votre efficacité au sein du CSE.
+					423 button Réviser avec unii
+					424 button Demander une session
+					425 text Santé & sécurité
+					426 heading Qualité de vie et des conditions de travail (QVCT), Value: 3
+						427 text Qualité de vie et des conditions de travail (QVCT)
+					428 text 2 jours INTRA
+					429 text Obtenez les clés pour améliorer la QVCT et faire de votre entreprise un lieu attractif et épanouissant.
+					430 button Réviser avec unii
+					431 button Demander une session
+					432 text Économie & restructurations
+					433 heading Rupture conventionnelle collective, Value: 3
+						434 text Rupture conventionnelle collective
+					435 text 1/2 journée INTRA
+					436 text Maîtriser les enjeux et le cadre légal de la rupture conventionnelle collective.
+					437 button Réviser avec unii
+					438 button Demander une session
+					439 text Économie & restructurations Obligatoire Agréée DREETS
+					440 heading Formation économique du CSE — 5 jours, Value: 3
+						441 text Formation économique du CSE — 5 jours
+					442 text 5 jours INTRA
+					443 text Obtenez les compétences juridiques et économiques pour exercer pleinement votre rôle au sein du CSE.
+					444 button Réviser avec unii
+					445 button Demander une session
+					446 text Santé & sécurité
+					447 heading Santé au travail, Value: 3
+						448 text Santé au travail
+					449 text 1 jour INTRA
+					450 text Analyser les indicateurs sociaux et agir en faveur de la santé au travail des salariés.
+					451 button Réviser avec unii
+					452 button Demander une session
+					453 text Droit & négociation
+					454 heading Actualités en droit social, Value: 3
+						455 text Actualités en droit social
+					456 text 1 jour INTER ou INTRA
+					457 text Le droit social évolue : formez-vous pour rester à jour.
+					458 button Réviser avec unii
+					459 button Demander une session
+					460 text Économie & restructurations
+					461 heading Plan de développement des compétences, Value: 3
+						462 text Plan de développement des compétences
+					463 text 1 jour INTRA
+					464 text Analyser, évaluer et optimiser le plan de développement des compétences en faveur des salariés.
+					465 button Réviser avec unii
+					466 button Demander une session
+					467 text Harcèlement & RPS
+					468 heading Sensibilisation au harcèlement, Value: 3
+						469 text Sensibilisation au harcèlement
+					470 text 1 h 15 INTER ou INTRA
+					471 text Mieux comprendre ces phénomènes, identifier les comportements à risque et connaître les recours existants.
+					472 button Réviser avec unii
+					473 button Demander une session
+					474 text Harcèlement & RPS
+					475 heading Prévenir et gérer les situations de harcèlement, Value: 3
+						476 text Prévenir et gérer les situations de harcèlement
+					477 text 1 jour INTER ou INTRA
+					478 text Identifier les situations à risque, comprendre les obligations légales de l'employeur et des salariés, et réagir efficacement face à des comportements inappropriés.
+					479 button Réviser avec unii
+					480 button Demander une session
+					481 text Santé & sécurité Obligatoire Agréée DREETS
+					482 heading SSCT : santé et sécurité au travail, plus de 50 salariés, Value: 3
+						483 text SSCT : santé et sécurité au travail, plus de 50 salariés
+					484 text 5 jours INTER ou INTRA
+					485 text Obtenez les outils légaux et pratiques pour devenir un acteur clé de la santé et sécurité au travail.
+					486 button Réviser avec unii
+					487 button Demander une session
+					488 text CSE & mandats
+					489 heading Activités sociales et culturelles (ASC), Value: 3
+						490 text Activités sociales et culturelles (ASC)
+					491 text 1 jour INTRA
+					492 text Obtenez les clés pour gérer efficacement le budget ASC et respecter vos obligations légales.
+					493 button Réviser avec unii
+					494 button Demander une session
+					495 text Droit & négociation
+					496 heading Négociation collective, Value: 3
+						497 text Négociation collective
+					498 text 2 jours INTER ou INTRA
+					499 text Obtenir les qualifications indispensables au bon déroulement des négociations.
+					500 button Réviser avec unii
+					501 button Demander une session
+					502 text Économie & restructurations
+					503 heading Bilan social, Value: 3
+						504 text Bilan social
+					505 text 1 jour INTRA
+					506 text Analyser le bilan social et défendre efficacement les intérêts des salariés.
+					507 button Réviser avec unii
+					508 button Demander une session
+					509 text Les formations obligatoires des élus (économique, SSCT) sont financées par l'employeur ou le budget de fonctionnement du CSE selon leur nature. Une demande de session est transmise au bureau pour arbitrage.
+				113 container
+					279 button Accueil
+						280 image
+						281 text Accueil
+					117 button Dossiers
+						118 image
+						119 text Dossiers
+					120 button Agenda
+						121 image
+						122 text Agenda
+					224 button Réunions
+						225 image
+						226 text Réunions
+					126 button Réglages
+						127 image
+						128 text Réglages
+
+The focused UI element is 233 tab (selected, settable, boolean) Formations généralistes 31, Value: 1

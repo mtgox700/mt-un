@@ -1,0 +1,78 @@
+[
+  {
+    "family": "Anton",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/OFL.txt"
+  },
+  {
+    "family": "Archivo",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivo/OFL.txt"
+  },
+  {
+    "family": "Archivo Black",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivoblack/OFL.txt"
+  },
+  {
+    "family": "Bangers",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/bangers/OFL.txt"
+  },
+  {
+    "family": "Barlow",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/OFL.txt"
+  },
+  {
+    "family": "Barlow Condensed",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt"
+  },
+  {
+    "family": "Bebas Neue",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/bebasneue/OFL.txt"
+  },
+  {
+    "family": "Comic Neue",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/OFL.txt"
+  },
+  {
+    "family": "DM Serif Display",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmserifdisplay/OFL.txt"
+  },
+  {
+    "family": "IBM Plex Sans",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/OFL.txt"
+  },
+  {
+    "family": "Libre Franklin",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/librefranklin/OFL.txt"
+  },
+  {
+    "family": "Newsreader",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/OFL.txt"
+  },
+  {
+    "family": "Oswald",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/oswald/OFL.txt"
+  },
+  {
+    "family": "Permanent Marker",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/apache/permanentmarker/LICENSE.txt"
+  },
+  {
+    "family": "Playfair Display",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/OFL.txt"
+  },
+  {
+    "family": "Source Serif 4",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/OFL.txt"
+  },
+  {
+    "family": "Space Grotesk",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/OFL.txt"
+  },
+  {
+    "family": "Special Elite",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/apache/specialelite/LICENSE.txt"
+  },
+  {
+    "family": "UnifrakturMaguntia",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/unifrakturmaguntia/OFL.txt"
+  }
+]

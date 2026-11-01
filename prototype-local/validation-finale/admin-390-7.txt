@@ -1,0 +1,38 @@
+Browser tab: 13, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container
+		2 text uniion
+		3 text CONSOLE D'ADMINISTRATION
+		4 container
+			29 button Supervision
+				30 image
+				31 text Supervision
+			32 button Organisations
+				33 image
+				34 text Organisations
+			35 button Utilisateurs
+				36 image
+				37 text Utilisateurs
+			38 button Clés API IA
+				39 image
+				40 text Clés API IA
+			41 button Éditeur de l’application
+				42 image
+				43 text Éditeur de l’application
+			44 button Abonnements et paiements
+				45 image
+				46 text Abonnements et paiements
+			47 button Journal d’audit
+				48 image
+				49 text Journal d’audit
+		26 text SA Super administrateur admin@uniion.fr
+		27 button Se déconnecter
+		28 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+		50 heading Journal d'audit, Value: 1
+			51 text Journal d'audit
+		52 text Chaîne d'empreintes inaltérable — conservation 36 mois.
+		53 button Exporter (CSV local)
+		54 container
+			55 text 11/09 09:41 admin@uniion.fr Rotation de la clé « Production — assistant juridique » Sensible 11/09 08:12 système Quota IA à 80 % — UD 59 — Lille Alerte 10/09 17:55 admin@uniion.fr Suspension du compte claire.dubois@ud59.fr Sensible 10/09 14:03 yann.lemoine@ud59.fr Export du registre des adhérents (1 320 lignes) Information 09/09 11:20 admin@uniion.fr Publication du gabarit « Tract A4 » v3 Information
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

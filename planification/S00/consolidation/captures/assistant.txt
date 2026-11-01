@@ -1,0 +1,98 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Intelligence artificielle
+  - heading "Votre expert juridique de poche" [level=1]
+  - paragraph: Sourcé sur la Convention Métallurgie et le Code du travail
+  - generic: Nouvelle conversation
+  - generic: Pas encore enregistrée — posez une question
+  - button "Mémoire · 4":
+    - generic: Mémoire · 4
+  - button "Créer un dossier":
+    - generic: Créer un dossier
+  - button "Plein écran":
+    - generic: Plein écran
+  - complementary:
+    - button "Nouvelle conversation":
+      - text: Nouvelle conversation
+    - button "Nouveau dossier guidé":
+      - text: Nouveau dossier guidé
+    - generic: Historique
+    - generic: 2 conversations
+    - button "Toutes"
+    - button "Assistant"
+    - button "Réunions"
+    - button "Heures de délégation non payées en cas d'arrêt maladie Assistant 23 oct. · 1 q.":
+      - generic: Heures de délégation non payées en cas d'arrêt maladie
+      - generic: Assistant
+      - generic: 23 oct. · 1 q.
+    - button "Supprimer la conversation": ×
+    - button "Projet de PV — CSE ordinaire de septembre Réunions 21 oct. · 1 q.":
+      - generic: Projet de PV — CSE ordinaire de septembre
+      - generic: Réunions
+      - generic: 21 oct. · 1 q.
+    - button "Supprimer la conversation": ×
+  - generic: uniion Assistant
+  - text: Aucune identité transmise
+  - generic: Niveau d'anonymisation
+  - button "Standard" [pressed]
+  - button "RH sensible"
+  - button "RPS"
+  - generic: uniion Assistant
+  - generic: Bonjour Sophie. Je peux répondre sur la Convention Métallurgie, le Code du travail ou analyser un accord d'entreprise.
+  - button "Signalement de harcèlement"
+  - button "Informations dues en NAO"
+  - button "Enquête après accident"
+  - button "Budget ASC"
+  - textbox "Posez votre question…"
+  - button:
+  - paragraph: "Prototype local : réponses produites via Codex connecté à votre compte ChatGPT, après masquage heuristique. Ce prototype ne garantit ni hébergement UE ni anonymisation complète — vérifiez les réponses avant utilisation."
+  - button "En savoir plus sur la sécurité":
+    - text: En savoir plus sur la sécurité

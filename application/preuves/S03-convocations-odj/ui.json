@@ -1,0 +1,64 @@
+[
+  {
+    "format": "desktop",
+    "documentPersisted": true,
+    "overflow": false
+  },
+  {
+    "format": "tablette",
+    "documentPersisted": true,
+    "overflow": false
+  },
+  {
+    "format": "mobile",
+    "documentPersisted": true,
+    "overflow": false
+  },
+  {
+    "format": "mobile",
+    "campaignAllowed": true,
+    "prefilled": true,
+    "overflow": false
+  },
+  {
+    "format": "tablette",
+    "campaignAllowed": true,
+    "prefilled": true,
+    "overflow": false
+  },
+  {
+    "format": "desktop",
+    "campaignAllowed": true,
+    "prefilled": true,
+    "overflow": false
+  },
+  {
+    "confirmationToastExpired": true,
+    "conversationOpened": true,
+    "deliveryConfirmationObserved": "2 convocation(s) envoyée(s) dans la messagerie locale."
+  },
+  {
+    "format": "desktop",
+    "convocationDenied": true
+  },
+  {
+    "format": "tablette",
+    "convocationDenied": true
+  },
+  {
+    "format": "mobile",
+    "convocationDenied": true
+  },
+  {
+    "format": "mobile",
+    "documentWriteDenied": true
+  },
+  {
+    "format": "tablette",
+    "documentWriteDenied": true
+  },
+  {
+    "format": "desktop",
+    "documentWriteDenied": true
+  }
+]

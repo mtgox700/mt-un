@@ -1,0 +1,32 @@
+{
+  "decision": "D06",
+  "statut": "Validée par l’utilisateur",
+  "choix": "Deux modes : nominatif et sans identité associée (dit anonyme, sans garantie d’anonymat absolu). Seuil minimal de 5 répondants pour publication des résultats du second mode. Super admin autorisé à consulter les réponses sans identité et à en déléguer explicitement l’accès.",
+  "nominatif": "Réponse associée à auteur ; lecture uniquement par acteurs habilités",
+  "sans_identite": {
+    "objectif": "Ne pas associer identité du participant à sa réponse ; préserver confidentialité sans promettre anonymat absolu ou impossibilité de réidentification",
+    "collecte": "Ne pas demander identité dans réponse ; contrôle éligibilité/participation séparé du stockage des réponses ; pas de lien direct identité-réponse",
+    "information_participant": "Annoncer avant participation le mode, la portée limitée de confidentialité, la consultation possible par super admin et personnes explicitement habilitées",
+    "super_admin": "Exception ciblée au principe de non-lecture métier : accès aux réponses sans identité de ce mode, et délégation explicite de cet accès ; aucun accès supplémentaire aux réponses nominatives ou autres contenus",
+    "delegation": "Accès en lecture ciblé par organisation et sondage, bénéficiaires nommés, journalisation et révocation ; pas de droit global implicite transmis au bénéficiaire",
+    "publication": "Résultats agrégés à partir de 5 répondants minimum ; seuil augmentable par organisation ; pas de sous-groupes identifiants",
+    "consultation_vs_publication": "Le seuil de publication ne conditionne pas la consultation privilégiée autorisée explicitement ; cette distinction doit être annoncée",
+    "texte_libre": "Absent en première version de ce mode pour limiter auto-identification",
+    "risques": "Horaires, journaux, contenu et petits groupes peuvent permettre rapprochements ; minimiser et tester sans revendiquer anonymat absolu"
+  },
+  "regles_communes": [
+    "Mode annoncé avant participation et non modifiable après première réponse",
+    "Partage inter-organisations limité aux résultats agrégés autorisés, sans identités ni bulletins ; accès exceptionnel D06 distinct et tracé",
+    "Contrôle organisation et permission sur chaque accès ; exception super admin limitée au mode sans identité"
+  ],
+  "tests_requis": [
+    "Séparation contrôle participation et stockage réponse sans identité directe",
+    "Seuil de publication : 4 refus, 5 autorisé sous autres permissions",
+    "Refus identité ou texte libre dans réponse du mode sans identité",
+    "Super admin accède uniquement au périmètre exceptionnel autorisé",
+    "Délégation limitée aux bénéficiaires et sondages désignés ; révocation effective",
+    "Pas d’accès nominatif ou autre contenu via exception",
+    "Information des participants conforme aux accès réellement possibles"
+  ],
+  "implementation": "Spécification validée ; modèle et tests à implémenter"
+}

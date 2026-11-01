@@ -1,0 +1,73 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+    - generic: "1"
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: unii suggère
+  - button "Brouillon à relire · NAO 2027 — où en sont les négociations"
+  - text: Communication & mobilisation
+  - heading "Générateur de documents" [level=1]
+  - generic: Type de document
+  - button "Tract"
+  - button "Courrier"
+  - button "Ordre du jour"
+  - generic: Points clés
+  - textbox: NAO 2027 — la direction propose 0,8 %. 68 % des salariés demandent une revalorisation générale. Appeler à l'AG du personnel mardi.
+  - button "Passer en mode assistant":
+    - text: Passer en mode assistant
+  - generic: Ton
+  - button "Combatif"
+  - button "Pédagogique"
+  - button "Institutionnel"
+  - button "Générer le document"
+  - generic: "Le prompt part anonymisé : noms, matricules et établissement sont remplacés par des jetons. La signature (Sophie Marchand — CSE) est recollée localement après génération."
+  - button "En savoir plus sur la sécurité":
+    - text: En savoir plus sur la sécurité
+  - generic: aperçu du document
+  - generic: Lancez la génération pour voir la mise en page automatique.

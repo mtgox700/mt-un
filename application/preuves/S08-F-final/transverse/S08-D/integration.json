@@ -1,0 +1,138 @@
+{
+  "count": 33,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "admin_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "generation_saved",
+      "ok": true
+    },
+    {
+      "test": "reread_verified",
+      "ok": true
+    },
+    {
+      "test": "author_cannot_read_reader_history",
+      "ok": true
+    },
+    {
+      "test": "superadmin_cannot_read_history",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_org_denied",
+      "ok": true
+    },
+    {
+      "test": "forged_actor_denied",
+      "ok": true
+    },
+    {
+      "test": "forged_content_denied",
+      "ok": true
+    },
+    {
+      "test": "no_plaintext_response",
+      "ok": true
+    },
+    {
+      "test": "no_plaintext_source_id",
+      "ok": true
+    },
+    {
+      "test": "remember",
+      "ok": true
+    },
+    {
+      "test": "memory_initially_off",
+      "ok": true
+    },
+    {
+      "test": "stale_pin_denied",
+      "ok": true
+    },
+    {
+      "test": "opt_in",
+      "ok": true
+    },
+    {
+      "test": "memory_sources_accumulated",
+      "ok": true
+    },
+    {
+      "test": "restart_history_readable",
+      "ok": true
+    },
+    {
+      "test": "restart_memory_persisted",
+      "ok": true
+    },
+    {
+      "test": "duplicate_after_restart_no_provider",
+      "ok": true
+    },
+    {
+      "test": "revoked_source_read_denied",
+      "ok": true
+    },
+    {
+      "test": "revoked_history_and_memory_absent",
+      "ok": true
+    },
+    {
+      "test": "memory_cannot_bypass_revoke",
+      "ok": true
+    },
+    {
+      "test": "opt_out",
+      "ok": true
+    },
+    {
+      "test": "archive",
+      "ok": true
+    },
+    {
+      "test": "archived_unreadable",
+      "ok": true
+    },
+    {
+      "test": "archive_retains_ciphertext",
+      "ok": true
+    },
+    {
+      "test": "no_source_title_in_events",
+      "ok": true
+    },
+    {
+      "test": "forged_source_snapshot_denied",
+      "ok": true
+    }
+  ],
+  "passed": true
+}

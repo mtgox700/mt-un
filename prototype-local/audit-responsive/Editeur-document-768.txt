@@ -1,0 +1,176 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				8 text unii
+				9 text 1
+			10 button
+				11 image
+			12 button Se déconnecter
+				13 image
+		14 container
+			15 text UNII SUGGÈRE
+			16 button Brouillon à relire · NAO 2027 — où en sont les négociations
+			17 button Revenir à la liste des documents
+			18 text Titre du document
+			19 text field (settable) Titre du document, Value: Compte rendu — séance du 26 août
+			20 button Imprimer / PDF
+			21 button Faire signer
+			22 button Diffuser
+			23 tab group Panneaux de l'éditeur
+				24 tab (selected, settable, boolean) Contenu, Value: 1
+				25 tab (selectable, settable, boolean) Charte graphique, Value: 0
+				26 tab (selectable, settable, boolean) Style, Value: 0
+			27 text CONTENU
+			28 checkbox Blocs, Value: 1
+			29 checkbox Markdown, Value: 0
+			30 button Ajouter un bloc titre principal
+			31 button Ajouter un bloc intertitre
+			32 button Ajouter un bloc paragraphe
+			33 button Ajouter un bloc liste à puces
+			34 button Ajouter un bloc encadré réglementaire
+			35 button Ajouter un bloc tableau
+			36 button Ajouter un bloc badge de rubrique
+			37 button Ajouter un bloc saut de page
+			38 button Ajouter un bloc chiffre clé
+			39 button Ajouter un bloc comparatif
+			40 button Ajouter un bloc frise de dates
+			41 button Ajouter un bloc photo
+			42 button Ajouter un bloc qr code
+			43 button Ajouter un bloc coupon d'adhésion
+			44 button Ajouter un bloc trombinoscope
+			45 button Ajouter un bloc tampon
+			46 button Ajouter un bloc bandeau surligné
+			47 button Ajouter un bloc signature
+			48 button Ajouter un bloc bulles de dialogue
+			49 button Ajouter un bloc encadré « fo exige »
+			50 text BADGE DE RUBRIQUE
+			51 button Déplacer ce bloc vers le haut
+			52 button Déplacer ce bloc vers le bas
+			53 button Supprimer ce bloc
+			54 text entry area (settable) Description: Badge de rubrique, bloc 1 sur 13, Value: Séance du 26 août 2026
+			55 text TITRE PRINCIPAL
+			56 button Déplacer ce bloc vers le haut
+			57 button Déplacer ce bloc vers le bas
+			58 button Supprimer ce bloc
+			59 text entry area (settable) Description: Titre principal, bloc 2 sur 13, Value: Compte rendu — réunion de la section syndicale
+			60 text INTERTITRE
+			61 button Déplacer ce bloc vers le haut
+			62 button Déplacer ce bloc vers le bas
+			63 button Supprimer ce bloc
+			64 text entry area (settable) Description: Intertitre, bloc 3 sur 13, Value: Présents
+			65 text PARAGRAPHE
+			66 button Déplacer ce bloc vers le haut
+			67 button Déplacer ce bloc vers le bas
+			68 button Supprimer ce bloc
+			69 text entry area (settable) Description: Paragraphe, bloc 4 sur 13, Value: Pour la section : Sophie Marchand (déléguée syndicale, secrétaire), Jean-Paul Diallo (trésorier), Leïla Chaïb (déléguée du personnel), Marc Aubert (représentant de proximité). Pour la direction : Mme Rousseau (DRH), M. Fontaine (directeur de site).
+			70 text INTERTITRE
+			71 button Déplacer ce bloc vers le haut
+			72 button Déplacer ce bloc vers le bas
+			73 button Supprimer ce bloc
+			74 text entry area (settable) Description: Intertitre, bloc 5 sur 13, Value: Ordre du jour
+			75 text LISTE À PUCES
+			76 button Déplacer ce bloc vers le haut
+			77 button Déplacer ce bloc vers le bas
+			78 button Supprimer ce bloc
+			79 text entry area (settable) Description: Liste à puces, bloc 6 sur 13, Value: Approbation du compte rendu de la séance du 24 juillet
+Information sur l'accident de l'atelier B du 25 août
+Consultation sur le projet de réorganisation logistique
+Budget des activités sociales et culturelles — arbitrage rentrée
+			80 text Un élément par ligne.
+			81 text INTERTITRE
+			82 button Déplacer ce bloc vers le haut
+			83 button Déplacer ce bloc vers le bas
+			84 button Supprimer ce bloc
+			85 text entry area (settable) Description: Intertitre, bloc 7 sur 13, Value: Délibérations
+			86 text TABLEAU
+			87 button Déplacer ce bloc vers le haut
+			88 button Déplacer ce bloc vers le bas
+			89 button Supprimer ce bloc
+			90 text entry area (settable) Description: Tableau, bloc 8 sur 13, Value: Point | Décision | Pour | Contre
+Compte rendu de juillet | Approuvé | 4 | 0
+Enquête atelier B | Enquête paritaire ouverte | 4 | 0
+Réorganisation logistique | Avis différé, expertise demandée | 3 | 1
+			91 text Une ligne par rangée, colonnes séparées par « | ». La première ligne fait l'en-tête.
+			92 text SAUT DE PAGE
+			93 button Déplacer ce bloc vers le haut
+			94 button Déplacer ce bloc vers le bas
+			95 button Supprimer ce bloc
+			96 text nouvelle page INTERTITRE
+			97 button Déplacer ce bloc vers le haut
+			98 button Déplacer ce bloc vers le bas
+			99 button Supprimer ce bloc
+			100 text entry area (settable) Description: Intertitre, bloc 10 sur 13, Value: Questions diverses
+			101 text LISTE À PUCES
+			102 button Déplacer ce bloc vers le haut
+			103 button Déplacer ce bloc vers le bas
+			104 button Supprimer ce bloc
+			105 text entry area (settable) Description: Liste à puces, bloc 11 sur 13, Value: Chaleur en atelier : la direction s'engage à installer deux points d'eau fraîche avant le 5 septembre
+Planning des congés d'hiver : diffusion aux équipes avant le 15 octobre
+Accès au local syndical le samedi : accord donné, badge à mettre à jour
+			106 text Un élément par ligne.
+			107 text INTERTITRE
+			108 button Déplacer ce bloc vers le haut
+			109 button Déplacer ce bloc vers le bas
+			110 button Supprimer ce bloc
+			111 text entry area (settable) Description: Intertitre, bloc 12 sur 13, Value: Prochaine séance
+			112 text PARAGRAPHE
+			113 button Déplacer ce bloc vers le haut
+			114 button Déplacer ce bloc vers le bas
+			115 button Supprimer ce bloc
+			116 text entry area (settable) Description: Paragraphe, bloc 13 sur 13, Value: Mardi 23 septembre 2026, 14 h 00, salle du conseil. Les points à inscrire à l'ordre du jour doivent parvenir au secrétariat avant le 16 septembre.
+			117 checkbox A4 portrait, Value: 1
+			118 checkbox 16:9 paysage, Value: 0
+			119 checkbox A5 tract, Value: 0
+			120 checkbox Description: Zoom 50 %, Value: 0
+			121 checkbox Description: Zoom 72 %, Value: 1
+			122 checkbox Description: Zoom 100 %, Value: 0
+			123 text 2 pages · A4 portrait
+			124 container docPrint
+				125 container
+					126 text SECTION MÉTA VAL Local syndical — 12 rue de la Fonderie
+					127 image Logo de l'organisation
+					128 text SÉANCE DU 26 AOÛT 2026
+					129 heading Compte rendu — réunion de la section syndicale, Value: 2
+						130 text Compte rendu — réunion de la section syndicale
+					131 heading Présents, Value: 3
+						132 text Présents
+					133 text Pour la section : Sophie Marchand (déléguée syndicale, secrétaire), Jean-Paul Diallo (trésorier), Leïla Chaïb (déléguée du personnel), Marc Aubert (représentant de proximité). Pour la direction : Mme Rousseau (DRH), M. Fontaine (directeur de site).
+					134 heading Ordre du jour, Value: 3
+						135 text Ordre du jour
+					136 text Approbation du compte rendu de la séance du 24 juillet Information sur l'accident de l'atelier B du 25 août Consultation sur le projet de réorganisation logistique Budget des activités sociales et culturelles — arbitrage rentrée
+					137 heading Délibérations, Value: 3
+						138 text Délibérations
+					139 text POINT DÉCISION POUR CONTRE Compte rendu de juillet Approuvé 4 0 Enquête atelier B Enquête paritaire ouverte 4 0 Réorganisation logistique Avis différé, expertise demandée 3 1 section@syndicat-valenciennes.fr — 03 27 14 88 20 Page 1 / 2
+				140 container
+					141 text SECTION MÉTA VAL Local syndical — 12 rue de la Fonderie
+					142 image Logo de l'organisation
+					143 heading Questions diverses, Value: 3
+						144 text Questions diverses
+					145 text Chaleur en atelier : la direction s'engage à installer deux points d'eau fraîche avant le 5 septembre Planning des congés d'hiver : diffusion aux équipes avant le 15 octobre Accès au local syndical le samedi : accord donné, badge à mettre à jour
+					146 heading Prochaine séance, Value: 3
+						147 text Prochaine séance
+					148 text Mardi 23 septembre 2026, 14 h 00, salle du conseil. Les points à inscrire à l'ordre du jour doivent parvenir au secrétariat avant le 16 septembre. section@syndicat-valenciennes.fr — 03 27 14 88 20 Page 2 / 2
+		149 container
+			150 button Accueil
+				151 image
+				152 text Accueil
+			153 button Dossiers
+				154 image
+				155 text Dossiers
+			156 button Agenda
+				157 image
+				158 text Agenda
+			159 button Réunions
+				160 image
+				161 text Réunions
+			162 button Réglages
+				163 image
+				164 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

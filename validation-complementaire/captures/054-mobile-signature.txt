@@ -1,0 +1,73 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		1641 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					1642 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				1334 container
+					1608 text SIGNATURE ÉLECTRONIQUE
+					1609 heading Signature du document, Value: 1
+						1610 text Signature du document
+					1611 text Simulation locale de signature — aucune certification eIDAS ni transmission externe.
+					1612 button Recette fictive — document à signer
+					1613 button PV de séance — 3 septembre
+					1614 button Courrier de saisine
+					1615 button Accord télétravail
+					1616 text Provenance :  Document · Recette fictive — document à signer
+					1617 text DOCUMENT · D-NOTE-1792775492119
+					1618 heading Recette fictive — document à signer, Value: 2
+						1619 text Recette fictive — document à signer
+					1620 text [Note aux adhérents] # Ce que change l'accord télétravail signé le 12 août L'accord d'entreprise sur le travail à distance entre en vigueur le 1er octobre 2026. Il remplace la charte unilatérale de 2021 et devient opposable à l'employeur : voici ce qu'il faut en retenir. ## Ce qui s'améliore - Deux jours par semaine ouverts à tous les postes éligibles, contre un seul auparavant - Indemnité forfaitaire de 2,80 € par jour télétravaillé - Droit à la déconnexion inscrit noir sur blanc, entre 19 h et 8 h ## Les points de vigilance - L'éligibilité reste soumise à l'avis du responsable : en cas de refus, exigez une réponse écrite et motivée - Le matériel fourni se limite à un ordinateur portable — le siège et l'écran restent à négocier - Le décompte des jours est annuel, pas mensuel : attention aux reports refusés en fin d'année > Un refus non motivé peut être contesté. Contactez la permanence de la section avant de signer un avenant. Permanence : mardi et jeudi, 12 h - 14 h, local syndical bâtiment A. Contact : section@syndicat-valenciennes.fr
+					1621 text POUR LES ÉLUS
+					1622 text Zone de signature — en attente
+					1623 text POUR LA DIRECTION
+					1624 text En attente de la signature des élus
+					1625 heading Signataires, Value: 2
+						1626 text Signataires
+					1627 text SM Sophie Marchand Secrétaire du CSE À signer JD Jean-Paul Diallo Élu titulaire — cosignataire En attente DR Direction des ressources humaines Partie employeur Non notifiée
+					1628 heading Apposer ma signature, Value: 2
+						1629 text Apposer ma signature
+					1630 text Signature avancée eIDAS : identité vérifiée par le second facteur de votre session.
+					1631 container
+						1632 text Nom apposé
+						1633 text field (settable) Nom apposé, Value: Sophie Marchand
+					1634 text Style
+					1635 button Manuscrite
+					1636 button Italique
+					1637 button Capitales
+					1638 checkbox Value: 0, Je reconnais avoir lu le document et j'accepte que ma signature électronique ait la même valeur qu'une signature manuscrite.
+					1639 button Signer le document
+				1640 text Cochez la mention de consentement pour signer
+				1643 container
+					1644 button Accueil
+						1645 image
+						1646 text Accueil
+					1647 button Dossiers
+						1648 image
+						1649 text Dossiers
+					1650 button Agenda
+						1651 image
+						1652 text Agenda
+					1653 button Réunions
+						1654 image
+						1655 text Réunions
+					1656 button Réglages
+						1657 image
+						1658 text Réglages
+
+The focused UI element is 3 button Mobile 390

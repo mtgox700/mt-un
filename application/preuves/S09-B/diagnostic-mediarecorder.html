@@ -1,0 +1,4 @@
+<!doctype html><meta charset="utf-8"><title>Diagnostic média fictif S09</title><button id="start">Tester le signal fictif</button><button id="stop">Arrêter</button><pre id="status"></pre><script>
+let ctx,rec;const show=t=>document.querySelector('#status').textContent+='\n'+t;
+document.querySelector('#start').onclick=async()=>{ctx=new AudioContext();await ctx.resume();const osc=ctx.createOscillator(),gain=ctx.createGain(),dest=ctx.createMediaStreamDestination();gain.gain.value=.01;osc.connect(gain);gain.connect(dest);osc.start();show('context '+ctx.state+' tracks '+dest.stream.getAudioTracks().length);rec=new MediaRecorder(dest.stream);show('mime '+rec.mimeType);rec.ondataavailable=e=>show('octets '+e.data.size);rec.onstop=()=>{show('stopped');osc.stop();ctx.close()};rec.onerror=e=>show('error '+e.error?.message);rec.start(1000);};document.querySelector('#stop').onclick=()=>rec.stop();
+</script>

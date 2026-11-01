@@ -1,0 +1,87 @@
+<sc-if value="{{ invitation.sheetOpen }}" hint-placeholder-val="{{ false }}">
+  <div style="position: fixed; inset: 0; z-index: 85; background: hsl(var(--shC) / .62); backdrop-filter: blur(3px); display: flex; align-items: center; justify-content: center; padding: 18px;">
+    <div role="dialog" aria-modal="true" aria-label="{{ invitation.sheetTitle }}" style="width: 100%; max-width: 520px; max-height: 90vh; overflow: auto; background: var(--surface); border-radius: 24px; animation: scaleIn .22s ease-out;">
+      <sc-if value="{{ invitation.sheetForm }}" hint-placeholder-val="{{ true }}">
+        <div style="padding: 24px 24px 8px;">
+          <h2 style="font-family:var(--fTitle); font-size: 22px; margin: 0 0 8px; color: var(--ink);">{{ invitation.sheetTitle }}</h2>
+          <p style="margin: 0 0 20px; font-size: 13px; line-height: 1.65; color: var(--ink5); text-wrap: pretty;">{{ invitation.sheetSub }}</p>
+
+          <div style="font-size: 10px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--ink6); margin-bottom: 9px;">{{ invitation.sheetOptLabel }}</div>
+          <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 18px;">
+            <sc-for list="{{ invitation.sheetOptions }}" as="o" hint-placeholder-count="3">
+              <sc-if value="{{ o.selected }}" hint-placeholder-val="{{ false }}">
+                <button onClick="{{ o.pick }}" aria-pressed="true" style="cursor: pointer; text-align: left; border: 1.5px solid var(--acTx); background: var(--acBg); border-radius: 14px; padding: 12px 14px; display: flex; gap: 11px; align-items: flex-start;">
+                  <span aria-hidden="true" style="flex: 0 0 auto; margin-top: 2px; width: 16px; height: 16px; border-radius: 99px; border: 5px solid var(--acTx); background: var(--surface);"></span>
+                  <span style="min-width: 0;">
+                    <span style="display: block; font-size: 13.5px; font-weight: 700; color: var(--acDeep);">{{ o.label }}</span>
+                    <span style="display: block; font-size: 12px; color: var(--acTx3); margin-top: 2px;">{{ o.hint }}</span>
+                  </span>
+                </button>
+              </sc-if>
+              <sc-if value="{{ o.idle }}" hint-placeholder-val="{{ true }}">
+                <button onClick="{{ o.pick }}" aria-pressed="false" style="cursor: pointer; text-align: left; border: 1px solid var(--bd2); background: var(--surface); border-radius: 14px; padding: 12px 14px; display: flex; gap: 11px; align-items: flex-start;" style-hover="border-color: var(--acMid);">
+                  <span aria-hidden="true" style="flex: 0 0 auto; margin-top: 2px; width: 16px; height: 16px; border-radius: 99px; border: 1.5px solid var(--bd2); background: var(--surface);"></span>
+                  <span style="min-width: 0;">
+                    <span style="display: block; font-size: 13.5px; font-weight: 600; color: var(--ink3);">{{ o.label }}</span>
+                    <span style="display: block; font-size: 12px; color: var(--ink6); margin-top: 2px;">{{ o.hint }}</span>
+                  </span>
+                </button>
+              </sc-if>
+            </sc-for>
+          </div>
+
+          <sc-if value="{{ invitation.sheetHasChecks }}" hint-placeholder-val="{{ false }}">
+            <div style="font-size: 10px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--ink6); margin-bottom: 9px;">Canaux</div>
+            <div style="display: flex; flex-direction: column; gap: 7px; margin-bottom: 18px;">
+              <sc-for list="{{ invitation.sheetChecks }}" as="ch" hint-placeholder-count="3">
+                <button onClick="{{ ch.toggle }}" role="switch" aria-checked="{{ ch.on }}" style="cursor: pointer; text-align: left; border: 1px solid var(--bd); background: var(--surface); border-radius: 12px; padding: 10px 13px; display: flex; gap: 11px; align-items: center;" style-hover="border-color: var(--bd2);">
+                  <sc-if value="{{ ch.on }}" hint-placeholder-val="{{ true }}">
+                    <span aria-hidden="true" style="flex: 0 0 auto; width: 18px; height: 18px; border-radius: 6px; background: var(--acTx); color: #FFFFFF; font-size: 12px; display: flex; align-items: center; justify-content: center;">✓</span>
+                  </sc-if>
+                  <sc-if value="{{ ch.off }}" hint-placeholder-val="{{ false }}">
+                    <span aria-hidden="true" style="flex: 0 0 auto; width: 18px; height: 18px; border-radius: 6px; border: 1.5px solid var(--bd2);"></span>
+                  </sc-if>
+                  <span style="font-size: 13px; color: var(--ink3);">{{ ch.label }}</span>
+                </button>
+              </sc-for>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ invitation.sheetHasField }}" hint-placeholder-val="{{ false }}">
+            <label style="display: block; font-size: 10px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--ink6); margin-bottom: 8px;">{{ invitation.sheetFieldLabel }}</label>
+            <textarea value="{{ invitation.sheetText }}" onChange="{{ invitation.onSheetText }}" placeholder="{{ invitation.sheetPlaceholder }}" rows="2" style="width: 100%; box-sizing: border-box; border: 1px solid var(--bd2); border-radius: 14px; padding: 12px 14px; font-size: 13.5px; font-family: inherit; color: var(--ink); resize: vertical; margin-bottom: 6px;"></textarea>
+            <sc-if value="{{ invitation.sheetHasErr }}" hint-placeholder-val="{{ false }}">
+              <div role="alert" style="font-size: 12.5px; color: var(--dangerTx2); margin-bottom: 6px;">{{ invitation.sheetErr }}</div>
+            </sc-if>
+          </sc-if>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center; padding: 14px 24px 22px;">
+          <button onClick="{{ invitation.sheetClose }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 12px 18px; font-size: 13px; font-weight: 600; color: var(--ink4);" style-hover="border-color: var(--ink6);">Annuler</button>
+          <button onClick="{{ invitation.sheetConfirm }}" style="margin-left: auto; cursor: pointer; border: none; border-radius: 99px; padding: 13px 22px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 13.5px; font-weight: 700;">{{ invitation.sheetConfirmLabel }}</button>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ invitation.sheetDone }}" hint-placeholder-val="{{ false }}">
+        <div style="padding: 30px 24px 8px; text-align: center;">
+          <div aria-hidden="true" style="width: 52px; height: 52px; margin: 0 auto 16px; border-radius: 99px; background: var(--okBg); color: var(--ok); font-size: 24px; display: flex; align-items: center; justify-content: center;">✓</div>
+          <h2 style="font-family:var(--fTitle); font-size: 21px; margin: 0 0 14px; color: var(--ink);">{{ invitation.sheetDoneTitle }}</h2>
+          <div style="display: flex; flex-direction: column; gap: 6px; margin-bottom: 18px;">
+            <sc-for list="{{ invitation.sheetDoneLines }}" as="ln" hint-placeholder-count="2">
+              <div style="font-size: 13px; line-height: 1.6; color: var(--ink5); text-wrap: pretty;">{{ ln.text }}</div>
+            </sc-for>
+          </div>
+          <sc-if value="{{ invitation.sheetIsFile }}" hint-placeholder-val="{{ false }}">
+            <div style="display: flex; gap: 11px; align-items: center; border: 1px solid var(--bd); background: var(--surf2); border-radius: 14px; padding: 12px 14px; text-align: left; margin-bottom: 4px;">
+              <span aria-hidden="true" style="flex: 0 0 auto; width: 30px; height: 30px; border-radius: 8px; background: var(--acBg); color: var(--acTx3); font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center;">↓</span>
+              <span style="font-size: 12.5px; color: var(--ink4); line-height: 1.5;">Le fichier a été téléchargé dans <strong style="font-weight: 700;">les téléchargements du navigateur</strong>.</span>
+            </div>
+          </sc-if>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center; padding: 14px 24px 22px;">
+          <button onClick="{{ invitation.sheetClose }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 12px 18px; font-size: 13px; font-weight: 600; color: var(--ink4);" style-hover="border-color: var(--ink6);">Fermer</button>
+          <button onClick="{{ invitation.sheetFollow }}" style="margin-left: auto; cursor: pointer; border: none; border-radius: 99px; padding: 13px 22px; background: var(--inkSurf); color: #FFFFFF; font-size: 13.5px; font-weight: 700;">{{ invitation.sheetDoneAction }}</button>
+        </div>
+      </sc-if>
+    </div>
+  </div>
+</sc-if>

@@ -1,0 +1,62 @@
+[
+  {
+    "style": "choc",
+    "format": "a4",
+    "blocked": true
+  },
+  {
+    "style": "choc",
+    "format": "a5",
+    "blocked": true
+  },
+  {
+    "style": "choc",
+    "format": "wide",
+    "blocked": true
+  },
+  {
+    "style": "retro",
+    "format": "a4",
+    "blocked": true
+  },
+  {
+    "style": "retro",
+    "format": "a5",
+    "blocked": true
+  },
+  {
+    "style": "retro",
+    "format": "wide",
+    "blocked": true
+  },
+  {
+    "style": "serigraphie",
+    "format": "a4",
+    "blocked": true
+  },
+  {
+    "style": "serigraphie",
+    "format": "a5",
+    "blocked": true
+  },
+  {
+    "style": "serigraphie",
+    "format": "wide",
+    "blocked": true
+  },
+  {
+    "style": "journal",
+    "format": "a4",
+    "blocked": true
+  },
+  {
+    "style": "journal",
+    "format": "a5",
+    "blocked": true
+  },
+  {
+    "style": "journal",
+    "format": "wide",
+    "blocked": false
+  }
+]

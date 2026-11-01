@@ -1,0 +1,50 @@
+test_anonymous (test_foundation.Tests.test_anonymous) ... ok
+test_authorized_read (test_foundation.Tests.test_authorized_read) ... ok
+test_cache_and_token_protection (test_foundation.Tests.test_cache_and_token_protection) ... ok
+test_defensive_cross_tenant_response (test_foundation.Tests.test_defensive_cross_tenant_response) ... ok
+test_defensive_wrong_id (test_foundation.Tests.test_defensive_wrong_id) ... ok
+test_dependency_outage (test_foundation.Tests.test_dependency_outage) ... ok
+test_fake_superadmin_header_no_bypass (test_foundation.Tests.test_fake_superadmin_header_no_bypass) ... ok
+test_health_has_no_business_data (test_foundation.Tests.test_health_has_no_business_data) ... ok
+test_invalid_token (test_foundation.Tests.test_invalid_token) ... ok
+test_no_client_principal_override (test_foundation.Tests.test_no_client_principal_override) ... ok
+test_no_implicit_environment (test_foundation.Tests.test_no_implicit_environment) ... ok
+test_no_internal_error_or_token_echo (test_foundation.Tests.test_no_internal_error_or_token_echo) ... ok
+test_no_production_launch (test_foundation.Tests.test_no_production_launch) ... ok
+test_no_write_route (test_foundation.Tests.test_no_write_route) ... ok
+test_registry_cycle (test_foundation.Tests.test_registry_cycle) ... ok
+test_registry_duplicate (test_foundation.Tests.test_registry_duplicate) ... ok
+test_registry_missing_dependency (test_foundation.Tests.test_registry_missing_dependency) ... ok
+test_revocation_between_dispatch_and_read (test_foundation.Tests.test_revocation_between_dispatch_and_read) ... ok
+test_revocation_no_cache (test_foundation.Tests.test_revocation_no_cache) ... ok
+test_rls_empty (test_foundation.Tests.test_rls_empty) ... ok
+test_secret_key_rejected (test_foundation.Tests.test_secret_key_rejected) ... ok
+test_unknown_command_denied (test_foundation.Tests.test_unknown_command_denied) ... ok
+test_unknown_route (test_foundation.Tests.test_unknown_route) ... ok
+test_wrong_org (test_foundation.Tests.test_wrong_org) ... ok
+test_absolute_expiry (test_sessions.Tests.test_absolute_expiry) ... ok
+test_bad_json (test_sessions.Tests.test_bad_json) ... ok
+test_bearer (test_sessions.Tests.test_bearer) ... ok
+test_content_type (test_sessions.Tests.test_content_type) ... ok
+test_csrf (test_sessions.Tests.test_csrf) ... ok
+test_foreign_cookie (test_sessions.Tests.test_foreign_cookie) ... ok
+test_host_logout (test_sessions.Tests.test_host_logout) ... ok
+test_idle_expiry (test_sessions.Tests.test_idle_expiry) ... ok
+test_large_body (test_sessions.Tests.test_large_body) ... ok
+test_logout (test_sessions.Tests.test_logout) ... ok
+test_logout_after_jwt_expiry (test_sessions.Tests.test_logout_after_jwt_expiry) ... ok
+test_no_tokens (test_sessions.Tests.test_no_tokens) ... ok
+test_origin (test_sessions.Tests.test_origin) ... ok
+test_quota (test_sessions.Tests.test_quota) ... ok
+test_rate_per_account (test_sessions.Tests.test_rate_per_account) ... ok
+test_refresh (test_sessions.Tests.test_refresh) ... ok
+test_remote_revocation (test_sessions.Tests.test_remote_revocation) ... ok
+test_rotation (test_sessions.Tests.test_rotation) ... ok
+test_serial_refresh (test_sessions.Tests.test_serial_refresh) ... ok
+test_switch_identity (test_sessions.Tests.test_switch_identity) ... ok
+test_wrong_factor (test_sessions.Tests.test_wrong_factor) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 0.007s
+
+OK

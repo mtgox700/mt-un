@@ -1,0 +1,115 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			8 button
+				9 image
+			10 button Se déconnecter
+				11 image
+		12 container
+			13 button ← Réglages
+			14 text MESSAGERIE
+			15 heading Contacts & groupes, Value: 1
+				16 text Contacts & groupes
+			17 text L'annuaire utilisé par la messagerie : élus, adhérents et contacts externes, et les groupes de discussion avec leurs membres et administrateurs.
+			18 text field (settable) Rechercher
+			19 button Nouveau contact
+			20 button Nouveau groupe
+			21 heading Groupes de discussion, Value: 2
+				22 text Groupes de discussion
+			23 text 3 groupes Commission Négociation 5 membres · admin : vous, Jean-Paul
+			24 button Ouvrir
+			25 button Membres & réglages
+			26 text Commission SSCT 4 membres · admin : vous
+			27 button Ouvrir
+			28 button Membres & réglages
+			29 text Commission ASC 3 membres · admin : vous, Leïla
+			30 button Ouvrir
+			31 button Membres & réglages
+			32 text Les listes de diffusion aux adhérents se gèrent dans Adhérents ; chaque envoi apparaît dans Messages.
+			33 button Listes de diffusion →
+			34 heading Contacts, Value: 2
+				35 text Contacts
+			36 checkbox Tous · 19, Value: 1
+			37 checkbox Équipe & élus · 6, Value: 0
+			38 checkbox Adhérents · 12, Value: 0
+			39 checkbox Externes · 1, Value: 0
+			40 text Sophie Marchand (vous) Équipe & élus Élue titulaire · Secrétaire du CSE  ·  06 20 18 44 02 · s.marchand@section-metaval.fr Groupes : Commission Négociation, Commission SSCT, Commission ASC
+			41 button Modifier
+			42 text Jean-Paul Diallo Équipe & élus Élu titulaire · Délégué syndical  ·  06 31 72 09 55 · jp.diallo@section-metaval.fr Groupes : Commission Négociation, Commission SSCT
+			43 button Écrire
+			44 button Modifier
+			45 text Leïla Chaïb Équipe & élus Élue · Commission ASC  ·  06 44 10 28 63 · l.chaib@section-metaval.fr Groupes : Commission Négociation, Commission ASC
+			46 button Écrire
+			47 button Modifier
+			48 text Marc Aubert Équipe & élus Suppléant · Référent SSCT  ·  06 58 91 37 20 · m.aubert@section-metaval.fr Groupes : Commission SSCT
+			49 button Écrire
+			50 button Modifier
+			51 text Nadia Roussel Équipe & élus Élue suppléante  ·  06 72 15 80 46 · n.roussel@section-metaval.fr Groupes : Commission Négociation, Commission ASC
+			52 button Écrire
+			53 button Modifier
+			54 text Thomas Lefèvre Équipe & élus Représentant syndical au CSE  ·  06 83 26 54 17 · t.lefevre@section-metaval.fr Groupes : Commission Négociation, Commission SSCT
+			55 button Écrire
+			56 button Modifier
+			57 text Cabinet Berger Contact externe Avocat conseil  ·  03 27 41 22 90 · contact@cabinet-berger.fr
+			58 button Écrire
+			59 button Modifier
+			60 text Karim Benali Adhérent·e Opérateur ligne 3  ·  06 12 44 87 21 · k.benali@mv-sa.fr
+			61 button Écrire
+			62 button Fiche adhérent
+			63 text Sandrine Lemoine Adhérent·e Préparatrice de commandes  ·  06 74 02 19 55 · s.lemoine@valmetal-log.fr
+			64 button Écrire
+			65 button Fiche adhérent
+			66 text Mehdi Fournier Adhérent·e Technicien maintenance  ·  07 61 88 03 12 · m.fournier@mv-sa.fr
+			67 button Écrire
+			68 button Fiche adhérent
+			69 text Aurélie Pruvost Adhérent·e Assistante ADV  ·  06 33 71 26 09 · a.pruvost@vmv-services.fr
+			70 button Écrire
+			71 button Fiche adhérent
+			72 text Thierry Dubois Adhérent·e Chaudronnier  ·  06 09 55 41 78 · t.dubois@mv-sa.fr
+			73 button Écrire
+			74 button Fiche adhérent
+			75 text Nadia Cherif Adhérent·e Cariste  ·  07 82 14 60 37 · n.cherif@valmetal-log.fr
+			76 button Écrire
+			77 button Fiche adhérent
+			78 text Pascal Vandenberghe Adhérent·e Régleur presse  ·  06 45 90 22 84 · p.vdb@mv-sa.fr
+			79 button Écrire
+			80 button Fiche adhérent
+			81 text Émilie Roussel Adhérent·e Contrôleuse qualité  ·  07 12 68 45 90 · e.roussel@mv-sa.fr
+			82 button Écrire
+			83 button Fiche adhérent
+			84 text Jonathan Leclercq Adhérent·e Magasinier  ·  06 61 30 74 12 · j.leclercq@valmetal-log.fr
+			85 button Écrire
+			86 button Fiche adhérent
+			87 text Christine Delattre Adhérent·e Gestionnaire paie  ·  06 27 19 83 46 · c.delattre@vmv-services.fr
+			88 button Écrire
+			89 button Fiche adhérent
+			90 text Bruno Waeles Adhérent·e Électromécanicien  ·  07 55 62 08 31 · b.waeles@mv-sa.fr
+			91 button Écrire
+			92 button Fiche adhérent
+			93 text Fatou Sarr Adhérent·e Soudeuse  ·  06 84 27 55 60 · f.sarr@mv-sa.fr
+			94 button Écrire
+			95 button Fiche adhérent
+		96 container
+			97 button Accueil
+				98 image
+				99 text Accueil
+			100 button Dossiers
+				101 image
+				102 text Dossiers
+			103 button Agenda
+				104 image
+				105 text Agenda
+			106 button Réunions
+				107 image
+				108 text Réunions
+			109 button Réglages
+				110 image
+				111 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

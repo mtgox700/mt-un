@@ -1,0 +1,155 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			5 button Accueil
+				6 image
+				7 text Accueil
+			66 button Assistant
+				67 image
+				68 text Assistant
+			69 button Dossiers
+				70 image
+				71 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			17 button Agenda
+				18 image
+				19 text Agenda
+			20 button Réunions
+				21 image
+				22 text Réunions
+			23 button Documents
+				24 image
+				25 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			58 button ← Retour
+			59 image
+			60 text field (settable) RECETTE
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				72 text unii
+				73 text 2
+			62 button
+				63 image
+			64 button Se déconnecter
+				65 image
+		74 container
+			75 text UNII SUGGÈRE
+			76 button Échéance dans 24 h · Signalement — Service Logistique
+			77 button Échéance dans 4 h · Accident Atelier B
+			78 text JURIDIQUE
+			79 heading Préparation d’une réunion d’information des élus, Value: 1
+				80 text Préparation d’une réunion d’information des élus
+			81 text Q : Cas fictif pour recette : préparer collectivement une réunion d’information des élus le mois prochain, sans données personnelles. R : Aucun délai de préparation ou de convocation propre à cette réunion d’information n’est précisé dans le corpus. Versez le règlement intérieur du CSE et tout accord encadrant les réunions ; faites vérifier les règles avant tout usage contentieux. S’agit-il d’une réunion interne entre élus ou d’une réunion officielle du CSE, et à quelle date précise ? Quels thèmes souhaitez-vous traiter, pour quels participants désignés uniquement par fonction, et avec quel résultat attendu ? Vous pouvez dès maintenant préparer un ordre du jour provisoire et conserver une trace écrite des propositions et de la répartition des tâches. Sources : Corpus fourni — règles spécifiques non documentées — source non vérifiée, à contrôler.
+			82 button Modifier le dossier
+			83 button Supprimer le dossier
+			84 text ÉCHÉANCE
+			85 text Mois prochai
+			86 text STATUT
+			87 text À traiter
+			88 text RÉFÉRENT
+			89 text Sophie M.
+			90 heading Historique, Value: 2
+				91 text Historique
+			92 text Aujourd'hui
+			93 text Dossier créé depuis l’Assistant IA
+			94 text Conversation « Cas fictif pour recette : préparer collectivement une réunion d’information des » · 1 échange importé · origine : Dossiers.
+			95 text Aujourd'hui
+			96 text Plan d’action proposé par unii
+			97 text · Dès maintenant (proposition) : préciser si la réunion est interne ou officielle et fixer sa date. · Avant de fixer le calendrier de préparation : fournir le règlement intérieur du CSE et les accords encadrant les réunions, puis faire vérifier les délais applicables ; source non vérifiée, à contrôler. · Avant la réunion (proposition) : définir les thèmes, les participants par fonction et le résultat attendu. · Avant la réunion (proposition) : préparer un ordre du jour provisoire et consigner les propositions ainsi que la répartition des tâches. Sources : Échange Q/R fourni — question Q et réponse R, date non précisée — emplacement interne : message utilisateur « Matière du dossier (anonymisée) ». Corpus évoqué — règles spécifiques non documentées, titre et version non fournis — source non vérifiée, à contrôler en fournissant les textes applicables.
+			98 text Aujourd'hui
+			99 text Échange IA — Corpus fourni : aucun délai spécifique identifié pour cette réunion d’information ; source non vérifiée.
+			100 text Q : Cas fictif pour recette : préparer collectivement une réunion d’information des élus le mois prochain, sans données personnelles. R : Aucun délai de préparation ou de convocation propre à cette réunion d’information n’est précisé dans le corpus. Versez le règlement intérieur du CSE et tout accord encadrant les réunions ; faites vérifier les règles avant tout usage contentieux. S’agit-il d’une réunion interne entre élus ou d’une réunion officielle du CSE, et à quelle date précise ? Quels thèmes souhaitez-vous traiter, pour quels participants désig
+			101 text field (settable)
+			102 button Ajouter
+			103 heading Actions, Value: 2
+				104 text Actions
+			105 button Analyser sans identité →
+			106 text NIVEAU STANDARD Masquage léger — aucun nom détecté
+			107 button Générer un courrier à la direction
+			108 button Pièces jointes 0
+				109 image
+				110 text Pièces jointes
+				111 text 0
+			112 button Faire avancer le dossier
+			113 image
+			114 text Assistant du dossier Contexte chargé
+			115 button Mode assistant, Help: Ouvrir ce sujet dans l'Assistant
+			116 text Juridique Échéance Mois prochai 0 pièce Niveau standard
+			117 container
+				118 text UNII · OUVERTURE DE DOSSIER Décrivez la situation : qui est concerné (fonction, service), les faits et leurs dates, ce que demande le salarié. Je vous pose les questions manquantes ; quand vous êtes prêt, cliquez « Créer le dossier » : je l’intitule, le qualifie et propose un plan d’action. Cas fictif pour recette : préparer collectivement une réunion d’information des élus le mois prochain, sans données personnelles. CORPUS FOURNI : AUCUN DÉLAI SPÉCIFIQUE IDENTIFIÉ POUR CETTE RÉUNION D’INFORMATION ; SOURCE NON VÉRIFIÉE. Aucun délai de préparation ou de convocation propre à cette réunion d’information n’est précisé dans le corpus. Versez le règlement intérieur du CSE et tout accord encadrant les réunions ; faites vérifier les règles avant tout usage contentieux.
+
+S’agit-il d’une réunion interne entre élus ou d’une réunion officielle du CSE, et à quelle date précise ?
+
+Quels thèmes souhaitez-vous traiter, pour quels participants désignés uniquement par fonction, et avec quel résultat attendu ?
+
+Vous pouvez dès maintenant préparer un ordre du jour provisoire et conserver une trace écrite des propositions et de la répartition des tâches.
+
+Sources : Corpus fourni — règles spécifiques non documentées — source non vérifiée, à contrôler.
+			119 button Quels textes s'appliquent ici ?
+			120 button Quels délais dois-je respecter ?
+			121 button Que demander à la direction ?
+			122 button Résume l'historique en 5 lignes
+			123 text field (settable)
+			124 button Envoyer à l'assistant
+				125 image
+			126 text Noms et matricules masqués avant envoi · réponses non conservées côté modèle.
+			127 button En savoir plus sur la sécurité
+			128 button Analyse complète →
+			129 heading Assigner à un élu, Value: 2
+				130 text Assigner à un élu
+			131 text Seuls les élus formés SSCT apparaissent en gras.
+			132 button SM Sophie Marchand Référent
+				133 text SM
+				134 text Sophie Marchand
+				135 text Référent
+			136 button JD Jean-Paul Diallo Trésorier
+				137 text JD
+				138 text Jean-Paul Diallo
+				139 text Trésorier
+			140 button LC Leïla Chaïb Élue titulaire
+				141 text LC
+				142 text Leïla Chaïb
+				143 text Élue titulaire
+			144 button MA Marc Aubert Suppléant
+				145 text MA
+				146 text Marc Aubert
+				147 text Suppléant
+			148 text CLOISONNEMENT
+			149 text Ce dossier est chiffré et invisible pour l'employeur. Journal d'accès conservé 5 ans (audit RGPD).
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

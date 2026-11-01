@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "count": 30,
+  "checks": [
+    {
+      "test": "login_a",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "event_created",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_cannot_create",
+      "ok": true
+    },
+    {
+      "test": "document_created",
+      "ok": true
+    },
+    {
+      "test": "prototype_document_sections",
+      "ok": true
+    },
+    {
+      "test": "reader_read_only",
+      "ok": true
+    },
+    {
+      "test": "same_document_reopened",
+      "ok": true
+    },
+    {
+      "test": "document_saved",
+      "ok": true
+    },
+    {
+      "test": "reader_cannot_write",
+      "ok": true
+    },
+    {
+      "test": "stale_document_denied",
+      "ok": true
+    },
+    {
+      "test": "publication_status_injection_denied",
+      "ok": true
+    },
+    {
+      "test": "unscanned_svg_direct_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_svg_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_svg_denied",
+      "ok": true
+    },
+    {
+      "test": "script_svg_denied",
+      "ok": true
+    },
+    {
+      "test": "external_svg_denied",
+      "ok": true
+    },
+    {
+      "test": "entity_svg_denied",
+      "ok": true
+    },
+    {
+      "test": "svg_and_mixed_saved",
+      "ok": true
+    },
+    {
+      "test": "reloaded_svg",
+      "ok": true
+    },
+    {
+      "test": "reloaded_blocks",
+      "ok": true
+    },
+    {
+      "test": "mixed_pdf_export",
+      "ok": true
+    },
+    {
+      "test": "both_pages",
+      "ok": true
+    },
+    {
+      "test": "first_page_content",
+      "ok": true
+    },
+    {
+      "test": "last_page_content",
+      "ok": true
+    },
+    {
+      "test": "reader_export_denied",
+      "ok": true
+    },
+    {
+      "test": "stale_export_denied",
+      "ok": true
+    }
+  ]
+}

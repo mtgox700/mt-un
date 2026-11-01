@@ -1,0 +1,14 @@
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.sql text eol=lf
+*.yml text eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.wav binary
+*.woff2 binary
+application/frontend/generated/** linguist-generated=true
+application/frontend/modules/**/controller.js linguist-generated=true
+reference-prototype/** linguist-vendored=true
+prototype-local/** linguist-vendored=true

@@ -1,0 +1,116 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			141 button Formations
+				142 image
+				143 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			144 button Réglages
+				145 image
+				146 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			147 text Connexion du modèle — démo locale
+			148 text Connecté à ChatGPT via Codex local
+			149 text Essai local avec votre compte ChatGPT. Les requêtes utilisent vos limites Codex.
+			150 text field (settable)
+			151 button Enregistrer la clé
+			152 text MODÈLE
+			153 button Sonnet 4.5
+			154 button Haiku 4.5
+			155 button Opus 4.1
+			156 button Tester la connexion
+			157 text Clé à créer sur console.anthropic.com (facturation API distincte de l’abonnement Claude). Usage démo personnelle uniquement : ne partagez pas ce fichier une fois la clé enregistrée.
+			158 text ADMIN ORGANISATION
+			159 heading Configuration IA, Value: 1
+				160 text Configuration IA
+			161 text Modèle utilisé par l'Assistant Juridique, la Recherche Légale et le Générateur de documents.
+			162 text Anonymisation avant inférence
+			163 text Verrouillée par la politique de l'organisation — non désactivable en séance.
+			164 switch Description: Anonymisation avant inférence — verrouillée sur activé, Value: 1
+			165 text Zéro donnée nominative hors Union européenne. Zéro réutilisation pour l'entraînement — clause contractuelle avec le fournisseur. Journal d'empreintes sans texte en clair. 46 appels 0 identité fuitée
+			166 text FOURNISSEUR & MODÈLE
+			167 button Offre mutualisée uniion Incluse dans l’abonnement · Claude Sonnet
+				168 text Offre mutualisée uniion
+				169 text Incluse dans l’abonnement · Claude Sonnet
+			170 button Anthropic — Claude Clé propre à l’organisation · UE
+				171 text Anthropic — Claude
+				172 text Clé propre à l’organisation · UE
+			173 button Mistral — Large Clé propre · hébergement France
+				174 text Mistral — Large
+				175 text Clé propre · hébergement France
+			176 text CLÉ API
+			177 text •••• •••• •••• •••• 8pWvA1
+			178 button Afficher
+			179 text Chiffrée au repos dans un coffre dédié, jamais réaffichée en clair après enregistrement. Dernière rotation : 14/06/2026.
+			180 button Enregistrer la clé API
+			181 button Révoquer
+			182 heading Consommation — août, Value: 2
+				183 text Consommation — août
+			184 text Assistant juridique 1 240 requêtes Génération de documents 312 requêtes Recherche légale 96 requêtes Coût estimé 84,20 € / 150 € de quota
+			185 heading Comportement du modèle, Value: 2
+				186 text Comportement du modèle
+			187 text Prudence juridique Élevée
+			188 button Basse
+			189 button Moyenne
+			190 button Élevée
+			191 text Sourçage obligatoire des réponses juridiques
+			192 button
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

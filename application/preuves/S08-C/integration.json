@@ -1,0 +1,130 @@
+{
+  "count": 31,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "succeeded",
+      "ok": true
+    },
+    {
+      "test": "durable_count",
+      "ok": true
+    },
+    {
+      "test": "unknown_cost",
+      "ok": true
+    },
+    {
+      "test": "no_content_in_ledger",
+      "ok": true
+    },
+    {
+      "test": "reader_cannot_read_author_execution",
+      "ok": true
+    },
+    {
+      "test": "foreign_org_refused",
+      "ok": true
+    },
+    {
+      "test": "forged_actor_refused",
+      "ok": true
+    },
+    {
+      "test": "forged_consumption_refused",
+      "ok": true
+    },
+    {
+      "test": "anonymous_refused",
+      "ok": true
+    },
+    {
+      "test": "bad_origin_refused",
+      "ok": true
+    },
+    {
+      "test": "bad_csrf_refused",
+      "ok": true
+    },
+    {
+      "test": "restart_retains_execution",
+      "ok": true
+    },
+    {
+      "test": "restart_duplicate_no_send",
+      "ok": true
+    },
+    {
+      "test": "same_id_changed_body_no_send",
+      "ok": true
+    },
+    {
+      "test": "early_cancel",
+      "ok": true
+    },
+    {
+      "test": "early_cancel_blocks_send",
+      "ok": true
+    },
+    {
+      "test": "early_cancel_not_charged",
+      "ok": true
+    },
+    {
+      "test": "timeout_http_unavailable",
+      "ok": true
+    },
+    {
+      "test": "timeout_persisted_uncertain",
+      "ok": true
+    },
+    {
+      "test": "timeout_still_charged",
+      "ok": true
+    },
+    {
+      "test": "timeout_duplicate_never_retried",
+      "ok": true
+    },
+    {
+      "test": "last_quota_place",
+      "ok": true
+    },
+    {
+      "test": "quota_refuses_before_provider",
+      "ok": true
+    },
+    {
+      "test": "quota_shared_across_actors",
+      "ok": true
+    },
+    {
+      "test": "no_remaining",
+      "ok": true
+    },
+    {
+      "test": "codex_real_success",
+      "ok": true
+    },
+    {
+      "test": "codex_real_persisted",
+      "ok": true
+    }
+  ],
+  "passed": true
+}

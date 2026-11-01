@@ -1,0 +1,129 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		1641 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					1642 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+						1873 text unii
+						1874 text 3
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				1334 container
+					1875 text UNII SUGGÈRE
+					1876 button Brouillon à relire · Ordre du jour — CSE ordinaire — septembre
+					1877 button Brouillon à relire · Recette fictive — document à signer
+					1878 button Brouillon à relire · NAO 2027 — où en sont les négociations
+					1879 button Revenir à la liste des documents
+					1880 text Titre du document
+					1881 text field (settable) Titre du document, Value: Ordre du jour — CSE ordinaire — septembre
+					1882 button Imprimer / PDF
+					1883 button Faire signer
+					1884 button Diffuser
+					1885 tab group Panneaux de l'éditeur
+						1886 tab (selected, settable, boolean) Contenu, Value: 1
+						1887 tab (selectable, settable, boolean) Charte graphique, Value: 0
+						1888 tab (selectable, settable, boolean) Style, Value: 0
+					1889 text CONTENU
+					1890 checkbox Blocs, Value: 1
+					1891 checkbox Markdown, Value: 0
+					1892 button Ajouter un bloc titre principal
+					1893 button Ajouter un bloc intertitre
+					1894 button Ajouter un bloc paragraphe
+					1895 button Ajouter un bloc liste à puces
+					1896 button Ajouter un bloc encadré réglementaire
+					1897 button Ajouter un bloc tableau
+					1898 button Ajouter un bloc badge de rubrique
+					1899 button Ajouter un bloc saut de page
+					1900 button Ajouter un bloc chiffre clé
+					1901 button Ajouter un bloc comparatif
+					1902 button Ajouter un bloc frise de dates
+					1903 button Ajouter un bloc photo
+					1904 button Ajouter un bloc qr code
+					1905 button Ajouter un bloc coupon d'adhésion
+					1906 button Ajouter un bloc trombinoscope
+					1907 button Ajouter un bloc tampon
+					1908 button Ajouter un bloc bandeau surligné
+					1909 button Ajouter un bloc signature
+					1910 button Ajouter un bloc bulles de dialogue
+					1911 button Ajouter un bloc encadré « fo exige »
+					1912 text TITRE PRINCIPAL
+					1913 button Déplacer ce bloc vers le haut
+					1914 button Déplacer ce bloc vers le bas
+					1915 button Supprimer ce bloc
+					1916 text entry area (settable) Description: Titre principal, bloc 1 sur 6, Value: Ordre du jour — CSE ordinaire — septembre
+					1917 text PARAGRAPHE
+					1918 button Déplacer ce bloc vers le haut
+					1919 button Déplacer ce bloc vers le bas
+					1920 button Supprimer ce bloc
+					1921 text entry area (settable) Description: Paragraphe, bloc 2 sur 6, Value: 2026-09-03 · 09:00 — 12:30 · Salle du conseil, siège
+					1922 text INTERTITRE
+					1923 button Déplacer ce bloc vers le haut
+					1924 button Déplacer ce bloc vers le bas
+					1925 button Supprimer ce bloc
+					1926 text entry area (settable) Description: Intertitre, bloc 3 sur 6, Value: Participants
+					1927 text PARAGRAPHE
+					1928 button Déplacer ce bloc vers le haut
+					1929 button Déplacer ce bloc vers le bas
+					1930 button Supprimer ce bloc
+					1931 text entry area (settable) Description: Paragraphe, bloc 4 sur 6, Value: Titulaires, Suppléants, Représentants syndicaux
+					1932 text INTERTITRE
+					1933 button Déplacer ce bloc vers le haut
+					1934 button Déplacer ce bloc vers le bas
+					1935 button Supprimer ce bloc
+					1936 text entry area (settable) Description: Intertitre, bloc 5 sur 6, Value: Points à examiner
+					1937 text PARAGRAPHE
+					1938 button Déplacer ce bloc vers le haut
+					1939 button Déplacer ce bloc vers le bas
+					1940 button Supprimer ce bloc
+					1941 text entry area (settable) Description: Paragraphe, bloc 6 sur 6, Value: Ordre du jour transmis 3 jours avant. Avis différé sur la réorganisation logistique.
+					1942 checkbox A4 portrait, Value: 1
+					1943 checkbox 16:9 paysage, Value: 0
+					1944 checkbox A5 tract, Value: 0
+					1945 checkbox Description: Zoom 50 %, Value: 0
+					1946 checkbox Description: Zoom 72 %, Value: 1
+					1947 checkbox Description: Zoom 100 %, Value: 0
+					1948 text 1 page · A4 portrait
+					1949 container
+						1950 text SECTION MÉTA VAL Local syndical — 12 rue de la Fonderie
+						1951 image Logo de l'organisation
+						1952 heading Ordre du jour — CSE ordinaire — septembre, Value: 2
+							1953 text Ordre du jour — CSE ordinaire — septembre
+						1954 text 2026-09-03 · 09:00 — 12:30 · Salle du conseil, siège
+						1955 heading Participants, Value: 3
+							1956 text Participants
+						1957 text Titulaires, Suppléants, Représentants syndicaux
+						1958 heading Points à examiner, Value: 3
+							1959 text Points à examiner
+						1960 text Ordre du jour transmis 3 jours avant. Avis différé sur la réorganisation logistique. section@syndicat-valenciennes.fr — 03 27 14 88 20 Page 1 / 1
+				1872 text Fichier .ics généré — importable dans Outlook, Thunderbird ou Google Agenda
+				1643 container
+					1855 button Accueil
+						1856 image
+						1857 text Accueil
+					1647 button Dossiers
+						1648 image
+						1649 text Dossiers
+					1961 button Agenda
+						1962 image
+						1963 text Agenda
+					1653 button Réunions
+						1654 image
+						1655 text Réunions
+					1750 button Réglages
+						1751 image
+						1752 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

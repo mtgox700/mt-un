@@ -1,0 +1,138 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "read_only_create_denied",
+      "ok": true
+    },
+    {
+      "test": "create_saved",
+      "ok": true
+    },
+    {
+      "test": "list_persistent",
+      "ok": true
+    },
+    {
+      "test": "same_org_without_grant_empty",
+      "ok": true
+    },
+    {
+      "test": "guessed_id_denied",
+      "ok": true
+    },
+    {
+      "test": "cross_org_id_denied",
+      "ok": true
+    },
+    {
+      "test": "nonmember_denied",
+      "ok": true
+    },
+    {
+      "test": "explicit_reader_allowed",
+      "ok": true
+    },
+    {
+      "test": "reader_note_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_status_denied",
+      "ok": true
+    },
+    {
+      "test": "note_saved",
+      "ok": true
+    },
+    {
+      "test": "stale_status_denied",
+      "ok": true
+    },
+    {
+      "test": "status_saved",
+      "ok": true
+    },
+    {
+      "test": "second_actor_reads_history",
+      "ok": true
+    },
+    {
+      "test": "edit_saved",
+      "ok": true
+    },
+    {
+      "test": "spoof_owner_denied",
+      "ok": true
+    },
+    {
+      "test": "invalid_title_denied",
+      "ok": true
+    },
+    {
+      "test": "invalid_status_denied",
+      "ok": true
+    },
+    {
+      "test": "revoked_grant_denied",
+      "ok": true
+    },
+    {
+      "test": "expired_grant_denied",
+      "ok": true
+    },
+    {
+      "test": "disabled_module_denied",
+      "ok": true
+    },
+    {
+      "test": "commercial_revoked_denied",
+      "ok": true
+    },
+    {
+      "test": "departed_reader_denied",
+      "ok": true
+    },
+    {
+      "test": "private_cases_denied",
+      "ok": true
+    },
+    {
+      "test": "private_case_history_denied",
+      "ok": true
+    },
+    {
+      "test": "resource_table_ungranted_hidden",
+      "ok": true
+    },
+    {
+      "test": "private_case_created",
+      "ok": true
+    },
+    {
+      "test": "reader_other_case_denied",
+      "ok": true
+    },
+    {
+      "test": "direct_rls_hides_other_case",
+      "ok": true
+    }
+  ],
+  "count": 33
+}

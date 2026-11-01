@@ -1,0 +1,92 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Assistant IA
+  - heading "Mémoire de l'assistant" [level=1]
+  - paragraph: Les faits retenus ici accompagnent chaque question posée à l'IA, d'une conversation à l'autre. Ils restent dans ce navigateur, sont anonymisés avant envoi et ne sont jamais cités comme source juridique.
+  - generic: Utiliser la mémoire dans les réponses
+  - generic: 4 éléments actifs transmis (anonymisés) à chaque requête IA
+  - switch "Activer ou suspendre la mémoire"
+  - generic: Ajouter un élément
+  - button "Mandat & organisation"
+  - button "Textes applicables"
+  - button "Préférences de rédaction"
+  - button "Sujets en cours"
+  - 'textbox "Ex. : l''accord de méthode NAO prévoit 3 réunions avant le 31 mars."'
+  - button "Ajouter à la mémoire"
+  - heading "Mandat & organisation" [level=3]
+  - generic: "1"
+  - switch "Activer ou désactiver cet élément"
+  - generic: Élue titulaire au CSE et secrétaire adjointe ; mandat jusqu’en juin 2027.
+  - generic: Ajouté manuellement · 4 oct. 2026
+  - button "Modifier"
+  - button "Oublier"
+  - heading "Textes applicables" [level=3]
+  - generic: "1"
+  - switch "Activer ou désactiver cet élément"
+  - generic: Convention collective nationale de la Métallurgie applicable ; accord d’entreprise télétravail signé en mars 2025.
+  - generic: Proposé par l’assistant · 12 oct. 2026
+  - button "Modifier"
+  - button "Oublier"
+  - heading "Préférences de rédaction" [level=3]
+  - generic: "1"
+  - switch "Activer ou désactiver cet élément"
+  - generic: "Réponses courtes : d’abord le délai légal, puis un plan d’action daté."
+  - generic: Ajouté manuellement · 18 oct. 2026
+  - button "Modifier"
+  - button "Oublier"
+  - heading "Sujets en cours" [level=3]
+  - generic: "1"
+  - switch "Activer ou désactiver cet élément"
+  - generic: "NAO 2026 ouverte : revendication de 4,5 % d’augmentation générale."
+  - generic: Retenu depuis une réponse · 22 oct. 2026
+  - button "Modifier"
+  - button "Oublier"
+  - button "Tout oublier"

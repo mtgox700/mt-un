@@ -1,0 +1,26 @@
+from pathlib import Path
+source=Path(__file__).with_name('s03_agenda.py').read_text().split('x,y=Client(),Client()')[0];exec(compile(source,__file__,'exec'))
+sql(f"insert into public.uniion_module_access values('{org}','documents',true,true,'included',now()+interval '10 days');insert into uniion_private.module_entitlements(organization_id,module,kind,starts,ends,reference) values('{org}','documents','paid',now()-interval '1 day',now()+interval '10 days','RECETTE-FICTIVE');insert into public.uniion_permissions values('{org}','{a['id']}','documents','read'),('{org}','{a['id']}','documents','create'),('{org}','{a['id']}','documents','write'),('{org}','{b['id']}','documents','read');insert into public.uniion_authorities values('{org}','{a['id']}','agenda_convocation',false);")
+x,y=Client(),Client();check('login_a',x.login(a)[0]==200);verify(x,f['factor'],f['secret']);y.login(b);verify(y,f['recipientFactor'],f['recipientSecret'])
+e={'title':'Réunion parcours S03 fictive','type':'cse','date':'2026-11-20','start':'09:00','end':'10:00','lieu':'Salle de recette','visib':'adherents','notes':'Premier point fictif','rappel':False}
+st,event,_=x.call('/identity/agenda/save',{'organization_id':org,'event':e});check('event_created',st==200);eid=event['id']
+def work(c,action,payload={},o=org,event=eid):return c.call('/identity/agenda/work',{'organization_id':o,'event_id':event,'action':action,'payload':payload})
+check('anonymous_denied',work(Client(),'document')[0]==403)
+check('foreign_denied',work(x,'document',o=foreign)[0]==403)
+check('reader_cannot_create',work(y,'document')[0]==403)
+st,d,_=work(x,'document');check('document_created',st==200 and d['version']==1);check('prototype_document_sections',len(d['document']['blocks'])==6);check('reader_read_only',work(y,'document')[1]['canWrite'] is False);check('same_document_reopened',work(x,'document')[1]['document']['id']==d['document']['id'])
+doc={k:d['document'][k] for k in ('title','format','blocks')};doc['title']='Ordre du jour — recette modifiée';st,saved,_=work(x,'save_document',{'version':1,'document':doc});check('document_saved',st==200 and saved['version']==2)
+check('reader_cannot_write',work(y,'save_document',{'version':2,'document':doc})[0]==403);check('stale_document_denied',work(x,'save_document',{'version':1,'document':doc})[0]==403);check('publication_status_injection_denied',work(x,'save_document',{'version':2,'document':{**doc,'status':'Diffusé'}})[0]==403)
+st,ctx,_=work(x,'recipients');check('authorized_recipients',st==200 and len(ctx['people'])==2);check('recipient_list_denied',work(y,'recipients')[0]==403)
+def send(c,payload):return c.call('/identity/agenda/convocations/send',{'organization_id':org,'event_id':eid,'action':'prepare','payload':payload})
+payload={'id':str(uuid.uuid4()),'version':1,'people':[b['id']],'subject':'Convocation fictive S03','body':'Recette locale uniquement.'}
+check('send_without_authority_denied',send(y,payload)[0]==403)
+check('foreign_recipient_denied',send(x,{**payload,'people':[str(uuid.uuid4())]})[0]==403)
+check('event_version_conflict_denied',send(x,{**payload,'version':9})[0]==403)
+st,result,_=send(x,payload);check('local_mail_delivered',st==200 and result['sent']==1 and result['uncertain']==0)
+st,result,_=send(x,payload);check('same_request_not_resent',st==200 and result['sent']==0 and result['replayed'])
+sql(f"update uniion_private.agenda_audiences set audience='none' where organization_id='{org}' and user_id='{b['id']}';")
+check('revoked_recipient_denied',send(x,{**payload,'id':str(uuid.uuid4())})[0]==403);check('document_hidden_after_revoke',work(y,'document')[0]==403)
+sql(f"update uniion_private.agenda_audiences set audience='adherents' where organization_id='{org}' and user_id='{b['id']}';")
+(ROOT/'.local-auth/s03-workflows.json').write_text(json.dumps({'organization':org,'event':eid,'document':d['document']['id']}))
+out=ROOT/'preuves/S06-documents/agenda-regression';out.mkdir(parents=True,exist_ok=True);(out/'integration.json').write_text(json.dumps({'passed':True,'count':len(checks),'checks':checks},indent=2));print(json.dumps({'passed':True,'count':len(checks)}))

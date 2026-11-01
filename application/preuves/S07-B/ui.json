@@ -1,0 +1,34 @@
+{
+  "environment": "Supabase local, IAB, comptes fictifs MFA",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 382
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 768
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440
+    }
+  ],
+  "passed": true,
+  "observations": [
+    "Création de groupe et ajout de Sam par les contrôles desktop ; ouverture explicite du message antérieur.",
+    "Sam lit le message ouvert sur mobile ; aucun contrôle de modération.",
+    "Création sans permission refusée ; erreur dans le formulaire conservé, vérifiée aux trois formats.",
+    "Révocation historique et retrait du membre par les contrôles tablette.",
+    "Réinvitation par le formulaire mobile ; nouvelle période, ancien message absent et nouveau message visible.",
+    "Lecture finale aux trois formats sans débordement horizontal ; persistance corroborée dans ui-persistence.json."
+  ],
+  "limits": [
+    "Viewports de navigateur, aucun appareil physique.",
+    "Notification Agenda indisponible pour ces comptes hors droits Agenda ; fermée pour les captures finales.",
+    "Les captures de sélection historique précèdent une précision de libellé et de placeholder ; les captures finales de lecture suivent la dernière compilation."
+  ]
+}

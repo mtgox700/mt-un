@@ -1,0 +1,78 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - heading "Mode hors ligne" [level=1]
+  - paragraph: "En visite d'usine, en sous-sol ou en déplacement : votre base documentaire reste accessible et chiffrée sur l'appareil."
+  - generic: Synchronisation intelligente
+  - button
+  - generic: "Dernière synchronisation : jamais · 0 document en cache"
+  - button "Tout synchroniser maintenant"
+  - heading "Base documentaire" [level=2]
+  - paragraph: 0 extraits conservés localement — PDF sources et démarrage hors connexion non disponibles
+  - button "Convention collective Métallurgie 2026 PDF · 4,2 Mo · v2026.1 · ouvrir":
+    - generic: Convention collective Métallurgie 2026
+    - generic: PDF · 4,2 Mo · v2026.1 · ouvrir
+  - button "Télécharger"
+  - button "Code du travail — extraits CSE PDF · 8,7 Mo · ouvrir":
+    - generic: Code du travail — extraits CSE
+    - generic: PDF · 8,7 Mo · ouvrir
+  - button "Télécharger"
+  - button "Accord télétravail 2024 PDF · 1,1 Mo · ouvrir":
+    - generic: Accord télétravail 2024
+    - generic: PDF · 1,1 Mo · ouvrir
+  - button "Télécharger"
+  - button "PV réunion CSE — juillet 2026 PDF · 640 Ko · ouvrir":
+    - generic: PV réunion CSE — juillet 2026
+    - generic: PDF · 640 Ko · ouvrir
+  - button "Télécharger"
+  - button "Règlement intérieur du CSE PDF · 320 Ko · ouvrir":
+    - generic: Règlement intérieur du CSE
+    - generic: PDF · 320 Ko · ouvrir
+  - button "Télécharger"

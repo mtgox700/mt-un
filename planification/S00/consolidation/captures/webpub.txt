@@ -1,0 +1,82 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Demande de publication
+  - heading "Envoyer au webmaster" [level=1]
+  - paragraph: "NAO 2027 : où en sont les négociations ?"
+  - generic: Rubrique et adresse
+  - paragraph: Actualités
+  - textbox "Adresse de la page": nao-2027-point-etape
+  - paragraph: /intranet/actualites/nao-2027-point-etape
+  - generic: Mise en ligne souhaitée
+  - textbox "Date de mise en ligne": 2026-09-03
+  - generic: Visibilité
+  - button "Tous les salariés"
+  - button "Adhérents connectés"
+  - button "Élus et mandatés"
+  - generic: Consignes pour le webmaster
+  - textbox "Emplacement dans la rubrique, visuel à reprendre, date d'archivage…"
+  - button "Joindre le fichier .html":
+    - generic: Joindre le fichier .html
+  - button "Notifier par e-mail en plus de la file interne":
+    - generic: Notifier par e-mail en plus de la file interne
+  - button "Remonter le résumé sur la page d'accueil":
+    - generic: Remonter le résumé sur la page d'accueil
+  - heading "Marc Lefèvre — webmaster intranet" [level=2]
+  - generic: webmaster@intranet.section-valenciennes.fr
+  - generic: HTML validé
+  - generic: Balises sémantiques, aucun style en ligne
+  - generic: Feuille de style du site
+  - generic: intranet-2026.css — classes up-* reconnues
+  - generic: Données personnelles
+  - generic: Aucun nom de salarié détecté dans la page
+  - paragraph: "Aucune relecture enregistrée. Vous pouvez envoyer malgré tout : la demande indiquera « non relue » au webmaster."
+  - button "Envoyer pour publication"
+  - button "Annuler"

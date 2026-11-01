@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-29",
+  "environment": "Supabase local unii, application 5068",
+  "physical_devices": false,
+  "desktop_upload_clean": true,
+  "reconnect_file_count": 1,
+  "formats": [
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "preview_allowed": true,
+      "download_bytes_identical": true,
+      "reader_upload_refused": true,
+      "reader_download_refused": true,
+      "reader_preview_allowed": true,
+      "horizontal_overflow": false
+    },
+    {
+      "name": "tablette",
+      "width": 768,
+      "height": 1024,
+      "preview_allowed": true,
+      "download_bytes_identical": true,
+      "reader_upload_refused": true,
+      "reader_download_refused": true,
+      "reader_preview_allowed": true,
+      "horizontal_overflow": false
+    },
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "preview_allowed": true,
+      "download_bytes_identical": true,
+      "reader_upload_refused": true,
+      "reader_download_refused": true,
+      "reader_preview_allowed": true,
+      "horizontal_overflow": false
+    }
+  ],
+  "notes": [
+    "Notifications temporaires fermables, recouvrement transitoire conservé.",
+    "PNG testé dans l’interface ; EICAR et faux PDF testés par intégration.",
+    "Styles et enchaînements conservés ; libellés de stockage corrigés."
+  ]
+}

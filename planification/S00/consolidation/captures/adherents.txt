@@ -1,0 +1,155 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - generic: Adhésion et cotisations
+  - heading "Adhérents" [level=1]
+  - paragraph: 12 adhérents suivis sur 3 entreprises · 3 cotisations en retard · 2 adhésions à finaliser
+  - generic: "12"
+  - generic: adhérents actifs
+  - generic: 58 %
+  - generic: à jour de cotisation
+  - generic: "3"
+  - generic: retards à relancer
+  - generic: "5"
+  - generic: listes de diffusion
+  - tablist "Vues du module adhérents":
+    - tab "Adhérents" [selected]
+    - tab "Listes de diffusion"
+    - tab "Cotisations"
+  - generic: Filtrer les adhérents
+  - textbox "Rechercher un adhérent":
+    - /placeholder: Nom, courriel, emploi…
+  - generic: Entreprise
+  - combobox "Entreprise":
+    - option [selected]
+    - option
+    - option
+    - option
+  - generic: Établissement
+  - combobox "Établissement":
+    - option [selected]
+    - option
+    - option
+    - option
+    - option
+  - generic: Section
+  - combobox "Section":
+    - option [selected]
+    - option
+    - option
+    - option
+    - option
+  - generic: Direction
+  - combobox "Direction":
+    - option [selected]
+    - option
+    - option
+    - option
+    - option
+  - generic: Cotisation
+  - combobox "Cotisation":
+    - option [selected]
+    - option
+    - option
+    - option
+  - textbox "Nom de la nouvelle liste de diffusion":
+    - /placeholder: Nom de la liste de diffusion…
+  - button "Créer une liste depuis ces critères"
+  - generic: 12 adhérents sur 12
+  - button "Tout sélectionner"
+  - button "Envoyer un message"
+  - checkbox "Sélectionner Karim Benali"
+  - button "Karim Benali Délégué de section Site de Valenciennes · Section Atelier":
+    - generic: KB
+    - generic: Karim Benali
+    - generic: Délégué de section
+    - generic: Site de Valenciennes · Section Atelier
+  - generic: 14,20 €/mois · Prélèvement SEPA
+  - generic: À jour
+  - button "Ouvrir la fiche de Karim Benali": ›
+  - checkbox "Sélectionner Sandrine Lemoine"
+  - button "Sandrine Lemoine Plateforme de Prouvy · Section Logistique":
+    - generic: SL
+    - generic: Sandrine Lemoine
+    - generic: Plateforme de Prouvy · Section Logistique
+  - generic: 11,80 €/mois · Chèque
+  - generic: En retard
+  - button "Ouvrir la fiche de Sandrine Lemoine": ›
+  - checkbox "Sélectionner Mehdi Fournier"
+  - button "Mehdi Fournier Élu suppléant CSE Site de Denain · Section Maintenance":
+    - generic: MF
+    - generic: Mehdi Fournier
+    - generic: Élu suppléant CSE
+    - generic: Site de Denain · Section Maintenance
+  - generic: 16,50 €/mois · Prélèvement SEPA
+  - generic: À jour
+  - button "Ouvrir la fiche de Mehdi Fournier": ›
+  - checkbox "Sélectionner Aurélie Pruvost"
+  - button "Aurélie Pruvost Siège de Lille · Section Tertiaire":
+    - generic: AP
+    - generic: Aurélie Pruvost
+    - generic: Siège de Lille · Section Tertiaire
+  - generic: 12,40 €/mois · Prélèvement SEPA
+  - generic: Adhésion en cours
+  - button "Ouvrir la fiche de Aurélie Pruvost": ›
+  - checkbox "Sélectionner Thierry Dubois"
+  - button "Thierry Dubois Site de Valenciennes · Section Atelier":
+    - generic: TD
+    - generic: Thierry Dubois
+    - generic: Site de Valenciennes · Section Atelier
+  - generic: 168 €/an · Virement annuel
+  - generic: À jour
+  - button "Ouvrir la fiche de Thierry Dubois": ›
+  - generic: 1–5 sur 12
+  - button "Page précédente" [disabled]: Précédent
+  - button "Page suivante": Suivant
+  - paragraph: "L'appartenance syndicale est une donnée sensible : le fichier reste chiffré sur l'appareil, n'est jamais transmis à l'employeur et les exports sont journalisés."
+  - button "Importer un fichier CSV"
+  - button "Nouveau bulletin d'adhésion"

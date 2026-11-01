@@ -1,0 +1,47 @@
+- complementary:
+  - generic: uniion
+  - generic: Console d'administration
+  - navigation:
+    - button "Supervision":
+      - generic: Supervision
+    - button "Organisations":
+      - generic: Organisations
+    - button "Utilisateurs":
+      - generic: Utilisateurs
+    - button "Clés API IA":
+      - generic: Clés API IA
+    - button "Éditeur de l’application":
+      - generic: Éditeur de l’application
+    - button "Abonnements et paiements":
+      - generic: Abonnements et paiements
+    - button "Journal d’audit":
+      - generic: Journal d’audit
+  - generic: SA
+  - generic: Super administrateur
+  - generic: admin@uniion.fr
+  - button "Se déconnecter":
+- main:
+  - generic: Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+  - heading "Journal d'audit" [level=1]
+  - paragraph: Chaîne d'empreintes inaltérable — conservation 36 mois.
+  - button "Exporter (CSV local)"
+  - generic: 11/09 09:41
+  - generic: admin@uniion.fr
+  - generic: Rotation de la clé « Production — assistant juridique »
+  - generic: Sensible
+  - generic: 11/09 08:12
+  - generic: système
+  - generic: Quota IA à 80 % — UD 59 — Lille
+  - generic: Alerte
+  - generic: 10/09 17:55
+  - generic: admin@uniion.fr
+  - generic: Suspension du compte claire.dubois@ud59.fr
+  - generic: Sensible
+  - generic: 10/09 14:03
+  - generic: yann.lemoine@ud59.fr
+  - generic: Export du registre des adhérents (1 320 lignes)
+  - generic: Information
+  - generic: 09/09 11:20
+  - generic: admin@uniion.fr
+  - generic: Publication du gabarit « Tract A4 » v3
+  - generic: Information

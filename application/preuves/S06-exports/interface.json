@@ -1,0 +1,21 @@
+{
+  "method": "CUA, comptes fictifs locaux",
+  "scenarios": [
+    {
+      "viewport": "1440x1000",
+      "allowed": "PDF téléchargé, version 3, deux pages vérifiées",
+      "denied": "Export refusé : droits de téléchargement/version/service"
+    },
+    {
+      "viewport": "768x1024",
+      "allowed": "PDF téléchargé, version 3, deux pages vérifiées",
+      "denied": "Export refusé : droits de téléchargement/version/service"
+    },
+    {
+      "viewport": "390x844",
+      "allowed": "PDF téléchargé, version 3, deux pages vérifiées",
+      "denied": "Export refusé : droits de téléchargement/version/service"
+    }
+  ],
+  "physical_devices": false
+}

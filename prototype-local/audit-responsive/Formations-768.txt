@@ -1,0 +1,331 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			8 button
+				9 image
+			10 button Se déconnecter
+				11 image
+		12 container
+			13 text MONTÉE EN COMPÉTENCE
+			14 heading Formations, Value: 1
+				15 text Formations
+			16 text Deux catalogues pour vous former au mandat, et un mode où unii construit avec vous une session sur mesure, au rythme que vous choisissez.
+			17 tab group Formations
+				18 tab (selected, settable, boolean) Catalogue IA 20, Value: 1
+				19 tab (selectable, settable, boolean) Formations généralistes 31, Value: 0
+				20 tab (selectable, settable, boolean) Se former avec unii, Value: 0
+			21 text field (settable) Rechercher une formation
+			22 checkbox Tous, Value: 1
+			23 checkbox Sensibilisation, Value: 0
+			24 checkbox Atelier, Value: 0
+			25 checkbox Atelier métier, Value: 0
+			26 checkbox Cas pratique, Value: 0
+			27 checkbox Parcours avancé, Value: 0
+			28 text 01
+			29 heading Fondamentaux, Value: 2
+				30 text Fondamentaux
+			31 text Les 4 formations socles
+			32 container
+				33 text Sensibilisation 3 h
+				34 heading Introduction à l'IA pour le monde du syndicalisme, Value: 3
+					35 text Introduction à l'IA pour le monde du syndicalisme
+				36 text Tous les élus, adhérents
+				37 content list
+					38 text Comprendre l'IA générative et ses limites
+					39 text Identifier les usages concrets pour un mandat
+					40 text Premiers prompts sur des cas syndicaux
+				41 button Se former avec unii
+				42 button Demander une session
+			43 container
+				44 text Atelier 1 jour
+				45 heading Impacts de l'IA sur l'entreprise : accompagner les collaborateurs, Value: 3
+					46 text Impacts de l'IA sur l'entreprise : accompagner les collaborateurs
+				47 text Élus CSE, DS, RH
+				48 content list
+					49 text Mesurer les effets de l'IA sur les emplois et compétences
+					50 text Anticiper et accompagner le changement
+					51 text Construire des revendications et un plan d'action
+				52 button Se former avec unii
+				53 button Demander une session
+			54 container
+				55 text Atelier métier 1 jour
+				56 heading L'IA appliquée à mon métier d'élu, Value: 3
+					57 text L'IA appliquée à mon métier d'élu
+				58 text Secrétaires, trésoriers, élus SSCT, DS
+				59 content list
+					60 text Cartographier ses tâches automatisables
+					61 text Rédaction, analyse et synthèse assistées
+					62 text Bâtir sa boîte à outils personnelle
+				63 button Se former avec unii
+				64 button Demander une session
+			65 container
+				66 text Parcours avancé 2 jours
+				67 heading Créer, gérer et orchestrer des agents IA pour le syndicalisme, Value: 3
+					68 text Créer, gérer et orchestrer des agents IA pour le syndicalisme
+				69 text Référents numériques
+				70 content list
+					71 text Concevoir des agents (juridique, communication, suivi)
+					72 text Orchestrer plusieurs agents et sources documentaires
+					73 text Superviser, évaluer et sécuriser les agents
+				74 button Se former avec unii
+				75 button Demander une session
+			76 text 02
+			77 heading Droit & Défense, Value: 2
+				78 text Droit & Défense
+			79 text Sécuriser l'action juridique
+			80 container
+				81 text Atelier 1/2 jour
+				82 heading Prompt engineering juridique pour élus, Value: 3
+					83 text Prompt engineering juridique pour élus
+				84 text Élus CSE, DS
+				85 content list
+					86 text Interroger le code du travail en langage naturel
+					87 text Vérifier les sources et repérer les erreurs
+					88 text Modèles de requêtes réutilisables
+				89 button Se former avec unii
+				90 button Demander une session
+			91 container
+				92 text Cas pratique 1 jour
+				93 heading Préparer un entretien disciplinaire ou une saisine avec l'IA, Value: 3
+					94 text Préparer un entretien disciplinaire ou une saisine avec l'IA
+				95 text Élus, DS, défenseurs syndicaux
+				96 content list
+					97 text Analyser un dossier salarié
+					98 text Rédiger arguments et courriers
+					99 text Simulation de bout en bout
+				100 button Se former avec unii
+				101 button Demander une session
+			102 container
+				103 text Atelier 1 jour
+				104 heading Analyser la BDESE et les comptes avec l'IA, Value: 3
+					105 text Analyser la BDESE et les comptes avec l'IA
+				106 text Secrétaires, trésoriers, DS
+				107 content list
+					108 text Lecture assistée des documents économiques
+					109 text Préparer les questions à la direction
+					110 text Rédiger un avis sur une réorganisation
+				111 button Se former avec unii
+				112 button Demander une session
+			113 text 03
+			114 heading Négociation & Stratégie, Value: 2
+				115 text Négociation & Stratégie
+			116 text Gagner en poids à la table
+			117 container
+				118 text Atelier 1 jour
+				119 heading Préparer les NAO avec l'IA, Value: 3
+					120 text Préparer les NAO avec l'IA
+				121 text DS, négociateurs
+				122 content list
+					123 text Benchmark salarial et indicateurs
+					124 text Construire l'argumentaire
+					125 text Simuler les contre-arguments de la direction
+				126 button Se former avec unii
+				127 button Demander une session
+			128 container
+				129 text Atelier 1 jour
+				130 heading IA et accords collectifs, Value: 3
+					131 text IA et accords collectifs
+				132 text DS, direction, DRH
+				133 content list
+					134 text Encadrer surveillance, évaluation algorithmique, télétravail
+					135 text Clauses types et GEPP
+					136 text Négocier la formation et la transition
+				137 button Se former avec unii
+				138 button Demander une session
+			139 container
+				140 text Atelier 1 jour
+				141 heading Données et tableaux de bord de l'élu, Value: 3
+					142 text Données et tableaux de bord de l'élu
+				143 text Élus CSE, DS
+				144 content list
+					145 text Exploiter absentéisme, turnover, accidents
+					146 text Visualiser et commenter les chiffres
+					147 text Étayer ses revendications
+				148 button Se former avec unii
+				149 button Demander une session
+			150 text 04
+			151 heading Santé & Sécurité, Value: 2
+				152 text Santé & Sécurité
+			153 text Prévenir les risques
+			154 container
+				155 text Atelier 1 jour
+				156 heading Détecter RPS et TMS grâce à la donnée, Value: 3
+					157 text Détecter RPS et TMS grâce à la donnée
+				158 text Élus SSCT
+				159 content list
+					160 text Repérer les signaux faibles
+					161 text Structurer une enquête après accident
+					162 text Proposer un plan de prévention
+				163 button Se former avec unii
+				164 button Demander une session
+			165 container
+				166 text Sensibilisation 1/2 jour
+				167 heading Risques liés à l'IA au travail, Value: 3
+					168 text Risques liés à l'IA au travail
+				169 text Élus SSCT, DS
+				170 content list
+					171 text Intensification du travail et surveillance
+					172 text Management algorithmique
+					173 text Leviers d'action des représentants
+				174 button Se former avec unii
+				175 button Demander une session
+			176 text 05
+			177 heading Communication & Mobilisation, Value: 2
+				178 text Communication & Mobilisation
+			179 text Parler fort et juste
+			180 container
+				181 text Atelier 1 jour
+				182 heading Communiquer efficacement avec l'IA, Value: 3
+					183 text Communiquer efficacement avec l'IA
+				184 text Élus, communicants syndicaux
+				185 content list
+					186 text Tracts, newsletters, emails, PV synthétisés
+					187 text Adapter le ton : combatif ou pédagogique
+					188 text Charte éditoriale du syndicat
+				189 button Se former avec unii
+				190 button Demander une session
+			191 container
+				192 text Atelier 1/2 jour
+				193 heading Sondages et consultations des salariés, Value: 3
+					194 text Sondages et consultations des salariés
+				195 text Élus CSE, élus ASC
+				196 content list
+					197 text Concevoir une enquête QVT
+					198 text Analyser les réponses ouvertes
+					199 text Restituer et mobiliser
+				200 button Se former avec unii
+				201 button Demander une session
+			202 container
+				203 text Sensibilisation 2 h
+				204 heading Désinformation et deepfakes, Value: 3
+					205 text Désinformation et deepfakes
+				206 text Tous publics
+				207 content list
+					208 text Reconnaître les contenus truqués
+					209 text Réagir et protéger l'image du syndicat
+					210 text Bonnes pratiques de vérification
+				211 button Se former avec unii
+				212 button Demander une session
+			213 text 06
+			214 heading Gouvernance, éthique & sécurité, Value: 2
+				215 text Gouvernance, éthique & sécurité
+			216 text Un usage maîtrisé
+			217 container
+				218 text Sensibilisation 1/2 jour
+				219 heading RGPD, confidentialité et IA, Value: 3
+					220 text RGPD, confidentialité et IA
+				221 text Tous les élus
+				222 content list
+					223 text Quelles données saisir ou non
+					224 text Anonymisation des PV
+					225 text Hébergement souverain
+				226 button Se former avec unii
+				227 button Demander une session
+			228 container
+				229 text Atelier 1/2 jour
+				230 heading Charte d'usage de l'IA pour une instance représentative, Value: 3
+					231 text Charte d'usage de l'IA pour une instance représentative
+				232 text Bureaux CSE, syndicats
+				233 content list
+					234 text Rédiger des règles internes
+					235 text Rôles et responsabilités
+					236 text Plan de contrôle
+				237 button Se former avec unii
+				238 button Demander une session
+			239 container
+				240 text Sensibilisation 1/2 jour
+				241 heading Cybersécurité pour élus, Value: 3
+					242 text Cybersécurité pour élus
+				243 text Tous les élus
+				244 content list
+					245 text Phishing et mots de passe
+					246 text Double authentification
+					247 text Sécuriser les échanges
+				248 button Se former avec unii
+				249 button Demander une session
+			250 text 07
+			251 heading Automatisation & Connaissance, Value: 2
+				252 text Automatisation & Connaissance
+			253 text Passer à l'échelle
+			254 container
+				255 text Atelier 1 jour
+				256 heading Workflows d'automatisation sans code, Value: 3
+					257 text Workflows d'automatisation sans code
+				258 text Référents numériques
+				259 content list
+					260 text Automatiser suivi des demandes et relances
+					261 text Alertes sur délais légaux
+					262 text Connecter ses outils
+				263 button Se former avec unii
+				264 button Demander une session
+			265 container
+				266 text Atelier 1 jour
+				267 heading Base documentaire intelligente, Value: 3
+					268 text Base documentaire intelligente
+				269 text Référents, secrétaires
+				270 content list
+					271 text Recherche sémantique dans accords, PV, jurisprudence
+					272 text Structurer et indexer ses documents
+					273 text Interroger sa base en langage naturel
+				274 button Se former avec unii
+				275 button Demander une session
+			276 heading Parcours recommandés, Value: 2
+				277 text Parcours recommandés
+			278 text Alignés sur les niveaux d'offre Élu 1.0 à 4.0.
+			279 text ÉLU 1.0
+			280 text Découverte
+			281 text Intro IA · Cybersécurité · RGPD & IA
+			282 button Suivre avec unii
+			283 text ÉLU 2.0
+			284 text Augmenté
+			285 text IA appliquée à mon métier · Prompt juridique · Communiquer avec l'IA
+			286 button Suivre avec unii
+			287 text ÉLU 3.0
+			288 text Stratège
+			289 text Impacts de l'IA · NAO · BDESE · Accords collectifs
+			290 button Suivre avec unii
+			291 text ÉLU 4.0
+			292 text Orchestrateur
+			293 text Agents IA · Workflows · Base documentaire · Charte d'usage
+			294 button Suivre avec unii
+			295 heading Formats et durées, Value: 2
+				296 text Formats et durées
+			297 text FORMAT
+			298 text DURÉE
+			299 text PUBLIC
+			300 text Sensibilisation
+			301 text 2 à 3 h
+			302 text Tous les élus et adhérents
+			303 text Atelier métier
+			304 text 1 jour
+			305 text Élus CSE, délégués syndicaux
+			306 text Parcours agents IA
+			307 text 2 jours
+			308 text Référents numériques
+			309 text Formation direction / DRH
+			310 text 1/2 jour
+			311 text Négociation et accords sur l'IA
+		312 container
+			313 button Accueil
+				314 image
+				315 text Accueil
+			316 button Dossiers
+				317 image
+				318 text Dossiers
+			319 button Agenda
+				320 image
+				321 text Agenda
+			322 button Réunions
+				323 image
+				324 text Réunions
+			325 button Réglages
+				326 image
+				327 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

@@ -1,0 +1,155 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			5 button Accueil
+				6 image
+				7 text Accueil
+			129 button Assistant
+				130 image
+				131 text Assistant
+			132 button Dossiers
+				133 image
+				134 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			17 button Agenda
+				18 image
+				19 text Agenda
+			20 button Réunions
+				21 image
+				22 text Réunions
+			23 button Documents
+				24 image
+				25 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			58 button ← Retour
+			59 image
+			60 text field (settable) RECETTE
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				135 text unii
+				136 text 2
+			62 button
+				63 image
+			64 button Se déconnecter
+				65 image
+		137 container
+			138 text GESTION DE PROJET
+			139 heading Suivi des demandes, Value: 1
+				140 text Suivi des demandes
+			141 text 7  dossiers · 2 échéances légales · mandat de déléguée syndicale Glissez une carte pour changer son état — ou sélectionnez-la et utilisez ← →
+			142 button + Nouveau dossier
+			143 text À TRAITER (4)
+			144 checkbox Description: Nouveau dossier sans titre. Espace pour saisir la carte, ou glissez-la., Value: 0
+				145 text JURIDIQUE
+				146 text Nouveau dossier sans titre
+				147 text Contexte à compléter.
+				148 text SO
+				149 text 15 j
+			150 button Interroger l'assistant sur « Nouveau dossier sans titre »
+				151 image
+				152 text IA
+			153 button Déplacer « Nouveau dossier sans titre » vers En cours
+			154 checkbox Description: Signalement — Service Logistique. Espace pour saisir la carte, ou glissez-la., Value: 0
+				155 text HARCÈLEMENT
+				156 text Signalement — Service Logistique
+				157 text Besoin de planifier un RDV avec Mme Leroy suite à son mail d'hier.
+				158 text SO
+				159 text 24 h
+			160 button unii · suite à donner
+			161 button Interroger l'assistant sur « Signalement — Service Logistique »
+				162 image
+				163 text IA
+			164 button Déplacer « Signalement — Service Logistique » vers En cours
+			165 checkbox Description: Accident Atelier B. Espace pour saisir la carte, ou glissez-la., Value: 0
+				166 text CSSCT
+				167 text Accident Atelier B
+				168 text Enquête CSSCT déclenchée. Accusé de réception attendu.
+				169 text JE
+				170 text 4 h
+			171 button unii · suite à donner
+			172 button Interroger l'assistant sur « Accident Atelier B »
+				173 image
+				174 text IA
+			175 button Déplacer « Accident Atelier B » vers En cours
+			176 checkbox Description: Valider devis traiteur. Espace pour saisir la carte, ou glissez-la., Value: 0
+				177 text ASC / NOËL
+				178 text Valider devis traiteur
+				179 text Trois offres reçues, arbitrage budget commission ASC.
+				180 text LE
+				181 text 5 j
+			182 button Interroger l'assistant sur « Valider devis traiteur »
+				183 image
+				184 text IA
+			185 button Déplacer « Valider devis traiteur » vers En cours
+			186 text EN COURS (2)
+			187 checkbox Description: Dossier inaptitude M. Martin. Espace pour saisir la carte, ou glissez-la., Value: 0
+				188 text JURIDIQUE
+				189 text Dossier inaptitude M. Martin
+				190 text Recherche de reclassement en cours. Attente retour RH.
+				191 text JE
+				192 text 3 j
+			193 button Déplacer « Dossier inaptitude M. Martin » vers À traiter
+			194 button Interroger l'assistant sur « Dossier inaptitude M. Martin »
+				195 image
+				196 text IA
+			197 button Déplacer « Dossier inaptitude M. Martin » vers Terminé
+			198 checkbox Description: Négociation PAP. Espace pour saisir la carte, ou glissez-la., Value: 0
+				199 text NÉGOCIATION
+				200 text Négociation PAP
+				201 text Protocole préélectoral — 2e réunion programmée.
+				202 text SO
+				203 text 10 j
+			204 button Déplacer « Négociation PAP » vers À traiter
+			205 button Interroger l'assistant sur « Négociation PAP »
+				206 image
+				207 text IA
+			208 button Déplacer « Négociation PAP » vers Terminé
+			209 text TERMINÉ (1)
+			210 checkbox Description: Inscription formation SSCT. Espace pour saisir la carte, ou glissez-la., Value: 0
+				211 text FORMATION
+				212 text Inscription formation SSCT
+				213 text Trois élus inscrits à la session de novembre.
+				214 text LE
+				215 text Clos
+			216 button Déplacer « Inscription formation SSCT » vers En cours
+			217 button Interroger l'assistant sur « Inscription formation SSCT »
+				218 image
+				219 text IA
+		128 text Payload masqué transmis — aucune identité envoyée
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

@@ -1,0 +1,89 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				8 text unii
+				9 text 2
+			10 button
+				11 image
+			12 button Se déconnecter
+				13 image
+		14 container
+			15 text UNII SUGGÈRE
+			16 button PV à rédiger · CSE ordinaire du 24 octobre
+			17 button PV à rédiger · Enregistrement importé — signal-test
+			18 text SÉANCES & PROCÈS-VERBAUX
+			19 heading Réunions, Value: 1
+				20 text Réunions
+			21 text 5 séances au registre · 4 PV en cours, 4 enregistrements référencés
+			22 button Enregistrer une réunion Dictaphone avec marqueurs de séance. Consentement des participants demandé avant le premier octet.
+				23 text Enregistrer une réunion
+				24 text Dictaphone avec marqueurs de séance. Consentement des participants demandé avant le premier octet.
+			25 text Importer un enregistrement Fichier du dictaphone, de la visio ou de la salle. Conservation locale dans ce navigateur. Choisir un fichier audio
+			26 button Choisir un fichier audio
+			27 heading TOUTES LES RÉUNIONS, Value: 2
+				28 text TOUTES LES RÉUNIONS
+			29 text 5 séances
+			30 button CSE ORDINAIRE 24 octobre 2026 · 4 h 20 · 1 min CSE ordinaire du 24 octobre Audio local — destruction automatique non connectée À RÉDIGER
+				31 text CSE ORDINAIRE
+				32 text 24 octobre 2026 · 4 h 20
+				33 text  · 
+				34 text 1 min
+				35 text CSE ordinaire du 24 octobre
+				36 text Audio local — destruction automatique non connectée
+				37 text À RÉDIGER
+			38 button CSE ORDINAIRE 24/10/2026 04:19:05 · — Enregistrement importé — signal-test Audio local — destruction automatique non connectée À RÉDIGER
+				39 text CSE ORDINAIRE
+				40 text 24/10/2026 04:19:05
+				41 text  · 
+				42 text —
+				43 text Enregistrement importé — signal-test
+				44 text Audio local — destruction automatique non connectée
+				45 text À RÉDIGER
+			46 button CSE ORDINAIRE 26 août 2026 · 14 h 00 · 1 h 52 Réunion ordinaire du 26 août Audio détruit — PV archivé APPROUVÉ
+				47 text CSE ORDINAIRE
+				48 text 26 août 2026 · 14 h 00
+				49 text  · 
+				50 text 1 h 52
+				51 text Réunion ordinaire du 26 août
+				52 text Audio détruit — PV archivé
+				53 text APPROUVÉ
+			54 button RÉUNION NAO 12 août 2026 · 09 h 30 · 2 h 07 Deuxième séance de négociation Audio local — destruction automatique non connectée EN RELECTURE
+				55 text RÉUNION NAO
+				56 text 12 août 2026 · 09 h 30
+				57 text  · 
+				58 text 2 h 07
+				59 text Deuxième séance de négociation
+				60 text Audio local — destruction automatique non connectée
+				61 text EN RELECTURE
+			62 button CSSCT 29 juillet 2026 · 10 h 00 · 58 min Visite de site — atelier peinture Audio local — destruction automatique non connectée À RÉDIGER
+				63 text CSSCT
+				64 text 29 juillet 2026 · 10 h 00
+				65 text  · 
+				66 text 58 min
+				67 text Visite de site — atelier peinture
+				68 text Audio local — destruction automatique non connectée
+				69 text À RÉDIGER
+		70 container
+			71 button Accueil
+				72 image
+				73 text Accueil
+			74 button Dossiers
+				75 image
+				76 text Dossiers
+			77 button Agenda
+				78 image
+				79 text Agenda
+			80 button Réunions
+				81 image
+				82 text Réunions
+			83 button Réglages
+				84 image
+				85 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

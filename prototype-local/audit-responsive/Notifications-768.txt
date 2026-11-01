@@ -1,0 +1,50 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			8 button
+				9 image
+			10 button Se déconnecter
+				11 image
+		12 container
+			13 heading Notifications, Value: 1
+				14 text Notifications
+			15 text Par canal et par module. Les alertes urgentes ignorent le mode « ne pas déranger ».
+			16 text Notifications push
+			17 text Alertes urgentes et résultats de sondage sur mobile.
+			18 switch Description: Notifications push, Value: 1
+			19 text Résumé par email
+			20 text Digest quotidien à 8 h.
+			21 switch Description: Résumé par email, Value: 1
+			22 text SMS pour les urgences
+			23 text Uniquement accidents du travail et droits d'alerte.
+			24 switch Description: SMS pour les urgences, Value: 0
+			25 text Ne pas déranger 20 h — 7 h
+			26 text Les alertes urgentes passent malgré tout.
+			27 switch Description: Ne pas déranger 20 h — 7 h, Value: 1
+			28 text Escalade automatique
+			29 text Si une alerte urgente reste sans accusé de réception sous 4 h.
+			30 switch Description: Escalade automatique, Value: 1
+		31 container
+			32 button Accueil
+				33 image
+				34 text Accueil
+			35 button Dossiers
+				36 image
+				37 text Dossiers
+			38 button Agenda
+				39 image
+				40 text Agenda
+			41 button Réunions
+				42 image
+				43 text Réunions
+			44 button Réglages
+				45 image
+				46 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

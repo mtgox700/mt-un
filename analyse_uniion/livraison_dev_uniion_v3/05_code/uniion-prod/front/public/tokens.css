@@ -1,0 +1,126 @@
+/* uniion — jetons de couleur exportés du prototype (5 septembre 2026).
+   Les jetons --ac* dérivent de la couleur d'accent : valeurs calculées pour l'accent orange
+   par défaut (#F97316, teinte 25, saturation 95). Corrigé le 17 octobre 2026 : l'export avait écrit du code au lieu des valeurs. */
+:root {
+  --ac: #F97316;
+  --ac2: #DC2626;
+  --acShadow: hsl(25 95% 45%);
+  --acMid: hsl(25 95% 72%);
+  --acTx: hsl(25 92% 43%);
+  --acTx2: hsl(25 92% 35%);
+  --acTx3: hsl(25 88% 28%);
+  --acDeep: hsl(25 88% 27%);
+  --acBg: hsl(25 92% 96%);
+  --acBg2: hsl(25 90% 98%);
+  --acBd: hsl(25 90% 90%);
+  --acBd2: hsl(25 90% 84%);
+  --surface: #FFFFFF;
+  --surf2: #F9FAFB;
+  --chip: #F3F4F6;
+  --track: #E5E7EB;
+  --bd: #F3F4F6;
+  --bd2: #E5E7EB;
+  --inkSurf: #111827;
+  --ink2Surf: #1F2937;
+  --ink: #111827;
+  --ink2: #1F2937;
+  --ink3: #374151;
+  --ink4: #4B5563;
+  --ink5: #6B7280;
+  --ink6: #9CA3AF;
+  --ok: #16A34A;
+  --okTx: #15803D;
+  --okTx2: #166534;
+  --okBg: #F0FDF4;
+  --okBg2: #ECFDF5;
+  --okBd: #DCFCE7;
+  --okBd2: #BBF7D0;
+  --okChip: #DCFCE7;
+  --okDeep: #14532D;
+  --info: #2563EB;
+  --infoTx2: #1D4ED8;
+  --infoBg: #EFF6FF;
+  --infoBd: #DBEAFE;
+  --info2: #3B82F6;
+  --pri: #7C3AED;
+  --priBg: #F5F3FF;
+  --priBd: #DDD6FE;
+  --danger: #DC2626;
+  --danger2: #EF4444;
+  --dangerTx2: #B91C1C;
+  --dangerBg: #FEF2F2;
+  --dangerBd: #FCA5A5;
+  --dangerBd2: #FEE2E2;
+  --warnTx: #A16207;
+  --warnBg: #FEF3C7;
+  --warnBd: #FDE68A;
+  --fTitle: Philosopher, Georgia, serif;
+  --fBody: system-ui, Segoe UI, Helvetica, sans-serif;
+}
+
+[data-theme="dark"], :root.dark {
+  --acShadow: rgba(0, 0, 0, .6);
+  --acMid: hsl(25 55% 38%);
+  --acTx: hsl(25 90% 66%);
+  --acTx2: hsl(25 88% 76%);
+  --acTx3: hsl(25 85% 84%);
+  --acDeep: hsl(25 55% 18%);
+  --acBg: hsl(25 42% 12%);
+  --acBg2: hsl(25 42% 9%);
+  --acBd: hsl(25 38% 21%);
+  --acBd2: hsl(25 38% 27%);
+  --surface: #151A22;
+  --surf2: #0E1218;
+  --chip: #202836;
+  --track: #2C3542;
+  --bd: #222B36;
+  --bd2: #2F3846;
+  --inkSurf: #080C12;
+  --ink2Surf: #1A212B;
+  --ink: #F3F4F6;
+  --ink2: #E5E7EB;
+  --ink3: #D6DBE2;
+  --ink4: #C0C7D1;
+  --ink5: #A7AFBA;
+  --ink6: #8B94A0;
+  --ok: #22C55E;
+  --okTx: #4ADE80;
+  --okTx2: #86EFAC;
+  --okBg: #0F2018;
+  --okBg2: #0C1A14;
+  --okBd: #1E3A2B;
+  --okBd2: #235340;
+  --okChip: #1B3729;
+  --okDeep: #0B2716;
+  --info: #60A5FA;
+  --infoTx2: #93C5FD;
+  --infoBg: #101C2E;
+  --infoBd: #1E3356;
+  --info2: #3B82F6;
+  --pri: #A78BFA;
+  --priBg: #1A1430;
+  --priBd: #2E2352;
+  --danger: #F87171;
+  --danger2: #EF4444;
+  --dangerTx2: #FCA5A5;
+  --dangerBg: #2A1214;
+  --dangerBd: #4A1F22;
+  --dangerBd2: #3A1A1C;
+  --warnTx: #FCD34D;
+  --warnBg: #2A2010;
+  --warnBd: #4A3A14;
+}
+
+html, body { margin: 0; background: var(--surf2); color: var(--ink); font-family: var(--fBody); -webkit-font-smoothing: antialiased; }
+a { color: var(--acTx); } a:hover { color: var(--acTx2); }
+:focus-visible { outline: 2.5px solid var(--ac2); outline-offset: 2px; border-radius: 6px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
+@media print {
+  html, body { background: #FFFFFF !important; }
+  [data-hors-impression] { display: none !important; }
+  body:has([data-impression]) * { visibility: hidden; }
+  [data-impression], [data-impression] * { visibility: visible; }
+  [data-impression] { display: block !important; position: absolute; top: 0; left: 0; }
+  [data-impression] > div { break-after: page; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  main { padding: 0 !important; }
+}

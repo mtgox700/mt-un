@@ -1,0 +1,208 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 image uniion
+			5 button Réduire le menu
+			69 button Accueil
+				70 image
+				71 text Accueil
+			100 button Assistant
+				101 image
+				102 text Assistant
+			124 button Dossiers
+				125 image
+				126 text Dossiers
+			118 button Messages
+				119 image
+				120 text Messages
+			18 button Agenda
+				19 image
+				20 text Agenda
+			21 button Réunions
+				22 image
+				23 text Réunions
+			127 button Documents
+				128 image
+				129 text Documents
+			97 button Formations
+				98 image
+				99 text Formations
+			79 button Communication
+				80 image
+				81 text Communication
+			91 button Application mobile
+				92 image
+				93 text Application mobile
+			36 button Adhérents
+				37 image
+				38 text Adhérents
+			39 button Intranet
+				40 image
+				41 text Intranet
+			110 button Reporting
+				111 image
+				112 text Reporting
+			85 button Raccourcis
+				86 image
+				87 text Raccourcis
+			48 button Réglages
+				49 image
+				50 text Réglages
+			51 text ASSISTANT IA Une question de droit ?
+			52 button Ouvrir le chat
+			53 button SM Sophie Marchand Déléguée syndicale
+				54 text SM
+				55 text Sophie Marchand
+				56 text Déléguée syndicale
+			57 button Se déconnecter
+		58 container
+			75 button ← Retour
+			59 image
+			60 text field (settable)
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				113 text unii
+				114 text 3
+			64 button
+				65 image
+			66 button Se déconnecter
+				67 image
+		106 container
+			121 text UNII SUGGÈRE
+			122 button Brouillon à relire · PV — Visite de site — atelier peinture
+			123 button Brouillon à relire · Compte rendu — réunion de la section syndicale
+			130 button Brouillon à relire · NAO 2027 — où en sont les négociations
+			131 button Revenir à la liste des documents
+			132 text Titre du document
+			133 text field (settable) Titre du document, Value: PV — Visite de site — atelier peinture
+			134 button Imprimer / PDF
+			135 button Faire signer
+			136 button Diffuser
+			137 tab group Panneaux de l'éditeur
+				138 tab (selected, settable, boolean) Contenu, Value: 1
+				139 tab (selectable, settable, boolean) Charte graphique, Value: 0
+				140 tab (selectable, settable, boolean) Style, Value: 0
+			141 text CONTENU
+			142 checkbox Blocs, Value: 1
+			143 checkbox Markdown, Value: 0
+			144 button Ajouter un bloc titre principal
+			145 button Ajouter un bloc intertitre
+			146 button Ajouter un bloc paragraphe
+			147 button Ajouter un bloc liste à puces
+			148 button Ajouter un bloc encadré réglementaire
+			149 button Ajouter un bloc tableau
+			150 button Ajouter un bloc badge de rubrique
+			151 button Ajouter un bloc saut de page
+			152 button Ajouter un bloc chiffre clé
+			153 button Ajouter un bloc comparatif
+			154 button Ajouter un bloc frise de dates
+			155 button Ajouter un bloc photo
+			156 button Ajouter un bloc qr code
+			157 button Ajouter un bloc coupon d'adhésion
+			158 button Ajouter un bloc trombinoscope
+			159 button Ajouter un bloc tampon
+			160 button Ajouter un bloc bandeau surligné
+			161 button Ajouter un bloc signature
+			162 button Ajouter un bloc bulles de dialogue
+			163 button Ajouter un bloc encadré « fo exige »
+			164 text BADGE DE RUBRIQUE
+			165 button Déplacer ce bloc vers le haut
+			166 button Déplacer ce bloc vers le bas
+			167 button Supprimer ce bloc
+			168 text entry area (settable) Description: Badge de rubrique, bloc 1 sur 13, Value: CSSCT — 29 juillet 2026
+			169 text TITRE PRINCIPAL
+			170 button Déplacer ce bloc vers le haut
+			171 button Déplacer ce bloc vers le bas
+			172 button Supprimer ce bloc
+			173 text entry area (settable) Description: Titre principal, bloc 2 sur 13, Value: Procès-verbal — Visite de site — atelier peinture
+			174 text INTERTITRE
+			175 button Déplacer ce bloc vers le haut
+			176 button Déplacer ce bloc vers le bas
+			177 button Supprimer ce bloc
+			178 text entry area (settable) Description: Intertitre, bloc 3 sur 13, Value: Projet de procès-verbal — CSSCT — Visite de site — atelier peinture
+			179 text PARAGRAPHE
+			180 button Déplacer ce bloc vers le haut
+			181 button Déplacer ce bloc vers le bas
+			182 button Supprimer ce bloc
+			183 text entry area (settable) Description: Paragraphe, bloc 4 sur 13, Value: Séance du 29 juillet 2026 à 10 h 00 ; durée indiquée : 58 minutes. Participants, présidence et secrétariat : à compléter. Source : informations de séance fournies, « Visite de site — atelier peinture », 29 juillet 2026, rubrique descriptive ; emplacement interne : présent échange ; source non vérifiée, à contrôler.
+			184 text INTERTITRE
+			185 button Déplacer ce bloc vers le haut
+			186 button Déplacer ce bloc vers le bas
+			187 button Supprimer ce bloc
+			188 text entry area (settable) Description: Intertitre, bloc 5 sur 13, Value: Ordre du jour
+			189 text LISTE À PUCES
+			190 button Déplacer ce bloc vers le haut
+			191 button Déplacer ce bloc vers le bas
+			192 button Supprimer ce bloc
+			193 text entry area (settable) Description: Liste à puces, bloc 6 sur 13, Value: Ventilation cabine 3.
+Équipements de protection.
+Suites de la visite.
+Source : « Visite de site — atelier peinture », 29 juillet 2026, rubrique « Ordre du jour » ; emplacement interne : présent échange ; source non vérifiée, à contrôler.
+			194 text Un élément par ligne.
+			195 text INTERTITRE
+			196 button Déplacer ce bloc vers le haut
+			197 button Déplacer ce bloc vers le bas
+			198 button Supprimer ce bloc
+			199 text entry area (settable) Description: Intertitre, bloc 7 sur 13, Value: Délibérations et points à vérifier
+			200 text PARAGRAPHE
+			201 button Déplacer ce bloc vers le haut
+			202 button Déplacer ce bloc vers le bas
+			203 button Supprimer ce bloc
+			204 text entry area (settable) Description: Paragraphe, bloc 8 sur 13, Value: À 04:00, le débit de ventilation de la cabine 3 est identifié comme un point à vérifier. Valeur du débit, modalités de contrôle, responsable et échéance : à compléter. Source : « Marqueurs relevés en séance (anonymisés) », séance du 29 juillet 2026, marqueur 04:00 ; emplacement interne : présent échange ; source non vérifiée, à contrôler.
+			205 text PARAGRAPHE
+			206 button Déplacer ce bloc vers le haut
+			207 button Déplacer ce bloc vers le bas
+			208 button Supprimer ce bloc
+			209 text entry area (settable) Description: Paragraphe, bloc 9 sur 13, Value: Contenu des échanges sur les équipements de protection, propositions et éventuelles délibérations : à compléter. Suites de la visite et modalités de restitution : à compléter.
+			210 text INTERTITRE
+			211 button Déplacer ce bloc vers le haut
+			212 button Déplacer ce bloc vers le bas
+			213 button Supprimer ce bloc
+			214 text entry area (settable) Description: Intertitre, bloc 10 sur 13, Value: Engagement de la direction
+			215 text PARAGRAPHE
+			216 button Déplacer ce bloc vers le haut
+			217 button Déplacer ce bloc vers le bas
+			218 button Supprimer ce bloc
+			219 text entry area (settable) Description: Paragraphe, bloc 11 sur 13, Value: À 33:00, la direction s'engage au remplacement des masques sous 15 jours. Périmètre du remplacement, responsable du suivi, point de départ du délai et date d'exécution : à compléter. Source : « Marqueurs relevés en séance (anonymisés) », séance du 29 juillet 2026, marqueur 33:00 ; emplacement interne : présent échange ; source non vérifiée, à contrôler.
+			220 text INTERTITRE
+			221 button Déplacer ce bloc vers le haut
+			222 button Déplacer ce bloc vers le bas
+			223 button Supprimer ce bloc
+			224 text entry area (settable) Description: Intertitre, bloc 12 sur 13, Value: Sources
+			225 text LISTE À PUCES
+			226 button Déplacer ce bloc vers le haut
+			227 button Déplacer ce bloc vers le bas
+			228 button Supprimer ce bloc
+			229 text entry area (settable) Description: Liste à puces, bloc 13 sur 13, Value: « Visite de site — atelier peinture » — 29 juillet 2026, informations descriptives et rubrique « Ordre du jour » — emplacement interne : message utilisateur du présent échange ; source non vérifiée, à contrôler.
+« Marqueurs relevés en séance (anonymisés) » — séance du 29 juillet 2026, marqueurs 04:00 et 33:00 — emplacement interne : message utilisateur du présent échange ; source non vérifiée, à contrôler avant validation du procès-verbal.
+			230 text Un élément par ligne.
+			231 checkbox A4 portrait, Value: 1
+			232 checkbox 16:9 paysage, Value: 0
+			233 checkbox A5 tract, Value: 0
+			234 checkbox Description: Zoom 50 %, Value: 0
+			235 checkbox Description: Zoom 72 %, Value: 1
+			236 checkbox Description: Zoom 100 %, Value: 0
+			237 text 1 page · A4 portrait
+			238 container
+				239 text SECTION MÉTA VAL Local syndical — 12 rue de la Fonderie
+				240 image Logo de l'organisation
+				241 text CSSCT — 29 JUILLET 2026
+				242 heading Procès-verbal — Visite de site — atelier peinture, Value: 2
+					243 text Procès-verbal — Visite de site — atelier peinture
+				244 heading Projet de procès-verbal — CSSCT — Visite de site — atelier peinture, Value: 3
+					245 text Projet de procès-verbal — CSSCT — Visite de site — atelier peinture
+				246 text Séance du 29 juillet 2026 à 10 h 00 ; durée indiquée : 58 minutes. Participants, présidence et secrétariat : à compléter. Source : informations de séance fournies, « Visite de site — atelier peinture », 29 juillet 2026, rubrique descriptive ; emplacement interne : présent échange ; source non vérifiée, à contrôler.
+				247 heading Ordre du jour, Value: 3
+					248 text Ordre du jour
+				249 text Ventilation cabine 3. Équipements de protection. Suites de la visite. Source : « Visite de site — atelier peinture », 29 juillet 2026, rubrique « Ordre du jour » ; emplacement interne : présent échange ; source non vérifiée, à contrôler.
+				250 heading Délibérations et points à vérifier, Value: 3
+					251 text Délibérations et points à vérifier
+				252 text À 04:00, le débit de ventilation de la cabine 3 est identifié comme un point à vérifier. Valeur du débit, modalités de contrôle, responsable et échéance : à compléter. Source : « Marqueurs relevés en séance (anonymisés) », séance du 29 juillet 2026, marqueur 04:00 ; emplacement interne : présent échange ; source non vérifiée, à contrôler. Contenu des échanges sur les équipements de protection, propositions et éventuelles délibérations : à compléter. Suites de la visite et modalités de restitution : à compléter.
+				253 heading Engagement de la direction, Value: 3
+					254 text Engagement de la direction
+				255 text À 33:00, la direction s'engage au remplacement des masques sous 15 jours. Périmètre du remplacement, responsable du suivi, point de départ du délai et date d'exécution : à compléter. Source : « Marqueurs relevés en séance (anonymisés) », séance du 29 juillet 2026, marqueur 33:00 ; emplacement interne : présent échange ; source non vérifiée, à contrôler.
+				256 heading Sources, Value: 3
+					257 text Sources
+				258 text « Visite de site — atelier peinture » — 29 juillet 2026, informations descriptives et rubrique « Ordre du jour » — emplacement interne : message utilisateur du présent échange ; source non vérifiée, à contrôler. « Marqueurs relevés en séance (anonymisés) » — séance du 29 juillet 2026, marqueurs 04:00 et 33:00 — emplacement interne : message utilisateur du présent échange ; source non vérifiée, à contrôler avant validation du procès-verbal. section@syndicat-valenciennes.fr — 03 27 14 88 20 Page 1 / 1
+
+The focused UI element is 1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

@@ -1,0 +1,26 @@
+{
+  "fictiveSignalHz": 440,
+  "segments": [
+    {
+      "position": 0,
+      "offsetMs": 0,
+      "durationMs": 119720,
+      "sampleRate": 16000,
+      "frames": 1915520,
+      "rms": 0.007062508912954709,
+      "frequencyHz": 439.9348479786168,
+      "sha256Matches": true
+    },
+    {
+      "position": 1,
+      "offsetMs": 119720,
+      "durationMs": 31314,
+      "sampleRate": 16000,
+      "frames": 501034,
+      "rms": 0.007062312549940559,
+      "frequencyHz": 440.04997664829136,
+      "sha256Matches": true
+    }
+  ],
+  "passed": true
+}

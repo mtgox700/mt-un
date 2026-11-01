@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "event_created",
+      "ok": true
+    },
+    {
+      "test": "document_created",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "sender_without_authority_denied",
+      "ok": true
+    },
+    {
+      "test": "unapproved_document_denied",
+      "ok": true
+    },
+    {
+      "test": "review_second_actor",
+      "ok": true
+    },
+    {
+      "test": "publish",
+      "ok": true
+    },
+    {
+      "test": "empty_selection_denied",
+      "ok": true
+    },
+    {
+      "test": "duplicate_selection_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_recipient_denied",
+      "ok": true
+    },
+    {
+      "test": "stale_attachment_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_org_denied",
+      "ok": true
+    },
+    {
+      "test": "recipient_without_download_denied",
+      "ok": true
+    },
+    {
+      "test": "selected_recipient_sent",
+      "ok": true
+    },
+    {
+      "test": "idempotent",
+      "ok": true
+    },
+    {
+      "test": "one_mail_only",
+      "ok": true
+    },
+    {
+      "test": "only_selected_address",
+      "ok": true
+    },
+    {
+      "test": "two_attachments",
+      "ok": true
+    },
+    {
+      "test": "attachment_names",
+      "ok": true
+    },
+    {
+      "test": "revoke_before_delivery_denied",
+      "ok": true
+    }
+  ]
+}

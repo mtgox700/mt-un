@@ -1,0 +1,86 @@
+[
+  {
+    "test": "retour-module-desactive",
+    "width": 390,
+    "denied": true,
+    "stayedOnCases": true,
+    "overflow": false
+  },
+  {
+    "test": "retour-module-desactive",
+    "width": 768,
+    "denied": true,
+    "stayedOnCases": true,
+    "overflow": false
+  },
+  {
+    "test": "retour-module-desactive",
+    "width": 1440,
+    "denied": true,
+    "stayedOnCases": true,
+    "overflow": false
+  },
+  {
+    "test": "retour-module-autorise",
+    "width": 390,
+    "allowed": true
+  },
+  {
+    "test": "retour-module-autorise",
+    "width": 768,
+    "allowed": true
+  },
+  {
+    "test": "retour-module-autorise",
+    "width": 1440,
+    "allowed": true
+  },
+  {
+    "test": "historique-retour",
+    "width": 390,
+    "synchronised": true
+  },
+  {
+    "test": "historique-avance",
+    "width": 390,
+    "synchronised": true
+  },
+  {
+    "test": "historique-retour",
+    "width": 768,
+    "synchronised": true
+  },
+  {
+    "test": "historique-avance",
+    "width": 768,
+    "synchronised": true
+  },
+  {
+    "test": "historique-retour",
+    "width": 1440,
+    "synchronised": true
+  },
+  {
+    "test": "historique-avance",
+    "width": 1440,
+    "synchronised": true
+  },
+  {
+    "test": "invitation",
+    "width": 390,
+    "explicitRights": true,
+    "overflow": false
+  },
+  {
+    "test": "invitation",
+    "width": 768,
+    "explicitRights": true,
+    "overflow": false
+  },
+  {
+    "test": "invitation",
+    "width": 1440,
+    "explicitRights": true,
+    "overflow": false
+  }
+]

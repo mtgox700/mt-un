@@ -1,0 +1,167 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			103 button Documents
+				104 image
+				105 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			181 button Adhérents
+				182 image
+				183 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			89 button Réglages
+				90 image
+				91 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			184 text ADHÉSION ET COTISATIONS
+			185 heading Adhérents, Value: 1
+				186 text Adhérents
+			187 text 12 adhérents suivis sur 3 entreprises · 3 cotisations en retard · 2 adhésions à finaliser 12 adhérents actifs 58 % à jour de cotisation 3 retards à relancer 5 listes de diffusion
+			188 tab group Vues du module adhérents
+				189 tab (selected, settable, boolean) Adhérents, Value: 1
+				190 tab (selectable, settable, boolean) Listes de diffusion, Value: 0
+				191 tab (selectable, settable, boolean) Cotisations, Value: 0
+			192 text FILTRER LES ADHÉRENTS
+			193 text field (settable) Rechercher un adhérent
+			194 container
+				195 text ENTREPRISE
+				196 pop up button (collapsed, settable) ENTREPRISE, Value: Toutes, Secondary Actions: Expand
+					197 menu
+						198 (selected) Toutes
+						199 Métallurgie Valenciennes SA
+						200 Valmétal Logistique
+						201 VMV Services
+			202 container
+				203 text ÉTABLISSEMENT
+				204 pop up button (collapsed, settable) ÉTABLISSEMENT, Value: Tous, Secondary Actions: Expand
+					205 menu
+						206 (selected) Tous
+						207 Site de Valenciennes
+						208 Site de Denain
+						209 Plateforme de Prouvy
+						210 Siège de Lille
+			211 container
+				212 text SECTION
+				213 pop up button (collapsed, settable) SECTION, Value: Toutes, Secondary Actions: Expand
+					214 menu
+						215 (selected) Toutes
+						216 Section Atelier
+						217 Section Logistique
+						218 Section Tertiaire
+						219 Section Maintenance
+			220 container
+				221 text DIRECTION
+				222 pop up button (collapsed, settable) DIRECTION, Value: Toutes, Secondary Actions: Expand
+					223 menu
+						224 (selected) Toutes
+						225 Production
+						226 Supply Chain
+						227 Fonctions support
+						228 Technique
+			229 container
+				230 text COTISATION
+				231 pop up button (collapsed, settable) COTISATION, Value: Toutes, Secondary Actions: Expand
+					232 menu
+						233 (selected) Toutes
+						234 À jour
+						235 En retard
+						236 Adhésion en cours
+			237 text field (settable) Nom de la nouvelle liste de diffusion
+			238 button Créer une liste depuis ces critères
+			239 text 12 adhérents sur 12
+			240 button Tout sélectionner
+			241 button Envoyer un message
+			242 checkbox Description: Sélectionner Karim Benali, Value: 0
+			243 button Karim Benali DÉLÉGUÉ DE SECTION Site de Valenciennes · Section Atelier
+				244 text Karim Benali
+				245 text DÉLÉGUÉ DE SECTION
+				246 text Site de Valenciennes · Section Atelier
+			247 text 14,20 €/mois · Prélèvement SEPA À JOUR
+			248 button Ouvrir la fiche de Karim Benali
+			249 checkbox Description: Sélectionner Sandrine Lemoine, Value: 0
+			250 button Sandrine Lemoine Plateforme de Prouvy · Section Logistique
+				251 text Sandrine Lemoine
+				252 text Plateforme de Prouvy · Section Logistique
+			253 text 11,80 €/mois · Chèque EN RETARD
+			254 button Ouvrir la fiche de Sandrine Lemoine
+			255 checkbox Description: Sélectionner Mehdi Fournier, Value: 0
+			256 button Mehdi Fournier ÉLU SUPPLÉANT CSE Site de Denain · Section Maintenance
+				257 text Mehdi Fournier
+				258 text ÉLU SUPPLÉANT CSE
+				259 text Site de Denain · Section Maintenance
+			260 text 16,50 €/mois · Prélèvement SEPA À JOUR
+			261 button Ouvrir la fiche de Mehdi Fournier
+			262 checkbox Description: Sélectionner Aurélie Pruvost, Value: 0
+			263 button Aurélie Pruvost Siège de Lille · Section Tertiaire
+				264 text Aurélie Pruvost
+				265 text Siège de Lille · Section Tertiaire
+			266 text 12,40 €/mois · Prélèvement SEPA ADHÉSION EN COURS
+			267 button Ouvrir la fiche de Aurélie Pruvost
+			268 checkbox Description: Sélectionner Thierry Dubois, Value: 0
+			269 button Thierry Dubois Site de Valenciennes · Section Atelier
+				270 text Thierry Dubois
+				271 text Site de Valenciennes · Section Atelier
+			272 text 168 €/an · Virement annuel À JOUR
+			273 button Ouvrir la fiche de Thierry Dubois
+			274 text 1–5 sur 12
+			275 button (disabled) Page précédente
+			276 button Page suivante
+			277 text L'appartenance syndicale est une donnée sensible : le fichier reste chiffré sur l'appareil, n'est jamais transmis à l'employeur et les exports sont journalisés.
+			278 button Importer un fichier CSV
+			279 button Nouveau bulletin d'adhésion
+		180 text Envoyé en relecture à 2 élus
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

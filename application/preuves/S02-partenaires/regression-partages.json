@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "count": 27,
+  "checks": [
+    {
+      "test": "anonymous_share_refused",
+      "ok": true
+    },
+    {
+      "test": "source_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_share_refused",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "source_mfa",
+      "ok": true
+    },
+    {
+      "test": "target_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "target_mfa",
+      "ok": true
+    },
+    {
+      "test": "only_membership_organizations",
+      "ok": true
+    },
+    {
+      "test": "source_cannot_open_target",
+      "ok": true
+    },
+    {
+      "test": "target_cannot_open_source",
+      "ok": true
+    },
+    {
+      "test": "partner_contacts_not_implicit",
+      "ok": true
+    },
+    {
+      "test": "recipient_cannot_create_as_source",
+      "ok": true
+    },
+    {
+      "test": "non_member_beneficiary_refused",
+      "ok": true
+    },
+    {
+      "test": "explicit_proposal_allowed",
+      "ok": true
+    },
+    {
+      "test": "no_read_before_acceptance",
+      "ok": true
+    },
+    {
+      "test": "source_cannot_accept_for_target",
+      "ok": true
+    },
+    {
+      "test": "beneficiary_expansion_refused",
+      "ok": true
+    },
+    {
+      "test": "explicit_acceptance",
+      "ok": true
+    },
+    {
+      "test": "shared_read_authorized",
+      "ok": true
+    },
+    {
+      "test": "download_refused",
+      "ok": true
+    },
+    {
+      "test": "no_direct_source_access",
+      "ok": true
+    },
+    {
+      "test": "target_cannot_revoke_source",
+      "ok": true
+    },
+    {
+      "test": "source_revoke_allowed",
+      "ok": true
+    },
+    {
+      "test": "existing_session_read_revoked",
+      "ok": true
+    },
+    {
+      "test": "direct_rpc_revoked_refused",
+      "ok": true
+    },
+    {
+      "test": "pending_ui_fixture",
+      "ok": true
+    }
+  ]
+}

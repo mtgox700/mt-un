@@ -1,0 +1,102 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			68 button Accueil
+				69 image
+				70 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			20 button Réunions
+				21 image
+				22 text Réunions
+			83 button Documents
+				84 image
+				85 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			86 button Réglages
+				87 image
+				88 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			89 text SIGNATURE ÉLECTRONIQUE
+			90 heading Signature du document, Value: 1
+				91 text Signature du document
+			92 text Signature avancée eIDAS, horodatage qualifié et journal probatoire conservés 10 ans.
+			93 button PV de séance — 3 septembre
+			94 button Courrier de saisine
+			95 button Accord télétravail
+			96 text Provenance :  Document · Compte rendu — réunion de la section syndicale
+			97 text PROCÈS-VERBAL · SÉANCE DU 03/09/2026
+			98 heading Procès-verbal de la réunion ordinaire du 3 septembre 2026, Value: 2
+				99 text Procès-verbal de la réunion ordinaire du 3 septembre 2026
+			100 text Le comité social et économique s'est réuni le 3 septembre 2026 à 9 h, salle du conseil, sous la présidence de la direction, en présence de six élus titulaires et de deux représentants syndicaux.
+			101 text Les délibérations portent sur la restitution du sondage NAO, le retour d'enquête CSSCT relatif à l'accident de l'Atelier B et le budget des activités sociales. Le procès-verbal est adopté sous réserve des observations annexées.
+			102 text POUR LES ÉLUS
+			103 text Zone de signature — en attente
+			104 text POUR LA DIRECTION
+			105 text En attente de la signature des élus
+			106 heading Signataires, Value: 2
+				107 text Signataires
+			108 text SM Sophie Marchand Secrétaire du CSE À signer JD Jean-Paul Diallo Élu titulaire — cosignataire En attente DR Direction des ressources humaines Partie employeur Non notifiée
+			109 heading Apposer ma signature, Value: 2
+				110 text Apposer ma signature
+			111 text Signature avancée eIDAS : identité vérifiée par le second facteur de votre session.
+			112 container
+				113 text Nom apposé
+				114 text field (settable) Nom apposé, Value: Sophie Marchand
+			115 text Style
+			116 button Manuscrite
+			117 button Italique
+			118 button Capitales
+			119 checkbox Value: 0, Je reconnais avoir lu le document et j'accepte que ma signature électronique ait la même valeur qu'une signature manuscrite.
+			120 button Signer le document
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

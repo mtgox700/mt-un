@@ -1,0 +1,57 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				8 text unii
+				9 text 1
+			10 button
+				11 image
+			12 button Se déconnecter
+				13 image
+		14 container
+			15 text UNII SUGGÈRE
+			16 button 1 non lu · Jean-Paul Diallo
+			17 container
+				18 button Retour aux discussions
+				19 button Commission Négociation Vous, Jean-Paul, Leïla, Nadia, Thomas
+					20 text Commission Négociation
+					21 text Vous, Jean-Paul, Leïla, Nadia, Thomas
+				22 button Sélectionner
+				23 button unii, Help: Solliciter unii sur ce fil
+				24 button Description: Infos de la discussion, Help: Infos
+				25 text Messages de démonstration conservés dans ce navigateur ; chiffrement de production à intégrer.
+				26 container
+					27 button Description: Actions sur le message, Help: Actions
+					28 text Jean-Paul D. La direction propose 0,8 % sur les salaires de base. 09:12
+				29 container
+					30 button Description: Actions sur le message, Help: Actions
+					31 text C'est très insuffisant par rapport à l'inflation. On demande la communication des marges. 09:14 ✓✓
+				32 container
+					33 button Description: Actions sur le message, Help: Actions
+					34 text Leïla C. On maintient l'AG du personnel mardi 12 h 30 ? 09:20
+				35 button Description: Joindre un fichier, Help: Joindre
+				36 text field (settable) Votre message
+				37 button Envoyer
+		38 container
+			39 button Accueil
+				40 image
+				41 text Accueil
+			42 button Dossiers
+				43 image
+				44 text Dossiers
+			45 button Agenda
+				46 image
+				47 text Agenda
+			48 button Réunions
+				49 image
+				50 text Réunions
+			51 button Réglages
+				52 image
+				53 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

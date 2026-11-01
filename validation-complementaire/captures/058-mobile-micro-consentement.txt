@@ -1,0 +1,61 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		1641 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					1642 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+						1873 text unii
+						1874 text 2
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				1334 container
+					1875 text UNII SUGGÈRE
+					1876 button PV en relecture · Deuxième séance de négociation
+					1877 button PV à rédiger · Visite de site — atelier peinture
+					2006 button Réunions
+					2007 heading Avant d'enregistrer, Value: 1
+						2008 text Avant d'enregistrer
+					2009 text L'enregistrement d'une séance suppose l'accord des personnes présentes. Deux confirmations sont requises avant que le micro ne s'ouvre.
+					2010 text TYPE DE RÉUNION
+					2011 checkbox CSE ordinaire, Value: 1
+					2012 checkbox CSSCT, Value: 0
+					2013 checkbox Réunion NAO, Value: 0
+					2014 checkbox Préparatoire élus, Value: 0
+					2015 checkbox Value: 0, Les personnes présentes ont été informées de l'enregistrement À annoncer en ouverture de séance, avant le premier mot consigné.
+					2016 checkbox Value: 0, La séance ne s'y est pas opposée Un refus, même d'une seule personne, interdit l'enregistrement — prise de notes uniquement.
+					2017 heading Ce qui est fait de l'enregistrement, Value: 2
+						2018 text Ce qui est fait de l'enregistrement
+					2019 text Le fichier reste chiffré sur cet appareil : il n'est jamais téléversé sur un serveur. Transcription et extraction passent par l'anonymisation avant inférence — noms et matricules remplacés par des jetons. Destruction certifiée dès l'approbation du PV, ou au bout de 30 jours — au premier des deux. Chaque écoute est inscrite au journal d'accès, consultable par les élus.
+					2020 button (disabled) Confirmez les deux points ci-dessus
+					2021 text Le navigateur demandera l'accès au micro. En cas de refus, la maquette basculera en enregistrement simulé.
+				1643 container
+					2000 button Accueil
+						2001 image
+						2002 text Accueil
+					1647 button Dossiers
+						1648 image
+						1649 text Dossiers
+					1961 button Agenda
+						1962 image
+						1963 text Agenda
+					2003 button Réunions
+						2004 image
+						2005 text Réunions
+					1750 button Réglages
+						1751 image
+						1752 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

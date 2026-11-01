@@ -1,0 +1,24 @@
+[
+  {
+    "name": "ui-fictif.wav",
+    "originalBytes": 3244,
+    "originalHash": "2976da01e205a110c9fa41d47659e238a5c6d3c3f3137582f2949853faa201dd",
+    "segments": 1,
+    "wavBytes": [
+      3244
+    ],
+    "durationMs": 100,
+    "passed": true
+  },
+  {
+    "name": "ui-fictif.aiff",
+    "originalBytes": 7296,
+    "originalHash": "61a781df95aab699b17e708be7a035bec05c72ad909a7b49bcb204fc7f2d3cbd",
+    "segments": 1,
+    "wavBytes": [
+      3244
+    ],
+    "durationMs": 100,
+    "passed": true
+  }
+]

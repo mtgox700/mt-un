@@ -1,0 +1,7 @@
+{
+  "realStatusesVisible": true,
+  "removedMemberVisible": true,
+  "revokedInvitationVisible": true,
+  "selfSuspensionBlocked": true,
+  "authorizedMutationsTestedViaIntegration": true
+}

@@ -1,0 +1,88 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - heading "Suivi des publications" [level=1]
+  - paragraph: 3 demande(s) de publication · file interne partagée avec le webmaster
+  - generic: PUB-2026-041
+  - generic: En attente webmaster
+  - 'heading "Chèques vacances 2026 : mode d''emploi" [level=2]'
+  - paragraph: Loisirs & ASC · mise en ligne prévue 1er septembre 2026 · Tous les salariés · transmise il y a 2 j
+  - generic: Rédigée
+  - generic: Relue par un pair
+  - generic: Envoyée au webmaster
+  - generic: Publiée
+  - paragraph: À mettre en ligne en tête de la rubrique ASC, avant l'ouverture des demandes.
+  - button "Ouvrir la page"
+  - button "Relancer"
+  - generic: PUB-2026-038
+  - generic: Publiée
+  - heading "Permanences des élus — rentrée 2026" [level=2]
+  - paragraph: La section · mise en ligne prévue 22 août 2026 · Tous les salariés · transmise il y a 8 j
+  - generic: Rédigée
+  - generic: Relue par un pair
+  - generic: Envoyée au webmaster
+  - generic: Publiée
+  - paragraph: Aucune consigne particulière.
+  - paragraph: intranet.section-valenciennes.fr/intranet/la-section/permanences-rentree-2026
+  - button "Ouvrir la page"
+  - button "Relancer"
+  - generic: PUB-2026-039
+  - generic: Retournée
+  - 'heading "Télétravail : vos droits après l''avenant" [level=2]'
+  - paragraph: Vos droits · mise en ligne prévue 28 août 2026 · Tous les salariés · transmise il y a 4 j
+  - generic: Rédigée
+  - generic: Relue par un pair
+  - generic: Envoyée au webmaster
+  - generic: Retour du webmaster
+  - paragraph: Aucune consigne particulière.
+  - generic: Retour du webmaster
+  - generic: Le visuel d'en-tête pèse 3,2 Mo — merci de fournir une image sous 400 Ko, ou je publie sans visuel.
+  - button "Ouvrir la page"
+  - button "Relancer"

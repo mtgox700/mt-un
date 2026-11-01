@@ -1,0 +1,362 @@
+[
+  {
+    "permission": "platform.organizations.manage",
+    "acteur": "Super admin serveur",
+    "conditions": "Rôle plateforme vérifié ; opération de gestion seulement",
+    "champs_modifiables": "name, state, plan, region selon transitions",
+    "refus_obligatoires": "Contenus métier ; attribution depuis domaine email",
+    "tests_cibles": "ISO-14 + SEC-01",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "organization.members.invite",
+    "acteur": "Admin de l’organisation",
+    "conditions": "Même org ; délégant ne peut attribuer plus que son autorité ; invitation à durée bornée",
+    "champs_modifiables": "Identité destinataire, rôle local autorisé, expiration",
+    "refus_obligatoires": "Rôle plateforme ; auto-grant dossier sensible ; invitation inter-org implicite",
+    "tests_cibles": "ISO-03, ISO-13, ISO-16",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "resource.grants.manage",
+    "acteur": "Autorité d’habilitation désignée",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Attribution plus restrictive ou délégation autorisée ; ressources très sensibles selon D03.",
+    "champs_modifiables": "sujet local, action autorisée, expiration",
+    "refus_obligatoires": "org_id, classification abaissée, acteur global, délégation sans mandat",
+    "tests_cibles": "ISO-05, ISO-13, ISO-15",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "dossiers.create",
+    "acteur": "Membre habilité",
+    "conditions": "Créer dans son org ; ACL initiale restrictive dans la même transaction",
+    "champs_modifiables": "title, description, category, due_at, assignee autorisé",
+    "refus_obligatoires": "org_id fourni non autorisé ; assignation vers autre tenant",
+    "tests_cibles": "ISO-03, ISO-05",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "dossiers.read",
+    "acteur": "Membre ou invité habilité",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite.",
+    "champs_modifiables": "Aucun",
+    "refus_obligatoires": "ID, liste, compteur, titre, erreur différenciée révélant un dossier interdit",
+    "tests_cibles": "ISO-01, ISO-02, ISO-13, ISO-16",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "dossiers.write",
+    "acteur": "Membre explicitement habilité",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Version attendue pour empêcher écrasement concurrent.",
+    "champs_modifiables": "title, description, due_at ; status par transition dédiée",
+    "refus_obligatoires": "org_id, resource_id, owner arbitraire, ACL dans body",
+    "tests_cibles": "ISO-04, ISO-05",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "dossiers.assign",
+    "acteur": "Gestionnaire délégué",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Destinataire local actif et autorité d’assignation.",
+    "champs_modifiables": "assignee_id via commande dédiée",
+    "refus_obligatoires": "Attribution de lecture implicite non prévue par politique",
+    "tests_cibles": "ISO-05, ISO-13",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "files.download",
+    "acteur": "Lecteur de la ressource parente",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Fichier ready ; contrôler version et restrictions source.",
+    "champs_modifiables": "Aucun ; signature URL côté serveur seulement",
+    "refus_obligatoires": "Objet deviné, autre org, version révoquée, lien trop long",
+    "tests_cibles": "ISO-06, ISO-11, ISO-16",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "files.upload",
+    "acteur": "Contributeur habilité",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Taille/type et parent validés ; passage quarantaine→ready.",
+    "champs_modifiables": "Nom affiché, fichier ; clé de stockage créée serveur",
+    "refus_obligatoires": "storage_key libre, parent autre org, contenu HTML exécutable libre",
+    "tests_cibles": "ISO-05, ISO-06",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "documents.export",
+    "acteur": "Utilisateur habilité",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. export distinct de lecture ; sources du dérivé accessibles.",
+    "champs_modifiables": "Format autorisé et version figée",
+    "refus_obligatoires": "Export global, contenu source retiré, restitution job non autorisée",
+    "tests_cibles": "ISO-10, ISO-11",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "documents.review",
+    "acteur": "Relecteur habilité",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Règle auteur/relecteur à décider ; version exacte.",
+    "champs_modifiables": "Décision et commentaire ; version protégée",
+    "refus_obligatoires": "Approbation de version modifiée, contournement séparation des fonctions",
+    "tests_cibles": "ISO-04, ISO-10",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "messages.read",
+    "acteur": "Participant actif",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Participation et règle historique ; contrôle abonnements temps réel.",
+    "champs_modifiables": "Aucun",
+    "refus_obligatoires": "Admin non participant, retiré, pièces accessibles par lien direct",
+    "tests_cibles": "ISO-01, ISO-06, ISO-09",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "messages.send",
+    "acteur": "Participant actif",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Destination locale ; idempotence.",
+    "champs_modifiables": "Texte, pièces autorisées, reply_to même conversation",
+    "refus_obligatoires": "sender_id arbitraire, conversation B, reply_to autre groupe",
+    "tests_cibles": "ISO-03, ISO-05, ISO-09",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "messages.transfer",
+    "acteur": "Participant source et contributeur cible",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Lire source ET écrire cible ; copie sensible approuvée/provenance.",
+    "champs_modifiables": "Destination autorisée et message source",
+    "refus_obligatoires": "Destination autre org, fuite identité source ou média privé",
+    "tests_cibles": "ISO-19",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "members.export",
+    "acteur": "Gestionnaire fichier adhérents",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Droit export et sous-population autorisée ; audit minimisé.",
+    "champs_modifiables": "Filtre validé et colonnes autorisées",
+    "refus_obligatoires": "Export cotisations sans dues.read ; annuaire complet implicite",
+    "tests_cibles": "ISO-02, ISO-10",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "audio.read",
+    "acteur": "Utilisateur habilité audio",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Consentement et politique de conservation respectés.",
+    "champs_modifiables": "Aucun",
+    "refus_obligatoires": "Accès au son par simple invitation agenda ou lecture du PV",
+    "tests_cibles": "ISO-06, ISO-13",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "minutes.approve",
+    "acteur": "Approbateur habilité",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Version de PV exacte et circuit de validation.",
+    "champs_modifiables": "Décision, commentaire, version",
+    "refus_obligatoires": "Approbation par job IA ou super admin non habilité",
+    "tests_cibles": "ISO-04, ISO-14",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "ai.generate",
+    "acteur": "Utilisateur habilité",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Sources revalidées avant extraction puis restitution ; minimisation ; budget.",
+    "champs_modifiables": "Question, références autorisées ; jamais identité/tenant effectif arbitraire",
+    "refus_obligatoires": "Corpus autre org, mémoire partagée par défaut, réponse après révocation",
+    "tests_cibles": "ISO-07, ISO-08, ISO-11",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "pages.publish",
+    "acteur": "Responsable publication",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Version approuvée + destination explicite + contrôle des sources et médias.",
+    "champs_modifiables": "Destination autorisée, version, date ; payload public calculé serveur",
+    "refus_obligatoires": "Brouillon public, média privé exposé, HTML non fiable exécuté",
+    "tests_cibles": "ISO-18",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "polls.vote",
+    "acteur": "Sujet éligible ou porteur jeton dédié",
+    "conditions": "Organisation/sondage valides, période ouverte, éligibilité, règles anti-doublon ; protocole D06.",
+    "champs_modifiables": "Choix dans options valides ; aucune identité dans ballot anonyme",
+    "refus_obligatoires": "Autre sondage, jeton déjà utilisé, corrélation vote/identité exposée",
+    "tests_cibles": "ISO-03 + tests anonymat à écrire",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "reports.read",
+    "acteur": "Lecteur reporting habilité",
+    "conditions": "Session valide + organisation active + appartenance active + module activé + permission explicite + ACL de la ressource ; aucun bypass administrateur implicite. Projections selon droits sources ; seuils D06/D07.",
+    "champs_modifiables": "Filtres et agrégations autorisés",
+    "refus_obligatoires": "Fuite via petit groupe, export plus large que tableau",
+    "tests_cibles": "ISO-02, ISO-10",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "jobs.execute",
+    "acteur": "Service technique borné",
+    "conditions": "Job signé par système ; org/action/acteur enregistrés ; appartenance et droits revalidés ; idempotence.",
+    "champs_modifiables": "États et résultats via transitions",
+    "refus_obligatoires": "Exécution après retrait de droit ; confusion job plateforme/utilisateur",
+    "tests_cibles": "ISO-11, ISO-17",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "offline.download",
+    "acteur": "Utilisateur explicitement habilité",
+    "conditions": "D08 : appareil autorisé, ressource propre sélectionnée, bail valide 24h configurable ; pas partage externe/support ; contenu chiffré",
+    "champs_modifiables": "Choix ressources autorisées",
+    "refus_obligatoires": "Données exclues ; cache commun ; prétendre révocation instantanée sans réseau",
+    "tests_cibles": "ISO-12",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "modules.enable",
+    "acteur": "Super admin ; admin local si D05 accordé",
+    "conditions": "D05 : autorisation super admin + droit payé ou commercial valide + permission activation locale ; ne crée pas permission métier",
+    "champs_modifiables": "enabled/version compatible ; config validée",
+    "refus_obligatoires": "Script URL arbitraire, droits additionnels, dépendance contournée",
+    "tests_cibles": "ISO-15, ISO-20",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "providers.rotate",
+    "acteur": "Responsable autorisé selon portée",
+    "conditions": "Coffre serveur et procédure auditée ; aucune lecture valeur brute dans UI",
+    "champs_modifiables": "Nouvelle référence secret, état, usages permis",
+    "refus_obligatoires": "Secret dans réponse, log, export, bundle",
+    "tests_cibles": "SEC-07 + tests secrets à écrire",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "support.access",
+    "acteur": "Personne d’assistance explicitement mandatée",
+    "conditions": "D04 : partage approuvé, agent nommé, ressource sélectionnée, ticket ouvert, expiration et révocation vérifiées ; aucune impersonation",
+    "champs_modifiables": "Aucun en V1 par défaut",
+    "refus_obligatoires": "Demande sans approbation, autre agent, autre ressource, ticket clos, expiration ou révocation ; modification, repartage, hors ligne et impersonation ; téléchargement sans autorisation distincte",
+    "tests_cibles": "ISO-14",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "sharing.approve",
+    "acteur": "Métier source habilité",
+    "conditions": "Droits sur chaque source ; cible, ressources, expiration, téléchargement explicites",
+    "champs_modifiables": "Whitelist commande seulement ; champs autorité calculés serveur",
+    "refus_obligatoires": "Ni demande seule, ni héritage, ni source reçue non repartageable",
+    "tests_cibles": "D02/D04",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "sharing.accept",
+    "acteur": "Responsable cible habilité",
+    "conditions": "Choisir bénéficiaires dans limites source ; accord explicite",
+    "champs_modifiables": "Whitelist commande seulement ; champs autorité calculés serveur",
+    "refus_obligatoires": "Pas nouveaux droits sur autres ressources ou organisation source",
+    "tests_cibles": "D02",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "collections.publish",
+    "acteur": "Validateur/publicateur habilité",
+    "conditions": "Version whitelist non confidentielle, second acteur externe, abonnement indépendant",
+    "champs_modifiables": "Whitelist commande seulement ; champs autorité calculés serveur",
+    "refus_obligatoires": "Pas contenu métier secret ou auto-mise-à-jour cible",
+    "tests_cibles": "D02/D13",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "collections.accept_version",
+    "acteur": "Administration cible habilitée",
+    "conditions": "Version publiée ; adaptations locales préservées",
+    "champs_modifiables": "Whitelist commande seulement ; champs autorité calculés serveur",
+    "refus_obligatoires": "Pas modification source ni effacement historique documents",
+    "tests_cibles": "D02",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "billing.commercial_grant",
+    "acteur": "Super admin",
+    "conditions": "Motif, organisation, module et validité explicites ; audit",
+    "champs_modifiables": "Whitelist commande seulement ; champs autorité calculés serveur",
+    "refus_obligatoires": "Admin local/support ; faux paiement",
+    "tests_cibles": "D05",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "polls.read_unidentified",
+    "acteur": "Super admin ou délégué nommé",
+    "conditions": "Sondage sans identité ; délégation ciblée active ou rôle super admin ; audit",
+    "champs_modifiables": "Whitelist commande seulement ; champs autorité calculés serveur",
+    "refus_obligatoires": "Sondage nominatif, autre contenu, identité répondant",
+    "tests_cibles": "D06",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "polls.delegate_unidentified",
+    "acteur": "Super admin",
+    "conditions": "Sondage sans identité et bénéficiaire nommé ; accès lecture révocable",
+    "champs_modifiables": "Whitelist commande seulement ; champs autorité calculés serveur",
+    "refus_obligatoires": "Délégation par admin local ou bénéficiaire",
+    "tests_cibles": "D06",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "polls.publish_aggregate",
+    "acteur": "Métier habilité",
+    "conditions": "Seuil >=5 en mode sans identité ; pas sous-groupe identifiant",
+    "champs_modifiables": "Whitelist commande seulement ; champs autorité calculés serveur",
+    "refus_obligatoires": "Résultats en dessous seuil ; publication bulletins individuels",
+    "tests_cibles": "D06",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "data.delete_approve",
+    "acteur": "Super admin",
+    "conditions": "Inventaire/versions figés et motif ; autorisation ne donne pas lecture métier",
+    "champs_modifiables": "Whitelist commande seulement ; champs autorité calculés serveur",
+    "refus_obligatoires": "Approbation wildcard, lot modifié, suppression avant accord",
+    "tests_cibles": "D07",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "local_copy.cleanup",
+    "acteur": "Client enregistré",
+    "conditions": "Version et hash locaux identiques au receipt serveur ; original confirmé",
+    "champs_modifiables": "Whitelist commande seulement ; champs autorité calculés serveur",
+    "refus_obligatoires": "Brouillon non synchronisé, version locale plus récente, suppression original serveur",
+    "tests_cibles": "D08",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "conversation.history_grant",
+    "acteur": "Acteur habilité sur historique",
+    "conditions": "Participation actuelle ; messages/période explicites ; audit",
+    "champs_modifiables": "Whitelist commande seulement ; champs autorité calculés serveur",
+    "refus_obligatoires": "Ancien grant réactivé par réinvitation ; pièce non autorisée",
+    "tests_cibles": "D11",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "derived.release_approve",
+    "acteur": "Métier diffusion habilité",
+    "conditions": "Relecture humaine, sources habilitées, version figée, second acteur sensible/externe",
+    "champs_modifiables": "Whitelist commande seulement ; champs autorité calculés serveur",
+    "refus_obligatoires": "Auto-validation externe ; repartage source externe ; nouvelle version sans approbation",
+    "tests_cibles": "D12/D13",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "reviews.approve",
+    "acteur": "Validateur métier",
+    "conditions": "Version précise, droits actuels ; acteur différent auteur si externe/sensible",
+    "champs_modifiables": "Whitelist commande seulement ; champs autorité calculés serveur",
+    "refus_obligatoires": "Super admin sans habilitation métier ; hors ligne ; contenu modifié",
+    "tests_cibles": "D13",
+    "statut": "Spécification consolidée, non implémentée"
+  },
+  {
+    "permission": "signatures.provider_request",
+    "acteur": "Métier signataire habilité",
+    "conditions": "Module signature dédié autorisé, payé/commercial, actif ; fournisseur approuvé ; version figée",
+    "champs_modifiables": "Whitelist commande seulement ; champs autorité calculés serveur",
+    "refus_obligatoires": "Signature interne présentée comme prestataire ; fournisseur implicite",
+    "tests_cibles": "D05/D09/D13",
+    "statut": "Spécification consolidée, non implémentée"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "build": {
+    "methods": 16,
+    "modules": [
+      "theme",
+      "cases",
+      "contacts",
+      "navigation"
+    ],
+    "referenceLogicSha256": "3892ddfddcf438d253c928f3bfa77c42e9354ec0ada6929d4e1cf2ecdebedd7b",
+    "dynamicJsCompilation": false,
+    "templateCompatibilityRuntime": true
+  },
+  "responsive_comparisons": 12,
+  "journeys": 3,
+  "protected_references": 834,
+  "reference": "S02 demo on port 5062",
+  "backend_connected": false,
+  "complete_module_isolation": false
+}

@@ -1,0 +1,58 @@
+Browser tab: 9, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+1 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	2 container Dimensions de recette
+		3 button Bureau 1280
+		4 button Mobile 390
+		5 button Tablette 768
+		6 button Tablette paysage 1024
+		657 text 768 × 1024
+	8 container Description: Prototype inchangé, ID: prototype
+		9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			10 container dc-root
+				11 container
+					12 image uniion
+					129 button ← Retour
+					13 image
+					14 text field (settable)
+					15 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					18 button
+						19 image
+					20 button Se déconnecter
+						21 image
+				22 container
+					990 heading Prise en main, Value: 1
+						991 text Prise en main
+					992 text 1 étape(s) sur 4 terminées — 5 minutes suffisent ✓
+					993 text Convention collective
+					994 text Métallurgie (IDCC 3248) — sert de source à l'Assistant Juridique.
+					995 button Terminé — revoir
+					996 text ·
+					997 text Créer vos commissions
+					998 text Négociation, SSCT, ASC, formation — chacune avec sa messagerie dédiée.
+					999 button Créer les 4 commissions
+					1000 text ·
+					1001 text Inviter les élus
+					1002 text Invitation par lien ou import CSV pour les grandes fédérations.
+					1003 button Importer un CSV
+					1004 text ·
+					1005 text Régler vos alertes
+					1006 text Canaux, plages « ne pas déranger » et escalade des urgences.
+					1007 button Configurer
+				113 container
+					984 button Accueil
+						985 image
+						986 text Accueil
+					117 button Dossiers
+						118 image
+						119 text Dossiers
+					860 button Agenda
+						861 image
+						862 text Agenda
+					224 button Réunions
+						225 image
+						226 text Réunions
+					987 button Réglages
+						988 image
+						989 text Réglages
+
+The focused UI element is 9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

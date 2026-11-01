@@ -1,0 +1,29 @@
+{
+  "mobileSettlement": true,
+  "views": [
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "paymentButton": false,
+      "recorded": true,
+      "scrollWidth": 390
+    },
+    {
+      "name": "tablette",
+      "width": 768,
+      "height": 1024,
+      "paymentButton": false,
+      "recorded": true,
+      "scrollWidth": 768
+    },
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "paymentButton": false,
+      "recorded": true,
+      "scrollWidth": 1440
+    }
+  ]
+}

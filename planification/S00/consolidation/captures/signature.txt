@@ -1,0 +1,91 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Signature électronique
+  - heading "Signature du document" [level=1]
+  - paragraph: Simulation locale de signature — aucune certification eIDAS ni transmission externe.
+  - button "NAO 2027 — où en sont les négociations"
+  - button "PV de séance — 3 septembre"
+  - button "Courrier de saisine"
+  - button "Accord télétravail"
+  - generic: ↳
+  - generic: "Provenance : Document · NAO 2027 — où en sont les négociations"
+  - generic: Document · d-nao
+  - heading "NAO 2027 — où en sont les négociations" [level=2]
+  - paragraph: "[Communiqué] # NAO 2027 — où en sont les négociations Deux séances se sont tenues les 12 et 26 août. La délégation présente ici l'écart entre les demandes portées par les salariés et les propositions de la direction, avant la séance décisive du 2 septembre. | Sujet | Demande de la section | Proposition direction | Écart | | Augmentation générale | 4,5 % | 0,8 % | 3,7 pts | | Transports | 75 % | 50 % (inchangé) | 25 pts | | Titres restaurant | 11,50 € | 9,80 € | 1,70 € | | Télétravail | 2 jours indemnisés | 1 jour non indemnisé | 1 jour | --- # Les prochaines étapes - Mardi 2 septembre — séance de négociation, remise du cahier revendicatif consolidé - Jeudi 4 septembre — assemblée du personnel, compte rendu de séance - Lundi 8 septembre — consultation des salariés sur la suite à donner > La consultation d'août a réuni 287 réponses sur 416 salariés, soit 69 % de participation. La revalorisation générale arrive en tête des priorités à 68 %."
+  - paragraph
+  - generic: Pour les élus
+  - generic: Zone de signature — en attente
+  - generic: Pour la direction
+  - generic: En attente de la signature des élus
+  - heading "Signataires" [level=2]
+  - generic: SM
+  - generic: Sophie Marchand
+  - generic: Secrétaire du CSE
+  - generic: À signer
+  - generic: JD
+  - generic: Jean-Paul Diallo
+  - generic: Élu titulaire — cosignataire
+  - generic: En attente
+  - generic: DR
+  - generic: Direction des ressources humaines
+  - generic: Partie employeur
+  - generic: Non notifiée
+  - heading "Apposer ma signature" [level=2]
+  - paragraph: "Signature avancée eIDAS : identité vérifiée par le second facteur de votre session."
+  - text: Nom apposé
+  - textbox "Nom apposé": Sophie Marchand
+  - generic: Style
+  - button "Manuscrite"
+  - button "Italique"
+  - button "Capitales"
+  - button "Je reconnais avoir lu le document et j'accepte que ma signature électronique ait la même valeur qu'une signature manuscrite.":
+    - generic: Je reconnais avoir lu le document et j'accepte que ma signature électronique ait la même valeur qu'une signature manuscrite.
+  - button "Signer le document"

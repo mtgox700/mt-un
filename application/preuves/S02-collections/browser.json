@@ -1,0 +1,47 @@
+{
+  "authorized": [
+    {
+      "width": 1440,
+      "height": 900,
+      "approveEnabled": true,
+      "localTextPreserved": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "approveEnabled": true,
+      "localTextPreserved": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "approveEnabled": true,
+      "localTextPreserved": true,
+      "overflow": false
+    }
+  ],
+  "refused": [
+    {
+      "width": 1440,
+      "height": 900,
+      "overrideDisabled": true,
+      "stopDisabled": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "overrideDisabled": true,
+      "stopDisabled": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overrideDisabled": true,
+      "stopDisabled": true
+    }
+  ],
+  "approvalSaved": true,
+  "localOverridePreserved": true
+}

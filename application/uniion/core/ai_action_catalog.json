@@ -1,0 +1,347 @@
+[
+  {
+    "id": "acc-week",
+    "mod": "accueil",
+    "label": "Faire le point de la semaine",
+    "desc": "Échéances, dossiers urgents, réunions à préparer.",
+    "ask": "Fais le point de la semaine : échéances, dossiers urgents, réunions à préparer. Termine par les trois priorités du jour.",
+    "roles": []
+  },
+  {
+    "id": "acc-first",
+    "mod": "accueil",
+    "label": "Par quoi commencer ?",
+    "desc": "Une seule priorité, justifiée.",
+    "ask": "Dis-moi par quoi commencer aujourd'hui, en une priorité justifiée et une première action concrète.",
+    "roles": []
+  },
+  {
+    "id": "dos-next",
+    "mod": "dossiers",
+    "scope": "item",
+    "apply": "timeline",
+    "label": "Proposer la suite à donner",
+    "desc": "Prochaines étapes concrètes, avec qui et quand.",
+    "ask": "Propose la suite à donner à ce dossier : 3 à 5 étapes concrètes, qui fait quoi, et sous quel délai.",
+    "roles": []
+  },
+  {
+    "id": "dos-sum",
+    "mod": "dossiers",
+    "scope": "item",
+    "apply": "timeline",
+    "label": "Résumer la chronologie",
+    "desc": "Les faits essentiels en quelques lignes.",
+    "ask": "Résume la chronologie de ce dossier en 5 lignes maximum, faits datés uniquement.",
+    "roles": []
+  },
+  {
+    "id": "dos-delais",
+    "mod": "dossiers",
+    "scope": "item",
+    "apply": "timeline",
+    "label": "Vérifier les délais légaux",
+    "desc": "Délais applicables et échéances à surveiller.",
+    "ask": "Identifie les délais légaux ou conventionnels applicables à ce dossier et les échéances à surveiller.",
+    "roles": []
+  },
+  {
+    "id": "dos-mail",
+    "mod": "dossiers",
+    "scope": "item",
+    "apply": "timeline",
+    "label": "Rédiger un courrier à la direction",
+    "desc": "Courrier ferme et courtois, prêt à relire.",
+    "ask": "Rédige un courrier à la direction sur ce dossier : objet, rappel des faits, demande précise, délai de réponse attendu. Ton ferme et courtois.",
+    "roles": [
+      "titulaire",
+      "ds",
+      "secretaire"
+    ]
+  },
+  {
+    "id": "dos-prio",
+    "mod": "dossiers",
+    "scope": "list",
+    "label": "Prioriser mes dossiers",
+    "desc": "Classement par urgence et enjeu.",
+    "ask": "Classe ces dossiers par priorité (urgence légale, enjeu humain) et justifie en une ligne chacun.",
+    "roles": []
+  },
+  {
+    "id": "reu-prep",
+    "mod": "reunions",
+    "scope": "item",
+    "label": "Préparer les questions à poser",
+    "desc": "Questions par point de l'ordre du jour.",
+    "ask": "Prépare, pour chaque point de l'ordre du jour, deux questions précises à poser à la direction et les documents à demander.",
+    "roles": []
+  },
+  {
+    "id": "reu-dec",
+    "mod": "reunions",
+    "scope": "item",
+    "label": "Extraire décisions et actions",
+    "desc": "Décisions, votes, engagements, suites.",
+    "ask": "Extrais de cette réunion les décisions, votes et engagements de la direction, puis la liste des actions à suivre (qui, quoi, quand).",
+    "roles": []
+  },
+  {
+    "id": "reu-salaries",
+    "mod": "reunions",
+    "scope": "item",
+    "label": "Résumé pour les salariés",
+    "desc": "Ce qu'il faut retenir, en clair.",
+    "ask": "Rédige un résumé de cette réunion pour les salariés : 5 points clairs, sans jargon, sigles expliqués.",
+    "roles": []
+  },
+  {
+    "id": "reu-pv",
+    "mod": "reunions",
+    "scope": "item",
+    "label": "Rédiger le projet de PV",
+    "desc": "Trame de procès-verbal à compléter.",
+    "ask": "Rédige la trame du projet de procès-verbal de cette réunion : en-tête, présents, points de l'ordre du jour, votes, questions diverses.",
+    "roles": [
+      "secretaire"
+    ]
+  },
+  {
+    "id": "doc-relire",
+    "mod": "documents",
+    "scope": "item",
+    "apply": "docinsert",
+    "label": "Relire ton et clarté",
+    "desc": "Corrections et formulations proposées.",
+    "ask": "Relis ce document : signale les passages peu clairs, le ton à ajuster et propose une reformulation pour chacun.",
+    "roles": []
+  },
+  {
+    "id": "doc-simpl",
+    "mod": "documents",
+    "scope": "item",
+    "apply": "docinsert",
+    "label": "Simplifier pour les salariés",
+    "desc": "Version courte et sans jargon.",
+    "ask": "Réécris ce document en version courte pour les salariés : phrases courtes, sigles expliqués, 150 mots maximum.",
+    "roles": []
+  },
+  {
+    "id": "doc-risk",
+    "mod": "documents",
+    "scope": "item",
+    "label": "Repérer les risques juridiques",
+    "desc": "Diffamation, confidentialité, affirmations à sourcer.",
+    "ask": "Repère dans ce document les risques juridiques : propos diffamatoires, informations confidentielles, affirmations à sourcer. Propose une correction pour chacun.",
+    "roles": [
+      "titulaire",
+      "ds",
+      "secretaire"
+    ]
+  },
+  {
+    "id": "doc-idea",
+    "mod": "documents",
+    "scope": "list",
+    "label": "Proposer un document à produire",
+    "desc": "Selon l'actualité de l'instance.",
+    "ask": "Propose les trois documents les plus utiles à produire ce mois-ci, avec pour chacun le public et le message clé.",
+    "roles": []
+  },
+  {
+    "id": "msg-sum",
+    "mod": "messagerie",
+    "scope": "item",
+    "label": "Résumer le message sélectionné",
+    "desc": "Points clés et décisions.",
+    "ask": "Résume ce fil de discussion : points clés, décisions prises, questions restées ouvertes.",
+    "roles": []
+  },
+  {
+    "id": "msg-reply",
+    "mod": "messagerie",
+    "scope": "item",
+    "label": "Proposer une réponse",
+    "desc": "Réponse courte, prête à envoyer.",
+    "ask": "Propose une réponse courte et constructive au dernier message de ce fil.",
+    "roles": []
+  },
+  {
+    "id": "ag-prep",
+    "mod": "agenda",
+    "label": "Préparer la prochaine réunion",
+    "desc": "Ordre du jour, documents à relire.",
+    "ask": "Aide-moi à préparer la prochaine réunion de l'agenda : objectifs, documents à relire, points de vigilance.",
+    "roles": []
+  },
+  {
+    "id": "ag-delais",
+    "mod": "agenda",
+    "label": "Rappeler les délais de convocation",
+    "desc": "Convocation, ordre du jour, documents.",
+    "ask": "Rappelle les délais de convocation et de transmission de l'ordre du jour applicables aux réunions à venir.",
+    "roles": [
+      "secretaire"
+    ]
+  },
+  {
+    "id": "com-month",
+    "mod": "communication",
+    "apply": "complan",
+    "label": "Proposer le plan du mois",
+    "desc": "Temps forts et publications à prévoir.",
+    "ask": "Propose le plan éditorial du mois prochain : 4 à 6 publications, avec date, format et objectif.",
+    "roles": []
+  },
+  {
+    "id": "com-reform",
+    "mod": "communication",
+    "label": "Reformuler pour les salariés",
+    "desc": "Plus court, plus clair.",
+    "ask": "Reformule la publication la plus récente du plan pour la rendre plus courte et plus claire pour les salariés.",
+    "roles": []
+  },
+  {
+    "id": "mob-page",
+    "mod": "mobile",
+    "scope": "item",
+    "apply": "mobpage",
+    "label": "Rédiger le contenu de la page",
+    "desc": "Intertitre, paragraphes courts, appel à l'action.",
+    "ask": "Rédige le contenu de cette page pour l'application mobile : un intertitre, deux ou trois paragraphes de trois lignes maximum sur téléphone, puis un appel à l'action. Une idée par paragraphe, sigles expliqués.",
+    "roles": []
+  },
+  {
+    "id": "mob-short",
+    "mod": "mobile",
+    "scope": "item",
+    "apply": "mobreplace",
+    "label": "Adapter à la lecture mobile",
+    "desc": "Plus court, une idée par bloc.",
+    "ask": "Réécris le texte de cette page pour une lecture sur téléphone : phrases courtes, paragraphes de trois lignes maximum, sigles expliqués. Garde les informations pratiques (dates, lieux, contacts) sans rien inventer.",
+    "roles": []
+  },
+  {
+    "id": "mob-push",
+    "mod": "mobile",
+    "scope": "item",
+    "apply": "mobpush",
+    "label": "Rédiger la notification push",
+    "desc": "Un brouillon de notification, 120 caractères maximum.",
+    "ask": "Propose trois notifications push pour annoncer cette page, 90 caractères maximum chacune, une par ligne, sans emoji, informatives et sans dramatisation. Mets la meilleure en premier.",
+    "roles": []
+  },
+  {
+    "id": "mob-check",
+    "mod": "mobile",
+    "scope": "item",
+    "label": "Vérifier avant publication",
+    "desc": "Données personnelles, ton, exactitude.",
+    "ask": "Relis cette page avant sa publication dans l'application FO : données personnelles à retirer (RGPD), affirmations juridiques à sourcer, ton (pas d'attaque nominative), lisibilité sur téléphone. Liste les corrections nécessaires, par ordre de priorité.",
+    "roles": []
+  },
+  {
+    "id": "mob-ideas",
+    "mod": "mobile",
+    "label": "Proposer les pages à créer",
+    "desc": "Selon l'actualité de l'organisation.",
+    "ask": "Propose cinq pages utiles à publier dans l'application mobile FO pour notre organisation, compte tenu de l'actualité (dossiers, réunions, plan éditorial) : titre, type de page, public visé.",
+    "roles": []
+  },
+  {
+    "id": "fm-reco",
+    "mod": "formations",
+    "label": "Recommander une formation",
+    "desc": "Selon le mandat et l'ancienneté.",
+    "ask": "Recommande-moi les deux formations les plus utiles selon mon mandat, et pourquoi. Le champ dur est une durée en minutes.",
+    "roles": []
+  },
+  {
+    "id": "adh-msg",
+    "mod": "adherents",
+    "label": "Rédiger un message pour ce destinataire",
+    "desc": "Objet et texte à relire, sans envoi.",
+    "ask": "Rédige un message court à envoyer à une liste de diffusion : objet, texte, appel à l'action. La fiche fournie décrit le destinataire, jamais l’auteur : ne t’attribue pas son poste ni son mandat. La signature de l’auteur reste [à compléter].",
+    "roles": []
+  },
+  {
+    "id": "adh-relance",
+    "mod": "adherents",
+    "label": "Préparer une relance",
+    "desc": "Relance bienveillante et claire.",
+    "ask": "Rédige une relance bienveillante pour les personnes dont la situation est à régulariser.",
+    "roles": [
+      "tresorier"
+    ]
+  },
+  {
+    "id": "pol-q",
+    "mod": "sondages",
+    "label": "Rédiger des questions neutres",
+    "desc": "Sans orienter les réponses.",
+    "ask": "Propose 5 questions de sondage neutres sur un sujet d'actualité de l'instance, sans orienter les réponses.",
+    "roles": []
+  },
+  {
+    "id": "pol-ana",
+    "mod": "sondages",
+    "label": "Analyser les résultats",
+    "desc": "Analyse des données disponibles, sans inventer de résultats.",
+    "ask": "Analyse les résultats des sondages en cours et rédige une synthèse prête à publier.",
+    "roles": []
+  },
+  {
+    "id": "web-lis",
+    "mod": "intranet",
+    "label": "Vérifier la lisibilité des pages",
+    "desc": "Titres, longueur, appels à l'action.",
+    "ask": "Vérifie la lisibilité des pages de l'intranet et propose trois améliorations concrètes.",
+    "roles": []
+  },
+  {
+    "id": "rep-explain",
+    "mod": "reporting",
+    "label": "Expliquer un indicateur",
+    "desc": "Ce qu'il mesure, comment le lire.",
+    "ask": "Explique simplement les indicateurs de ce tableau de bord et ce qu'ils disent de l'activité.",
+    "roles": []
+  },
+  {
+    "id": "rep-bilan",
+    "mod": "reporting",
+    "label": "Rédiger le bilan du mandat",
+    "desc": "Bilan annuel prêt à présenter.",
+    "ask": "Rédige la trame du bilan annuel d'activité de l'instance à partir des données disponibles.",
+    "roles": [
+      "secretaire",
+      "tresorier"
+    ]
+  },
+  {
+    "id": "rac-sugg",
+    "mod": "raccourcis",
+    "label": "Suggérer des raccourcis utiles",
+    "desc": "Sites officiels pour votre mandat.",
+    "ask": "Suggère cinq sites officiels utiles à ajouter en raccourcis pour mon mandat.",
+    "roles": []
+  },
+  {
+    "id": "par-help",
+    "mod": "params",
+    "label": "Expliquer un réglage",
+    "desc": "À quoi sert chaque paramètre.",
+    "ask": "Explique simplement les principaux réglages de l'application et ceux à vérifier en priorité.",
+    "roles": []
+  },
+  {
+    "id": "par-roles",
+    "mod": "params",
+    "label": "Aider à configurer les rôles",
+    "desc": "Qui accède à quelles actions d'unii.",
+    "ask": "Propose une répartition des actions d'unii par rôle (secrétaire, trésorier, élus, délégué syndical) adaptée à une petite instance.",
+    "roles": [
+      "secretaire",
+      "ds"
+    ]
+  }
+]

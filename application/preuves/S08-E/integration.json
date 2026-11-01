@@ -1,0 +1,130 @@
+{
+  "count": 31,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "admin_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "case_proposal_saved",
+      "ok": true
+    },
+    {
+      "test": "case_reread_exact_source",
+      "ok": true
+    },
+    {
+      "test": "case_duplicate_no_call",
+      "ok": true
+    },
+    {
+      "test": "case_actor_isolation",
+      "ok": true
+    },
+    {
+      "test": "case_forged_text_denied",
+      "ok": true
+    },
+    {
+      "test": "document_proposal_saved",
+      "ok": true
+    },
+    {
+      "test": "document_reread_exact_source",
+      "ok": true
+    },
+    {
+      "test": "document_duplicate_no_call",
+      "ok": true
+    },
+    {
+      "test": "document_actor_isolation",
+      "ok": true
+    },
+    {
+      "test": "document_forged_text_denied",
+      "ok": true
+    },
+    {
+      "test": "message_proposal_saved",
+      "ok": true
+    },
+    {
+      "test": "message_reread_exact_source",
+      "ok": true
+    },
+    {
+      "test": "message_duplicate_no_call",
+      "ok": true
+    },
+    {
+      "test": "message_actor_isolation",
+      "ok": true
+    },
+    {
+      "test": "message_forged_text_denied",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "forged_action_denied",
+      "ok": true
+    },
+    {
+      "test": "wrong_kind_denied",
+      "ok": true
+    },
+    {
+      "test": "private_source_denied",
+      "ok": true
+    },
+    {
+      "test": "forged_apply_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_org_denied",
+      "ok": true
+    },
+    {
+      "test": "source_text_denied",
+      "ok": true
+    },
+    {
+      "test": "cancel_tombstone",
+      "ok": true
+    },
+    {
+      "test": "pre_cancelled_never_invoked",
+      "ok": true
+    },
+    {
+      "test": "real_codex_private_proposal",
+      "ok": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,201 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - button "← Réglages"
+  - generic: Messagerie
+  - heading "Contacts & groupes" [level=1]
+  - paragraph: "L'annuaire utilisé par la messagerie : élus, adhérents et contacts externes, et les groupes de discussion avec leurs membres et administrateurs."
+  - textbox "Rechercher":
+    - /placeholder: Rechercher un nom, une fonction, un groupe…
+  - button "Nouveau contact"
+  - button "Nouveau groupe"
+  - heading "Groupes de discussion" [level=2]
+  - generic: 3 groupes
+  - generic: CN
+  - generic: Commission Négociation
+  - generic: "5 membres · admin : vous, Jean-Paul"
+  - button "Ouvrir"
+  - button "Membres & réglages"
+  - generic: SS
+  - generic: Commission SSCT
+  - generic: "4 membres · admin : vous"
+  - button "Ouvrir"
+  - button "Membres & réglages"
+  - generic: AS
+  - generic: Commission ASC
+  - generic: "3 membres · admin : vous, Leïla"
+  - button "Ouvrir"
+  - button "Membres & réglages"
+  - generic: Les listes de diffusion aux adhérents se gèrent dans Adhérents ; chaque envoi apparaît dans Messages.
+  - button "Listes de diffusion →"
+  - heading "Contacts" [level=2]
+  - button "Tous · 19" [pressed]
+  - button "Équipe & élus · 6"
+  - button "Adhérents · 12"
+  - button "Externes · 1"
+  - generic: SM
+  - generic: Sophie Marchand (vous)
+  - generic: Équipe & élus
+  - generic: Élue titulaire · Secrétaire du CSE · 06 20 18 44 02 · s.marchand@section-metaval.fr
+  - generic: "Groupes : Commission Négociation, Commission SSCT, Commission ASC"
+  - button "Modifier"
+  - generic: JD
+  - generic: Jean-Paul Diallo
+  - generic: Équipe & élus
+  - generic: Élu titulaire · Délégué syndical · 06 31 72 09 55 · jp.diallo@section-metaval.fr
+  - generic: "Groupes : Commission Négociation, Commission SSCT"
+  - button "Écrire"
+  - button "Modifier"
+  - generic: LC
+  - generic: Leïla Chaïb
+  - generic: Équipe & élus
+  - generic: Élue · Commission ASC · 06 44 10 28 63 · l.chaib@section-metaval.fr
+  - generic: "Groupes : Commission Négociation, Commission ASC"
+  - button "Écrire"
+  - button "Modifier"
+  - generic: MA
+  - generic: Marc Aubert
+  - generic: Équipe & élus
+  - generic: Suppléant · Référent SSCT · 06 58 91 37 20 · m.aubert@section-metaval.fr
+  - generic: "Groupes : Commission SSCT"
+  - button "Écrire"
+  - button "Modifier"
+  - generic: NR
+  - generic: Nadia Roussel
+  - generic: Équipe & élus
+  - generic: Élue suppléante · 06 72 15 80 46 · n.roussel@section-metaval.fr
+  - generic: "Groupes : Commission Négociation, Commission ASC"
+  - button "Écrire"
+  - button "Modifier"
+  - generic: TL
+  - generic: Thomas Lefèvre
+  - generic: Équipe & élus
+  - generic: Représentant syndical au CSE · 06 83 26 54 17 · t.lefevre@section-metaval.fr
+  - generic: "Groupes : Commission Négociation, Commission SSCT"
+  - button "Écrire"
+  - button "Modifier"
+  - generic: CB
+  - generic: Cabinet Berger
+  - generic: Contact externe
+  - generic: Avocat conseil · 03 27 41 22 90 · contact@cabinet-berger.fr
+  - button "Écrire"
+  - button "Modifier"
+  - generic: KB
+  - generic: Karim Benali
+  - generic: Adhérent·e
+  - generic: Opérateur ligne 3 · 06 12 44 87 21 · k.benali@mv-sa.fr
+  - button "Écrire"
+  - button "Fiche adhérent"
+  - generic: SL
+  - generic: Sandrine Lemoine
+  - generic: Adhérent·e
+  - generic: Préparatrice de commandes · 06 74 02 19 55 · s.lemoine@valmetal-log.fr
+  - button "Écrire"
+  - button "Fiche adhérent"
+  - generic: MF
+  - generic: Mehdi Fournier
+  - generic: Adhérent·e
+  - generic: Technicien maintenance · 07 61 88 03 12 · m.fournier@mv-sa.fr
+  - button "Écrire"
+  - button "Fiche adhérent"
+  - generic: AP
+  - generic: Aurélie Pruvost
+  - generic: Adhérent·e
+  - generic: Assistante ADV · 06 33 71 26 09 · a.pruvost@vmv-services.fr
+  - button "Écrire"
+  - button "Fiche adhérent"
+  - generic: TD
+  - generic: Thierry Dubois
+  - generic: Adhérent·e
+  - generic: Chaudronnier · 06 09 55 41 78 · t.dubois@mv-sa.fr
+  - button "Écrire"
+  - button "Fiche adhérent"
+  - generic: NC
+  - generic: Nadia Cherif
+  - generic: Adhérent·e
+  - generic: Cariste · 07 82 14 60 37 · n.cherif@valmetal-log.fr
+  - button "Écrire"
+  - button "Fiche adhérent"
+  - generic: PV
+  - generic: Pascal Vandenberghe
+  - generic: Adhérent·e
+  - generic: Régleur presse · 06 45 90 22 84 · p.vdb@mv-sa.fr
+  - button "Écrire"
+  - button "Fiche adhérent"
+  - generic: ER
+  - generic: Émilie Roussel
+  - generic: Adhérent·e
+  - generic: Contrôleuse qualité · 07 12 68 45 90 · e.roussel@mv-sa.fr
+  - button "Écrire"
+  - button "Fiche adhérent"
+  - generic: JL
+  - generic: Jonathan Leclercq
+  - generic: Adhérent·e
+  - generic: Magasinier · 06 61 30 74 12 · j.leclercq@valmetal-log.fr
+  - button "Écrire"
+  - button "Fiche adhérent"
+  - generic: CD
+  - generic: Christine Delattre
+  - generic: Adhérent·e
+  - generic: Gestionnaire paie · 06 27 19 83 46 · c.delattre@vmv-services.fr
+  - button "Écrire"
+  - button "Fiche adhérent"
+  - generic: BW
+  - generic: Bruno Waeles
+  - generic: Adhérent·e
+  - generic: Électromécanicien · 07 55 62 08 31 · b.waeles@mv-sa.fr
+  - button "Écrire"
+  - button "Fiche adhérent"
+  - generic: FS
+  - generic: Fatou Sarr
+  - generic: Adhérent·e
+  - generic: Soudeuse · 06 84 27 55 60 · f.sarr@mv-sa.fr
+  - button "Écrire"
+  - button "Fiche adhérent"

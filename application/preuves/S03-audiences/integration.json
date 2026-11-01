@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "count": 22,
+  "checks": [
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "manager_context",
+      "ok": true
+    },
+    {
+      "test": "unprivileged_context_redacted",
+      "ok": true
+    },
+    {
+      "test": "unprivileged_change_denied",
+      "ok": true
+    },
+    {
+      "test": "self_escalation_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_organization_denied",
+      "ok": true
+    },
+    {
+      "test": "unknown_audience_denied",
+      "ok": true
+    },
+    {
+      "test": "create_event",
+      "ok": true
+    },
+    {
+      "test": "initially_hidden",
+      "ok": true
+    },
+    {
+      "test": "explicit_grant",
+      "ok": true
+    },
+    {
+      "test": "visible_after_grant",
+      "ok": true
+    },
+    {
+      "test": "revoke",
+      "ok": true
+    },
+    {
+      "test": "hidden_after_revoke",
+      "ok": true
+    },
+    {
+      "test": "atomic_batch_denied",
+      "ok": true
+    },
+    {
+      "test": "atomic_no_partial_grant",
+      "ok": true
+    },
+    {
+      "test": "cannot_grant_broader_audience",
+      "ok": true
+    },
+    {
+      "test": "bounded_context",
+      "ok": true
+    },
+    {
+      "test": "disabled_module_denied",
+      "ok": true
+    },
+    {
+      "test": "specific_authority_required",
+      "ok": true
+    }
+  ]
+}

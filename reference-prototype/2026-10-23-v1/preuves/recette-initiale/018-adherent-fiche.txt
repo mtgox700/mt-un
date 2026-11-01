@@ -1,0 +1,111 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			103 button Documents
+				104 image
+				105 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			181 button Adhérents
+				182 image
+				183 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			89 button Réglages
+				90 image
+				91 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			184 button ← Tous les adhérents
+				185 text ← 
+				186 text Tous les adhérents
+			187 heading Karim Benali, Value: 1
+				188 text Karim Benali
+			189 container
+				190 text Opérateur ligne 3  ·  Adhérent depuis mars 2019
+			191 text DÉLÉGUÉ DE SECTION À JOUR
+			192 button Envoyer un message
+			193 button Modifier la fiche
+			194 button Retirer du fichier
+			195 heading COORDONNÉES, Value: 2
+				196 text COORDONNÉES
+			197 text Courriel k.benali@mv-sa.fr Téléphone 06 12 44 87 21 Emploi Opérateur ligne 3 Bulletin Signé le 12 mars 2019
+			198 heading RATTACHEMENT, Value: 2
+				199 text RATTACHEMENT
+			200 text Entreprise Métallurgie Valenciennes SA Établissement Site de Valenciennes Section Section Atelier Direction Production
+			201 heading COTISATION, Value: 2
+				202 text COTISATION
+			203 text MODE DE RÈGLEMENT
+			204 text Prélèvement SEPA
+			205 text MONTANT
+			206 text 14,20 €/mois
+			207 text DERNIER VERSEMENT
+			208 text 5 août 2026
+			209 text PROCHAINE ÉCHÉANCE
+			210 text 5 septembre 2026
+			211 text août 2026 Cotisation encaissée — 14,20 €/mois juillet 2026 Cotisation encaissée — 14,20 €/mois juin 2026 Cotisation encaissée — 14,20 €/mois janvier 2026 Attestation fiscale 2025 transmise
+			212 heading DOCUMENTS LIÉS, Value: 2
+				213 text DOCUMENTS LIÉS
+			214 text Bulletin d'adhésion Signé le 12 mars 2019
+			215 button Ouvrir
+			216 text Attestation fiscale 2025 Crédit d'impôt de 66 % — PDF signé
+			217 button Ouvrir
+			218 text Notice des droits de l'adhérent Assistance juridique, fonds de solidarité
+			219 button Envoyer
+			220 heading LISTES DE DIFFUSION, Value: 2
+				221 text LISTES DE DIFFUSION
+			222 text Tous les adhérents Atelier — Valenciennes Délégués et élus
+			223 container
+				224 text Ces listes se déduisent du rattachement et du statut de cotisation : aucun ajout manuel à maintenir.  Les messages partent en copie cachée.
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

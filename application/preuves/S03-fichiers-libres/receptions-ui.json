@@ -1,0 +1,26 @@
+[
+  {
+    "viewport": "mobile",
+    "mail_count": 1,
+    "attachments": 5,
+    "three_free_files_exact_bytes": true,
+    "download_exact_bytes": true,
+    "unselected_file_absent": true
+  },
+  {
+    "viewport": "tablette",
+    "mail_count": 1,
+    "attachments": 5,
+    "three_free_files_exact_bytes": true,
+    "download_exact_bytes": true,
+    "unselected_file_absent": true
+  },
+  {
+    "viewport": "desktop",
+    "mail_count": 1,
+    "attachments": 5,
+    "three_free_files_exact_bytes": true,
+    "download_exact_bytes": true,
+    "unselected_file_absent": true
+  }
+]

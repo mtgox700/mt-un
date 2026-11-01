@@ -1,0 +1,587 @@
+[
+  {
+    "fichier": "prototype-local/audit-responsive/Adhérents-390.png",
+    "sha256": "e88af5d7439c49991d590913942e1bc820699f5cce9a2c8293b85374df511348",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Adhérents-768.png",
+    "sha256": "f1c121ba3a1b29e7348d4900634d8387a6556b00136b33d4cd4677f00cc81005",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Admin-organisation-390.png",
+    "sha256": "d53265ac38ae3c4911a6c91c3de38a097807c155b80995be8c5b2ba0492bf2cc",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Admin-organisation-768.png",
+    "sha256": "adec454982b0c128f803524547f29ddad57129fad4e43833bd42e491732a126a",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Agenda-390.png",
+    "sha256": "ab0f374ca35e5a35b701948bc7717e3d1be3643950b3c5f7b5369b2ab5fc06a6",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Agenda-768.png",
+    "sha256": "15260f691989159747616a8879b182cd75724f671435032b7dd985fc0d16165a",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Application-mobile-390.png",
+    "sha256": "285377631e4f263f11b75b326567178b9ecc67668b602086b728e30ef6bacd36",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Application-mobile-768.png",
+    "sha256": "1fcd89e2a1429180816e8cd810ab713e255a9152046f403e5fcd604ba88cf493",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Assistant-IA-390.png",
+    "sha256": "5073b4c0e261abcaf04210400a4d16c412311624bc542a04f02e035014f665d5",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Assistant-IA-768.png",
+    "sha256": "11b2b77fd20217ef2d7104aa82f6fda33c28eaf3c89bf0a32688e2c8bcb510bc",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Bilan-de-mandat-390.png",
+    "sha256": "fe4c5e5e7615bf50fbddc10d8338528b55d0ae8bb5664a523820321f66072002",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Bilan-de-mandat-768.png",
+    "sha256": "a823ccb772e5d357cdd98020730fabc64f912e203cfaddf51cc7c64dc03b1420",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Communication-390.png",
+    "sha256": "6d844561881ce0fd9539088d20f4067bc41aff16f89ebc3d6ebc206d731932df",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Communication-768.png",
+    "sha256": "1c36353d39798793cbe3863316f1f1fb6b9ba80cc3b9f22043574b45e69d6555",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Contacts-390.png",
+    "sha256": "39507867f9d2811c3ebc017f4b9d1c7e4485f97ba9d28c957ce5b022a5d03ab8",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Contacts-768.png",
+    "sha256": "82daa2692b24c3994c7985626025e30329d94ad7c6e02584bfdc07d0dd6afd78",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Conversation-390.png",
+    "sha256": "dec843627bb527669eb2397459818bb680c3800f87c67eb4aab5f3fc0fd8ac93",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Conversation-768.png",
+    "sha256": "1e4b6e2d224e525647deab86937c58aa7ccddfe919fd46376e50080c4e079b63",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Conversation-hauteur430.png",
+    "sha256": "8b72ddf80101e15df15902a00485ff5b59d0599b88a91c7226c8c7e296363c8a",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Documents-390.png",
+    "sha256": "dc133cb14ab98d9e9a517ba2a8fd4a1eae2c9ade5b8fb96fef604da559a4a3ec",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Documents-768.png",
+    "sha256": "a6778231f87edd212a40f5065f7969ddfb041c643c2b53c95a3f5edf2ee5822b",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Dossiers-390.png",
+    "sha256": "d7acee1d637094a6e3758584bac6bbcf98cf32855ed0b34e05b858aabefbd054",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Dossiers-768.png",
+    "sha256": "2b3a8597b2de9ac69680a86e8e75a58e38d2313b1cb4531a42d1a30d86df339f",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Editeur-document-390.png",
+    "sha256": "068c870fbc40898fa9f0cbe0ab4ee70c8137bbfa1c5812f0b3e5dacda4a9270d",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Editeur-document-768.png",
+    "sha256": "e7771ee6fd9e7e91a6a75979d2c94fe84b9b50b67fdd41e1af49bc70475f798a",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Editeur-document-apercu-390.png",
+    "sha256": "89f21ae8a6830daefb3bd8ccf7174f524fe2968bcae96bd0f9e86c1b89354920",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Formations-390.png",
+    "sha256": "ab258d28002092deee52657ce2f32a3ab2d90baba983ad35c7d1bfe7f31be4b1",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Formations-768.png",
+    "sha256": "71308f0db465444fe795b65df7aa8eb5762b8cea16a85b6fe3de6e1837d27287",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Formulaire-agenda-390.png",
+    "sha256": "88b82a4ba5326fa20724e88950a0666b1167e2e2614bac5473fb33ce7b4dc957",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Hors-ligne-390.png",
+    "sha256": "42d7b6e9c0bac9a7a287d08dc7d87b8836b1f6ed05f868c18534b5f6ce4b6cb7",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Hors-ligne-768.png",
+    "sha256": "07140680cf0872268158b5cafa36af1264055a7a27f2da0a6ed6db0ef48ea143",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Intranet-390.png",
+    "sha256": "62526ff8140aa39b2bf8c748001ef8c62fb218a2a94ea48dde80c81b85688ef5",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Intranet-768.png",
+    "sha256": "cf61d47ca6fefa21e2fe7288f719d9f043f8a8ad55fa4118969f4b7020039512",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Marque-390.png",
+    "sha256": "9252fd23fd65a56ac07234c6c07a83063f1bbcf4af0d15f8a3618beb1e52768a",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Marque-768.png",
+    "sha256": "7cb71ad6993fc7d36ebeabfc4e8830614c108f921af050a25157f1083bc02de0",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Membres-390.png",
+    "sha256": "816588d9d5e77bf87df59ab87d5462340a41cc493cbfc4bdda887ce374af574c",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Membres-768.png",
+    "sha256": "435a619fdc829acac9cdee4ab2d0f5b53046e78939600ea7057cfcc1a9efe1df",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Messages-390.png",
+    "sha256": "1999c16911e2a83a25453282b5742cd7ff94c6e823770edee97eb7a5a6835485",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Messages-768.png",
+    "sha256": "7925a76c49ffcce00f5a2b5bcca598702c3d37b8dbfa96ede93ff94db79522cd",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Modale-agenda-390.png",
+    "sha256": "5acc1c47e3f99855f53f7842bd8bbcff1a1c3997a6a0164d92fe82ef63e04b94",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Modale-agenda-768.png",
+    "sha256": "a4ff937a8dda648ae9d4c6a0b2262c8074dcb728869666280856882934baec25",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Modale-agenda-hauteur430.png",
+    "sha256": "5de3e5cd2ad13688a0b7ce8a51a414df4bcdd441b2c74092b9c612810a2ad2eb",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Modale-invitation-390.png",
+    "sha256": "73a76a034175edd00831bfc3f476f624a57389e538f6cd2e9f2004b7ade8d742",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Modale-invitation-768.png",
+    "sha256": "be9d06664b5462178ff49e63e291d78df794389006fd4ee6f0a2a4e0914e69fd",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Modale-invitation-hauteur430.png",
+    "sha256": "934ebc26e70db9da8894c1ae8438b13eb69649433a4d16e5af67240fd55d612c",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Notifications-390.png",
+    "sha256": "e09ce08f3ade2849344f87f47fd7067239807fb70da7ce423e2dd1309433fc0b",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Notifications-768.png",
+    "sha256": "d7bbcf9640284b84571aa3ef15a1b6c4e32005fdf97c701f1d0f576bd83b3524",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Profil-390.png",
+    "sha256": "ec5e96458a200ecf95e9cadec113f97f7edb5f09acec9c73bf193b9e55811ae7",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Profil-768.png",
+    "sha256": "a03050a1382ddf0fa66a3f2521577347d004a844e8d2dc31bc2703d514377284",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Réglages-390.png",
+    "sha256": "ea403a947022998dbe22f37fd80e88f819283f68b85c0a5a13c4fe3d39546ed8",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Réglages-768.png",
+    "sha256": "bce815aab72a09dc465a927bf22a6ca33d5b91d9aa95111727140f48c5045516",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Réunions-390.png",
+    "sha256": "ca45dae569ff0d097a938144f36284a52339bc560ebbbdcbeac4d931cdd0f645",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Réunions-768.png",
+    "sha256": "b5921acd02b8931f297f42888ec3d47af3d231d3d67d06ceec4ced1a6c75d435",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Sondages-390.png",
+    "sha256": "1d1578521e4b6b86817e15f5565fa66f74c2d59beea4c599fd2f258a77bf1205",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/Sondages-768.png",
+    "sha256": "d37c0944b72efd10d4b45ba64aa0e7c885c63f180266305f61d6295923d55279",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/accueil-390.png",
+    "sha256": "0a2225f558c169e01d2c15ab58c9f45ef51dc24b26b412f501609736b794a991",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/accueil-768.png",
+    "sha256": "e01df3951af4b37092ad0db44003a0576e5d554879c2286af984fd7ce3e9425d",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Accueil-360.png",
+    "sha256": "3eeb12c18f53ad51bd5ec5c2083ed112e13f98c15d7e4dac263df1972467868f",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Adhérents-360.png",
+    "sha256": "4e1f457e96ac4762a4cd4766004a69c3f725d7429b1f1c9dddf639d189bd438c",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Agenda-360.png",
+    "sha256": "984a5dca55b577883c3b986b244a3227b1db4d23a877dbe9dde185a669ae9c90",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Application-mobile-360.png",
+    "sha256": "e6c14852199421711a485baf93119fc571514abffe96e8eba61de311184083ec",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Assistant-360.png",
+    "sha256": "32787f744b3e5f253ec0e85bf35be641e7521db5d0ab52af6b3f79c910ba6607",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Communication-360.png",
+    "sha256": "2f38bde5e2e55f80d6723b27ed7a1012e379bea146582da75f723687f215b53c",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Documents-360.png",
+    "sha256": "2ca69bb5657af6cc5987d8ef964f2c8c8fd5ba5e46a27e3a0a3d62df8d3c19e5",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Dossiers-360.png",
+    "sha256": "1a43300c98b24b027b057236104f651f7e3358baa19c480350d31a50fc23e498",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Formations-360.png",
+    "sha256": "538a24676103cac18272d436c7221f23aedd0506a89275239be4aeefbab016a2",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Hors-ligne-360.png",
+    "sha256": "f92b7a7030ab319ee1c23fbe68c77f699963fa917b56b6479e967ae59a02070e",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Intranet-360.png",
+    "sha256": "5e8a4eda91606fbecd3a7109473c2dcc49aa68badc9f8cf4a6f10e9ff9ae00c0",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Messages-360.png",
+    "sha256": "442024c080df16750512a0c3b5732cd71b1aed9cb86f4e0b6a689501cc858252",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Raccourcis-360.png",
+    "sha256": "28659f5bbc41db343fa78df3f72eb595f315a094277710a919c4823fb24b7d27",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Reporting-360.png",
+    "sha256": "ccda5ed666fbba9d5277f8693ba98cc8479d5c697a8601a5c6f8bd590249a05c",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Réglages-360.png",
+    "sha256": "fbe8876ba0868891a39ee890200b35c93264f7b8e34e1f22e9558b6083ccd3d7",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Réunions-360.png",
+    "sha256": "a79904bf8c0c5ea5ff4347d3e4712c41f6d602c44bb5c4c602998099b188b164",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/Sondages-360.png",
+    "sha256": "8c403c30f75464c181c0bf94174de736e10a711709c9806106c56d10afe11be9",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/admin-journal-360.png",
+    "sha256": "2c5c857fffe3813593f5264d3ea4c35b4b36f44c7877a5eb60079803817aafb7",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/conversation-390.png",
+    "sha256": "113efb868a6b814b84e9fa442f6f919fd822a8c0e9570a6b69ee6e40a93c74fe",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/conversation-hauteur430.png",
+    "sha256": "286bccebc720348e32678329bab8ff78f9c6772f74ead888956b8ee28c651cfb",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/desktop-apres.png",
+    "sha256": "c942b50b15524ec415c6692de74aec79c8854730af5b284872cbe9d014607f1c",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/desktop-avant.png",
+    "sha256": "fe084bfe50688e9bf5ee3b09b3fd2c3dda082fc19e75dc009f923bdd41e814e6",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/document-360.png",
+    "sha256": "b64e4f0c44bf6e1074f032b510fe07a6ac44aed90be1c26074a56815575a2d15",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/document-tablette768.png",
+    "sha256": "a70ede8d6c1c51e6172fdf282ad3dc329ff7a42a50b8f3ef7d9b5518ffb9dc07",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/corrections/document390-final.png",
+    "sha256": "9c791834c237ce939b6c29cf0e90d2c2a7069a01d76f9c3e10c5ca3523e65e6f",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/sous-ecrans/desktop-final.png",
+    "sha256": "d9bc69e08b5b6a782ed6ec02ca8f272717fec8dc62dbd17665a28506e3ca84a9",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/sous-ecrans/notification-dans-page.png",
+    "sha256": "0a2a68f7b84b043ee0d47288c49fe9a2fb7b435bbb78572ed6dda530bc4260bd",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/audit-responsive/sous-ecrans/unii-hauteur430.png",
+    "sha256": "0dd5800e4f8b9cebed902178ea9edb3143cdad53bc63f5a114ea0a20230b6d5b",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/corrections/messagerie-corrigee.png",
+    "sha256": "760f03170488127c56d1ea36a88b0d35141ee6c96c8160ccd7850fab5d7dc69e",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/corrections-etape1/apercu-piece.png",
+    "sha256": "62cf92573e3e7c5022c0e51c5c4d61d0198e9b7a12fedc2f3c4b41d4f272ac0f",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/public/uniion-logo.png",
+    "sha256": "88a861b5d5aace4ddbcfd818fb65389e6a0ba14e1491b9b9951d2c85d189bb5c",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/recette/dossier-edition-echec.png",
+    "sha256": "2c2225c852185eb2052fa98584c1b139f2a65641760ede564156a160d0b2a8e3",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/recette/masquage-identifiants-fictifs.png",
+    "sha256": "9e37904e0bf9dc70ecc2e078be184f125543c15a641fbb1e529dddf5ddbc3f6b",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/recette/mention-unii.png",
+    "sha256": "d85f582ba89b7d2bc4e659f9254a96f052d5ea85bd7fd651253e1f27a375fb60",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/test-assistant.png",
+    "sha256": "1d32c2dc5c4e6c2726e83b179bd94ef352410d51aa94eb145adea71b9053ac40",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-1024-15.png",
+    "sha256": "344d781e0f7c257770a6cda85782074a0db6a940fc7a91933c37b6c8fdcdd7e5",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-1024-16.png",
+    "sha256": "5cb726fc0cfda58463b901158c3a1ce7c9efbef6e9b598fbfa2c7878f16653be",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-1024-17.png",
+    "sha256": "8fe648bcd8e7ae9da9e30b160162b6147498f5b9427c2d36f8803cee07863e4f",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-1024-18.png",
+    "sha256": "5ed159aa7233d0b4f3965bee99ce6b0ebd6b0fd7b6ccf195982b5fcf26255f4d",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-1024-19.png",
+    "sha256": "78491b270ded7e4467a10593cfa347950dee271428124dde51f9c94fde185e7f",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-1024-20.png",
+    "sha256": "2843403e7da1fecaff3ee8c1e5dd3a8be279e2f06c5635298955b71f10ab3c1f",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-1024-21.png",
+    "sha256": "eb4a12f75401d03d3b6b0c0c2257371dadec48c06264370093229f739c54a33d",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-390-1.png",
+    "sha256": "d098f1544b89b934d0e2f97fc134193b46836c6d153fd8501c87f56b95869dc4",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-390-2.png",
+    "sha256": "9a08bb4b3c563de0d7e60372dbe8786174bf089408bdd039957e5b4b36816597",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-390-3.png",
+    "sha256": "867d400137a9c71d814b179a3ac803562b0cae8862a2c1418d738839a079946e",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-390-4.png",
+    "sha256": "a7b6a5aed3d044fa9bc34eec88bdaac9f16f25afec50ae435caf68d20916dcd7",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-390-5.png",
+    "sha256": "d1a6378e471b813420177ad7fb2374906730f8231310d5d7909c2afee1bec574",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-390-6.png",
+    "sha256": "b8f1c4544e58cbadbfad3416b26ef4ed43865cf75714553e4dd6124bde8a2a17",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-390-7.png",
+    "sha256": "b30ef05337b2c72f74a3804e774c862e1e99f4379f755fa50ef86cfa535d1761",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-768-10.png",
+    "sha256": "12152a7f76259ec6652262588b4b006dcefc47a7c0768f8eaddf42e01e4da88f",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-768-11.png",
+    "sha256": "6df6e54e221f9be60d0014b04fc2ff960476cecdebbb2a82c219877df64c0be4",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-768-12.png",
+    "sha256": "7d7a2188c93e6e9ea2322631156ddb80e8f8115135d8e62af6bea1e1a7285288",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-768-13.png",
+    "sha256": "10b4c721a965b0a43cad23c8e369aa5a1faf3345820352fe7bf1ad88fe07d294",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-768-14.png",
+    "sha256": "b96c54c8846ff838b089ba003059e297f4ddb0a9061a39efe6336266a6fc4349",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-768-8.png",
+    "sha256": "b18b22ad09e130367786a609bf4cc2374fe20cf24d7ffa8ff5facb8d5a37a92d",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/admin-768-9.png",
+    "sha256": "479916268127f9e6e253c22594ea31c723b7564212b3fa78df44154e482ab303",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/audio-apres-rechargement.png",
+    "sha256": "76d02484a51fba4a1fbc9ce9366cda2c8b8861d3b3d237862a6f4db1fd69199c",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/audio-capture-lecture.png",
+    "sha256": "4d2ebf3b361fbd74f3d64bbf742bd4aef4468119f61ee668c93ef261988703e4",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/journal-corrige-390.png",
+    "sha256": "8cbced6df18b76152d463e64a2b8c3352d59167b440bbe29e8cccd816af151d6",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  },
+  {
+    "fichier": "prototype-local/validation-finale/journal-corrige-768.png",
+    "sha256": "92a6b8c5a37abc253a62c039aa5971422fb3f9db79752d23f96ef59cbb30d50d",
+    "statut": "Preuve historique ; contexte exact dans rapport voisin ; pas une nouvelle validation"
+  }
+]

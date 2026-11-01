@@ -1,0 +1,84 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		6 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+						224 text unii
+						225 text 2
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				21 container
+					226 text UNII SUGGÈRE
+					227 button 2 non lus · Commission Négociation
+					413 button 1 non lu · Jean-Paul Diallo
+					414 container
+						415 heading Messages, Value: 1
+							416 text Messages
+						417 button Nouvelle discussion
+						418 button Nouveau groupe
+						419 button Nouvelle diffusion aux adhérents
+						420 tab group Vue
+							421 tab (selected, settable, boolean) Discussions, Value: 1
+							422 tab (selectable, settable, boolean) Contacts & groupes, Value: 0
+						423 text field (settable) Rechercher
+						424 checkbox Toutes, Value: 1
+						425 checkbox Non lues 2, Value: 0
+						426 checkbox Sans réponse de ma part 3, Value: 0
+						427 checkbox Dernier message de moi 1, Value: 0
+						428 checkbox Groupes 3, Value: 0
+						429 checkbox Diffusions, Value: 0
+						430 button Commission Négociation 09:20 Leïla C. : On maintient l'AG du personnel mardi 12 h 30 ? 2
+							431 text Commission Négociation
+							432 text 09:20
+							433 text Leïla C. : 
+							434 text On maintient l'AG du personnel mardi 12 h 30 ?
+							435 text 2
+						436 button Commission SSCT hier ✓✓ Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire.
+							437 text Commission SSCT
+							438 text hier
+							439 text ✓✓
+							440 text Vous : 
+							441 text Je prépare la grille d'enquête et je la dépose dans la base documentaire.
+						442 button Commission ASC lun. Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts.
+							443 text Commission ASC
+							444 text lun.
+							445 text Leïla C. : 
+							446 text Troisième devis traiteur reçu : 2 900 € pour 180 couverts.
+						447 button Jean-Paul Diallo lun. Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi. 1
+							448 text Jean-Paul Diallo
+							449 text lun.
+							450 text Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.
+							451 text 1
+						452 text Messagerie locale de démonstration — aucun envoi externe.
+				112 container
+					453 button Accueil
+						454 image
+						455 text Accueil
+					221 button Dossiers
+						222 image
+						223 text Dossiers
+					318 button Agenda
+						319 image
+						320 text Agenda
+					410 button Réunions
+						411 image
+						412 text Réunions
+					125 button Réglages
+						126 image
+						127 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

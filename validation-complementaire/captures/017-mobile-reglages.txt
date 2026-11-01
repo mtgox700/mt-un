@@ -1,0 +1,161 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		6 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				557 container
+					558 heading Paramètres, Value: 1
+						559 text Paramètres
+					560 text Section syndicale Métallurgie — Valenciennes  · plan Fédération, 84 adhérents
+					561 button MARQUE BLANCHE Identité de marque Couleur principale, logos, typographie, mode sombre. Publication à l'organisation ou par établissement.
+						562 image
+						563 text MARQUE BLANCHE
+						564 text Identité de marque
+						565 text Couleur principale, logos, typographie, mode sombre. Publication à l'organisation ou par établissement.
+					566 button ÉLUE TITULAIRE Profil & mandat Identité, informations de l'organisation, convention collective, mandats, visibilité des coordonnées.
+						567 image
+						568 text ÉLUE TITULAIRE
+						569 text Profil & mandat
+						570 text Identité, informations de l'organisation, convention collective, mandats, visibilité des coordonnées.
+					571 button PUSH + EMAIL Notifications Granularité par module, plages « ne pas déranger », escalade des alertes urgentes.
+						572 image
+						573 text PUSH + EMAIL
+						574 text Notifications
+						575 text Granularité par module, plages « ne pas déranger », escalade des alertes urgentes.
+					576 button 19 CONTACTS Contacts & groupes Annuaire de la messagerie (élus, adhérents, externes), groupes de discussion, membres et administrateurs.
+						577 image
+						578 text 19 CONTACTS
+						579 text Contacts & groupes
+						580 text Annuaire de la messagerie (élus, adhérents, externes), groupes de discussion, membres et administrateurs.
+					581 button 4 ACTIFS Mémoire de l'assistant Faits retenus par l'IA d'une conversation à l'autre — stockés dans ce navigateur, modifiables et effaçables.
+						582 image
+						583 text 4 ACTIFS
+						584 text Mémoire de l'assistant
+						585 text Faits retenus par l'IA d'une conversation à l'autre — stockés dans ce navigateur, modifiables et effaçables.
+					586 button 37 ACTIVES Actions d'unii Actions proposées par unii dans chaque module, rôles autorisés, pastilles de suggestion.
+						587 image
+						588 text 37 ACTIVES
+						589 text Actions d'unii
+						590 text Actions proposées par unii dans chaque module, rôles autorisés, pastilles de suggestion.
+					591 button 1 INSTALLÉE Extensions Modules complémentaires : styles de documents et tracts, thèmes et sections de pages web. Activation, contenus autorisés, auto-test.
+						592 image
+						593 text 1 INSTALLÉE
+						594 text Extensions
+						595 text Modules complémentaires : styles de documents et tracts, thèmes et sections de pages web. Activation, contenus autorisés, auto-test.
+					596 button ADMIN Configuration IA Fournisseur LLM, clé API, quotas et comportement du modèle.
+						597 image
+						598 text ADMIN
+						599 text Configuration IA
+						600 text Fournisseur LLM, clé API, quotas et comportement du modèle.
+					601 button MFA ACTIF Sécurité Double authentification, appareils connectés, journal d'audit.
+						602 image
+						603 text MFA ACTIF
+						604 text Sécurité
+						605 text Double authentification, appareils connectés, journal d'audit.
+					606 button CONFORME Confidentialité & RGPD Registre des traitements, purge automatique, export de vos données.
+						607 image
+						608 text CONFORME
+						609 text Confidentialité & RGPD
+						610 text Registre des traitements, purge automatique, export de vos données.
+					611 button 24 SIÈGES Organisation & membres Membres, commissions, statuts et invitations.
+						612 image
+						613 text 24 SIÈGES
+						614 text Organisation & membres
+						615 text Membres, commissions, statuts et invitations.
+					616 button BACK-OFFICE Espace admin Tableau de bord organisation, activité par commission, facturation.
+						617 image
+						618 text BACK-OFFICE
+						619 text Espace admin
+						620 text Tableau de bord organisation, activité par commission, facturation.
+					621 button 3 EN CACHE Mode hors ligne Base documentaire chiffrée sur l'appareil, synchronisation intelligente.
+						622 image
+						623 text 3 EN CACHE
+						624 text Mode hors ligne
+						625 text Base documentaire chiffrée sur l'appareil, synchronisation intelligente.
+					626 button 1/4 ÉTAPES Prise en main Convention collective, commissions, invitation des élus, alertes.
+						627 image
+						628 text 1/4 ÉTAPES
+						629 text Prise en main
+						630 text Convention collective, commissions, invitation des élus, alertes.
+					631 heading Ordre du menu de gauche, Value: 2
+						632 text Ordre du menu de gauche
+					633 text Placez en tête les modules que vous ouvrez le plus souvent. L'ordre s'applique aussitôt à la barre latérale et à la barre de navigation mobile.
+					634 text 1 Accueil Aussi dans la barre mobile
+					635 button (disabled) Déplacer Accueil vers le haut
+					636 button Déplacer Accueil vers le bas
+					637 text 2 Assistant Barre latérale seulement
+					638 button Déplacer Assistant vers le haut
+					639 button Déplacer Assistant vers le bas
+					640 text 3 Dossiers Aussi dans la barre mobile
+					641 button Déplacer Dossiers vers le haut
+					642 button Déplacer Dossiers vers le bas
+					643 text 4 Messages Barre latérale seulement
+					644 button Déplacer Messages vers le haut
+					645 button Déplacer Messages vers le bas
+					646 text 5 Agenda Aussi dans la barre mobile
+					647 button Déplacer Agenda vers le haut
+					648 button Déplacer Agenda vers le bas
+					649 text 6 Réunions Aussi dans la barre mobile
+					650 button Déplacer Réunions vers le haut
+					651 button Déplacer Réunions vers le bas
+					652 text 7 Documents Barre latérale seulement
+					653 button Déplacer Documents vers le haut
+					654 button Déplacer Documents vers le bas
+					655 text 8 Formations Barre latérale seulement
+					656 button Déplacer Formations vers le haut
+					657 button Déplacer Formations vers le bas
+					658 text 9 Communication Barre latérale seulement
+					659 button Déplacer Communication vers le haut
+					660 button Déplacer Communication vers le bas
+					661 text 10 Application mobile Barre latérale seulement
+					662 button Déplacer Application mobile vers le haut
+					663 button Déplacer Application mobile vers le bas
+					664 text 11 Adhérents Barre latérale seulement
+					665 button Déplacer Adhérents vers le haut
+					666 button Déplacer Adhérents vers le bas
+					667 text 12 Intranet Barre latérale seulement
+					668 button Déplacer Intranet vers le haut
+					669 button Déplacer Intranet vers le bas
+					670 text 13 Reporting Barre latérale seulement
+					671 button Déplacer Reporting vers le haut
+					672 button Déplacer Reporting vers le bas
+					673 text 14 Raccourcis Barre latérale seulement
+					674 button Déplacer Raccourcis vers le haut
+					675 button Déplacer Raccourcis vers le bas
+					676 text 15 Réglages Aussi dans la barre mobile
+					677 button Déplacer Réglages vers le haut
+					678 button (disabled) Déplacer Réglages vers le bas
+				112 container
+					554 button Accueil
+						555 image
+						556 text Accueil
+					221 button Dossiers
+						222 image
+						223 text Dossiers
+					318 button Agenda
+						319 image
+						320 text Agenda
+					410 button Réunions
+						411 image
+						412 text Réunions
+					679 button Réglages
+						680 image
+						681 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

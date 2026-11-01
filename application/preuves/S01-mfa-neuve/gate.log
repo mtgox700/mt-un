@@ -1,0 +1,180 @@
+test_arbitrary_origin_denied (test_auth_recovery_worker.WorkerTests.test_arbitrary_origin_denied) ... ok
+test_cancelled_before_delete (test_auth_recovery_worker.WorkerTests.test_cancelled_before_delete) ... ok
+test_configuration_missing_fails_closed (test_auth_recovery_worker.WorkerTests.test_configuration_missing_fails_closed) ... ok
+test_invalid_identifier_denied (test_auth_recovery_worker.WorkerTests.test_invalid_identifier_denied) ... ok
+test_only_claimed_factor_deleted (test_auth_recovery_worker.WorkerTests.test_only_claimed_factor_deleted) ... ok
+test_privileged_credentials_never_follow_redirect (test_auth_recovery_worker.WorkerTests.test_privileged_credentials_never_follow_redirect) ... ok
+test_provider_failure_cannot_finish (test_auth_recovery_worker.WorkerTests.test_provider_failure_cannot_finish) ... ok
+test_unapproved_job_denied (test_auth_recovery_worker.WorkerTests.test_unapproved_job_denied) ... ok
+test_ciphertext_at_rest (test_durable_sessions.DurableTests.test_ciphertext_at_rest) ... ok
+test_expiration_batch_never_calls_provider_inline (test_durable_sessions.DurableTests.test_expiration_batch_never_calls_provider_inline) ... ok
+test_failed_logout_retried_after_restart (test_durable_sessions.DurableTests.test_failed_logout_retried_after_restart) ... ok
+test_global_revocation_scope_persisted (test_durable_sessions.DurableTests.test_global_revocation_scope_persisted) ... ok
+test_idle_expiry_persists (test_durable_sessions.DurableTests.test_idle_expiry_persists) ... ok
+test_key_and_state_permissions (test_durable_sessions.DurableTests.test_key_and_state_permissions) ... ok
+test_logout_survives_restart (test_durable_sessions.DurableTests.test_logout_survives_restart) ... ok
+test_rate_limit_shared (test_durable_sessions.DurableTests.test_rate_limit_shared) ... ok
+test_restart_retains_session (test_durable_sessions.DurableTests.test_restart_retains_session) ... ok
+test_separate_processes_share_transaction_lock (test_durable_sessions.DurableTests.test_separate_processes_share_transaction_lock) ... ok
+test_tamper_fails_closed (test_durable_sessions.DurableTests.test_tamper_fails_closed) ... ok
+test_transaction_rollback (test_durable_sessions.DurableTests.test_transaction_rollback) ... ok
+test_two_instances_serialize_updates (test_durable_sessions.DurableTests.test_two_instances_serialize_updates) ... ok
+test_wrong_key_fails_closed (test_durable_sessions.DurableTests.test_wrong_key_fails_closed) ... ok
+test_anonymous (test_foundation.Tests.test_anonymous) ... ok
+test_authorized_read (test_foundation.Tests.test_authorized_read) ... ok
+test_cache_and_token_protection (test_foundation.Tests.test_cache_and_token_protection) ... ok
+test_defensive_cross_tenant_response (test_foundation.Tests.test_defensive_cross_tenant_response) ... ok
+test_defensive_wrong_id (test_foundation.Tests.test_defensive_wrong_id) ... ok
+test_dependency_outage (test_foundation.Tests.test_dependency_outage) ... ok
+test_fake_superadmin_header_no_bypass (test_foundation.Tests.test_fake_superadmin_header_no_bypass) ... ok
+test_health_has_no_business_data (test_foundation.Tests.test_health_has_no_business_data) ... ok
+test_invalid_token (test_foundation.Tests.test_invalid_token) ... ok
+test_no_client_principal_override (test_foundation.Tests.test_no_client_principal_override) ... ok
+test_no_implicit_environment (test_foundation.Tests.test_no_implicit_environment) ... ok
+test_no_internal_error_or_token_echo (test_foundation.Tests.test_no_internal_error_or_token_echo) ... /usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e700b80>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e700e50>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e701030>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e701120>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e701210>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e701300>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e700f40>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e7013f0>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e7014e0>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e7015d0>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e7017b0>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e701a80>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e701c60>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e701d50>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e701f30>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e702110>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e7022f0>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e7023e0>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e7025c0>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e7026b0>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e7027a0>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e702980>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/local/lib/python3.13/json/encoder.py:254: ResourceWarning: unclosed database in <sqlite3.Connection object at 0xffff8e702890>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_no_production_launch (test_foundation.Tests.test_no_production_launch) ... ok
+test_no_write_route (test_foundation.Tests.test_no_write_route) ... ok
+test_registry_cycle (test_foundation.Tests.test_registry_cycle) ... ok
+test_registry_duplicate (test_foundation.Tests.test_registry_duplicate) ... ok
+test_registry_missing_dependency (test_foundation.Tests.test_registry_missing_dependency) ... ok
+test_revocation_between_dispatch_and_read (test_foundation.Tests.test_revocation_between_dispatch_and_read) ... ok
+test_revocation_no_cache (test_foundation.Tests.test_revocation_no_cache) ... ok
+test_rls_empty (test_foundation.Tests.test_rls_empty) ... ok
+test_secret_key_rejected (test_foundation.Tests.test_secret_key_rejected) ... ok
+test_unknown_command_denied (test_foundation.Tests.test_unknown_command_denied) ... ok
+test_unknown_route (test_foundation.Tests.test_unknown_route) ... ok
+test_wrong_org (test_foundation.Tests.test_wrong_org) ... ok
+test_exact_user_token_and_parameters (test_identity.IdentityTests.test_exact_user_token_and_parameters) ... ok
+test_extra_role_rejected (test_identity.IdentityTests.test_extra_role_rejected) ... ok
+test_invalid_type_rejected (test_identity.IdentityTests.test_invalid_type_rejected) ... ok
+test_missing_argument_rejected (test_identity.IdentityTests.test_missing_argument_rejected) ... ok
+test_unknown_command_rejected (test_identity.IdentityTests.test_unknown_command_rejected) ... ok
+test_crash_during_mfa_verification_closes_old_cookie (test_session_crashes.CrashTests.test_crash_during_mfa_verification_closes_old_cookie) ... ok
+test_crash_during_password_change_preserves_global_intent (test_session_crashes.CrashTests.test_crash_during_password_change_preserves_global_intent) ... ok
+test_expired_global_credentials_not_mistaken_for_global_success (test_session_crashes.CrashTests.test_expired_global_credentials_not_mistaken_for_global_success) ... ok
+test_logout_crash_after_provider_is_reconciled (test_session_crashes.CrashTests.test_logout_crash_after_provider_is_reconciled) ... ok
+test_logout_crash_before_provider_does_not_resurrect (test_session_crashes.CrashTests.test_logout_crash_before_provider_does_not_resurrect) ... ok
+test_refresh_rotated_but_not_saved_closes_session (test_session_crashes.CrashTests.test_refresh_rotated_but_not_saved_closes_session) ... ok
+test_refresh_saved_before_later_crash_survives (test_session_crashes.CrashTests.test_refresh_saved_before_later_crash_survives) ... ok
+test_uncertain_global_revocation_keeps_work_and_closes_all_local (test_session_crashes.CrashTests.test_uncertain_global_revocation_keeps_work_and_closes_all_local) ... ok
+test_delayed (test_session_health.HealthTests.test_delayed) ... ok
+test_failed (test_session_health.HealthTests.test_failed) ... ok
+test_future_clock (test_session_health.HealthTests.test_future_clock) ... ok
+test_healthy (test_session_health.HealthTests.test_healthy) ... ok
+test_missing (test_session_health.HealthTests.test_missing) ... ok
+test_no_unexpected_fields (test_session_health.HealthTests.test_no_unexpected_fields) ... ok
+test_stale (test_session_health.HealthTests.test_stale) ... ok
+test_waiting (test_session_health.HealthTests.test_waiting) ... ok
+test_concurrent_runner_refused (test_session_watchdog.WatchdogTests.test_concurrent_runner_refused) ... ok
+test_healthy_silent (test_session_watchdog.WatchdogTests.test_healthy_silent) ... ok
+test_missing_health_alert (test_session_watchdog.WatchdogTests.test_missing_health_alert) ... ok
+test_private_persistent_state (test_session_watchdog.WatchdogTests.test_private_persistent_state) ... ok
+test_recovery_not_old_incident (test_session_watchdog.WatchdogTests.test_recovery_not_old_incident) ... ok
+test_secrets_never_in_events (test_session_watchdog.WatchdogTests.test_secrets_never_in_events) ... ok
+test_stale_alert_deduplicated (test_session_watchdog.WatchdogTests.test_stale_alert_deduplicated) ... ok
+test_transient_queue_notifies_only_after_delay (test_session_watchdog.WatchdogTests.test_transient_queue_notifies_only_after_delay) ... ok
+test_absolute_expiry (test_sessions.Tests.test_absolute_expiry) ... ok
+test_bad_json (test_sessions.Tests.test_bad_json) ... ok
+test_bearer (test_sessions.Tests.test_bearer) ... ok
+test_content_type (test_sessions.Tests.test_content_type) ... ok
+test_csrf (test_sessions.Tests.test_csrf) ... ok
+test_foreign_cookie (test_sessions.Tests.test_foreign_cookie) ... ok
+test_host_logout (test_sessions.Tests.test_host_logout) ... ok
+test_idle_expiry (test_sessions.Tests.test_idle_expiry) ... ok
+test_large_body (test_sessions.Tests.test_large_body) ... ok
+test_logout (test_sessions.Tests.test_logout) ... ok
+test_logout_after_jwt_expiry (test_sessions.Tests.test_logout_after_jwt_expiry) ... ok
+test_no_tokens (test_sessions.Tests.test_no_tokens) ... ok
+test_origin (test_sessions.Tests.test_origin) ... ok
+test_password_requires_recovery (test_sessions.Tests.test_password_requires_recovery) ... ok
+test_quota (test_sessions.Tests.test_quota) ... ok
+test_rate_per_account (test_sessions.Tests.test_rate_per_account) ... ok
+test_recovery_cannot_be_used_from_logged_in_session (test_sessions.Tests.test_recovery_cannot_be_used_from_logged_in_session) ... ok
+test_recovery_invalid_email (test_sessions.Tests.test_recovery_invalid_email) ... ok
+test_recovery_rate_limit (test_sessions.Tests.test_recovery_rate_limit) ... ok
+test_recovery_request_csrf (test_sessions.Tests.test_recovery_request_csrf) ... ok
+test_recovery_window_expired (test_sessions.Tests.test_recovery_window_expired) ... ok
+test_refresh (test_sessions.Tests.test_refresh) ... ok
+test_remote_revocation (test_sessions.Tests.test_remote_revocation) ... ok
+test_rotation (test_sessions.Tests.test_rotation) ... ok
+test_serial_refresh (test_sessions.Tests.test_serial_refresh) ... ok
+test_switch_identity (test_sessions.Tests.test_switch_identity) ... ok
+test_wrong_factor (test_sessions.Tests.test_wrong_factor) ... ok
+
+----------------------------------------------------------------------
+Ran 102 tests in 1.570s
+
+OK
+Frontières des modules et 14 migrations de référence : OK
+Quality gate passed; no shared-stack credentials used.
+{"passed": true, "count": 92}
+Local integration gate passed. Test containers stopped; volumes retained, no purge.

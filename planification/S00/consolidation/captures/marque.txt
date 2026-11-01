@@ -1,0 +1,182 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Marque blanche · administrateurs
+  - heading "Identité de marque" [level=1]
+  - paragraph: Identité publiée · aucune modification en attente
+  - button "Prévisualiser sur toute l'app"
+  - button "Réinitialiser"
+  - button "Publier à l'organisation" [disabled]
+  - generic: Portée
+  - button "Organisation"
+  - button "Valenciennes"
+  - button "Douai"
+  - button "Siège"
+  - generic: Réglage de référence. Les établissements en héritent, sauf surcharge explicite.
+  - heading "Palette" [level=2]
+  - paragraph: Toute l'interface, les documents générés et les pages intranet suivent la couleur principale.
+  - button "Orange uniion Identité par défaut du produit." [pressed]:
+    - generic: Orange uniion
+    - generic: Identité par défaut du produit.
+  - button "Rouge militant Contraste fort, registre revendicatif.":
+    - generic: Rouge militant
+    - generic: Contraste fort, registre revendicatif.
+  - button "Bleu institutionnel Registre paritaire et administratif.":
+    - generic: Bleu institutionnel
+    - generic: Registre paritaire et administratif.
+  - button "Vert Santé, sécurité, conditions de travail.":
+    - generic: Vert
+    - generic: Santé, sécurité, conditions de travail.
+  - button "Prune Différenciant, peu utilisé en entreprise.":
+    - generic: Prune
+    - generic: Différenciant, peu utilisé en entreprise.
+  - button "Ardoise Sobre, sans connotation politique.":
+    - generic: Ardoise
+    - generic: Sobre, sans connotation politique.
+  - 'button "Neutre employeur Aucune dominante militante : pour les organisations qui ne veulent afficher aucune couleur syndicale."':
+    - generic: Neutre employeur
+    - generic: "Aucune dominante militante : pour les organisations qui ne veulent afficher aucune couleur syndicale."
+  - generic: Couleur principale
+  - textbox "Couleur principale": "#f97316"
+  - generic: "#F97316"
+  - generic: Secondaire
+  - textbox "Couleur secondaire": "#dc2626"
+  - generic: "#DC2626"
+  - generic: Rampe dérivée automatiquement
+  - generic "acBg2"
+  - generic "acBg"
+  - generic "acBd"
+  - generic "acMid"
+  - generic "ac"
+  - generic "ac2"
+  - generic "acTx2"
+  - generic "acDeep"
+  - paragraph: "Contraste du texte blanc sur la couleur principale : 2.8:1 — insuffisant pour du petit texte. Les libellés sur fond coloré utilisent la nuance foncée dérivée (teinte 25°)."
+  - heading "Mode d'affichage" [level=2]
+  - button "Clair Par défaut, adapté à l'impression." [pressed]:
+    - generic: Clair
+    - generic: Par défaut, adapté à l'impression.
+  - button "Sombre Réunions du soir, écrans en salle.":
+    - generic: Sombre
+    - generic: Réunions du soir, écrans en salle.
+  - heading "Typographie" [level=2]
+  - 'button "Aa Philosopher / Inter Le duo uniion : titres chaleureux, texte neutre." [pressed]':
+    - generic: Aa
+    - generic: Philosopher / Inter
+    - generic: "Le duo uniion : titres chaleureux, texte neutre."
+  - button "Aa Montserrat / Inter Militant et affirmé, proche des tracts imprimés.":
+    - generic: Aa
+    - generic: Montserrat / Inter
+    - generic: Militant et affirmé, proche des tracts imprimés.
+  - button "Aa Lora / Inter Institutionnel, lisible sur documents longs.":
+    - generic: Aa
+    - generic: Lora / Inter
+    - generic: Institutionnel, lisible sur documents longs.
+  - button "Aa Inter seul Sobre et discret, idéal pour un thème neutre.":
+    - generic: Aa
+    - generic: Inter seul
+    - generic: Sobre et discret, idéal pour un thème neutre.
+  - heading "Logos" [level=2]
+  - paragraph: "PNG ou SVG détouré, 512 px de côté minimum. Le monogramme sert d'avatar, de favicon et de repli. Les deux derniers emplacements sont facultatifs : sans eux, les sites reprennent le logo fond clair."
+  - generic: Logo — fond clair
+  - img "Logo — fond clair"
+  - generic: Remplacer
+  - generic: Taille
+  - generic: 100 %
+  - slider "Taille — Logo — fond clair": "100"
+  - button "Réinitialiser"
+  - button "Retirer"
+  - generic: Logo — fond sombre
+  - generic: Déposer un fichier
+  - generic: Taille
+  - generic: 100 %
+  - slider "Taille — Logo — fond sombre": "100"
+  - button "Réinitialiser"
+  - generic: Monogramme carré
+  - generic: UN
+  - generic: Déposer un fichier
+  - generic: Taille
+  - generic: 100 %
+  - slider "Taille — Monogramme carré": "100"
+  - button "Réinitialiser"
+  - generic: Logo intranet
+  - generic: Facultatif — déposer
+  - generic: Taille
+  - generic: 100 %
+  - slider "Taille — Logo intranet": "100"
+  - button "Réinitialiser"
+  - generic: Logo site public
+  - generic: Facultatif — déposer
+  - generic: Taille
+  - generic: 100 %
+  - slider "Taille — Logo site public": "100"
+  - button "Réinitialiser"
+  - generic: Monogramme de repli
+  - textbox: UN
+  - generic: Utilisé quand aucun logo n'est chargé — dans les avatars et le favicon.
+  - paragraph: "Chaque logo a sa propre taille, de 60 à 300 %, proportions conservées : le logo fond clair (ou fond sombre selon le mode) règle la barre latérale et l'en-tête mobile, les logos intranet et site public règlent l'en-tête des sites. Une taille propre à un site peut être définie dans Intranet · Charte des sites."
+  - heading "Aperçu" [level=2]
+  - paragraph: Écran de connexion, navigation et carte de dossier, avec le brouillon en cours.
+  - generic: uniion
+  - generic: L'outil des élus, pas celui de la direction.
+  - generic: Juridique
+  - generic: Signalement — atelier B
+  - generic: Enquête paritaire demandée le 20 août, réponse attendue sous 8 jours.
+  - generic: SM
+  - generic: J−3
+  - heading "Portée sur les contenus" [level=2]
+  - generic: Le gabarit intranet hérite de ce thème
+  - generic: Les pages publiées reprennent la couleur, les polices et le logo. La charte du site reste surchargeable pour respecter la maquette du webmaster.
+  - switch [checked]
+  - button "Ouvrir le gabarit du site intranet →"
+  - heading "Journal des publications" [level=2]
+  - generic: 12/03/2024
+  - generic: Identité initiale publiée — accent orange uniion
+  - generic: Karim Benali

@@ -1,0 +1,55 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			8 button
+				9 image
+			10 button Se déconnecter
+				11 image
+		12 container
+			13 text DÉMOCRATIE SOCIALE
+			14 heading Sondages salariés, Value: 1
+				15 text Sondages salariés
+			16 text Votes anonymes · 416 salariés inscrits
+			17 button + Lancer un sondage
+			18 button EN COURS Priorités salariales 2027 312 réponses sur 416 salariés · vote anonyme · clôture demain 18 h 75 % de participation
+				19 text EN COURS
+				20 text Priorités salariales 2027
+				21 text 312 réponses sur 416 salariés · vote anonyme · clôture demain 18 h
+				22 text 75 % de participation
+			23 button Supprimer
+			24 button EN COURS Accord télétravail — 2 ou 3 jours ? 224 réponses sur 416 salariés · clôture vendredi 54 % de participation
+				25 text EN COURS
+				26 text Accord télétravail — 2 ou 3 jours ?
+				27 text 224 réponses sur 416 salariés · clôture vendredi
+				28 text 54 % de participation
+			29 button Supprimer
+			30 button CLOS Qualité de la restauration collective 366 réponses · clos le 12 août 88 % de participation
+				31 text CLOS
+				32 text Qualité de la restauration collective
+				33 text 366 réponses · clos le 12 août
+				34 text 88 % de participation
+			35 button Supprimer
+		36 container
+			37 button Accueil
+				38 image
+				39 text Accueil
+			40 button Dossiers
+				41 image
+				42 text Dossiers
+			43 button Agenda
+				44 image
+				45 text Agenda
+			46 button Réunions
+				47 image
+				48 text Réunions
+			49 button Réglages
+				50 image
+				51 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

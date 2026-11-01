@@ -1,0 +1,38 @@
+[
+  {
+    "format": "desktop",
+    "created": true,
+    "overflow": false
+  },
+  {
+    "format": "mobile",
+    "created": true,
+    "overflow": false
+  },
+  {
+    "format": "tablette",
+    "created": true,
+    "overflow": false
+  },
+  {
+    "format": "mobile",
+    "readAllowed": true,
+    "privateHidden": true,
+    "writeDenied": true,
+    "overflow": false
+  },
+  {
+    "format": "tablette",
+    "readAllowed": true,
+    "privateHidden": true,
+    "writeDenied": true,
+    "overflow": false
+  },
+  {
+    "format": "desktop",
+    "readAllowed": true,
+    "privateHidden": true,
+    "writeDenied": true,
+    "overflow": false
+  }
+]

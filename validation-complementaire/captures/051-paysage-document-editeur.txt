@@ -1,0 +1,188 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		1533 text 1024 × 768
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				1534 container
+					1535 image uniion
+					1536 button Réduire le menu
+					1599 button Accueil
+						1600 image
+						1601 text Accueil
+					1540 button Assistant
+						1541 image
+						1542 text Assistant
+					1543 button Dossiers
+						1544 image
+						1545 text Dossiers
+					1546 button Messages
+						1547 image
+						1548 text Messages
+					1549 button Agenda
+						1550 image
+						1551 text Agenda
+					1552 button Réunions
+						1553 image
+						1554 text Réunions
+					1602 button Documents
+						1603 image
+						1604 text Documents
+					1558 button Formations
+						1559 image
+						1560 text Formations
+					1561 button Communication
+						1562 image
+						1563 text Communication
+					1564 button Application mobile
+						1565 image
+						1566 text Application mobile
+					1567 button Adhérents
+						1568 image
+						1569 text Adhérents
+					1570 button Intranet
+						1571 image
+						1572 text Intranet
+					1573 button Reporting
+						1574 image
+						1575 text Reporting
+					1576 button Raccourcis
+						1577 image
+						1578 text Raccourcis
+					1592 button Réglages
+						1593 image
+						1594 text Réglages
+					1582 text ASSISTANT IA Une question de droit ?
+					1583 button Ouvrir le chat
+					1584 button SM Sophie Marchand Déléguée syndicale
+						1585 text SM
+						1586 text Sophie Marchand
+						1587 text Déléguée syndicale
+					1588 button Se déconnecter
+				10 container
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+						1595 text unii
+						1596 text 2
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				1334 container
+					1597 text UNII SUGGÈRE
+					1598 button Brouillon à relire · Ce que change l'accord télétravail signé le 12 août
+					1605 button Brouillon à relire · NAO 2027 — où en sont les négociations
+					1606 button Revenir à la liste des documents
+					1607 text Titre du document
+					1608 text field (settable) Titre du document, Value: Ce que change l'accord télétravail signé le 12 août
+					1609 button Imprimer / PDF
+					1610 button Faire signer
+					1611 button Diffuser
+					1612 tab group Panneaux de l'éditeur
+						1613 tab (selected, settable, boolean) Contenu, Value: 1
+						1614 tab (selectable, settable, boolean) Charte graphique, Value: 0
+						1615 tab (selectable, settable, boolean) Style, Value: 0
+					1616 text CONTENU
+					1617 checkbox Blocs, Value: 1
+					1618 checkbox Markdown, Value: 0
+					1619 button Ajouter un bloc titre principal
+					1620 button Ajouter un bloc intertitre
+					1621 button Ajouter un bloc paragraphe
+					1622 button Ajouter un bloc liste à puces
+					1623 button Ajouter un bloc encadré réglementaire
+					1624 button Ajouter un bloc tableau
+					1625 button Ajouter un bloc badge de rubrique
+					1626 button Ajouter un bloc saut de page
+					1627 button Ajouter un bloc chiffre clé
+					1628 button Ajouter un bloc comparatif
+					1629 button Ajouter un bloc frise de dates
+					1630 button Ajouter un bloc photo
+					1631 button Ajouter un bloc qr code
+					1632 button Ajouter un bloc coupon d'adhésion
+					1633 button Ajouter un bloc trombinoscope
+					1634 button Ajouter un bloc tampon
+					1635 button Ajouter un bloc bandeau surligné
+					1636 button Ajouter un bloc signature
+					1637 button Ajouter un bloc bulles de dialogue
+					1638 button Ajouter un bloc encadré « fo exige »
+					1639 text BADGE DE RUBRIQUE
+					1640 button Déplacer ce bloc vers le haut
+					1641 button Déplacer ce bloc vers le bas
+					1642 button Supprimer ce bloc
+					1643 text entry area (settable) Description: Badge de rubrique, bloc 1 sur 9, Value: Note aux adhérents
+					1644 text TITRE PRINCIPAL
+					1645 button Déplacer ce bloc vers le haut
+					1646 button Déplacer ce bloc vers le bas
+					1647 button Supprimer ce bloc
+					1648 text entry area (settable) Description: Titre principal, bloc 2 sur 9, Value: Ce que change l'accord télétravail signé le 12 août
+					1649 text PARAGRAPHE
+					1650 button Déplacer ce bloc vers le haut
+					1651 button Déplacer ce bloc vers le bas
+					1652 button Supprimer ce bloc
+					1653 text entry area (settable) Description: Paragraphe, bloc 3 sur 9, Value: L'accord d'entreprise sur le travail à distance entre en vigueur le 1er octobre 2026. Il remplace la charte unilatérale de 2021 et devient opposable à l'employeur : voici ce qu'il faut en retenir.
+					1654 text INTERTITRE
+					1655 button Déplacer ce bloc vers le haut
+					1656 button Déplacer ce bloc vers le bas
+					1657 button Supprimer ce bloc
+					1658 text entry area (settable) Description: Intertitre, bloc 4 sur 9, Value: Ce qui s'améliore
+					1659 text LISTE À PUCES
+					1660 button Déplacer ce bloc vers le haut
+					1661 button Déplacer ce bloc vers le bas
+					1662 button Supprimer ce bloc
+					1663 text entry area (settable) Description: Liste à puces, bloc 5 sur 9, Value: Deux jours par semaine ouverts à tous les postes éligibles, contre un seul auparavant
+Indemnité forfaitaire de 2,80 € par jour télétravaillé
+Droit à la déconnexion inscrit noir sur blanc, entre 19 h et 8 h
+					1664 text Un élément par ligne.
+					1665 text INTERTITRE
+					1666 button Déplacer ce bloc vers le haut
+					1667 button Déplacer ce bloc vers le bas
+					1668 button Supprimer ce bloc
+					1669 text entry area (settable) Description: Intertitre, bloc 6 sur 9, Value: Les points de vigilance
+					1670 text LISTE À PUCES
+					1671 button Déplacer ce bloc vers le haut
+					1672 button Déplacer ce bloc vers le bas
+					1673 button Supprimer ce bloc
+					1674 text entry area (settable) Description: Liste à puces, bloc 7 sur 9, Value: L'éligibilité reste soumise à l'avis du responsable : en cas de refus, exigez une réponse écrite et motivée
+Le matériel fourni se limite à un ordinateur portable — le siège et l'écran restent à négocier
+Le décompte des jours est annuel, pas mensuel : attention aux reports refusés en fin d'année
+					1675 text Un élément par ligne.
+					1676 text ENCADRÉ RÉGLEMENTAIRE
+					1677 button Déplacer ce bloc vers le haut
+					1678 button Déplacer ce bloc vers le bas
+					1679 button Supprimer ce bloc
+					1680 text entry area (settable) Description: Encadré réglementaire, bloc 8 sur 9, Value: Un refus non motivé peut être contesté. Contactez la permanence de la section avant de signer un avenant.
+					1681 text PARAGRAPHE
+					1682 button Déplacer ce bloc vers le haut
+					1683 button Déplacer ce bloc vers le bas
+					1684 button Supprimer ce bloc
+					1685 text entry area (settable) Description: Paragraphe, bloc 9 sur 9, Value: Permanence : mardi et jeudi, 12 h - 14 h, local syndical bâtiment A. Contact : section@syndicat-valenciennes.fr
+					1686 checkbox A4 portrait, Value: 1
+					1687 checkbox 16:9 paysage, Value: 0
+					1688 checkbox A5 tract, Value: 0
+					1689 checkbox Description: Zoom 50 %, Value: 0
+					1690 checkbox Description: Zoom 72 %, Value: 1
+					1691 checkbox Description: Zoom 100 %, Value: 0
+					1692 text 1 page · A4 portrait
+					1693 container
+						1694 text SECTION MÉTA VAL Local syndical — 12 rue de la Fonderie
+						1695 image Logo de l'organisation
+						1696 text NOTE AUX ADHÉRENTS
+						1697 heading Ce que change l'accord télétravail signé le 12 août, Value: 2
+							1698 text Ce que change l'accord télétravail signé le 12 août
+						1699 text L'accord d'entreprise sur le travail à distance entre en vigueur le 1er octobre 2026. Il remplace la charte unilatérale de 2021 et devient opposable à l'employeur : voici ce qu'il faut en retenir.
+						1700 heading Ce qui s'améliore, Value: 3
+							1701 text Ce qui s'améliore
+						1702 text Deux jours par semaine ouverts à tous les postes éligibles, contre un seul auparavant Indemnité forfaitaire de 2,80 € par jour télétravaillé Droit à la déconnexion inscrit noir sur blanc, entre 19 h et 8 h
+						1703 heading Les points de vigilance, Value: 3
+							1704 text Les points de vigilance
+						1705 text L'éligibilité reste soumise à l'avis du responsable : en cas de refus, exigez une réponse écrite et motivée Le matériel fourni se limite à un ordinateur portable — le siège et l'écran restent à négocier Le décompte des jours est annuel, pas mensuel : attention aux reports refusés en fin d'année Un refus non motivé peut être contesté. Contactez la permanence de la section avant de signer un avenant. Permanence : mardi et jeudi, 12 h - 14 h, local syndical bâtiment A. Contact : section@syndicat-valenciennes.fr section@syndicat-valenciennes.fr — 03 27 14 88 20 Page 1 / 1
+				1706 text Document créé depuis le modèle « Note aux adhérents »
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

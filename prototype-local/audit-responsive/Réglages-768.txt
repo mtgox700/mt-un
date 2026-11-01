@@ -1,0 +1,153 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			8 button
+				9 image
+			10 button Se déconnecter
+				11 image
+		12 container
+			13 heading Paramètres, Value: 1
+				14 text Paramètres
+			15 text Section syndicale Métallurgie — Valenciennes  · plan Fédération, 84 adhérents
+			16 button MARQUE BLANCHE Identité de marque Couleur principale, logos, typographie, mode sombre. Publication à l'organisation ou par établissement.
+				17 image
+				18 text MARQUE BLANCHE
+				19 text Identité de marque
+				20 text Couleur principale, logos, typographie, mode sombre. Publication à l'organisation ou par établissement.
+			21 button ÉLUE TITULAIRE Profil & mandat Identité, informations de l'organisation, convention collective, mandats, visibilité des coordonnées.
+				22 image
+				23 text ÉLUE TITULAIRE
+				24 text Profil & mandat
+				25 text Identité, informations de l'organisation, convention collective, mandats, visibilité des coordonnées.
+			26 button PUSH + EMAIL Notifications Granularité par module, plages « ne pas déranger », escalade des alertes urgentes.
+				27 image
+				28 text PUSH + EMAIL
+				29 text Notifications
+				30 text Granularité par module, plages « ne pas déranger », escalade des alertes urgentes.
+			31 button 19 CONTACTS Contacts & groupes Annuaire de la messagerie (élus, adhérents, externes), groupes de discussion, membres et administrateurs.
+				32 image
+				33 text 19 CONTACTS
+				34 text Contacts & groupes
+				35 text Annuaire de la messagerie (élus, adhérents, externes), groupes de discussion, membres et administrateurs.
+			36 button 4 ACTIFS Mémoire de l'assistant Faits retenus par l'IA d'une conversation à l'autre — stockés dans ce navigateur, modifiables et effaçables.
+				37 image
+				38 text 4 ACTIFS
+				39 text Mémoire de l'assistant
+				40 text Faits retenus par l'IA d'une conversation à l'autre — stockés dans ce navigateur, modifiables et effaçables.
+			41 button 37 ACTIVES Actions d'unii Actions proposées par unii dans chaque module, rôles autorisés, pastilles de suggestion.
+				42 image
+				43 text 37 ACTIVES
+				44 text Actions d'unii
+				45 text Actions proposées par unii dans chaque module, rôles autorisés, pastilles de suggestion.
+			46 button 1 INSTALLÉE Extensions Modules complémentaires : styles de documents et tracts, thèmes et sections de pages web. Activation, contenus autorisés, auto-test.
+				47 image
+				48 text 1 INSTALLÉE
+				49 text Extensions
+				50 text Modules complémentaires : styles de documents et tracts, thèmes et sections de pages web. Activation, contenus autorisés, auto-test.
+			51 button ADMIN Configuration IA Fournisseur LLM, clé API, quotas et comportement du modèle.
+				52 image
+				53 text ADMIN
+				54 text Configuration IA
+				55 text Fournisseur LLM, clé API, quotas et comportement du modèle.
+			56 button MFA ACTIF Sécurité Double authentification, appareils connectés, journal d'audit.
+				57 image
+				58 text MFA ACTIF
+				59 text Sécurité
+				60 text Double authentification, appareils connectés, journal d'audit.
+			61 button CONFORME Confidentialité & RGPD Registre des traitements, purge automatique, export de vos données.
+				62 image
+				63 text CONFORME
+				64 text Confidentialité & RGPD
+				65 text Registre des traitements, purge automatique, export de vos données.
+			66 button 24 SIÈGES Organisation & membres Membres, commissions, statuts et invitations.
+				67 image
+				68 text 24 SIÈGES
+				69 text Organisation & membres
+				70 text Membres, commissions, statuts et invitations.
+			71 button BACK-OFFICE Espace admin Tableau de bord organisation, activité par commission, facturation.
+				72 image
+				73 text BACK-OFFICE
+				74 text Espace admin
+				75 text Tableau de bord organisation, activité par commission, facturation.
+			76 button 0 EN CACHE Mode hors ligne Extraits conservés dans ce navigateur, sans chiffrement applicatif.
+				77 image
+				78 text 0 EN CACHE
+				79 text Mode hors ligne
+				80 text Extraits conservés dans ce navigateur, sans chiffrement applicatif.
+			81 button 1/4 ÉTAPES Prise en main Convention collective, commissions, invitation des élus, alertes.
+				82 image
+				83 text 1/4 ÉTAPES
+				84 text Prise en main
+				85 text Convention collective, commissions, invitation des élus, alertes.
+			86 heading Ordre du menu de gauche, Value: 2
+				87 text Ordre du menu de gauche
+			88 text Placez en tête les modules que vous ouvrez le plus souvent. L'ordre s'applique aussitôt à la barre latérale et à la barre de navigation mobile.
+			89 text 1 Accueil Aussi dans la barre mobile
+			90 button (disabled) Déplacer Accueil vers le haut
+			91 button Déplacer Accueil vers le bas
+			92 text 2 Assistant Barre latérale seulement
+			93 button Déplacer Assistant vers le haut
+			94 button Déplacer Assistant vers le bas
+			95 text 3 Dossiers Aussi dans la barre mobile
+			96 button Déplacer Dossiers vers le haut
+			97 button Déplacer Dossiers vers le bas
+			98 text 4 Messages Barre latérale seulement
+			99 button Déplacer Messages vers le haut
+			100 button Déplacer Messages vers le bas
+			101 text 5 Agenda Aussi dans la barre mobile
+			102 button Déplacer Agenda vers le haut
+			103 button Déplacer Agenda vers le bas
+			104 text 6 Réunions Aussi dans la barre mobile
+			105 button Déplacer Réunions vers le haut
+			106 button Déplacer Réunions vers le bas
+			107 text 7 Documents Barre latérale seulement
+			108 button Déplacer Documents vers le haut
+			109 button Déplacer Documents vers le bas
+			110 text 8 Formations Barre latérale seulement
+			111 button Déplacer Formations vers le haut
+			112 button Déplacer Formations vers le bas
+			113 text 9 Communication Barre latérale seulement
+			114 button Déplacer Communication vers le haut
+			115 button Déplacer Communication vers le bas
+			116 text 10 Application mobile Barre latérale seulement
+			117 button Déplacer Application mobile vers le haut
+			118 button Déplacer Application mobile vers le bas
+			119 text 11 Adhérents Barre latérale seulement
+			120 button Déplacer Adhérents vers le haut
+			121 button Déplacer Adhérents vers le bas
+			122 text 12 Intranet Barre latérale seulement
+			123 button Déplacer Intranet vers le haut
+			124 button Déplacer Intranet vers le bas
+			125 text 13 Reporting Barre latérale seulement
+			126 button Déplacer Reporting vers le haut
+			127 button Déplacer Reporting vers le bas
+			128 text 14 Raccourcis Barre latérale seulement
+			129 button Déplacer Raccourcis vers le haut
+			130 button Déplacer Raccourcis vers le bas
+			131 text 15 Réglages Aussi dans la barre mobile
+			132 button Déplacer Réglages vers le haut
+			133 button (disabled) Déplacer Réglages vers le bas
+		134 container
+			135 button Accueil
+				136 image
+				137 text Accueil
+			138 button Dossiers
+				139 image
+				140 text Dossiers
+			141 button Agenda
+				142 image
+				143 text Agenda
+			144 button Réunions
+				145 image
+				146 text Réunions
+			147 button Réglages
+				148 image
+				149 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

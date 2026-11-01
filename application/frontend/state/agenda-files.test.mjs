@@ -1,0 +1,5 @@
+import assert from 'node:assert/strict';import {createAgendaFiles} from '../modules/agenda/files.js';
+let notice='',calls=[],version;const c={setState:()=>{},flash:m=>notice=m};let ctx={version:1,selected:[],available:[{id:'a',filename:'test.txt'}],resources:[{id:'r',name:'Source'}]};
+const api=async(path,data)=>{calls.push(data);if(data.action==='select_files')ctx={...ctx,version:2,selected:data.payload.files.map(id=>({id}))};return ctx};const service=createAgendaFiles(c,api,'org',(v,n)=>version=[v,n]);await service.load('event');await service.values().files[0].toggle();assert.deepEqual(version,[2,1]);assert.equal(service.values().selectedCount,1);assert.equal(service.values().files[0].selected,true);assert.match(notice,/validation/);
+const before=calls.length;await service.values().upload({target:{files:[{name:'file.exe',size:20}],value:'x'}});assert.equal(calls.length,before);service.clear();assert.equal(service.values().visible,undefined);
+console.log('Agenda files: selection persisted by version, invalid upload refused and identity cleanup verified.');

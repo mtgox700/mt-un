@@ -1,0 +1,130 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			147 button Formations
+				148 image
+				149 text Formations
+			150 button Communication
+				151 image
+				152 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			144 button Réglages
+				145 image
+				146 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			153 text MONTÉE EN COMPÉTENCE
+			154 heading Formations, Value: 1
+				155 text Formations
+			156 text Deux catalogues pour vous former au mandat, et un mode où unii construit avec vous une session sur mesure, au rythme que vous choisissez.
+			157 tab group Formations
+				158 tab (selectable, settable, boolean) Catalogue IA 20, Value: 0
+				159 tab (selectable, settable, boolean) Formations généralistes 31, Value: 0
+				160 tab (selected, settable, boolean) Se former avec unii 1, Value: 1
+			161 button ← Mes sessions
+			162 text Premiers pas avec l’IA dans votre mandat CSE
+			163 text 30 min · Découverte · Élu·e CSE
+			164 text 0%
+			165 content list
+				166 button 1 1. Comprendre l’IA générative et ses limites 7 min
+					167 text 1
+					168 text 1. Comprendre l’IA générative et ses limites
+					169 text 7 min
+				170 button 2 2. Choisir un usage utile et protéger les informations 8 min
+					171 text 2
+					172 text 2. Choisir un usage utile et protéger les informations
+					173 text 8 min
+				174 button 3 3. Construire votre premier prompt syndical 7 min
+					175 text 3
+					176 text 3. Construire votre premier prompt syndical
+					177 text 7 min
+				178 button 4 4. Contrôler le résultat avant de l’utiliser 8 min
+					179 text 4
+					180 text 4. Contrôler le résultat avant de l’utiliser
+					181 text 8 min
+			182 text unii · 
+			183 text Bienvenue dans cette autoformation de 30 minutes : vous allez découvrir comment utiliser l’IA pour préparer votre travail d’élue CSE. Vous avancerez sur des cas concrets, en distinguant toujours un brouillon utile d’une information vérifiée.
+			184 text MODULE 1 SUR 4 · 7 MIN
+			185 heading 1. Comprendre l’IA générative et ses limites, Value: 2
+				186 text 1. Comprendre l’IA générative et ses limites
+			187 text Objectif : 
+			188 text Distinguer une aide à la rédaction d’une source fiable.
+			189 heading Un outil pour produire des propositions, Value: 3
+				190 text Un outil pour produire des propositions
+			191 text Une IA générative produit du contenu à partir d’une demande appelée « prompt ». Elle peut proposer un résumé, un plan ou une reformulation. Une réponse fluide ne garantit cependant pas son exactitude. Pour votre mandat, considérez donc chaque réponse comme un brouillon à examiner, et non comme une validation juridique. Source non vérifiée : contrôlez ces notions dans la documentation de l’outil utilisé.
+			192 heading Repérer ce qui reste à contrôler, Value: 3
+				193 text Repérer ce qui reste à contrôler
+			194 text Une IA peut produire une référence inexistante ou une explication inexacte, même avec un ton assuré. Demandez-lui de distinguer les informations présentes dans votre document, ses propositions et les éléments manquants. Contrôlez ensuite vous-même les passages importants. Cette méthode est une recommandation pédagogique, pas une garantie d’exactitude. Source non vérifiée pour les limites techniques : consultez la documentation de l’outil avant utilisation.
+			195 text CAS CONCRET
+			196 text Situation fictive : vous demandez si un refus de télétravail est valable. L’IA répond immédiatement « oui ». Ne retenez pas cette conclusion : demandez d’abord le texte applicable, le passage précis et les informations manquantes.
+			197 text À VOUS · EXERCICE D'APPLICATION
+			198 text En une minute, réécrivez « Dis-moi si l’employeur a raison » en une demande de préparation, sans confier à l’IA la décision juridique.
+			199 text entry area (settable) Propose une liste des informations à réunir avant analyse, puis un brouillon de questions, sans conclure sur le droit applicable.
+			200 button Relecture en cours…
+			201 text QUIZ
+			202 text Comment traiter une réponse bien rédigée contenant une référence juridique ?
+			203 button A. La diffuser puisque la référence est précise
+			204 button B. Vérifier la référence et son application avant de l’utiliser
+			205 button C. La considérer comme validée si elle est longue
+			206 button D. Demander seulement une présentation plus professionnelle
+			211 container
+				212 text Bonne réponse  ·  La pratique recommandée est de contrôler le texte cité et son application au cas. La qualité de rédaction ne doit pas servir de preuve.
+			207 button Module suivant →
+			208 text unii Une question sur ce module ?
+			209 text field (settable) Question à unii
+			210 button Demander
+
+The focused UI element is 204 button B. Vérifier la référence et son application avant de l’utiliser

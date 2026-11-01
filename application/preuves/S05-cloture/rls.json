@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "list_allowed",
+      "ok": true
+    },
+    {
+      "test": "owner_access",
+      "ok": true
+    },
+    {
+      "test": "request",
+      "ok": true
+    },
+    {
+      "test": "approved",
+      "ok": true
+    },
+    {
+      "test": "direct_rls_resource_hidden",
+      "ok": true
+    },
+    {
+      "test": "direct_rls_versions_hidden",
+      "ok": true
+    },
+    {
+      "test": "get_refused",
+      "ok": true
+    },
+    {
+      "test": "restore",
+      "ok": true
+    },
+    {
+      "test": "restored_read",
+      "ok": true
+    }
+  ],
+  "count": 11
+}

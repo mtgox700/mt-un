@@ -1,0 +1,100 @@
+[
+  {
+    "id": "SEC-01",
+    "scenario": "Utilisateur A demande un dossier B par son UUID dans API, export, recherche et base",
+    "attendu": "Refus sans fuite de titre, existence ou contenu ; aucune mutation",
+    "execution": "Non exécuté — socle production absent",
+    "preuve_attendue": "Assertions API et base avec deux organisations et plusieurs rôles ; vérifier aussi absence de mutation et de contenu dans logs/réponses"
+  },
+  {
+    "id": "SEC-02",
+    "scenario": "Insertion enfant org A pointant vers parent org B",
+    "attendu": "Échec de contrainte composite, même si une politique API est omise",
+    "execution": "Non exécuté — socle production absent",
+    "preuve_attendue": "Assertions API et base avec deux organisations et plusieurs rôles ; vérifier aussi absence de mutation et de contenu dans logs/réponses"
+  },
+  {
+    "id": "SEC-03",
+    "scenario": "Admin organisation A demande conversation privée A sans participation",
+    "attendu": "Refus malgré son rôle administratif",
+    "execution": "Non exécuté — socle production absent",
+    "preuve_attendue": "Assertions API et base avec deux organisations et plusieurs rôles ; vérifier aussi absence de mutation et de contenu dans logs/réponses"
+  },
+  {
+    "id": "SEC-04",
+    "scenario": "Super admin liste organisations puis demande contenu confidentiel sans habilitation métier",
+    "attendu": "Métadonnées de gestion autorisées ; contenu refusé",
+    "execution": "Non exécuté — socle production absent",
+    "preuve_attendue": "Assertions API et base avec deux organisations et plusieurs rôles ; vérifier aussi absence de mutation et de contenu dans logs/réponses"
+  },
+  {
+    "id": "SEC-05",
+    "scenario": "Modification org_id, propriétaire, rôle ou classification via champs supplémentaires",
+    "attendu": "Rejet de champs non autorisés ; état inchangé et opération auditée",
+    "execution": "Non exécuté — socle production absent",
+    "preuve_attendue": "Assertions API et base avec deux organisations et plusieurs rôles ; vérifier aussi absence de mutation et de contenu dans logs/réponses"
+  },
+  {
+    "id": "SEC-06",
+    "scenario": "Révocation membership pendant job IA/export en attente",
+    "attendu": "Pas de traitement ou livraison de contenu après recontrôle ; artefact inaccessible",
+    "execution": "Non exécuté — socle production absent",
+    "preuve_attendue": "Assertions API et base avec deux organisations et plusieurs rôles ; vérifier aussi absence de mutation et de contenu dans logs/réponses"
+  },
+  {
+    "id": "SEC-07",
+    "scenario": "Retrait ACL source après génération de résumé et indexation",
+    "attendu": "Résumé, recherche, export et notifications ne révèlent plus la source",
+    "execution": "Non exécuté — socle production absent",
+    "preuve_attendue": "Assertions API et base avec deux organisations et plusieurs rôles ; vérifier aussi absence de mutation et de contenu dans logs/réponses"
+  },
+  {
+    "id": "SEC-08",
+    "scenario": "Téléchargement objet B via chemin forgé, URL expirée et version antérieure",
+    "attendu": "Stockage privé refuse ; aucune ancienne version accessible hors droit",
+    "execution": "Non exécuté — socle production absent",
+    "preuve_attendue": "Assertions API et base avec deux organisations et plusieurs rôles ; vérifier aussi absence de mutation et de contenu dans logs/réponses"
+  },
+  {
+    "id": "SEC-09",
+    "scenario": "Abonnement temps réel A tente canal B ou perd son appartenance",
+    "attendu": "Événements B jamais reçus ; accès révoqué selon mécanisme testé",
+    "execution": "Non exécuté — socle production absent",
+    "preuve_attendue": "Assertions API et base avec deux organisations et plusieurs rôles ; vérifier aussi absence de mutation et de contenu dans logs/réponses"
+  },
+  {
+    "id": "SEC-10",
+    "scenario": "Changement de compte et organisation après synchronisation hors ligne",
+    "attendu": "Caches et clés séparés ; contenu précédent inaccessible au nouveau compte",
+    "execution": "Non exécuté — socle production absent",
+    "preuve_attendue": "Assertions API et base avec deux organisations et plusieurs rôles ; vérifier aussi absence de mutation et de contenu dans logs/réponses"
+  },
+  {
+    "id": "SEC-11",
+    "scenario": "Nouvel utilisateur tente attribution super admin ou rôle sensible à lui-même",
+    "attendu": "Refus ; rôle dérivé du serveur uniquement",
+    "execution": "Non exécuté — socle production absent",
+    "preuve_attendue": "Assertions API et base avec deux organisations et plusieurs rôles ; vérifier aussi absence de mutation et de contenu dans logs/réponses"
+  },
+  {
+    "id": "SEC-12",
+    "scenario": "Désactivation module suivie appel direct endpoint et job différé",
+    "attendu": "Opérations refusées sans suppression des données existantes",
+    "execution": "Non exécuté — socle production absent",
+    "preuve_attendue": "Assertions API et base avec deux organisations et plusieurs rôles ; vérifier aussi absence de mutation et de contenu dans logs/réponses"
+  },
+  {
+    "id": "SEC-13",
+    "scenario": "Publication page contenant fichier privé non approuvé",
+    "attendu": "Publication refusée ou asset exclu explicitement ; URL privée non diffusée",
+    "execution": "Non exécuté — socle production absent",
+    "preuve_attendue": "Assertions API et base avec deux organisations et plusieurs rôles ; vérifier aussi absence de mutation et de contenu dans logs/réponses"
+  },
+  {
+    "id": "SEC-14",
+    "scenario": "Webhook fournisseur rejoué avec identifiant d’objet autre organisation",
+    "attendu": "Signature vérifiée ; routage lié à commande serveur ; aucun doublon ni écriture croisée",
+    "execution": "Non exécuté — socle production absent",
+    "preuve_attendue": "Assertions API et base avec deux organisations et plusieurs rôles ; vérifier aussi absence de mutation et de contenu dans logs/réponses"
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "count": 21,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "create",
+      "ok": true
+    },
+    {
+      "test": "initial_clean",
+      "ok": true
+    },
+    {
+      "test": "reader_version_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "unknown_root_denied",
+      "ok": true
+    },
+    {
+      "test": "version_2",
+      "ok": true
+    },
+    {
+      "test": "stale_version_denied",
+      "ok": true
+    },
+    {
+      "test": "old_bytes_preserved",
+      "ok": true
+    },
+    {
+      "test": "new_bytes_exact",
+      "ok": true
+    },
+    {
+      "test": "reader_restore_denied",
+      "ok": true
+    },
+    {
+      "test": "restore_appends",
+      "ok": true
+    },
+    {
+      "test": "stale_restore_denied",
+      "ok": true
+    },
+    {
+      "test": "infected_new_version_blocked",
+      "ok": true
+    },
+    {
+      "test": "clean_current_preserved",
+      "ok": true
+    },
+    {
+      "test": "infected_restore_denied",
+      "ok": true
+    },
+    {
+      "test": "count_groups_not_versions",
+      "ok": true
+    },
+    {
+      "test": "history_persistent",
+      "ok": true
+    },
+    {
+      "test": "reader_no_download",
+      "ok": true
+    },
+    {
+      "test": "revoked_versions_denied",
+      "ok": true
+    }
+  ]
+}

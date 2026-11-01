@@ -1,0 +1,19 @@
+{
+  "integrite": {
+    "checked": 834,
+    "changed": [],
+    "passed": true
+  },
+  "preuves": {
+    "checked": 2007,
+    "changed": [],
+    "passed": true
+  },
+  "secrets": {
+    "files": 96,
+    "known_values_checked": 19,
+    "flagged_paths": [],
+    "passed": true,
+    "scope": "Known local fixture secrets and JWT pattern; not a proof of absence of every possible secret."
+  }
+}

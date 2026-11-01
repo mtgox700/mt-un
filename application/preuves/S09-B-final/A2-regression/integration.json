@@ -1,0 +1,231 @@
+{
+  "passed": true,
+  "count": 56,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "author_mfa",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reader_mfa",
+      "ok": true
+    },
+    {
+      "test": "meeting_created",
+      "ok": true
+    },
+    {
+      "test": "consent_saved",
+      "ok": true
+    },
+    {
+      "test": "meeting_author_has_no_implicit_audio",
+      "ok": true
+    },
+    {
+      "test": "manager_self_grant_refused",
+      "ok": true
+    },
+    {
+      "test": "audio_rights_granted",
+      "ok": true
+    },
+    {
+      "test": "stale_grant_refused",
+      "ok": true
+    },
+    {
+      "test": "manager_has_no_implicit_audio",
+      "ok": true
+    },
+    {
+      "test": "invalid_container_refused",
+      "ok": true
+    },
+    {
+      "test": "stale_consent_refused",
+      "ok": true
+    },
+    {
+      "test": "real_storage_and_scan",
+      "ok": true
+    },
+    {
+      "test": "listen_exact_bytes",
+      "ok": true
+    },
+    {
+      "test": "download_separate_refused",
+      "ok": true
+    },
+    {
+      "test": "idempotent_upload",
+      "ok": true
+    },
+    {
+      "test": "request_collision_refused",
+      "ok": true
+    },
+    {
+      "test": "download_granted",
+      "ok": true
+    },
+    {
+      "test": "download_exact_hash",
+      "ok": true
+    },
+    {
+      "test": "direct_storage_read_denied",
+      "ok": true
+    },
+    {
+      "test": "direct_storage_write_denied",
+      "ok": true
+    },
+    {
+      "test": "forged_scan_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_org_denied",
+      "ok": true
+    },
+    {
+      "test": "private_tables",
+      "ok": true
+    },
+    {
+      "test": "consent_snapshot",
+      "ok": true
+    },
+    {
+      "test": "scanner_outage_fails_closed",
+      "ok": true
+    },
+    {
+      "test": "pending_unreadable",
+      "ok": true
+    },
+    {
+      "test": "retry_real_scan_reuses_pending",
+      "ok": true
+    },
+    {
+      "test": "real_eicar_scanner_detection",
+      "ok": true
+    },
+    {
+      "test": "infected_verdict_blocks_audio",
+      "ok": true
+    },
+    {
+      "test": "blocked_persisted",
+      "ok": true
+    },
+    {
+      "test": "blocked_unreadable",
+      "ok": true
+    },
+    {
+      "test": "blocked_retry_refused",
+      "ok": true
+    },
+    {
+      "test": "audio_grant_revoked",
+      "ok": true
+    },
+    {
+      "test": "audio_revocation_denies_read",
+      "ok": true
+    },
+    {
+      "test": "audio_revocation_denies_upload",
+      "ok": true
+    },
+    {
+      "test": "audio_grant_restored",
+      "ok": true
+    },
+    {
+      "test": "disabled_module_denied",
+      "ok": true
+    },
+    {
+      "test": "suspended_member_denied",
+      "ok": true
+    },
+    {
+      "test": "meeting_acl_revoked_denied",
+      "ok": true
+    },
+    {
+      "test": "acl_restored_read",
+      "ok": true
+    },
+    {
+      "test": "restart_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "restart_mfa",
+      "ok": true
+    },
+    {
+      "test": "restart_read",
+      "ok": true
+    },
+    {
+      "test": "withdraw_consent",
+      "ok": true
+    },
+    {
+      "test": "withdrawal_blocks_audio",
+      "ok": true
+    },
+    {
+      "test": "renew_consent",
+      "ok": true
+    },
+    {
+      "test": "renewal_does_not_reactivate_old_take",
+      "ok": true
+    },
+    {
+      "test": "new_take_after_renewal",
+      "ok": true
+    },
+    {
+      "test": "withdraw_during_scan",
+      "ok": true
+    },
+    {
+      "test": "late_upload_withheld",
+      "ok": true
+    },
+    {
+      "test": "no_original_deleted",
+      "ok": true
+    }
+  ],
+  "audio": "synthetic PCM WAV; real ClamAV success and raw EICAR detection; explicit injected outage/infected verdict/race"
+}

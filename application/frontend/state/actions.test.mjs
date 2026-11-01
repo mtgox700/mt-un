@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {createModuleStores} from './module-stores.js';import {createActions as caseActions} from '../modules/cases/actions.js';import {createActions as themeActions} from '../modules/theme/actions.js';import {createContactMutations} from '../modules/contacts/mutations.js';import {createContactLinks} from '../modules/messaging/contact-links.js';
+let n=0;const test=(name,f)=>{f();console.log('PASS '+name);n++};
+const stores=createModuleStores({dossiers:[{id:'a',timeline:[],title:'Fictif'}],dossierId:'a',noteDraft:'  Note fictive  ',contacts:[{id:'c',name:'Avant'}],ctEdit:null,convos:[{id:'d',kind:'direct',contactId:'c'},{id:'g',kind:'group',memberIds:['c','z'],admins:['c']}],brand:{},brandDraft:{preset:'custom',accent2:'#fff',mode:'light',intranetInherit:true},brandLog:[],charte:{},webCharte:{}});
+const cases=caseActions(stores.module('cases'),{flash:()=>{}});
+test('note updates case and clears draft',()=>{cases.addNoteNow();assert.equal(stores.snapshot().dossiers[0].timeline[0].body,'Note fictive');assert.equal(stores.snapshot().noteDraft,'')});
+test('empty note ignored',()=>{cases.addNoteNow();assert.equal(stores.snapshot().dossiers[0].timeline.length,1)});
+test('current case fallback preserved',()=>{stores.module('cases').update({dossierId:'missing'});assert.equal(cases.currentDossier().id,'a')});
+const links=createContactLinks(stores.module('messaging'),{describe:c=>c});let notices=[];const contacts=createContactMutations(stores.module('contacts'),{flash:m=>notices.push(m),initialsOf:()=> 'TF',clock:()=>42,conversations:links,fallback:[]});
+test('empty contact name rejected',()=>{stores.module('contacts').update({ctEdit:{name:' '}});contacts.saveContact();assert.equal(stores.snapshot().contacts.length,1);assert.equal(notices.at(-1),'Le nom est requis')});
+test('contact creation',()=>{stores.module('contacts').update({ctEdit:{name:' Test fictif ',cat:'externe'}});contacts.saveContact();assert.equal(stores.snapshot().contacts[1].id,'c-42');assert.equal(stores.snapshot().contacts[1].name,'Test fictif')});
+test('contact rename updates direct conversation',()=>{stores.module('contacts').update({ctEdit:{id:'c',name:'Après'}});contacts.saveContact();assert.equal(stores.snapshot().contacts[0].name,'Après');assert.equal(stores.snapshot().convos[0].name,'Après')});
+test('contact removal updates group and direct links',()=>{contacts.deleteContact('c');assert.equal(stores.snapshot().convos.length,1);assert.deepEqual(stores.snapshot().convos[0].memberIds,['z']);assert.deepEqual(stores.snapshot().convos[0].admins,[])});
+test('contacts cannot write conversations directly',()=>assert.throws(()=>stores.module('contacts').update({convos:[]})));
+const theme=themeActions(stores.module('theme'),{wcStore:()=>({}),flash:()=>{}});
+test('theme publication preserves inheritance',()=>{theme.publishBrand();assert.equal(stores.snapshot().brand,stores.snapshot().brandDraft);assert.equal(stores.snapshot().webCharte.public.inherit,true);assert.equal(stores.snapshot().brandLog.length,1)});
+test('color conversion unchanged',()=>assert.deepEqual(theme.hexToHsl('#ff0000'),{h:0,s:100,l:50}));
+console.log(n+' action checks passed');

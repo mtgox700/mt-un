@@ -1,0 +1,70 @@
+- complementary:
+  - generic: uniion
+  - generic: Console d'administration
+  - navigation:
+    - button "Supervision":
+      - generic: Supervision
+    - button "Organisations":
+      - generic: Organisations
+    - button "Utilisateurs":
+      - generic: Utilisateurs
+    - button "Clés API IA":
+      - generic: Clés API IA
+    - button "Éditeur de l’application":
+      - generic: Éditeur de l’application
+    - button "Abonnements et paiements":
+      - generic: Abonnements et paiements
+    - button "Journal d’audit":
+      - generic: Journal d’audit
+  - generic: SA
+  - generic: Super administrateur
+  - generic: admin@uniion.fr
+  - button "Se déconnecter":
+- main:
+  - generic: Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+  - heading "Abonnements et paiements" [level=1]
+  - paragraph:
+    - text: "Revenu mensuel récurrent :"
+    - strong: 1 297 € HT
+    - text: .
+  - generic: Élu 1.0
+  - generic: 99 € HT/mois
+  - generic: "1"
+  - generic: abonnement(s)
+  - generic: Élu 2.0
+  - generic: Populaire
+  - generic: 199 € HT/mois
+  - generic: "1"
+  - generic: abonnement(s)
+  - generic: Élu 3.0
+  - generic: 499 € HT/mois
+  - generic: "0"
+  - generic: abonnement(s)
+  - generic: Élu 4.0
+  - generic: 999 € HT/mois
+  - generic: "1"
+  - generic: abonnement(s)
+  - generic: Métallurgie — Valenciennes
+  - generic: Élu 2.0 · 199 € HT/mois · Actif
+  - button "Émettre une facture"
+  - button "Relancer"
+  - button "Élu 1.0"
+  - button "Élu 2.0"
+  - button "Élu 3.0"
+  - button "Élu 4.0"
+  - generic: UD 59 — Lille
+  - generic: Élu 4.0 · 999 € HT/mois · Actif
+  - button "Émettre une facture"
+  - button "Relancer"
+  - button "Élu 1.0"
+  - button "Élu 2.0"
+  - button "Élu 3.0"
+  - button "Élu 4.0"
+  - generic: CSE Brasserie du Nord
+  - generic: Élu 1.0 · 99 € HT/mois · Essai — 12 j restants
+  - button "Émettre une facture"
+  - button "Relancer"
+  - button "Élu 1.0"
+  - button "Élu 2.0"
+  - button "Élu 3.0"
+  - button "Élu 4.0"

@@ -1,0 +1,163 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		6 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				557 container
+					682 text SM
+					683 heading Sophie Marchand, Value: 1
+						684 text Sophie Marchand
+					685 text Déléguée syndicale · Secrétaire de section
+					686 text Mandat Élue titulaire · 2024 — 2028 Fonction Secrétaire du CSE Organisation Section syndicale Métallurgie — Valenciennes Convention collective 3109 — Métallurgie (convention collective nationale) Commissions Négociation · SSCT Coordonnées visibles par les autres élus
+					687 button
+					688 heading Informations de l'organisation, Value: 2
+						689 text Informations de l'organisation
+					805 button Modifier
+					691 text SECTION MÉTA VAL · 24 sièges · 1 240 salariés
+					692 text NATURE DE L'ORGANISATION
+					693 checkbox CSE, Value: 0
+					694 checkbox Union départementale, Value: 0
+					695 checkbox Section syndicale, Value: 1
+					696 text Section d'entreprise ou d'établissement. Vocabulaire : adhérents, militants, réunion de section, cotisations.
+					806 text Dénomination Section syndicale Métallurgie — Valenciennes Sigle SECTION MÉTA VAL SIRET 412 857 336 00021 Convention collective 3109 — Métallurgie (convention collective nationale) Effectif de l'établissement 1 240 Sièges au CSE 24 Début du mandat 15 janvier 2024 Fin du mandat 14 janvier 2028 Adresse du local Local syndical — 12 rue de la Fonderie, 59300 Valenciennes Courriel de l'instance section@syndicat-valenciennes.fr Téléphone 03 27 14 88 20 Secrétaire Sophie Marchand Trésorier Karim Benali
+					807 text La convention collective renseignée ici détermine le corpus interrogé par l'assistant juridique. Les en-têtes de documents et les pages intranet reprennent la dénomination et l'adresse.
+					699 heading Mon activité — août, Value: 2
+						700 text Mon activité — août
+					701 text 12
+					702 text dossiers clos
+					703 text 38
+					704 text questions IA
+					705 text 5
+					706 text documents générés
+					707 text 2
+					708 text sondages lancés
+					709 heading Signature des documents, Value: 2
+						710 text Signature des documents
+					711 text Reprise automatiquement en pied des tracts et courriers générés.
+					712 container
+						713 text Sophie Marchand
+						714 text Déléguée syndicale — Section de Valenciennes
+						715 text sophie.marchand@cse-valenciennes.fr
+					716 button Signer un document
+					717 button Modifier la signature
+					718 heading Session, Value: 2
+						719 text Session
+					720 text Ouverte depuis iPhone 15 — Valenciennes. La déconnexion purge le cache local chiffré.
+					721 button Se déconnecter
+					722 heading Données de démonstration, Value: 2
+						723 text Données de démonstration
+					724 container
+						725 text Cette maquette conserve vos saisies (dossiers,  adhérents , événements, identité de marque) dans le navigateur, sur cet appareil uniquement. Rien n'est envoyé à un serveur.
+					726 button Réinitialiser la démonstration
+					727 heading Abonnement et paiements, Value: 2
+						728 text Abonnement et paiements
+					729 container
+						730 text Formule  Élu 2.0  —  199 € HT / mois .  Prochaine échéance le 01/10/2026 .
+					731 text La puissance de l'IA pour augmenter votre expertise.
+					732 button Mensuel
+					733 button Annuel (2 mois offerts)
+					734 text Élu 1.0
+					735 text 99 € HT/mois
+					736 text L'essentiel pour structurer votre activité d'élu.
+					737 button Revenir à Élu 1.0
+					738 button Découvrir l'offre
+					739 image
+					740 text Gestion des demandes (Kanban)
+					741 image
+					742 text Agenda partagé
+					743 image
+					744 text Base documentaire
+					745 image
+					746 text 5 dossiers inclus* POPULAIRE VOTRE FORMULE
+					747 text Élu 2.0
+					748 text 199 € HT/mois
+					749 text La puissance de l'IA pour augmenter votre expertise.
+					750 text Formule actuelle
+					751 button Demander une démo
+					752 image
+					753 text Tout Élu 1.0 +
+					754 image
+					755 text Assistant Syndicaliste IA
+					756 image
+					757 text Génération de courriers
+					758 image
+					759 text Analyse juridique instantanée
+					760 text Élu 3.0
+					761 text 499 € HT/mois
+					762 text Un expert humain dédié pour les situations complexes.
+					763 button Passer à Élu 3.0
+					764 button Échanger avec un expert
+					765 image
+					766 text Tout Élu 2.0 +
+					767 image
+					768 text Consultant dédié
+					769 image
+					770 text Relecture stratégique
+					771 image
+					772 text Assistance négociation
+					773 text Élu 4.0
+					774 text 999 € HT/mois
+					775 text La solution complète pour transformer votre organisation.
+					776 button Passer à Élu 4.0
+					777 button Construire mon offre
+					778 image
+					779 text Tout inclus
+					780 image
+					781 text Solution Complète
+					782 image
+					783 text Support prioritaire 24/7
+					784 image
+					785 text Formation sur site
+					786 image
+					787 text API & Intégrations
+					788 text * Au-delà, 9 € HT par dossier supplémentaire. Prix hors taxes, TVA 20 %. Résiliation à tout moment, effet en fin de période.
+					789 heading Moyen de paiement, Value: 3
+						790 text Moyen de paiement
+					791 text Visa •••• •••• •••• 4417 Expire  08/2029  ·  Section Métallurgie Valenciennes
+					792 button Modifier le moyen de paiement
+					793 text Paiement traité par un prestataire européen conforme DSP2. Aucun numéro de carte n'est stocké par uniion.
+					794 heading Factures, Value: 3
+						795 text Factures
+					796 button Tout exporter
+					797 text FA-2026-0091 01/09/2026  ·  238,80 € Payée
+					798 button PDF
+					799 text FA-2026-0082 01/08/2026  ·  238,80 € Payée
+					800 button PDF
+					801 text FA-2026-0074 01/07/2026  ·  238,80 € Payée
+					802 button PDF
+					803 text FA-2026-0066 01/06/2026  ·  118,80 € Payée
+					804 button PDF
+				112 container
+					554 button Accueil
+						555 image
+						556 text Accueil
+					221 button Dossiers
+						222 image
+						223 text Dossiers
+					318 button Agenda
+						319 image
+						320 text Agenda
+					410 button Réunions
+						411 image
+						412 text Réunions
+					679 button Réglages
+						680 image
+						681 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

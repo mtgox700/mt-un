@@ -1,0 +1,3 @@
+import assert from 'node:assert/strict';import vm from 'node:vm';import fs from 'node:fs';
+const context={window:{}};vm.runInNewContext(fs.readFileSync(new URL('../rights/shared-content.js',import.meta.url),'utf8'),context);
+const render=context.window.SharedContent.render;const simple=render({body:{text:'<img src=x onerror=alert(1)>\nDeuxième ligne'}});assert.ok(simple.includes('&lt;img'));assert.ok(!simple.includes('<img'));assert.ok(simple.includes('<br>'));assert.ok(render({kind:'docs',body:{blocks:[{type:'p',text:'<script>bad</script>'}]}}).includes('&lt;script&gt;'));console.log('4 safe rendering assertions passed');

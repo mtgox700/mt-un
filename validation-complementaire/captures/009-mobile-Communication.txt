@@ -1,0 +1,141 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		6 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+						413 text unii
+						414 text 1
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				21 container
+					415 text UNII SUGGÈRE
+					416 button 2 idées à transformer en publication
+					417 text MOINS D'ADMINISTRATIF, PLUS DE TERRAIN
+					418 heading Communication, Value: 1
+						419 text Communication
+					420 text Planifiez, rédigez et diffusez la communication de la section vers les salariés et les adhérents. unii accélère l'écriture, l'équipe uniion peut prendre le relais.
+					421 tab group Communication
+						422 tab (selected, settable, boolean) Plan éditorial 6, Value: 1
+						423 tab (selectable, settable, boolean) Atelier de contenus, Value: 0
+						424 tab (selectable, settable, boolean) Pôle communication, Value: 0
+					425 heading Octobre 2026, Value: 2
+						426 text Octobre 2026
+					427 text 1 publication en attente de validation du bureau
+					428 button + Nouvelle publication
+					429 checkbox Tout · 6, Value: 1
+					430 checkbox Idée · 2, Value: 0
+					431 checkbox Brouillon · 1, Value: 0
+					432 checkbox À valider · 1, Value: 0
+					433 checkbox Programmé · 1, Value: 0
+					434 checkbox Publié · 1, Value: 0
+					435 container
+						436 text VEN. 2 oct.
+						437 button Publié, Help: Passer à « Idée »
+						438 text Fédérer
+						439 heading Tournée des ateliers : merci pour votre accueil, Value: 3
+							440 text Tournée des ateliers : merci pour votre accueil
+						441 text Post réseau social · Page de la section
+						442 button Rédiger avec unii
+						443 button Retirer
+					444 container
+						445 text MAR. 6 oct.
+						446 button À valider, Help: Passer à « Programmé »
+						447 text Informer
+						448 heading Réunion CSE du 29 septembre : nos interventions et vos questions, Value: 3
+							449 text Réunion CSE du 29 septembre : nos interventions et vos questions
+						450 text Résumé de PV · Intranet + affichage
+						451 button Rédiger avec unii
+						452 button Retirer
+					453 container
+						454 text VEN. 9 oct.
+						455 button Brouillon, Help: Passer à « À valider »
+						456 text Informer
+						457 heading Permanence syndicale : les nouveaux horaires, Value: 3
+							458 text Permanence syndicale : les nouveaux horaires
+						459 text Affiche / flyer · Affichage sur site
+						460 button Rédiger avec unii
+						461 button Retirer
+					462 container
+						463 text MER. 14 oct.
+						464 button Idée, Help: Passer à « Brouillon »
+						465 text Engager
+						466 heading NAO 2027 : vos priorités en trois questions, Value: 3
+							467 text NAO 2027 : vos priorités en trois questions
+						468 text Sondage · Application uniion
+						469 button Rédiger avec unii
+						470 button Retirer
+					471 container
+						472 text MAR. 20 oct.
+						473 button Programmé, Help: Passer à « Publié »
+						474 text Fédérer
+						475 heading Assemblée générale de section du 7 novembre, Value: 3
+							476 text Assemblée générale de section du 7 novembre
+						477 text Newsletter · E-mail aux adhérents
+						478 button Rédiger avec unii
+						479 button Retirer
+					480 container
+						481 text MAR. 27 oct.
+						482 button Idée, Help: Passer à « Brouillon »
+						483 text Informer
+						484 heading Heures supplémentaires : ce que prévoit l'accord, Value: 3
+							485 text Heures supplémentaires : ce que prévoit l'accord
+						486 text Article intranet · Intranet
+						487 button Rédiger avec unii
+						488 button Retirer
+					489 text Cliquez sur un statut pour le faire avancer : Idée → Brouillon → À valider → Programmé → Publié.
+					490 heading Temps forts du mandat, Value: 2
+						491 text Temps forts du mandat
+					492 text Les rendez-vous qui méritent une prise de parole. Ajoutez-les en idée ou rédigez-les tout de suite.
+					493 text Compte rendu de la réunion CSE
+					494 button Description: Ajouter au plan, Help: Ajouter au plan en idée
+					495 button Rédiger
+					496 text Point d'étape NAO
+					497 button Description: Ajouter au plan, Help: Ajouter au plan en idée
+					498 button Rédiger
+					499 text Campagne d'adhésion
+					500 button Description: Ajouter au plan, Help: Ajouter au plan en idée
+					501 button Rédiger
+					502 text Permanence syndicale
+					503 button Description: Ajouter au plan, Help: Ajouter au plan en idée
+					504 button Rédiger
+					505 text Assemblée générale de section
+					506 button Description: Ajouter au plan, Help: Ajouter au plan en idée
+					507 button Rédiger
+					508 text Une question, une réponse : droit du travail
+					509 button Description: Ajouter au plan, Help: Ajouter au plan en idée
+					510 button Rédiger
+					511 text Élections professionnelles : nos candidats
+					512 button Description: Ajouter au plan, Help: Ajouter au plan en idée
+					513 button Rédiger
+				112 container
+					514 button Accueil
+						515 image
+						516 text Accueil
+					221 button Dossiers
+						222 image
+						223 text Dossiers
+					318 button Agenda
+						319 image
+						320 text Agenda
+					410 button Réunions
+						411 image
+						412 text Réunions
+					125 button Réglages
+						126 image
+						127 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

@@ -1,0 +1,63 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - generic: Convention collective
+  - generic: Source de l'Assistant
+  - heading "Convention collective Métallurgie 2026" [level=1]
+  - paragraph: IDCC 3248 · PDF 12,4 Mo · disponible hors ligne
+  - paragraph: Avenant salaires de branche du 12 juin 2026 intégré
+  - generic: Art. 62 — Classifications
+  - generic: La grille de classification repose sur six degrés d'exigence. Toute évolution de poste donne lieu à un réexamen du positionnement.
+  - generic: Art. 104 — Prime d'ancienneté
+  - generic: Le taux progresse de 3 % après trois ans de présence, puis de 1 % par année supplémentaire dans la limite de 15 %.
+  - button "Analyser sans identité"
+  - button "Joindre à un dossier"
+  - button "Télécharger"
+  - button "Rendre disponible hors ligne"

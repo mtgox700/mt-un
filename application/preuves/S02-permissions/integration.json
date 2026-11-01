@@ -1,0 +1,118 @@
+{
+  "checks": [
+    {
+      "test": "anonymous_refused",
+      "ok": true
+    },
+    {
+      "test": "admin_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_refused",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "admin_mfa",
+      "ok": true
+    },
+    {
+      "test": "member_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "member_mfa",
+      "ok": true
+    },
+    {
+      "test": "member_rights_read_refused",
+      "ok": true
+    },
+    {
+      "test": "member_mutation_refused",
+      "ok": true
+    },
+    {
+      "test": "self_escalation_refused",
+      "ok": true
+    },
+    {
+      "test": "foreign_organization_refused",
+      "ok": true
+    },
+    {
+      "test": "unowned_write_refused",
+      "ok": true
+    },
+    {
+      "test": "nondelegable_authority_refused",
+      "ok": true
+    },
+    {
+      "test": "batch_rollback_refusal",
+      "ok": true
+    },
+    {
+      "test": "batch_atomic",
+      "ok": true
+    },
+    {
+      "test": "permission_authorized",
+      "ok": true
+    },
+    {
+      "test": "permission_alone_no_resource",
+      "ok": true
+    },
+    {
+      "test": "history_without_authority_refused",
+      "ok": true
+    },
+    {
+      "test": "duration_escalation_refused",
+      "ok": true
+    },
+    {
+      "test": "resource_grant_authorized",
+      "ok": true
+    },
+    {
+      "test": "real_resource_access",
+      "ok": true
+    },
+    {
+      "test": "authority_delegation_authorized",
+      "ok": true
+    },
+    {
+      "test": "authority_no_redelegation",
+      "ok": true
+    },
+    {
+      "test": "resource_revoke_authorized",
+      "ok": true
+    },
+    {
+      "test": "existing_session_loses_access",
+      "ok": true
+    },
+    {
+      "test": "direct_rpc_refused",
+      "ok": true
+    },
+    {
+      "test": "forged_delegable_field_refused",
+      "ok": true
+    }
+  ],
+  "count": 28,
+  "passed": true
+}

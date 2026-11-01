@@ -1,0 +1,149 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			165 button Formations
+				166 image
+				167 text Formations
+			168 button Communication
+				169 image
+				170 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			162 button Raccourcis
+				163 image
+				164 text Raccourcis
+			144 button Réglages
+				145 image
+				146 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				171 text unii
+				172 text 1
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			173 text UNII SUGGÈRE
+			174 button 2 idées à transformer en publication
+			175 text MOINS D'ADMINISTRATIF, PLUS DE TERRAIN
+			176 heading Communication, Value: 1
+				177 text Communication
+			178 text Planifiez, rédigez et diffusez la communication de la section vers les salariés et les adhérents. unii accélère l'écriture, l'équipe uniion peut prendre le relais.
+			179 tab group Communication
+				180 tab (selectable, settable, boolean) Plan éditorial 6, Value: 0
+				181 tab (selected, settable, boolean) Atelier de contenus, Value: 1
+				182 tab (selectable, settable, boolean) Pôle communication, Value: 0
+			183 heading Nouvelle publication, Value: 2
+				184 text Nouvelle publication
+			185 text FORMAT
+			186 checkbox Post réseau social, Value: 1
+			187 checkbox Article intranet, Value: 0
+			188 checkbox Newsletter, Value: 0
+			189 checkbox Affiche / flyer, Value: 0
+			190 checkbox Résumé de PV, Value: 0
+			191 checkbox Script vidéo courte, Value: 0
+			192 checkbox Sondage, Value: 0
+			193 text OBJECTIF
+			194 checkbox Informer, Help: Rendre clair ce qui ne l'est pas, même un PV indigeste, Value: 1
+			195 checkbox Fédérer, Help: Créer des rendez-vous qui rapprochent élus et salariés, Value: 0
+			196 checkbox Valoriser, Help: Montrer les actions, avantages et initiatives, Value: 0
+			197 checkbox Engager, Help: Donner envie de participer, de répondre, de venir, Value: 0
+			198 text Rendre clair ce qui ne l'est pas, même un PV indigeste
+			199 text CANAL DE DIFFUSION
+			200 checkbox Intranet, Value: 1
+			201 checkbox E-mail aux adhérents, Value: 0
+			202 checkbox Page de la section, Value: 0
+			203 checkbox LinkedIn, Value: 0
+			204 checkbox Affichage sur site, Value: 0
+			205 checkbox Application uniion, Value: 0
+			206 text SUJET ET ÉLÉMENTS CLÉS
+			207 text entry area (settable) Exemple entièrement fictif pour recette : annoncer un atelier de découverte du rôle des élus mardi à 10 h salle A.
+			208 button Compte rendu de la réunion CSE
+			209 button Point d'étape NAO
+			210 button Campagne d'adhésion
+			211 button Permanence syndicale
+			212 button Assemblée générale de section
+			213 text TON
+			214 checkbox Direct, Value: 1
+			215 checkbox Chaleureux, Value: 0
+			216 checkbox Institutionnel, Value: 0
+			217 container
+				218 text DATE DE DIFFUSION
+				219 date field (settable) DATE DE DIFFUSION, Value: 2026-10-16
+					220 container
+						221 stepper
+						222 stepper
+						223 stepper
+					224 pop up button Show date picker Show date picker
+			225 button Proposer une autre version
+			226 button Retour au plan
+			227 container
+				228 text Noms et identifiants sont anonymisés avant l'envoi à l'IA. unii écrit avec le vocabulaire des  représentants syndicaux  : PV, plénière, ASC, NAO, BDESE — chaque sigle est expliqué aux salariés.
+			229 heading Proposition, Value: 2
+				230 text Proposition
+			231 text Post réseau social · Intranet · Informer
+			232 text Trame type — l'IA n'a pas répondu. Complétez les passages entre crochets.
+			233 container
+				234 text TITRE
+				235 text field (settable) TITRE, Value: Exemple entièrement fictif pour recette : annoncer un atelier de découverte du rôle des élus mardi à 10 h salle A.
+			236 container
+				237 text ACCROCHE
+				238 text field (settable) ACCROCHE, Value: Ce qu'il faut retenir, en clair.
+			239 container
+				240 text TEXTE
+				241 text entry area (settable) TEXTE, Value: Exemple entièrement fictif pour recette : annoncer un atelier de découverte du rôle des élus mardi à 10 h salle A. : vos représentants syndicaux vous résument l'essentiel. Trois points à retenir, les dates utiles et ce que cela change pour vous au quotidien. [Complétez avec les éléments du dossier ou du PV.]
+			242 container
+				243 text APPEL À L'ACTION
+				244 text field (settable) APPEL À L'ACTION, Value: Une question ? Passez nous voir ou écrivez-nous depuis l'application.
+			245 container
+				246 text Visuel conseillé ·  Photo d'équipe ou pictogramme simple, titre court en surimpression, couleurs de l'identité.
+			247 button Ajouter au plan éditorial
+			248 button Copier
+			249 button Confier la mise en forme au pôle
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

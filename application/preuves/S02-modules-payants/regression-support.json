@@ -1,0 +1,162 @@
+{
+  "passed": true,
+  "count": 39,
+  "checks": [
+    {
+      "test": "anonymous_assign_denied",
+      "ok": true
+    },
+    {
+      "test": "manager_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_assign_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "manager_mfa",
+      "ok": true
+    },
+    {
+      "test": "clear_assignments",
+      "ok": true
+    },
+    {
+      "test": "agent_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "agent_mfa",
+      "ok": true
+    },
+    {
+      "test": "unassigned_request_denied",
+      "ok": true
+    },
+    {
+      "test": "unassigned_context_denied",
+      "ok": true
+    },
+    {
+      "test": "agent_self_assignment_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_assignment_denied",
+      "ok": true
+    },
+    {
+      "test": "unknown_agent_denied",
+      "ok": true
+    },
+    {
+      "test": "named_assignment",
+      "ok": true
+    },
+    {
+      "test": "assignment_no_business_access",
+      "ok": true
+    },
+    {
+      "test": "empty_reason_denied",
+      "ok": true
+    },
+    {
+      "test": "long_reason_denied",
+      "ok": true
+    },
+    {
+      "test": "wrong_org_request_denied",
+      "ok": true
+    },
+    {
+      "test": "request_created",
+      "ok": true
+    },
+    {
+      "test": "duplicate_pending_denied",
+      "ok": true
+    },
+    {
+      "test": "agent_request_only_own",
+      "ok": true
+    },
+    {
+      "test": "agent_cannot_reject",
+      "ok": true
+    },
+    {
+      "test": "manager_reject",
+      "ok": true
+    },
+    {
+      "test": "request_after_rejection",
+      "ok": true
+    },
+    {
+      "test": "approval",
+      "ok": true
+    },
+    {
+      "test": "pending_marked_approved",
+      "ok": true
+    },
+    {
+      "test": "read_authorized",
+      "ok": true
+    },
+    {
+      "test": "withdraw_assignment",
+      "ok": true
+    },
+    {
+      "test": "withdraw_blocks_read",
+      "ok": true
+    },
+    {
+      "test": "reassign",
+      "ok": true
+    },
+    {
+      "test": "reassign_no_reactivation",
+      "ok": true
+    },
+    {
+      "test": "fresh_request",
+      "ok": true
+    },
+    {
+      "test": "close",
+      "ok": true
+    },
+    {
+      "test": "closed_cancels_pending",
+      "ok": true
+    },
+    {
+      "test": "closed_assignment_denied",
+      "ok": true
+    },
+    {
+      "test": "closed_request_denied",
+      "ok": true
+    },
+    {
+      "test": "reopen",
+      "ok": true
+    },
+    {
+      "test": "reopen_no_pending_resurrection",
+      "ok": true
+    }
+  ]
+}

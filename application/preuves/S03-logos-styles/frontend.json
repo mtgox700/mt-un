@@ -1,0 +1,127 @@
+[
+  {
+    "suite": "module-contract.test.mjs",
+    "passed": true,
+    "output": "6 module contract checks passed\n"
+  },
+  {
+    "suite": "actions.test.mjs",
+    "passed": true,
+    "output": "PASS note updates case and clears draft\nPASS empty note ignored\nPASS current case fallback preserved\nPASS empty contact name rejected\nPASS contact creation\nPASS contact rename updates direct conversation\nPASS contact removal updates group and direct links\nPASS contacts cannot write conversations directly\nPASS theme publication preserves inheritance\nPASS color conversion unchanged\n10 action checks passed\n"
+  },
+  {
+    "suite": "admin-import.test.mjs",
+    "passed": true,
+    "output": "9 administrative import assertions passed\n"
+  },
+  {
+    "suite": "admin-presenter.test.mjs",
+    "passed": true,
+    "output": "PASS member summary and pending count\nPASS onboarding imports through explicit contacts port\nPASS suspend and reactivate preserve other member\nPASS invited action preserves status\nPASS removal callback scoped to selected member\nPASS invitation delegates shared overlay\nPASS site selection uses explicit host port\nPASS admin cannot mutate contacts\n8 administrative presenter checks passed\n"
+  },
+  {
+    "suite": "agenda-home.test.mjs",
+    "passed": true,
+    "output": "Agenda home: ordering, expired events, opening, isolated presenter, action dispatch, late response and refusal OK\n"
+  },
+  {
+    "suite": "agenda-workflows.test.mjs",
+    "passed": true,
+    "output": "Agenda workflows: durable edit, conflict, read-only, cleanup, campaign and conversation transition OK\nLate logo read after identity cleanup ignored.\n"
+  },
+  {
+    "suite": "agenda.test.mjs",
+    "passed": true,
+    "output": "Agenda service: load, save, refusal, clearing, deletion and export safeguards OK\n"
+  },
+  {
+    "suite": "auth-resume.test.mjs",
+    "passed": true,
+    "output": "6 resume assertions passed\n"
+  },
+  {
+    "suite": "campaign-presenter.test.mjs",
+    "passed": true,
+    "output": "PASS recipient summary capped at eight\nPASS subject input updates module\nPASS channel changes preview\nPASS attachment toggle\nPASS send uses campaign service\nPASS cancel preserves route\nPASS bulletin opens document port\n7 campaign presenter checks passed\n"
+  },
+  {
+    "suite": "campaigns-ai.test.mjs",
+    "passed": true,
+    "output": "PASS selected recipients resolved\nPASS campaign creates direct thread and journal\nPASS no recipients refuses delivery\nPASS empty subject refuses delivery\nPASS contacts cannot directly write conversations\nPASS residual identity blocks AI\nPASS one in-flight call and origin preserved\nPASS AI failure visible and busy cleared\nPASS JSON envelope preserved\nPASS invalid JSON refused\n10 campaign/AI checks passed\n"
+  },
+  {
+    "suite": "identity-edits.test.mjs",
+    "passed": true,
+    "output": "11 edit assertions passed\n"
+  },
+  {
+    "suite": "identity-s01.test.mjs",
+    "passed": true,
+    "output": "10 identity hydration assertions passed\n"
+  },
+  {
+    "suite": "invitation.test.mjs",
+    "passed": true,
+    "output": "PASS closed by default\nPASS opening resets draft\nPASS empty submission refused\nPASS role selection isolated\nPASS input clears error\nPASS submission remains simulation without member creation\nPASS duplicate submit ignored\nPASS follow closes and navigates\nPASS reopening clears prior completion and choice\nPASS cancel leaves other overlays and contacts intact\n10 invitation checks passed\n"
+  },
+  {
+    "suite": "invitations-s01.test.mjs",
+    "passed": true,
+    "output": "PASS bad organization rejected\nPASS invalid addresses fail before network\nPASS anonymous session refused\nPASS same origin csrf exact payload and deduplication\nPASS denial surfaced without false success\n5 S01 transport checks passed\n"
+  },
+  {
+    "suite": "member-filter.test.mjs",
+    "passed": true,
+    "output": "PASS initial list\nPASS company filter resets page\nPASS combined filters exclude mismatches\nPASS case insensitive text search\nPASS selection toggles without changing data\nPASS detail lookup\nPASS criteria labels retained\n7 member filter checks passed\n"
+  },
+  {
+    "suite": "member-management.test.mjs",
+    "passed": true,
+    "output": "PASS edit uses separate draft\nPASS invalid email rejected\nPASS valid edit saved\nPASS cancel discards changes\nPASS paid updates status\nPASS empty import does nothing\nPASS duplicate csv refused\nPASS sample loading does not import\n8 management checks passed\nPASS admin duplicate checked case insensitively against members\nPASS existing adherent may become an organisation member\n10 total management checks passed\n"
+  },
+  {
+    "suite": "members-s01.test.mjs",
+    "passed": true,
+    "output": "13 assertions passed\n"
+  },
+  {
+    "suite": "menus.test.mjs",
+    "passed": true,
+    "output": "PASS reply closes menu and preserves snippet\nPASS private reply uses contact port\nPASS forward initializes selection\nPASS case picker uses dedicated port\nPASS picker lists and routes selected case\nPASS picker filters without mutating cases\nPASS picker creates with preserved payload\nPASS picker closes without deleting content\nPASS copy delegates clipboard\n9 menu checks passed\n"
+  },
+  {
+    "suite": "messaging.test.mjs",
+    "passed": true,
+    "output": "PASS open clears unread and selects thread\nPASS empty message ignored\nPASS send preserves reply and clears composer\nPASS AI mention delegated explicitly\nPASS direct existing conversation reused\nPASS new direct conversation isolated\nPASS forward to selected discussion\nPASS group validation\nPASS group creation\nPASS member removal updates membership and log\nPASS thread to case passes context through port\nPASS messaging cannot write dossiers\nPASS case busy flag prevents duplicate creation\nPASS async case result stored in cases only\nPASS AI failure preserves case fallback\n15 messaging checks passed\nPASS broadcast delegates contact journal and preserves delivery metadata\nFINAL 16 messaging checks passed\n"
+  },
+  {
+    "suite": "module-stores.test.mjs",
+    "passed": true,
+    "output": "PASS restricted module read\nPASS foreign write refused\nPASS state snapshot immutable\nPASS deep mutation denied\nPASS seed not retained mutable\nPASS unknown module refused\nPASS compatibility inaccessible to modules\nPASS case update isolated\nPASS selected case update\nPASS unknown case not created\nPASS flat compatibility projection\nPASS cross module transaction notifies once\nPASS prototype pollution refused atomically\nPASS navigation records route\nPASS back restores previous route\nPASS separate instances isolated\n16 checks passed\nPASS contacts independent lookup\nPASS static group selection\nPASS dynamic group filtering\nPASS theme site inheritance\nPASS theme draft isolated from published\nPASS theme cannot overwrite contacts\nTOTAL 22 checks passed\nPASS shallow frozen input cannot bypass nested isolation\nFINAL 23 checks passed\n"
+  },
+  {
+    "suite": "navigation-guard.test.mjs",
+    "passed": true,
+    "output": "12 guarded navigation assertions passed\n"
+  },
+  {
+    "suite": "permissions-navigation.test.mjs",
+    "passed": true,
+    "output": "6 navigation assertions passed\n"
+  },
+  {
+    "suite": "presenters.test.mjs",
+    "passed": true,
+    "output": "PASS list rendered from owned state\nPASS list action uses navigation port\nPASS filter searches message content\nPASS message selection updates owned state\nPASS selection cleared by assistant panel\nPASS closed modals return empty view models\n6 presenter checks passed\n"
+  },
+  {
+    "suite": "publication-notices.test.mjs",
+    "passed": true,
+    "output": "Publication notices: authorized opening, durable read command, atomic read-all and cleanup OK\n"
+  },
+  {
+    "suite": "shared-content.test.mjs",
+    "passed": true,
+    "output": "4 safe rendering assertions passed\n"
+  }
+]

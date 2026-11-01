@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "test": "http_bootstrap",
+      "ok": true
+    },
+    {
+      "test": "cookie_http_only",
+      "ok": true
+    },
+    {
+      "test": "http_login",
+      "ok": true
+    },
+    {
+      "test": "http_read_authorized",
+      "ok": true
+    },
+    {
+      "test": "http_foreign_org_denied",
+      "ok": true
+    },
+    {
+      "test": "http_bad_origin_denied",
+      "ok": true
+    },
+    {
+      "test": "http_logout",
+      "ok": true
+    },
+    {
+      "test": "http_after_logout_denied",
+      "ok": true
+    },
+    {
+      "test": "http_no_cache",
+      "ok": true
+    }
+  ],
+  "passed": true,
+  "count": 9
+}

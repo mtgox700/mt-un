@@ -1,0 +1,566 @@
+{
+  "passed": true,
+  "count": 140,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "admin_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "activate",
+      "ok": true
+    },
+    {
+      "test": "reunions_native_persisted",
+      "ok": true
+    },
+    {
+      "test": "communication_native_persisted",
+      "ok": true
+    },
+    {
+      "test": "mobile_native_persisted",
+      "ok": true
+    },
+    {
+      "test": "formations_native_persisted",
+      "ok": true
+    },
+    {
+      "test": "sondages_native_persisted",
+      "ok": true
+    },
+    {
+      "test": "intranet_native_persisted",
+      "ok": true
+    },
+    {
+      "test": "reporting_native_persisted",
+      "ok": true
+    },
+    {
+      "test": "raccourcis_native_persisted",
+      "ok": true
+    },
+    {
+      "test": "acc-week_native_generation",
+      "ok": true
+    },
+    {
+      "test": "acc-week_history",
+      "ok": true
+    },
+    {
+      "test": "acc-first_native_generation",
+      "ok": true
+    },
+    {
+      "test": "acc-first_history",
+      "ok": true
+    },
+    {
+      "test": "dos-next_native_generation",
+      "ok": true
+    },
+    {
+      "test": "dos-next_history",
+      "ok": true
+    },
+    {
+      "test": "dos-sum_native_generation",
+      "ok": true
+    },
+    {
+      "test": "dos-sum_history",
+      "ok": true
+    },
+    {
+      "test": "dos-delais_native_generation",
+      "ok": true
+    },
+    {
+      "test": "dos-delais_history",
+      "ok": true
+    },
+    {
+      "test": "dos-mail_native_generation",
+      "ok": true
+    },
+    {
+      "test": "dos-mail_history",
+      "ok": true
+    },
+    {
+      "test": "dos-prio_native_generation",
+      "ok": true
+    },
+    {
+      "test": "dos-prio_history",
+      "ok": true
+    },
+    {
+      "test": "reu-prep_native_generation",
+      "ok": true
+    },
+    {
+      "test": "reu-prep_history",
+      "ok": true
+    },
+    {
+      "test": "reu-dec_native_generation",
+      "ok": true
+    },
+    {
+      "test": "reu-dec_history",
+      "ok": true
+    },
+    {
+      "test": "reu-salaries_native_generation",
+      "ok": true
+    },
+    {
+      "test": "reu-salaries_history",
+      "ok": true
+    },
+    {
+      "test": "reu-pv_native_generation",
+      "ok": true
+    },
+    {
+      "test": "reu-pv_history",
+      "ok": true
+    },
+    {
+      "test": "doc-relire_native_generation",
+      "ok": true
+    },
+    {
+      "test": "doc-relire_history",
+      "ok": true
+    },
+    {
+      "test": "doc-simpl_native_generation",
+      "ok": true
+    },
+    {
+      "test": "doc-simpl_history",
+      "ok": true
+    },
+    {
+      "test": "doc-risk_native_generation",
+      "ok": true
+    },
+    {
+      "test": "doc-risk_history",
+      "ok": true
+    },
+    {
+      "test": "doc-idea_native_generation",
+      "ok": true
+    },
+    {
+      "test": "doc-idea_history",
+      "ok": true
+    },
+    {
+      "test": "msg-sum_native_generation",
+      "ok": true
+    },
+    {
+      "test": "msg-sum_history",
+      "ok": true
+    },
+    {
+      "test": "msg-reply_native_generation",
+      "ok": true
+    },
+    {
+      "test": "msg-reply_history",
+      "ok": true
+    },
+    {
+      "test": "ag-prep_native_generation",
+      "ok": true
+    },
+    {
+      "test": "ag-prep_history",
+      "ok": true
+    },
+    {
+      "test": "ag-delais_native_generation",
+      "ok": true
+    },
+    {
+      "test": "ag-delais_history",
+      "ok": true
+    },
+    {
+      "test": "com-month_native_generation",
+      "ok": true
+    },
+    {
+      "test": "com-month_history",
+      "ok": true
+    },
+    {
+      "test": "com-month_review",
+      "ok": true
+    },
+    {
+      "test": "com-month_apply",
+      "ok": true
+    },
+    {
+      "test": "com-month_idempotent",
+      "ok": true
+    },
+    {
+      "test": "com-reform_native_generation",
+      "ok": true
+    },
+    {
+      "test": "com-reform_history",
+      "ok": true
+    },
+    {
+      "test": "mob-page_native_generation",
+      "ok": true
+    },
+    {
+      "test": "mob-page_history",
+      "ok": true
+    },
+    {
+      "test": "mob-page_review",
+      "ok": true
+    },
+    {
+      "test": "mob-page_apply",
+      "ok": true
+    },
+    {
+      "test": "mob-page_idempotent",
+      "ok": true
+    },
+    {
+      "test": "mob-short_native_generation",
+      "ok": true
+    },
+    {
+      "test": "mob-short_history",
+      "ok": true
+    },
+    {
+      "test": "mob-short_review",
+      "ok": true
+    },
+    {
+      "test": "mob-short_apply",
+      "ok": true
+    },
+    {
+      "test": "mob-short_idempotent",
+      "ok": true
+    },
+    {
+      "test": "mob-push_native_generation",
+      "ok": true
+    },
+    {
+      "test": "mob-push_history",
+      "ok": true
+    },
+    {
+      "test": "mob-push_review",
+      "ok": true
+    },
+    {
+      "test": "mob-push_apply",
+      "ok": true
+    },
+    {
+      "test": "mob-push_idempotent",
+      "ok": true
+    },
+    {
+      "test": "mob-check_native_generation",
+      "ok": true
+    },
+    {
+      "test": "mob-check_history",
+      "ok": true
+    },
+    {
+      "test": "mob-ideas_native_generation",
+      "ok": true
+    },
+    {
+      "test": "mob-ideas_history",
+      "ok": true
+    },
+    {
+      "test": "fm-reco_native_generation",
+      "ok": true
+    },
+    {
+      "test": "fm-reco_history",
+      "ok": true
+    },
+    {
+      "test": "adh-msg_native_generation",
+      "ok": true
+    },
+    {
+      "test": "adh-msg_history",
+      "ok": true
+    },
+    {
+      "test": "adh-relance_native_generation",
+      "ok": true
+    },
+    {
+      "test": "adh-relance_history",
+      "ok": true
+    },
+    {
+      "test": "pol-q_native_generation",
+      "ok": true
+    },
+    {
+      "test": "pol-q_history",
+      "ok": true
+    },
+    {
+      "test": "pol-ana_native_generation",
+      "ok": true
+    },
+    {
+      "test": "pol-ana_history",
+      "ok": true
+    },
+    {
+      "test": "web-lis_native_generation",
+      "ok": true
+    },
+    {
+      "test": "web-lis_history",
+      "ok": true
+    },
+    {
+      "test": "rep-explain_native_generation",
+      "ok": true
+    },
+    {
+      "test": "rep-explain_history",
+      "ok": true
+    },
+    {
+      "test": "rep-bilan_native_generation",
+      "ok": true
+    },
+    {
+      "test": "rep-bilan_history",
+      "ok": true
+    },
+    {
+      "test": "rac-sugg_native_generation",
+      "ok": true
+    },
+    {
+      "test": "rac-sugg_history",
+      "ok": true
+    },
+    {
+      "test": "par-help_native_generation",
+      "ok": true
+    },
+    {
+      "test": "par-help_history",
+      "ok": true
+    },
+    {
+      "test": "par-roles_native_generation",
+      "ok": true
+    },
+    {
+      "test": "par-roles_history",
+      "ok": true
+    },
+    {
+      "test": "native_context_not_document_fallback",
+      "ok": true
+    },
+    {
+      "test": "role_required_before_provider",
+      "ok": true
+    },
+    {
+      "test": "formation-course_structured_generation",
+      "ok": true
+    },
+    {
+      "test": "formation-course_structured_history",
+      "ok": true
+    },
+    {
+      "test": "formation-feedback_structured_generation",
+      "ok": true
+    },
+    {
+      "test": "formation-feedback_structured_history",
+      "ok": true
+    },
+    {
+      "test": "document-compose_structured_generation",
+      "ok": true
+    },
+    {
+      "test": "document-compose_structured_history",
+      "ok": true
+    },
+    {
+      "test": "intranet-compose_structured_generation",
+      "ok": true
+    },
+    {
+      "test": "intranet-compose_structured_history",
+      "ok": true
+    },
+    {
+      "test": "meeting-minutes_structured_generation",
+      "ok": true
+    },
+    {
+      "test": "meeting-minutes_structured_history",
+      "ok": true
+    },
+    {
+      "test": "communication-compose_structured_generation",
+      "ok": true
+    },
+    {
+      "test": "communication-compose_structured_history",
+      "ok": true
+    },
+    {
+      "test": "poll-options_structured_generation",
+      "ok": true
+    },
+    {
+      "test": "poll-options_structured_history",
+      "ok": true
+    },
+    {
+      "test": "chat_unenrolled_refused",
+      "ok": true
+    },
+    {
+      "test": "chat_persisted",
+      "ok": true
+    },
+    {
+      "test": "chat_continues_with_cumulative_sources",
+      "ok": true
+    },
+    {
+      "test": "chat_other_actor_refused",
+      "ok": true
+    },
+    {
+      "test": "chat_source_revoked_removes_descendant",
+      "ok": true
+    },
+    {
+      "test": "settings_read",
+      "ok": true
+    },
+    {
+      "test": "action_disable",
+      "ok": true
+    },
+    {
+      "test": "disabled_action_before_provider",
+      "ok": true
+    },
+    {
+      "test": "settings_stale_version",
+      "ok": true
+    },
+    {
+      "test": "reader_cannot_configure",
+      "ok": true
+    },
+    {
+      "test": "cannot_self_assign_role",
+      "ok": true
+    },
+    {
+      "test": "action_reenable",
+      "ok": true
+    },
+    {
+      "test": "business_http_get",
+      "ok": true
+    },
+    {
+      "test": "publication_self_review_denied",
+      "ok": true
+    },
+    {
+      "test": "publication_before_review_denied",
+      "ok": true
+    },
+    {
+      "test": "publication_second_actor_review",
+      "ok": true
+    },
+    {
+      "test": "publication_publish",
+      "ok": true
+    },
+    {
+      "test": "publication_idempotent",
+      "ok": true
+    },
+    {
+      "test": "publication_no_audience_no_feed",
+      "ok": true
+    },
+    {
+      "test": "published_version_separate_from_source",
+      "ok": true
+    },
+    {
+      "test": "published_source_can_become_new_draft",
+      "ok": true
+    },
+    {
+      "test": "old_published_version_revocable",
+      "ok": true
+    },
+    {
+      "test": "revocation_removes_feed",
+      "ok": true
+    }
+  ]
+}

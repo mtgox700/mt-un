@@ -1,0 +1,98 @@
+[
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "accueil",
+    "equal": true
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "dossiers",
+    "equal": true
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "dossier",
+    "equal": true
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "contacts",
+    "equal": true
+  },
+  {
+    "size": {
+      "width": 820,
+      "height": 1180
+    },
+    "route": "accueil",
+    "equal": true
+  },
+  {
+    "size": {
+      "width": 820,
+      "height": 1180
+    },
+    "route": "dossiers",
+    "equal": true
+  },
+  {
+    "size": {
+      "width": 820,
+      "height": 1180
+    },
+    "route": "dossier",
+    "equal": true
+  },
+  {
+    "size": {
+      "width": 820,
+      "height": 1180
+    },
+    "route": "contacts",
+    "equal": true
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "route": "accueil",
+    "equal": true
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "route": "dossiers",
+    "equal": true
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "route": "dossier",
+    "equal": true
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "route": "contacts",
+    "equal": true
+  }
+]

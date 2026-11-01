@@ -1,0 +1,25 @@
+<sc-if value="{{ dpm.open }}" hint-placeholder-val="{{ false }}">
+  <div style="position: fixed; inset: 0; z-index: 86; background: hsl(var(--shC) / .62); backdrop-filter: blur(3px); display: flex; align-items: center; justify-content: center; padding: 18px;">
+    <div role="dialog" aria-modal="true" aria-label="{{ dpm.title }}" style="width: 100%; max-width: 520px; max-height: 92vh; overflow: auto; background: var(--surface); border-radius: 24px; animation: scaleIn .22s ease-out; padding: 24px; display: flex; flex-direction: column; gap: 12px;">
+      <h2 style="font-family: var(--fTitle); font-size: 22px; margin: 0; color: var(--ink);">{{ dpm.title }}</h2>
+      <div style="border-left: 3px solid var(--ac); background: var(--surf2); border-radius: 4px 10px 10px 4px; padding: 9px 12px;"><div style="font-size: 12px; font-weight: 700; color: var(--acTx);">{{ dpm.head }}</div><div style="font-size: 13px; color: var(--ink3); line-height: 1.5; max-height: 60px; overflow: hidden;">{{ dpm.text }}</div></div>
+      <button onClick="{{ dpm.create }}" style="cursor: pointer; display: flex; gap: 12px; align-items: center; text-align: left; border: 1px dashed var(--acMid); background: var(--acBg); border-radius: 14px; padding: 12px 14px; color: var(--acTx);">
+        <span aria-hidden="true" style="width: 34px; height: 34px; flex: 0 0 34px; border-radius: 99px; background: var(--ac); color: #FFFFFF; font-size: 18px; display: flex; align-items: center; justify-content: center;">+</span>
+        <span><span style="display: block; font-size: 13.5px; font-weight: 700;">Créer un dossier à partir du message</span><span style="display: block; font-size: 12px; color: var(--acTx3);">unii propose titre, catégorie, échéance et plan d'action</span></span>
+      </button>
+      <div style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6); margin-top: 4px;">Ou verser dans un dossier existant</div>
+      <div style="display: flex; align-items: center; gap: 9px; background: var(--surf2); border: 1px solid var(--bd2); border-radius: 12px; padding: 0 12px; color: var(--ink6);"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg><input value="{{ dpm.q }}" onChange="{{ dpm.onQ }}" placeholder="Rechercher un dossier…" style="flex: 1; min-width: 0; border: none; background: transparent; outline: none; font-size: 13.5px; padding: 10px 0; color: var(--ink);" /></div>
+      <div style="max-height: 280px; overflow-y: auto; border: 1px solid var(--bd); border-radius: 14px;">
+        <sc-for list="{{ dpm.rows }}" as="x" hint-placeholder-count="4">
+          <button onClick="{{ x.go }}" style="width: 100%; text-align: left; cursor: pointer; display: flex; gap: 11px; align-items: center; background: transparent; border: none; border-bottom: 1px solid var(--bd); padding: 11px 14px; color: inherit;" style-hover="background: var(--surf2);">
+            <span style="flex: 1; min-width: 0;"><span style="display: block; font-size: 13.5px; font-weight: 600;">{{ x.title }}</span><span style="display: block; font-size: 12px; color: var(--ink5);">{{ x.meta }}</span></span>
+            <span style="flex: 0 0 auto; font-size: 12px; font-weight: 700; color: var(--acTx);">Verser →</span>
+          </button>
+        </sc-for>
+        <sc-if value="{{ dpm.noRows }}" hint-placeholder-val="{{ false }}"><div style="padding: 18px; font-size: 13px; color: var(--ink5);">Aucun dossier ne correspond.</div></sc-if>
+      </div>
+      <sc-if value="{{ dpm.error }}"><div role="alert" style="font-size: 12.5px; color: var(--dangerTx2);">{{ dpm.error }}</div></sc-if>
+      <div style="display: flex;"><button onClick="{{ dpm.close }}" style="margin-left: auto; cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 11px 16px; font-size: 13px; font-weight: 600; color: var(--ink4);">Annuler</button></div>
+    </div>
+  </div>
+</sc-if>

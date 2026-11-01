@@ -1,0 +1,59 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		808 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				1334 container
+					1515 heading Notifications, Value: 1
+						1516 text Notifications
+					1517 text Par canal et par module. Les alertes urgentes ignorent le mode « ne pas déranger ».
+					1518 text Notifications push
+					1519 text Alertes urgentes et résultats de sondage sur mobile.
+					1520 button
+					1521 text Résumé par email
+					1522 text Digest quotidien à 8 h.
+					1523 button
+					1524 text SMS pour les urgences
+					1525 text Uniquement accidents du travail et droits d'alerte.
+					1526 button
+					1527 text Ne pas déranger 20 h — 7 h
+					1528 text Les alertes urgentes passent malgré tout.
+					1529 button
+					1530 text Escalade automatique
+					1531 text Si une alerte urgente reste sans accusé de réception sous 4 h.
+					1532 button
+				1514 text Élément de mémoire mis à jour
+				112 container
+					1331 button Accueil
+						1332 image
+						1333 text Accueil
+					998 button Dossiers
+						999 image
+						1000 text Dossiers
+					1095 button Agenda
+						1096 image
+						1097 text Agenda
+					1187 button Réunions
+						1188 image
+						1189 text Réunions
+					1456 button Réglages
+						1457 image
+						1458 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

@@ -1,0 +1,369 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Montée en compétence
+  - heading "Formations" [level=1]
+  - paragraph: Deux catalogues pour vous former au mandat, et un mode où unii construit avec vous une session sur mesure, au rythme que vous choisissez.
+  - tablist "Formations":
+    - tab "Catalogue IA 20" [selected]:
+      - generic: Catalogue IA
+      - generic: "20"
+    - tab "Formations généralistes 31":
+      - generic: Formations généralistes
+      - generic: "31"
+    - tab "Se former avec unii":
+      - generic: Se former avec unii
+  - textbox "Rechercher une formation":
+    - /placeholder: Rechercher une formation, un public, un objectif…
+  - button "Tous" [pressed]
+  - button "Sensibilisation"
+  - button "Atelier"
+  - button "Atelier métier"
+  - button "Cas pratique"
+  - button "Parcours avancé"
+  - generic: "01"
+  - heading "Fondamentaux" [level=2]
+  - generic: Les 4 formations socles
+  - article:
+    - generic: Sensibilisation
+    - generic: 3 h
+    - heading "Introduction à l'IA pour le monde du syndicalisme" [level=3]
+    - generic: Tous les élus, adhérents
+    - list:
+      - generic: Comprendre l'IA générative et ses limites
+      - generic: Identifier les usages concrets pour un mandat
+      - generic: Premiers prompts sur des cas syndicaux
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - article:
+    - generic: Atelier
+    - generic: 1 jour
+    - 'heading "Impacts de l''IA sur l''entreprise : accompagner les collaborateurs" [level=3]'
+    - generic: Élus CSE, DS, RH
+    - list:
+      - generic: Mesurer les effets de l'IA sur les emplois et compétences
+      - generic: Anticiper et accompagner le changement
+      - generic: Construire des revendications et un plan d'action
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - article:
+    - generic: Atelier métier
+    - generic: 1 jour
+    - heading "L'IA appliquée à mon métier d'élu" [level=3]
+    - generic: Secrétaires, trésoriers, élus SSCT, DS
+    - list:
+      - generic: Cartographier ses tâches automatisables
+      - generic: Rédaction, analyse et synthèse assistées
+      - generic: Bâtir sa boîte à outils personnelle
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - article:
+    - generic: Parcours avancé
+    - generic: 2 jours
+    - heading "Créer, gérer et orchestrer des agents IA pour le syndicalisme" [level=3]
+    - generic: Référents numériques
+    - list:
+      - generic: Concevoir des agents (juridique, communication, suivi)
+      - generic: Orchestrer plusieurs agents et sources documentaires
+      - generic: Superviser, évaluer et sécuriser les agents
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - generic: "02"
+  - heading "Droit & Défense" [level=2]
+  - generic: Sécuriser l'action juridique
+  - article:
+    - generic: Atelier
+    - generic: 1/2 jour
+    - heading "Prompt engineering juridique pour élus" [level=3]
+    - generic: Élus CSE, DS
+    - list:
+      - generic: Interroger le code du travail en langage naturel
+      - generic: Vérifier les sources et repérer les erreurs
+      - generic: Modèles de requêtes réutilisables
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - article:
+    - generic: Cas pratique
+    - generic: 1 jour
+    - heading "Préparer un entretien disciplinaire ou une saisine avec l'IA" [level=3]
+    - generic: Élus, DS, défenseurs syndicaux
+    - list:
+      - generic: Analyser un dossier salarié
+      - generic: Rédiger arguments et courriers
+      - generic: Simulation de bout en bout
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - article:
+    - generic: Atelier
+    - generic: 1 jour
+    - heading "Analyser la BDESE et les comptes avec l'IA" [level=3]
+    - generic: Secrétaires, trésoriers, DS
+    - list:
+      - generic: Lecture assistée des documents économiques
+      - generic: Préparer les questions à la direction
+      - generic: Rédiger un avis sur une réorganisation
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - generic: "03"
+  - heading "Négociation & Stratégie" [level=2]
+  - generic: Gagner en poids à la table
+  - article:
+    - generic: Atelier
+    - generic: 1 jour
+    - heading "Préparer les NAO avec l'IA" [level=3]
+    - generic: DS, négociateurs
+    - list:
+      - generic: Benchmark salarial et indicateurs
+      - generic: Construire l'argumentaire
+      - generic: Simuler les contre-arguments de la direction
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - article:
+    - generic: Atelier
+    - generic: 1 jour
+    - heading "IA et accords collectifs" [level=3]
+    - generic: DS, direction, DRH
+    - list:
+      - generic: Encadrer surveillance, évaluation algorithmique, télétravail
+      - generic: Clauses types et GEPP
+      - generic: Négocier la formation et la transition
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - article:
+    - generic: Atelier
+    - generic: 1 jour
+    - heading "Données et tableaux de bord de l'élu" [level=3]
+    - generic: Élus CSE, DS
+    - list:
+      - generic: Exploiter absentéisme, turnover, accidents
+      - generic: Visualiser et commenter les chiffres
+      - generic: Étayer ses revendications
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - generic: "04"
+  - heading "Santé & Sécurité" [level=2]
+  - generic: Prévenir les risques
+  - article:
+    - generic: Atelier
+    - generic: 1 jour
+    - heading "Détecter RPS et TMS grâce à la donnée" [level=3]
+    - generic: Élus SSCT
+    - list:
+      - generic: Repérer les signaux faibles
+      - generic: Structurer une enquête après accident
+      - generic: Proposer un plan de prévention
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - article:
+    - generic: Sensibilisation
+    - generic: 1/2 jour
+    - heading "Risques liés à l'IA au travail" [level=3]
+    - generic: Élus SSCT, DS
+    - list:
+      - generic: Intensification du travail et surveillance
+      - generic: Management algorithmique
+      - generic: Leviers d'action des représentants
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - generic: "05"
+  - heading "Communication & Mobilisation" [level=2]
+  - generic: Parler fort et juste
+  - article:
+    - generic: Atelier
+    - generic: 1 jour
+    - heading "Communiquer efficacement avec l'IA" [level=3]
+    - generic: Élus, communicants syndicaux
+    - list:
+      - generic: Tracts, newsletters, emails, PV synthétisés
+      - generic: "Adapter le ton : combatif ou pédagogique"
+      - generic: Charte éditoriale du syndicat
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - article:
+    - generic: Atelier
+    - generic: 1/2 jour
+    - heading "Sondages et consultations des salariés" [level=3]
+    - generic: Élus CSE, élus ASC
+    - list:
+      - generic: Concevoir une enquête QVT
+      - generic: Analyser les réponses ouvertes
+      - generic: Restituer et mobiliser
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - article:
+    - generic: Sensibilisation
+    - generic: 2 h
+    - heading "Désinformation et deepfakes" [level=3]
+    - generic: Tous publics
+    - list:
+      - generic: Reconnaître les contenus truqués
+      - generic: Réagir et protéger l'image du syndicat
+      - generic: Bonnes pratiques de vérification
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - generic: "06"
+  - heading "Gouvernance, éthique & sécurité" [level=2]
+  - generic: Un usage maîtrisé
+  - article:
+    - generic: Sensibilisation
+    - generic: 1/2 jour
+    - heading "RGPD, confidentialité et IA" [level=3]
+    - generic: Tous les élus
+    - list:
+      - generic: Quelles données saisir ou non
+      - generic: Anonymisation des PV
+      - generic: Hébergement souverain
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - article:
+    - generic: Atelier
+    - generic: 1/2 jour
+    - heading "Charte d'usage de l'IA pour une instance représentative" [level=3]
+    - generic: Bureaux CSE, syndicats
+    - list:
+      - generic: Rédiger des règles internes
+      - generic: Rôles et responsabilités
+      - generic: Plan de contrôle
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - article:
+    - generic: Sensibilisation
+    - generic: 1/2 jour
+    - heading "Cybersécurité pour élus" [level=3]
+    - generic: Tous les élus
+    - list:
+      - generic: Phishing et mots de passe
+      - generic: Double authentification
+      - generic: Sécuriser les échanges
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - generic: "07"
+  - heading "Automatisation & Connaissance" [level=2]
+  - generic: Passer à l'échelle
+  - article:
+    - generic: Atelier
+    - generic: 1 jour
+    - heading "Workflows d'automatisation sans code" [level=3]
+    - generic: Référents numériques
+    - list:
+      - generic: Automatiser suivi des demandes et relances
+      - generic: Alertes sur délais légaux
+      - generic: Connecter ses outils
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - article:
+    - generic: Atelier
+    - generic: 1 jour
+    - heading "Base documentaire intelligente" [level=3]
+    - generic: Référents, secrétaires
+    - list:
+      - generic: Recherche sémantique dans accords, PV, jurisprudence
+      - generic: Structurer et indexer ses documents
+      - generic: Interroger sa base en langage naturel
+    - button "Se former avec unii":
+      - text: Se former avec unii
+    - button "Demander une session"
+  - heading "Parcours recommandés" [level=2]
+  - paragraph: Alignés sur les niveaux d'offre Élu 1.0 à 4.0.
+  - generic: Élu 1.0
+  - generic: Découverte
+  - generic: Intro IA · Cybersécurité · RGPD & IA
+  - button "Suivre avec unii":
+    - text: Suivre avec unii
+  - generic: Élu 2.0
+  - generic: Augmenté
+  - generic: IA appliquée à mon métier · Prompt juridique · Communiquer avec l'IA
+  - button "Suivre avec unii":
+    - text: Suivre avec unii
+  - generic: Élu 3.0
+  - generic: Stratège
+  - generic: Impacts de l'IA · NAO · BDESE · Accords collectifs
+  - button "Suivre avec unii":
+    - text: Suivre avec unii
+  - generic: Élu 4.0
+  - generic: Orchestrateur
+  - generic: Agents IA · Workflows · Base documentaire · Charte d'usage
+  - button "Suivre avec unii":
+    - text: Suivre avec unii
+  - heading "Formats et durées" [level=2]
+  - generic: Format
+  - generic: Durée
+  - generic: Public
+  - generic: Sensibilisation
+  - generic: 2 à 3 h
+  - generic: Tous les élus et adhérents
+  - generic: Atelier métier
+  - generic: 1 jour
+  - generic: Élus CSE, délégués syndicaux
+  - generic: Parcours agents IA
+  - generic: 2 jours
+  - generic: Référents numériques
+  - generic: Formation direction / DRH
+  - generic: 1/2 jour
+  - generic: Négociation et accords sur l'IA

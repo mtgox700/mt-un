@@ -1,0 +1,23 @@
+[
+  {
+    "viewport": "mobile",
+    "one_message": true,
+    "selected_recipient_only": true,
+    "pdf_pages": 1,
+    "ics_valid": true
+  },
+  {
+    "viewport": "tablette",
+    "one_message": true,
+    "selected_recipient_only": true,
+    "pdf_pages": 1,
+    "ics_valid": true
+  },
+  {
+    "viewport": "desktop",
+    "one_message": true,
+    "selected_recipient_only": true,
+    "pdf_pages": 1,
+    "ics_valid": true
+  }
+]

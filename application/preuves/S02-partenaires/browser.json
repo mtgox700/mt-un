@@ -1,0 +1,46 @@
+{
+  "checks": [
+    {
+      "width": 390,
+      "allowed": true,
+      "mutationSaved": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "allowed": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "allowed": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "role": "local",
+      "denied": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "role": "local",
+      "denied": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "role": "local",
+      "denied": true,
+      "overflow": false
+    }
+  ],
+  "formWidths": [
+    390,
+    768,
+    1440
+  ],
+  "suspensionMobile": true,
+  "reactivationTablet": true,
+  "existingRelationEndpointsLocked": true
+}

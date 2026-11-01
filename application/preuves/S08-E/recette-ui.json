@@ -1,0 +1,36 @@
+{
+  "scope": "Fixtures certifiées S08 uniquement",
+  "browser": "IAB, application locale 5068",
+  "dimensions": [
+    [
+      1440,
+      1000
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": {
+    "case_live_citation": true,
+    "document_live_citation": true,
+    "message_live_exact_sequence": true,
+    "cancel_button_enabled_and_effective": true,
+    "assistant_continuation_server_reread": true,
+    "message_draft_unchanged_and_not_sent": true,
+    "mobile_no_horizontal_overflow": true
+  },
+  "mobile_widths": {
+    "client": 382,
+    "scroll": 382
+  },
+  "limitations": [
+    "Pas de validation métier des 37 actions",
+    "Pas d’application ou diffusion de dérivé",
+    "Pas de test production"
+  ]
+}

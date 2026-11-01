@@ -1,0 +1,103 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		2022 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					1642 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				2115 container
+					2116 text INTELLIGENCE ARTIFICIELLE
+					2117 heading Votre expert juridique de poche, Value: 1
+						2118 text Votre expert juridique de poche
+					2119 text Sourcé sur la Convention Métallurgie et le Code du travail ASSISTANT Exercice fictif : préparer une réunion des élus en trois étapes.
+					2120 button Mémoire · 5, Help: Gérer la mémoire de l'assistant
+					2121 button Créer un dossier
+					2122 button Plein écran
+					2123 button Nouvelle conversation
+					2124 button Nouveau dossier guidé
+					2125 text HISTORIQUE 3 conversations
+					2126 button Toutes
+					2127 button Assistant
+					2128 button Réunions
+					2129 button Exercice fictif : préparer une réunion des élus en trois étapes. Assistant à l’instant · 1 q.
+						2130 text Exercice fictif : préparer une réunion des élus en trois étapes.
+						2131 text Assistant
+						2132 text à l’instant
+						2133 text  · 
+						2134 text 1 q.
+					2135 button Description: Supprimer la conversation, Help: Supprimer
+					2136 button Heures de délégation non payées en cas d'arrêt maladie Assistant 22 oct. · 1 q.
+						2137 text Heures de délégation non payées en cas d'arrêt maladie
+						2138 text Assistant
+						2139 text 22 oct.
+						2140 text  · 
+						2141 text 1 q.
+					2142 button Description: Supprimer la conversation, Help: Supprimer
+					2162 button Projet de PV — CSE ordinaire de septembre Réunions 20 oct. · 1 q.
+						2163 text Projet de PV — CSE ordinaire de septembre
+						2164 text Réunions
+						2165 text 20 oct.
+						2166 text  · 
+						2167 text 1 q.
+					2168 button Description: Supprimer la conversation, Help: Supprimer
+					2143 image
+					2144 text uniion Assistant Aucune identité transmise NIVEAU D'ANONYMISATION
+					2145 checkbox Standard, Help: NAO, budget, articles — masquage léger (matricules)., Value: 1
+					2146 checkbox RH sensible, Help: Inaptitude, discipline — masquage nominatif + matricules., Value: 0
+					2147 checkbox RPS, Help: Harcèlement, souffrance au travail — masquage maximal., Value: 0
+					2148 text UNIION ASSISTANT
+					2149 text Bonjour Sophie. Je peux répondre sur la Convention Métallurgie, le Code du travail ou analyser un accord d'entreprise.
+					2169 text Exercice fictif : préparer une réunion des élus en trois étapes.
+					2170 text REÇU PAR LE MODÈLE Standard  ·  0 entité masquée
+					2171 text Exercice fictif : préparer une réunion des élus en trois étapes.
+					2172 text APPEL AU MODÈLE EN ÉCHEC
+					2173 text Aucune réponse n'a été produite (Failed to fetch). Rien n'a été enregistré. Réessayez, ou consultez la base documentaire hors ligne.
+					2174 button Mémoriser
+					2175 text APPEL AU MODÈLE EN ÉCHEC
+					2176 text Aucune réponse n'a été produite (Failed to fetch). Rien n'a été enregistré. Réessayez, ou consultez la base documentaire hors ligne.
+					2177 button Mémoriser
+					2150 button Signalement de harcèlement
+					2151 button Informations dues en NAO
+					2152 button Enquête après accident
+					2153 button Budget ASC
+					2154 text field (settable)
+					2155 button
+						2156 image
+					2157 text Prototype local : réponses produites via Codex connecté à votre compte ChatGPT, après masquage heuristique. Ce prototype ne garantit ni hébergement UE ni anonymisation complète — vérifiez les réponses avant utilisation.
+					2158 button En savoir plus sur la sécurité
+				2178 container
+					2179 text Appel au modèle en échec Assistant juridique — Failed to fetch Aucune réponse simulée n'a été substituée : rien n'a été produit ni enregistré.
+					2180 button Réessayer
+					2181 button Fermer
+				1643 container
+					2159 button Accueil
+						2160 image
+						2161 text Accueil
+					1647 button Dossiers
+						1648 image
+						1649 text Dossiers
+					1961 button Agenda
+						1962 image
+						1963 text Agenda
+					2112 button Réunions
+						2113 image
+						2114 text Réunions
+					1750 button Réglages
+						1751 image
+						1752 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

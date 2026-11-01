@@ -1,0 +1,6 @@
+import assert from 'node:assert/strict';import {createNavigationService} from '../modules/navigation/service.js';
+let state={route:'accueil',history:[]},denied=0,checked=[];const store={read:()=>state,update:p=>Object.assign(state,p)};const nav=createNavigationService(store,{leaveAudio(){},applyRouteExtras:p=>Object.assign(state,p),scrollTop(){}});
+let enabled=true;nav.setGuard(async route=>{checked.push(route);if(route==='sondages'&&!enabled)throw Error('denied');},()=>denied++);
+assert.equal(await nav.go('sondages'),true);assert.equal(state.route,'sondages');await nav.go('dossiers');enabled=false;assert.equal(await nav.back(),false);assert.equal(state.route,'dossiers');assert.deepEqual(state.history,['accueil','sondages']);assert.equal(await nav.go('sondages'),false);assert.equal(await nav.go('accueil',{route:'sondages'}),false);assert.equal(denied,3);
+enabled=true;assert.equal(await nav.back(),true);assert.equal(state.route,'sondages');
+let release;nav.setGuard(route=>route==='slow'?new Promise(resolve=>release=resolve):Promise.resolve());const pending=nav.go('slow');await Promise.resolve();await nav.go('accueil');release();assert.equal(await pending,false);assert.equal(state.route,'accueil');console.log('12 guarded navigation assertions passed');

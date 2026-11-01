@@ -1,0 +1,59 @@
+Browser tab: 9, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+1 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	2 container Dimensions de recette
+		3 button Bureau 1280
+		4 button Mobile 390
+		5 button Tablette 768
+		6 button Tablette paysage 1024
+		657 text 768 × 1024
+	8 container Description: Prototype inchangé, ID: prototype
+		9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			10 container dc-root
+				11 container
+					12 image uniion
+					129 button ← Retour
+					13 image
+					14 text field (settable)
+					15 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					18 button
+						19 image
+					20 button Se déconnecter
+						21 image
+				22 container
+					990 heading Organisation & membres, Value: 1
+						991 text Organisation & membres
+					992 text 5 membres · 4 commissions · plan Fédération
+					993 button + Inviter un membre
+					994 text 24 sièges du plan 3 membres actifs 4 commissions 1 invitation en attente SM Sophie Marchand Admin organisation  ·  en ligne ACTIF
+					995 button Retirer
+					996 button Suspendre
+					997 text JD Jean-Paul Diallo Élu titulaire  ·  il y a 1 h ACTIF
+					998 button Retirer
+					999 button Suspendre
+					1000 text LC Leïla Chaïb Commission ASC  ·  hier ACTIF
+					1001 button Retirer
+					1002 button Suspendre
+					1003 text MA Marc Aubert Suppléant  ·  jamais connecté INVITÉ
+					1004 button Retirer
+					1005 button Relancer
+					1006 text CB Cabinet Berger (avocat) Lecture seule  ·  il y a 6 jours SUSPENDU
+					1007 button Retirer
+					1008 button Réactiver
+				113 container
+					984 button Accueil
+						985 image
+						986 text Accueil
+					117 button Dossiers
+						118 image
+						119 text Dossiers
+					860 button Agenda
+						861 image
+						862 text Agenda
+					224 button Réunions
+						225 image
+						226 text Réunions
+					987 button Réglages
+						988 image
+						989 text Réglages
+
+The focused UI element is 9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

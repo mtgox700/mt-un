@@ -1,0 +1,58 @@
+{
+  "decision": "D08",
+  "statut": "Validée par utilisateur",
+  "choix": "Hors ligne sélectif avec espace local chiffré, durée initiale 24 heures réglable dans administration, synchronisation contrôlée au retour réseau et nettoyage automatique limité aux copies déjà sauvegardées sur serveur.",
+  "perimetre": [
+    "Appareil personnel explicitement autorisé ; sélection de ressources nécessaires, pas copie complète automatique de organisation",
+    "Consultation dossiers et pièces préparés ; création et modification notes et documents ; préparation agenda et réunions ; audio local avec envoi reprenable",
+    "Messages en attente sans prétendre livraison ; IA et transcription distantes différées",
+    "Publication, signature, paiement et attribution de droits effectifs en ligne uniquement",
+    "Partages entre organisations et support exclus du hors ligne selon D02 et D04"
+  ],
+  "stockage": [
+    "Base locale structurée avec journal opérations, identifiant unique, auteur, organisation et version de départ",
+    "Contenus sensibles chiffrés ; gestion des clés à concevoir et tester ; espaces séparés par compte et organisation",
+    "Verrouillage après inactivité ; aucun secret privilégié ou autorité de droits dans état local"
+  ],
+  "duree": {
+    "defaut_heures": 24,
+    "reglage": "Réglable dans administration ; contrôlé côté serveur et soumis aux permissions de configuration",
+    "reference": "Dernière vérification en ligne ; nouvelle vérification après expiration",
+    "reste_a_preciser": "Bornes autorisées et répartition du réglage entre super admin et admin organisation ; aucune extension illimitée présumée",
+    "limite": "Révocation immédiate impossible hors réseau ; durée applicative ne garantit pas effacement sur appareil compromis"
+  },
+  "synchronisation": [
+    "Automatique application ouverte et à réouverture ; arrière-plan selon capacités navigateur sans garantie application fermée",
+    "Revalider session, organisation, permissions et droit commercial module ; traiter révocations avant restitution et commandes",
+    "Validation serveur de chaque opération ; identifiants idempotents ; reprise des transferts interrompus",
+    "Conserver versions concurrentes et proposer résolution ; aucun écrasement silencieux",
+    "Opérations refusées non injectées ; traitement sécurisé des modifications non synchronisées à définir sans perte silencieuse ni prolongation indue des droits"
+  ],
+  "nettoyage": {
+    "exception_D07": "Nettoyage automatique uniquement des copies locales déjà sauvegardées sur serveur ; confirmation réception complète et version correspondante nécessaire",
+    "non_synchronise": "Aucune suppression silencieuse ; une version locale modifiée après synchronisation ne compte pas comme copie sauvegardée",
+    "originaux": "Suppression données de référence et sauvegardes toujours soumise à validation super admin selon D07"
+  },
+  "interface": [
+    "Enregistré sur appareil",
+    "En attente de synchronisation",
+    "Sauvegardé sur serveur",
+    "Conflit à résoudre"
+  ],
+  "limites": [
+    "Travail exclusivement local hors couverture sauvegardes serveur et objectif RPO 1 heure",
+    "Perte appareil ou stockage navigateur avant synchronisation peut perdre travail ; quotas et stockage persistant à tester",
+    "Chiffrement local insuffisant contre script malveillant dans application déverrouillée"
+  ],
+  "tests_requis": [
+    "Coupures en cours enregistrement et upload",
+    "Reprise après fermeture et retour réseau",
+    "Doublons envois et modifications concurrentes",
+    "Révocation et expiration hors ligne puis reconnexion",
+    "Changement compte et organisation sans fuite",
+    "Quota insuffisant et échec stockage",
+    "Nettoyage interdit tant que version locale courante non confirmée sauvegardée serveur",
+    "Paramètre durée protégé contre modification non autorisée"
+  ],
+  "implementation": "Spécification validée ; non implémentée ni démontrée"
+}

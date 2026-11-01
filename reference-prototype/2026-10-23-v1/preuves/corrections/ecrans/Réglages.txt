@@ -1,0 +1,191 @@
+Browser tab: 3, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 image uniion
+			5 button Réduire le menu
+			172 button Accueil
+				173 image
+				174 text Accueil
+			175 button Assistant
+				176 image
+				177 text Assistant
+			184 button Dossiers
+				185 image
+				186 text Dossiers
+			187 button Messages
+				188 image
+				189 text Messages
+			190 button Agenda
+				191 image
+				192 text Agenda
+			201 button Réunions
+				202 image
+				203 text Réunions
+			204 button Documents
+				205 image
+				206 text Documents
+			207 button Formations
+				208 image
+				209 text Formations
+			217 button Communication
+				218 image
+				219 text Communication
+			220 button Application mobile
+				221 image
+				222 text Application mobile
+			223 button Adhérents
+				224 image
+				225 text Adhérents
+			226 button Intranet
+				227 image
+				228 text Intranet
+			229 button Reporting
+				230 image
+				231 text Reporting
+			232 button Raccourcis
+				233 image
+				234 text Raccourcis
+			235 button Réglages
+				236 image
+				237 text Réglages
+			51 text ASSISTANT IA Une question de droit ?
+			52 button Ouvrir le chat
+			53 button SM Sophie Marchand Déléguée syndicale
+				54 text SM
+				55 text Sophie Marchand
+				56 text Déléguée syndicale
+			57 button Se déconnecter
+		58 container
+			165 button ← Retour
+			59 image
+			60 text field (settable)
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			64 button
+				65 image
+			66 button Se déconnecter
+				67 image
+		183 container
+			238 heading Paramètres, Value: 1
+				239 text Paramètres
+			240 text Section syndicale Métallurgie — Valenciennes  · plan Fédération, 84 adhérents
+			241 button MARQUE BLANCHE Identité de marque Couleur principale, logos, typographie, mode sombre. Publication à l'organisation ou par établissement.
+				242 image
+				243 text MARQUE BLANCHE
+				244 text Identité de marque
+				245 text Couleur principale, logos, typographie, mode sombre. Publication à l'organisation ou par établissement.
+			246 button ÉLUE TITULAIRE Profil & mandat Identité, informations de l'organisation, convention collective, mandats, visibilité des coordonnées.
+				247 image
+				248 text ÉLUE TITULAIRE
+				249 text Profil & mandat
+				250 text Identité, informations de l'organisation, convention collective, mandats, visibilité des coordonnées.
+			251 button PUSH + EMAIL Notifications Granularité par module, plages « ne pas déranger », escalade des alertes urgentes.
+				252 image
+				253 text PUSH + EMAIL
+				254 text Notifications
+				255 text Granularité par module, plages « ne pas déranger », escalade des alertes urgentes.
+			256 button 23 CONTACTS Contacts & groupes Annuaire de la messagerie (élus, adhérents, externes), groupes de discussion, membres et administrateurs.
+				257 image
+				258 text 23 CONTACTS
+				259 text Contacts & groupes
+				260 text Annuaire de la messagerie (élus, adhérents, externes), groupes de discussion, membres et administrateurs.
+			261 button 4 ACTIFS Mémoire de l'assistant Faits retenus par l'IA d'une conversation à l'autre — stockés dans ce navigateur, modifiables et effaçables.
+				262 image
+				263 text 4 ACTIFS
+				264 text Mémoire de l'assistant
+				265 text Faits retenus par l'IA d'une conversation à l'autre — stockés dans ce navigateur, modifiables et effaçables.
+			266 button 37 ACTIVES Actions d'unii Actions proposées par unii dans chaque module, rôles autorisés, pastilles de suggestion.
+				267 image
+				268 text 37 ACTIVES
+				269 text Actions d'unii
+				270 text Actions proposées par unii dans chaque module, rôles autorisés, pastilles de suggestion.
+			271 button 1 INSTALLÉE Extensions Modules complémentaires : styles de documents et tracts, thèmes et sections de pages web. Activation, contenus autorisés, auto-test.
+				272 image
+				273 text 1 INSTALLÉE
+				274 text Extensions
+				275 text Modules complémentaires : styles de documents et tracts, thèmes et sections de pages web. Activation, contenus autorisés, auto-test.
+			276 button ADMIN Configuration IA Fournisseur LLM, clé API, quotas et comportement du modèle.
+				277 image
+				278 text ADMIN
+				279 text Configuration IA
+				280 text Fournisseur LLM, clé API, quotas et comportement du modèle.
+			281 button MFA ACTIF Sécurité Double authentification, appareils connectés, journal d'audit.
+				282 image
+				283 text MFA ACTIF
+				284 text Sécurité
+				285 text Double authentification, appareils connectés, journal d'audit.
+			286 button CONFORME Confidentialité & RGPD Registre des traitements, purge automatique, export de vos données.
+				287 image
+				288 text CONFORME
+				289 text Confidentialité & RGPD
+				290 text Registre des traitements, purge automatique, export de vos données.
+			291 button 24 SIÈGES Organisation & membres Membres, commissions, statuts et invitations.
+				292 image
+				293 text 24 SIÈGES
+				294 text Organisation & membres
+				295 text Membres, commissions, statuts et invitations.
+			296 button BACK-OFFICE Espace admin Tableau de bord organisation, activité par commission, facturation.
+				297 image
+				298 text BACK-OFFICE
+				299 text Espace admin
+				300 text Tableau de bord organisation, activité par commission, facturation.
+			301 button 3 EN CACHE Mode hors ligne Base documentaire chiffrée sur l'appareil, synchronisation intelligente.
+				302 image
+				303 text 3 EN CACHE
+				304 text Mode hors ligne
+				305 text Base documentaire chiffrée sur l'appareil, synchronisation intelligente.
+			306 button 1/4 ÉTAPES Prise en main Convention collective, commissions, invitation des élus, alertes.
+				307 image
+				308 text 1/4 ÉTAPES
+				309 text Prise en main
+				310 text Convention collective, commissions, invitation des élus, alertes.
+			311 heading Ordre du menu de gauche, Value: 2
+				312 text Ordre du menu de gauche
+			313 text Placez en tête les modules que vous ouvrez le plus souvent. L'ordre s'applique aussitôt à la barre latérale et à la barre de navigation mobile.
+			314 text 1 Accueil Aussi dans la barre mobile
+			315 button (disabled) Déplacer Accueil vers le haut
+			316 button Déplacer Accueil vers le bas
+			317 text 2 Assistant Barre latérale seulement
+			318 button Déplacer Assistant vers le haut
+			319 button Déplacer Assistant vers le bas
+			320 text 3 Dossiers Aussi dans la barre mobile
+			321 button Déplacer Dossiers vers le haut
+			322 button Déplacer Dossiers vers le bas
+			323 text 4 Messages Barre latérale seulement
+			324 button Déplacer Messages vers le haut
+			325 button Déplacer Messages vers le bas
+			326 text 5 Agenda Aussi dans la barre mobile
+			327 button Déplacer Agenda vers le haut
+			328 button Déplacer Agenda vers le bas
+			329 text 6 Réunions Aussi dans la barre mobile
+			330 button Déplacer Réunions vers le haut
+			331 button Déplacer Réunions vers le bas
+			332 text 7 Documents Barre latérale seulement
+			333 button Déplacer Documents vers le haut
+			334 button Déplacer Documents vers le bas
+			335 text 8 Formations Barre latérale seulement
+			336 button Déplacer Formations vers le haut
+			337 button Déplacer Formations vers le bas
+			338 text 9 Communication Barre latérale seulement
+			339 button Déplacer Communication vers le haut
+			340 button Déplacer Communication vers le bas
+			341 text 10 Application mobile Barre latérale seulement
+			342 button Déplacer Application mobile vers le haut
+			343 button Déplacer Application mobile vers le bas
+			344 text 11 Adhérents Barre latérale seulement
+			345 button Déplacer Adhérents vers le haut
+			346 button Déplacer Adhérents vers le bas
+			347 text 12 Intranet Barre latérale seulement
+			348 button Déplacer Intranet vers le haut
+			349 button Déplacer Intranet vers le bas
+			350 text 13 Reporting Barre latérale seulement
+			351 button Déplacer Reporting vers le haut
+			352 button Déplacer Reporting vers le bas
+			353 text 14 Raccourcis Barre latérale seulement
+			354 button Déplacer Raccourcis vers le haut
+			355 button Déplacer Raccourcis vers le bas
+			356 text 15 Réglages Aussi dans la barre mobile
+			357 button Déplacer Réglages vers le haut
+			358 button (disabled) Déplacer Réglages vers le bas
+
+The focused UI element is 1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

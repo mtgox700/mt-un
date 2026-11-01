@@ -1,0 +1,91 @@
+{
+  "conclusion": "Le prototype n’est pas entièrement responsive, et sa disposition mobile ne constitue pas encore une UX adaptée sur tous les parcours.",
+  "perimetre": {
+    "ecrans_et_etats": 26,
+    "mesures": 104,
+    "largeurs": [
+      360,
+      390,
+      768,
+      1024
+    ],
+    "supplement": "Hauteur réduite 430 px sur conversation et modales ; réutilisation documentée des contrôles antérieurs de console admin.",
+    "limites": "Audit ciblé, pas validation exhaustive des 87 sections. Dimensions de navigateur, pas appareils physiques. Débordements de texte volontairement tronqué et contrôles invisibles ne comptent pas automatiquement comme anomalies. Une mesure Accueil à 390 a conservé transitoirement 352 px utiles : exclue des conclusions chiffrées."
+  },
+  "modifications_application": "Aucune modification de l’application pendant cet audit.",
+  "constats": [
+    {
+      "id": "R01",
+      "priorite": "Haute",
+      "ecran": "En-tête transversal",
+      "constat": "Sur plusieurs écrans à 390 px, l’en-tête occupe 419 à 444 px pour une zone utile de 382 px : boutons à droite partiellement hors écran.",
+      "adaptation_proposee": "Corriger les contraintes de largeur ; compacter les actions et réserver un accès clair à la recherche.",
+      "preuve": "Dossiers-390.png"
+    },
+    {
+      "id": "R02",
+      "priorite": "Haute",
+      "ecran": "Conversation",
+      "constat": "Le nom de la discussion se comprime au profit des boutons. À 390 × 430, saisie et bouton Envoyer mesurés vers y=642 : hors de la zone visible. La hauteur minimale de la messagerie est 560 px.",
+      "adaptation_proposee": "Prioriser le titre et la saisie ; adapter la hauteur au viewport disponible ; déplacer les actions secondaires dans un menu.",
+      "preuve": "Conversation-390.png"
+    },
+    {
+      "id": "R03",
+      "priorite": "Haute",
+      "ecran": "Éditeur de documents",
+      "constat": "Le document testé impose environ 2 775 px de défilement avant l’aperçu. Aperçu débordant : largeur interne de 440 px dans une zone de 308 px ; nombreuses petites commandes de blocs.",
+      "adaptation_proposee": "Sur mobile, alterner Éditer / Aperçu, proposer un zoom Ajuster à la largeur et regrouper les outils secondaires.",
+      "preuve": "Editeur-document-390.png"
+    },
+    {
+      "id": "R04",
+      "priorite": "Haute",
+      "ecran": "Agenda",
+      "constat": "Bouton Aujourd’hui tronqué ; intitulés du calendrier mensuel très abrégés. Nouvel événement apparaît vers y=1 128 sans être amené dans le champ visible.",
+      "adaptation_proposee": "Corriger la barre de commandes ; amener le formulaire au focus. Arbitrer une vue Liste par défaut sur téléphone, la vue Mois restant disponible.",
+      "preuve": "Agenda-390.png"
+    },
+    {
+      "id": "R05",
+      "priorite": "Haute",
+      "ecran": "Console super-admin",
+      "constat": "Contrôle précédent : coque totale d’environ 908 px, panneau principal de 640 px et barre latérale de 268 px. Accessible en défilement horizontal mais inadapté au téléphone.",
+      "adaptation_proposee": "Prévoir un menu repliable et une présentation des informations adaptée à la largeur ; conserver les mêmes fonctions et l’identité visuelle.",
+      "preuve": "../validation-finale/journal-corrige-768.png"
+    },
+    {
+      "id": "R06",
+      "priorite": "Moyenne",
+      "ecran": "Assistant IA",
+      "constat": "Historique et création de conversation occupent le premier écran avant la zone de conversation. Plusieurs commandes compactes.",
+      "adaptation_proposee": "Donner la priorité à la conversation et à la saisie ; ouvrir l’historique à la demande.",
+      "preuve": "Assistant-IA-390.png"
+    },
+    {
+      "id": "R07",
+      "priorite": "Moyenne",
+      "ecran": "Adhérents / listes documentaires",
+      "constat": "Indicateurs et filtres empilés repoussent la liste ; certains titres documentaires sont fortement tronqués.",
+      "adaptation_proposee": "Filtres repliables et recherche prioritaire, titres sur plusieurs lignes, actions secondaires regroupées.",
+      "preuve": "Adhérents-390.png"
+    },
+    {
+      "id": "R08",
+      "priorite": "Moyenne",
+      "ecran": "Navigation mobile et contrôles tactiles",
+      "constat": "La barre mobile expose seulement cinq modules. Messages, Assistant et Documents nécessitent notamment un retour à l’accueil. Des boutons secondaires mesurés sous 36 px de haut demandent une revue au doigt.",
+      "adaptation_proposee": "Arbitrer les destinations prioritaires et un accès à tous les modules ; agrandir les zones tactiles sans nécessairement agrandir les icônes.",
+      "preuve": "Messages-390.png"
+    },
+    {
+      "id": "R09",
+      "priorite": "À vérifier sur appareil",
+      "ecran": "Modales / clavier",
+      "constat": "La fenêtre d’invitation reste dans la largeur, mais ses champs et boutons nécessitent un défilement en faible hauteur. Le formulaire agenda est intégré à la page, ce n’est pas une modale.",
+      "adaptation_proposee": "Tester focus, défilement, fermeture et saisie avec clavier réel iOS/Android. La hauteur 430 px n’est qu’un test de contrainte, pas une émulation du clavier.",
+      "preuve": "Modale-invitation-hauteur430.png"
+    }
+  ],
+  "strategie": "Conserver palette, typographies, contenus et logique métier. Adapter disposition, accès aux actions, densité et navigation sur téléphone ; figer ensuite ces variantes mobiles comme référence avant développement final."
+}

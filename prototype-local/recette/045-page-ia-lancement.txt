@@ -1,0 +1,114 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			129 button Intranet
+				130 image
+				131 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			89 button Réglages
+				90 image
+				91 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			132 text INTRANET
+			133 heading Générateur de pages HTML, Value: 1
+				134 text Générateur de pages HTML
+			135 text GABARIT
+			136 button Actualité
+			137 button Communiqué interne
+			138 button Fiche pratique
+			139 button Questions-réponses
+			140 button Événement
+			141 button Compte rendu de séance
+			142 text RUBRIQUE DE DESTINATION
+			143 button Actualités
+			144 button Vos droits
+			145 button La section
+			146 button Négociations
+			147 button Loisirs & ASC
+			148 button Nous contacter
+			149 text /intranet/actualites/…
+			150 text POINTS CLÉS
+			151 text entry area (settable) Démonstration fictive : réunion de préparation mardi à 10 h, salle A. Accueil, ordre du jour, prochaines étapes.
+			152 button Passer en mode assistant
+			153 text TON
+			154 button Clair
+			155 button Institutionnel
+			156 button Mobilisateur
+			157 text THÈME DE LA PAGE
+			158 button Charte du site
+			159 button Éditorial
+			160 button Moderne à cartes
+			161 button Militant
+			162 button Institutionnel
+			163 button Magazine
+			164 button Minimal
+			165 text unii peut aussi composer avec les sections bandeau d'accroche, chiffres clés, frise de la négociation, faq dépliable, cartes des élus, agenda, appel à adhérer. Vous relisez avant tout envoi.
+			166 button Reformuler en langage clair Phrases courtes, pas de jargon juridique, tutoiement exclu.
+				167 text Reformuler en langage clair
+				168 text Phrases courtes, pas de jargon juridique, tutoiement exclu.
+			169 button Générer le résumé d'accueil Chapô de 240 caractères pour la page d'accueil de l'intranet.
+				170 text Générer le résumé d'accueil
+				171 text Chapô de 240 caractères pour la page d'accueil de l'intranet.
+			172 button Rédaction en cours…
+			173 text Prompt anonymisé avant envoi. Le HTML produit ne contient ni script ni style en ligne : seules les classes de la feuille du site sont utilisées.
+			174 button En savoir plus sur la sécurité
+			175 text génération du balisage… Rédaction, mise au gabarit, puis contrôle des données personnelles.
+
+The focused UI element is 172 button Rédaction en cours…

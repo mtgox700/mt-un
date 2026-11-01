@@ -1,0 +1,17 @@
+[
+  {
+    "id": "admin-members",
+    "sourceEqualsExtracted": true,
+    "sha256": "ff62cda5c0b3a9b3f0b3e2c67033c3d755d5bf966417d86ffa843aa8c9f8db20"
+  },
+  {
+    "id": "admin-onboarding",
+    "sourceEqualsExtracted": true,
+    "sha256": "d7efb955658dd11485c5b34f8c5b2d6b848cd08e69103de91a1d8399619deff2"
+  },
+  {
+    "id": "admin-dashboard",
+    "sourceEqualsExtracted": true,
+    "sha256": "000f761777be1994bb510fa797bb7a46a85e66cd04eec8992c215385536c71c3"
+  }
+]

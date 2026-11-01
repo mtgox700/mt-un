@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Import audio : octets sauvegardés puis relus et accès journalisé",
+    "result": "PASS"
+  },
+  {
+    "name": "Audio : erreur stockage ne crée pas de réunion",
+    "result": "PASS"
+  },
+  {
+    "name": "Simulation : aucun faux audio enregistré",
+    "result": "PASS"
+  },
+  {
+    "name": "Pièce : versions restaurables sans perdre les versions suivantes",
+    "result": "PASS"
+  },
+  {
+    "name": "Pièce : quota refusé sans ajouter de métadonnées",
+    "result": "PASS"
+  },
+  {
+    "name": "ICS : contient événement et échappe texte spécial",
+    "result": "PASS"
+  },
+  {
+    "name": "CSV journal : données actuelles et guillemets échappés",
+    "result": "PASS"
+  },
+  {
+    "name": "Cache : octets réellement stockés et retirés",
+    "result": "PASS"
+  },
+  {
+    "name": "Cache : quota refusé sans faux statut disponible",
+    "result": "PASS"
+  },
+  {
+    "name": "Signature : validation des trois lignes et sauvegarde",
+    "result": "PASS"
+  },
+  {
+    "name": "PV retardé : aucune navigation après changement de parcours",
+    "result": "PASS"
+  },
+  {
+    "name": "Micro : refus tardif après annulation ne relance pas la simulation",
+    "result": "PASS"
+  },
+  {
+    "name": "Micro : flux reçu après annulation immédiatement libéré",
+    "result": "PASS"
+  },
+  {
+    "name": "Navigation : pause de capture et arrêt de lecture",
+    "result": "PASS"
+  },
+  {
+    "name": "Audio : sauvegarde attend le dernier fragment du MediaRecorder",
+    "result": "PASS"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "authorized": [
+    {
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "authorized": true,
+      "modal": true,
+      "returnWithoutLogin": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "authorized": true,
+      "modal": true,
+      "returnWithoutLogin": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "authorized": true,
+      "modal": true,
+      "returnWithoutLogin": true
+    }
+  ],
+  "refused": [
+    {
+      "width": 1440,
+      "height": 900,
+      "menuDenied": true,
+      "directDenied": true,
+      "noEditor": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "menuDenied": true,
+      "directDenied": true,
+      "noEditor": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "menuDenied": true,
+      "directDenied": true,
+      "noEditor": true
+    }
+  ]
+}

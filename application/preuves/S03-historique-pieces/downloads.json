@@ -1,0 +1,20 @@
+[
+  {
+    "device": "mobile",
+    "office_exact": true,
+    "pdf_pages": 1,
+    "ics_valid_marker": true
+  },
+  {
+    "device": "tablette",
+    "office_exact": true,
+    "pdf_pages": 1,
+    "ics_valid_marker": true
+  },
+  {
+    "device": "desktop",
+    "office_exact": true,
+    "pdf_pages": 1,
+    "ics_valid_marker": true
+  }
+]

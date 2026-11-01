@@ -1,0 +1,63 @@
+- complementary:
+  - generic: uniion
+  - generic: Console d'administration
+  - navigation:
+    - button "Supervision":
+      - generic: Supervision
+    - button "Organisations":
+      - generic: Organisations
+    - button "Utilisateurs":
+      - generic: Utilisateurs
+    - button "Clés API IA":
+      - generic: Clés API IA
+    - button "Éditeur de l’application":
+      - generic: Éditeur de l’application
+    - button "Abonnements et paiements":
+      - generic: Abonnements et paiements
+    - button "Journal d’audit":
+      - generic: Journal d’audit
+  - generic: SA
+  - generic: Super administrateur
+  - generic: admin@uniion.fr
+  - button "Se déconnecter":
+- main:
+  - generic: Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+  - heading "Éditeur de l'application" [level=1]
+  - paragraph: Réglages globaux, message d'information et gabarits livrés à toutes les organisations.
+  - heading "Disponibilité" [level=2]
+  - switch "Mode maintenance"
+  - generic: Mode maintenance
+  - generic: Ferme l’accès aux utilisateurs et affiche une page d’attente.
+  - switch "Nouvelles organisations" [checked]
+  - generic: Nouvelles organisations
+  - generic: Autorise la création de comptes depuis le site public.
+  - switch "Assistant IA disponible" [checked]
+  - generic: Assistant IA disponible
+  - generic: Coupe globalement les appels au modèle en cas d’incident.
+  - text: Bandeau d'information (visible par tous)
+  - textbox "Bandeau d'information (visible par tous)":
+    - /placeholder: Ex. Maintenance planifiée samedi 13/09 de 8 h à 10 h.
+  - button "Appliquer à la plateforme"
+  - heading "Gabarits livrés" [level=2]
+  - paragraph: Modèles de documents et de pages proposés par défaut dans chaque organisation.
+  - generic: Tract A4
+  - generic: v3 · mis à jour le 09/09/2026
+  - generic: Publié
+  - button "Modifier"
+  - generic: Convocation de réunion
+  - generic: v2 · mis à jour le 28/08/2026
+  - generic: Publié
+  - button "Modifier"
+  - generic: Compte rendu de section
+  - generic: v5 · mis à jour le 02/09/2026
+  - generic: Publié
+  - button "Modifier"
+  - generic: Page intranet — actualité
+  - generic: v1 · mis à jour le 11/09/2026
+  - generic: Brouillon
+  - button "Publier"
+  - text: "Version de prompt en service :"
+  - strong: v4.2
+  - text: "· rétention des échanges IA :"
+  - strong: 36 mois
+  - text: .

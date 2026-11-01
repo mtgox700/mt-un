@@ -1,0 +1,66 @@
+{
+  "checks": [
+    {
+      "test": "admin_login",
+      "ok": true
+    },
+    {
+      "test": "send_without_mfa_refused",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "admin_mfa",
+      "ok": true
+    },
+    {
+      "test": "foreign_origin_refused",
+      "ok": true
+    },
+    {
+      "test": "missing_csrf_refused",
+      "ok": true
+    },
+    {
+      "test": "external_email_refused",
+      "ok": true
+    },
+    {
+      "test": "recipient_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "recipient_mfa",
+      "ok": true
+    },
+    {
+      "test": "recipient_has_no_invite_authority",
+      "ok": true
+    },
+    {
+      "test": "accepted_token_cannot_be_reused",
+      "ok": true
+    },
+    {
+      "test": "accepted_organization_membership_exists",
+      "ok": true
+    },
+    {
+      "test": "no_business_resources_granted",
+      "ok": true
+    },
+    {
+      "test": "other_organization_resource_denied",
+      "ok": true
+    }
+  ],
+  "passed": true,
+  "count": 15
+}

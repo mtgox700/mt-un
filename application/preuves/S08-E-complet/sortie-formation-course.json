@@ -1,0 +1,106 @@
+{
+  "draft": "BROUILLON À RELIRE — Proposition de cours de 30 minutes, niveau débutant, destinée à un élu, sur le thème « Préparer une réunion fictive ». Objectif : formuler un ordre du jour. Les activités et exemples sont des suggestions pédagogiques, non des faits issus des sources. Le contexte de la réunion, les participants et les sujets réels sont [à compléter]. Aucune action n’est exécutée et aucune validation juridique n’est proposée.",
+  "excerpts": [
+    {
+      "source": "S1",
+      "passage": "P1",
+      "quote": "theme : Préparer une réunion fictive"
+    },
+    {
+      "source": "S1",
+      "passage": "P2",
+      "quote": "dur : 30"
+    },
+    {
+      "source": "S1",
+      "passage": "P3",
+      "quote": "level : Débutant"
+    },
+    {
+      "source": "S1",
+      "passage": "P4",
+      "quote": "role : Élu"
+    },
+    {
+      "source": "S1",
+      "passage": "P5",
+      "quote": "goal : Formuler un ordre du jour"
+    }
+  ],
+  "artifact": {
+    "title": "Préparer une réunion fictive : formuler un ordre du jour",
+    "intro": "Cours proposé pour un élu débutant, d’une durée totale de 30 minutes. La configuration fournie fixe le thème, le public et l’objectif. Le découpage, les méthodes, les exercices et les réponses aux quiz sont des propositions pédagogiques à relire. Les sources ne précisent ni le type d’instance, ni les règles applicables, ni les sujets à traiter : ces éléments restent [à compléter]. Ce cours ne constitue pas une validation juridique.",
+    "modules": [
+      {
+        "title": "Définir ce que la réunion doit permettre",
+        "minutes": 15,
+        "objectif": "Transformer une intention générale en sujets précis à inscrire dans un projet d’ordre du jour.",
+        "points": [
+          {
+            "h": "Partir des informations disponibles",
+            "text": "Faits fournis : le thème est la préparation d’une réunion fictive et l’objectif est de formuler un ordre du jour. Le contexte, les participants et les sujets concrets sont [à compléter]. Ne pas présenter ces informations manquantes comme acquises."
+          },
+          {
+            "h": "Préciser le résultat attendu",
+            "text": "Suggestion : pour chaque sujet envisagé, écrire ce que les participants devraient pouvoir faire à l’issue de l’échange, par exemple comprendre une proposition, exprimer des besoins ou comparer des options. Ces formulations ne préjugent d’aucun pouvoir de décision."
+          },
+          {
+            "h": "Distinguer sujet et formulation",
+            "text": "Suggestion : remplacer un intitulé vague par une formulation qui indique le sujet et le travail proposé. Garder visibles les informations restant à compléter."
+          }
+        ],
+        "exemple": "Exemple inventé pour l’apprentissage : au lieu de « Salle », proposer « Recueillir les besoins concernant l’utilisation d’une salle ». Le lieu concerné, les participants et les contraintes restent [à compléter].",
+        "exercice": "Proposition de répartition : découverte des points pendant 5 minutes, reformulation pendant 7 minutes, retour pendant 3 minutes. Choisissez un sujet fictif, rédigez un intitulé précis et indiquez le résultat attendu. Signalez les informations manquantes par [à compléter].",
+        "quiz": {
+          "q": "Pour cet exercice, quel intitulé rend le travail attendu le plus explicite ?",
+          "choices": [
+            "Divers",
+            "Recueillir les besoins concernant l’utilisation d’une salle",
+            "Salle"
+          ],
+          "answer": 1,
+          "explain": "Dans la méthode proposée, cet intitulé précise à la fois le sujet et l’activité attendue. Il s’agit d’un choix pédagogique, pas d’une exigence juridique établie par les sources."
+        }
+      },
+      {
+        "title": "Assembler et relire un projet d’ordre du jour",
+        "minutes": 15,
+        "objectif": "Rédiger un ordre du jour lisible en distinguant propositions et informations confirmées.",
+        "points": [
+          {
+            "h": "Organiser les sujets",
+            "text": "Suggestion : classer les sujets dans un ordre compréhensible, en plaçant les éléments de contexte avant les échanges qui en dépendent. Ce classement est une proposition à adapter, non une règle attestée par les sources."
+          },
+          {
+            "h": "Construire un brouillon",
+            "text": "Suggestion : présenter une liste de sujets avec, pour chacun, un intitulé et un résultat attendu. Si des documents ou des personnes intervenantes sont nécessaires, les indiquer comme éléments à confirmer."
+          },
+          {
+            "h": "Identifier les limites",
+            "text": "Les sources ne permettent pas de déterminer les modalités de convocation, les délais, les compétences de l’instance ou les conditions d’adoption d’un ordre du jour. Ces faits sont [à compléter]. Toute analyse juridique ultérieure serait une proposition à vérifier, jamais une validation."
+          }
+        ],
+        "exemple": "Brouillon fictif proposé : « Contexte : [à compléter]. Sujet proposé : recueillir les besoins concernant l’utilisation d’une salle. Résultat attendu : établir une liste de besoins à discuter. Autres sujets : [à compléter]. » Ce texte n’est ni une convocation ni un document adopté.",
+        "exercice": "Proposition de répartition : présentation pendant 4 minutes, rédaction pendant 8 minutes, relecture pendant 3 minutes. Assemblez vos sujets en un projet d’ordre du jour. Vérifiez que chaque intitulé est compréhensible et que les informations inconnues restent signalées. Aucun envoi ni aucune adoption ne sont prévus.",
+        "quiz": {
+          "q": "Que faire d’un délai de convocation absent des sources ?",
+          "choices": [
+            "Choisir un délai et le présenter comme obligatoire",
+            "Supprimer toute mention du manque d’information",
+            "Indiquer [à compléter] et signaler que les sources ne permettent pas de le déterminer"
+          ],
+          "answer": 2,
+          "explain": "Le délai ne peut pas être établi à partir des données fournies. Le brouillon doit rendre cette limite visible plutôt qu’inventer une obligation."
+        }
+      }
+    ],
+    "retenir": [
+      "La configuration demande un cours de 30 minutes pour un élu débutant visant à formuler un ordre du jour.",
+      "Les méthodes et exemples proposés sont pédagogiques, non des obligations attestées par les sources.",
+      "Un intitulé peut préciser le sujet et le résultat attendu.",
+      "Les faits manquants restent [à compléter] ; aucune règle juridique ne peut être déduite de cette seule configuration.",
+      "Le résultat demeure un brouillon à relire, sans envoi, adoption ou autre action."
+    ],
+    "sources": "S1, P1 : thème ; P2 : durée de 30 minutes ; P3 : niveau débutant ; P4 : rôle d’élu ; P5 : objectif de formulation d’un ordre du jour. Aucune source juridique ni information sur une instance réelle n’a été fournie."
+  }
+}

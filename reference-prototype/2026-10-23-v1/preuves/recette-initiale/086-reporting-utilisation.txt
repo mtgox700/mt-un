@@ -1,0 +1,111 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			153 button Formations
+				154 image
+				155 text Formations
+			150 button Communication
+				151 image
+				152 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			144 button Réglages
+				145 image
+				146 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			159 text PILOTAGE
+			160 heading Reporting, Value: 1
+				161 text Reporting
+			162 text Année 2026 · 24 sièges · 3 établissements
+			163 button Année 2026
+			164 button 12 derniers mois
+			165 button Mandat 2024–2028
+			166 checkbox Bilan de mandat, Value: 0
+			167 checkbox Utilisation de l'application, Value: 1
+			168 text ÉLUS ACTIFS 21 / 24 88 % des sièges SESSIONS 4 812 +22 % vs 2025 DURÉE MOYENNE 9 min +1 min USAGE MOBILE 64 % +9 pts
+			169 heading Utilisation par module, Value: 2
+				170 text Utilisation par module
+			171 text Ouvertures d'écran sur la période, tous élus confondus.
+			172 text Dossiers 1 560 +18 % Assistant IA 1 180 +41 % Réunions 620 +7 % Documents 540 +12 % Sondages 410 −3 % Intranet 290 nouveau Messagerie 212 +5 %
+			173 heading Sessions par semaine, Value: 2
+				174 text Sessions par semaine
+			175 text Mobile en orange, poste de travail en gris.
+			176 text S31 S32 S33 S34 S35 S36 S37 S38
+			177 heading Assistant IA, Value: 2
+				178 text Assistant IA
+			179 container
+				180 text Quota mutualisé de l'organisation ·  1 864 appels sur 3 300 (56 %)
+			181 text Requêtes à l'assistant dont 612 depuis un dossier 1 864 Réponses sourcées article ou convention cité 93 % Reformulations de courrier ton combatif dans 38 % des cas 406 Temps estimé économisé base 12 min par requête aboutie 312 h
+			182 text NIVEAU D'ANONYMISATION DES APPELS
+			183 text Standard 51 % RH (noms + matricules) 34 % RPS (masquage maximal) 15 %
+			184 heading Contenus produits, Value: 2
+				185 text Contenus produits
+			186 text Courriers et tracts générés 186 diffusés, 74 archivés 260 Comptes rendus de réunion 92 % relus par un pair 48 Pages intranet publiées 9 en attente du webmaster 34 Sondages lancés 69 % de participation moyenne 13 Pièces déposées au coffre 4,2 Go chiffrés 1 042 Signatures électroniques toutes horodatées 87
+			187 heading Élus les plus actifs, Value: 2
+				188 text Élus les plus actifs
+			189 text Visible des seuls administrateurs de l'organisation.
+			190 text SM Sophie Marchand Secrétaire · 46 dossiers, 312 requêtes IA 812 sess. KB Karim Benali Trésorier · 28 dossiers, 141 requêtes IA 504 sess. LT Léa Thibault Référente SSCT · 24 dossiers 431 sess. MR Marc Rossi Communication · 22 pages intranet 388 sess. AN Aline Noury Suppléante · 11 dossiers 196 sess.
+			191 heading Fiabilité et hors ligne, Value: 2
+				192 text Fiabilité et hors ligne
+			193 text Synchronisations hors ligne 2 conflits résolus manuellement 1 284 Taux de synchro réussie sur les 90 derniers jours 99,7 % Latence médiane de l'assistant première ligne de réponse 1,8 s Incidents déclarés 1 indisponibilité de 22 min en mai 3 Connexions bloquées (MFA) aucune compromission constatée 6
+			194 heading Exporter le rapport d'usage, Value: 2
+				195 text Exporter le rapport d'usage
+			196 text Statistiques agrégées uniquement. Aucun contenu de dossier, de message ou de requête IA n'est exporté.
+			197 button Rapport d'usage (PDF)
+			198 button Données brutes (Excel)
+			199 button Gérer les sièges et les accès →
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

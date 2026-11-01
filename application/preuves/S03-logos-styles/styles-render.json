@@ -1,0 +1,254 @@
+[
+  {
+    "style": "choc",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 19396,
+    "passed": true
+  },
+  {
+    "style": "choc",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 16523,
+    "passed": true
+  },
+  {
+    "style": "choc",
+    "format": "wide",
+    "pages": 1,
+    "bytes": 15549,
+    "passed": true
+  },
+  {
+    "style": "journal",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 21548,
+    "passed": true
+  },
+  {
+    "style": "journal",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 21543,
+    "passed": true
+  },
+  {
+    "style": "journal",
+    "format": "wide",
+    "pages": 1,
+    "bytes": 19946,
+    "passed": true
+  },
+  {
+    "style": "infographie",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 10164,
+    "passed": true
+  },
+  {
+    "style": "infographie",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 10142,
+    "passed": true
+  },
+  {
+    "style": "infographie",
+    "format": "wide",
+    "pages": 1,
+    "bytes": 9793,
+    "passed": true
+  },
+  {
+    "style": "institutionnel",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 18060,
+    "passed": true
+  },
+  {
+    "style": "institutionnel",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 18018,
+    "passed": true
+  },
+  {
+    "style": "institutionnel",
+    "format": "wide",
+    "pages": 1,
+    "bytes": 17394,
+    "passed": true
+  },
+  {
+    "style": "photo",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 31431,
+    "passed": true
+  },
+  {
+    "style": "photo",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 30367,
+    "passed": true
+  },
+  {
+    "style": "photo",
+    "format": "wide",
+    "pages": 1,
+    "bytes": 30945,
+    "passed": true
+  },
+  {
+    "style": "serigraphie",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 711539,
+    "passed": true
+  },
+  {
+    "style": "serigraphie",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 323090,
+    "passed": true
+  },
+  {
+    "style": "serigraphie",
+    "format": "wide",
+    "pages": 1,
+    "bytes": 794926,
+    "passed": true
+  },
+  {
+    "style": "bulletin",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 15921,
+    "passed": true
+  },
+  {
+    "style": "bulletin",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 15909,
+    "passed": true
+  },
+  {
+    "style": "bulletin",
+    "format": "wide",
+    "pages": 1,
+    "bytes": 16661,
+    "passed": true
+  },
+  {
+    "style": "qr",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 20719,
+    "passed": true
+  },
+  {
+    "style": "qr",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 20700,
+    "passed": true
+  },
+  {
+    "style": "qr",
+    "format": "wide",
+    "pages": 1,
+    "bytes": 20510,
+    "passed": true
+  },
+  {
+    "style": "satirique",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 83340,
+    "passed": true
+  },
+  {
+    "style": "satirique",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 67059,
+    "passed": true
+  },
+  {
+    "style": "satirique",
+    "format": "wide",
+    "pages": 1,
+    "bytes": 71857,
+    "passed": true
+  },
+  {
+    "style": "bd",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 41415,
+    "passed": true
+  },
+  {
+    "style": "bd",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 30650,
+    "passed": true
+  },
+  {
+    "style": "bd",
+    "format": "wide",
+    "pages": 1,
+    "bytes": 37476,
+    "passed": true
+  },
+  {
+    "style": "annonce",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 29711,
+    "passed": true
+  },
+  {
+    "style": "annonce",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 29535,
+    "passed": true
+  },
+  {
+    "style": "annonce",
+    "format": "wide",
+    "pages": 1,
+    "bytes": 21446,
+    "passed": true
+  },
+  {
+    "style": "retro",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 183212,
+    "passed": true
+  },
+  {
+    "style": "retro",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 164869,
+    "passed": true
+  },
+  {
+    "style": "retro",
+    "format": "wide",
+    "pages": 1,
+    "bytes": 183195,
+    "passed": true
+  }
+]

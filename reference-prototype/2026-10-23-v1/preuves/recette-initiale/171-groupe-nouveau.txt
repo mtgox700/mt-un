@@ -1,0 +1,248 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 image uniion
+			5 button Réduire le menu
+			69 button Accueil
+				70 image
+				71 text Accueil
+			100 button Assistant
+				101 image
+				102 text Assistant
+			76 button Dossiers
+				77 image
+				78 text Dossiers
+			107 button Messages
+				108 image
+				109 text Messages
+			18 button Agenda
+				19 image
+				20 text Agenda
+			21 button Réunions
+				22 image
+				23 text Réunions
+			24 button Documents
+				25 image
+				26 text Documents
+			97 button Formations
+				98 image
+				99 text Formations
+			79 button Communication
+				80 image
+				81 text Communication
+			91 button Application mobile
+				92 image
+				93 text Application mobile
+			36 button Adhérents
+				37 image
+				38 text Adhérents
+			39 button Intranet
+				40 image
+				41 text Intranet
+			110 button Reporting
+				111 image
+				112 text Reporting
+			85 button Raccourcis
+				86 image
+				87 text Raccourcis
+			48 button Réglages
+				49 image
+				50 text Réglages
+			51 text ASSISTANT IA Une question de droit ?
+			52 button Ouvrir le chat
+			53 button SM Sophie Marchand Déléguée syndicale
+				54 text SM
+				55 text Sophie Marchand
+				56 text Déléguée syndicale
+			57 button Se déconnecter
+		58 container
+			75 button ← Retour
+			59 image
+			60 text field (settable)
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				113 text unii
+				114 text 1
+			64 button
+				65 image
+			66 button Se déconnecter
+				67 image
+		106 container
+			115 text UNII SUGGÈRE
+			116 button 1 non lu · Jean-Paul Diallo
+			117 container
+				118 heading Messages, Value: 1
+					119 text Messages
+				120 button Nouvelle discussion
+				121 button Nouveau groupe
+				122 button Nouvelle diffusion aux adhérents
+				123 tab group Vue
+					124 tab (selected, settable, boolean) Discussions, Value: 1
+					125 tab (selectable, settable, boolean) Contacts & groupes, Value: 0
+				126 text field (settable) Rechercher
+				127 checkbox Toutes, Value: 1
+				128 checkbox Non lues 1, Value: 0
+				129 checkbox Sans réponse de ma part 2, Value: 0
+				130 checkbox Dernier message de moi 2, Value: 0
+				131 checkbox Groupes 3, Value: 0
+				132 checkbox Diffusions, Value: 0
+				133 button Contact Fictif Recette Aucun message — écrivez le premier
+					134 text Contact Fictif Recette
+					135 text Aucun message — écrivez le premier
+				136 button Commission Négociation 16:54 ✓✓ Vous : RECETTE : message fictif pour vérifier la conversation.
+					137 text Commission Négociation
+					138 text 16:54
+					139 text ✓✓
+					140 text Vous : 
+					141 text RECETTE : message fictif pour vérifier la conversation.
+				142 button Commission SSCT hier ✓✓ Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire.
+					143 text Commission SSCT
+					144 text hier
+					145 text ✓✓
+					146 text Vous : 
+					147 text Je prépare la grille d'enquête et je la dépose dans la base documentaire.
+				148 button Commission ASC lun. Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts.
+					149 text Commission ASC
+					150 text lun.
+					151 text Leïla C. : 
+					152 text Troisième devis traiteur reçu : 2 900 € pour 180 couverts.
+				153 button Jean-Paul Diallo lun. Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi. 1
+					154 text Jean-Paul Diallo
+					155 text lun.
+					156 text Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.
+					157 text 1
+				158 text Chiffrée de bout en bout — hors des outils de l'entreprise.
+			159 container
+				160 heading Messages de la section, Value: 2
+					161 text Messages de la section
+				162 text Échangez avec les élus en direct ou en groupe, et retrouvez ici chaque envoi fait aux adhérents depuis « Envoyer un message ».
+				163 button Nouvelle discussion
+				164 button Nouveau groupe
+				165 button Diffuser aux adhérents
+				166 text Chiffrée de bout en bout
+		167 container Nouveau groupe
+			168 heading Nouveau groupe, Value: 2
+				169 text Nouveau groupe
+			170 container
+				171 text NOM DU GROUPE
+				172 text field (settable) NOM DU GROUPE
+			173 container
+				174 text DESCRIPTION
+				175 text entry area (settable) DESCRIPTION
+			176 text MEMBRES 0 sélectionné + vous
+			177 text field (settable)
+			178 container
+				179 checkbox Jean-Paul Diallo Équipe & élus · Élu titulaire · Délégué syndical, Value: 0
+					180 text Jean-Paul Diallo
+					181 text Équipe & élus
+					182 text  · 
+					183 text Élu titulaire · Délégué syndical
+				184 checkbox Leïla Chaïb Équipe & élus · Élue · Commission ASC, Value: 0
+					185 text Leïla Chaïb
+					186 text Équipe & élus
+					187 text  · 
+					188 text Élue · Commission ASC
+				189 checkbox Marc Aubert Équipe & élus · Suppléant · Référent SSCT, Value: 0
+					190 text Marc Aubert
+					191 text Équipe & élus
+					192 text  · 
+					193 text Suppléant · Référent SSCT
+				194 checkbox Nadia Roussel Équipe & élus · Élue suppléante, Value: 0
+					195 text Nadia Roussel
+					196 text Équipe & élus
+					197 text  · 
+					198 text Élue suppléante
+				199 checkbox Thomas Lefèvre Équipe & élus · Représentant syndical au CSE, Value: 0
+					200 text Thomas Lefèvre
+					201 text Équipe & élus
+					202 text  · 
+					203 text Représentant syndical au CSE
+				204 checkbox Cabinet Berger Contact externe · Avocat conseil, Value: 0
+					205 text Cabinet Berger
+					206 text Contact externe
+					207 text  · 
+					208 text Avocat conseil
+				209 checkbox Contact Fictif Recette Contact externe · Contact externe, Value: 0
+					210 text Contact Fictif Recette
+					211 text Contact externe
+					212 text  · 
+					213 text Contact externe
+				214 checkbox Karim Benali Adhérent·e · Opérateur ligne 3TEST, Value: 0
+					215 text Karim Benali
+					216 text Adhérent·e
+					217 text  · 
+					218 text Opérateur ligne 3TEST
+				219 checkbox Sandrine Lemoine Adhérent·e · Préparatrice de commandes, Value: 0
+					220 text Sandrine Lemoine
+					221 text Adhérent·e
+					222 text  · 
+					223 text Préparatrice de commandes
+				224 checkbox Mehdi Fournier Adhérent·e · Technicien maintenance, Value: 0
+					225 text Mehdi Fournier
+					226 text Adhérent·e
+					227 text  · 
+					228 text Technicien maintenance
+				229 checkbox Aurélie Pruvost Adhérent·e · Assistante ADV, Value: 0
+					230 text Aurélie Pruvost
+					231 text Adhérent·e
+					232 text  · 
+					233 text Assistante ADV
+				234 checkbox Thierry Dubois Adhérent·e · Chaudronnier, Value: 0
+					235 text Thierry Dubois
+					236 text Adhérent·e
+					237 text  · 
+					238 text Chaudronnier
+				239 checkbox Nadia Cherif Adhérent·e · Cariste, Value: 0
+					240 text Nadia Cherif
+					241 text Adhérent·e
+					242 text  · 
+					243 text Cariste
+				244 checkbox Pascal Vandenberghe Adhérent·e · Régleur presse, Value: 0
+					245 text Pascal Vandenberghe
+					246 text Adhérent·e
+					247 text  · 
+					248 text Régleur presse
+				249 checkbox Émilie Roussel Adhérent·e · Contrôleuse qualité, Value: 0
+					250 text Émilie Roussel
+					251 text Adhérent·e
+					252 text  · 
+					253 text Contrôleuse qualité
+				254 checkbox Jonathan Leclercq Adhérent·e · Magasinier, Value: 0
+					255 text Jonathan Leclercq
+					256 text Adhérent·e
+					257 text  · 
+					258 text Magasinier
+				259 checkbox Christine Delattre Adhérent·e · Gestionnaire paie, Value: 0
+					260 text Christine Delattre
+					261 text Adhérent·e
+					262 text  · 
+					263 text Gestionnaire paie
+				264 checkbox Bruno Waeles Adhérent·e · Électromécanicien, Value: 0
+					265 text Bruno Waeles
+					266 text Adhérent·e
+					267 text  · 
+					268 text Électromécanicien
+				269 checkbox Fatou Sarr Adhérent·e · Soudeuse, Value: 0
+					270 text Fatou Sarr
+					271 text Adhérent·e
+					272 text  · 
+					273 text Soudeuse
+				274 checkbox Lucie Baradel Adhérent·e · Opératrice ligne 2, Value: 0
+					275 text Lucie Baradel
+					276 text Adhérent·e
+					277 text  · 
+					278 text Opératrice ligne 2
+				279 checkbox Ahmed Zerrouki Adhérent·e · Cariste, Value: 0
+					280 text Ahmed Zerrouki
+					281 text Adhérent·e
+					282 text  · 
+					283 text Cariste
+				284 checkbox Hélène Trouvain Adhérent·e · Gestionnaire ADV, Value: 0
+					285 text Hélène Trouvain
+					286 text Adhérent·e
+					287 text  · 
+					288 text Gestionnaire ADV
+			289 button Annuler
+			290 button Créer le groupe
+
+The focused UI element is 121 button Nouveau groupe

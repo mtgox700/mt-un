@@ -1,0 +1,96 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				8 text unii
+				9 text 1
+			10 button
+				11 image
+			12 button Se déconnecter
+				13 image
+		14 container
+			15 text UNII SUGGÈRE
+			16 button Brouillon à relire · NAO 2027 — où en sont les négociations
+			17 text CRÉATION DE DOCUMENTS
+			18 heading Documents, Value: 1
+				19 text Documents
+			20 text 3 documents dans l'espace de la section · charte SECTION MÉTA VAL appliquée automatiquement
+			21 image Logo par défaut des documents
+			22 heading LOGO PAR DÉFAUT DES DOCUMENTS, Value: 2
+				23 text LOGO PAR DÉFAUT DES DOCUMENTS
+			24 text Repris dans l'en-tête de tous les documents créés : courriers, tracts, comptes rendus, bulletins. Modifiable document par document dans l'onglet Charte graphique.
+			25 container
+				26 text Remplacer
+				27 button Remplacer
+			28 button Retirer
+			29 heading PARTIR D'UN MODÈLE, Value: 2
+				30 text PARTIR D'UN MODÈLE
+			31 button Tract / affiche Appel à mobilisation, une page, titres larges et revendications chiffrées. A5 · 1 PAGE
+				32 text Tract / affiche
+				33 text Appel à mobilisation, une page, titres larges et revendications chiffrées.
+				34 text A5 · 1 PAGE
+			35 button Courrier à l'employeur Saisine formelle : objet, rappel du cadre légal, demande datée. A4 · 1 PAGE
+				36 text Courrier à l'employeur
+				37 text Saisine formelle : objet, rappel du cadre légal, demande datée.
+				38 text A4 · 1 PAGE
+			39 button Compte rendu de séance Présents, ordre du jour, délibérations et votes en tableau. A4 · 2 PAGES
+				40 text Compte rendu de séance
+				41 text Présents, ordre du jour, délibérations et votes en tableau.
+				42 text A4 · 2 PAGES
+			43 button Note aux adhérents Explication pédagogique d'un accord ou d'un changement de règle. A4 · 1 PAGE
+				44 text Note aux adhérents
+				45 text Explication pédagogique d'un accord ou d'un changement de règle.
+				46 text A4 · 1 PAGE
+			47 button Communiqué NAO État des négociations, comparatif des positions, prochaines étapes. 16:9 · 2 PAGES
+				48 text Communiqué NAO
+				49 text État des négociations, comparatif des positions, prochaines étapes.
+				50 text 16:9 · 2 PAGES
+			51 button Bulletin d'adhésion Formulaire d'adhésion : identité, situation professionnelle, cotisation, mandat SEPA. A4 · 2 PAGES
+				52 text Bulletin d'adhésion
+				53 text Formulaire d'adhésion : identité, situation professionnelle, cotisation, mandat SEPA.
+				54 text A4 · 2 PAGES
+			55 button Rédiger un document avec l'assistant
+				56 text Rédiger avec l'assistant
+				57 text Depuis un dossier, un sondage ou la convention — prompt anonymisé avant envoi.
+				58 text Ouvrir →
+			59 heading MES DOCUMENTS, Value: 2
+				60 text MES DOCUMENTS
+			61 text 3 documents
+			62 button NAO 2027 — où en sont les négociations 16:9 paysage · Communiqué NAO · modifié il y a 20 min BROUILLON
+				63 text NAO 2027 — où en sont les négociations
+				64 text 16:9 paysage · Communiqué NAO · modifié il y a 20 min
+				65 text BROUILLON
+			66 button Supprimer
+			67 button Courrier — enquête paritaire atelier B A4 portrait · Courrier à l'employeur · modifié hier SIGNÉ
+				68 text Courrier — enquête paritaire atelier B
+				69 text A4 portrait · Courrier à l'employeur · modifié hier
+				70 text SIGNÉ
+			71 button Supprimer
+			72 button Compte rendu — séance du 26 août A4 portrait · Compte rendu de séance · modifié à l'instant RELU
+				73 text Compte rendu — séance du 26 août
+				74 text A4 portrait · Compte rendu de séance · modifié à l'instant
+				75 text RELU
+			76 button Supprimer
+		77 container
+			78 button Accueil
+				79 image
+				80 text Accueil
+			81 button Dossiers
+				82 image
+				83 text Dossiers
+			84 button Agenda
+				85 image
+				86 text Agenda
+			87 button Réunions
+				88 image
+				89 text Réunions
+			90 button Réglages
+				91 image
+				92 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

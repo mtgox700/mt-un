@@ -1,0 +1,87 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			153 button Formations
+				154 image
+				155 text Formations
+			150 button Communication
+				151 image
+				152 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			159 button Raccourcis
+				160 image
+				161 text Raccourcis
+			144 button Réglages
+				145 image
+				146 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			162 text ÉCOSYSTÈME
+			163 heading Raccourcis, Value: 1
+				164 text Raccourcis
+			165 text Vos applications externes, réunies ici.  4 raccourcis .
+			166 button Ajouter un raccourci
+			167 link Description: L Légifrance Code du travail, conventions collectives legifrance.gouv.fr ↗, Value: legifrance.gouv.fr/
+			168 button Modifier
+			169 button Supprimer
+			170 link Description: S Site fédéral Actualités et ressources de la fédération federation.example.org ↗, Value: federation.example.org/
+			171 button Modifier
+			172 button Supprimer
+			173 link Description: E Espace formation Catalogue et inscriptions formation.example.org ↗, Value: formation.example.org/
+			174 button Modifier
+			175 button Supprimer
+			176 link Description: V Visio de section Salle permanente du bureau meet.example.org ↗, Value: meet.example.org/section
+			177 button Modifier
+			178 button Supprimer
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

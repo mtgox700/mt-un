@@ -1,0 +1,66 @@
+{
+  "checks": [
+    {
+      "phase": "refus",
+      "width": 1440,
+      "height": 900,
+      "denied": true,
+      "overflow": false
+    },
+    {
+      "phase": "refus",
+      "width": 768,
+      "height": 1024,
+      "denied": true,
+      "overflow": false
+    },
+    {
+      "phase": "refus",
+      "width": 390,
+      "height": 844,
+      "denied": true,
+      "overflow": false
+    },
+    {
+      "phase": "autorise",
+      "width": 390,
+      "height": 844,
+      "visible": true,
+      "overflow": false
+    },
+    {
+      "phase": "autorise",
+      "width": 768,
+      "height": 1024,
+      "visible": true,
+      "overflow": false
+    },
+    {
+      "phase": "autorise",
+      "width": 1440,
+      "height": 900,
+      "visible": true,
+      "overflow": false
+    },
+    {
+      "phase": "formulaire",
+      "width": 1440,
+      "height": 900,
+      "overflow": false
+    },
+    {
+      "phase": "formulaire",
+      "width": 768,
+      "height": 1024,
+      "overflow": false
+    },
+    {
+      "phase": "formulaire",
+      "width": 390,
+      "height": 844,
+      "overflow": false
+    }
+  ],
+  "disabledViaUI": true,
+  "reactivatedViaUI": true
+}

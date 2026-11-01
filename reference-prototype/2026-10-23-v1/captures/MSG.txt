@@ -1,0 +1,122 @@
+Browser tab: 4, Title: "127.0.0.1:5052/uniion App v3.dc.html", URL: "http://127.0.0.1:5052/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			158 button Accueil
+				159 image
+				160 text Accueil
+			161 button Assistant
+				162 image
+				163 text Assistant
+			170 button Dossiers
+				171 image
+				172 text Dossiers
+			173 button Messages
+				174 image
+				175 text Messages
+			17 button Agenda
+				18 image
+				19 text Agenda
+			20 button Réunions
+				21 image
+				22 text Réunions
+			23 button Documents
+				24 image
+				25 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			157 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				167 text unii
+				168 text 2
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		169 container
+			176 text UNII SUGGÈRE
+			177 button 2 non lus · Commission Négociation
+			178 button 1 non lu · Jean-Paul Diallo
+			179 container
+				180 heading Messages, Value: 1
+					181 text Messages
+				182 button Nouvelle discussion
+				183 button Nouveau groupe
+				184 button Nouvelle diffusion aux adhérents
+				185 tab group Vue
+					186 tab (selected, settable, boolean) Discussions, Value: 1
+					187 tab (selectable, settable, boolean) Contacts & groupes, Value: 0
+				188 text field (settable) Rechercher
+				189 checkbox Toutes, Value: 1
+				190 checkbox Non lues 2, Value: 0
+				191 checkbox Sans réponse de ma part 3, Value: 0
+				192 checkbox Dernier message de moi 1, Value: 0
+				193 checkbox Groupes 3, Value: 0
+				194 checkbox Diffusions, Value: 0
+				195 button Commission Négociation 09:20 Leïla C. : On maintient l'AG du personnel mardi 12 h 30 ? 2
+					196 text Commission Négociation
+					197 text 09:20
+					198 text Leïla C. : 
+					199 text On maintient l'AG du personnel mardi 12 h 30 ?
+					200 text 2
+				201 button Commission SSCT hier ✓✓ Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire.
+					202 text Commission SSCT
+					203 text hier
+					204 text ✓✓
+					205 text Vous : 
+					206 text Je prépare la grille d'enquête et je la dépose dans la base documentaire.
+				207 button Commission ASC lun. Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts.
+					208 text Commission ASC
+					209 text lun.
+					210 text Leïla C. : 
+					211 text Troisième devis traiteur reçu : 2 900 € pour 180 couverts.
+				212 button Jean-Paul Diallo lun. Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi. 1
+					213 text Jean-Paul Diallo
+					214 text lun.
+					215 text Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.
+					216 text 1
+				217 text Messagerie locale de démonstration — aucun envoi externe.
+			218 container
+				219 heading Messages de la section, Value: 2
+					220 text Messages de la section
+				221 text Échangez avec les élus en direct ou en groupe, et retrouvez ici chaque envoi fait aux adhérents depuis « Envoyer un message ».
+				222 button Nouvelle discussion
+				223 button Nouveau groupe
+				224 button Diffuser aux adhérents
+				225 text Messagerie locale de démonstration
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html

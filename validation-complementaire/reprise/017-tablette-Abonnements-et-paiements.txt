@@ -1,0 +1,65 @@
+Browser tab: 8, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		63 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 text uniion CONSOLE D'ADMINISTRATION
+					76 button Supervision
+						77 image
+						78 text Supervision
+					79 button Organisations
+						80 image
+						81 text Organisations
+					73 button Utilisateurs
+						74 image
+						75 text Utilisateurs
+					82 button Clés API IA
+						83 image
+						84 text Clés API IA
+					85 button Éditeur de l’application
+						86 image
+						87 text Éditeur de l’application
+					88 button Abonnements et paiements
+						89 image
+						90 text Abonnements et paiements
+					67 button Journal d’audit
+						68 image
+						69 text Journal d’audit
+					33 text SA Super administrateur admin@uniion.fr
+					34 button Se déconnecter
+				35 container
+					36 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+					91 heading Abonnements et paiements, Value: 1
+						92 text Abonnements et paiements
+					93 text Revenu mensuel récurrent : 
+					94 text 1 297 € HT
+					95 text . Élu 1.0 99 € HT/mois 1 abonnement(s) Élu 2.0 POPULAIRE 199 € HT/mois 1 abonnement(s) Élu 3.0 499 € HT/mois 0 abonnement(s) Élu 4.0 999 € HT/mois 1 abonnement(s) Métallurgie — Valenciennes Élu 2.0  ·  199 € HT/mois  ·  Actif
+					96 button Émettre une facture
+					97 button Relancer
+					98 button Élu 1.0
+					99 button Élu 2.0
+					100 button Élu 3.0
+					101 button Élu 4.0
+					102 text UD 59 — Lille Élu 4.0  ·  999 € HT/mois  ·  Actif
+					103 button Émettre une facture
+					104 button Relancer
+					105 button Élu 1.0
+					106 button Élu 2.0
+					107 button Élu 3.0
+					108 button Élu 4.0
+					109 text CSE Brasserie du Nord Élu 1.0  ·  99 € HT/mois  ·  Essai — 12 j restants
+					110 button Émettre une facture
+					111 button Relancer
+					112 button Élu 1.0
+					113 button Élu 2.0
+					114 button Élu 3.0
+					115 button Élu 4.0
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

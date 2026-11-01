@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "count": 16,
+  "checks": [
+    {
+      "test": "independent_encrypted_journal_verified",
+      "ok": true
+    },
+    {
+      "test": "stale_audio_present_before_reconciliation",
+      "ok": true
+    },
+    {
+      "test": "stale_copy_not_revoked",
+      "ok": true
+    },
+    {
+      "test": "journal_deletions_replayed",
+      "ok": true
+    },
+    {
+      "test": "no_storage_resurrection",
+      "ok": true
+    },
+    {
+      "test": "no_chunk_resurrection",
+      "ok": true
+    },
+    {
+      "test": "no_original_resurrection",
+      "ok": true
+    },
+    {
+      "test": "consent_withdrawal_replayed",
+      "ok": true
+    },
+    {
+      "test": "publication_revoke_replayed",
+      "ok": true
+    },
+    {
+      "test": "reconciliation_idempotent",
+      "ok": true
+    },
+    {
+      "test": "restored_login",
+      "ok": true
+    },
+    {
+      "test": "restored_mfa",
+      "ok": true
+    },
+    {
+      "test": "meeting_still_accessible",
+      "ok": true
+    },
+    {
+      "test": "deleted_audio_denied",
+      "ok": true
+    },
+    {
+      "test": "private_pv_denied",
+      "ok": true
+    },
+    {
+      "test": "revoked_copy_not_republished",
+      "ok": true
+    }
+  ],
+  "snapshot_checks": 470,
+  "restore_seconds": 31.893,
+  "total_seconds": 37.958,
+  "reconciliation": {
+    "applied": true,
+    "deleted_restored_objects": 1,
+    "journal_sha256": "463754004baa6982683a24ea0c542bc43ed1851d7dba78088c05ef184371e877",
+    "offline_devices": "unconfirmed",
+    "production_admission": false
+  },
+  "source_unchanged": true,
+  "snapshot_age_at_journal_seconds": 39.162,
+  "rto_to_verified_access_seconds": 37.958,
+  "rpo": "\u00c2ge du snapshot mesur\u00e9 ; modifications de recette apr\u00e8s sauvegarde r\u00e9concili\u00e9es. Aucun RPO de production garanti",
+  "production_admission": false
+}

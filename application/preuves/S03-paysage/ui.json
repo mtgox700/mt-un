@@ -1,0 +1,74 @@
+[
+  {
+    "style": "choc",
+    "viewport": "mobile",
+    "scroll": 390,
+    "width": 390,
+    "download": true,
+    "notice": true
+  },
+  {
+    "style": "choc",
+    "viewport": "tablette",
+    "scroll": 768,
+    "width": 768,
+    "download": true,
+    "notice": true
+  },
+  {
+    "style": "choc",
+    "viewport": "desktop",
+    "scroll": 1440,
+    "width": 1440,
+    "download": true,
+    "notice": true
+  },
+  {
+    "style": "satirique",
+    "viewport": "mobile",
+    "scroll": 390,
+    "width": 390,
+    "download": true,
+    "notice": true
+  },
+  {
+    "style": "satirique",
+    "viewport": "tablette",
+    "scroll": 768,
+    "width": 768,
+    "download": true,
+    "notice": true
+  },
+  {
+    "style": "satirique",
+    "viewport": "desktop",
+    "scroll": 1440,
+    "width": 1440,
+    "download": true,
+    "notice": true
+  },
+  {
+    "style": "bd",
+    "viewport": "mobile",
+    "scroll": 390,
+    "width": 390,
+    "download": true,
+    "notice": true
+  },
+  {
+    "style": "bd",
+    "viewport": "tablette",
+    "scroll": 768,
+    "width": 768,
+    "download": true,
+    "notice": true
+  },
+  {
+    "style": "bd",
+    "viewport": "desktop",
+    "scroll": 1440,
+    "width": 1440,
+    "download": true,
+    "notice": true
+  }
+]

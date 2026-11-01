@@ -1,0 +1,239 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			129 button Intranet
+				130 image
+				131 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			89 button Réglages
+				90 image
+				91 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			132 button Revenir à l'intranet
+			133 text field (settable) Description: Titre de la page, Value: Réunion de préparation : démonstration fictive
+			134 text intranet.section-valenciennes.fr/intranet/actualites/reunion-preparation-demonstration-fictive
+			135 button Charte · Intranet
+			136 text BROUILLON
+			137 heading Thème de la page, Value: 2
+				138 text Thème de la page
+			139 text Rendu défini dans Charte des sites
+			140 checkbox Charte du site, Help: Rendu habituel, Value: 1
+			141 checkbox Éditorial, Help: Typographie de presse, crème, filets fins., Value: 0
+			142 checkbox Moderne à cartes, Help: Fond gris clair, cartes arrondies, boutons pilules., Value: 0
+			143 checkbox Militant, Help: Bandeau plein de couleur, titres condensés en capitales., Value: 0
+			144 checkbox Institutionnel, Help: Sobre, marine, structuré, très lisible., Value: 0
+			145 checkbox Magazine, Help: Fond sombre, titres en grand, accent vif., Value: 0
+			146 checkbox Minimal, Help: Beaucoup de blanc, un seul accent, filets., Value: 0
+			147 text CHAPÔ
+			148 text entry area (settable) Un exemple fictif pour préparer une réunion : accueil, ordre du jour et prochaines étapes. Les informations pratiques restent à confirmer avant toute diffusion réelle.
+			149 text Résumé pour la page d'accueil du site : « Un exemple fictif pour préparer une réunion : accueil, ordre du jour et prochaines étapes.… »
+			150 heading Blocs, Value: 2
+				151 text Blocs
+			152 text Modifiez le contenu : l'aperçu se met à jour en direct.
+			153 text PARAGRAPHE
+			154 text entry area (settable) Dans cette démonstration fictive, la réunion est prévue mardi à 10 h, salle A. Source : « Points clés de l'élu (anonymisés) », rubrique « Démonstration fictive », sans date ni version — source non vérifiée. Faites confirmer ces informations avant tout déplacement.
+			155 text INTERTITRE
+			156 text entry area (settable) Un déroulé proposé
+			157 text LISTE
+			158 text entry area (settable) Accueil : faire un tour des attentes.
+Ordre du jour : partager les sujets à préparer et choisir les priorités.
+Prochaines étapes : convenir des suites à donner et des échéances.
+			159 text BOUTON
+			160 text entry area (settable) Retour aux actualités
+			161 text INTERTITRE
+			162 text entry area (settable) Sources
+			163 text PARAGRAPHE
+			164 text entry area (settable) Points clés de l'élu (anonymisés) — rubrique « Démonstration fictive », sans date ni version — emplacement : brief fourni pour cette page. Source non vérifiée : contrôler le jour, l'horaire et la salle avant toute utilisation réelle.
+			165 text Une ligne = un élément dans les blocs Liste.
+			166 text Ajouter une section :
+			167 button + Bandeau d'accroche, Help: Titre, phrase, puis « libellé du bouton | lien ».
+				168 text + 
+				169 text Bandeau d'accroche
+			170 button + Chiffres clés, Help: Une ligne par chiffre : valeur | légende.
+				171 text + 
+				172 text Chiffres clés
+			173 button + Frise de la négociation, Help: Une ligne par étape : date | libellé | « fait ».
+				174 text + 
+				175 text Frise de la négociation
+			176 button + FAQ dépliable, Help: Une ligne par question : question | réponse.
+				177 text + 
+				178 text FAQ dépliable
+			179 button + Cartes des élus, Help: Une ligne par élu : prénom | mandat. Coordonnées professionnelles uniquement.
+				180 text + 
+				181 text Cartes des élus
+			182 button + Agenda, Help: Une ligne par date : date | événement.
+				183 text + 
+				184 text Agenda
+			185 button + Appel à adhérer, Help: Phrase d'appel, puis « libellé | lien ».
+				186 text + 
+				187 text Appel à adhérer
+			188 heading Circuit de publication, Value: 2
+				189 text Circuit de publication
+			190 text Aucune relecture pour l'instant. Un second membre du rôle communication doit valider avant l'envoi.
+			191 button Demander une relecture
+			192 button Envoyer pour publication
+			193 button Copier le HTML
+			194 text Sophie Marchand · modifiée à l'instant
+			195 button Aperçu
+			196 button Code HTML
+			197 container Largeur d'aperçu
+				198 button Ordinateur
+				199 button Tablette
+				200 button Mobile
+			201 text intranet.section-valenciennes.fr/intranet/actualites/reunion-preparation-demonstration-fictive
+			202 container
+				203 link Description: Aller au contenu, Value: 127.0.0.1:5051/uniion%20App%20v3.dc.html#contenu
+				204 text Espace réservé aux salariés
+				205 link Description: Recherche, Value: 127.0.0.1:5051/intranet/recherche
+				206 link Description: Sophie Marchand, Value: 127.0.0.1:5051/intranet/mon-compte
+				207 link Description: Se déconnecter, Value: 127.0.0.1:5051/intranet/deconnexion
+				208 link Value: 127.0.0.1:5051/intranet, Description: Section syndicale Métallurgie — Valenciennes Section syndicale Métallurgie — Valenciennes Intranet des salariés
+				209 container
+					210 text Rechercher
+					211 search text field (settable) Rechercher, ID: q
+					212 button Rechercher
+				213 container Navigation principale
+					214 content list
+						215 link Description: Actualités, Value: 127.0.0.1:5051/intranet/actualites
+						216 link Description: Vos droits, Value: 127.0.0.1:5051/intranet/vos-droits
+						217 link Description: La section, Value: 127.0.0.1:5051/intranet/la-section
+						218 link Description: Négociations, Value: 127.0.0.1:5051/intranet/negociations
+						219 link Description: Loisirs & ASC, Value: 127.0.0.1:5051/intranet/asc
+						220 link Description: Nous contacter, Value: 127.0.0.1:5051/intranet/contacts
+				221 container Fil d'ariane
+					222 content list
+						223 container
+							224 link Description: Accueil, Value: 127.0.0.1:5051/intranet
+							225 text ›
+						226 container
+							227 link Description: Actualités, Value: 127.0.0.1:5051/intranet/actualites
+							228 text ›
+						229 text Réunion de préparation : démonstration fictive
+				230 text ACTUALITÉS
+				231 heading Réunion de préparation : démonstration fictive, Value: 1
+					232 text Réunion de préparation : démonstration fictive
+				233 text Un exemple fictif pour préparer une réunion : accueil, ordre du jour et prochaines étapes. Les informations pratiques restent à confirmer avant toute diffusion réelle.
+				234 text Par Sophie Marchand, adhérent de la section
+				235 text Mis à jour le 5 septembre 2026
+				236 text Lecture 3 min
+				237 container contenu
+					238 container
+						239 text Dans cette démonstration fictive, la réunion est prévue mardi à 10 h, salle A. Source : « Points clés de l'élu (anonymisés) », rubrique « Démonstration fictive », sans date ni version — source non vérifiée. Faites confirmer ces informations avant tout déplacement.
+						240 heading Un déroulé proposé, Value: 2, ID: un-deroule-propose
+							241 text Un déroulé proposé
+						242 content list
+							243 text Accueil : faire un tour des attentes.
+							244 text Ordre du jour : partager les sujets à préparer et choisir les priorités.
+							245 text Prochaines étapes : convenir des suites à donner et des échéances.
+						246 link Description: Retour aux actualités, Value: 127.0.0.1:5051/intranet/actualites
+						247 heading Sources, Value: 2, ID: sources
+							248 text Sources
+						249 text Points clés de l'élu (anonymisés) — rubrique « Démonstration fictive », sans date ni version — emplacement : brief fourni pour cette page. Source non vérifiée : contrôler le jour, l'horaire et la salle avant toute utilisation réelle. Partager cette page
+						250 link Description: Copier le lien, Value: 127.0.0.1:5051/uniion%20App%20v3.dc.html#
+						251 link Description: Par e-mail, Value: mailto:?subject=R%C3%A9union%20de%20pr%C3%A9paration%20:%20d%C3%A9monstration%20fictive
+					252 container
+						253 container Sommaire
+							254 heading SUR CETTE PAGE, Value: 3
+								255 text SUR CETTE PAGE
+							256 content list
+								257 link Description: Un déroulé proposé, Value: 127.0.0.1:5051/uniion%20App%20v3.dc.html#un-deroule-propose
+								258 link Description: Sources, Value: 127.0.0.1:5051/uniion%20App%20v3.dc.html#sources
+						259 heading PERMANENCES, Value: 3
+							260 text PERMANENCES
+						261 text Local B12 — mardi 12 h-14 h et jeudi 17 h-18 h 30.
+						262 link Description: Saisir vos représentants, Value: 127.0.0.1:5051/intranet/contacts
+						263 heading DOCUMENTS LIÉS, Value: 3
+							264 text DOCUMENTS LIÉS
+						265 content list
+							266 link Description: Toutes les pages de « Actualités », Value: 127.0.0.1:5051/intranet/actualites
+							267 link Description: Comptes rendus de séance, Value: 127.0.0.1:5051/intranet/la-section/comptes-rendus
+							268 link Description: Fiches pratiques, Value: 127.0.0.1:5051/intranet/vos-droits
+						269 heading MOTS-CLÉS, Value: 3
+							270 text MOTS-CLÉS
+						271 text Actualités
+						272 text reunion-preparation-demonstration-fictive
+						273 text 2026
+				274 heading SECTION MÉTA VAL, Value: 4
+					275 text SECTION MÉTA VAL
+				276 container
+					277 text Local syndical — 12 rue de la Fonderie, 59300 Valenciennes
+					278 text section@syndicat-valenciennes.fr
+				279 heading RUBRIQUES, Value: 4
+					280 text RUBRIQUES
+				281 content list
+					282 link Description: Actualités, Value: 127.0.0.1:5051/intranet/actualites
+					283 link Description: Vos droits, Value: 127.0.0.1:5051/intranet/vos-droits
+					284 link Description: La section, Value: 127.0.0.1:5051/intranet/la-section
+					285 link Description: Négociations, Value: 127.0.0.1:5051/intranet/negociations
+				286 heading SERVICES, Value: 4
+					287 text SERVICES
+				288 content list
+					289 link Description: Saisine confidentielle, Value: 127.0.0.1:5051/intranet/contacts
+					290 link Description: Billetterie et ASC, Value: 127.0.0.1:5051/intranet/asc
+					291 link Description: Agenda des permanences, Value: 127.0.0.1:5051/intranet/agenda
+				292 heading INFORMATIONS, Value: 4
+					293 text INFORMATIONS
+				294 content list
+					295 link Description: Traitement de vos données, Value: 127.0.0.1:5051/intranet/donnees-personnelles
+					296 link Description: Accessibilité, Value: 127.0.0.1:5051/intranet/accessibilite
+					297 link Description: Aide, Value: 127.0.0.1:5051/intranet/aide
+				298 text © 2026 Section syndicale Métallurgie — Valenciennes intranet.section-valenciennes.fr Espace interne — ne pas diffuser hors de l'entreprise
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

@@ -1,0 +1,106 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				8 text unii
+				9 text 2
+			10 button
+				11 image
+			12 button Se déconnecter
+				13 image
+		14 container
+			15 text GESTION DE PROJET
+			16 heading Suivi des demandes, Value: 1
+				17 text Suivi des demandes
+			18 text 6  dossiers · 2 échéances légales · mandat de déléguée syndicale Glissez une carte pour changer son état — ou sélectionnez-la et utilisez ← →
+			19 button + Nouveau dossier
+			20 text À TRAITER (3)
+			21 checkbox Description: Signalement — Service Logistique. Espace pour saisir la carte, ou glissez-la., Value: 0
+				22 text HARCÈLEMENT
+				23 text Signalement — Service Logistique
+				24 text Besoin de planifier un RDV avec Mme Leroy suite à son mail d'hier.
+				25 text SO
+				26 text 24 h
+			27 button unii · suite à donner
+			28 button Interroger l'assistant sur « Signalement — Service Logistique »
+				29 image
+				30 text IA
+			31 button Déplacer « Signalement — Service Logistique » vers En cours
+			32 checkbox Description: Accident Atelier B. Espace pour saisir la carte, ou glissez-la., Value: 0
+				33 text CSSCT
+				34 text Accident Atelier B
+				35 text Enquête CSSCT déclenchée. Accusé de réception attendu.
+				36 text JE
+				37 text 4 h
+			38 button unii · suite à donner
+			39 button Interroger l'assistant sur « Accident Atelier B »
+				40 image
+				41 text IA
+			42 button Déplacer « Accident Atelier B » vers En cours
+			43 checkbox Description: Valider devis traiteur. Espace pour saisir la carte, ou glissez-la., Value: 0
+				44 text ASC / NOËL
+				45 text Valider devis traiteur
+				46 text Trois offres reçues, arbitrage budget commission ASC.
+				47 text LE
+				48 text 5 j
+			49 button Interroger l'assistant sur « Valider devis traiteur »
+				50 image
+				51 text IA
+			52 button Déplacer « Valider devis traiteur » vers En cours
+			53 text EN COURS (2)
+			54 checkbox Description: Dossier inaptitude M. Martin. Espace pour saisir la carte, ou glissez-la., Value: 0
+				55 text JURIDIQUE
+				56 text Dossier inaptitude M. Martin
+				57 text Recherche de reclassement en cours. Attente retour RH.
+				58 text JE
+				59 text 3 j
+			60 button Déplacer « Dossier inaptitude M. Martin » vers À traiter
+			61 button Interroger l'assistant sur « Dossier inaptitude M. Martin »
+				62 image
+				63 text IA
+			64 button Déplacer « Dossier inaptitude M. Martin » vers Terminé
+			65 checkbox Description: Négociation PAP. Espace pour saisir la carte, ou glissez-la., Value: 0
+				66 text NÉGOCIATION
+				67 text Négociation PAP
+				68 text Protocole préélectoral — 2e réunion programmée.
+				69 text SO
+				70 text 10 j
+			71 button Déplacer « Négociation PAP » vers À traiter
+			72 button Interroger l'assistant sur « Négociation PAP »
+				73 image
+				74 text IA
+			75 button Déplacer « Négociation PAP » vers Terminé
+			76 text TERMINÉ (1)
+			77 checkbox Description: Inscription formation SSCT. Espace pour saisir la carte, ou glissez-la., Value: 0
+				78 text FORMATION
+				79 text Inscription formation SSCT
+				80 text Trois élus inscrits à la session de novembre.
+				81 text LE
+				82 text Clos
+			83 button Déplacer « Inscription formation SSCT » vers En cours
+			84 button Interroger l'assistant sur « Inscription formation SSCT »
+				85 image
+				86 text IA
+		87 container
+			88 button Accueil
+				89 image
+				90 text Accueil
+			91 button Dossiers
+				92 image
+				93 text Dossiers
+			94 button Agenda
+				95 image
+				96 text Agenda
+			97 button Réunions
+				98 image
+				99 text Réunions
+			100 button Réglages
+				101 image
+				102 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

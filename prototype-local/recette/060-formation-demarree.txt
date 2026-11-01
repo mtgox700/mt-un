@@ -1,0 +1,81 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			135 button Formations
+				136 image
+				137 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			89 button Réglages
+				90 image
+				91 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			141 text MONTÉE EN COMPÉTENCE
+			142 heading Formations, Value: 1
+				143 text Formations
+			144 text Deux catalogues pour vous former au mandat, et un mode où unii construit avec vous une session sur mesure, au rythme que vous choisissez.
+			145 tab group Formations
+				146 tab (selectable, settable, boolean) Catalogue IA 20, Value: 0
+				147 tab (selectable, settable, boolean) Formations généralistes 31, Value: 0
+				148 tab (selected, settable, boolean) Se former avec unii, Value: 1
+			149 heading unii prépare votre session, Value: 2
+				150 text unii prépare votre session
+			151 text Parcours de 4 modules sur « Introduction à l'IA pour le monde du syndicalisme — Comprendre l'IA générative et ses limites ; Identifier les usages concrets pour un mandat ; Premiers prompts sur des cas syndicaux », calibré pour 30 min au niveau Découverte. Vos informations sont anonymisées avant l'envoi.
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

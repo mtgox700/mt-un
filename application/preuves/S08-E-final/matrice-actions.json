@@ -1,0 +1,372 @@
+[
+  {
+    "id": "acc-week",
+    "module": "accueil",
+    "label": "Faire le point de la semaine",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "acc-first",
+    "module": "accueil",
+    "label": "Par quoi commencer ?",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "dos-next",
+    "module": "dossiers",
+    "label": "Proposer la suite à donner",
+    "source": "dossier",
+    "source_native": true,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "note dans le même dossier sans source classée",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "dos-sum",
+    "module": "dossiers",
+    "label": "Résumer la chronologie",
+    "source": "dossier",
+    "source_native": true,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "note dans le même dossier sans source classée",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "dos-delais",
+    "module": "dossiers",
+    "label": "Vérifier les délais légaux",
+    "source": "dossier",
+    "source_native": true,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "note dans le même dossier sans source classée",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "dos-mail",
+    "module": "dossiers",
+    "label": "Rédiger un courrier à la direction",
+    "source": "dossier",
+    "source_native": true,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "note dans le même dossier sans source classée",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "dos-prio",
+    "module": "dossiers",
+    "label": "Prioriser mes dossiers",
+    "source": "dossier",
+    "source_native": true,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "reu-prep",
+    "module": "reunions",
+    "label": "Préparer les questions à poser",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "reu-dec",
+    "module": "reunions",
+    "label": "Extraire décisions et actions",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "reu-salaries",
+    "module": "reunions",
+    "label": "Résumé pour les salariés",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "reu-pv",
+    "module": "reunions",
+    "label": "Rédiger le projet de PV",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "doc-relire",
+    "module": "documents",
+    "label": "Relire ton et clarté",
+    "source": "document",
+    "source_native": true,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "bloc ajouté au même document au statut Brouillon",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "doc-simpl",
+    "module": "documents",
+    "label": "Simplifier pour les salariés",
+    "source": "document",
+    "source_native": true,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "bloc ajouté au même document au statut Brouillon",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "doc-risk",
+    "module": "documents",
+    "label": "Repérer les risques juridiques",
+    "source": "document",
+    "source_native": true,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "doc-idea",
+    "module": "documents",
+    "label": "Proposer un document à produire",
+    "source": "document",
+    "source_native": true,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "msg-sum",
+    "module": "messagerie",
+    "label": "Résumer le fil",
+    "source": "message précis",
+    "source_native": true,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "msg-reply",
+    "module": "messagerie",
+    "label": "Proposer une réponse",
+    "source": "message précis",
+    "source_native": true,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "ag-prep",
+    "module": "agenda",
+    "label": "Préparer la prochaine réunion",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "ag-delais",
+    "module": "agenda",
+    "label": "Rappeler les délais de convocation",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "com-month",
+    "module": "communication",
+    "label": "Proposer le plan du mois",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "non raccordée",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "com-reform",
+    "module": "communication",
+    "label": "Reformuler pour les salariés",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "mob-page",
+    "module": "mobile",
+    "label": "Rédiger le contenu de la page",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "non raccordée",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "mob-short",
+    "module": "mobile",
+    "label": "Adapter à la lecture mobile",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "non raccordée",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "mob-push",
+    "module": "mobile",
+    "label": "Rédiger la notification push",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "non raccordée",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "mob-check",
+    "module": "mobile",
+    "label": "Vérifier avant publication",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "mob-ideas",
+    "module": "mobile",
+    "label": "Proposer les pages à créer",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "fm-reco",
+    "module": "formations",
+    "label": "Recommander une formation",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "adh-msg",
+    "module": "adherents",
+    "label": "Rédiger un message à une liste",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "adh-relance",
+    "module": "adherents",
+    "label": "Préparer une relance",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "pol-q",
+    "module": "sondages",
+    "label": "Rédiger des questions neutres",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "pol-ana",
+    "module": "sondages",
+    "label": "Analyser les résultats",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "web-lis",
+    "module": "intranet",
+    "label": "Vérifier la lisibilité des pages",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "rep-explain",
+    "module": "reporting",
+    "label": "Expliquer un indicateur",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "rep-bilan",
+    "module": "reporting",
+    "label": "Rédiger le bilan du mandat",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "rac-sugg",
+    "module": "raccourcis",
+    "label": "Suggérer des raccourcis utiles",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "par-help",
+    "module": "params",
+    "label": "Expliquer un réglage",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  },
+  {
+    "id": "par-roles",
+    "module": "params",
+    "label": "Aider à configurer les rôles",
+    "source": "document de contexte choisi explicitement",
+    "source_native": false,
+    "generation": "HTTP + MFA + persistance vérifiés avec fournisseur de test",
+    "application": "aucune prévue pour cette action",
+    "qualite_metier": "non qualifiée exhaustivement"
+  }
+]

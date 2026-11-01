@@ -1,0 +1,58 @@
+[
+  {
+    "id": "SEC-01",
+    "titre": "Authentification de démonstration",
+    "constat": "Le rôle administrateur global est déduit du domaine @uniion.fr et le code MFA est constant.",
+    "ligne": 9923,
+    "cible": "Identité vérifiée côté serveur ; rôle plateforme non auto-attribuable.",
+    "qualification": "Écart prototype → production, non correction effectuée"
+  },
+  {
+    "id": "SEC-02",
+    "titre": "Stockage local commun",
+    "constat": "Les collections persistantes sont regroupées sous uniion.demo.v4.",
+    "ligne": 8066,
+    "cible": "Partition par organisation et utilisateur ; migration explicite des données, sans réemploi aveugle.",
+    "qualification": "Écart prototype → production, non correction effectuée"
+  },
+  {
+    "id": "SEC-03",
+    "titre": "État global accessible",
+    "constat": "Le prototype expose des accesseurs à son état pour son fonctionnement/inspection locale.",
+    "ligne": 8926,
+    "cible": "Aucun privilège ni autorisation fondé sur cet état client ; retirer les accès de diagnostic de la cible.",
+    "qualification": "Écart prototype → production, non correction effectuée"
+  },
+  {
+    "id": "SEC-04",
+    "titre": "Extensions dans la même page",
+    "constat": "Chargement de scripts via URL relative ou HTTPS dans document.head.",
+    "ligne": 8602,
+    "cible": "Modules officiels compilés au départ ; isolation réelle avant toute extension tierce.",
+    "qualification": "Écart prototype → production, non correction effectuée"
+  },
+  {
+    "id": "SEC-05",
+    "titre": "Fichiers locaux sans chiffrement applicatif",
+    "constat": "IndexedDB utilise des clés audio:id, doc:id ou piece:dossier:id:version.",
+    "ligne": 9096,
+    "cible": "Objets privés tenantés, contrôle parent et accès autorisé ; stratégie locale séparée.",
+    "qualification": "Écart prototype → production, non correction effectuée"
+  },
+  {
+    "id": "SEC-06",
+    "titre": "Autorisations UI et périmètre simulé",
+    "constat": "Restrictions affichées et filtres locaux ne démontrent pas une frontière serveur.",
+    "ligne": 13493,
+    "cible": "Autorisation centralisée, droits SQL/RLS, contrôles de jobs, recherches et flux temps réel.",
+    "qualification": "Écart prototype → production, non correction effectuée"
+  },
+  {
+    "id": "SEC-07",
+    "titre": "Passerelle IA locale",
+    "constat": "Le serveur local appelle Codex app-server et sert une passerelle same-origin.",
+    "ligne": 8523,
+    "cible": "Choisir et contractualiser la passerelle de production ; ne pas réutiliser le jeton local comme authentification utilisateur.",
+    "qualification": "Écart prototype → production, non correction effectuée"
+  }
+]

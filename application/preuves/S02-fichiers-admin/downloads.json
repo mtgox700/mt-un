@@ -1,0 +1,23 @@
+[
+  {
+    "width": 390,
+    "bytes": 646,
+    "columns": 12,
+    "rows": 3,
+    "sha256": "6be4d2bc5c459ea84dce7801a5cb07a75b3a6bb860515d78139e9ba6c27a98a6"
+  },
+  {
+    "width": 820,
+    "bytes": 646,
+    "columns": 12,
+    "rows": 3,
+    "sha256": "6be4d2bc5c459ea84dce7801a5cb07a75b3a6bb860515d78139e9ba6c27a98a6"
+  },
+  {
+    "width": 1440,
+    "bytes": 646,
+    "columns": 12,
+    "rows": 3,
+    "sha256": "6be4d2bc5c459ea84dce7801a5cb07a75b3a6bb860515d78139e9ba6c27a98a6"
+  }
+]

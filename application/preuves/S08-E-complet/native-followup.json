@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "count": 34,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reunions_real_list",
+      "ok": true
+    },
+    {
+      "test": "reunions_reader_cannot_create",
+      "ok": true
+    },
+    {
+      "test": "communication_real_list",
+      "ok": true
+    },
+    {
+      "test": "communication_reader_cannot_create",
+      "ok": true
+    },
+    {
+      "test": "mobile_real_list",
+      "ok": true
+    },
+    {
+      "test": "mobile_reader_cannot_create",
+      "ok": true
+    },
+    {
+      "test": "formations_real_list",
+      "ok": true
+    },
+    {
+      "test": "formations_reader_cannot_create",
+      "ok": true
+    },
+    {
+      "test": "sondages_real_list",
+      "ok": true
+    },
+    {
+      "test": "sondages_reader_cannot_create",
+      "ok": true
+    },
+    {
+      "test": "intranet_real_list",
+      "ok": true
+    },
+    {
+      "test": "intranet_reader_cannot_create",
+      "ok": true
+    },
+    {
+      "test": "reporting_real_list",
+      "ok": true
+    },
+    {
+      "test": "reporting_reader_cannot_create",
+      "ok": true
+    },
+    {
+      "test": "raccourcis_real_list",
+      "ok": true
+    },
+    {
+      "test": "raccourcis_reader_cannot_create",
+      "ok": true
+    },
+    {
+      "test": "source_created",
+      "ok": true
+    },
+    {
+      "test": "chat_created",
+      "ok": true
+    },
+    {
+      "test": "private_case_created",
+      "ok": true
+    },
+    {
+      "test": "private_case_idempotent",
+      "ok": true
+    },
+    {
+      "test": "creator_reads_derived_case",
+      "ok": true
+    },
+    {
+      "test": "generic_grant_cannot_expose_private_conversation",
+      "ok": true
+    },
+    {
+      "test": "source_revocation_blocks_case_contract",
+      "ok": true
+    },
+    {
+      "test": "source_revocation_blocks_direct_rls",
+      "ok": true
+    },
+    {
+      "test": "source_revocation_blocks_case_retry",
+      "ok": true
+    },
+    {
+      "test": "workspace_source_created",
+      "ok": true
+    },
+    {
+      "test": "workspace_chat_created",
+      "ok": true
+    },
+    {
+      "test": "workspace_case_created",
+      "ok": true
+    },
+    {
+      "test": "workspace_dependency_revocation_blocks_case",
+      "ok": true
+    },
+    {
+      "test": "workspace_dependency_rls",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "detail": true,
+    "back": true
+  },
+  {
+    "size": {
+      "width": 820,
+      "height": 1180
+    },
+    "detail": true,
+    "back": true
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "detail": true,
+    "back": true
+  }
+]

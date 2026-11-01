@@ -1,0 +1,38 @@
+{
+  "environment": "Supabase local, comptes fictifs, viewports émulés",
+  "import_svg": true,
+  "block_edit_persisted_across_sessions": true,
+  "version": 5,
+  "scenarios": [
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "download_authorized": true,
+      "pdf_pages": 2,
+      "edited_text_present": true,
+      "reader_download_denied": true
+    },
+    {
+      "viewport": "tablette",
+      "width": 768,
+      "height": 1024,
+      "scroll_width": 768,
+      "download_authorized": true,
+      "pdf_pages": 2,
+      "edited_text_present": true,
+      "reader_download_denied": true
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "scroll_width": 1440,
+      "download_authorized": true,
+      "pdf_pages": 2,
+      "edited_text_present": true,
+      "reader_download_denied": true
+    }
+  ]
+}

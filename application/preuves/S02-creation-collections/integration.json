@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "count": 26,
+  "checks": [
+    {
+      "test": "anonymous_creation_refused",
+      "ok": true
+    },
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_creation_refused",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "author_mfa",
+      "ok": true
+    },
+    {
+      "test": "reviewer_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reviewer_mfa",
+      "ok": true
+    },
+    {
+      "test": "eligible_targets_only",
+      "ok": true
+    },
+    {
+      "test": "nonpublisher_creation_refused",
+      "ok": true
+    },
+    {
+      "test": "self_target_refused",
+      "ok": true
+    },
+    {
+      "test": "unrelated_target_refused",
+      "ok": true
+    },
+    {
+      "test": "forged_source_refused",
+      "ok": true
+    },
+    {
+      "test": "business_field_refused",
+      "ok": true
+    },
+    {
+      "test": "invalid_color_refused",
+      "ok": true
+    },
+    {
+      "test": "draft_created",
+      "ok": true
+    },
+    {
+      "test": "selected_target_exact",
+      "ok": true
+    },
+    {
+      "test": "first_draft_visible_to_source",
+      "ok": true
+    },
+    {
+      "test": "unpublished_collection_hidden",
+      "ok": true
+    },
+    {
+      "test": "author_cannot_publish",
+      "ok": true
+    },
+    {
+      "test": "cannot_adopt_draft",
+      "ok": true
+    },
+    {
+      "test": "second_actor_publishes",
+      "ok": true
+    },
+    {
+      "test": "published_not_auto_adopted",
+      "ok": true
+    },
+    {
+      "test": "explicit_first_adoption",
+      "ok": true
+    },
+    {
+      "test": "no_business_access_created",
+      "ok": true
+    },
+    {
+      "test": "direct_rpc_unprivileged_refused",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - heading "Notifications" [level=1]
+  - paragraph: Par canal et par module. Les alertes urgentes ignorent le mode « ne pas déranger ».
+  - generic: Notifications push
+  - generic: Alertes urgentes et résultats de sondage sur mobile.
+  - switch "Notifications push" [checked]
+  - generic: Résumé par email
+  - generic: Digest quotidien à 8 h.
+  - switch "Résumé par email" [checked]
+  - generic: SMS pour les urgences
+  - generic: Uniquement accidents du travail et droits d'alerte.
+  - switch "SMS pour les urgences"
+  - generic: Ne pas déranger 20 h — 7 h
+  - generic: Les alertes urgentes passent malgré tout.
+  - switch "Ne pas déranger 20 h — 7 h" [checked]
+  - generic: Escalade automatique
+  - generic: Si une alerte urgente reste sans accusé de réception sous 4 h.
+  - switch "Escalade automatique" [checked]

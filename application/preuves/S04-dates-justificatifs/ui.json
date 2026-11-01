@@ -1,0 +1,52 @@
+{
+  "authorizedDownloads": [
+    {
+      "label": "mobile",
+      "exact": true,
+      "dims": {
+        "page": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "label": "tablette",
+      "exact": true,
+      "dims": {
+        "page": 768,
+        "viewport": 768
+      }
+    },
+    {
+      "label": "desktop",
+      "exact": true,
+      "dims": {
+        "page": 1440,
+        "viewport": 1440
+      }
+    }
+  ],
+  "denied": [
+    {
+      "label": "mobile",
+      "noEvidence": true,
+      "noPayment": true
+    },
+    {
+      "label": "tablette",
+      "noEvidence": true,
+      "noPayment": true
+    },
+    {
+      "label": "desktop",
+      "noEvidence": true,
+      "noPayment": true
+    }
+  ],
+  "mobileUpload": true,
+  "mobileInvalidDateRefused": true,
+  "mobileDate": "2026-10-22",
+  "tabletCorrectionDate": "2026-10-23",
+  "desktopCorrectionDate": "2026-10-24",
+  "persistedDate": true,
+  "persistedFile": true
+}

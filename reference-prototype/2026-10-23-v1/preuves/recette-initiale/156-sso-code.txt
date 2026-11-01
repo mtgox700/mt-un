@@ -1,0 +1,20 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 text uniion
+		4 heading L'outil des élus, pas celui de la direction., Value: 1
+			5 text L'outil des élus, pas celui de la direction.
+		6 text Dossiers chiffrés de bout en bout, assistant juridique sourcé sur votre convention, consultations des salariés et bilan de mandat. Hébergement en France, aucun accès employeur.
+		7 text Chiffrement AES-256 RGPD · données en France Anonymisation avant inférence IA
+		8 heading Vérification en deux étapes, Value: 2
+			9 text Vérification en deux étapes
+		10 text Annuaire fédération authentifié. Confirmez avec le code de votre application d'authentification.
+		11 text field (settable) Code à six chiffres
+		12 button Vérifier et ouvrir la session
+		13 button Renvoyer un code
+		14 button Utiliser une clé de sécurité
+		15 button Changer de compte
+		16 container
+			17 text Démonstration : le code valide est  402913 .
+
+The focused UI element is 1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

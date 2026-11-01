@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Profil refuse nom",
+    "result": "PASS"
+  },
+  {
+    "name": "Profil refuse siret",
+    "result": "PASS"
+  },
+  {
+    "name": "Profil refuse email",
+    "result": "PASS"
+  },
+  {
+    "name": "Profil refuse mandatFin",
+    "result": "PASS"
+  },
+  {
+    "name": "Profil annulation",
+    "result": "PASS"
+  },
+  {
+    "name": "Profil sauvegarde et restauration",
+    "result": "PASS"
+  },
+  {
+    "name": "Contact nom requis",
+    "result": "PASS"
+  },
+  {
+    "name": "Contact création et restauration",
+    "result": "PASS"
+  },
+  {
+    "name": "Groupe nom requis",
+    "result": "PASS"
+  },
+  {
+    "name": "Groupe membre requis",
+    "result": "PASS"
+  },
+  {
+    "name": "Groupe créé et restauré",
+    "result": "PASS"
+  },
+  {
+    "name": "Fiche refuse courriel doublon",
+    "result": "PASS"
+  },
+  {
+    "name": "Agenda création édition restauration",
+    "result": "PASS"
+  },
+  {
+    "name": "Agenda date impossible refusée",
+    "result": "PASS"
+  },
+  {
+    "name": "Suppression adhérent exemple persiste",
+    "result": "PASS"
+  },
+  {
+    "name": "Suppression événement exemple persiste",
+    "result": "PASS"
+  },
+  {
+    "name": "CSV valide importé et restauré",
+    "result": "PASS"
+  },
+  {
+    "name": "CSV invalide refusé",
+    "result": "PASS"
+  },
+  {
+    "name": "CSV courriel @ seul refusé",
+    "result": "PASS"
+  },
+  {
+    "name": "CSV doublon exact refusé",
+    "result": "PASS"
+  },
+  {
+    "name": "CSV doublon casse différente refusé",
+    "result": "PASS"
+  },
+  {
+    "name": "CSV champ cité avec séparateur conservé",
+    "result": "PASS"
+  },
+  {
+    "name": "Stockage corrompu ne plante pas",
+    "result": "PASS"
+  },
+  {
+    "name": "Authentification refuse mauvais courriel",
+    "result": "PASS"
+  },
+  {
+    "name": "MFA refuse mauvais code",
+    "result": "PASS"
+  },
+  {
+    "name": "Relecture demandée ne marque pas déjà relue",
+    "result": "PASS"
+  },
+  {
+    "name": "Brouillon marque ne modifie pas la marque active",
+    "result": "PASS"
+  },
+  {
+    "name": "Marque publiée conservée en stockage isolé",
+    "result": "PASS"
+  },
+  {
+    "name": "Action unii désactivée masquée",
+    "result": "PASS"
+  },
+  {
+    "name": "Action unii limitée au rôle",
+    "result": "PASS"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-31",
+  "timezone": "Europe/Paris",
+  "dimensions": [
+    [
+      1440,
+      1000
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": {
+    "new_login_mfa": true,
+    "five_history_entries_after_reload": true,
+    "stored_message_citation_reread": true,
+    "free_text_refusal_visible_after_stored_response": true,
+    "mobile_no_horizontal_overflow": true
+  },
+  "mobile_width": {
+    "client": 382,
+    "scroll": 382
+  },
+  "sources": "Fixtures S08 certifiées uniquement",
+  "no_production_admission": true
+}

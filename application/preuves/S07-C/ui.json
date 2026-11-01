@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "organization": "50f22d7b-294f-4beb-8f57-e4b60d36ece8",
+  "conversation": "8c7e272c-df5f-4147-8720-4df7c44e9c7f",
+  "case": "a8d26e3d-0be1-444e-aa7e-be9bd80036c1",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 382
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 760
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440
+    }
+  ],
+  "checks": [
+    {
+      "scenario": "Dépôt par Joindre, fichier fictif PNG",
+      "observed": "Pièce contrôlée enregistrée dans le fil",
+      "passed": true
+    },
+    {
+      "scenario": "Aperçu auteur desktop puis référence Dossiers tablette/mobile",
+      "observed": "Image inerte dans le cadre isolé",
+      "passed": true
+    },
+    {
+      "scenario": "Classement par le menu de la pièce",
+      "observed": "Référence visible dans le coffre Dossiers après navigation",
+      "passed": true
+    },
+    {
+      "scenario": "Téléchargement de la référence depuis Dossiers",
+      "observed": "Octets identiques à piece-recette.png",
+      "passed": true
+    },
+    {
+      "scenario": "Lecteur après déconnexion/reconnexion",
+      "observed": "Pièces reçues visibles, aperçu autorisé",
+      "passed": true
+    },
+    {
+      "scenario": "Téléchargement sans autorité download",
+      "observed": "Accès à la pièce refusé, capturé mobile/tablette/desktop",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "Viewports de navigateur, pas d’appareils physiques.",
+    "État de corbeille et reprise du scan vérifiés par intégration ; le parcours UI porte sur dépôt, aperçu, classement, téléchargement et refus.",
+    "Notification Agenda des comptes hors droits Agenda indépendante de C."
+  ]
+}

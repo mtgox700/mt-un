@@ -1,0 +1,38 @@
+[
+  {
+    "style": "choc",
+    "format": "a4",
+    "identical": true,
+    "sha256": "3a97d306f1400b112c9fecb9fe9651b775a6e746187c915d995838eef232d0fa"
+  },
+  {
+    "style": "choc",
+    "format": "a5",
+    "identical": true,
+    "sha256": "3b1a836aa712b5c8d57eca2a41aac61f2ffa9dfaaf983aab5f85170c546f2c34"
+  },
+  {
+    "style": "satirique",
+    "format": "a4",
+    "identical": true,
+    "sha256": "cc857496c33e0cb1df70e1802cb02ec8628b56bc86a949972df84ed677fa71ea"
+  },
+  {
+    "style": "satirique",
+    "format": "a5",
+    "identical": true,
+    "sha256": "cd33247a57cb46af043c85968d8007421dc6b1d2de863e4e3093c8a34aa2d39c"
+  },
+  {
+    "style": "bd",
+    "format": "a4",
+    "identical": true,
+    "sha256": "5fa7096d324736d18f254dd9cc9714a7c0aba51ac0cf18b232585c1475c1d982"
+  },
+  {
+    "style": "bd",
+    "format": "a5",
+    "identical": true,
+    "sha256": "a77a4183159de62da0b1fb8ba6723a3a8d5a618b0cf6f2ae8eb9bb51fae563f1"
+  }
+]

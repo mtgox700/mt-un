@@ -1,0 +1,86 @@
+Browser tab: 9, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+1 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	2 container Dimensions de recette
+		3 button Bureau 1280
+		4 button Mobile 390
+		5 button Tablette 768
+		6 button Tablette paysage 1024
+		657 text 768 × 1024
+	8 container Description: Prototype inchangé, ID: prototype
+		9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			10 container dc-root
+				11 container
+					12 image uniion
+					129 button ← Retour
+					13 image
+					14 text field (settable)
+					15 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					18 button
+						19 image
+					20 button Se déconnecter
+						21 image
+				22 container
+					990 text Connexion du modèle — démo locale
+					991 text Connecté à ChatGPT via Codex local
+					992 text Essai local avec votre compte ChatGPT. Les requêtes utilisent vos limites Codex.
+					993 text field (settable)
+					994 button Enregistrer la clé
+					995 text MODÈLE
+					996 button Codex · rapide
+					997 button Codex · équilibré
+					998 button Codex · approfondi
+					999 button Test en cours…
+					1000 text Version locale : connexion via Codex, sans clé API supplémentaire. Les réglages et statistiques de fournisseur ci-dessous sont des exemples ; ils ne pilotent pas cette connexion.
+					1001 text ADMIN ORGANISATION
+					1002 heading Configuration IA, Value: 1
+						1003 text Configuration IA
+					1004 text Modèle utilisé par l'Assistant Juridique, la Recherche Légale et le Générateur de documents.
+					1005 text Anonymisation avant inférence
+					1006 text Verrouillée par la politique de l'organisation — non désactivable en séance.
+					1007 switch Description: Anonymisation avant inférence — verrouillée sur activé, Value: 1
+					1008 text Zéro donnée nominative hors Union européenne. Zéro réutilisation pour l'entraînement — clause contractuelle avec le fournisseur. Journal d'empreintes sans texte en clair. 39 appels 0 identité fuitée
+					1009 text FOURNISSEUR & MODÈLE
+					1010 button Offre mutualisée uniion Incluse dans l’abonnement · Claude Sonnet
+						1011 text Offre mutualisée uniion
+						1012 text Incluse dans l’abonnement · Claude Sonnet
+					1013 button Anthropic — Claude Clé propre à l’organisation · UE
+						1014 text Anthropic — Claude
+						1015 text Clé propre à l’organisation · UE
+					1016 button Mistral — Large Clé propre · hébergement France
+						1017 text Mistral — Large
+						1018 text Clé propre · hébergement France
+					1019 text CLÉ API
+					1020 text •••• •••• •••• •••• 8pWvA1
+					1021 button Afficher
+					1022 text Chiffrée au repos dans un coffre dédié, jamais réaffichée en clair après enregistrement. Dernière rotation : 14/06/2026.
+					1023 button Enregistrer la clé API
+					1024 button Révoquer
+					1025 heading Consommation — août, Value: 2
+						1026 text Consommation — août
+					1027 text Assistant juridique 1 240 requêtes Génération de documents 312 requêtes Recherche légale 96 requêtes Coût estimé 84,20 € / 150 € de quota
+					1028 heading Comportement du modèle, Value: 2
+						1029 text Comportement du modèle
+					1030 text Prudence juridique Élevée
+					1031 button Basse
+					1032 button Moyenne
+					1033 button Élevée
+					1034 text Sourçage obligatoire des réponses juridiques
+					1035 button
+				113 container
+					984 button Accueil
+						985 image
+						986 text Accueil
+					117 button Dossiers
+						118 image
+						119 text Dossiers
+					860 button Agenda
+						861 image
+						862 text Agenda
+					224 button Réunions
+						225 image
+						226 text Réunions
+					987 button Réglages
+						988 image
+						989 text Réglages
+
+The focused UI element is 999 button Test en cours…

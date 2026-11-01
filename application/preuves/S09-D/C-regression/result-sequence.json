@@ -1,0 +1,49 @@
+{
+  "id": "46e4372a-590f-4ee6-b629-16ea6ee5837a",
+  "error": null,
+  "parts": [
+    {
+      "audio": "4cef2a56-b61d-46fd-8b19-9b69532dca60",
+      "result": {
+        "model": "ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66",
+        "engine": "faster-whisper/1.2.1",
+        "segments": [
+          {
+            "text": "Cette réunion est entièrement fictive, nous décidons de préparer le dossier vendredi,",
+            "endMs": 5120,
+            "startMs": 0
+          },
+          {
+            "text": "le prochain rendez vous et fixez à l'indice.",
+            "endMs": 7360,
+            "startMs": 5120
+          }
+        ]
+      },
+      "offsetMs": 0
+    },
+    {
+      "audio": "93e55bdd-70e1-47a0-a3ac-204e96f33f96",
+      "result": {
+        "model": "ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66",
+        "engine": "faster-whisper/1.2.1",
+        "segments": [
+          {
+            "text": "Cette réunion est entièrement fictive, nous décidons de préparer le dossier vendredi,",
+            "endMs": 5120,
+            "startMs": 0
+          },
+          {
+            "text": "le prochain rendez vous et fixez à l'indice.",
+            "endMs": 7360,
+            "startMs": 5120
+          }
+        ]
+      },
+      "offsetMs": 7360
+    }
+  ],
+  "state": "done",
+  "total": 2,
+  "completed": 2
+}

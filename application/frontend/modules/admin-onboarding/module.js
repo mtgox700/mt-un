@@ -1,0 +1,1 @@
+import View from '../../generated/admin-onboarding.jsx';import {defineModule} from '../../host/module-contract.js';export {View};export default defineModule({id:'admin-onboarding',routes:['onboarding'],View});

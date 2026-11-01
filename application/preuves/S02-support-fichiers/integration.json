@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "count": 32,
+  "checks": [
+    {
+      "test": "manager_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "manager_mfa",
+      "ok": true
+    },
+    {
+      "test": "agent_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "agent_mfa",
+      "ok": true
+    },
+    {
+      "test": "real_antivirus_clean",
+      "ok": true
+    },
+    {
+      "test": "eicar_blocked",
+      "ok": true
+    },
+    {
+      "test": "agent_cannot_approve",
+      "ok": true
+    },
+    {
+      "test": "parent_selection_required",
+      "ok": true
+    },
+    {
+      "test": "unknown_file_denied",
+      "ok": true
+    },
+    {
+      "test": "explicit_files_approved",
+      "ok": true
+    },
+    {
+      "test": "preview_allowed",
+      "ok": true
+    },
+    {
+      "test": "download_separate_denied",
+      "ok": true
+    },
+    {
+      "test": "nonselected_denied",
+      "ok": true
+    },
+    {
+      "test": "unnamed_agent_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_org_denied",
+      "ok": true
+    },
+    {
+      "test": "invalid_page_denied",
+      "ok": true
+    },
+    {
+      "test": "forged_path_denied",
+      "ok": true
+    },
+    {
+      "test": "pdf_preview",
+      "ok": true
+    },
+    {
+      "test": "download_exact",
+      "ok": true
+    },
+    {
+      "test": "pending_scan_denied",
+      "ok": true
+    },
+    {
+      "test": "pending_approval_denied",
+      "ok": true
+    },
+    {
+      "test": "revoke",
+      "ok": true
+    },
+    {
+      "test": "revoked_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "revoked_download_denied",
+      "ok": true
+    },
+    {
+      "test": "close_during_fetch",
+      "ok": true
+    },
+    {
+      "test": "post_fetch_recheck_denied",
+      "ok": true
+    },
+    {
+      "test": "closed_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "reopen",
+      "ok": true
+    },
+    {
+      "test": "reopen_no_file_access",
+      "ok": true
+    },
+    {
+      "test": "browser_grant",
+      "ok": true
+    }
+  ]
+}

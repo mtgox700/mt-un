@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "format": "mobile",
+      "financialFilterAbsent": true,
+      "width": 390,
+      "financialListAbsent": true
+    },
+    {
+      "format": "tablette",
+      "financialFilterAbsent": true,
+      "width": 768,
+      "financialListAbsent": true
+    },
+    {
+      "format": "desktop",
+      "financialFilterAbsent": true,
+      "width": 1440,
+      "financialListAbsent": true
+    }
+  ]
+}

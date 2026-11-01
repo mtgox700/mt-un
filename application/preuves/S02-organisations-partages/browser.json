@@ -1,0 +1,69 @@
+{
+  "sharingResults": [
+    {
+      "width": 1440,
+      "height": 900,
+      "acceptanceForm": true,
+      "unauthorizedCreateDisabled": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "acceptanceForm": true,
+      "unauthorizedCreateDisabled": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "acceptanceForm": true,
+      "unauthorizedCreateDisabled": true,
+      "overflow": false
+    }
+  ],
+  "orgChecks": [
+    {
+      "width": 1440,
+      "height": 900,
+      "sourceAbsent": true,
+      "targetPresent": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "sourceAbsent": true,
+      "targetPresent": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "sourceAbsent": true,
+      "targetPresent": true,
+      "overflow": false
+    }
+  ],
+  "switched": true,
+  "foreignChecks": [
+    {
+      "width": 1440,
+      "height": 900,
+      "refused": true,
+      "noShareForm": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "refused": true,
+      "noShareForm": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "refused": true,
+      "noShareForm": true
+    }
+  ]
+}

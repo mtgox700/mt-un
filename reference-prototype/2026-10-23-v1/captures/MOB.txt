@@ -1,0 +1,138 @@
+Browser tab: 4, Title: "127.0.0.1:5052/uniion App v3.dc.html", URL: "http://127.0.0.1:5052/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			158 button Accueil
+				159 image
+				160 text Accueil
+			161 button Assistant
+				162 image
+				163 text Assistant
+			170 button Dossiers
+				171 image
+				172 text Dossiers
+			173 button Messages
+				174 image
+				175 text Messages
+			176 button Agenda
+				177 image
+				178 text Agenda
+			186 button Réunions
+				187 image
+				188 text Réunions
+			189 button Documents
+				190 image
+				191 text Documents
+			192 button Formations
+				193 image
+				194 text Formations
+			202 button Communication
+				203 image
+				204 text Communication
+			205 button Application mobile
+				206 image
+				207 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			157 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				198 text unii
+				199 text 2
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		169 container
+			200 text UNII SUGGÈRE
+			201 button Page à compléter · NAO 2027 : où en sommes-nous ?
+			208 button À vérifier avant validation FO · Heures supplémentaires : ce que prévoit l'accord
+			209 text PUBLIÉ DANS L'APPLICATION FO
+			210 heading Application mobile, Value: 1
+				211 text Application mobile
+			212 text Créez les pages de votre organisation publiées dans l'application mobile FO : actualités, permanences, contacts, droits. Les adhérents et salariés les retrouvent dans l'espace « Section syndicale FO ». unii rédige, vous validez, la fédération publie. 1 pages en ligne 3 en préparation 412 vues ce mois
+			213 tab group Application mobile
+				214 tab (selected, settable, boolean) Mes pages · 4, Value: 1
+				215 tab (selectable, settable, boolean) Éditeur, Value: 0
+			216 heading Vos pages, Value: 2
+				217 text Vos pages
+			218 text Espace « Section syndicale FO » dans l'application FO
+			219 container
+				220 text En ligne Permanences
+				221 heading Nos permanences du mois d'octobre, Value: 3
+					222 text Nos permanences du mois d'octobre
+				223 text Tous les salariés · 3 blocs · mis à jour 28 sept. · 412 vues
+				224 button Modifier
+				225 button Supprimer
+			226 container
+				227 text Brouillon Actualité
+				228 button À compléter, Help: Page à compléter · NAO 2027 : où en sommes-nous ?
+				229 heading NAO 2027 : où en sommes-nous ?, Value: 3
+					230 text NAO 2027 : où en sommes-nous ?
+				231 text Tous les salariés · 1 bloc · mis à jour hier
+				232 button Modifier
+				233 button Supprimer
+			234 container
+				235 text Validation FO Contacts des élus
+				236 heading Vos représentants et comment les joindre, Value: 3
+					237 text Vos représentants et comment les joindre
+				238 text Tous les salariés · 3 blocs · mis à jour 30 sept.
+				239 button Modifier
+				240 button Supprimer
+			241 container
+				242 text En relecture Vos droits
+				243 button À vérifier, Help: À vérifier avant validation FO · Heures supplémentaires : ce que prévoit l'accord
+				244 heading Heures supplémentaires : ce que prévoit l'accord, Value: 3
+					245 text Heures supplémentaires : ce que prévoit l'accord
+				246 text Adhérents FO · 4 blocs · mis à jour 1er oct.
+				247 button Modifier
+				248 button Supprimer
+			249 text Circuit de publication : Brouillon → Relecture par un pair → Validation FO → En ligne dans l'application.
+			250 heading Créer une page, Value: 2
+				251 text Créer une page
+			252 text Partez d'un modèle adapté au téléphone, ou laissez unii rédiger une première version.
+			253 button Actualité Une info, ce qu'elle change, la suite.
+				254 text Actualité
+				255 text Une info, ce qu'elle change, la suite.
+			256 button Permanences Horaires, lieu, comment venir.
+				257 text Permanences
+				258 text Horaires, lieu, comment venir.
+			259 button Contacts des élus Qui joindre, pour quoi.
+				260 text Contacts des élus
+				261 text Qui joindre, pour quoi.
+			262 button Événement Date, lieu, inscription.
+				263 text Événement
+				264 text Date, lieu, inscription.
+			265 button Vos droits Une question, une réponse claire.
+				266 text Vos droits
+				267 text Une question, une réponse claire.
+			268 button Adhésion Pourquoi et comment rejoindre FO.
+				269 text Adhésion
+				270 text Pourquoi et comment rejoindre FO.
+			271 button Quelles pages créer ? Demander à unii
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html

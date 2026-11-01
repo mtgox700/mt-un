@@ -1,0 +1,25 @@
+{
+  "methods": [
+    "exportIcs",
+    "agPad",
+    "agIso",
+    "agParse",
+    "agToday",
+    "agCap",
+    "agFrLong",
+    "agTypeDef",
+    "agVisibDefs",
+    "agHours",
+    "agFiltered",
+    "agShiftMonth",
+    "agSetNew",
+    "agOpenNew",
+    "agCreate",
+    "agDelete",
+    "agVals",
+    "createAgendaDocument"
+  ],
+  "viewBytes": 25097,
+  "identicalView": true,
+  "sha256": "85222263fcd5d33b4114fa8fc0308b50f13128d9bf3cc8a3c4eb530ed029552a"
+}

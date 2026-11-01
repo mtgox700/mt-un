@@ -1,0 +1,56 @@
+- complementary:
+  - generic: uniion
+  - generic: Console d'administration
+  - navigation:
+    - button "Supervision":
+      - generic: Supervision
+    - button "Organisations":
+      - generic: Organisations
+    - button "Utilisateurs":
+      - generic: Utilisateurs
+    - button "Clés API IA":
+      - generic: Clés API IA
+    - button "Éditeur de l’application":
+      - generic: Éditeur de l’application
+    - button "Abonnements et paiements":
+      - generic: Abonnements et paiements
+    - button "Journal d’audit":
+      - generic: Journal d’audit
+  - generic: SA
+  - generic: Super administrateur
+  - generic: admin@uniion.fr
+  - button "Se déconnecter":
+- main:
+  - generic: Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+  - heading "Organisations" [level=1]
+  - paragraph: Sections, unions et CSE hébergés sur la plateforme.
+  - generic: Métallurgie — Valenciennes
+  - generic: Section syndicale · offre Élu 2.0
+  - generic: Membres
+  - generic: "6"
+  - generic: Adhérents
+  - generic: "214"
+  - generic: Requêtes IA / mois
+  - generic: 1 840
+  - generic: Actif
+  - button "Suspendre"
+  - generic: UD 59 — Lille
+  - generic: Union départementale · offre Élu 4.0
+  - generic: Membres
+  - generic: "14"
+  - generic: Adhérents
+  - generic: 1 320
+  - generic: Requêtes IA / mois
+  - generic: 6 210
+  - generic: Actif
+  - button "Suspendre"
+  - generic: CSE Brasserie du Nord
+  - generic: CSE · offre Élu 1.0
+  - generic: Membres
+  - generic: "9"
+  - generic: Adhérents
+  - generic: "380"
+  - generic: Requêtes IA / mois
+  - generic: "420"
+  - generic: Essai — 12 j restants
+  - button "Suspendre"

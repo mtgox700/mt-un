@@ -1,0 +1,49 @@
+{
+  "fileResults": [
+    {
+      "width": 1440,
+      "height": 900,
+      "content": true,
+      "preview": true,
+      "downloadPng": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "content": true,
+      "preview": true,
+      "downloadPng": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "content": true,
+      "preview": true,
+      "downloadPng": true,
+      "overflow": false
+    }
+  ],
+  "deniedFiles": [
+    {
+      "width": 1440,
+      "height": 900,
+      "foreignRefused": true,
+      "noReadButton": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "foreignRefused": true,
+      "noReadButton": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "foreignRefused": true,
+      "noReadButton": true
+    }
+  ],
+  "revokedHidden": true
+}

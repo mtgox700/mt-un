@@ -1,0 +1,51 @@
+{
+  "checks": [
+    {
+      "test": "login",
+      "ok": true
+    },
+    {
+      "test": "enrollment",
+      "ok": true
+    },
+    {
+      "test": "challenge",
+      "ok": true
+    },
+    {
+      "test": "wrong_totp_denied",
+      "ok": true
+    },
+    {
+      "test": "retry_valid_totp",
+      "ok": true
+    },
+    {
+      "test": "old_cookie_rotated",
+      "ok": true
+    },
+    {
+      "test": "old_cookie_business_denied",
+      "ok": true
+    },
+    {
+      "test": "own_business_allowed",
+      "ok": true
+    },
+    {
+      "test": "cross_org_denied",
+      "ok": true
+    },
+    {
+      "test": "verified_mfa_survives_reload",
+      "ok": true
+    },
+    {
+      "test": "own_business_after_reload",
+      "ok": true
+    }
+  ],
+  "passed": true,
+  "count": 11,
+  "totp_secret_persisted": false
+}

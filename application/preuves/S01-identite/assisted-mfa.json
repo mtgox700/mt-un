@@ -1,0 +1,120 @@
+{
+  "checks": [
+    {
+      "test": "initial_owner_login",
+      "ok": true
+    },
+    {
+      "test": "existing_lost_factor_enrolled",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "existing_lost_factor_verified",
+      "ok": true
+    },
+    {
+      "test": "requester_login",
+      "ok": true
+    },
+    {
+      "test": "reviewer_login",
+      "ok": true
+    },
+    {
+      "test": "reviewer_factor_enrolled",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reviewer_mfa_verified",
+      "ok": true
+    },
+    {
+      "test": "lost_registered_factor_fails_closed_pending_privileged_adapter",
+      "ok": true
+    },
+    {
+      "test": "request_requires_human_approval",
+      "ok": true
+    },
+    {
+      "test": "self_approval_refused",
+      "ok": true
+    },
+    {
+      "test": "ordinary_mfa_user_cannot_approve",
+      "ok": true
+    },
+    {
+      "test": "pending_request_business_denied",
+      "ok": true
+    },
+    {
+      "test": "operator_aal1_login",
+      "ok": true
+    },
+    {
+      "test": "operator_aal1_approval_refused",
+      "ok": true
+    },
+    {
+      "test": "missing_verification_reference_refused",
+      "ok": true
+    },
+    {
+      "test": "designated_operator_approval",
+      "ok": true
+    },
+    {
+      "test": "approval_single_use",
+      "ok": true
+    },
+    {
+      "test": "old_requester_session_closed",
+      "ok": true
+    },
+    {
+      "test": "fresh_login_required",
+      "ok": true
+    },
+    {
+      "test": "approval_alone_not_business_access",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "approved_new_factor_verified",
+      "ok": true
+    },
+    {
+      "test": "recovered_own_resource_authorized",
+      "ok": true
+    },
+    {
+      "test": "recovered_cross_org_denied",
+      "ok": true
+    },
+    {
+      "test": "platform_operator_has_no_implicit_business_access",
+      "ok": true
+    },
+    {
+      "test": "revoked_operator_refused",
+      "ok": true
+    }
+  ],
+  "count": 28,
+  "passed": true,
+  "fictional_operator_revoked": true,
+  "limitation": "Lost device with factor still registered is refused; privileged Auth adapter remains required. Successful recovery here starts after owner-authorized test factor removal."
+}

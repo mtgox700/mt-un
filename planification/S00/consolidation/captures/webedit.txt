@@ -1,0 +1,241 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - button "Revenir à l'intranet":
+  - textbox "Titre de la page": "NAO 2027 : où en sont les négociations ?"
+  - paragraph: intranet.section-valenciennes.fr/intranet/actualites/nao-2027-point-etape
+  - button "Charte · Intranet"
+  - generic: Brouillon
+  - heading "Thème de la page" [level=2]
+  - generic: Rendu défini dans Charte des sites
+  - button "Charte du site" [pressed]
+  - button "Éditorial"
+  - button "Moderne à cartes"
+  - button "Militant"
+  - button "Institutionnel"
+  - button "Magazine"
+  - button "Minimal"
+  - generic: Chapô
+  - textbox: Trois séances de négociation se sont tenues depuis juin. Voici ce que la direction propose, ce que nous demandons, et la suite du calendrier.
+  - paragraph: "Résumé pour la page d'accueil du site : « Trois séances de négociation se sont tenues depuis juin. Voici ce que la direction propose… »"
+  - heading "Blocs" [level=2]
+  - paragraph: "Modifiez le contenu : l'aperçu se met à jour en direct."
+  - generic: Paragraphe
+  - textbox: La direction a présenté le 20 août une enveloppe d'augmentation générale de 0,8 %, hors mesures individuelles. Vos élus ont rappelé que l'inflation constatée sur douze mois s'établit à 2,1 %.
+  - generic: Intertitre
+  - textbox: Nos revendications
+  - generic: Liste
+  - textbox: Augmentation générale de 2,5 % pour tous les coefficients Talon de 60 € mensuels pour les salaires sous 2 000 € Revalorisation de la prime de transport gelée depuis 2023
+  - generic: Encadré
+  - textbox: "Le sondage mené auprès des salariés a recueilli 312 réponses : 78 % placent le pouvoir d'achat en première priorité."
+  - generic: Intertitre
+  - textbox: Prochaine étape
+  - generic: Paragraphe
+  - textbox: La quatrième séance est fixée au 12 septembre. Un compte rendu sera publié dans les 48 heures suivant la réunion.
+  - generic: Bouton
+  - textbox: Donner votre avis avant la séance
+  - generic: Pièce jointe
+  - textbox: Tableau comparatif des propositions (PDF, 210 Ko)
+  - paragraph: Une ligne = un élément dans les blocs Liste.
+  - generic: "Ajouter une section :"
+  - button "+ Bandeau d'accroche"
+  - button "+ Chiffres clés"
+  - button "+ Frise de la négociation"
+  - button "+ FAQ dépliable"
+  - button "+ Cartes des élus"
+  - button "+ Agenda"
+  - button "+ Appel à adhérer"
+  - heading "Circuit de publication" [level=2]
+  - paragraph: Aucune relecture pour l'instant. Un second membre du rôle communication doit valider avant l'envoi.
+  - button "Demander une relecture"
+  - button "Envoyer pour publication"
+  - button "Copier le HTML"
+  - paragraph: Sophie Marchand · modifiée il y a 12 min
+  - button "Aperçu"
+  - button "Code HTML"
+  - group "Largeur d'aperçu":
+    - button "Ordinateur"
+    - button "Tablette"
+    - button "Mobile"
+  - generic: intranet.section-valenciennes.fr/intranet/actualites/nao-2027-point-etape
+  - link "Aller au contenu":
+    - /url: "#contenu"
+  - generic: Espace réservé aux salariés
+  - link "Recherche":
+    - /url: /intranet/recherche
+  - link "Sophie Marchand":
+    - /url: /intranet/mon-compte
+  - link "Se déconnecter":
+    - /url: /intranet/deconnexion
+  - link "Section syndicale Métallurgie — Valenciennes Section syndicale Métallurgie — Valenciennes Intranet des salariés":
+    - /url: /intranet
+    - img "Section syndicale Métallurgie — Valenciennes"
+    - strong: Section syndicale Métallurgie — Valenciennes
+    - generic: Intranet des salariés
+  - search:
+    - generic: Rechercher
+    - searchbox "Rechercher"
+    - button "Rechercher"
+  - navigation "Navigation principale":
+    - list:
+      - link "Actualités":
+        - /url: /intranet/actualites
+      - link "Vos droits":
+        - /url: /intranet/vos-droits
+      - link "La section":
+        - /url: /intranet/la-section
+      - link "Négociations":
+        - /url: /intranet/negociations
+      - link "Loisirs & ASC":
+        - /url: /intranet/asc
+      - link "Nous contacter":
+        - /url: /intranet/contacts
+  - navigation "Fil d'ariane":
+    - list:
+      - link "Accueil":
+        - /url: /intranet
+      - text: ›
+      - link "Actualités":
+        - /url: /intranet/actualites
+      - text: ›
+      - listitem: "NAO 2027 : où en sont les négociations ?"
+  - paragraph: Actualités
+  - 'heading "NAO 2027 : où en sont les négociations ?" [level=1]'
+  - paragraph: Trois séances de négociation se sont tenues depuis juin. Voici ce que la direction propose, ce que nous demandons, et la suite du calendrier.
+  - paragraph:
+    - generic: SM
+    - generic: Par Sophie Marchand, adhérent de la section
+    - time: Mis à jour le 5 septembre 2026
+    - generic: Lecture 3 min
+  - main:
+    - article:
+      - paragraph: La direction a présenté le 20 août une enveloppe d'augmentation générale de 0,8 %, hors mesures individuelles. Vos élus ont rappelé que l'inflation constatée sur douze mois s'établit à 2,1 %.
+      - heading "Nos revendications" [level=2]
+      - list:
+        - listitem: Augmentation générale de 2,5 % pour tous les coefficients
+        - listitem: Talon de 60 € mensuels pour les salaires sous 2 000 €
+        - listitem: Revalorisation de la prime de transport gelée depuis 2023
+      - complementary:
+        - strong: À retenir
+        - text: "Le sondage mené auprès des salariés a recueilli 312 réponses : 78 % placent le pouvoir d'achat en première priorité."
+      - heading "Prochaine étape" [level=2]
+      - paragraph: La quatrième séance est fixée au 12 septembre. Un compte rendu sera publié dans les 48 heures suivant la réunion.
+      - link "Donner votre avis avant la séance":
+        - /url: /intranet/sondages/nao-2027
+        - text: Donner votre avis avant la séance
+        - generic: →
+      - link "PDF Tableau comparatif des propositions (PDF, 210 Ko) Télécharger — s'ouvre dans une nouvelle fenêtre":
+        - /url: /intranet/fichiers/nao-2027-point-etape.pdf
+        - generic: PDF
+        - text: Tableau comparatif des propositions (PDF, 210 Ko)
+        - generic: Télécharger — s'ouvre dans une nouvelle fenêtre
+      - generic: Partager cette page
+      - link "Copier le lien":
+        - /url: "#"
+      - link "Par e-mail":
+        - /url: "mailto:?subject=NAO 2027 : où en sont les négociations ?"
+    - complementary:
+      - navigation "Sommaire":
+        - heading "Sur cette page" [level=3]
+        - list:
+          - link "Nos revendications":
+            - /url: "#nos-revendications"
+          - link "Prochaine étape":
+            - /url: "#prochaine-etape"
+      - heading "Permanences" [level=3]
+      - paragraph: Local B12 — mardi 12 h-14 h et jeudi 17 h-18 h 30.
+      - link "Saisir vos représentants":
+        - /url: /intranet/contacts
+      - heading "Documents liés" [level=3]
+      - list:
+        - link "Toutes les pages de « Actualités »":
+          - /url: /intranet/actualites
+        - link "Comptes rendus de séance":
+          - /url: /intranet/la-section/comptes-rendus
+        - link "Fiches pratiques":
+          - /url: /intranet/vos-droits
+      - heading "Mots-clés" [level=3]
+      - paragraph:
+        - generic: Actualités
+        - generic: nao-2027-point-etape
+        - generic: "2026"
+  - heading "SECTION MÉTA VAL" [level=4]
+  - paragraph:
+    - text: Local syndical — 12 rue de la Fonderie, 59300 Valenciennes
+    - text: section@syndicat-valenciennes.fr
+  - heading "Rubriques" [level=4]
+  - list:
+    - link "Actualités":
+      - /url: /intranet/actualites
+    - link "Vos droits":
+      - /url: /intranet/vos-droits
+    - link "La section":
+      - /url: /intranet/la-section
+    - link "Négociations":
+      - /url: /intranet/negociations
+  - heading "Services" [level=4]
+  - list:
+    - link "Saisine confidentielle":
+      - /url: /intranet/contacts
+    - link "Billetterie et ASC":
+      - /url: /intranet/asc
+    - link "Agenda des permanences":
+      - /url: /intranet/agenda
+  - heading "Informations" [level=4]
+  - list:
+    - link "Traitement de vos données":
+      - /url: /intranet/donnees-personnelles
+    - link "Accessibilité":
+      - /url: /intranet/accessibilite
+    - link "Aide":
+      - /url: /intranet/aide
+  - generic: © 2026 Section syndicale Métallurgie — Valenciennes
+  - generic: intranet.section-valenciennes.fr
+  - generic: Espace interne — ne pas diffuser hors de l'entreprise

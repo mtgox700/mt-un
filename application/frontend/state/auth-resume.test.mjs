@@ -1,0 +1,6 @@
+import assert from 'node:assert/strict';import {attachS01Auth} from '../services/auth-s01.js';
+globalThis.location={search:'?organization=org&return=admin',hash:'',pathname:'/s02'};globalThis.history={replaceState(){}};
+let valid=true,reads=0;const c={state:{},go(route){this.setState({route})},flash(){},setState(p){Object.assign(this.state,p)},setAuth(p){this.state.auth={...this.state.auth,...p}},renderVals(){return {}},async refreshIdentity(){reads++}};
+const auth=attachS01Auth(c,async()=>({ok:true,json:async()=>({csrf:'csrf',authenticated:valid,business_allowed:valid,mfa_required:true,aal:valid?'aal2':'aal1'})}));await auth.resume();assert.equal(c.state.route,'admin');assert.equal(c.state.authed,true);assert.equal(reads,1);valid=false;c.setState({authed:false,route:'accueil'});await auth.resume();assert.equal(c.state.authed,false);assert.equal(c.state.route,'accueil');assert.equal(reads,1);console.log('6 resume assertions passed');
+
+valid=true;location.search='?organization=org&screen=documents';let docs=0;c.refreshDocuments=async()=>{docs++};await auth.resume();assert.equal(c.state.route,'documents');assert.equal(docs,1);valid=false;c.setState({authed:false,route:'accueil'});await auth.resume();assert.equal(c.state.authed,false);assert.equal(docs,1);
