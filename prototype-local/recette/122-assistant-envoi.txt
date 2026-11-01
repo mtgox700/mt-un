@@ -1,0 +1,130 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			305 button Accueil
+				306 image
+				307 text Accueil
+			323 button Assistant
+				324 image
+				325 text Assistant
+			320 button Dossiers
+				321 image
+				322 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			326 button Réunions
+				327 image
+				328 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			165 button Formations
+				166 image
+				167 text Formations
+			302 button Communication
+				303 image
+				304 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			162 button Raccourcis
+				163 image
+				164 text Raccourcis
+			308 button Réglages
+				309 image
+				310 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable) RECETTE
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		329 container
+			330 text INTELLIGENCE ARTIFICIELLE
+			331 heading Votre expert juridique de poche, Value: 1
+				332 text Votre expert juridique de poche
+			333 text Sourcé sur la Convention Métallurgie et le Code du travail NOUVELLE CONVERSATION Pas encore enregistrée — posez une question
+			334 button Mémoire · 4, Help: Gérer la mémoire de l'assistant
+			335 button Créer un dossier
+			336 button Plein écran
+			337 button Nouvelle conversation
+			338 button Nouveau dossier guidé
+			339 text HISTORIQUE 2 conversations
+			340 button Toutes
+			341 button Assistant
+			342 button Réunions
+			343 button Heures de délégation non payées en cas d'arrêt maladie Assistant 22 oct. · 1 q.
+				344 text Heures de délégation non payées en cas d'arrêt maladie
+				345 text Assistant
+				346 text 22 oct.
+				347 text  · 
+				348 text 1 q.
+			349 button Description: Supprimer la conversation, Help: Supprimer
+			350 button Projet de PV — CSE ordinaire de septembre Réunions 20 oct. · 1 q.
+				351 text Projet de PV — CSE ordinaire de septembre
+				352 text Réunions
+				353 text 20 oct.
+				354 text  · 
+				355 text 1 q.
+			356 button Description: Supprimer la conversation, Help: Supprimer
+			357 image
+			358 text uniion Assistant Aucune identité transmise NIVEAU D'ANONYMISATION
+			359 checkbox Standard, Help: NAO, budget, articles — masquage léger (matricules)., Value: 1
+			360 checkbox RH sensible, Help: Inaptitude, discipline — masquage nominatif + matricules., Value: 0
+			361 checkbox RPS, Help: Harcèlement, souffrance au travail — masquage maximal., Value: 0
+			362 text UNIION ASSISTANT
+			363 text Bonjour Sophie. Je peux répondre sur la Convention Métallurgie, le Code du travail ou analyser un accord d'entreprise.
+			364 button Signalement de harcèlement
+			365 button Informations dues en NAO
+			366 button Enquête après accident
+			367 button Budget ASC
+			368 text field (settable)
+			369 button
+				370 image
+			371 text Réponses produites par un modèle de langage souverain hébergé dans l'Union européenne, sur le seul corpus de votre organisation (convention, accords, PV) et à partir d'un texte anonymisé — à vérifier avant tout usage contentieux.
+			372 button En savoir plus sur la sécurité
+		373 container Contrôle d'anonymisation
+			374 text Contrôle d'anonymisation Niveau Standard
+			375 container
+				376 text Assistant  — le coffre CSE reste local. Vérifiez ce que le modèle va recevoir avant l'envoi.
+			377 checkbox Standard, Value: 1
+			378 checkbox RH sensible, Value: 0
+			379 checkbox RPS, Value: 0
+			380 text NAO, budget, articles — masquage léger (matricules).
+			381 text TEXTE ORIGINAL — RESTE DANS LE COFFRE
+			382 text Exemple fictif de recette : propose une liste de préparation pour une réunion des élus, sans analyser de situation individuelle.
+			383 text PAYLOAD MASQUÉ — PART AU MODÈLE
+			384 text Exemple fictif de recette : propose une liste de préparation pour une réunion des élus, sans analyser de situation individuelle.
+			385 text 0 ENTITÉ DÉTECTÉE
+			386 text Aucune donnée nominative détectée dans cette requête.
+			387 button Annuler
+			388 button Envoyer en clair
+			389 button Confirmer l'envoi au modèle
+
+The focused UI element is 369 button

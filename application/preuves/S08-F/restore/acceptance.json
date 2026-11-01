@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "count": 15,
+  "checks": [
+    {
+      "test": "ai_snapshot_roundtrip",
+      "ok": true
+    },
+    {
+      "test": "ai_sqlite_integrity",
+      "ok": true
+    },
+    {
+      "test": "ai_schema_v2",
+      "ok": true
+    },
+    {
+      "test": "restored_login",
+      "ok": true
+    },
+    {
+      "test": "restored_aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "restored_mfa",
+      "ok": true
+    },
+    {
+      "test": "restored_policy_ready",
+      "ok": true
+    },
+    {
+      "test": "persisted_history_present",
+      "ok": true
+    },
+    {
+      "test": "restored_history_source_revalidated",
+      "ok": true
+    },
+    {
+      "test": "restored_no_implicit_replay",
+      "ok": true
+    },
+    {
+      "test": "restored_actor_isolation",
+      "ok": true
+    },
+    {
+      "test": "restored_org_isolation",
+      "ok": true
+    },
+    {
+      "test": "memory_preference_exact",
+      "ok": true
+    },
+    {
+      "test": "restored_revocation_blocks_history",
+      "ok": true
+    },
+    {
+      "test": "missing_key_fails_closed",
+      "ok": true
+    }
+  ],
+  "sql_checks": 374,
+  "elapsed_seconds": 54.443,
+  "restore_seconds": 24.787,
+  "ai_snapshot_sha256": "9c1d7a3c546bb101ebc21d3b33c98023879cdb31e689e800a8a35e95e40d7c7d",
+  "automatic_deletion": false,
+  "production_admission": false,
+  "limitation": "Separate SQL and SQLite snapshots; source revalidation mandatory; no production RPO/RTO claim"
+}

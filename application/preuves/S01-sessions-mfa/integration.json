@@ -1,0 +1,168 @@
+{
+  "checks": [
+    {
+      "test": "anonymous_business_denied",
+      "ok": true
+    },
+    {
+      "test": "csrf_login_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_origin_denied",
+      "ok": true
+    },
+    {
+      "test": "wrong_password_denied",
+      "ok": true
+    },
+    {
+      "test": "password_login",
+      "ok": true
+    },
+    {
+      "test": "opaque_cookie_flags",
+      "ok": true
+    },
+    {
+      "test": "login_rotates_cookie",
+      "ok": true
+    },
+    {
+      "test": "tokens_not_exposed",
+      "ok": true
+    },
+    {
+      "test": "bearer_bypass_denied",
+      "ok": true
+    },
+    {
+      "test": "totp_enrollment",
+      "ok": true
+    },
+    {
+      "test": "totp_secret_not_in_session_store",
+      "ok": true
+    },
+    {
+      "test": "initial_challenge",
+      "ok": true
+    },
+    {
+      "test": "invalid_totp_denied",
+      "ok": true
+    },
+    {
+      "test": "valid_totp_aal2",
+      "ok": true
+    },
+    {
+      "test": "mfa_rotates_cookie",
+      "ok": true
+    },
+    {
+      "test": "replayed_challenge_denied",
+      "ok": true
+    },
+    {
+      "test": "own_resource_aal2",
+      "ok": true
+    },
+    {
+      "test": "other_organization_aal2_denied",
+      "ok": true
+    },
+    {
+      "test": "direct_rest_aal2",
+      "ok": true
+    },
+    {
+      "test": "second_password_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_mfa_required",
+      "ok": true
+    },
+    {
+      "test": "aal1_business_denied",
+      "ok": true
+    },
+    {
+      "test": "direct_rest_aal1_empty",
+      "ok": true
+    },
+    {
+      "test": "rpc_context_aal1_empty",
+      "ok": true
+    },
+    {
+      "test": "challenge_not_bound_to_other_session",
+      "ok": true
+    },
+    {
+      "test": "aal1_cannot_add_factor",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "second_login_totp_aal2",
+      "ok": true
+    },
+    {
+      "test": "second_login_business_authorized",
+      "ok": true
+    },
+    {
+      "test": "other_user_login",
+      "ok": true
+    },
+    {
+      "test": "other_users_factor_denied",
+      "ok": true
+    },
+    {
+      "test": "last_verified_factor_cannot_be_removed",
+      "ok": true
+    },
+    {
+      "test": "real_refresh_preserves_aal2",
+      "ok": true
+    },
+    {
+      "test": "requirement_survives_factor_removal",
+      "ok": true
+    },
+    {
+      "test": "removed_factor_no_aal1_bypass",
+      "ok": true
+    },
+    {
+      "test": "logout_cookie_expired",
+      "ok": true
+    },
+    {
+      "test": "logged_out_cookie_refused",
+      "ok": true
+    },
+    {
+      "test": "logout_refresh_revoked",
+      "ok": true
+    },
+    {
+      "test": "logout_old_jwt_rest_denied",
+      "ok": true
+    },
+    {
+      "test": "other_user_session_preserved",
+      "ok": true
+    }
+  ],
+  "count": 40,
+  "passed": true,
+  "totp_secret_persisted": false,
+  "business_records_deleted": false
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "SEC-C01",
+    "scenario": "Même UUID demandé par organisation B sans grant",
+    "attendu": "Refus API/base/storage/search/IA et aucune mutation",
+    "decisions": "D02",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C02",
+    "scenario": "Partage source A vers bénéficiaire nommé B, actif accepté, module autorisé",
+    "attendu": "Lecture sélection seule ; écriture, repartage, offline refusés ; download seulement si flag",
+    "decisions": "D02",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C03",
+    "scenario": "Pièce non sélectionnée ou nouveau membre ajouté au groupe cible",
+    "attendu": "Refus sans nouvelle approbation",
+    "decisions": "D02",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C04",
+    "scenario": "Ticket clos pendant génération export support",
+    "attendu": "Grant révoqué transactionnellement ; aucune livraison ; réouverture ne réactive pas",
+    "decisions": "D04",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C05",
+    "scenario": "Admin org ou support accorde module gratuit",
+    "attendu": "Refus ; super admin peut accorder avec motif/validité sans faux paiement",
+    "decisions": "D05",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C06",
+    "scenario": "Super admin lit réponse sans identité puis nominative",
+    "attendu": "Autoriser sans identité et auditer ; refuser nominative sans droit métier",
+    "decisions": "D06",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C07",
+    "scenario": "Délégué D06 nommé sur sondage A lit B ou après révocation",
+    "attendu": "Refus ; aucun droit de déléguer lui-même",
+    "decisions": "D06",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C08",
+    "scenario": "Publication agrégée avec 4 puis 5 répondants",
+    "attendu": "4 refus ; 5 possible selon autres droits et absence sous-groupe identifiant",
+    "decisions": "D06",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C09",
+    "scenario": "Suppression sans accord ou lot approuvé altéré",
+    "attendu": "Refus ; aucun cascade ; simple échéance = demande",
+    "decisions": "D07",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C10",
+    "scenario": "Nettoyage version locale différente du receipt serveur",
+    "attendu": "Refus ; copie identique confirmée seule nettoyable",
+    "decisions": "D08",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C11",
+    "scenario": "Compte révoqué ou module expiré rejoue outbox locale",
+    "attendu": "Refus avant écriture ; pas perte silencieuse ni accès indu ; dossier de conflit restreint",
+    "decisions": "D05/D08",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C12",
+    "scenario": "Nouvel invité conversation demande ancien message, pièce ou résumé",
+    "attendu": "Refus avant grant historique ; pièce toujours ACL indépendante",
+    "decisions": "D11",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C13",
+    "scenario": "Dérivé multisource avec droit manquant puis release approuvée",
+    "attendu": "Ordinaire refus ; release lecture audience/version seule sans dévoiler sources",
+    "decisions": "D12",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C14",
+    "scenario": "Auteur valide sa diffusion sensible ou change version approuvée",
+    "attendu": "Refus auto-validation ; nouvelle version non approuvée, ancienne immuable",
+    "decisions": "D13",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C15",
+    "scenario": "Restauration backup antérieur aux révocations et suppressions",
+    "attendu": "Rejeu des contrôles avant remise en service ; test A/B et hash fichiers ; mesurer RPO/RTO",
+    "decisions": "D07",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  },
+  {
+    "id": "SEC-C16",
+    "scenario": "Payload import avec org_id/rôle/paid, script, seed et blob absent",
+    "attendu": "Org ignorée au profit contexte serveur ; privilèges jamais importés ; script rejeté ; seed non autoimporté ; blob absent non ready",
+    "decisions": "D03/D05/D08",
+    "statut": "À exécuter sur socle réel ; non exécuté en S00"
+  }
+]

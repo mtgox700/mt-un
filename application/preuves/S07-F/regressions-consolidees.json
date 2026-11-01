@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "count": 430,
+  "suites": [
+    {
+      "suite": "s07_access_edges",
+      "passed": true,
+      "count": 17,
+      "proof": "regressions-final139/s07_access_edges/S07-A/access-edges.json"
+    },
+    {
+      "suite": "s07_b_edges",
+      "passed": true,
+      "count": 26,
+      "proof": "regressions-final139/s07_b_edges/S07-B/access-edges.json"
+    },
+    {
+      "suite": "s07_discovery",
+      "passed": true,
+      "count": 75,
+      "proof": "regressions-final139/s07_discovery/S07-D/integration.json"
+    },
+    {
+      "suite": "s07_discovery_edges",
+      "passed": true,
+      "count": 40,
+      "proof": "regressions-final139/s07_discovery_edges/S07-D/edges.json"
+    },
+    {
+      "suite": "s07_file_edges",
+      "passed": true,
+      "count": 20,
+      "proof": "regressions-final139/s07_file_edges/S07-C/edges.json"
+    },
+    {
+      "suite": "s07_files",
+      "passed": true,
+      "count": 73,
+      "proof": "regressions-final139/s07_files/S07-C/integration.json"
+    },
+    {
+      "suite": "s07_live",
+      "passed": true,
+      "count": 43,
+      "proof": "regressions-final139/s07_live/S07-E/integration.json"
+    },
+    {
+      "suite": "s07_live_edges",
+      "passed": true,
+      "count": 22,
+      "proof": "regressions-final139/s07_live_edges/S07-E/edges.json"
+    },
+    {
+      "suite": "s07_members",
+      "passed": true,
+      "count": 54,
+      "proof": "regressions-final139/s07_members/S07-B/integration.json"
+    },
+    {
+      "suite": "s07_messaging",
+      "passed": true,
+      "count": 47,
+      "proof": "regressions-final139/s07_messaging/S07-A/integration.json"
+    },
+    {
+      "suite": "s07_volume_edges",
+      "passed": true,
+      "count": 13,
+      "proof": "regressions-final139/s07_volume_edges/S07-E/volume-edges.json"
+    }
+  ],
+  "note": "Dix suites apr\u00e8s migration 139; compl\u00e9ment de 13 contr\u00f4les apr\u00e8s migration 140."
+}

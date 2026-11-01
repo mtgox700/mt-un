@@ -1,0 +1,83 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		808 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				1287 container
+					1288 text INTELLIGENCE ARTIFICIELLE
+					1289 heading Votre expert juridique de poche, Value: 1
+						1290 text Votre expert juridique de poche
+					1291 text Sourcé sur la Convention Métallurgie et le Code du travail NOUVELLE CONVERSATION Pas encore enregistrée — posez une question
+					1292 button Mémoire · 4, Help: Gérer la mémoire de l'assistant
+					1293 button Créer un dossier
+					1294 button Plein écran
+					1295 button Nouvelle conversation
+					1296 button Nouveau dossier guidé
+					1297 text HISTORIQUE 2 conversations
+					1298 button Toutes
+					1299 button Assistant
+					1300 button Réunions
+					1301 button Heures de délégation non payées en cas d'arrêt maladie Assistant 22 oct. · 1 q.
+						1302 text Heures de délégation non payées en cas d'arrêt maladie
+						1303 text Assistant
+						1304 text 22 oct.
+						1305 text  · 
+						1306 text 1 q.
+					1307 button Description: Supprimer la conversation, Help: Supprimer
+					1308 button Projet de PV — CSE ordinaire de septembre Réunions 20 oct. · 1 q.
+						1309 text Projet de PV — CSE ordinaire de septembre
+						1310 text Réunions
+						1311 text 20 oct.
+						1312 text  · 
+						1313 text 1 q.
+					1314 button Description: Supprimer la conversation, Help: Supprimer
+					1315 image
+					1316 text uniion Assistant Aucune identité transmise NIVEAU D'ANONYMISATION
+					1317 checkbox Standard, Help: NAO, budget, articles — masquage léger (matricules)., Value: 1
+					1318 checkbox RH sensible, Help: Inaptitude, discipline — masquage nominatif + matricules., Value: 0
+					1319 checkbox RPS, Help: Harcèlement, souffrance au travail — masquage maximal., Value: 0
+					1320 text UNIION ASSISTANT
+					1321 text Bonjour Sophie. Je peux répondre sur la Convention Métallurgie, le Code du travail ou analyser un accord d'entreprise.
+					1322 button Signalement de harcèlement
+					1323 button Informations dues en NAO
+					1324 button Enquête après accident
+					1325 button Budget ASC
+					1326 text field (settable)
+					1327 button
+						1328 image
+					1329 text Prototype local : réponses produites via Codex connecté à votre compte ChatGPT, après masquage heuristique. Ce prototype ne garantit ni hébergement UE ni anonymisation complète — vérifiez les réponses avant utilisation.
+					1330 button En savoir plus sur la sécurité
+				112 container
+					1331 button Accueil
+						1332 image
+						1333 text Accueil
+					998 button Dossiers
+						999 image
+						1000 text Dossiers
+					1095 button Agenda
+						1096 image
+						1097 text Agenda
+					1187 button Réunions
+						1188 image
+						1189 text Réunions
+					1284 button Réglages
+						1285 image
+						1286 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

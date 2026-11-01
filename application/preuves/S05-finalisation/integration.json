@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "count": 21,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "event_created",
+      "ok": true
+    },
+    {
+      "test": "document_created",
+      "ok": true
+    },
+    {
+      "test": "upload_clean",
+      "ok": true
+    },
+    {
+      "test": "select",
+      "ok": true
+    },
+    {
+      "test": "review",
+      "ok": true
+    },
+    {
+      "test": "publish",
+      "ok": true
+    },
+    {
+      "test": "delivery",
+      "ok": true
+    },
+    {
+      "test": "create",
+      "ok": true
+    },
+    {
+      "test": "reader_denied",
+      "ok": true
+    },
+    {
+      "test": "free_file_classified",
+      "ok": true
+    },
+    {
+      "test": "bytes_exact",
+      "ok": true
+    },
+    {
+      "test": "preview_allowed",
+      "ok": true
+    },
+    {
+      "test": "source_revoked_hidden",
+      "ok": true
+    },
+    {
+      "test": "source_revoked_download",
+      "ok": true
+    },
+    {
+      "test": "quarantined_hidden",
+      "ok": true
+    },
+    {
+      "test": "quarantined_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "rapid_navigation_rate_limit_reproduced",
+      "ok": true
+    },
+    {
+      "test": "rate_limit_recovers",
+      "ok": true
+    }
+  ]
+}

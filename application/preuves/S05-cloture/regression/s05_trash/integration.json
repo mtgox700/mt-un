@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "count": 30,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "create",
+      "ok": true
+    },
+    {
+      "test": "upload",
+      "ok": true
+    },
+    {
+      "test": "ungranted_request_denied",
+      "ok": true
+    },
+    {
+      "test": "ordinary_admin_list_denied",
+      "ok": true
+    },
+    {
+      "test": "request_created",
+      "ok": true
+    },
+    {
+      "test": "no_implicit_trash",
+      "ok": true
+    },
+    {
+      "test": "ordinary_approval_denied",
+      "ok": true
+    },
+    {
+      "test": "admin_metadata_only",
+      "ok": true
+    },
+    {
+      "test": "admin_no_business_access",
+      "ok": true
+    },
+    {
+      "test": "version_added_after_request",
+      "ok": true
+    },
+    {
+      "test": "stale_approval_denied",
+      "ok": true
+    },
+    {
+      "test": "stale_request_rejected",
+      "ok": true
+    },
+    {
+      "test": "fresh_request",
+      "ok": true
+    },
+    {
+      "test": "admin_approve",
+      "ok": true
+    },
+    {
+      "test": "hidden_from_vault",
+      "ok": true
+    },
+    {
+      "test": "download_denied",
+      "ok": true
+    },
+    {
+      "test": "new_version_download_denied",
+      "ok": true
+    },
+    {
+      "test": "preview_denied",
+      "ok": true
+    },
+    {
+      "test": "version_denied",
+      "ok": true
+    },
+    {
+      "test": "trash_list",
+      "ok": true
+    },
+    {
+      "test": "foreign_trash_denied",
+      "ok": true
+    },
+    {
+      "test": "ungranted_restore_denied",
+      "ok": true
+    },
+    {
+      "test": "writer_restore",
+      "ok": true
+    },
+    {
+      "test": "restored_exact_bytes",
+      "ok": true
+    },
+    {
+      "test": "history_preserved",
+      "ok": true
+    },
+    {
+      "test": "repeat_cycle",
+      "ok": true
+    },
+    {
+      "test": "admin_reject",
+      "ok": true
+    },
+    {
+      "test": "rejection_keeps_file",
+      "ok": true
+    }
+  ]
+}

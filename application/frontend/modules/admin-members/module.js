@@ -1,0 +1,1 @@
+import View from '../../generated/admin-members.jsx';import {defineModule} from '../../host/module-contract.js';export {View};export default defineModule({id:'admin-members',routes:['membres'],View});

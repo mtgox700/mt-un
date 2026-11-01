@@ -1,0 +1,131 @@
+{
+  "checks": [
+    {
+      "test": "admin_a_login",
+      "ok": true
+    },
+    {
+      "test": "admin_b_login",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied_rights_change",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied_rights_batch",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied_share_create",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied_share_accept",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied_share_revoke",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied_directory_authorize",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied_admin_context",
+      "ok": true
+    },
+    {
+      "test": "enroll_a",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "aal2_a",
+      "ok": true
+    },
+    {
+      "test": "enroll_b",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "aal2_b",
+      "ok": true
+    },
+    {
+      "test": "aal2_rights_change",
+      "ok": true
+    },
+    {
+      "test": "aal2_rights_batch",
+      "ok": true
+    },
+    {
+      "test": "aal2_admin_context",
+      "ok": true
+    },
+    {
+      "test": "aal2_wrong_org_context_denied",
+      "ok": true
+    },
+    {
+      "test": "aal2_no_self_escalation",
+      "ok": true
+    },
+    {
+      "test": "aal2_directory_consent",
+      "ok": true
+    },
+    {
+      "test": "aal2_share_created",
+      "ok": true
+    },
+    {
+      "test": "aal2_share_accepted",
+      "ok": true
+    },
+    {
+      "test": "ordinary_reader_remains_aal1",
+      "ok": true
+    },
+    {
+      "test": "ordinary_reader_shared_read_allowed",
+      "ok": true
+    },
+    {
+      "test": "ordinary_reader_admin_context_denied",
+      "ok": true
+    },
+    {
+      "test": "aal2_share_revoked",
+      "ok": true
+    },
+    {
+      "test": "reader_denied_after_share_revocation",
+      "ok": true
+    },
+    {
+      "test": "ordinary_reader_no_cross_org_direct_read",
+      "ok": true
+    }
+  ],
+  "passed": true,
+  "count": 30,
+  "fictional_organizations": [
+    "08c29b9d-75ac-4476-9a34-922a44d43832",
+    "d2cfc1bd-94de-4434-a632-9b3bf78e3598"
+  ],
+  "business_data_deleted": false
+}

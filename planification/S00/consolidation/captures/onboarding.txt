@@ -1,0 +1,68 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - heading "Prise en main" [level=1]
+  - paragraph: 1 étape(s) sur 4 terminées — 5 minutes suffisent
+  - generic: ✓
+  - generic: Convention collective
+  - paragraph: Métallurgie (IDCC 3248) — sert de source à l'Assistant Juridique.
+  - button "Terminé — revoir"
+  - generic: ·
+  - generic: Créer vos commissions
+  - paragraph: Négociation, SSCT, ASC, formation — chacune avec sa messagerie dédiée.
+  - button "Créer les 4 commissions"
+  - generic: ·
+  - generic: Inviter les élus
+  - paragraph: Invitation par lien ou import CSV pour les grandes fédérations.
+  - button "Importer un CSV"
+  - generic: ·
+  - generic: Régler vos alertes
+  - paragraph: Canaux, plages « ne pas déranger » et escalade des urgences.
+  - button "Configurer"

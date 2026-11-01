@@ -1,0 +1,16 @@
+✔ response reread before display and never stored in legacy state (39.431542ms)
+✔ free text never leaves browser (0.159709ms)
+✔ late history after logout discarded (0.1485ms)
+✔ late generation after navigation never reread (3.159667ms)
+✔ source revoke removes displayed result and history (0.250958ms)
+✔ network failure clears memory and response (0.190958ms)
+✔ remember mutation sends id/version only (0.206625ms)
+✔ version conflict does not claim memory saved (0.1465ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 112.095084

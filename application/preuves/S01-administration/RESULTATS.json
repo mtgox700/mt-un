@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-26T13:12:56.165373+00:00",
+  "status": "Deux réserves techniques levées ; activation Auth source et qualification encore nécessaires",
+  "checks_this_run": 407,
+  "suites": [
+    {
+      "name": "Unitaires",
+      "count": 77,
+      "proof": "unit.log"
+    },
+    {
+      "name": "Sept commandes d’administration",
+      "count": 30,
+      "proof": "integration.json"
+    },
+    {
+      "name": "Appareil perdu : circuit complet isolé",
+      "count": 45,
+      "proof": "lost-factor.json"
+    },
+    {
+      "name": "Cloisonnement Supabase",
+      "count": 12,
+      "proof": "../S01/integration.json"
+    },
+    {
+      "name": "Invitations et droits",
+      "count": 34,
+      "proof": "../S01-identite/integration.json"
+    },
+    {
+      "name": "HTTP réel",
+      "count": 9,
+      "proof": "../S01-sessions-mfa/http.json"
+    },
+    {
+      "name": "Récupération du mot de passe",
+      "count": 20,
+      "proof": "../S01-finalisation/recovery.json"
+    },
+    {
+      "name": "Sessions et MFA",
+      "count": 40,
+      "proof": "../S01-sessions-mfa/integration.json"
+    },
+    {
+      "name": "Sessions durables et panne de révocation",
+      "count": 13,
+      "proof": "../S01-sessions-durables/integration.json"
+    },
+    {
+      "name": "Restauration complète",
+      "count": 127,
+      "proof": "../S01-finalisation/mfa-restoration.json"
+    }
+  ],
+  "references_unchanged": 834,
+  "privileged_commands_require_mfa": 7,
+  "lost_device_recovery": "implemented and tested on isolated restored Auth; source worker not configured",
+  "remaining": [
+    {
+      "stage": "Activation locale S01",
+      "item": "Fournir au worker Auth une configuration serveur dédiée et privée, puis qualifier son exécution supervisée sur la pile source et désigner les super administrateurs habilités. Le code et le parcours complet ont été testés sur une restauration isolée ; aucune configuration admin source n’a été fournie, donc le worker source reste désactivé."
+    },
+    {
+      "stage": "Qualification S01",
+      "item": "Finaliser la supervision de la file de révocation, le crash pendant une rotation du refresh token et le choix d’architecture de déploiement. Les sessions sont durables et partagées entre processus sur un même hôte ; plusieurs hôtes nécessitent un stockage distribué et une gestion centralisée des clés."
+    },
+    {
+      "stage": "Infrastructure S01 / préparation production",
+      "item": "Créer le dépôt distant et la CI active, les environnements séparés, Supabase managé Europe, le serveur de production OVH, HTTPS/cookies Secure et les secrets. Déporter les sauvegardes et leurs clés et vérifier les objectifs RPO/RTO sur les volumes cibles."
+    },
+    {
+      "stage": "S02 et modules suivants",
+      "item": "Raccorder le frontal, les emails et les formulaires de MFA/invitation/approbation au socle, puis poursuivre les modules d’écriture, fichiers et partage avec leurs propriétaires de données S00. Refaire les parcours visuels mobile/tablette/desktop et le circuit de réadmission sans reprise des anciens droits."
+    }
+  ],
+  "production_ready": false
+}

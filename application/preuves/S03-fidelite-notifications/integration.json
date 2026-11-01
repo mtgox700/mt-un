@@ -1,0 +1,202 @@
+{
+  "passed": true,
+  "count": 49,
+  "checks": [
+    {
+      "test": "login_a",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "event_created",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_cannot_create",
+      "ok": true
+    },
+    {
+      "test": "document_created",
+      "ok": true
+    },
+    {
+      "test": "prototype_document_sections",
+      "ok": true
+    },
+    {
+      "test": "reader_read_only",
+      "ok": true
+    },
+    {
+      "test": "same_document_reopened",
+      "ok": true
+    },
+    {
+      "test": "document_saved",
+      "ok": true
+    },
+    {
+      "test": "reader_cannot_write",
+      "ok": true
+    },
+    {
+      "test": "stale_document_denied",
+      "ok": true
+    },
+    {
+      "test": "publication_status_injection_denied",
+      "ok": true
+    },
+    {
+      "test": "authorized_recipients",
+      "ok": true
+    },
+    {
+      "test": "recipient_list_denied",
+      "ok": true
+    },
+    {
+      "test": "send_without_authority_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_recipient_denied",
+      "ok": true
+    },
+    {
+      "test": "event_version_conflict_denied",
+      "ok": true
+    },
+    {
+      "test": "local_mail_delivered",
+      "ok": true
+    },
+    {
+      "test": "same_request_not_resent",
+      "ok": true
+    },
+    {
+      "test": "revoked_recipient_denied",
+      "ok": true
+    },
+    {
+      "test": "document_hidden_after_revoke",
+      "ok": true
+    },
+    {
+      "test": "notices_empty_before_publication",
+      "ok": true
+    },
+    {
+      "test": "second_actor_review",
+      "ok": true
+    },
+    {
+      "test": "publication",
+      "ok": true
+    },
+    {
+      "test": "recipient_notified",
+      "ok": true
+    },
+    {
+      "test": "repeat_publication",
+      "ok": true
+    },
+    {
+      "test": "no_duplicate",
+      "ok": true
+    },
+    {
+      "test": "other_user_cannot_mark",
+      "ok": true
+    },
+    {
+      "test": "other_org_denied",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "mark_read",
+      "ok": true
+    },
+    {
+      "test": "read_persisted",
+      "ok": true
+    },
+    {
+      "test": "revoked_notice_hidden",
+      "ok": true
+    },
+    {
+      "test": "revoked_notice_read_denied",
+      "ok": true
+    },
+    {
+      "test": "pdf_export",
+      "ok": true
+    },
+    {
+      "test": "pdf_without_download_denied",
+      "ok": true
+    },
+    {
+      "test": "charter_persisted",
+      "ok": true
+    },
+    {
+      "test": "arbitrary_logo_rejected",
+      "ok": true
+    },
+    {
+      "test": "read_only_charter_denied",
+      "ok": true
+    },
+    {
+      "test": "new_version",
+      "ok": true
+    },
+    {
+      "test": "old_notice_hidden_on_edit",
+      "ok": true
+    },
+    {
+      "test": "new_review",
+      "ok": true
+    },
+    {
+      "test": "new_publish",
+      "ok": true
+    },
+    {
+      "test": "new_notice_unread",
+      "ok": true
+    },
+    {
+      "test": "read_all_atomic",
+      "ok": true
+    },
+    {
+      "test": "read_all_does_not_mark_other_user",
+      "ok": true
+    }
+  ]
+}

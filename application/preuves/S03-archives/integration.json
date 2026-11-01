@@ -1,0 +1,242 @@
+{
+  "passed": true,
+  "count": 59,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "event_created",
+      "ok": true
+    },
+    {
+      "test": "document_created",
+      "ok": true
+    },
+    {
+      "test": "anonymous_upload_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_upload_denied",
+      "ok": true
+    },
+    {
+      "test": "wrong_resource_denied",
+      "ok": true
+    },
+    {
+      "test": "clean_note-fictive.txt",
+      "ok": true
+    },
+    {
+      "test": "clean_convocation.docx",
+      "ok": true
+    },
+    {
+      "test": "clean_budget.xlsx",
+      "ok": true
+    },
+    {
+      "test": "three_clean_files",
+      "ok": true
+    },
+    {
+      "test": "reader_sees_allowed",
+      "ok": true
+    },
+    {
+      "test": "not_writer_select_denied",
+      "ok": true
+    },
+    {
+      "test": "selection_persisted",
+      "ok": true
+    },
+    {
+      "test": "unreviewed_files_denied",
+      "ok": true
+    },
+    {
+      "test": "self_review_denied",
+      "ok": true
+    },
+    {
+      "test": "second_actor_review",
+      "ok": true
+    },
+    {
+      "test": "publication",
+      "ok": true
+    },
+    {
+      "test": "three_files_sent",
+      "ok": true
+    },
+    {
+      "test": "single_delivery",
+      "ok": true
+    },
+    {
+      "test": "five_mime_parts",
+      "ok": true
+    },
+    {
+      "test": "exact_bytes_note-fictive.txt",
+      "ok": true
+    },
+    {
+      "test": "exact_bytes_convocation.docx",
+      "ok": true
+    },
+    {
+      "test": "exact_bytes_budget.xlsx",
+      "ok": true
+    },
+    {
+      "test": "original_sent_bytes_pdf",
+      "ok": true
+    },
+    {
+      "test": "original_sent_bytes_ics",
+      "ok": true
+    },
+    {
+      "test": "replay_no_send",
+      "ok": true
+    },
+    {
+      "test": "source_revocation_denies_send",
+      "ok": true
+    },
+    {
+      "test": "source_revocation_hides_files",
+      "ok": true
+    },
+    {
+      "test": "foreign_org_denied",
+      "ok": true
+    },
+    {
+      "test": "infected_blocked",
+      "ok": true
+    },
+    {
+      "test": "false_pdf_blocked",
+      "ok": true
+    },
+    {
+      "test": "oversize_blocked",
+      "ok": true
+    },
+    {
+      "test": "office_not_silently_allowed",
+      "ok": true
+    },
+    {
+      "test": "blocked_files_not_selectable",
+      "ok": true
+    },
+    {
+      "test": "changed_selection_new_version",
+      "ok": true
+    },
+    {
+      "test": "old_approval_invalid",
+      "ok": true
+    },
+    {
+      "test": "old_version_refused",
+      "ok": true
+    },
+    {
+      "test": "browser_selection",
+      "ok": true
+    },
+    {
+      "test": "browser_review",
+      "ok": true
+    },
+    {
+      "test": "browser_publish",
+      "ok": true
+    },
+    {
+      "test": "history_five_files",
+      "ok": true
+    },
+    {
+      "test": "recipient_history_files",
+      "ok": true
+    },
+    {
+      "test": "history_anonymous",
+      "ok": true
+    },
+    {
+      "test": "history_foreign",
+      "ok": true
+    },
+    {
+      "test": "history_forged_file",
+      "ok": true
+    },
+    {
+      "test": "historical_download_ordre-du-jour.pdf",
+      "ok": true
+    },
+    {
+      "test": "historical_download_evenement.ics",
+      "ok": true
+    },
+    {
+      "test": "historical_download_note-fictive.txt",
+      "ok": true
+    },
+    {
+      "test": "historical_bytes_note-fictive.txt",
+      "ok": true
+    },
+    {
+      "test": "historical_download_convocation.docx",
+      "ok": true
+    },
+    {
+      "test": "historical_bytes_convocation.docx",
+      "ok": true
+    },
+    {
+      "test": "historical_download_budget.xlsx",
+      "ok": true
+    },
+    {
+      "test": "historical_bytes_budget.xlsx",
+      "ok": true
+    },
+    {
+      "test": "history_revocation",
+      "ok": true
+    },
+    {
+      "test": "event_changed_after_send",
+      "ok": true
+    },
+    {
+      "test": "unchanged_archive_after_event_edit_pdf",
+      "ok": true
+    },
+    {
+      "test": "unchanged_archive_after_event_edit_ics",
+      "ok": true
+    },
+    {
+      "test": "business_user_cannot_access_archive_worker",
+      "ok": true
+    }
+  ]
+}

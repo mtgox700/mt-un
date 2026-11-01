@@ -1,0 +1,548 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		1533 text 1024 × 768
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				1534 container
+					1535 image uniion
+					1536 button Réduire le menu
+					1589 button Accueil
+						1590 image
+						1591 text Accueil
+					1540 button Assistant
+						1541 image
+						1542 text Assistant
+					1543 button Dossiers
+						1544 image
+						1545 text Dossiers
+					1546 button Messages
+						1547 image
+						1548 text Messages
+					1549 button Agenda
+						1550 image
+						1551 text Agenda
+					1552 button Réunions
+						1553 image
+						1554 text Réunions
+					1555 button Documents
+						1556 image
+						1557 text Documents
+					1558 button Formations
+						1559 image
+						1560 text Formations
+					1561 button Communication
+						1562 image
+						1563 text Communication
+					1564 button Application mobile
+						1565 image
+						1566 text Application mobile
+					1567 button Adhérents
+						1568 image
+						1569 text Adhérents
+					1570 button Intranet
+						1571 image
+						1572 text Intranet
+					1573 button Reporting
+						1574 image
+						1575 text Reporting
+					1576 button Raccourcis
+						1577 image
+						1578 text Raccourcis
+					1592 button Réglages
+						1593 image
+						1594 text Réglages
+					1582 text ASSISTANT IA Une question de droit ?
+					1583 button Ouvrir le chat
+					1584 button SM Sophie Marchand Déléguée syndicale
+						1585 text SM
+						1586 text Sophie Marchand
+						1587 text Déléguée syndicale
+					1588 button Se déconnecter
+				10 container
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				1334 container
+					1595 heading Actions d'unii, Value: 1
+						1596 text Actions d'unii
+					1597 text Choisissez les actions qu'unii propose dans chaque module et les rôles qui peuvent les utiliser. Sans rôle coché, l'action est ouverte à tous.
+					1598 text FORMULE
+					1599 text Élu 2.0
+					1600 container
+						1601 text unii inclus ·  37 actions actives sur 37
+					1602 text PASTILLES DE SUGGESTION
+					1603 text unii signale dans les modules ce qui mérite votre attention : échéance proche, brouillon à relire, messages non lus.
+					1604 switch Description: Pastilles de suggestion, Value: 1
+					1605 container
+						1606 text Tester un rôle  — l'application affiche les actions d'unii telles que les voit ce rôle.
+					1607 checkbox Secrétaire, Value: 0
+					1608 checkbox Trésorier·e, Value: 0
+					1609 checkbox Élu·e titulaire, Value: 0
+					1610 checkbox Élu·e suppléant·e, Value: 0
+					1611 checkbox Délégué·e syndical·e, Value: 1
+					1612 checkbox Élu·e SSCT, Value: 0
+					1613 heading Accueil, Value: 2
+						1614 text Accueil
+					1615 text 2 / 2 actives
+					1616 switch Description: Désactiver, Value: 1
+					1617 text Faire le point de la semaine
+					1618 container
+						1619 text Échéances, dossiers urgents, réunions à préparer.  ·  Sur le module
+					1620 button Tous les rôles
+					1621 button Secrétaire
+					1622 button Trésorier·e
+					1623 button Élu·e titulaire
+					1624 button Élu·e suppléant·e
+					1625 button Délégué·e syndical·e
+					1626 button Élu·e SSCT
+					1627 switch Description: Désactiver, Value: 1
+					1628 text Par quoi commencer ?
+					1629 container
+						1630 text Une seule priorité, justifiée.  ·  Sur le module
+					1631 button Tous les rôles
+					1632 button Secrétaire
+					1633 button Trésorier·e
+					1634 button Élu·e titulaire
+					1635 button Élu·e suppléant·e
+					1636 button Délégué·e syndical·e
+					1637 button Élu·e SSCT
+					1638 heading Dossiers, Value: 2
+						1639 text Dossiers
+					1640 text ACTIONS APPLICABLES 5 / 5 actives
+					1641 switch Description: Désactiver, Value: 1
+					1642 text Proposer la suite à donner
+					1643 container
+						1644 text Prochaines étapes concrètes, avec qui et quand.  ·  Sur un élément  · bouton «  Ajouter à la chronologie  »
+					1645 button Tous les rôles
+					1646 button Secrétaire
+					1647 button Trésorier·e
+					1648 button Élu·e titulaire
+					1649 button Élu·e suppléant·e
+					1650 button Délégué·e syndical·e
+					1651 button Élu·e SSCT
+					1652 switch Description: Désactiver, Value: 1
+					1653 text Résumer la chronologie
+					1654 container
+						1655 text Les faits essentiels en quelques lignes.  ·  Sur un élément  · bouton «  Ajouter à la chronologie  »
+					1656 button Tous les rôles
+					1657 button Secrétaire
+					1658 button Trésorier·e
+					1659 button Élu·e titulaire
+					1660 button Élu·e suppléant·e
+					1661 button Délégué·e syndical·e
+					1662 button Élu·e SSCT
+					1663 switch Description: Désactiver, Value: 1
+					1664 text Vérifier les délais légaux
+					1665 container
+						1666 text Délais applicables et échéances à surveiller.  ·  Sur un élément  · bouton «  Ajouter à la chronologie  »
+					1667 button Tous les rôles
+					1668 button Secrétaire
+					1669 button Trésorier·e
+					1670 button Élu·e titulaire
+					1671 button Élu·e suppléant·e
+					1672 button Délégué·e syndical·e
+					1673 button Élu·e SSCT
+					1674 switch Description: Désactiver, Value: 1
+					1675 text Rédiger un courrier à la direction
+					1676 container
+						1677 text Courrier ferme et courtois, prêt à relire.  ·  Sur un élément  · bouton «  Ajouter à la chronologie  »
+					1678 button Tous les rôles
+					1679 button Secrétaire
+					1680 button Trésorier·e
+					1681 button Élu·e titulaire
+					1682 button Élu·e suppléant·e
+					1683 button Délégué·e syndical·e
+					1684 button Élu·e SSCT
+					1685 switch Description: Désactiver, Value: 1
+					1686 text Prioriser mes dossiers
+					1687 container
+						1688 text Classement par urgence et enjeu.  ·  Sur le module
+					1689 button Tous les rôles
+					1690 button Secrétaire
+					1691 button Trésorier·e
+					1692 button Élu·e titulaire
+					1693 button Élu·e suppléant·e
+					1694 button Délégué·e syndical·e
+					1695 button Élu·e SSCT
+					1696 heading Réunions, Value: 2
+						1697 text Réunions
+					1698 text ACTIONS APPLICABLES 4 / 4 actives
+					1699 switch Description: Désactiver, Value: 1
+					1700 text Préparer les questions à poser
+					1701 container
+						1702 text Questions par point de l'ordre du jour.  ·  Sur un élément
+					1703 button Tous les rôles
+					1704 button Secrétaire
+					1705 button Trésorier·e
+					1706 button Élu·e titulaire
+					1707 button Élu·e suppléant·e
+					1708 button Délégué·e syndical·e
+					1709 button Élu·e SSCT
+					1710 switch Description: Désactiver, Value: 1
+					1711 text Extraire décisions et actions
+					1712 container
+						1713 text Décisions, votes, engagements, suites.  ·  Sur un élément
+					1714 button Tous les rôles
+					1715 button Secrétaire
+					1716 button Trésorier·e
+					1717 button Élu·e titulaire
+					1718 button Élu·e suppléant·e
+					1719 button Délégué·e syndical·e
+					1720 button Élu·e SSCT
+					1721 switch Description: Désactiver, Value: 1
+					1722 text Résumé pour les salariés
+					1723 container
+						1724 text Ce qu'il faut retenir, en clair.  ·  Sur un élément
+					1725 button Tous les rôles
+					1726 button Secrétaire
+					1727 button Trésorier·e
+					1728 button Élu·e titulaire
+					1729 button Élu·e suppléant·e
+					1730 button Délégué·e syndical·e
+					1731 button Élu·e SSCT
+					1732 switch Description: Désactiver, Value: 1
+					1733 text Rédiger le projet de PV
+					1734 container
+						1735 text Trame de procès-verbal à compléter.  ·  Sur un élément
+					1736 button Tous les rôles
+					1737 button Secrétaire
+					1738 button Trésorier·e
+					1739 button Élu·e titulaire
+					1740 button Élu·e suppléant·e
+					1741 button Délégué·e syndical·e
+					1742 button Élu·e SSCT
+					1743 heading Documents, Value: 2
+						1744 text Documents
+					1745 text ACTIONS APPLICABLES 4 / 4 actives
+					1746 switch Description: Désactiver, Value: 1
+					1747 text Relire ton et clarté
+					1748 container
+						1749 text Corrections et formulations proposées.  ·  Sur un élément  · bouton «  Insérer dans le document  »
+					1750 button Tous les rôles
+					1751 button Secrétaire
+					1752 button Trésorier·e
+					1753 button Élu·e titulaire
+					1754 button Élu·e suppléant·e
+					1755 button Délégué·e syndical·e
+					1756 button Élu·e SSCT
+					1757 switch Description: Désactiver, Value: 1
+					1758 text Simplifier pour les salariés
+					1759 container
+						1760 text Version courte et sans jargon.  ·  Sur un élément  · bouton «  Insérer dans le document  »
+					1761 button Tous les rôles
+					1762 button Secrétaire
+					1763 button Trésorier·e
+					1764 button Élu·e titulaire
+					1765 button Élu·e suppléant·e
+					1766 button Délégué·e syndical·e
+					1767 button Élu·e SSCT
+					1768 switch Description: Désactiver, Value: 1
+					1769 text Repérer les risques juridiques
+					1770 container
+						1771 text Diffamation, confidentialité, affirmations à sourcer.  ·  Sur un élément
+					1772 button Tous les rôles
+					1773 button Secrétaire
+					1774 button Trésorier·e
+					1775 button Élu·e titulaire
+					1776 button Élu·e suppléant·e
+					1777 button Délégué·e syndical·e
+					1778 button Élu·e SSCT
+					1779 switch Description: Désactiver, Value: 1
+					1780 text Proposer un document à produire
+					1781 container
+						1782 text Selon l'actualité de l'instance.  ·  Sur le module
+					1783 button Tous les rôles
+					1784 button Secrétaire
+					1785 button Trésorier·e
+					1786 button Élu·e titulaire
+					1787 button Élu·e suppléant·e
+					1788 button Délégué·e syndical·e
+					1789 button Élu·e SSCT
+					1790 heading Messages, Value: 2
+						1791 text Messages
+					1792 text 2 / 2 actives
+					1793 switch Description: Désactiver, Value: 1
+					1794 text Résumer le fil
+					1795 container
+						1796 text Points clés et décisions.  ·  Sur un élément
+					1797 button Tous les rôles
+					1798 button Secrétaire
+					1799 button Trésorier·e
+					1800 button Élu·e titulaire
+					1801 button Élu·e suppléant·e
+					1802 button Délégué·e syndical·e
+					1803 button Élu·e SSCT
+					1804 switch Description: Désactiver, Value: 1
+					1805 text Proposer une réponse
+					1806 container
+						1807 text Réponse courte, prête à envoyer.  ·  Sur un élément
+					1808 button Tous les rôles
+					1809 button Secrétaire
+					1810 button Trésorier·e
+					1811 button Élu·e titulaire
+					1812 button Élu·e suppléant·e
+					1813 button Délégué·e syndical·e
+					1814 button Élu·e SSCT
+					1815 heading Agenda, Value: 2
+						1816 text Agenda
+					1817 text 2 / 2 actives
+					1818 switch Description: Désactiver, Value: 1
+					1819 text Préparer la prochaine réunion
+					1820 container
+						1821 text Ordre du jour, documents à relire.  ·  Sur le module
+					1822 button Tous les rôles
+					1823 button Secrétaire
+					1824 button Trésorier·e
+					1825 button Élu·e titulaire
+					1826 button Élu·e suppléant·e
+					1827 button Délégué·e syndical·e
+					1828 button Élu·e SSCT
+					1829 switch Description: Désactiver, Value: 1
+					1830 text Rappeler les délais de convocation
+					1831 container
+						1832 text Convocation, ordre du jour, documents.  ·  Sur le module
+					1833 button Tous les rôles
+					1834 button Secrétaire
+					1835 button Trésorier·e
+					1836 button Élu·e titulaire
+					1837 button Élu·e suppléant·e
+					1838 button Délégué·e syndical·e
+					1839 button Élu·e SSCT
+					1840 heading Communication, Value: 2
+						1841 text Communication
+					1842 text 2 / 2 actives
+					1843 switch Description: Désactiver, Value: 1
+					1844 text Proposer le plan du mois
+					1845 container
+						1846 text Temps forts et publications à prévoir.  ·  Sur le module  · bouton «  Ajouter au plan éditorial  »
+					1847 button Tous les rôles
+					1848 button Secrétaire
+					1849 button Trésorier·e
+					1850 button Élu·e titulaire
+					1851 button Élu·e suppléant·e
+					1852 button Délégué·e syndical·e
+					1853 button Élu·e SSCT
+					1854 switch Description: Désactiver, Value: 1
+					1855 text Reformuler pour les salariés
+					1856 container
+						1857 text Plus court, plus clair.  ·  Sur le module
+					1858 button Tous les rôles
+					1859 button Secrétaire
+					1860 button Trésorier·e
+					1861 button Élu·e titulaire
+					1862 button Élu·e suppléant·e
+					1863 button Délégué·e syndical·e
+					1864 button Élu·e SSCT
+					1865 heading Application mobile, Value: 2
+						1866 text Application mobile
+					1867 text 5 / 5 actives
+					1868 switch Description: Désactiver, Value: 1
+					1869 text Rédiger le contenu de la page
+					1870 container
+						1871 text Intertitre, paragraphes courts, appel à l'action.  ·  Sur un élément  · bouton «  Insérer dans la page  »
+					1872 button Tous les rôles
+					1873 button Secrétaire
+					1874 button Trésorier·e
+					1875 button Élu·e titulaire
+					1876 button Élu·e suppléant·e
+					1877 button Délégué·e syndical·e
+					1878 button Élu·e SSCT
+					1879 switch Description: Désactiver, Value: 1
+					1880 text Adapter à la lecture mobile
+					1881 container
+						1882 text Plus court, une idée par bloc.  ·  Sur un élément  · bouton «  Remplacer le contenu  »
+					1883 button Tous les rôles
+					1884 button Secrétaire
+					1885 button Trésorier·e
+					1886 button Élu·e titulaire
+					1887 button Élu·e suppléant·e
+					1888 button Délégué·e syndical·e
+					1889 button Élu·e SSCT
+					1890 switch Description: Désactiver, Value: 1
+					1891 text Rédiger la notification push
+					1892 container
+						1893 text Trois propositions de 90 caractères.  ·  Sur un élément  · bouton «  Utiliser comme notification  »
+					1894 button Tous les rôles
+					1895 button Secrétaire
+					1896 button Trésorier·e
+					1897 button Élu·e titulaire
+					1898 button Élu·e suppléant·e
+					1899 button Délégué·e syndical·e
+					1900 button Élu·e SSCT
+					1901 switch Description: Désactiver, Value: 1
+					1902 text Vérifier avant publication
+					1903 container
+						1904 text Données personnelles, ton, exactitude.  ·  Sur un élément
+					1905 button Tous les rôles
+					1906 button Secrétaire
+					1907 button Trésorier·e
+					1908 button Élu·e titulaire
+					1909 button Élu·e suppléant·e
+					1910 button Délégué·e syndical·e
+					1911 button Élu·e SSCT
+					1912 switch Description: Désactiver, Value: 1
+					1913 text Proposer les pages à créer
+					1914 container
+						1915 text Selon l'actualité de l'organisation.  ·  Sur le module
+					1916 button Tous les rôles
+					1917 button Secrétaire
+					1918 button Trésorier·e
+					1919 button Élu·e titulaire
+					1920 button Élu·e suppléant·e
+					1921 button Délégué·e syndical·e
+					1922 button Élu·e SSCT
+					1923 heading Formations, Value: 2
+						1924 text Formations
+					1925 text 1 / 1 actives
+					1926 switch Description: Désactiver, Value: 1
+					1927 text Recommander une formation
+					1928 container
+						1929 text Selon le mandat et l'ancienneté.  ·  Sur le module
+					1930 button Tous les rôles
+					1931 button Secrétaire
+					1932 button Trésorier·e
+					1933 button Élu·e titulaire
+					1934 button Élu·e suppléant·e
+					1935 button Délégué·e syndical·e
+					1936 button Élu·e SSCT
+					1937 heading Adhérents, Value: 2
+						1938 text Adhérents
+					1939 text 2 / 2 actives
+					1940 switch Description: Désactiver, Value: 1
+					1941 text Rédiger un message à une liste
+					1942 container
+						1943 text Objet et texte prêts à envoyer.  ·  Sur le module
+					1944 button Tous les rôles
+					1945 button Secrétaire
+					1946 button Trésorier·e
+					1947 button Élu·e titulaire
+					1948 button Élu·e suppléant·e
+					1949 button Délégué·e syndical·e
+					1950 button Élu·e SSCT
+					1951 switch Description: Désactiver, Value: 1
+					1952 text Préparer une relance
+					1953 container
+						1954 text Relance bienveillante et claire.  ·  Sur le module
+					1955 button Tous les rôles
+					1956 button Secrétaire
+					1957 button Trésorier·e
+					1958 button Élu·e titulaire
+					1959 button Élu·e suppléant·e
+					1960 button Délégué·e syndical·e
+					1961 button Élu·e SSCT
+					1962 heading Sondages, Value: 2
+						1963 text Sondages
+					1964 text 2 / 2 actives
+					1965 switch Description: Désactiver, Value: 1
+					1966 text Rédiger des questions neutres
+					1967 container
+						1968 text Sans orienter les réponses.  ·  Sur le module
+					1969 button Tous les rôles
+					1970 button Secrétaire
+					1971 button Trésorier·e
+					1972 button Élu·e titulaire
+					1973 button Élu·e suppléant·e
+					1974 button Délégué·e syndical·e
+					1975 button Élu·e SSCT
+					1976 switch Description: Désactiver, Value: 1
+					1977 text Analyser les résultats
+					1978 container
+						1979 text Synthèse prête à publier.  ·  Sur le module
+					1980 button Tous les rôles
+					1981 button Secrétaire
+					1982 button Trésorier·e
+					1983 button Élu·e titulaire
+					1984 button Élu·e suppléant·e
+					1985 button Délégué·e syndical·e
+					1986 button Élu·e SSCT
+					1987 heading Intranet, Value: 2
+						1988 text Intranet
+					1989 text 1 / 1 actives
+					1990 switch Description: Désactiver, Value: 1
+					1991 text Vérifier la lisibilité des pages
+					1992 container
+						1993 text Titres, longueur, appels à l'action.  ·  Sur le module
+					1994 button Tous les rôles
+					1995 button Secrétaire
+					1996 button Trésorier·e
+					1997 button Élu·e titulaire
+					1998 button Élu·e suppléant·e
+					1999 button Délégué·e syndical·e
+					2000 button Élu·e SSCT
+					2001 heading Reporting, Value: 2
+						2002 text Reporting
+					2003 text 2 / 2 actives
+					2004 switch Description: Désactiver, Value: 1
+					2005 text Expliquer un indicateur
+					2006 container
+						2007 text Ce qu'il mesure, comment le lire.  ·  Sur le module
+					2008 button Tous les rôles
+					2009 button Secrétaire
+					2010 button Trésorier·e
+					2011 button Élu·e titulaire
+					2012 button Élu·e suppléant·e
+					2013 button Délégué·e syndical·e
+					2014 button Élu·e SSCT
+					2015 switch Description: Désactiver, Value: 1
+					2016 text Rédiger le bilan du mandat
+					2017 container
+						2018 text Bilan annuel prêt à présenter.  ·  Sur le module
+					2019 button Tous les rôles
+					2020 button Secrétaire
+					2021 button Trésorier·e
+					2022 button Élu·e titulaire
+					2023 button Élu·e suppléant·e
+					2024 button Délégué·e syndical·e
+					2025 button Élu·e SSCT
+					2026 heading Raccourcis, Value: 2
+						2027 text Raccourcis
+					2028 text 1 / 1 actives
+					2029 switch Description: Désactiver, Value: 1
+					2030 text Suggérer des raccourcis utiles
+					2031 container
+						2032 text Sites officiels pour votre mandat.  ·  Sur le module
+					2033 button Tous les rôles
+					2034 button Secrétaire
+					2035 button Trésorier·e
+					2036 button Élu·e titulaire
+					2037 button Élu·e suppléant·e
+					2038 button Délégué·e syndical·e
+					2039 button Élu·e SSCT
+					2040 heading Réglages, Value: 2
+						2041 text Réglages
+					2042 text 2 / 2 actives
+					2043 switch Description: Désactiver, Value: 1
+					2044 text Expliquer un réglage
+					2045 container
+						2046 text À quoi sert chaque paramètre.  ·  Sur le module
+					2047 button Tous les rôles
+					2048 button Secrétaire
+					2049 button Trésorier·e
+					2050 button Élu·e titulaire
+					2051 button Élu·e suppléant·e
+					2052 button Délégué·e syndical·e
+					2053 button Élu·e SSCT
+					2054 switch Description: Désactiver, Value: 1
+					2055 text Aider à configurer les rôles
+					2056 container
+						2057 text Qui accède à quelles actions d'unii.  ·  Sur le module
+					2058 button Tous les rôles
+					2059 button Secrétaire
+					2060 button Trésorier·e
+					2061 button Élu·e titulaire
+					2062 button Élu·e suppléant·e
+					2063 button Délégué·e syndical·e
+					2064 button Élu·e SSCT
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

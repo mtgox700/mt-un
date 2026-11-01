@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-26T11:22:15.845769+00:00",
+  "status": "Lot local livré et testé ; S01 non clôturé",
+  "checks": 362,
+  "suites": [
+    {
+      "name": "Unitaires",
+      "count": 56,
+      "proof": "unit.log"
+    },
+    {
+      "name": "Sessions et MFA",
+      "count": 40,
+      "proof": "../S01-sessions-mfa/integration.json"
+    },
+    {
+      "name": "Droits Supabase",
+      "count": 12,
+      "proof": "../S01/integration.json"
+    },
+    {
+      "name": "HTTP réel",
+      "count": 9,
+      "proof": "../S01-sessions-mfa/http.json"
+    },
+    {
+      "name": "Mot de passe oublié côté serveur",
+      "count": 20,
+      "proof": "../S01-finalisation/recovery.json"
+    },
+    {
+      "name": "Authentificateur de secours",
+      "count": 17,
+      "proof": "../S01-finalisation/backup-factor.json"
+    },
+    {
+      "name": "Restauration complète locale",
+      "count": 126,
+      "proof": "../S01-finalisation/mfa-restoration.json"
+    },
+    {
+      "name": "Invitations et cloisonnement",
+      "count": 34,
+      "proof": "integration.json"
+    },
+    {
+      "name": "Récupération MFA encadrée",
+      "count": 28,
+      "proof": "assisted-mfa.json"
+    },
+    {
+      "name": "Planificateur et alertes",
+      "count": 20,
+      "proof": "scheduler.json"
+    }
+  ],
+  "references_unchanged": 834,
+  "restored_objects": 90,
+  "remaining": [
+    {
+      "priority": "Sécurité locale",
+      "item": "Terminer le remplacement d’un facteur encore enregistré après perte de l’appareil. Supabase refuse la création de remplacement en AAL1. Préparer un adaptateur Auth privilégié, strictement après demande et approbation distincte, avec credential serveur dédié ; aucune extraction de clé interne ni contournement SQL du cycle Auth. Le scénario reste bloqué de manière sûre."
+    },
+    {
+      "priority": "Sécurité locale",
+      "item": "Généraliser le MFA obligatoire à toutes les commandes privilégiées héritées et tester les profils plateforme/organisation. Les nouvelles commandes d’invitation, de révocation et d’approbation imposent déjà AAL2 ; les anciennes RPC de la copie ne sont pas toutes couvertes par cette politique."
+    },
+    {
+      "priority": "Socle",
+      "item": "Rendre les sessions et reprises de révocation durables et partagées ; tester les pannes, plusieurs instances et les révocations distantes. Le stockage applicatif reste en mémoire."
+    },
+    {
+      "priority": "Infrastructure",
+      "item": "Créer le dépôt et la CI active, les environnements isolés, Supabase managé Europe, le serveur de production OVH, HTTPS/cookies Secure et la gestion des secrets. Aucun déploiement ni abonnement engagé ici."
+    },
+    {
+      "priority": "Sauvegardes production",
+      "item": "Placer les sauvegardes hors du serveur et les clés dans un stockage séparé ; supervision indépendante et exercices de reprise aux volumes cibles. La planification locale compatible MFA est désormais raccordée ; elle dépend du Mac éveillé et de Docker. La surveillance de ce chat reste en pause, comme auparavant."
+    },
+    {
+      "priority": "Modules et données",
+      "item": "Achever la migration du modèle de transition vers les propriétaires S00, porter écritures/fichiers/partages puis compléter la recette négative de chaque frontière. La réadmission d’un membre révoqué est volontairement refusée : prévoir un circuit explicite de réadmission sans ressusciter les anciens droits."
+    },
+    {
+      "priority": "S02 / interface",
+      "item": "Raccorder les formulaires et emails aux routes de connexion, invitation et récupération, et au circuit d’approbation. Les invitations renvoient actuellement un jeton au créateur habilité ; aucun email d’invitation réel n’est envoyé. La page de récupération locale du modèle email reste à intégrer. Refaire ensuite les parcours visuels mobile/tablette/desktop sans modifier la référence."
+    }
+  ],
+  "scheduler_migrated": true,
+  "chat_monitor_status": "PAUSED preserved",
+  "production_ready": false
+}

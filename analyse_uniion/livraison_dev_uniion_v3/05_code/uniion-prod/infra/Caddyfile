@@ -1,0 +1,46 @@
+{
+	email {$ACME_EMAIL}
+	servers {
+		protocols h1 h2 h3
+	}
+}
+
+(securite) {
+	header {
+		Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "no-referrer"
+		Cross-Origin-Opener-Policy "same-origin"
+		Permissions-Policy "camera=(), geolocation=(), payment=(), usb=(), microphone=(self)"
+		-Server
+	}
+}
+
+# Application (front statique React)
+app.{$DOMAINE} {
+	import securite
+	root * /srv/uniion/front
+	encode zstd gzip
+	header {
+		# Aucun script tiers, aucune police externe, aucun eval. Les extensions viennent de /ext/ (SRI).
+		Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data: https://api.{$DOMAINE}; font-src 'self'; connect-src 'self' https://api.{$DOMAINE} wss://api.{$DOMAINE}; media-src 'self' blob:; worker-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'; object-src 'none'; upgrade-insecure-requests"
+	}
+	@immuable path /assets/* /ext/* /fonts/*
+	header @immuable Cache-Control "public, max-age=31536000, immutable"
+	header /index.html Cache-Control "no-cache"
+	try_files {path} /index.html
+	file_server
+}
+
+# API Supabase : seules les routes publiques passent. Studio, pg-meta et analytics restent fermés.
+api.{$DOMAINE} {
+	import securite
+	@public path /auth/v1/* /rest/v1/* /storage/v1/* /realtime/v1/* /functions/v1/*
+	handle @public {
+		reverse_proxy 127.0.0.1:8000
+	}
+	handle {
+		respond 404
+	}
+}

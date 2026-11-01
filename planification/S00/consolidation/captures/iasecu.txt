@@ -1,0 +1,135 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - button "← Sécurité"
+  - text: Documentation
+  - heading "Sécurité, anonymisation et conformité" [level=1]
+  - paragraph: Ce que l'application met en œuvre lorsqu'un modèle de langage est sollicité, ce qui est garanti par contrat, et ce qui reste de votre responsabilité en tant qu'élu.
+  - heading "Modèle souverain par défaut" [level=2]
+  - paragraph: "Spécification cible, non garantie par ce prototype local : Aucune donnée ne quitte l'Union européenne sans décision explicite d'un administrateur."
+  - heading "Hébergement UE" [level=3]
+  - paragraph: Le modèle retenu par défaut est hébergé dans l'Union européenne, chez un fournisseur soumis au seul droit européen. Aucun transfert vers un pays tiers, aucune clause de rattachement extraterritorial.
+  - heading "Pas d'entraînement sur vos données" [level=3]
+  - paragraph: Le contrat de sous-traitance interdit l'usage des requêtes pour l'entraînement ou l'amélioration du modèle. Rétention nulle côté fournisseur (zero data retention).
+  - heading "Changement de fournisseur tracé" [level=3]
+  - paragraph: Un administrateur peut désigner un autre modèle depuis Configuration IA. Le changement est journalisé, notifié aux élus et bloqué si le fournisseur est hors UE sans analyse d'impact validée.
+  - heading "Repli hors ligne" [level=3]
+  - paragraph: "Si le modèle est indisponible, l'application n'invente rien : l'erreur est affichée et la fonctionnalité reste inactive. Aucune réponse fabriquée localement ne se substitue à un avis juridique."
+  - heading "Anonymisation avant tout appel" [level=2]
+  - paragraph: "Spécification cible, non garantie par ce prototype local : Le masquage est un préalable technique, pas une option de confort."
+  - heading "Trois niveaux" [level=3]
+  - paragraph: Standard (noms et matricules), renforcé (identité, service, dates précises) et maximal (toute donnée directement ou indirectement identifiante). Le niveau est proposé automatiquement selon la nature du dossier, et relevable manuellement.
+  - heading "Refus en cas de résidu" [level=3]
+  - paragraph: Après masquage, le texte est repassé au filtre. S'il subsiste un identifiant, l'envoi est annulé et un message le signale. Aucun appel ne part « au bénéfice du doute ».
+  - heading "Jetons réversibles côté client" [level=3]
+  - paragraph: "Les entités masquées sont remplacées par des jetons stables. La correspondance ne quitte jamais l'appareil : elle sert uniquement à recoller les noms dans la réponse affichée."
+  - heading "Pseudonymisation, pas anonymisation" [level=3]
+  - paragraph: "Le masquage réduit fortement le risque mais ne fait pas sortir les données du champ du RGPD. La minimisation reste une obligation de l'élu : ne décrivez pas une situation plus précisément que nécessaire."
+  - heading "Périmètre de connaissance du modèle" [level=2]
+  - paragraph: "Spécification cible, non garantie par ce prototype local : Le modèle ne répond que sur le corpus de votre organisation."
+  - heading "Corpus injecté, contrôlé" [level=3]
+  - paragraph: Convention collective applicable, extraits du Code du travail, accords d'entreprise et, le cas échéant, les seuls dossiers que vous avez sélectionnés. Rien d'autre n'est fourni au modèle.
+  - heading "Sources citées" [level=3]
+  - paragraph: Chaque réponse indique la source mobilisée. Une réponse sans source rattachable doit être traitée comme non fiable et vérifiée.
+  - heading "Hors périmètre refusé" [level=3]
+  - paragraph: Les questions étrangères au champ social sont refusées et redirigées vers l'administrateur ou l'informatique de la fédération.
+  - heading "Questions techniques bloquées" [level=3]
+  - paragraph: Les questions portant sur l'identité du modèle, son fournisseur, sa version, sa clé d'accès ou son architecture sont interceptées par l'application avant tout appel réseau ; la réponse reste locale.
+  - heading "Conformité RGPD" [level=2]
+  - paragraph: "Spécification cible, non garantie par ce prototype local : Deux responsables de traitement distincts : le CSE et l'organisation syndicale."
+  - heading "Séparation des périmètres" [level=3]
+  - paragraph: Les données du CSE (dossiers, séances, PV) et celles du syndicat (adhésion, cotisations) relèvent de traitements distincts, avec des rôles, des journaux et des registres séparés. Un élu non syndiqué n'accède pas au fichier d'adhésion.
+  - heading "Données sensibles" [level=3]
+  - paragraph: "L'appartenance syndicale et les données de santé relèvent de l'article 9 : chiffrement au repos, accès restreint par rôle, contrôle serveur sur chaque requête, journal d'audit inaltérable sur toute consultation."
+  - heading "Information des personnes" [level=3]
+  - paragraph: "Une notice d'information est présentée sur chaque écran de collecte : saisine d'un salarié, création de fiche, import de fichier, enregistrement de séance, sondage."
+  - heading "Exercice des droits" [level=3]
+  - paragraph: Accès, rectification, effacement, portabilité et opposition sont instruits depuis Confidentialité & RGPD, avec un délai d'un mois affiché et une recherche transverse au nom de la personne concernée.
+  - heading "Durées de conservation" [level=3]
+  - paragraph: Dossier clos + 5 ans, PV selon les obligations légales, audio détruit à l'approbation du PV, requêtes au modèle 12 mois sans contenu en clair, journal d'audit 3 ans.
+  - heading "Analyse d'impact" [level=3]
+  - paragraph: Une AIPD est conduite par périmètre et visée par le délégué à la protection des données de la fédération, en raison du croisement de données sensibles et de l'usage d'un modèle de langage.
+  - heading "Sécurité technique" [level=2]
+  - paragraph: "Spécification cible, non garantie par ce prototype local : Ce que l'application garantit, et où la garantie s'arrête."
+  - heading "Chiffrement" [level=3]
+  - paragraph: Chiffrement en transit et au repos, clés conservées hors de la base applicative. Les pièces jointes des dossiers sont chiffrées avant envoi.
+  - heading "Authentification" [level=3]
+  - paragraph: Double authentification obligatoire pour les rôles trésorier et administrateur, recommandée pour tous. Appareils connectés révocables à tout moment.
+  - heading "Autorisation côté serveur" [level=3]
+  - paragraph: Chaque requête est contrôlée sur le serveur, y compris les filtres de recherche. Les rôles affichés à l'écran ne sont jamais la source de l'autorisation.
+  - heading "Journal d'audit" [level=3]
+  - paragraph: "Ajout seul, sans modification ni suppression possible : consultations du fichier d'adhésion, exports, imports, campagnes, suppressions et appels au modèle y sont inscrits."
+  - heading "Aucun appel tiers depuis votre navigateur" [level=3]
+  - paragraph: Polices et ressources sont servies par l'infrastructure de l'application. Une politique de sécurité de contenu stricte interdit toute requête sortante non prévue.
+  - heading "Réversibilité" [level=3]
+  - paragraph: Vos données sont exportables dans un format ouvert à tout moment, sans intervention de l'éditeur.
+  - heading "Ce que vous devez savoir en tant qu'élu" [level=2]
+  - paragraph: "Spécification cible, non garantie par ce prototype local : Trois limites à garder en tête."
+  - heading "Vérifier avant tout usage contentieux" [level=3]
+  - paragraph: Une réponse du modèle est une aide à la rédaction et à la recherche, jamais un avis juridique. Recoupez toujours avec le texte cité avant de l'opposer à l'employeur.
+  - heading "Ne pas contourner le masquage" [level=3]
+  - paragraph: "Le masquage porte sur les entités qu'il sait reconnaître. Un récit très détaillé peut rendre une personne identifiable sans qu'aucun nom n'apparaisse : décrivez au plus juste."
+  - heading "L'enregistrement suppose l'accord des participants" [level=3]
+  - paragraph: Une séance ne peut être enregistrée qu'avec le consentement de chaque participant, révocable, et avec mention en début de séance.
+  - heading "Documentation de référence" [level=2]
+  - paragraph: Pièces tenues à disposition des élus et de l'inspection du travail, sur demande auprès de l'administrateur.
+  - generic: Registre des traitements
+  - generic: Deux périmètres — CSE et organisation syndicale
+  - generic: Analyse d'impact (AIPD)
+  - generic: Une par périmètre, visée par le DPO de la fédération
+  - generic: Contrat de sous-traitance du modèle
+  - generic: Hébergement UE, rétention nulle, non-entraînement
+  - generic: Politique de conservation et de purge
+  - generic: Durées par catégorie de données
+  - generic: Procédure d'exercice des droits
+  - generic: Réception, qualification, réponse sous un mois
+  - generic: Journal d'audit — spécification
+  - generic: Événements tracés, format, durée de trois ans
+  - button "Écrire au délégué à la protection des données"

@@ -1,0 +1,87 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+    - generic: "2"
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: unii suggère
+  - button "PV en relecture · Deuxième séance de négociation"
+  - button "PV à rédiger · Visite de site — atelier peinture"
+  - text: Séances & procès-verbaux
+  - heading "Réunions" [level=1]
+  - paragraph: 3 séances au registre · 2 PV en cours, 2 enregistrements référencés
+  - button "Enregistrer une réunion Dictaphone avec marqueurs de séance. Consentement des participants demandé avant le premier octet.":
+    - generic: Enregistrer une réunion
+    - generic: Dictaphone avec marqueurs de séance. Consentement des participants demandé avant le premier octet.
+  - generic: Importer un enregistrement
+  - generic: Fichier du dictaphone, de la visio ou de la salle. Conservation locale dans ce navigateur.
+  - text: Choisir un fichier audio
+  - button "Choisir un fichier audio"
+  - heading "Toutes les réunions" [level=2]
+  - generic: 3 séances
+  - button "CSE ordinaire 26 août 2026 · 14 h 00 · 1 h 52 Réunion ordinaire du 26 août Audio détruit — PV archivé Approuvé":
+    - generic: CSE ordinaire
+    - generic: 26 août 2026 · 14 h 00 · 1 h 52
+    - generic: Réunion ordinaire du 26 août
+    - generic: Audio détruit — PV archivé
+    - generic: Approuvé
+    - generic: ›
+  - button "Réunion NAO 12 août 2026 · 09 h 30 · 2 h 07 Deuxième séance de négociation Audio local — destruction automatique non connectée En relecture":
+    - generic: Réunion NAO
+    - generic: 12 août 2026 · 09 h 30 · 2 h 07
+    - generic: Deuxième séance de négociation
+    - generic: Audio local — destruction automatique non connectée
+    - generic: En relecture
+    - generic: ›
+  - button "CSSCT 29 juillet 2026 · 10 h 00 · 58 min Visite de site — atelier peinture Audio local — destruction automatique non connectée À rédiger":
+    - generic: CSSCT
+    - generic: 29 juillet 2026 · 10 h 00 · 58 min
+    - generic: Visite de site — atelier peinture
+    - generic: Audio local — destruction automatique non connectée
+    - generic: À rédiger
+    - generic: ›

@@ -1,0 +1,41 @@
+[
+  {
+    "format": "mobile",
+    "error": "Classement refusé : droits insuffisants ou dossier modifié.",
+    "dimensions": {
+      "scroll": 390,
+      "width": 390
+    }
+  },
+  {
+    "format": "tablette",
+    "error": "Classement refusé : droits insuffisants ou dossier modifié.",
+    "dimensions": {
+      "scroll": 768,
+      "width": 768
+    }
+  },
+  {
+    "format": "desktop",
+    "error": "Classement refusé : droits insuffisants ou dossier modifié.",
+    "dimensions": {
+      "scroll": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "format": "mobile",
+    "preview": true,
+    "png": true
+  },
+  {
+    "format": "tablette",
+    "preview": true,
+    "png": true
+  },
+  {
+    "format": "desktop",
+    "preview": true,
+    "png": true
+  }
+]

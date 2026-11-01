@@ -1,0 +1,402 @@
+{
+  "passed": true,
+  "count": 99,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "author_mfa",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reader_mfa",
+      "ok": true
+    },
+    {
+      "test": "meeting_created",
+      "ok": true
+    },
+    {
+      "test": "consent_saved",
+      "ok": true
+    },
+    {
+      "test": "meeting_author_has_no_implicit_audio",
+      "ok": true
+    },
+    {
+      "test": "manager_self_grant_refused",
+      "ok": true
+    },
+    {
+      "test": "audio_rights_granted",
+      "ok": true
+    },
+    {
+      "test": "stale_grant_refused",
+      "ok": true
+    },
+    {
+      "test": "manager_has_no_implicit_audio",
+      "ok": true
+    },
+    {
+      "test": "speech_uploaded",
+      "ok": true
+    },
+    {
+      "test": "absent",
+      "ok": true
+    },
+    {
+      "test": "unauthorized_reader",
+      "ok": true
+    },
+    {
+      "test": "foreign_org",
+      "ok": true
+    },
+    {
+      "test": "pending",
+      "ok": true
+    },
+    {
+      "test": "idempotent",
+      "ok": true
+    },
+    {
+      "test": "ordinary_worker_refused",
+      "ok": true
+    },
+    {
+      "test": "actual_worker",
+      "ok": true
+    },
+    {
+      "test": "done",
+      "ok": true
+    },
+    {
+      "test": "real_french_speech",
+      "ok": true
+    },
+    {
+      "test": "completed_idempotent",
+      "ok": true
+    },
+    {
+      "test": "private_jobs",
+      "ok": true
+    },
+    {
+      "test": "worker_cannot_read_completed_source",
+      "ok": true
+    },
+    {
+      "test": "no_download_inheritance",
+      "ok": true
+    },
+    {
+      "test": "marker_saved",
+      "ok": true
+    },
+    {
+      "test": "pv_absent",
+      "ok": true
+    },
+    {
+      "test": "pv_prepared",
+      "ok": true
+    },
+    {
+      "test": "separate_resource",
+      "ok": true
+    },
+    {
+      "test": "transcript_and_marker",
+      "ok": true
+    },
+    {
+      "test": "readable_times_and_empty_agenda",
+      "ok": true
+    },
+    {
+      "test": "idempotent_pv",
+      "ok": true
+    },
+    {
+      "test": "consent_not_invalidated",
+      "ok": true
+    },
+    {
+      "test": "source_version_unchanged",
+      "ok": true
+    },
+    {
+      "test": "snapshot_marker_version",
+      "ok": true
+    },
+    {
+      "test": "reviewer_without_audio_cannot_read",
+      "ok": true
+    },
+    {
+      "test": "inventory_requires_publish",
+      "ok": true
+    },
+    {
+      "test": "reviewer_audio_granted",
+      "ok": true
+    },
+    {
+      "test": "reviewer_reads_all_sources",
+      "ok": true
+    },
+    {
+      "test": "s08_context_has_transcript_and_markers",
+      "ok": true
+    },
+    {
+      "test": "authorized_direct_resource",
+      "ok": true
+    },
+    {
+      "test": "source_snapshot_edit_refused",
+      "ok": true
+    },
+    {
+      "test": "correction_version",
+      "ok": true
+    },
+    {
+      "test": "stale_edit_refused",
+      "ok": true
+    },
+    {
+      "test": "self_review_denied",
+      "ok": true
+    },
+    {
+      "test": "unreviewed_publish_denied",
+      "ok": true
+    },
+    {
+      "test": "other_org_denied",
+      "ok": true
+    },
+    {
+      "test": "second_actor_review",
+      "ok": true
+    },
+    {
+      "test": "publish_version",
+      "ok": true
+    },
+    {
+      "test": "original_begin",
+      "ok": true
+    },
+    {
+      "test": "original_part_0",
+      "ok": true
+    },
+    {
+      "test": "original_confirmed",
+      "ok": true
+    },
+    {
+      "test": "bytes_present_before_deletion",
+      "ok": true
+    },
+    {
+      "test": "operator_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_operator_refused",
+      "ok": true
+    },
+    {
+      "test": "operator_enroll",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "operator_mfa",
+      "ok": true
+    },
+    {
+      "test": "no_business_access_for_superadmin",
+      "ok": true
+    },
+    {
+      "test": "validation_from_second_review",
+      "ok": true
+    },
+    {
+      "test": "member_status",
+      "ok": true
+    },
+    {
+      "test": "nonadmin_cannot_collect",
+      "ok": true
+    },
+    {
+      "test": "before_due_no_request",
+      "ok": true
+    },
+    {
+      "test": "due_creates_request",
+      "ok": true
+    },
+    {
+      "test": "collect_idempotent",
+      "ok": true
+    },
+    {
+      "test": "deadline_does_not_delete",
+      "ok": true
+    },
+    {
+      "test": "inventory_no_content",
+      "ok": true
+    },
+    {
+      "test": "derived_retention_explicit",
+      "ok": true
+    },
+    {
+      "test": "unapproved_execution_denied",
+      "ok": true
+    },
+    {
+      "test": "ordinary_approval_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_batch_denied",
+      "ok": true
+    },
+    {
+      "test": "altered_inventory_denied",
+      "ok": true
+    },
+    {
+      "test": "hold",
+      "ok": true
+    },
+    {
+      "test": "hold_prevents_approval",
+      "ok": true
+    },
+    {
+      "test": "explicit_approval",
+      "ok": true
+    },
+    {
+      "test": "approval_does_not_delete",
+      "ok": true
+    },
+    {
+      "test": "backup_contains_audio",
+      "ok": true
+    },
+    {
+      "test": "own_saved_receipt",
+      "ok": true
+    },
+    {
+      "test": "other_actor_no_receipt",
+      "ok": true
+    },
+    {
+      "test": "begin_tombstones_and_blocks",
+      "ok": true
+    },
+    {
+      "test": "finish_before_storage_denied",
+      "ok": true
+    },
+    {
+      "test": "old_upload_cannot_resurrect",
+      "ok": true
+    },
+    {
+      "test": "new_request_same_bytes_denied",
+      "ok": true
+    },
+    {
+      "test": "scanner_finish_cannot_resurrect",
+      "ok": true
+    },
+    {
+      "test": "removed_approver_blocks_execution",
+      "ok": true
+    },
+    {
+      "test": "resume_execution",
+      "ok": true
+    },
+    {
+      "test": "idempotent_execution",
+      "ok": true
+    },
+    {
+      "test": "actual_file_gone",
+      "ok": true
+    },
+    {
+      "test": "tombstone_receipt_for_local_cleanup",
+      "ok": true
+    },
+    {
+      "test": "storage_gone",
+      "ok": true
+    },
+    {
+      "test": "db_chunks_gone",
+      "ok": true
+    },
+    {
+      "test": "original_parts_gone",
+      "ok": true
+    },
+    {
+      "test": "published_copy_survives_audio_deletion",
+      "ok": true
+    },
+    {
+      "test": "ordinary_pv_blocked_after_deletion",
+      "ok": true
+    },
+    {
+      "test": "consent_withdrawal_after_snapshot",
+      "ok": true
+    },
+    {
+      "test": "copy_revocation_after_snapshot",
+      "ok": true
+    },
+    {
+      "test": "audit",
+      "ok": true
+    }
+  ]
+}

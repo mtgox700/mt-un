@@ -1,0 +1,29 @@
+[
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "selected": true,
+    "valid": true,
+    "path": "/Users/mt/Downloads/modele-import-adherents.csv"
+  },
+  {
+    "size": {
+      "width": 820,
+      "height": 1180
+    },
+    "selected": true,
+    "valid": true,
+    "path": "/Users/mt/Downloads/modele-import-adherents (1).csv"
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "selected": true,
+    "valid": true,
+    "path": "/Users/mt/Downloads/modele-import-adherents (2).csv"
+  }
+]

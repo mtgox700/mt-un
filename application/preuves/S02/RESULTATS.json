@@ -1,0 +1,20 @@
+{
+  "source_identity": {
+    "home": true,
+    "cases": true,
+    "case-detail": true,
+    "contacts": true,
+    "theme_identical": true,
+    "logic_identical": true
+  },
+  "protected_references": 834,
+  "responsive_views": 12,
+  "widths": [
+    390,
+    820,
+    1440
+  ],
+  "mobile_home_to_cases": true,
+  "real_backend_connected": false,
+  "s02_complete": false
+}

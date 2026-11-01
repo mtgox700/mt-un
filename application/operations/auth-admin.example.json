@@ -1,0 +1,4 @@
+{
+  "supabase_url": "http://127.0.0.1:54321",
+  "service_key": "REPLACE_WITH_DEDICATED_SERVER_CREDENTIAL"
+}

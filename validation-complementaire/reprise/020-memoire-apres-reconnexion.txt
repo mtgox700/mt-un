@@ -1,0 +1,92 @@
+Browser tab: 8, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+1 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	2 container Dimensions de recette
+		3 button Bureau 1280
+		4 button Mobile 390
+		5 button Tablette 768
+		6 button Tablette paysage 1024
+		7 text 390 × 844
+	8 container Description: Prototype inchangé, ID: prototype
+		9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			10 container dc-root
+				11 container
+					12 image uniion
+					126 button ← Retour
+					13 image
+					14 text field (settable)
+					15 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					18 button
+						19 image
+					20 button Se déconnecter
+						21 image
+				22 container
+					254 text ASSISTANT IA
+					255 heading Mémoire de l'assistant, Value: 1
+						256 text Mémoire de l'assistant
+					257 text Les faits retenus ici accompagnent chaque question posée à l'IA, d'une conversation à l'autre. Ils restent dans ce navigateur, sont anonymisés avant envoi et ne sont jamais cités comme source juridique.
+					258 text Utiliser la mémoire dans les réponses
+					259 text 5 éléments actifs transmis (anonymisés) à chaque requête IA
+					260 switch Description: Activer ou suspendre la mémoire, Value: 0
+					261 text AJOUTER UN ÉLÉMENT
+					262 button Mandat & organisation
+					263 button Textes applicables
+					264 button Préférences de rédaction
+					265 button Sujets en cours
+					266 text entry area (settable)
+					267 button Ajouter à la mémoire
+					268 heading Mandat & organisation, Value: 3
+						269 text Mandat & organisation
+					270 text 2
+					271 switch Description: Activer ou désactiver cet élément, Value: 0
+					272 text Recette fictive modifiée : réponses en trois points.
+					273 text Ajouté manuellement · 23 oct. 2026
+					274 button Modifier
+					275 button Oublier
+					276 switch Description: Activer ou désactiver cet élément, Value: 0
+					277 text Élue titulaire au CSE et secrétaire adjointe ; mandat jusqu’en juin 2027.
+					278 text Ajouté manuellement · 3 oct. 2026
+					279 button Modifier
+					280 button Oublier
+					281 heading Textes applicables, Value: 3
+						282 text Textes applicables
+					283 text 1
+					284 switch Description: Activer ou désactiver cet élément, Value: 0
+					285 text Convention collective nationale de la Métallurgie applicable ; accord d’entreprise télétravail signé en mars 2025.
+					286 text Proposé par l’assistant · 11 oct. 2026
+					287 button Modifier
+					288 button Oublier
+					289 heading Préférences de rédaction, Value: 3
+						290 text Préférences de rédaction
+					291 text 1
+					292 switch Description: Activer ou désactiver cet élément, Value: 0
+					293 text Réponses courtes : d’abord le délai légal, puis un plan d’action daté.
+					294 text Ajouté manuellement · 17 oct. 2026
+					295 button Modifier
+					296 button Oublier
+					297 heading Sujets en cours, Value: 3
+						298 text Sujets en cours
+					299 text 1
+					300 switch Description: Activer ou désactiver cet élément, Value: 0
+					301 text NAO 2026 ouverte : revendication de 4,5 % d’augmentation générale.
+					302 text Retenu depuis une réponse · 21 oct. 2026
+					303 button Modifier
+					304 button Oublier
+					305 button Tout oublier
+				113 container
+					248 button Accueil
+						249 image
+						250 text Accueil
+					117 button Dossiers
+						118 image
+						119 text Dossiers
+					120 button Agenda
+						121 image
+						122 text Agenda
+					123 button Réunions
+						124 image
+						125 text Réunions
+					251 button Réglages
+						252 image
+						253 text Réglages
+
+The focused UI element is 9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

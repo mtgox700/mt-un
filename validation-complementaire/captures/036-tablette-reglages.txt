@@ -1,0 +1,161 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		808 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				1334 container
+					1335 heading Paramètres, Value: 1
+						1336 text Paramètres
+					1337 text Section syndicale Métallurgie — Valenciennes  · plan Fédération, 84 adhérents
+					1338 button MARQUE BLANCHE Identité de marque Couleur principale, logos, typographie, mode sombre. Publication à l'organisation ou par établissement.
+						1339 image
+						1340 text MARQUE BLANCHE
+						1341 text Identité de marque
+						1342 text Couleur principale, logos, typographie, mode sombre. Publication à l'organisation ou par établissement.
+					1343 button ÉLUE TITULAIRE Profil & mandat Identité, informations de l'organisation, convention collective, mandats, visibilité des coordonnées.
+						1344 image
+						1345 text ÉLUE TITULAIRE
+						1346 text Profil & mandat
+						1347 text Identité, informations de l'organisation, convention collective, mandats, visibilité des coordonnées.
+					1348 button PUSH + EMAIL Notifications Granularité par module, plages « ne pas déranger », escalade des alertes urgentes.
+						1349 image
+						1350 text PUSH + EMAIL
+						1351 text Notifications
+						1352 text Granularité par module, plages « ne pas déranger », escalade des alertes urgentes.
+					1353 button 19 CONTACTS Contacts & groupes Annuaire de la messagerie (élus, adhérents, externes), groupes de discussion, membres et administrateurs.
+						1354 image
+						1355 text 19 CONTACTS
+						1356 text Contacts & groupes
+						1357 text Annuaire de la messagerie (élus, adhérents, externes), groupes de discussion, membres et administrateurs.
+					1358 button 4 ACTIFS Mémoire de l'assistant Faits retenus par l'IA d'une conversation à l'autre — stockés dans ce navigateur, modifiables et effaçables.
+						1359 image
+						1360 text 4 ACTIFS
+						1361 text Mémoire de l'assistant
+						1362 text Faits retenus par l'IA d'une conversation à l'autre — stockés dans ce navigateur, modifiables et effaçables.
+					1363 button 37 ACTIVES Actions d'unii Actions proposées par unii dans chaque module, rôles autorisés, pastilles de suggestion.
+						1364 image
+						1365 text 37 ACTIVES
+						1366 text Actions d'unii
+						1367 text Actions proposées par unii dans chaque module, rôles autorisés, pastilles de suggestion.
+					1368 button 1 INSTALLÉE Extensions Modules complémentaires : styles de documents et tracts, thèmes et sections de pages web. Activation, contenus autorisés, auto-test.
+						1369 image
+						1370 text 1 INSTALLÉE
+						1371 text Extensions
+						1372 text Modules complémentaires : styles de documents et tracts, thèmes et sections de pages web. Activation, contenus autorisés, auto-test.
+					1373 button ADMIN Configuration IA Fournisseur LLM, clé API, quotas et comportement du modèle.
+						1374 image
+						1375 text ADMIN
+						1376 text Configuration IA
+						1377 text Fournisseur LLM, clé API, quotas et comportement du modèle.
+					1378 button MFA ACTIF Sécurité Double authentification, appareils connectés, journal d'audit.
+						1379 image
+						1380 text MFA ACTIF
+						1381 text Sécurité
+						1382 text Double authentification, appareils connectés, journal d'audit.
+					1383 button CONFORME Confidentialité & RGPD Registre des traitements, purge automatique, export de vos données.
+						1384 image
+						1385 text CONFORME
+						1386 text Confidentialité & RGPD
+						1387 text Registre des traitements, purge automatique, export de vos données.
+					1388 button 24 SIÈGES Organisation & membres Membres, commissions, statuts et invitations.
+						1389 image
+						1390 text 24 SIÈGES
+						1391 text Organisation & membres
+						1392 text Membres, commissions, statuts et invitations.
+					1393 button BACK-OFFICE Espace admin Tableau de bord organisation, activité par commission, facturation.
+						1394 image
+						1395 text BACK-OFFICE
+						1396 text Espace admin
+						1397 text Tableau de bord organisation, activité par commission, facturation.
+					1398 button 3 EN CACHE Mode hors ligne Base documentaire chiffrée sur l'appareil, synchronisation intelligente.
+						1399 image
+						1400 text 3 EN CACHE
+						1401 text Mode hors ligne
+						1402 text Base documentaire chiffrée sur l'appareil, synchronisation intelligente.
+					1403 button 1/4 ÉTAPES Prise en main Convention collective, commissions, invitation des élus, alertes.
+						1404 image
+						1405 text 1/4 ÉTAPES
+						1406 text Prise en main
+						1407 text Convention collective, commissions, invitation des élus, alertes.
+					1408 heading Ordre du menu de gauche, Value: 2
+						1409 text Ordre du menu de gauche
+					1410 text Placez en tête les modules que vous ouvrez le plus souvent. L'ordre s'applique aussitôt à la barre latérale et à la barre de navigation mobile.
+					1411 text 1 Accueil Aussi dans la barre mobile
+					1412 button (disabled) Déplacer Accueil vers le haut
+					1413 button Déplacer Accueil vers le bas
+					1414 text 2 Assistant Barre latérale seulement
+					1415 button Déplacer Assistant vers le haut
+					1416 button Déplacer Assistant vers le bas
+					1417 text 3 Dossiers Aussi dans la barre mobile
+					1418 button Déplacer Dossiers vers le haut
+					1419 button Déplacer Dossiers vers le bas
+					1420 text 4 Messages Barre latérale seulement
+					1421 button Déplacer Messages vers le haut
+					1422 button Déplacer Messages vers le bas
+					1423 text 5 Agenda Aussi dans la barre mobile
+					1424 button Déplacer Agenda vers le haut
+					1425 button Déplacer Agenda vers le bas
+					1426 text 6 Réunions Aussi dans la barre mobile
+					1427 button Déplacer Réunions vers le haut
+					1428 button Déplacer Réunions vers le bas
+					1429 text 7 Documents Barre latérale seulement
+					1430 button Déplacer Documents vers le haut
+					1431 button Déplacer Documents vers le bas
+					1432 text 8 Formations Barre latérale seulement
+					1433 button Déplacer Formations vers le haut
+					1434 button Déplacer Formations vers le bas
+					1435 text 9 Communication Barre latérale seulement
+					1436 button Déplacer Communication vers le haut
+					1437 button Déplacer Communication vers le bas
+					1438 text 10 Application mobile Barre latérale seulement
+					1439 button Déplacer Application mobile vers le haut
+					1440 button Déplacer Application mobile vers le bas
+					1441 text 11 Adhérents Barre latérale seulement
+					1442 button Déplacer Adhérents vers le haut
+					1443 button Déplacer Adhérents vers le bas
+					1444 text 12 Intranet Barre latérale seulement
+					1445 button Déplacer Intranet vers le haut
+					1446 button Déplacer Intranet vers le bas
+					1447 text 13 Reporting Barre latérale seulement
+					1448 button Déplacer Reporting vers le haut
+					1449 button Déplacer Reporting vers le bas
+					1450 text 14 Raccourcis Barre latérale seulement
+					1451 button Déplacer Raccourcis vers le haut
+					1452 button Déplacer Raccourcis vers le bas
+					1453 text 15 Réglages Aussi dans la barre mobile
+					1454 button Déplacer Réglages vers le haut
+					1455 button (disabled) Déplacer Réglages vers le bas
+				112 container
+					1331 button Accueil
+						1332 image
+						1333 text Accueil
+					998 button Dossiers
+						999 image
+						1000 text Dossiers
+					1095 button Agenda
+						1096 image
+						1097 text Agenda
+					1187 button Réunions
+						1188 image
+						1189 text Réunions
+					1456 button Réglages
+						1457 image
+						1458 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

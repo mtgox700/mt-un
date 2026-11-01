@@ -1,0 +1,44 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>S06 — Finalisation locale</title><style>body{font:16px/1.6 system-ui;color:#202633;background:#f7f8fa;margin:0}main{max-width:1050px;margin:auto;padding:32px}h1,h2{font-family:Georgia,serif}h1{color:#c3572e}h2{margin-top:36px}table{border-collapse:collapse;width:100%;background:white}td{border:1px solid #ddd;padding:10px}a{color:#a34723}img{max-width:100%;border-radius:16px}.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}.item{margin:8px 0}</style><main><h1>S06 — Finalisation locale, réserves de clôture</h1>
+<p>30 octobre 2026. Skill uniion appliqué. Prototype et S00 intacts : 834 empreintes identiques.</p>
+<h2>Réalisé</h2>
+<p class="item">• Demande de corrections motivée par un relecteur habilité distinct des contributeurs. Une nouvelle version est nécessaire avant une nouvelle validation.</p>
+<p class="item">• Historique des versions publiées, PDF archivés immuables et téléchargement soumis aux droits actuels. Les archives restent identiques après restauration d’un document.</p>
+<p class="item">• Notifications internes durables aux lecteurs habilités lors de la publication ; accès recontrôlé à l’ouverture. Aucun e-mail externe.</p>
+<p class="item">• Corbeille Documents : demande motivée, approbation super admin, retrait réversible, restauration sous droits actuels. Aucune suppression physique. Les corbeilles Dossiers et Documents sont filtrées par module.</p>
+<p class="item">• Rendu PDF différé, file durable par organisation/document/version/demandeur, concurrence limitée et reprise explicite des travaux interrompus après expiration du bail. Les jetons ne sont pas persistés dans la file.</p>
+<p class="item">• Reprise de session vers Documents depuis la corbeille ; retour mobile réutilisant le lien existant. Avertissement de fermeture pendant une sauvegarde ou avec des modifications non enregistrées.</p>
+<p class="item">• Contrats des extensions et de la future signature optionnelle documentés dans `docs/S06-CONTRATS.md`. Aucun prestataire de signature activé.</p>
+<h2>Vérifications exécutées</h2>
+<table>
+<tr><td>Vérification</td><td>Résultat</td></tr>
+<tr><td>Tests Python</td><td>146 réussis</td></tr>
+<tr><td>Tests frontaux</td><td>112 réussis</td></tr>
+<tr><td>Compilation et frontières de modules</td><td>Réussies</td></tr>
+<tr><td>Intégration réelle du cycle Documents</td><td>32 contrôles réussis</td></tr>
+<tr><td>Arrêt puis reprise du worker PDF dans un nouveau processus</td><td>10 contrôles réussis</td></tr>
+<tr><td>Sauvegarde/restauration isolée finale</td><td>312 contrôles réussis, sauvegarde 20261030T050939Z</td></tr>
+<tr><td>MFA et accès après cette restauration</td><td>15 contrôles réussis</td></tr>
+<tr><td>Références protégées</td><td>834/834 inchangées</td></tr>
+</table>
+<p>La dernière recette de connexion après restauration a d’abord échoué pendant une indisponibilité transitoire des services locaux. Le diagnostic a ensuite confirmé HTTP 200 et la même pile restaurée a passé les 15 contrôles. Incident rétabli, pas de réserve active sur cette connexion.</p>
+<h2>Interface</h2>
+<p>Recette par navigateur aux viewports 390 × 844, 768 × 1024 et 1440 × 1000, sans prétendre à des tests sur appareils physiques :</p>
+<p class="item">• ouverture et téléchargement réel d’une version publiée par le responsable ;</p>
+<p class="item">• refus du téléchargement au lecteur dépourvu du droit distinct ;</p>
+<p class="item">• demande de corrections autorisée par le relecteur, avec trois motifs effectivement enregistrés ;</p>
+<p class="item">• demande de corrections refusée au contributeur ;</p>
+<p class="item">• demande de mise en corbeille refusée au lecteur ;</p>
+<p class="item">• retour mobile de la corbeille et reprise de la session vers Documents vérifiés ;</p>
+<p class="item">• cycle autorisé de corbeille : demande sur desktop, approbation globale sur mobile, restauration sur tablette, sans destruction.</p>
+<p>L’ouverture d’une archive depuis une notification a été vérifiée sur mobile. Les captures sont disponibles dans ce dossier. Les refus serveur et la révocation sont également couverts par l’intégration réelle ; ils ne sont pas déduits des seuls boutons.</p>
+<h2>PDF : réserve bloquante</h2>
+<p>La matrice de 12 styles × 3 formats utilise un contenu commun complet. Sur ces 36 cas : <strong>15 rendent le texte attendu, 13 sont bloqués pour débordement et 8 pour omission de texte</strong>. Cela ne signifie pas que les styles bloqués ne fonctionnent avec aucun contenu : leurs gabarits ne conviennent pas au contenu commun dans les combinaisons testées.</p>
+<p>Un contrôle supplémentaire refuse maintenant un PDF qui omet une ligne de texte simple (titres, paragraphes, listes, citations et badges). Ce contrôle ne prouve pas à lui seul la présence de chaque image, tableau ou bloc d’extension : une recette graphique reste nécessaire.</p>
+<p>Le mode Classique restitue les 12 blocs d’extension sur 12 pages, en A4, A5 et paysage : 36 pages vérifiées. Trois compositions paysage représentatives sont exportées, et leurs trois variantes excessives sont refusées. Les pages 1 et 12 du Classique ainsi qu’un paysage ont été inspectés visuellement.</p>
+<p><strong>Arbitrage en attente :</strong> conserver la première page graphique et reporter les blocs non rendus sur des pages complémentaires dans la même charte (recommandation), ou maintenir le refus avec proposition de passer explicitement au mode Classique. Aucun ajout automatique de pages ni changement silencieux du style n’a été effectué.</p>
+<h2>Reste avant clôture</h2>
+<p>1. Valider puis réaliser le traitement des contenus qui ne tiennent pas dans les gabarits graphiques ; comparer aperçu et export pour toutes les combinaisons retenues, y compris images et blocs complexes.</p>
+<p>2. Examiner le cas d’une déconnexion volontaire avec un brouillon non sauvegardé : la navigation et la fermeture sont protégées, mais la déconnexion nettoie actuellement l’état privé. Ne pas confondre cette protection avec le hors-ligne chiffré D08, non livré par ce lot.</p>
+<h2>Conclusion</h2>
+<p>La reprise du worker a été testée après arrêt du processus ayant pris le travail, puis relance dans un processus neuf. L’expiration est accélérée uniquement sur l’horodatage du travail fictif ; le bail de cinq minutes du produit reste inchangé. Le résultat PDF est récupéré et un ancien bail ne peut pas l’écraser.</p>
+<p>Les ajouts fonctionnels approuvés sont implémentés et les contrôles décrits ci-dessus sont réussis. <strong>S06 reste ouvert</strong> : les réserves de fidélité et de conservation des brouillons ne sont pas masquées par les succès techniques. Pas de déploiement en production. La signature électronique externe relève du module optionnel déjà décidé.</p><h2>Preuves visuelles</h2><div class="gallery"><figure><img src="mobile-correction.png"><figcaption>Correction enregistrée — mobile</figcaption></figure><figure><img src="tablette-corbeille-restauration.png"><figcaption>Restauration — tablette</figcaption></figure><figure><img src="desktop-historique.png"><figcaption>Versions publiées — desktop</figcaption></figure></div><p><a href="BILAN.md">Bilan Markdown</a> · <a href="integration.json">Intégration</a> · <a href="worker-recovery.json">Reprise worker</a> · <a href="restore-access.json">Accès après restauration</a> · <a href="rendus/styles-render.json">Matrice PDF</a> · <a href="integrite.json">Intégrité</a></p></main></html>

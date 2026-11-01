@@ -1,0 +1,266 @@
+{
+ "AUTH": [
+  "(non connecté)",
+  "auth/Connexion.tsx, auth/DoubleAuth.tsx"
+ ],
+ "ADM-SUP": [
+  "admRoute=supervision",
+  ""
+ ],
+ "ADM-ORG": [
+  "admRoute=organisations",
+  ""
+ ],
+ "ADM-USR": [
+  "admRoute=utilisateurs",
+  ""
+ ],
+ "ADM-KEY": [
+  "admRoute=cles",
+  ""
+ ],
+ "ADM-EDI": [
+  "admRoute=editeur",
+  ""
+ ],
+ "ADM-FAC": [
+  "admRoute=facturation",
+  ""
+ ],
+ "ADM-LOG": [
+  "admRoute=journaux",
+  ""
+ ],
+ "COQ-SB": [
+  "(toutes)",
+  "ui/Coque.tsx"
+ ],
+ "COQ-MH": [
+  "(toutes, mobile)",
+  "ui/Coque.tsx"
+ ],
+ "COQ-UNII": [
+  "(toutes)",
+  ""
+ ],
+ "ACC": [
+  "accueil",
+  "ecrans/Accueil.tsx"
+ ],
+ "LEC": [
+  "viewer",
+  ""
+ ],
+ "DOS": [
+  "dossiers",
+  "ecrans/Dossiers.tsx"
+ ],
+ "DOS-NEW": [
+  "nouveau",
+  "ecrans/Dossiers.tsx (création)"
+ ],
+ "DOS-DET": [
+  "dossier",
+  "ecrans/Dossier.tsx"
+ ],
+ "REP": [
+  "reporting",
+  ""
+ ],
+ "PJ": [
+  "pieces",
+  "ecrans/Dossier.tsx (pièces)"
+ ],
+ "SIG": [
+  "signature",
+  ""
+ ],
+ "IA": [
+  "assistant",
+  "ecrans/Assistant.tsx"
+ ],
+ "SON-NEW": [
+  "newpoll",
+  ""
+ ],
+ "SON": [
+  "sondages",
+  ""
+ ],
+ "SON-DET": [
+  "sondage",
+  ""
+ ],
+ "REU": [
+  "reunions",
+  ""
+ ],
+ "REU-DIC": [
+  "record",
+  ""
+ ],
+ "REU-DET": [
+  "reunion",
+  ""
+ ],
+ "DOC": [
+  "documents",
+  "ecrans/Documents.tsx"
+ ],
+ "DOC-EDI": [
+  "docedit",
+  "ecrans/Document.tsx"
+ ],
+ "DOC-GEN": [
+  "tract",
+  ""
+ ],
+ "RAC": [
+  "raccourcis",
+  ""
+ ],
+ "AGE": [
+  "agenda",
+  "ecrans/Agenda.tsx"
+ ],
+ "ADH": [
+  "adherents",
+  "ecrans/Adherents.tsx, ecrans/Tresorerie.tsx"
+ ],
+ "ADH-IMP": [
+  "adhimport",
+  "ecrans/ImportAdherents.tsx"
+ ],
+ "ADH-FIC": [
+  "adherent",
+  "ecrans/Adherents.tsx (panneau)"
+ ],
+ "ADH-MSG": [
+  "adhmsg",
+  "ecrans/Diffusions.tsx"
+ ],
+ "INT": [
+  "intranet",
+  ""
+ ],
+ "INT-GEN": [
+  "webgen",
+  ""
+ ],
+ "INT-EDI": [
+  "webedit",
+  ""
+ ],
+ "INT-PUB": [
+  "webpub",
+  ""
+ ],
+ "INT-SUI": [
+  "webqueue",
+  ""
+ ],
+ "INT-CHA": [
+  "webcharte",
+  ""
+ ],
+ "NOT": [
+  "notifs",
+  ""
+ ],
+ "RCH": [
+  "recherche",
+  ""
+ ],
+ "UNII-CFG": [
+  "unii",
+  ""
+ ],
+ "EXT": [
+  "extensions",
+  "ecrans/Reglages.tsx (Extensions)"
+ ],
+ "PAR": [
+  "params",
+  "ecrans/Reglages.tsx"
+ ],
+ "PAR-PRO": [
+  "profil",
+  "ecrans/Reglages.tsx (profil)"
+ ],
+ "COM": [
+  "communication",
+  ""
+ ],
+ "MOB": [
+  "mobile",
+  ""
+ ],
+ "FOR": [
+  "formations",
+  ""
+ ],
+ "CTC": [
+  "contacts",
+  ""
+ ],
+ "MEM": [
+  "memoire",
+  ""
+ ],
+ "PAR-NOT": [
+  "prefs",
+  ""
+ ],
+ "SEC-IA": [
+  "iasecu",
+  ""
+ ],
+ "PAR-SEC": [
+  "securite",
+  "ecrans/Reglages.tsx (sécurité)"
+ ],
+ "PAR-RGPD": [
+  "rgpd",
+  ""
+ ],
+ "PAR-MBR": [
+  "membres",
+  "ecrans/Membres.tsx"
+ ],
+ "PAR-MAR": [
+  "marque",
+  ""
+ ],
+ "PAR-IA": [
+  "apikey",
+  ""
+ ],
+ "MSG": [
+  "messagerie / thread",
+  "ecrans/Conversation.tsx"
+ ],
+ "OFF": [
+  "offline",
+  "(bandeau hors ligne seulement)"
+ ],
+ "ONB": [
+  "onboarding",
+  ""
+ ],
+ "ADB": [
+  "admin",
+  ""
+ ],
+ "MOD-ANON": [
+  "anonOpen=true",
+  ""
+ ],
+ "MOD-IAERR": [
+  "(erreur IA)",
+  "ecrans/Assistant.tsx (refus de masquage)"
+ ],
+ "UNII": [
+  "unii.isOpen",
+  ""
+ ]
+}

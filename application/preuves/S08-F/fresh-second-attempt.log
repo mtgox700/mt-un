@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/operations/s08_fresh.py", line 30, in <module>
+    exec(compile(source,str(ROOT/'operations/ephemeral_ci.py'),'exec'))
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/operations/ephemeral_ci.py", line 65, in <module>
+    credentials.clear()
+                        
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/operations/ephemeral_ci.py", line 32, in main
+    b.sql("NOTIFY pgrst, 'reload schema'",name,'restored');time.sleep(1)
+     ^^^^^
+UnboundLocalError: cannot access local variable 'proof' where it is not associated with a value

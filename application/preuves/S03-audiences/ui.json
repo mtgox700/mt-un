@@ -1,0 +1,65 @@
+[
+  {
+    "format": "mobile",
+    "saved": true,
+    "overflow": false
+  },
+  {
+    "format": "tablette",
+    "persistedNone": true,
+    "overflow": false
+  },
+  {
+    "format": "desktop",
+    "persistedNone": true,
+    "overflow": false
+  },
+  {
+    "format": "desktop",
+    "selfEditDisabled": true
+  },
+  {
+    "format": "tablette",
+    "selfEditDisabled": true
+  },
+  {
+    "format": "mobile",
+    "selfEditDisabled": true
+  },
+  {
+    "format": "mobile",
+    "adminDenied": true,
+    "noEdit": true,
+    "overflow": false
+  },
+  {
+    "format": "tablette",
+    "adminDenied": true,
+    "noEdit": true,
+    "overflow": false
+  },
+  {
+    "format": "desktop",
+    "adminDenied": true,
+    "noEdit": true,
+    "overflow": false
+  },
+  {
+    "format": "desktop",
+    "agendaEmpty": true,
+    "restrictedEventAbsent": true,
+    "overflow": false
+  },
+  {
+    "format": "tablette",
+    "agendaEmpty": true,
+    "restrictedEventAbsent": true,
+    "overflow": false
+  },
+  {
+    "format": "mobile",
+    "agendaEmpty": true,
+    "restrictedEventAbsent": true,
+    "overflow": false
+  }
+]

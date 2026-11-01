@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "count": 28,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "original_download",
+      "ok": true
+    },
+    {
+      "test": "request_allowed",
+      "ok": true
+    },
+    {
+      "test": "reader_approve_denied",
+      "ok": true
+    },
+    {
+      "test": "admin_inventory_technical",
+      "ok": true
+    },
+    {
+      "test": "approve_reference",
+      "ok": true
+    },
+    {
+      "test": "withdrawn_reference_hidden",
+      "ok": true
+    },
+    {
+      "test": "withdrawn_download_denied",
+      "ok": true
+    },
+    {
+      "test": "reclassification_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_restore_denied",
+      "ok": true
+    },
+    {
+      "test": "restore_reference",
+      "ok": true
+    },
+    {
+      "test": "restored_exact_bytes",
+      "ok": true
+    },
+    {
+      "test": "classify_message",
+      "ok": true
+    },
+    {
+      "test": "request_allowed",
+      "ok": true
+    },
+    {
+      "test": "approve_message",
+      "ok": true
+    },
+    {
+      "test": "message_hidden",
+      "ok": true
+    },
+    {
+      "test": "restore_message",
+      "ok": true
+    },
+    {
+      "test": "request_allowed",
+      "ok": true
+    },
+    {
+      "test": "pending_case_accessible",
+      "ok": true
+    },
+    {
+      "test": "approve_case",
+      "ok": true
+    },
+    {
+      "test": "disposed_get_denied",
+      "ok": true
+    },
+    {
+      "test": "direct_rls_disposed_hidden",
+      "ok": true
+    },
+    {
+      "test": "direct_versions_disposed_hidden",
+      "ok": true
+    },
+    {
+      "test": "disposed_link_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_case_restore_denied",
+      "ok": true
+    },
+    {
+      "test": "restore_case",
+      "ok": true
+    },
+    {
+      "test": "revoked_reader_stays_denied",
+      "ok": true
+    }
+  ]
+}

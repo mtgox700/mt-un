@@ -1,0 +1,174 @@
+{
+  "passed": true,
+  "count": 41,
+  "checks": [
+    {
+      "test": "fixture_login_0",
+      "ok": true
+    },
+    {
+      "test": "fixture_enroll_0",
+      "ok": true
+    },
+    {
+      "test": "fixture_trust_0",
+      "ok": true
+    },
+    {
+      "test": "fixture_totp_0",
+      "ok": true
+    },
+    {
+      "test": "fixture_mfa_required_0",
+      "ok": true
+    },
+    {
+      "test": "fixture_login_1",
+      "ok": true
+    },
+    {
+      "test": "fixture_enroll_1",
+      "ok": true
+    },
+    {
+      "test": "fixture_trust_1",
+      "ok": true
+    },
+    {
+      "test": "fixture_totp_1",
+      "ok": true
+    },
+    {
+      "test": "fixture_mfa_required_1",
+      "ok": true
+    },
+    {
+      "test": "recovery_password_login",
+      "ok": true
+    },
+    {
+      "test": "lost_device_aal1_cannot_read",
+      "ok": true
+    },
+    {
+      "test": "lost_device_request_created",
+      "ok": true
+    },
+    {
+      "test": "recovery_self_approval_denied",
+      "ok": true
+    },
+    {
+      "test": "non_operator_aal2_approval_denied",
+      "ok": true
+    },
+    {
+      "test": "ordinary_claim_denied",
+      "ok": true
+    },
+    {
+      "test": "worker_before_approval_denied",
+      "ok": true
+    },
+    {
+      "test": "request_cancelled",
+      "ok": true
+    },
+    {
+      "test": "cancelled_approval_denied",
+      "ok": true
+    },
+    {
+      "test": "cancelled_claim_denied",
+      "ok": true
+    },
+    {
+      "test": "replacement_request_created",
+      "ok": true
+    },
+    {
+      "test": "distinct_operator_approves",
+      "ok": true
+    },
+    {
+      "test": "approval_replay_denied",
+      "ok": true
+    },
+    {
+      "test": "old_session_closed_on_approval",
+      "ok": true
+    },
+    {
+      "test": "real_worker_recovery_completed",
+      "ok": true
+    },
+    {
+      "test": "completed_worker_replay_denied",
+      "ok": true
+    },
+    {
+      "test": "recovery_password_login",
+      "ok": true
+    },
+    {
+      "test": "mfa_remains_mandatory",
+      "ok": true
+    },
+    {
+      "test": "temporary_enrollment_allowed",
+      "ok": true
+    },
+    {
+      "test": "password_only_after_recovery_denied",
+      "ok": true
+    },
+    {
+      "test": "replacement_factor_enrolled",
+      "ok": true
+    },
+    {
+      "test": "replacement_trust_authorized",
+      "ok": true
+    },
+    {
+      "test": "replacement_totp_verified",
+      "ok": true
+    },
+    {
+      "test": "mfa_requirement_confirmed",
+      "ok": true
+    },
+    {
+      "test": "recovered_aal2_allowed",
+      "ok": true
+    },
+    {
+      "test": "enrollment_permit_consumed",
+      "ok": true
+    },
+    {
+      "test": "recovered_own_data_allowed",
+      "ok": true
+    },
+    {
+      "test": "recovered_cross_org_denied",
+      "ok": true
+    },
+    {
+      "test": "operator_no_business_bypass",
+      "ok": true
+    },
+    {
+      "test": "old_factor_unusable",
+      "ok": true
+    },
+    {
+      "test": "old_token_stays_denied",
+      "ok": true
+    }
+  ],
+  "fictional_accounts_retired": true,
+  "data_deleted": false,
+  "source_worker_configured": true,
+  "configuration_mode": "0o600"
+}

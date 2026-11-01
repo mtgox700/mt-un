@@ -1,0 +1,97 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		1533 text 1024 × 768
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				1534 container
+					1535 image uniion
+					1536 button Réduire le menu
+					1589 button Accueil
+						1590 image
+						1591 text Accueil
+					1540 button Assistant
+						1541 image
+						1542 text Assistant
+					1543 button Dossiers
+						1544 image
+						1545 text Dossiers
+					1546 button Messages
+						1547 image
+						1548 text Messages
+					1549 button Agenda
+						1550 image
+						1551 text Agenda
+					1552 button Réunions
+						1553 image
+						1554 text Réunions
+					1555 button Documents
+						1556 image
+						1557 text Documents
+					1558 button Formations
+						1559 image
+						1560 text Formations
+					1561 button Communication
+						1562 image
+						1563 text Communication
+					1564 button Application mobile
+						1565 image
+						1566 text Application mobile
+					1567 button Adhérents
+						1568 image
+						1569 text Adhérents
+					1570 button Intranet
+						1571 image
+						1572 text Intranet
+					1573 button Reporting
+						1574 image
+						1575 text Reporting
+					1576 button Raccourcis
+						1577 image
+						1578 text Raccourcis
+					1592 button Réglages
+						1593 image
+						1594 text Réglages
+					1582 text ASSISTANT IA Une question de droit ?
+					1583 button Ouvrir le chat
+					1584 button SM Sophie Marchand Déléguée syndicale
+						1585 text SM
+						1586 text Sophie Marchand
+						1587 text Déléguée syndicale
+					1588 button Se déconnecter
+				10 container
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				1334 container
+					1595 heading Organisation & membres, Value: 1
+						1596 text Organisation & membres
+					1597 text 5 membres · 4 commissions · plan Fédération
+					1598 button + Inviter un membre
+					1599 text 24 sièges du plan 3 membres actifs 4 commissions 1 invitation en attente SM Sophie Marchand Admin organisation  ·  en ligne ACTIF
+					1600 button Retirer
+					1601 button Suspendre
+					1602 text JD Jean-Paul Diallo Élu titulaire  ·  il y a 1 h ACTIF
+					1603 button Retirer
+					1604 button Suspendre
+					1605 text LC Leïla Chaïb Commission ASC  ·  hier ACTIF
+					1606 button Retirer
+					1607 button Suspendre
+					1608 text MA Marc Aubert Suppléant  ·  jamais connecté INVITÉ
+					1609 button Retirer
+					1610 button Relancer
+					1611 text CB Cabinet Berger (avocat) Lecture seule  ·  il y a 6 jours SUSPENDU
+					1612 button Retirer
+					1613 button Réactiver
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

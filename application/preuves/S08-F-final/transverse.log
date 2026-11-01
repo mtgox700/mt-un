@@ -1,0 +1,14 @@
+SUITE s08_policy_edges
+{'passed': 18}
+SUITE s08_context_integration
+{'passed': 47, 'organization': '6ce0f0af-a48e-44ce-b422-9c14d4c20375'}
+SUITE s08_runs_integration
+{"checks": 29, "passed": true}
+SUITE s08_assistant_integration
+{"checks": 33, "passed": true}
+SUITE s08_actions_integration
+{"checks": 30, "passed": true}
+SUITE s08_native_integration
+{"passed": true, "count": 140}
+SUITE s08_native_followup
+{"passed": true, "count": 34}

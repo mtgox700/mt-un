@@ -1,0 +1,105 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - generic: Connexion du modèle — démo locale
+  - generic: Aucun modèle connecté
+  - paragraph: Ouvrez l’app dans un artefact claude.ai, ou collez une clé API Anthropic ci-dessous pour la version HTML locale.
+  - textbox "sk-ant-api03-…"
+  - button "Enregistrer la clé"
+  - generic: Modèle
+  - button "Sonnet 4.5"
+  - button "Haiku 4.5"
+  - button "Opus 4.1"
+  - button "Tester la connexion"
+  - paragraph: "Version locale : connexion via Codex, sans clé API supplémentaire. Les réglages et statistiques de fournisseur ci-dessous sont des exemples ; ils ne pilotent pas cette connexion."
+  - text: Admin organisation
+  - heading "Configuration IA" [level=1]
+  - paragraph: Modèle utilisé par l'Assistant Juridique, la Recherche Légale et le Générateur de documents.
+  - generic: Anonymisation avant inférence
+  - generic: Verrouillée par la politique de l'organisation — non désactivable en séance.
+  - switch "Anonymisation avant inférence — verrouillée sur activé" [checked]
+  - generic: Zéro donnée nominative hors Union européenne.
+  - generic: Zéro réutilisation pour l'entraînement — clause contractuelle avec le fournisseur.
+  - generic: Journal d'empreintes sans texte en clair.
+  - generic: 38 appels
+  - generic: 0 identité fuitée
+  - generic: Fournisseur & modèle
+  - button "Offre mutualisée uniion Incluse dans l’abonnement · Claude Sonnet":
+    - generic: Offre mutualisée uniion
+    - generic: Incluse dans l’abonnement · Claude Sonnet
+  - button "Anthropic — Claude Clé propre à l’organisation · UE":
+    - generic: Anthropic — Claude
+    - generic: Clé propre à l’organisation · UE
+  - button "Mistral — Large Clé propre · hébergement France":
+    - generic: Mistral — Large
+    - generic: Clé propre · hébergement France
+  - generic: Clé API
+  - generic: •••• •••• •••• •••• 8pWvA1
+  - button "Afficher"
+  - paragraph: "Chiffrée au repos dans un coffre dédié, jamais réaffichée en clair après enregistrement. Dernière rotation : 14/06/2026."
+  - button "Enregistrer la clé API"
+  - button "Révoquer"
+  - heading "Consommation — août" [level=2]
+  - generic: Assistant juridique
+  - generic: 1 240 requêtes
+  - generic: Génération de documents
+  - generic: 312 requêtes
+  - generic: Recherche légale
+  - generic: 96 requêtes
+  - generic: Coût estimé
+  - generic: 84,20 € / 150 € de quota
+  - heading "Comportement du modèle" [level=2]
+  - generic: Prudence juridique
+  - generic: Élevée
+  - button "Basse"
+  - button "Moyenne"
+  - button "Élevée"
+  - generic: Sourçage obligatoire des réponses juridiques
+  - button

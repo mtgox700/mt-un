@@ -1,0 +1,76 @@
+Browser tab: 9, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		6 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				21 container
+					228 text COMMUNICATION
+					229 heading Message aux adhérents, Value: 1
+						230 text Message aux adhérents
+					231 tab group Choix des destinataires
+						232 tab (selected, settable, boolean) Sélection / filtres, Value: 1
+						233 tab (selectable, settable, boolean) Liste de diffusion, Value: 0
+					234 text Adhérents filtrés 12 destinataires Karim Benali Sandrine Lemoine Mehdi Fournier Aurélie Pruvost Thierry Dubois Nadia Cherif Pascal Vandenberghe Émilie Roussel + 4 autres
+					235 heading CANAL, Value: 2
+						236 text CANAL
+					237 checkbox E-mail, Value: 1
+					238 checkbox SMS, Value: 0
+					239 checkbox Notification app, Value: 0
+					240 heading MODÈLES DE MESSAGE, Value: 2
+						241 text MODÈLES DE MESSAGE
+					242 checkbox Relance de cotisation, Value: 0
+					243 checkbox Convocation à l'assemblée, Value: 0
+					244 checkbox Bienvenue au nouvel adhérent, Value: 0
+					245 checkbox Point sur les négociations, Value: 0
+					246 container
+						247 text OBJET
+						248 text field (settable) OBJET
+					249 container
+						250 text MESSAGE
+						251 text entry area (settable) MESSAGE
+					252 text Joindre le bulletin d'adhésion Pièce jointe générée depuis le modèle de la bibliothèque documentaire, à la charte de l'organisation.
+					253 switch Description: Joindre le bulletin d'adhésion, Value: 0
+					254 button Envoyer
+					255 button Annuler
+					256 heading Aperçu de l'envoi, Value: 2
+						257 text Aperçu de l'envoi
+					258 text E-mail envoyé en copie cachée : les adhérents ne voient jamais la liste des destinataires.
+					259 text OBJET
+					260 heading LIEN AVEC LES DOCUMENTS, Value: 2
+						261 text LIEN AVEC LES DOCUMENTS
+					262 text Le bulletin d'adhésion est un modèle de la bibliothèque : identité, situation professionnelle, cotisation, mandat SEPA et mention RGPD sur la donnée sensible.
+					263 button Ouvrir le modèle de bulletin dans l'éditeur →
+				112 container
+					225 button Accueil
+						226 image
+						227 text Accueil
+					116 button Dossiers
+						117 image
+						118 text Dossiers
+					119 button Agenda
+						120 image
+						121 text Agenda
+					122 button Réunions
+						123 image
+						124 text Réunions
+					125 button Réglages
+						126 image
+						127 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

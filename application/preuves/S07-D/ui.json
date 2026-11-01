@@ -1,0 +1,52 @@
+{
+  "environment": "localhost, données et comptes fictifs",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "horizontal_overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "horizontal_overflow": false
+    }
+  ],
+  "physical_devices": false,
+  "scenarios": [
+    {
+      "test": "Recherche Aiguille autorisée et ouverture exacte du message ancien",
+      "passed": true
+    },
+    {
+      "test": "Retour aux messages récents, texte Taux 100% fictif visible",
+      "passed": true
+    },
+    {
+      "test": "Modale transfert sélection Destination D aux trois formats",
+      "passed": true
+    },
+    {
+      "test": "Transfert effectué depuis mobile, confirmation et relecture de la référence",
+      "passed": true
+    },
+    {
+      "test": "Réponse UI au transfert enregistrée avec citation pour Camille",
+      "passed": true
+    },
+    {
+      "test": "Sam : recherche Aiguille sans résultat autorisé",
+      "passed": true
+    },
+    {
+      "test": "Sam : réponse UI lisible sans référence ni citation source",
+      "passed": true
+    }
+  ],
+  "temporary_issue": "Recherche refusée pendant parcours rapide ; résultats purgés ; reprise réussie après reconnexion. Cause non instrumentée, quota métier conservé."
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-26",
+  "passed": true,
+  "linux_unit_tests": 102,
+  "supabase_access_checks": 12,
+  "http_checks": 9,
+  "isolated_mfa_recovery_checks": 45,
+  "total": 168,
+  "protected_references": 834,
+  "references_unchanged": true,
+  "linux_runtime": "Python 3.13.17 / cryptography 50.0.2",
+  "linux_isolation": "non-root; network none; read-only code; no private state mounted",
+  "source_worker_configured": false,
+  "production_deployed": false,
+  "code_hashes": {
+    "ci/Dockerfile": "b7002572f2b0297d4b1bc7f9007293c361ba09347a24ca983f55fe232897f7fb",
+    "scripts/local_quality.py": "94be94cb1a5f4aa368bc366e854dc97ddbfb8fbc687773f8a7b4fd2a98b2ab58",
+    "scripts/linux_quality.py": "34cd9421ed8a42a7127b203b489cc28eaa340c57e06bf3a142cf887a844aed8f",
+    "operations/auth_recovery_worker.py": "ead616acdf8b8648ef18edddcb2658b769c03c7bd6edc486525d2ed1f63a4425"
+  }
+}

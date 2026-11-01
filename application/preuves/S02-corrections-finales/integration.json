@@ -1,0 +1,127 @@
+[
+  {
+    "suite": "s02_identity_views",
+    "exit": 0,
+    "seconds": 0.63,
+    "passed": true,
+    "count": 19
+  },
+  {
+    "suite": "s02_identity_edits",
+    "exit": 0,
+    "seconds": 1.02,
+    "passed": true,
+    "count": 25
+  },
+  {
+    "suite": "s02_members_management",
+    "exit": 0,
+    "seconds": 1.04,
+    "passed": true,
+    "count": 31
+  },
+  {
+    "suite": "s02_fine_permissions",
+    "exit": 0,
+    "seconds": 0.8,
+    "passed": true,
+    "count": 28
+  },
+  {
+    "suite": "s02_organizations_shares",
+    "exit": 0,
+    "seconds": 0.92,
+    "passed": true,
+    "count": 27
+  },
+  {
+    "suite": "s02_shared_files",
+    "exit": 0,
+    "seconds": 4.24,
+    "passed": true,
+    "count": 22
+  },
+  {
+    "suite": "s02_shared_pdf",
+    "exit": 0,
+    "seconds": 3.27,
+    "passed": true,
+    "count": 14
+  },
+  {
+    "suite": "s02_collections",
+    "exit": 0,
+    "seconds": 1.11,
+    "passed": true,
+    "count": 29
+  },
+  {
+    "suite": "s02_collection_creation",
+    "exit": 0,
+    "seconds": 0.85,
+    "passed": true,
+    "count": 26
+  },
+  {
+    "suite": "s02_journal",
+    "exit": 0,
+    "seconds": 0.69,
+    "passed": true,
+    "count": 16
+  },
+  {
+    "suite": "s02_support_tickets",
+    "exit": 0,
+    "seconds": 0.74,
+    "passed": true,
+    "count": 25
+  },
+  {
+    "suite": "s02_support_access",
+    "exit": 0,
+    "seconds": 1.4,
+    "passed": true,
+    "count": 34
+  },
+  {
+    "suite": "s02_support_requests",
+    "exit": 0,
+    "seconds": 1.16,
+    "passed": true,
+    "count": 39
+  },
+  {
+    "suite": "s02_support_files",
+    "exit": 0,
+    "seconds": 6.88,
+    "passed": true,
+    "count": 32
+  },
+  {
+    "suite": "s02_support_registry",
+    "exit": 0,
+    "seconds": 1.87,
+    "passed": true,
+    "count": 30
+  },
+  {
+    "suite": "s02_paid_modules",
+    "exit": 0,
+    "seconds": 1.63,
+    "passed": true,
+    "count": 38
+  },
+  {
+    "suite": "s02_partners",
+    "exit": 0,
+    "seconds": 1.13,
+    "passed": true,
+    "count": 28
+  },
+  {
+    "suite": "s02_mail_access",
+    "exit": 0,
+    "passed": true,
+    "count": 15
+  }
+]

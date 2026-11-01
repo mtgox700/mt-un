@@ -1,0 +1,306 @@
+{
+  "passed": true,
+  "count": 75,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "author_mfa",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reader_mfa",
+      "ok": true
+    },
+    {
+      "test": "outsider_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "outsider_mfa",
+      "ok": true
+    },
+    {
+      "test": "group_created",
+      "ok": true
+    },
+    {
+      "test": "group_created",
+      "ok": true
+    },
+    {
+      "test": "group_created",
+      "ok": true
+    },
+    {
+      "test": "group_created",
+      "ok": true
+    },
+    {
+      "test": "anonymous_search_denied",
+      "ok": true
+    },
+    {
+      "test": "source_message",
+      "ok": true
+    },
+    {
+      "test": "source_reply",
+      "ok": true
+    },
+    {
+      "test": "source_file_uploaded",
+      "ok": true
+    },
+    {
+      "test": "batch_forward",
+      "ok": true
+    },
+    {
+      "test": "batch_replay",
+      "ok": true
+    },
+    {
+      "test": "changed_batch_denied",
+      "ok": true
+    },
+    {
+      "test": "no_copy_of_source",
+      "ok": true
+    },
+    {
+      "test": "authorized_forward_text",
+      "ok": true
+    },
+    {
+      "test": "outsider_cannot_read_reference",
+      "ok": true
+    },
+    {
+      "test": "outsider_search_no_metadata",
+      "ok": true
+    },
+    {
+      "test": "outsider_locate_denied",
+      "ok": true
+    },
+    {
+      "test": "outsider_cannot_reply_reference",
+      "ok": true
+    },
+    {
+      "test": "reply_to_reference",
+      "ok": true
+    },
+    {
+      "test": "reply_quote_filtered",
+      "ok": true
+    },
+    {
+      "test": "reply_quote_resolves_source",
+      "ok": true
+    },
+    {
+      "test": "inaccessible_target_denied",
+      "ok": true
+    },
+    {
+      "test": "no_partial_batch",
+      "ok": true
+    },
+    {
+      "test": "foreign_scope_denied",
+      "ok": true
+    },
+    {
+      "test": "duplicate_targets_denied",
+      "ok": true
+    },
+    {
+      "test": "source_as_target_denied",
+      "ok": true
+    },
+    {
+      "test": "concurrent_forward_idempotent",
+      "ok": true
+    },
+    {
+      "test": "chained_forward",
+      "ok": true
+    },
+    {
+      "test": "chain_unauthorized_hidden",
+      "ok": true
+    },
+    {
+      "test": "file_forward",
+      "ok": true
+    },
+    {
+      "test": "file_reference_not_copied",
+      "ok": true
+    },
+    {
+      "test": "forward_file_preview",
+      "ok": true
+    },
+    {
+      "test": "forward_file_download_distinct",
+      "ok": true
+    },
+    {
+      "test": "forward_file_outsider",
+      "ok": true
+    },
+    {
+      "test": "forward_cannot_rescan",
+      "ok": true
+    },
+    {
+      "test": "case_created",
+      "ok": true
+    },
+    {
+      "test": "forward_file_classified",
+      "ok": true
+    },
+    {
+      "test": "forward_link_preview",
+      "ok": true
+    },
+    {
+      "test": "destination_revoked_during_download",
+      "ok": true
+    },
+    {
+      "test": "intermediate_chain_revoked",
+      "ok": true
+    },
+    {
+      "test": "late_source_join",
+      "ok": true
+    },
+    {
+      "test": "late_source_no_implicit_reference",
+      "ok": true
+    },
+    {
+      "test": "explicit_source_history",
+      "ok": true
+    },
+    {
+      "test": "source_grant_reveals_reference",
+      "ok": true
+    },
+    {
+      "test": "source_history_revocation",
+      "ok": true
+    },
+    {
+      "test": "revocation_hides_reference_and_quote",
+      "ok": true
+    },
+    {
+      "test": "source_member_removed",
+      "ok": true
+    },
+    {
+      "test": "source_removal_hides_file",
+      "ok": true
+    },
+    {
+      "test": "source_removal_hides_case_link",
+      "ok": true
+    },
+    {
+      "test": "source_removal_hides_search",
+      "ok": true
+    },
+    {
+      "test": "source_reinvite",
+      "ok": true
+    },
+    {
+      "test": "source_reinvite_no_old_reference",
+      "ok": true
+    },
+    {
+      "test": "old_source_not_initial_page",
+      "ok": true
+    },
+    {
+      "test": "search_first_page",
+      "ok": true
+    },
+    {
+      "test": "search_second_page",
+      "ok": true
+    },
+    {
+      "test": "search_pages_no_duplicates",
+      "ok": true
+    },
+    {
+      "test": "search_full_history",
+      "ok": true
+    },
+    {
+      "test": "locate_old_message",
+      "ok": true
+    },
+    {
+      "test": "percent_literal",
+      "ok": true
+    },
+    {
+      "test": "literal_percent_sent",
+      "ok": true
+    },
+    {
+      "test": "percent_not_wildcard",
+      "ok": true
+    },
+    {
+      "test": "filename_search",
+      "ok": true
+    },
+    {
+      "test": "empty_search_denied",
+      "ok": true
+    },
+    {
+      "test": "forged_search_scope_denied",
+      "ok": true
+    },
+    {
+      "test": "private_forward_table_denied",
+      "ok": true
+    },
+    {
+      "test": "private_batch_table_denied",
+      "ok": true
+    },
+    {
+      "test": "ui_reader_history_grant",
+      "ok": true
+    }
+  ]
+}

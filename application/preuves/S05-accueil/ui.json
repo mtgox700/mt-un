@@ -1,0 +1,29 @@
+[
+  {
+    "format": "mobile",
+    "allowedRead": true,
+    "writeDenied": true,
+    "dimensions": {
+      "scroll": 390,
+      "width": 390
+    }
+  },
+  {
+    "format": "tablette",
+    "allowedRead": true,
+    "writeDenied": true,
+    "dimensions": {
+      "scroll": 768,
+      "width": 768
+    }
+  },
+  {
+    "format": "desktop",
+    "allowedRead": true,
+    "writeDenied": true,
+    "dimensions": {
+      "scroll": 1440,
+      "width": 1440
+    }
+  }
+]

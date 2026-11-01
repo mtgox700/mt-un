@@ -1,0 +1,75 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 text uniion CONSOLE D'ADMINISTRATION
+			30 button Supervision
+				31 image
+				32 text Supervision
+			33 button Organisations
+				34 image
+				35 text Organisations
+			36 button Utilisateurs
+				37 image
+				38 text Utilisateurs
+			14 button Clés API IA
+				15 image
+				16 text Clés API IA
+			17 button Éditeur de l’application
+				18 image
+				19 text Éditeur de l’application
+			20 button Abonnements et paiements
+				21 image
+				22 text Abonnements et paiements
+			23 button Journal d’audit
+				24 image
+				25 text Journal d’audit
+			26 text SA Super administrateur admin@uniion.fr
+			27 button Se déconnecter
+		28 container
+			29 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+			39 heading Utilisateurs, Value: 1
+				40 text Utilisateurs
+			41 text Tous les comptes, toutes organisations confondues.  7 comptes  affiché(s).
+			42 text field (settable)
+			43 button Tous
+			44 button Actif
+			45 button Suspendu
+			46 button Invitation en attente
+			47 text SM Sophie Marchand sophie.marchand@syndicat-valenciennes.fr Métallurgie — Valenciennes Déléguée syndicale Actif MFA active  · vu  il y a 4 min
+			48 button Assistance
+			49 button Réinit. MFA
+			50 button Relancer
+			51 button Suspendre
+			52 text KB Karim Belhadj karim.belhadj@syndicat-valenciennes.fr Métallurgie — Valenciennes Trésorier Actif MFA active  · vu  il y a 2 h
+			53 button Assistance
+			54 button Réinit. MFA
+			55 button Relancer
+			56 button Suspendre
+			57 text NF Nadia Ferrand nadia.ferrand@syndicat-valenciennes.fr Métallurgie — Valenciennes Secrétaire Actif Sans MFA  · vu  hier
+			58 button Assistance
+			59 button Réinit. MFA
+			60 button Relancer
+			61 button Suspendre
+			62 text YL Yann Lemoine yann.lemoine@ud59.fr UD 59 — Lille Administrateur d’organisation Actif MFA active  · vu  il y a 3 j
+			63 button Assistance
+			64 button Réinit. MFA
+			65 button Relancer
+			66 button Suspendre
+			67 text CD Claire Dubois claire.dubois@ud59.fr UD 59 — Lille Militante Suspendu Sans MFA  · vu  il y a 28 j
+			68 button Assistance
+			69 button Réinit. MFA
+			70 button Relancer
+			71 button Réactiver
+			72 text AS Ahmed Saïdi ahmed.saidi@cse-brasserie.fr CSE Brasserie du Nord Secrétaire Invitation en attente Sans MFA  · vu  jamais
+			73 button Assistance
+			74 button Réinit. MFA
+			75 button Relancer
+			76 button Suspendre
+			77 text LR Léa Ravel lea.ravel@cse-brasserie.fr CSE Brasserie du Nord Militante Actif MFA active  · vu  il y a 1 j
+			78 button Assistance
+			79 button Réinit. MFA
+			80 button Relancer
+			81 button Suspendre
+
+The focused UI element is 1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "count": 12,
+  "checks": [
+    {
+      "test": "restored_login_0",
+      "ok": true
+    },
+    {
+      "test": "aal1_refused_0",
+      "ok": true
+    },
+    {
+      "test": "restored_mfa_0",
+      "ok": true
+    },
+    {
+      "test": "restored_login_1",
+      "ok": true
+    },
+    {
+      "test": "aal1_refused_1",
+      "ok": true
+    },
+    {
+      "test": "restored_mfa_1",
+      "ok": true
+    },
+    {
+      "test": "restored_case_authorized",
+      "ok": true
+    },
+    {
+      "test": "restored_case_reader",
+      "ok": true
+    },
+    {
+      "test": "restored_write_denied",
+      "ok": true
+    },
+    {
+      "test": "restored_reference_authorized",
+      "ok": true
+    },
+    {
+      "test": "restored_revocation_denies_reference",
+      "ok": true
+    },
+    {
+      "test": "private_table_denied",
+      "ok": true
+    }
+  ]
+}

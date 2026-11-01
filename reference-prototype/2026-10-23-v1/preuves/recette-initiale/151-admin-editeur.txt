@@ -1,0 +1,60 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 text uniion CONSOLE D'ADMINISTRATION
+			30 button Supervision
+				31 image
+				32 text Supervision
+			33 button Organisations
+				34 image
+				35 text Organisations
+			36 button Utilisateurs
+				37 image
+				38 text Utilisateurs
+			39 button Clés API IA
+				40 image
+				41 text Clés API IA
+			42 button Éditeur de l’application
+				43 image
+				44 text Éditeur de l’application
+			20 button Abonnements et paiements
+				21 image
+				22 text Abonnements et paiements
+			23 button Journal d’audit
+				24 image
+				25 text Journal d’audit
+			26 text SA Super administrateur admin@uniion.fr
+			27 button Se déconnecter
+		28 container
+			29 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+			45 heading Éditeur de l'application, Value: 1
+				46 text Éditeur de l'application
+			47 text Réglages globaux, message d'information et gabarits livrés à toutes les organisations.
+			48 heading Disponibilité, Value: 2
+				49 text Disponibilité
+			50 switch Description: Mode maintenance, Value: 0
+			51 text Mode maintenance Ferme l’accès aux utilisateurs et affiche une page d’attente.
+			52 switch Description: Nouvelles organisations, Value: 1
+			53 text Nouvelles organisations Autorise la création de comptes depuis le site public.
+			54 switch Description: Assistant IA disponible, Value: 1
+			55 text Assistant IA disponible Coupe globalement les appels au modèle en cas d’incident. Bandeau d'information (visible par tous)
+			56 text entry area (settable) Bandeau d'information (visible par tous)
+			57 button Appliquer à la plateforme
+			58 heading Gabarits livrés, Value: 2
+				59 text Gabarits livrés
+			60 text Modèles de documents et de pages proposés par défaut dans chaque organisation. Tract A4 v3  · mis à jour le  09/09/2026 Publié
+			61 button Modifier
+			62 text Convocation de réunion v2  · mis à jour le  28/08/2026 Publié
+			63 button Modifier
+			64 text Compte rendu de section v5  · mis à jour le  02/09/2026 Publié
+			65 button Modifier
+			66 text Page intranet — actualité v1  · mis à jour le  11/09/2026 Brouillon
+			67 button Publier
+			68 text Version de prompt en service : 
+			69 text v4.2
+			70 text  · rétention des échanges IA : 
+			71 text 36 mois
+			72 text .
+
+The focused UI element is 1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

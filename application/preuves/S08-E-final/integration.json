@@ -1,0 +1,526 @@
+{
+  "count": 130,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "admin_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "activate",
+      "ok": true
+    },
+    {
+      "test": "document_created",
+      "ok": true
+    },
+    {
+      "test": "catalog_37_server_actions",
+      "ok": true
+    },
+    {
+      "test": "case_created",
+      "ok": true
+    },
+    {
+      "test": "case_draft_saved",
+      "ok": true
+    },
+    {
+      "test": "case_not_auto_applied",
+      "ok": true
+    },
+    {
+      "test": "case_apply_before_review_refused",
+      "ok": true
+    },
+    {
+      "test": "case_other_actor_refused",
+      "ok": true
+    },
+    {
+      "test": "case_edit_saved",
+      "ok": true
+    },
+    {
+      "test": "case_stale_review_refused",
+      "ok": true
+    },
+    {
+      "test": "case_review_saved",
+      "ok": true
+    },
+    {
+      "test": "case_explicit_apply",
+      "ok": true
+    },
+    {
+      "test": "case_retry_exactly_once",
+      "ok": true
+    },
+    {
+      "test": "case_source_version_unchanged_on_retry",
+      "ok": true
+    },
+    {
+      "test": "case_old_draft_source_invalidated",
+      "ok": true
+    },
+    {
+      "test": "document_created",
+      "ok": true
+    },
+    {
+      "test": "document_draft_saved",
+      "ok": true
+    },
+    {
+      "test": "document_not_auto_applied",
+      "ok": true
+    },
+    {
+      "test": "document_apply_before_review_refused",
+      "ok": true
+    },
+    {
+      "test": "document_other_actor_refused",
+      "ok": true
+    },
+    {
+      "test": "document_edit_saved",
+      "ok": true
+    },
+    {
+      "test": "document_stale_review_refused",
+      "ok": true
+    },
+    {
+      "test": "document_review_saved",
+      "ok": true
+    },
+    {
+      "test": "document_explicit_apply",
+      "ok": true
+    },
+    {
+      "test": "document_retry_exactly_once",
+      "ok": true
+    },
+    {
+      "test": "document_source_version_unchanged_on_retry",
+      "ok": true
+    },
+    {
+      "test": "document_old_draft_source_invalidated",
+      "ok": true
+    },
+    {
+      "test": "case_created",
+      "ok": true
+    },
+    {
+      "test": "action_message_created",
+      "ok": true
+    },
+    {
+      "test": "action_message_sent",
+      "ok": true
+    },
+    {
+      "test": "http_acc-week",
+      "ok": true
+    },
+    {
+      "test": "history_acc-week",
+      "ok": true
+    },
+    {
+      "test": "http_acc-first",
+      "ok": true
+    },
+    {
+      "test": "history_acc-first",
+      "ok": true
+    },
+    {
+      "test": "http_dos-next",
+      "ok": true
+    },
+    {
+      "test": "history_dos-next",
+      "ok": true
+    },
+    {
+      "test": "http_dos-sum",
+      "ok": true
+    },
+    {
+      "test": "history_dos-sum",
+      "ok": true
+    },
+    {
+      "test": "http_dos-delais",
+      "ok": true
+    },
+    {
+      "test": "history_dos-delais",
+      "ok": true
+    },
+    {
+      "test": "http_dos-mail",
+      "ok": true
+    },
+    {
+      "test": "history_dos-mail",
+      "ok": true
+    },
+    {
+      "test": "http_dos-prio",
+      "ok": true
+    },
+    {
+      "test": "history_dos-prio",
+      "ok": true
+    },
+    {
+      "test": "http_reu-prep",
+      "ok": true
+    },
+    {
+      "test": "history_reu-prep",
+      "ok": true
+    },
+    {
+      "test": "http_reu-dec",
+      "ok": true
+    },
+    {
+      "test": "history_reu-dec",
+      "ok": true
+    },
+    {
+      "test": "http_reu-salaries",
+      "ok": true
+    },
+    {
+      "test": "history_reu-salaries",
+      "ok": true
+    },
+    {
+      "test": "http_reu-pv",
+      "ok": true
+    },
+    {
+      "test": "history_reu-pv",
+      "ok": true
+    },
+    {
+      "test": "http_doc-relire",
+      "ok": true
+    },
+    {
+      "test": "history_doc-relire",
+      "ok": true
+    },
+    {
+      "test": "http_doc-simpl",
+      "ok": true
+    },
+    {
+      "test": "history_doc-simpl",
+      "ok": true
+    },
+    {
+      "test": "http_doc-risk",
+      "ok": true
+    },
+    {
+      "test": "history_doc-risk",
+      "ok": true
+    },
+    {
+      "test": "http_doc-idea",
+      "ok": true
+    },
+    {
+      "test": "history_doc-idea",
+      "ok": true
+    },
+    {
+      "test": "http_msg-sum",
+      "ok": true
+    },
+    {
+      "test": "history_msg-sum",
+      "ok": true
+    },
+    {
+      "test": "http_msg-reply",
+      "ok": true
+    },
+    {
+      "test": "history_msg-reply",
+      "ok": true
+    },
+    {
+      "test": "http_ag-prep",
+      "ok": true
+    },
+    {
+      "test": "history_ag-prep",
+      "ok": true
+    },
+    {
+      "test": "http_ag-delais",
+      "ok": true
+    },
+    {
+      "test": "history_ag-delais",
+      "ok": true
+    },
+    {
+      "test": "http_com-month",
+      "ok": true
+    },
+    {
+      "test": "history_com-month",
+      "ok": true
+    },
+    {
+      "test": "http_com-reform",
+      "ok": true
+    },
+    {
+      "test": "history_com-reform",
+      "ok": true
+    },
+    {
+      "test": "http_mob-page",
+      "ok": true
+    },
+    {
+      "test": "history_mob-page",
+      "ok": true
+    },
+    {
+      "test": "http_mob-short",
+      "ok": true
+    },
+    {
+      "test": "history_mob-short",
+      "ok": true
+    },
+    {
+      "test": "http_mob-push",
+      "ok": true
+    },
+    {
+      "test": "history_mob-push",
+      "ok": true
+    },
+    {
+      "test": "http_mob-check",
+      "ok": true
+    },
+    {
+      "test": "history_mob-check",
+      "ok": true
+    },
+    {
+      "test": "http_mob-ideas",
+      "ok": true
+    },
+    {
+      "test": "history_mob-ideas",
+      "ok": true
+    },
+    {
+      "test": "http_fm-reco",
+      "ok": true
+    },
+    {
+      "test": "history_fm-reco",
+      "ok": true
+    },
+    {
+      "test": "http_adh-msg",
+      "ok": true
+    },
+    {
+      "test": "history_adh-msg",
+      "ok": true
+    },
+    {
+      "test": "http_adh-relance",
+      "ok": true
+    },
+    {
+      "test": "history_adh-relance",
+      "ok": true
+    },
+    {
+      "test": "http_pol-q",
+      "ok": true
+    },
+    {
+      "test": "history_pol-q",
+      "ok": true
+    },
+    {
+      "test": "http_pol-ana",
+      "ok": true
+    },
+    {
+      "test": "history_pol-ana",
+      "ok": true
+    },
+    {
+      "test": "http_web-lis",
+      "ok": true
+    },
+    {
+      "test": "history_web-lis",
+      "ok": true
+    },
+    {
+      "test": "http_rep-explain",
+      "ok": true
+    },
+    {
+      "test": "history_rep-explain",
+      "ok": true
+    },
+    {
+      "test": "http_rep-bilan",
+      "ok": true
+    },
+    {
+      "test": "history_rep-bilan",
+      "ok": true
+    },
+    {
+      "test": "http_rac-sugg",
+      "ok": true
+    },
+    {
+      "test": "history_rac-sugg",
+      "ok": true
+    },
+    {
+      "test": "http_par-help",
+      "ok": true
+    },
+    {
+      "test": "history_par-help",
+      "ok": true
+    },
+    {
+      "test": "http_par-roles",
+      "ok": true
+    },
+    {
+      "test": "history_par-roles",
+      "ok": true
+    },
+    {
+      "test": "document_created",
+      "ok": true
+    },
+    {
+      "test": "draft_before_document_review",
+      "ok": true
+    },
+    {
+      "test": "private_review_before_document_review",
+      "ok": true
+    },
+    {
+      "test": "document_second_actor_review",
+      "ok": true
+    },
+    {
+      "test": "apply_into_validated_document_refused",
+      "ok": true
+    },
+    {
+      "test": "direct_stale_version_refused",
+      "ok": true
+    },
+    {
+      "test": "direct_cross_org_refused",
+      "ok": true
+    },
+    {
+      "test": "direct_arbitrary_kind_refused",
+      "ok": true
+    },
+    {
+      "test": "direct_destination_extra_refused",
+      "ok": true
+    },
+    {
+      "test": "case_created",
+      "ok": true
+    },
+    {
+      "test": "message_classified",
+      "ok": true
+    },
+    {
+      "test": "linked_case_draft",
+      "ok": true
+    },
+    {
+      "test": "linked_case_review",
+      "ok": true
+    },
+    {
+      "test": "linked_case_flattening_refused",
+      "ok": true
+    },
+    {
+      "test": "reader_generate",
+      "ok": true
+    },
+    {
+      "test": "reader_review",
+      "ok": true
+    },
+    {
+      "test": "reader_apply_denied",
+      "ok": true
+    },
+    {
+      "test": "edited_text_reopens_review",
+      "ok": true
+    },
+    {
+      "test": "forged_destination_refused",
+      "ok": true
+    },
+    {
+      "test": "boolean_version_refused",
+      "ok": true
+    }
+  ],
+  "passed": true
+}

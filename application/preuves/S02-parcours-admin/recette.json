@@ -1,0 +1,35 @@
+[
+  {
+    "width": 390,
+    "imported": true,
+    "summary": true,
+    "layout": {
+      "scroll": 382,
+      "width": 390
+    },
+    "duplicateBlocked": true,
+    "cancelReturnsMembers": true
+  },
+  {
+    "width": 820,
+    "imported": true,
+    "summary": true,
+    "layout": {
+      "scroll": 820,
+      "width": 820
+    },
+    "duplicateBlocked": true,
+    "cancelReturnsMembers": true
+  },
+  {
+    "width": 1440,
+    "imported": true,
+    "summary": true,
+    "layout": {
+      "scroll": 1440,
+      "width": 1440
+    },
+    "duplicateBlocked": true,
+    "cancelReturnsMembers": true
+  }
+]

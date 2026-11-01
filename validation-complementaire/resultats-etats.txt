@@ -1,0 +1,5 @@
+PASS micro indisponible : simulation explicitement signalée (test de logique, sans périphérique)
+PASS simulation : pause, reprise et arrêt
+PASS permission refusée : repli simulé explicite (mock)
+PASS libération de la piste (mock)
+CONSTAT : sauvegarde simulée annoncée audio conservé/chiffré ; aucune preuve de contenu audio stocké

@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "count": 16,
+  "checks": [
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "admin_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "admin_mfa",
+      "ok": true
+    },
+    {
+      "test": "local_events_visible",
+      "ok": true
+    },
+    {
+      "test": "foreign_events_absent",
+      "ok": true
+    },
+    {
+      "test": "latest_first",
+      "ok": true
+    },
+    {
+      "test": "foreign_org_denied",
+      "ok": true
+    },
+    {
+      "test": "empty_journal",
+      "ok": true
+    },
+    {
+      "test": "member_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "member_mfa",
+      "ok": true
+    },
+    {
+      "test": "nonmanager_no_events",
+      "ok": true
+    },
+    {
+      "test": "forged_fields_denied",
+      "ok": true
+    },
+    {
+      "test": "direct_table_denied",
+      "ok": true
+    }
+  ]
+}

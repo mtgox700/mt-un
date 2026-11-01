@@ -1,0 +1,1745 @@
+[
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "equal": true,
+    "values": [
+      {
+        "items": [
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "← Retour",
+            "width": "40px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "18.5px",
+            "text": "",
+            "width": "304px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "unii\n          1\n          \n        ",
+            "width": "97.1328px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "\n          \n          \n            \n          \n        ",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Assistant",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Dossiers",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Messages",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Agenda",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Réunions",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Documents",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Formations",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Communication",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Application mobile",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Adhérents",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Intranet",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Reporting",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Raccourcis",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Réglages",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Sondages",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Hors ligne",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Se déconnecter",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "\n                  JD\n                  \n                    Jean-Paul Diallo\n                    Élu titulaire · Délégué syndical\n                  \n                ",
+            "width": "284px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Sélectionner",
+            "width": "104.422px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "unii",
+            "width": "69.3516px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "22px",
+            "text": "",
+            "width": "24px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "",
+            "width": "232px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "42px",
+            "text": "",
+            "width": "42px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Accueil\n          ",
+            "width": "74px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Dossiers\n          ",
+            "width": "74px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Agenda\n          ",
+            "width": "74px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Réunions\n          ",
+            "width": "74px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Réglages\n          ",
+            "width": "74px"
+          }
+        ],
+        "scroll": 382,
+        "width": 390
+      },
+      {
+        "items": [
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "← Retour",
+            "width": "40px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "18.5px",
+            "text": "",
+            "width": "304px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "unii\n          1\n          \n        ",
+            "width": "97.1328px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "\n          \n          \n            \n          \n        ",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Assistant",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Dossiers",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Messages",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Agenda",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Réunions",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Documents",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Formations",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Communication",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Application mobile",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Adhérents",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Intranet",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Reporting",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Raccourcis",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Réglages",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Sondages",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Hors ligne",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Se déconnecter",
+            "width": "290px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "\n                  JD\n                  \n                    Jean-Paul Diallo\n                    Élu titulaire · Délégué syndical\n                  \n                ",
+            "width": "284px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Sélectionner",
+            "width": "104.422px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "unii",
+            "width": "69.3516px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "22px",
+            "text": "",
+            "width": "24px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "",
+            "width": "232px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "42px",
+            "text": "",
+            "width": "42px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Accueil\n          ",
+            "width": "74px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Dossiers\n          ",
+            "width": "74px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Agenda\n          ",
+            "width": "74px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Réunions\n          ",
+            "width": "74px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Réglages\n          ",
+            "width": "74px"
+          }
+        ],
+        "scroll": 382,
+        "width": 390
+      }
+    ]
+  },
+  {
+    "size": {
+      "width": 820,
+      "height": 1180
+    },
+    "equal": true,
+    "values": [
+      {
+        "items": [
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "← Retour",
+            "width": "40px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "18.5px",
+            "text": "",
+            "width": "734px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "unii\n          1\n          \n        ",
+            "width": "97.1328px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "\n          \n          \n            \n          \n        ",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Assistant",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Dossiers",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Messages",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Agenda",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Réunions",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Documents",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Formations",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Communication",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Application mobile",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Adhérents",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Intranet",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Reporting",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Raccourcis",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Réglages",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Sondages",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Hors ligne",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Se déconnecter",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "\n                  JD\n                  \n                    Jean-Paul Diallo\n                    Élu titulaire · Délégué syndical\n                  \n                ",
+            "width": "714px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Sélectionner",
+            "width": "104.422px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "unii",
+            "width": "69.3516px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "22px",
+            "text": "",
+            "width": "24px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "",
+            "width": "662px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "42px",
+            "text": "",
+            "width": "42px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Accueil\n          ",
+            "width": "160px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Dossiers\n          ",
+            "width": "160px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Agenda\n          ",
+            "width": "160px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Réunions\n          ",
+            "width": "160px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Réglages\n          ",
+            "width": "160px"
+          }
+        ],
+        "scroll": 812,
+        "width": 820
+      },
+      {
+        "items": [
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "← Retour",
+            "width": "40px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "18.5px",
+            "text": "",
+            "width": "734px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "unii\n          1\n          \n        ",
+            "width": "97.1328px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "\n          \n          \n            \n          \n        ",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Assistant",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Dossiers",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Messages",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Agenda",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Réunions",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Documents",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Formations",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Communication",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Application mobile",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Adhérents",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Intranet",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Reporting",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Raccourcis",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Réglages",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Sondages",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Hors ligne",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Se déconnecter",
+            "width": "298px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "\n                  JD\n                  \n                    Jean-Paul Diallo\n                    Élu titulaire · Délégué syndical\n                  \n                ",
+            "width": "714px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "Sélectionner",
+            "width": "104.422px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "unii",
+            "width": "69.3516px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "44px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "22px",
+            "text": "",
+            "width": "24px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "",
+            "width": "662px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "42px",
+            "text": "",
+            "width": "42px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Accueil\n          ",
+            "width": "160px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Dossiers\n          ",
+            "width": "160px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Agenda\n          ",
+            "width": "160px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Réunions\n          ",
+            "width": "160px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "53.5px",
+            "text": "\n            \n            Réglages\n          ",
+            "width": "160px"
+          }
+        ],
+        "scroll": 812,
+        "width": 820
+      }
+    ]
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "equal": true,
+    "values": [
+      {
+        "items": [
+          {
+            "color": "rgb(107, 114, 128)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "34px",
+            "text": "",
+            "width": "34px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Accueil\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Assistant\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Dossiers\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Messages\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Agenda\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Réunions\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Documents\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Formations\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Communication\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Application mobile\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Adhérents\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Intranet\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Reporting\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Raccourcis\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Réglages\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "35.5px",
+            "text": "Ouvrir le chat",
+            "width": "185px"
+          },
+          {
+            "color": "rgb(0, 0, 0)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "46px",
+            "text": "\n          SM\n          \n            Sophie Marchand\n            Déléguée syndicale\n          \n        ",
+            "width": "179px"
+          },
+          {
+            "color": "rgb(107, 114, 128)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "34px",
+            "text": "\n          \n        ",
+            "width": "34px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "33.5px",
+            "text": "← Retour",
+            "width": "83.7969px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "18.5px",
+            "text": "",
+            "width": "761.07px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "unii\n          1\n          \n        ",
+            "width": "97.1328px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "\n          \n          \n            \n          \n        ",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "\n          \n        ",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(211, 93, 9)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "29px",
+            "text": "2 non lus · Commission Négociation",
+            "width": "242.047px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Philosopher, Georgia, serif",
+            "height": "25px",
+            "text": "Messages",
+            "width": "225px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "31px",
+            "text": "Discussions",
+            "width": "170.5px"
+          },
+          {
+            "color": "rgb(107, 114, 128)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "31px",
+            "text": "Contacts & groupes",
+            "width": "170.5px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "36.5px",
+            "text": "",
+            "width": "306px"
+          },
+          {
+            "color": "rgb(211, 93, 9)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "28.5px",
+            "text": "Toutes",
+            "width": "63.4531px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "28.5px",
+            "text": "Non lues1",
+            "width": "85.7109px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "28.5px",
+            "text": "Sans réponse de ma part3",
+            "width": "181.25px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "28.5px",
+            "text": "Dernier message de moi1",
+            "width": "175.219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "28.5px",
+            "text": "Groupes3",
+            "width": "86.4297px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "28.5px",
+            "text": "Diffusions",
+            "width": "82.9688px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "69px",
+            "text": "\n                      CN\n                      \n                        \n                          Commission Négociation\n                          09:20\n                        \n                        \n                          \n                          \n                          Leïla C. : On maintient l'AG du personnel mardi 12 h 30 ?\n                          \n                          \n                          2\n                        \n                      \n                    ",
+            "width": "379px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "69px",
+            "text": "\n                      SS\n                      \n                        \n                          Commission SSCT\n                          hier\n                        \n                        \n                          \n                          ✓✓\n                          Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire.\n                          \n                          \n                          \n                        \n                      \n                    ",
+            "width": "379px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "69px",
+            "text": "\n                      AS\n                      \n                        \n                          Commission ASC\n                          lun.\n                        \n                        \n                          \n                          \n                          Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts.\n                          \n                          \n                          \n                        \n                      \n                    ",
+            "width": "379px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "69px",
+            "text": "\n                      JD\n                      \n                        \n                          Jean-Paul Diallo\n                          lun.\n                        \n                        \n                          \n                          \n                          Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.\n                          \n                          \n                          \n                        \n                      \n                    ",
+            "width": "379px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "40px",
+            "text": "\n                  JD\n                  \n                    Jean-Paul Diallo\n                    Élu titulaire · Délégué syndical\n                  \n                ",
+            "width": "476.227px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "33px",
+            "text": "Sélectionner",
+            "width": "104.422px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "31px",
+            "text": "unii",
+            "width": "69.3516px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "22px",
+            "text": "",
+            "width": "24px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "",
+            "width": "622px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "42px",
+            "text": "",
+            "width": "42px"
+          }
+        ],
+        "scroll": 1432,
+        "width": 1440
+      },
+      {
+        "items": [
+          {
+            "color": "rgb(107, 114, 128)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "34px",
+            "text": "",
+            "width": "34px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Accueil\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Assistant\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Dossiers\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Messages\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Agenda\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Réunions\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Documents\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Formations\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Communication\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Application mobile\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Adhérents\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Intranet\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Reporting\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Raccourcis\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "\n              \n              Réglages\n            ",
+            "width": "219px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "35.5px",
+            "text": "Ouvrir le chat",
+            "width": "185px"
+          },
+          {
+            "color": "rgb(0, 0, 0)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "46px",
+            "text": "\n          SM\n          \n            Sophie Marchand\n            Déléguée syndicale\n          \n        ",
+            "width": "179px"
+          },
+          {
+            "color": "rgb(107, 114, 128)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "34px",
+            "text": "\n          \n        ",
+            "width": "34px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "33.5px",
+            "text": "← Retour",
+            "width": "83.7969px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "18.5px",
+            "text": "",
+            "width": "761.07px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "unii\n          1\n          \n        ",
+            "width": "97.1328px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "\n          \n          \n            \n          \n        ",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "\n          \n        ",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(211, 93, 9)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "29px",
+            "text": "2 non lus · Commission Négociation",
+            "width": "242.047px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Philosopher, Georgia, serif",
+            "height": "25px",
+            "text": "Messages",
+            "width": "225px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "31px",
+            "text": "Discussions",
+            "width": "170.5px"
+          },
+          {
+            "color": "rgb(107, 114, 128)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "31px",
+            "text": "Contacts & groupes",
+            "width": "170.5px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "36.5px",
+            "text": "",
+            "width": "306px"
+          },
+          {
+            "color": "rgb(211, 93, 9)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "28.5px",
+            "text": "Toutes",
+            "width": "63.4531px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "28.5px",
+            "text": "Non lues1",
+            "width": "85.7109px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "28.5px",
+            "text": "Sans réponse de ma part3",
+            "width": "181.25px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "28.5px",
+            "text": "Dernier message de moi1",
+            "width": "175.219px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "28.5px",
+            "text": "Groupes3",
+            "width": "86.4297px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "28.5px",
+            "text": "Diffusions",
+            "width": "82.9688px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "69px",
+            "text": "\n                      CN\n                      \n                        \n                          Commission Négociation\n                          09:20\n                        \n                        \n                          \n                          \n                          Leïla C. : On maintient l'AG du personnel mardi 12 h 30 ?\n                          \n                          \n                          2\n                        \n                      \n                    ",
+            "width": "379px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "69px",
+            "text": "\n                      SS\n                      \n                        \n                          Commission SSCT\n                          hier\n                        \n                        \n                          \n                          ✓✓\n                          Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire.\n                          \n                          \n                          \n                        \n                      \n                    ",
+            "width": "379px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "69px",
+            "text": "\n                      AS\n                      \n                        \n                          Commission ASC\n                          lun.\n                        \n                        \n                          \n                          \n                          Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts.\n                          \n                          \n                          \n                        \n                      \n                    ",
+            "width": "379px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "69px",
+            "text": "\n                      JD\n                      \n                        \n                          Jean-Paul Diallo\n                          lun.\n                        \n                        \n                          \n                          \n                          Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.\n                          \n                          \n                          \n                        \n                      \n                    ",
+            "width": "379px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "40px",
+            "text": "\n                  JD\n                  \n                    Jean-Paul Diallo\n                    Élu titulaire · Délégué syndical\n                  \n                ",
+            "width": "476.227px"
+          },
+          {
+            "color": "rgb(55, 65, 81)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "33px",
+            "text": "Sélectionner",
+            "width": "104.422px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "31px",
+            "text": "unii",
+            "width": "69.3516px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(156, 163, 175)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "22px",
+            "text": "",
+            "width": "24px"
+          },
+          {
+            "color": "rgb(75, 85, 99)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "38px",
+            "text": "",
+            "width": "38px"
+          },
+          {
+            "color": "rgb(17, 24, 39)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "41px",
+            "text": "",
+            "width": "622px"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "font": "Inter, system-ui, sans-serif",
+            "height": "42px",
+            "text": "",
+            "width": "42px"
+          }
+        ],
+        "scroll": 1432,
+        "width": 1440
+      }
+    ]
+  }
+]

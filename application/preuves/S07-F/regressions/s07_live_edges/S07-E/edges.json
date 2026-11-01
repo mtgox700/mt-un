@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "count": 22,
+  "checks": [
+    {
+      "test": "login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "mfa",
+      "ok": true
+    },
+    {
+      "test": "login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "mfa",
+      "ok": true
+    },
+    {
+      "test": "source_text_not_in_live",
+      "ok": true
+    },
+    {
+      "test": "source_file_not_in_live",
+      "ok": true
+    },
+    {
+      "test": "no_hidden_reference_notices",
+      "ok": true
+    },
+    {
+      "test": "mark_all",
+      "ok": true
+    },
+    {
+      "test": "mark_all_notices_empty",
+      "ok": true
+    },
+    {
+      "test": "all_authorized_counts_zero",
+      "ok": true
+    },
+    {
+      "test": "repeat_mark_all",
+      "ok": true
+    },
+    {
+      "test": "unexpected_mark_all_scope_denied",
+      "ok": true
+    },
+    {
+      "test": "cannot_ack_hidden_source",
+      "ok": true
+    },
+    {
+      "test": "hidden_activity_does_not_change_cursor",
+      "ok": true
+    },
+    {
+      "test": "module_disabled_live_denied",
+      "ok": true
+    },
+    {
+      "test": "module_disabled_notices_denied",
+      "ok": true
+    },
+    {
+      "test": "commercial_revoked_live_denied",
+      "ok": true
+    },
+    {
+      "test": "commercial_revoked_notices_denied",
+      "ok": true
+    },
+    {
+      "test": "member_suspended_live_denied",
+      "ok": true
+    },
+    {
+      "test": "member_suspended_notices_denied",
+      "ok": true
+    }
+  ]
+}

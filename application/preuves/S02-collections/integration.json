@@ -1,0 +1,122 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "anonymous_refused",
+      "ok": true
+    },
+    {
+      "test": "source_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_refused",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "source_mfa",
+      "ok": true
+    },
+    {
+      "test": "reviewer_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reviewer_mfa",
+      "ok": true
+    },
+    {
+      "test": "not_adopted_by_default",
+      "ok": true
+    },
+    {
+      "test": "adopt_without_permission_refused",
+      "ok": true
+    },
+    {
+      "test": "wrong_organization_refused",
+      "ok": true
+    },
+    {
+      "test": "adopt_explicit",
+      "ok": true
+    },
+    {
+      "test": "override_saved",
+      "ok": true
+    },
+    {
+      "test": "draft_created",
+      "ok": true
+    },
+    {
+      "test": "target_cannot_see_draft",
+      "ok": true
+    },
+    {
+      "test": "self_publication_refused",
+      "ok": true
+    },
+    {
+      "test": "draft_cannot_be_adopted",
+      "ok": true
+    },
+    {
+      "test": "second_actor_publication",
+      "ok": true
+    },
+    {
+      "test": "no_automatic_update",
+      "ok": true
+    },
+    {
+      "test": "source_cannot_see_override",
+      "ok": true
+    },
+    {
+      "test": "decline_keeps_current",
+      "ok": true
+    },
+    {
+      "test": "stale_approval_refused",
+      "ok": true
+    },
+    {
+      "test": "approval_allowed",
+      "ok": true
+    },
+    {
+      "test": "local_override_preserved",
+      "ok": true
+    },
+    {
+      "test": "business_fields_refused",
+      "ok": true
+    },
+    {
+      "test": "stop_keeps_data",
+      "ok": true
+    },
+    {
+      "test": "stop_preserves_accepted_and_override",
+      "ok": true
+    },
+    {
+      "test": "stopped_updates_refused",
+      "ok": true
+    },
+    {
+      "test": "direct_rpc_unprivileged_refused",
+      "ok": true
+    }
+  ],
+  "count": 29
+}

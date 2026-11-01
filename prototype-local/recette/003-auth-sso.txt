@@ -1,0 +1,18 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 text uniion
+		3 heading L'outil des élus, pas celui de la direction., Value: 1
+			4 text L'outil des élus, pas celui de la direction.
+		5 text Dossiers chiffrés de bout en bout, assistant juridique sourcé sur votre convention, consultations des salariés et bilan de mandat. Hébergement en France, aucun accès employeur.
+		6 text Chiffrement AES-256 RGPD · données en France Anonymisation avant inférence IA
+		7 heading Redirection SSO, Value: 2
+			8 text Redirection SSO
+		9 text Authentification déléguée à l'annuaire de la fédération. Aucun mot de passe n'est stocké par uniion.
+		10 text FOURNISSEUR D'IDENTITÉ
+		11 text idp.federation-metallurgie.fr
+		12 text Assertion SAML 2.0 signée · attributs mandat et établissement transmis.
+		13 button S'authentifier sur l'annuaire
+		14 button Revenir au mot de passe
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

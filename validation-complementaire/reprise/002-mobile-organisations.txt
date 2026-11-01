@@ -1,0 +1,48 @@
+Browser tab: 8, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		6 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 text uniion CONSOLE D'ADMINISTRATION
+					37 button Supervision
+						38 image
+						39 text Supervision
+					40 button Organisations
+						41 image
+						42 text Organisations
+					18 button Utilisateurs
+						19 image
+						20 text Utilisateurs
+					21 button Clés API IA
+						22 image
+						23 text Clés API IA
+					24 button Éditeur de l’application
+						25 image
+						26 text Éditeur de l’application
+					27 button Abonnements et paiements
+						28 image
+						29 text Abonnements et paiements
+					30 button Journal d’audit
+						31 image
+						32 text Journal d’audit
+					33 text SA Super administrateur admin@uniion.fr
+					34 button Se déconnecter
+				35 container
+					36 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+					43 heading Organisations, Value: 1
+						44 text Organisations
+					45 text Sections, unions et CSE hébergés sur la plateforme. Métallurgie — Valenciennes Section syndicale  · offre  Élu 2.0 MEMBRES 6 ADHÉRENTS 214 REQUÊTES IA / MOIS 1 840 Actif
+					46 button Suspendre
+					47 text UD 59 — Lille Union départementale  · offre  Élu 4.0 MEMBRES 14 ADHÉRENTS 1 320 REQUÊTES IA / MOIS 6 210 Actif
+					48 button Suspendre
+					49 text CSE Brasserie du Nord CSE  · offre  Élu 1.0 MEMBRES 9 ADHÉRENTS 380 REQUÊTES IA / MOIS 420 Essai — 12 j restants
+					50 button Suspendre
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

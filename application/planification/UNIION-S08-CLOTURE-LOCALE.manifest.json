@@ -1,0 +1,9 @@
+{
+  "archive": "UNIION-S08-CLOTURE-LOCALE.zip",
+  "files": 1033,
+  "bytes": 14063590,
+  "sha256": "064c77a9a3f333342d12ff40dd36129aebec16285702e80cabcdc5640bdd2329",
+  "verified": true,
+  "secret_scan": "Known local fixture credentials and JWT patterns; not exhaustive",
+  "private_stores_included": false
+}

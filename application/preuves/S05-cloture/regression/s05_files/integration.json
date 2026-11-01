@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "count": 27,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "case_created",
+      "ok": true
+    },
+    {
+      "test": "ungranted_file_list_denied",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_upload_denied",
+      "ok": true
+    },
+    {
+      "test": "real_upload_clean",
+      "ok": true
+    },
+    {
+      "test": "metadata_persistent",
+      "ok": true
+    },
+    {
+      "test": "download_without_authority_denied",
+      "ok": true
+    },
+    {
+      "test": "exact_download_bytes",
+      "ok": true
+    },
+    {
+      "test": "reader_preview_allowed",
+      "ok": true
+    },
+    {
+      "test": "foreign_org_denied",
+      "ok": true
+    },
+    {
+      "test": "wrong_parent_denied",
+      "ok": true
+    },
+    {
+      "test": "wrong_attachment_denied",
+      "ok": true
+    },
+    {
+      "test": "invalid_extension_denied",
+      "ok": true
+    },
+    {
+      "test": "infected_blocked",
+      "ok": true
+    },
+    {
+      "test": "quarantine_recorded",
+      "ok": true
+    },
+    {
+      "test": "quarantine_download_denied",
+      "ok": true
+    },
+    {
+      "test": "quarantine_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "direct_storage_denied",
+      "ok": true
+    },
+    {
+      "test": "reassignment",
+      "ok": true
+    },
+    {
+      "test": "old_owner_list_denied",
+      "ok": true
+    },
+    {
+      "test": "old_owner_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "old_owner_download_denied",
+      "ok": true
+    },
+    {
+      "test": "new_owner_preview",
+      "ok": true
+    },
+    {
+      "test": "new_owner_no_implicit_download",
+      "ok": true
+    },
+    {
+      "test": "ui_case_created",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-29",
+  "environment": "Supabase local unii, application 5068",
+  "formats": [
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "new_version_persisted": true,
+      "restore_appends_version": true,
+      "restored_download_matches_original": true,
+      "reader_new_version_denied": true,
+      "reader_restore_denied": true,
+      "horizontal_overflow": false
+    },
+    {
+      "name": "tablette",
+      "width": 768,
+      "height": 1024,
+      "new_version_persisted": true,
+      "restore_appends_version": true,
+      "restored_download_matches_original": true,
+      "reader_new_version_denied": true,
+      "reader_restore_denied": true,
+      "horizontal_overflow": false
+    },
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "new_version_persisted": true,
+      "restore_appends_version": true,
+      "restored_download_matches_original": true,
+      "reader_new_version_denied": true,
+      "reader_restore_denied": true,
+      "horizontal_overflow": false
+    }
+  ],
+  "notes": [
+    "Viewports émulés, pas appareils physiques.",
+    "Dépôt desktop enregistré mais confirmation initiale non obtenue ; persistance vérifiée par relecture avant restauration, sans renvoi.",
+    "Notifications transitoires et fermables, comportement existant conservé."
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "passed": true,
+  "count": 80,
+  "checks": [
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "empty_register",
+      "ok": true
+    },
+    {
+      "test": "read_only_import_denied",
+      "ok": true
+    },
+    {
+      "test": "import_saved",
+      "ok": true
+    },
+    {
+      "test": "no_user_created",
+      "ok": true
+    },
+    {
+      "test": "no_membership_created",
+      "ok": true
+    },
+    {
+      "test": "reloaded_from_database",
+      "ok": true
+    },
+    {
+      "test": "financial_fields_hidden",
+      "ok": true
+    },
+    {
+      "test": "financial_fields_authorized",
+      "ok": true
+    },
+    {
+      "test": "foreign_read_empty",
+      "ok": true
+    },
+    {
+      "test": "nonmember_admin_denied",
+      "ok": true
+    },
+    {
+      "test": "duplicate_case_denied",
+      "ok": true
+    },
+    {
+      "test": "atomic_import_denied",
+      "ok": true
+    },
+    {
+      "test": "atomic_no_partial_rows",
+      "ok": true
+    },
+    {
+      "test": "invalid_prenom",
+      "ok": true
+    },
+    {
+      "test": "invalid_email",
+      "ok": true
+    },
+    {
+      "test": "invalid_ent",
+      "ok": true
+    },
+    {
+      "test": "invalid_owner",
+      "ok": true
+    },
+    {
+      "test": "read_only_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "cross_org_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "edit_saved",
+      "ok": true
+    },
+    {
+      "test": "stale_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "new_value_read_by_second_actor",
+      "ok": true
+    },
+    {
+      "test": "profile_write_does_not_grant_finance",
+      "ok": true
+    },
+    {
+      "test": "nonfinancial_editor_allowed",
+      "ok": true
+    },
+    {
+      "test": "finance_preserved",
+      "ok": true
+    },
+    {
+      "test": "module_disabled_denied",
+      "ok": true
+    },
+    {
+      "test": "commercial_access_revoked_denied",
+      "ok": true
+    },
+    {
+      "test": "departed_member_denied",
+      "ok": true
+    },
+    {
+      "test": "private_table_denied",
+      "ok": true
+    },
+    {
+      "test": "anonymous_list_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_list_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_list_denied",
+      "ok": true
+    },
+    {
+      "test": "list_create",
+      "ok": true
+    },
+    {
+      "test": "list_retry",
+      "ok": true
+    },
+    {
+      "test": "list_mutated_retry_denied",
+      "ok": true
+    },
+    {
+      "test": "list_second_actor",
+      "ok": true
+    },
+    {
+      "test": "list_isolated",
+      "ok": true
+    },
+    {
+      "test": "reader_update_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_update_denied",
+      "ok": true
+    },
+    {
+      "test": "list_update",
+      "ok": true
+    },
+    {
+      "test": "stale_update_denied",
+      "ok": true
+    },
+    {
+      "test": "targets_contract",
+      "ok": true
+    },
+    {
+      "test": "targets_no_finance",
+      "ok": true
+    },
+    {
+      "test": "foreign_targets_denied",
+      "ok": true
+    },
+    {
+      "test": "export_permission",
+      "ok": true
+    },
+    {
+      "test": "export_authorized",
+      "ok": true
+    },
+    {
+      "test": "export_audited",
+      "ok": true
+    },
+    {
+      "test": "private_lists",
+      "ok": true
+    },
+    {
+      "test": "import_Mobile",
+      "ok": true
+    },
+    {
+      "test": "no_plan_Mobile",
+      "ok": true
+    },
+    {
+      "test": "terms_Mobile",
+      "ok": true
+    },
+    {
+      "test": "import_Tablette",
+      "ok": true
+    },
+    {
+      "test": "no_plan_Tablette",
+      "ok": true
+    },
+    {
+      "test": "terms_Tablette",
+      "ok": true
+    },
+    {
+      "test": "import_Desktop",
+      "ok": true
+    },
+    {
+      "test": "no_plan_Desktop",
+      "ok": true
+    },
+    {
+      "test": "terms_Desktop",
+      "ok": true
+    },
+    {
+      "test": "import_Ancien",
+      "ok": true
+    },
+    {
+      "test": "no_plan_Ancien",
+      "ok": true
+    },
+    {
+      "test": "terms_Ancien",
+      "ok": true
+    },
+    {
+      "test": "preview",
+      "ok": true
+    },
+    {
+      "test": "anonymous_activation_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_activation_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_activation_denied",
+      "ok": true
+    },
+    {
+      "test": "past_denied",
+      "ok": true
+    },
+    {
+      "test": "stale_denied",
+      "ok": true
+    },
+    {
+      "test": "activate",
+      "ok": true
+    },
+    {
+      "test": "activate_retry",
+      "ok": true
+    },
+    {
+      "test": "no_retroactivity",
+      "ok": true
+    },
+    {
+      "test": "activation_audited",
+      "ok": true
+    },
+    {
+      "test": "historical_charge",
+      "ok": true
+    },
+    {
+      "test": "unknown_blocks",
+      "ok": true
+    },
+    {
+      "test": "coverage_without_plan",
+      "ok": true
+    },
+    {
+      "test": "coverage_list_without_plan",
+      "ok": true
+    },
+    {
+      "test": "activation_unblocked",
+      "ok": true
+    },
+    {
+      "test": "disabled_contract",
+      "ok": true
+    }
+  ]
+}

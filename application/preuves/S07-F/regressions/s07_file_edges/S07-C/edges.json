@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "count": 20,
+  "checks": [
+    {
+      "test": "login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "mfa",
+      "ok": true
+    },
+    {
+      "test": "login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "mfa",
+      "ok": true
+    },
+    {
+      "test": "concurrent_prepare_single_object",
+      "ok": true
+    },
+    {
+      "test": "old_interrupted_preparation_same_object",
+      "ok": true
+    },
+    {
+      "test": "old_interrupted_upload_resumed",
+      "ok": true
+    },
+    {
+      "test": "old_scan_generation_denied",
+      "ok": true
+    },
+    {
+      "test": "pending_cannot_download",
+      "ok": true
+    },
+    {
+      "test": "fresh_scan_resumed",
+      "ok": true
+    },
+    {
+      "test": "private_file_table_denied",
+      "ok": true
+    },
+    {
+      "test": "private_links_table_denied",
+      "ok": true
+    },
+    {
+      "test": "download_revoked_after_fetch",
+      "ok": true
+    },
+    {
+      "test": "suspended_direct_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "read_permission_revoked",
+      "ok": true
+    },
+    {
+      "test": "commercial_revoked",
+      "ok": true
+    },
+    {
+      "test": "preview_restored_current_reader",
+      "ok": true
+    },
+    {
+      "test": "authorized_recovery_projection",
+      "ok": true
+    }
+  ]
+}

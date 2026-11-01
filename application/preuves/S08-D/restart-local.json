@@ -1,0 +1,8 @@
+{
+  "schema": 2,
+  "responses": 1,
+  "remembered": 1,
+  "key_mode": "0o600",
+  "db_mode": "0o600",
+  "source_ids_absent_in_db": true
+}

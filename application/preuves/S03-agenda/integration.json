@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "count": 25,
+  "checks": [
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "mfa_a",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "mfa_b",
+      "ok": true
+    },
+    {
+      "test": "empty_real_agenda",
+      "ok": true
+    },
+    {
+      "test": "create_allowed",
+      "ok": true
+    },
+    {
+      "test": "persisted_read",
+      "ok": true
+    },
+    {
+      "test": "restricted_audience_hidden",
+      "ok": true
+    },
+    {
+      "test": "create_without_permission_denied",
+      "ok": true
+    },
+    {
+      "test": "superadmin_foreign_org_denied",
+      "ok": true
+    },
+    {
+      "test": "cross_org_id_denied",
+      "ok": true
+    },
+    {
+      "test": "invalid_time_denied",
+      "ok": true
+    },
+    {
+      "test": "extra_owner_field_denied",
+      "ok": true
+    },
+    {
+      "test": "update_allowed",
+      "ok": true
+    },
+    {
+      "test": "stale_version_denied",
+      "ok": true
+    },
+    {
+      "test": "audience_event_created",
+      "ok": true
+    },
+    {
+      "test": "audience_filtered",
+      "ok": true
+    },
+    {
+      "test": "read_only_update_denied",
+      "ok": true
+    },
+    {
+      "test": "disabled_read_denied",
+      "ok": true
+    },
+    {
+      "test": "disabled_write_denied",
+      "ok": true
+    },
+    {
+      "test": "unpaid_denied",
+      "ok": true
+    },
+    {
+      "test": "revoked_membership_denied",
+      "ok": true
+    },
+    {
+      "test": "direct_table_inaccessible",
+      "ok": true
+    }
+  ]
+}

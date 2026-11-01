@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "automatic_failed_backups_detected",
+      "ok": true
+    },
+    {
+      "test": "failure_notification_deduplicated",
+      "ok": true
+    },
+    {
+      "test": "persistent_alert_available",
+      "ok": true
+    },
+    {
+      "test": "unchanged_monitor_stays_quiet",
+      "ok": true
+    },
+    {
+      "test": "two_timer_triggered_real_backups",
+      "ok": true
+    },
+    {
+      "test": "recovery_clears_incident",
+      "ok": true
+    },
+    {
+      "test": "recovery_notification_recorded",
+      "ok": true
+    },
+    {
+      "test": "archives_and_key_integrity",
+      "ok": true
+    },
+    {
+      "test": "each_success_verified",
+      "ok": true
+    },
+    {
+      "test": "concurrent_runner_refused",
+      "ok": true
+    },
+    {
+      "test": "stopped_scheduler_detected",
+      "ok": true
+    },
+    {
+      "test": "hourly_age_breach_detected",
+      "ok": true
+    },
+    {
+      "test": "key_integrity_change_detected",
+      "ok": true
+    },
+    {
+      "test": "archive_integrity_change_detected",
+      "ok": true
+    },
+    {
+      "test": "low_disk_space_blocks_without_purge",
+      "ok": true
+    },
+    {
+      "test": "interrupted_previous_run_detected",
+      "ok": true
+    },
+    {
+      "test": "backups_unchanged_after_space_failure",
+      "ok": true
+    },
+    {
+      "test": "hung_worker_bounded",
+      "ok": true
+    },
+    {
+      "test": "no_backup_file_removed",
+      "ok": true
+    },
+    {
+      "test": "private_state_permissions",
+      "ok": true
+    }
+  ],
+  "fixture": "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/.local-backup-scheduler-tests/20261026T121816",
+  "timer_unloaded": true,
+  "backups_deleted": 0,
+  "notification_limit": "Persistent alerts tested; desktop notifications disabled for isolated failure test"
+}

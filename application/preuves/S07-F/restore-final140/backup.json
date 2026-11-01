@@ -1,0 +1,13 @@
+{
+  "backup": "20261030T183528Z",
+  "seconds": 18.332,
+  "tables": 89,
+  "rows": 15290,
+  "users": 19,
+  "verified_totp_factors": 14,
+  "objects": 280,
+  "object_bytes": 1377277,
+  "encrypted_bytes": 3150369,
+  "retention_target_days": 30,
+  "automatic_deletion": false
+}

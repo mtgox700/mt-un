@@ -1,0 +1,119 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - button "Revenir aux paramètres":
+  - heading "Extensions" [level=1]
+  - paragraph: "Les extensions ajoutent des styles, des blocs et des thèmes sans modifier le cœur d'uniion. Désactivée, une extension disparaît sans laisser de trace : vos contenus reviennent à leur rendu habituel."
+  - generic: 1 extension chargée · API v1
+  - heading "uniion Studio" [level=2]
+  - generic: Active
+  - generic: v1.2.0 · uniion · API v1 · identifiant uniion-studio
+  - paragraph: Styles graphiques de documents et tracts (dont satire, BD, détournement), blocs visuels, thèmes et sections pour les pages intranet et internet.
+  - switch "Activer l'extension" [checked]
+  - generic: Autorisations
+  - generic: Mettre en page les documents
+  - generic: Ajouter des blocs aux documents
+  - generic: Habiller les pages web
+  - generic: Ajouter des sections aux pages
+  - generic: Aperçus par appareil
+  - generic: Donner des consignes de rédaction à unii
+  - generic: Styles de documents · 12
+  - button "Affiche choc" [pressed]
+  - button "Journal syndical" [pressed]
+  - button "Infographie" [pressed]
+  - button "Institutionnel sobre" [pressed]
+  - button "Photo pleine page" [pressed]
+  - button "Sérigraphie militante" [pressed]
+  - button "Bulletin d'information" [pressed]
+  - button "Question / réponse" [pressed]
+  - button "Journal satirique" [pressed]
+  - button "Bande dessinée" [pressed]
+  - button "Petite annonce parodique" [pressed]
+  - button "Affiche rétro" [pressed]
+  - generic: Blocs de documents · 12
+  - button "Chiffre clé" [pressed]
+  - button "Comparatif" [pressed]
+  - button "Frise de dates" [pressed]
+  - button "Photo" [pressed]
+  - button "QR code" [pressed]
+  - button "Coupon d'adhésion" [pressed]
+  - button "Trombinoscope" [pressed]
+  - button "Tampon" [pressed]
+  - button "Bandeau surligné" [pressed]
+  - button "Signature" [pressed]
+  - button "Bulles de dialogue" [pressed]
+  - button "Encadré « FO exige »" [pressed]
+  - generic: Thèmes de pages · 6
+  - button "Éditorial" [pressed]
+  - button "Moderne à cartes" [pressed]
+  - button "Militant" [pressed]
+  - button "Institutionnel" [pressed]
+  - button "Magazine" [pressed]
+  - button "Minimal" [pressed]
+  - generic: Sections de pages · 7
+  - button "Bandeau d'accroche" [pressed]
+  - button "Chiffres clés" [pressed]
+  - button "Frise de la négociation" [pressed]
+  - button "FAQ dépliable" [pressed]
+  - button "Cartes des élus" [pressed]
+  - button "Agenda" [pressed]
+  - button "Appel à adhérer" [pressed]
+  - generic: Aperçus par appareil · 3
+  - button "Ordinateur" [pressed]
+  - button "Tablette" [pressed]
+  - button "Mobile" [pressed]
+  - heading "Installer une extension" [level=2]
+  - paragraph: "Indiquez l'adresse du fichier de l'extension : chemin relatif (./extensions/…) ou adresse https. N'installez que des extensions dont vous connaissez l'éditeur."
+  - textbox "Adresse de l'extension":
+    - /placeholder: ./extensions/mon-extension.js
+  - button "Installer"
+  - heading "Auto-test de non-régression" [level=2]
+  - paragraph: Compare le rendu avec et sans extensions, et rend chaque style sur chaque document.
+  - button "Lancer l'auto-test"

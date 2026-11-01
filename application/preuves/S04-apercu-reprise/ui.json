@@ -1,0 +1,54 @@
+{
+  "authorized": [
+    {
+      "format": "mobile",
+      "width": 390,
+      "height": 844,
+      "resumed": true,
+      "pages": 2,
+      "page2": true,
+      "scrollWidth": 390
+    },
+    {
+      "format": "tablette",
+      "width": 768,
+      "height": 1024,
+      "resumed": true,
+      "pages": 2,
+      "page2": true,
+      "scrollWidth": 768
+    },
+    {
+      "format": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "resumed": true,
+      "pages": 2,
+      "page2": true,
+      "scrollWidth": 1440
+    }
+  ],
+  "wordTextPreview": true,
+  "persistedOnCardReopen": true,
+  "withoutDownloadAuthority": true,
+  "denied": [
+    {
+      "label": "mobile",
+      "noEvidence": true,
+      "noResume": true,
+      "noPreview": true
+    },
+    {
+      "label": "tablette",
+      "noEvidence": true,
+      "noResume": true,
+      "noPreview": true
+    },
+    {
+      "label": "desktop",
+      "noEvidence": true,
+      "noResume": true,
+      "noPreview": true
+    }
+  ]
+}

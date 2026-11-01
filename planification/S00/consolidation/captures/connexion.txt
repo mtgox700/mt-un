@@ -1,0 +1,21 @@
+- generic: uniion
+- heading "L'outil des élus, pas celui de la direction." [level=1]
+- paragraph: "Prototype local : dossiers, assistant juridique, consultations des salariés et bilan de mandat. Données de démonstration ; hébergement et protections de production à intégrer."
+- generic: Chiffrement cible AES-256
+- generic: Cible RGPD · démonstration locale
+- generic: Anonymisation avant inférence IA
+- heading "Connexion" [level=2]
+- paragraph: Compte militant de la section syndicale Métallurgie — Valenciennes.
+- text: Adresse professionnelle
+- textbox "Adresse professionnelle":
+  - /placeholder: prenom.nom@syndicat.fr
+  - text: <redacted>
+- text: Mot de passe
+- textbox "Mot de passe":
+  - /placeholder: ••••••••
+- button "Continuer"
+- generic: ou
+- button "SSO fédération (SAML)":
+  - text: SSO fédération (SAML)
+- button "Mot de passe oublié ?"
+- button "Accès super administrateur (admin@uniion.fr)"

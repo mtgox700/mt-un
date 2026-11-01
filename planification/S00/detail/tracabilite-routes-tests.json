@@ -1,0 +1,542 @@
+[
+  {
+    "route": "adherents",
+    "module": "adherents",
+    "tests_existants": "ET1-15",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/14 [Adhérents360]; prototype-local/audit-responsive/corrections/mesures.json#/index/21 [adherents-filtres-360]; prototype-local/audit-responsive/corrections/mesures.json#/index/32 [Adhérents768]; prototype-local/audit-responsive/corrections/mesures.json#/index/60 [Adhérents1024]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-adherents: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "adherent",
+    "module": "adherents",
+    "tests_existants": "ET1-12; ET1-15",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/15 [Fiche adhérent-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/16 [Fiche adhérent-768]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/17 [Modification adhérent-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/18 [Modification adhérent-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-adherent: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "adhmsg",
+    "module": "adherents",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/19 [Message adhérents-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/20 [Message adhérents-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-adhmsg: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "adhimport",
+    "module": "adherents",
+    "tests_existants": "ET1-17; ET1-18; ET1-19; ET1-20; ET1-21; ET1-22",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/13 [Import CSV-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/14 [Import CSV-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-adhimport: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "intranet",
+    "module": "publications",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/15 [Intranet360]; prototype-local/audit-responsive/corrections/mesures.json#/index/33 [Intranet768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-intranet: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "webgen",
+    "module": "publications",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/21 [Générateur-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/22 [Générateur-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-webgen: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "webedit",
+    "module": "publications",
+    "tests_existants": "ET1-26",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/90 [Éditeur intranet corrigé-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/91 [Éditeur intranet corrigé-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-webedit: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "webpub",
+    "module": "publications",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/29 [Envoi webmaster-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/30 [Envoi webmaster-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-webpub: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "webqueue",
+    "module": "publications",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/23 [Suivi-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/24 [Suivi-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-webqueue: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "webcharte",
+    "module": "publications",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/25 [Charte-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/26 [Charte-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-webcharte: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "accueil",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/4 [Accueil360]; prototype-local/audit-responsive/corrections/mesures.json#/index/22 [Accueil768]; prototype-local/audit-responsive/corrections/mesures.json#/index/56 [Accueil1024]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-accueil: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "dossiers",
+    "module": "dossiers",
+    "tests_existants": "REG-02",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/6 [Dossiers360]; prototype-local/audit-responsive/corrections/mesures.json#/index/24 [Dossiers768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-dossiers: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "dossier",
+    "module": "dossiers",
+    "tests_existants": "REG-02; REG-09",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/41 [Détail dossier-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/42 [Détail dossier-768]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/43 [Modale édition dossier-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/44 [Modale édition dossier-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-dossier: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "nouveau",
+    "module": "dossiers",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/39 [Nouveau dossier-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/40 [Nouveau dossier-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-nouveau: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "assistant",
+    "module": "assistant",
+    "tests_existants": "REG-04; REG-05; REG-06; REG-07; REG-08; REG-18",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/5 [Assistant360]; prototype-local/audit-responsive/corrections/mesures.json#/index/23 [Assistant768]; prototype-local/audit-responsive/corrections/mesures.json#/index/61 [Assistant1024]; prototype-local/audit-responsive/corrections/mesures.json#/index/64 [assistant-final360]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-assistant: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "sondages",
+    "module": "sondages",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/19 [Sondages360]; prototype-local/audit-responsive/corrections/mesures.json#/index/37 [Sondages768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-sondages: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "sondage",
+    "module": "sondages",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/61 [Résultats sondage-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/62 [Résultats sondage-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-sondage: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "tract",
+    "module": "documents",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "Aucune preuve rattachée dans les deux passes analysées",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-tract: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Non établie"
+  },
+  {
+    "route": "documents",
+    "module": "documents",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/10 [Documents360]; prototype-local/audit-responsive/corrections/mesures.json#/index/28 [Documents768]; prototype-local/audit-responsive/corrections/mesures.json#/index/59 [Documents1024]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-documents: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "docedit",
+    "module": "documents",
+    "tests_existants": "REG-11; REG-19",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/2 [document-edition360]; prototype-local/audit-responsive/corrections/mesures.json#/index/3 [document-apercu360]; prototype-local/audit-responsive/corrections/mesures.json#/index/55 [document-tablette768]; prototype-local/audit-responsive/corrections/mesures.json#/index/62 [document390-final]; prototype-local/audit-responsive/corrections/mesures.json#/index/65 [editeur-final360]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-docedit: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "agenda",
+    "module": "agenda",
+    "tests_existants": "REG-12; COR-06; ET1-13; ET1-14; ET1-16",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/1 [agenda360]; prototype-local/audit-responsive/corrections/mesures.json#/index/8 [Agenda360]; prototype-local/audit-responsive/corrections/mesures.json#/index/26 [Agenda768]; prototype-local/audit-responsive/corrections/mesures.json#/index/58 [Agenda1024]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-agenda: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "raccourcis",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/17 [Raccourcis360]; prototype-local/audit-responsive/corrections/mesures.json#/index/35 [Raccourcis768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-raccourcis: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "reunions",
+    "module": "reunions",
+    "tests_existants": "COR-01; COR-02; COR-03",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/9 [Réunions360]; prototype-local/audit-responsive/corrections/mesures.json#/index/27 [Réunions768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-reunions: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "record",
+    "module": "reunions",
+    "tests_existants": "COR-12; COR-13; COR-14; COR-15",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/57 [Enregistrement consentement-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/58 [Enregistrement consentement-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-record: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "reunion",
+    "module": "reunions",
+    "tests_existants": "COR-01; COR-11",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/59 [Réunion PV-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/60 [Réunion PV-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-reunion: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "extensions",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/6 [Extensions Modules-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/83 [Extensions Modules-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-extensions: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "notifs",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "Aucune preuve rattachée dans les deux passes analysées",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-notifs: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Non établie"
+  },
+  {
+    "route": "recherche",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "Aucune preuve rattachée dans les deux passes analysées",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-recherche: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Non établie"
+  },
+  {
+    "route": "params",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/18 [Réglages360]; prototype-local/audit-responsive/corrections/mesures.json#/index/36 [Réglages768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-params: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "profil",
+    "module": "socle",
+    "tests_existants": "ET1-01; ET1-02; ET1-03; ET1-04; ET1-05; ET1-06",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/1 [Profil & mandat-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/78 [Profil & mandat-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-profil: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "prefs",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/2 [Notifications Granularité-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/79 [Notifications Granularité-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-prefs: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "securite",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/8 [Sécurité Double-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/85 [Sécurité Double-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-securite: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "iasecu",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "Aucune preuve rattachée dans les deux passes analysées",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-iasecu: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Non établie"
+  },
+  {
+    "route": "rgpd",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/9 [Confidentialité & RGPD-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/86 [Confidentialité & RGPD-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-rgpd: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "membres",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/10 [Organisation & membres-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/31 [Modale invitation-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/32 [Modale invitation-768]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/87 [Organisation & membres-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-membres: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "apikey",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/7 [Configuration IA Fournisseur-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/84 [Configuration IA Fournisseur-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-apikey: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "memoire",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/4 [Mémoire de l.assistant Faits-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/81 [Mémoire de l.assistant Faits-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-memoire: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "messagerie",
+    "module": "messagerie",
+    "tests_existants": "REG-14; REG-20",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/7 [Messages360]; prototype-local/audit-responsive/corrections/mesures.json#/index/25 [Messages768]; prototype-local/audit-responsive/corrections/mesures.json#/index/57 [Messages1024]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-messagerie: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "thread",
+    "module": "messagerie",
+    "tests_existants": "REG-14; REG-20; REG-03",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/0 [conversation360]; prototype-local/audit-responsive/corrections/mesures.json#/index/63 [conversation-final430]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/51 [Infos discussion-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/52 [Infos discussion-768]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/53 [Modale transfert-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/54 [Modale transfert-768]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/55 [Modale classement dossier-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/56 [Modale classement dossier-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-thread: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "offline",
+    "module": "socle",
+    "tests_existants": "COR-08; COR-09",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/20 [Hors ligne360]; prototype-local/audit-responsive/corrections/mesures.json#/index/38 [Hors ligne768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-offline: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "onboarding",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/12 [Prise en main Convention-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/89 [Prise en main Convention-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-onboarding: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "admin",
+    "module": "socle",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/11 [Espace admin Tableau-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/88 [Espace admin Tableau-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-admin: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "signature",
+    "module": "documents",
+    "tests_existants": "REG-11; REG-19; COR-10",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/65 [Signature document-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/66 [Signature document-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-signature: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "contacts",
+    "module": "socle",
+    "tests_existants": "ET1-07; ET1-08; ET1-09; ET1-10; ET1-11",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/3 [Contacts & groupes Annuaire-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/33 [Modale contact-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/34 [Modale contact-768]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/35 [Modale groupe-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/36 [Modale groupe-768]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/37 [Modale membres groupe-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/38 [Modale membres groupe-768]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/80 [Contacts & groupes Annuaire-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-contacts: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "formations",
+    "module": "formations",
+    "tests_existants": "REG-17",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/11 [Formations360]; prototype-local/audit-responsive/corrections/mesures.json#/index/29 [Formations768]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/73 [Formations généralistes 31-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/74 [Formations généralistes 31-768]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/75 [Se former avec unii-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/76 [Se former avec unii-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-formations: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "communication",
+    "module": "communication",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/12 [Communication360]; prototype-local/audit-responsive/corrections/mesures.json#/index/30 [Communication768]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/69 [Atelier de contenus-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/70 [Atelier de contenus-768]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/71 [Pôle communication-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/72 [Pôle communication-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-communication: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "mobile",
+    "module": "publications",
+    "tests_existants": "REG-10",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/13 [Application mobile360]; prototype-local/audit-responsive/corrections/mesures.json#/index/31 [Application mobile768]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/67 [Éditeur application mobile-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/68 [Éditeur application mobile-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-mobile: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "unii",
+    "module": "socle",
+    "tests_existants": "ET1-29; ET1-30",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/5 [Actions d.unii Actions-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/82 [Actions d.unii Actions-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-unii: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "pieces",
+    "module": "dossiers",
+    "tests_existants": "COR-04; COR-05; REG-13",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/45 [Pièces jointes-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/46 [Pièces jointes-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-pieces: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "marque",
+    "module": "socle",
+    "tests_existants": "ET1-27; ET1-28",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/0 [Identité de marque-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/77 [Identité de marque-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-marque: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "reporting",
+    "module": "reporting",
+    "tests_existants": "REG-16; EXP-01; EXP-02; EXP-03; EXP-04",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/16 [Reporting360]; prototype-local/audit-responsive/corrections/mesures.json#/index/34 [Reporting768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-reporting: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "newpoll",
+    "module": "sondages",
+    "tests_existants": "REG-15",
+    "preuves_visuelles": "prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/63 [Nouveau sondage-360]; prototype-local/audit-responsive/sous-ecrans/mesures.json#/index/64 [Nouveau sondage-768]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-newpoll: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "viewer",
+    "module": "documents",
+    "tests_existants": "REG-13",
+    "preuves_visuelles": "Aucune preuve rattachée dans les deux passes analysées",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-viewer: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "plateforme:supervision",
+    "module": "plateforme",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/40 [admin-Supervision768]; prototype-local/audit-responsive/corrections/mesures.json#/index/47 [admin-Supervision360]; prototype-local/audit-responsive/corrections/mesures.json#/index/66 [admin-final-Supervision360]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-plateforme:supervision: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "plateforme:organisations",
+    "module": "plateforme",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/41 [admin-Organisations768]; prototype-local/audit-responsive/corrections/mesures.json#/index/48 [admin-Organisations360]; prototype-local/audit-responsive/corrections/mesures.json#/index/67 [admin-final-Organisations360]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-plateforme:organisations: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "plateforme:utilisateurs",
+    "module": "plateforme",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/42 [admin-Utilisateurs768]; prototype-local/audit-responsive/corrections/mesures.json#/index/49 [admin-Utilisateurs360]; prototype-local/audit-responsive/corrections/mesures.json#/index/68 [admin-final-Utilisateurs360]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-plateforme:utilisateurs: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "plateforme:cles",
+    "module": "plateforme",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/43 [admin-Clés API IA768]; prototype-local/audit-responsive/corrections/mesures.json#/index/50 [admin-Clés API IA360]; prototype-local/audit-responsive/corrections/mesures.json#/index/69 [admin-final-Clés API IA360]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-plateforme:cles: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "plateforme:editeur",
+    "module": "plateforme",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/44 [admin-Éditeur de l’application768]; prototype-local/audit-responsive/corrections/mesures.json#/index/51 [admin-Éditeur de l’application360]; prototype-local/audit-responsive/corrections/mesures.json#/index/70 [admin-final-Éditeur de l’application360]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-plateforme:editeur: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "plateforme:facturation",
+    "module": "plateforme",
+    "tests_existants": "Aucun rattachement établi",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/45 [admin-Abonnements et paiements768]; prototype-local/audit-responsive/corrections/mesures.json#/index/52 [admin-Abonnements et paiements360]; prototype-local/audit-responsive/corrections/mesures.json#/index/71 [admin-final-Abonnements et paiements360]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-plateforme:facturation: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  },
+  {
+    "route": "plateforme:journaux",
+    "module": "plateforme",
+    "tests_existants": "COR-07",
+    "preuves_visuelles": "prototype-local/audit-responsive/corrections/mesures.json#/index/46 [admin-Journal d’audit768]; prototype-local/audit-responsive/corrections/mesures.json#/index/53 [admin-Journal d’audit360]; prototype-local/audit-responsive/corrections/mesures.json#/index/72 [admin-final-Journal d’audit360]",
+    "portee": "Preuves de disposition et logique partielle, pas recette complète ni sécurité production",
+    "a_ecrire": "E2E-plateforme:journaux: nominal, refus, vide, erreur, annulation, navigation, persistance ; ISO-01/02/03/04/05/13/14 selon opérations ; responsive, clavier et données longues",
+    "couverture": "Partielle"
+  }
+]

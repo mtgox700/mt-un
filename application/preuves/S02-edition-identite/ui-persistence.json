@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "test": "new_session_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "new_session_mfa",
+      "ok": true
+    },
+    {
+      "test": "browser_profile_persisted_new_session",
+      "ok": true
+    },
+    {
+      "test": "browser_organization_persisted_new_session",
+      "ok": true
+    }
+  ],
+  "passed": true,
+  "count": 5
+}

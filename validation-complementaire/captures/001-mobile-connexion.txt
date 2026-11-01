@@ -1,0 +1,30 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		6 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 text uniion
+				11 heading Connexion, Value: 2
+					12 text Connexion
+				13 text Compte militant de la section syndicale Métallurgie — Valenciennes.
+				14 container
+					15 text Adresse professionnelle
+					16 text field (settable) Adresse professionnelle, Value: <redacted>
+				17 container
+					18 text Mot de passe
+					19 text field (settable) Mot de passe
+				20 button Continuer
+				21 text ou
+				22 button SSO fédération (SAML)
+					23 image
+					24 text SSO fédération (SAML)
+				25 button Mot de passe oublié ?
+				26 button Accès super administrateur (admin@uniion.fr)
+
+The focused UI element is 0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive

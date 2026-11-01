@@ -1,0 +1,230 @@
+[
+  {
+    "test": "author_login",
+    "ok": true
+  },
+  {
+    "test": "challenge_created",
+    "ok": true
+  },
+  {
+    "test": "author_mfa",
+    "ok": true
+  },
+  {
+    "test": "reader_login",
+    "ok": true
+  },
+  {
+    "test": "challenge_created",
+    "ok": true
+  },
+  {
+    "test": "reader_mfa",
+    "ok": true
+  },
+  {
+    "test": "meeting_created",
+    "ok": true
+  },
+  {
+    "test": "consent_saved",
+    "ok": true
+  },
+  {
+    "test": "meeting_author_has_no_implicit_audio",
+    "ok": true
+  },
+  {
+    "test": "manager_self_grant_refused",
+    "ok": true
+  },
+  {
+    "test": "audio_rights_granted",
+    "ok": true
+  },
+  {
+    "test": "stale_grant_refused",
+    "ok": true
+  },
+  {
+    "test": "manager_has_no_implicit_audio",
+    "ok": true
+  },
+  {
+    "test": "speech_uploaded",
+    "ok": true
+  },
+  {
+    "test": "absent",
+    "ok": true
+  },
+  {
+    "test": "unauthorized_reader",
+    "ok": true
+  },
+  {
+    "test": "foreign_org",
+    "ok": true
+  },
+  {
+    "test": "pending",
+    "ok": true
+  },
+  {
+    "test": "idempotent",
+    "ok": true
+  },
+  {
+    "test": "ordinary_worker_refused",
+    "ok": true
+  },
+  {
+    "test": "actual_worker",
+    "ok": true
+  },
+  {
+    "test": "done",
+    "ok": true
+  },
+  {
+    "test": "real_french_speech",
+    "ok": true
+  },
+  {
+    "test": "completed_idempotent",
+    "ok": true
+  },
+  {
+    "test": "private_jobs",
+    "ok": true
+  },
+  {
+    "test": "worker_cannot_read_completed_source",
+    "ok": true
+  },
+  {
+    "test": "no_download_inheritance",
+    "ok": true
+  },
+  {
+    "test": "segment_uploaded_0",
+    "ok": true
+  },
+  {
+    "test": "sequence_0",
+    "ok": true
+  },
+  {
+    "test": "segment_uploaded_1",
+    "ok": true
+  },
+  {
+    "test": "sequence_1",
+    "ok": true
+  },
+  {
+    "test": "two_sources",
+    "ok": true
+  },
+  {
+    "test": "leased_source_readable",
+    "ok": true
+  },
+  {
+    "test": "unleased_source_refused",
+    "ok": true
+  },
+  {
+    "test": "cancel_running",
+    "ok": true
+  },
+  {
+    "test": "cancel_removes_storage",
+    "ok": true
+  },
+  {
+    "test": "late_finish_refused",
+    "ok": true
+  },
+  {
+    "test": "explicit_retry",
+    "ok": true
+  },
+  {
+    "test": "invalid_result_refused",
+    "ok": true
+  },
+  {
+    "test": "checkpoint",
+    "ok": true
+  },
+  {
+    "test": "expired_lease_refused",
+    "ok": true
+  },
+  {
+    "test": "restart_resumes",
+    "ok": true
+  },
+  {
+    "test": "two_parts_done",
+    "ok": true
+  },
+  {
+    "test": "absolute_timeline",
+    "ok": true
+  },
+  {
+    "test": "no_duplicate_checkpoint",
+    "ok": true
+  },
+  {
+    "test": "grant_revoked",
+    "ok": true
+  },
+  {
+    "test": "grant_hides_transcript",
+    "ok": true
+  },
+  {
+    "test": "grant_restored",
+    "ok": true
+  },
+  {
+    "test": "module_hides_transcript",
+    "ok": true
+  },
+  {
+    "test": "withdraw_case_audio",
+    "ok": true
+  },
+  {
+    "test": "withdraw_case_start",
+    "ok": true
+  },
+  {
+    "test": "error_persisted",
+    "ok": true
+  },
+  {
+    "test": "error_retry",
+    "ok": true
+  },
+  {
+    "test": "withdraw",
+    "ok": true
+  },
+  {
+    "test": "withdraw_stops_storage",
+    "ok": true
+  },
+  {
+    "test": "withdraw_stops_finish",
+    "ok": true
+  },
+  {
+    "test": "withdraw_hides_text",
+    "ok": true
+  }
+]

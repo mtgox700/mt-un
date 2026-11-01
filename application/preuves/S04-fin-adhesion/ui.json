@@ -1,0 +1,65 @@
+{
+  "confirmed": [
+    {
+      "label": "mobile",
+      "ended": true,
+      "stopped": true,
+      "balance": true,
+      "noNewCharge": true,
+      "noResume": true
+    },
+    {
+      "label": "tablette",
+      "ended": true,
+      "stopped": true,
+      "balance": true,
+      "noNewCharge": true,
+      "noResume": true
+    },
+    {
+      "label": "desktop",
+      "ended": true,
+      "stopped": true,
+      "balance": true,
+      "noNewCharge": true,
+      "noResume": true
+    }
+  ],
+  "denied": [
+    {
+      "label": "mobile",
+      "activeMember": true,
+      "endAbsent": true,
+      "financeAbsent": true
+    },
+    {
+      "label": "tablette",
+      "activeMember": true,
+      "endAbsent": true,
+      "financeAbsent": true
+    },
+    {
+      "label": "desktop",
+      "activeMember": true,
+      "endAbsent": true,
+      "financeAbsent": true
+    }
+  ],
+  "dimensions": [
+    {
+      "label": "mobile",
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "label": "tablette",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "label": "desktop",
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  ]
+}

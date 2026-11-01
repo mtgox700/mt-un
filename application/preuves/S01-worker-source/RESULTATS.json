@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-26",
+  "source_integration_checks": 41,
+  "unit_tests": 102,
+  "total_current_run": 143,
+  "references_unchanged": 834,
+  "private_config_mode": "0600",
+  "local_s01": "closed",
+  "production_qualified": false,
+  "worker_execution": "explicit approved request ID, on demand"
+}

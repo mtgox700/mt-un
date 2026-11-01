@@ -1,0 +1,19 @@
+✔ group creation retains its client id through uncertain retry (1.558666ms)
+✔ membership edit carries server version and no caller authority fields (0.682291ms)
+✔ history uses selected sequence and current recipient episode (0.314458ms)
+✔ no history option without separate authority (0.77225ms)
+✔ late mutation cannot populate another identity or announce success (0.136542ms)
+✔ remove prepares an explicit edit, no immediate request (0.130917ms)
+✔ self role change and non moderator edits do not reach server (0.095875ms)
+✔ failed version update keeps the edit for review (0.109333ms)
+✔ failure remains visible inside the form (0.220125ms)
+✔ confirmation does not discard edits made while saving (0.174167ms)
+✔ old history callbacks cannot open a form in a new identity (0.19775ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 65.337958

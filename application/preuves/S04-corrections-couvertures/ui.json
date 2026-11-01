@@ -1,0 +1,51 @@
+{
+  "denied": [
+    {
+      "label": "mobile",
+      "member": true,
+      "noCorrection": true,
+      "noFinance": true
+    },
+    {
+      "label": "tablette",
+      "member": true,
+      "noCorrection": true,
+      "noFinance": true
+    },
+    {
+      "label": "desktop",
+      "member": true,
+      "noCorrection": true,
+      "noFinance": true
+    }
+  ],
+  "dimensions": [
+    {
+      "label": "mobile",
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "label": "tablette",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "label": "desktop",
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  ],
+  "overlapRefused": {
+    "mobile": true,
+    "tablette": true,
+    "desktop": true
+  },
+  "confirmed": {
+    "mobile": true,
+    "tablette": true,
+    "desktop": true
+  },
+  "reloadedHistory": true,
+  "balancePreserved": true
+}

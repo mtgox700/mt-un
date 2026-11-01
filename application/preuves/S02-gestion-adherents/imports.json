@@ -1,0 +1,29 @@
+[
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "rejected": true,
+    "imported": true,
+    "invalidAbsent": true
+  },
+  {
+    "size": {
+      "width": 820,
+      "height": 1180
+    },
+    "rejected": true,
+    "imported": true,
+    "invalidAbsent": true
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "rejected": true,
+    "imported": true,
+    "invalidAbsent": true
+  }
+]

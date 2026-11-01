@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "files": 158,
+  "changed": [],
+  "proof": "../S08-E-complet/fresh/S01-ephemeral/integration.json",
+  "checks": 56,
+  "reason": "Aucune migration ajoutée ou modifiée dans F final ; recette neuve E conservée, empreintes recontrôlées."
+}

@@ -1,0 +1,253 @@
+<sc-if value="{{ adh.isFiche }}" hint-placeholder-val="{{ false }}">
+        <div data-screen-label="Fiche adhérent" style="animation: fadeUp .45s ease-out; max-width: 900px;">
+          <button onClick="{{ adh.fiche.back }}" data-back="1" style="cursor: pointer; border: none; background: transparent; padding: 0; font-size: 12.5px; font-weight: 600; color: var(--ink5); margin-bottom: 14px;" style-hover="color: var(--acTx);">← {{ adh.fiche.backLabel }}</button>
+
+          <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 24px; padding: 24px; margin-bottom: 16px;">
+            <div style="display: flex; flex-wrap: wrap; gap: 14px; align-items: center;">
+              <span aria-hidden="true" style="width: 54px; height: 54px; flex: 0 0 54px; border-radius: 99px; background: linear-gradient(135deg, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 17px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ adh.fiche.initials }}</span>
+              <div style="flex: 1; min-width: 200px;">
+                <h1 style="font-family:var(--fTitle); font-size: 27px; margin: 0 0 4px;">{{ adh.fiche.name }}</h1>
+                <p style="margin: 0; font-size: 13px; color: var(--ink5);">{{ adh.fiche.poste }} · {{ adh.fiche.since }}</p>
+              </div>
+              <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+                <sc-if value="{{ adh.fiche.hasMandat }}" hint-placeholder-val="{{ false }}">
+                  <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--infoTx2); background: var(--infoBg); border-radius: 99px; padding: 5px 11px;">{{ adh.fiche.mandat }}</span>
+                </sc-if>
+                <sc-if value="{{ adh.fiche.showPill }}" hint-placeholder-val="{{ true }}">
+                  <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; padding: 5px 11px; border-radius: 99px; background: {{ adh.fiche.pillBg }}; color: {{ adh.fiche.pillFg }};">{{ adh.fiche.statut }}</span>
+                </sc-if>
+              </div>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 9px; margin-top: 18px;">
+              <button onClick="{{ adh.fiche.msg }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 12px 20px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 13px; font-weight: 700; box-shadow: 0 10px 24px -14px hsl(var(--acH) 85% 45% / .6);">Envoyer un message</button>
+              <sc-if value="{{ adh.fiche.canCharge }}" hint-placeholder-val="{{ false }}"><button onClick="{{ adh.fiche.newCharge }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 12px 18px; font-size: 13px; font-weight: 600; color: var(--ink3);">Créer une échéance</button></sc-if>
+              <sc-if value="{{ adh.fiche.canCorrect }}"><button onClick="{{ adh.fiche.correct }}" style="cursor:pointer;border:1px solid var(--bd2);background:var(--surface);border-radius:99px;padding:12px 18px;font-size:13px;font-weight:600;color:var(--ink3);">Corriger un règlement</button></sc-if>
+              <sc-if value="{{ adh.fiche.canPaid }}" hint-placeholder-val="{{ false }}">
+                <button onClick="{{ adh.fiche.paid }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 12px 18px; background: var(--ok); color: #FFFFFF; font-size: 13px; font-weight: 700;">Enregistrer un règlement</button>
+                <button onClick="{{ adh.fiche.relance }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 12px 18px; font-size: 13px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Préparer une relance</button>
+              </sc-if>
+              <sc-if value="{{ adh.fiche.reading }}" hint-placeholder-val="{{ true }}">
+                <button onClick="{{ adh.fiche.startEdit }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 12px 18px; font-size: 13px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Modifier la fiche</button>
+                <button onClick="{{ adh.fiche.del.act }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 12px 16px; background: {{ adh.fiche.del.bg }}; color: {{ adh.fiche.del.fg }}; font-size: 12.5px; font-weight: 600;" style-hover="color: var(--dangerTx2);">{{ adh.fiche.del.label }}</button>
+              </sc-if>
+            </div>
+          </section>
+
+          <sc-if value="{{ adh.fiche.endNote }}"><p style="font-size:13px;line-height:1.6;color:var(--ink5);">{{ adh.fiche.endNote }}</p></sc-if>
+          <sc-if value="{{ adh.fiche.canEndMembership }}"><button onClick="{{ adh.fiche.openEnding }}" style="cursor:pointer;border:1px solid var(--bd);background:var(--surface);border-radius:99px;padding:10px 16px;font-size:12px;color:var(--ink3);margin-bottom:16px;">Mettre fin à l’adhésion</button></sc-if>
+          <sc-if value="{{ adh.fiche.canCorrectEnd }}"><button onClick="{{ adh.fiche.correctEnd }}" style="cursor:pointer;border:1px solid var(--bd);background:var(--surface);border-radius:99px;padding:10px 16px;font-size:12px;color:var(--ink3);margin-bottom:16px;">Corriger la fin d’adhésion</button></sc-if>
+          <sc-if value="{{ adh.fiche.canRejoin }}"><button onClick="{{ adh.fiche.rejoin }}" style="cursor:pointer;border:1px solid var(--bd);background:var(--surface);border-radius:99px;padding:10px 16px;font-size:12px;color:var(--ink3);margin-bottom:16px;">Réadhérer</button></sc-if>
+          <sc-for list="{{ adh.fiche.membershipHistory }}" as="h"><p style="font-size:12px;overflow-wrap:anywhere;color:var(--ink5);">{{ h.text }}</p></sc-for>
+          <sc-if value="{{ adh.fiche.ending.open }}"><section style="background:var(--surface);border:1px solid var(--bd);border-radius:20px;padding:20px;margin-bottom:16px;">
+          <h2 style="font-family:var(--fTitle);font-size:20px;">{{ adh.fiche.ending.title }}</h2><p style="font-size:13px;line-height:1.6;">{{ adh.fiche.ending.note }}</p>
+          <label style="display:block;font-size:13px;">{{ adh.fiche.ending.dateLabel }}<input disabled="{{ adh.fiche.ending.busy }}" value="{{ adh.fiche.ending.date }}" onChange="{{ adh.fiche.ending.changeDate }}" placeholder="AAAA-MM-JJ" style="box-sizing:border-box;width:100%;padding:11px;border:1px solid var(--bd);border-radius:13px;background:var(--surf2);" /></label>
+          <label style="display:block;font-size:13px;margin-top:12px;">{{ adh.fiche.ending.reasonLabel }}<textarea disabled="{{ adh.fiche.ending.busy }}" value="{{ adh.fiche.ending.reason }}" onChange="{{ adh.fiche.ending.changeReason }}" maxLength="500" style="box-sizing:border-box;width:100%;padding:11px;border:1px solid var(--bd);border-radius:13px;background:var(--surf2);font:inherit;"></textarea></label>
+          <sc-if value="{{ adh.fiche.ending.isReturn }}"><label style="display:block;font-size:13px;margin-top:12px;">Échéancier après réadhésion<select disabled="{{ adh.fiche.ending.busy }}" value="{{ adh.fiche.ending.mode }}" onChange="{{ adh.fiche.ending.changeMode }}" style="box-sizing:border-box;width:100%;padding:11px;border:1px solid var(--bd);border-radius:13px;background:var(--surf2);"><option value="paused">Reprendre séparément — laisser en pause</option><option value="resume">Reprendre avec cette réadhésion</option></select></label><sc-if value="{{ adh.fiche.ending.resume }}"><label style="display:block;font-size:13px;margin-top:12px;">Première échéance de reprise<input disabled="{{ adh.fiche.ending.busy }}" value="{{ adh.fiche.ending.firstDue }}" onChange="{{ adh.fiche.ending.changeFirstDue }}" placeholder="AAAA-MM-JJ" style="box-sizing:border-box;width:100%;padding:11px;border:1px solid var(--bd);border-radius:13px;background:var(--surf2);" /></label></sc-if><button disabled="{{ adh.fiche.ending.busy }}" onClick="{{ adh.fiche.ending.preview }}" style="border:1px solid var(--bd);border-radius:99px;padding:10px 16px;background:var(--surface);cursor:pointer;margin-top:12px;">Vérifier la réadhésion</button><p style="font-size:13px;line-height:1.6;">{{ adh.fiche.ending.previewText }}</p></sc-if>
+          <p role="alert" style="font-size:13px;color:var(--dangerTx2);">{{ adh.fiche.ending.error }}</p><button disabled="{{ adh.fiche.ending.busy }}" onClick="{{ adh.fiche.ending.cancel }}" style="border:1px solid var(--bd);border-radius:99px;padding:10px 16px;background:var(--surface);cursor:pointer;">{{ adh.fiche.ending.cancelLabel }}</button> <button disabled="{{ !adh.fiche.ending.canConfirm }}" onClick="{{ adh.fiche.ending.confirm }}" style="border:0;border-radius:99px;padding:10px 16px;background:linear-gradient(to right,var(--ac),var(--ac2));color:white;cursor:pointer;">{{ adh.fiche.ending.confirmLabel }}</button></section></sc-if>
+          <sc-if value="{{ adh.fiche.canExport }}"><button onClick="{{ adh.fiche.exportCsv }}" style="cursor:pointer;border:1px solid var(--bd2);background:var(--surface);border-radius:99px;padding:11px 17px;font-size:12px;font-weight:600;color:var(--ink4);margin:0 8px 16px 0;">Exporter les règlements (CSV)</button></sc-if>
+          <sc-if value="{{ adh.fiche.canEvidence }}"><button onClick="{{ adh.fiche.openEvidence }}" style="cursor:pointer;border:1px solid var(--bd2);background:var(--surface);border-radius:99px;padding:11px 17px;font:inherit;font-size:12px;font-weight:600;color:var(--ink4);margin-bottom:16px;">Justificatifs des règlements</button></sc-if>
+          <sc-if value="{{ adh.fiche.evidence.open }}">
+            <section style="background:var(--surface);border:1px solid var(--acBd2);border-radius:24px;padding:24px;margin-bottom:16px;">
+              <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:baseline;margin-bottom:16px;"><h2 style="font-family:var(--fTitle);font-size:19px;margin:0;">Justificatifs des règlements</h2><button onClick="{{ adh.fiche.evidence.close }}" style="cursor:pointer;border:none;background:transparent;font-size:12px;color:var(--ink5);">Fermer les justificatifs</button></div>
+              <label style="display:flex;flex-direction:column;gap:6px;min-width:0;"><span style="font-size:10.5px;font-weight:700;color:var(--ink6);text-transform:uppercase;">Règlement du justificatif</span><select disabled="{{ adh.fiche.evidence.busy }}" value="{{ adh.fiche.evidence.payment }}" onChange="{{ adh.fiche.evidence.select }}" style="box-sizing:border-box;width:100%;min-width:0;background:var(--surf2);border:1px solid var(--bd);border-radius:13px;padding:11px 13px;font:inherit;color:var(--ink);"><option value="">Choisir un règlement</option><sc-for list="{{ adh.fiche.evidence.options }}" as="o"><option value="{{ o.id }}">{{ o.label }}</option></sc-for></select><span style="font-size:12px;overflow-wrap:anywhere;color:var(--ink5);">{{ adh.fiche.evidence.selectionLabel }}</span></label>
+              <sc-if value="{{ adh.fiche.evidence.canReceipt }}"><button onClick="{{ adh.fiche.evidence.receipt }}" style="cursor:pointer;border:1px solid var(--bd2);background:var(--surface);border-radius:99px;padding:11px 17px;font-size:12px;font-weight:600;color:var(--ink4);margin:0 8px 16px 0;">Télécharger le reçu non fiscal</button></sc-if>
+              <sc-if value="{{ adh.fiche.evidence.canUpload }}"><label style="display:flex;flex-direction:column;gap:8px;margin-top:16px;font-size:13px;">Ajouter un justificatif<input type="file" accept=".pdf,.png,.jpg,.jpeg,.txt,.docx,.xlsx" disabled="{{ adh.fiche.evidence.busy }}" onChange="{{ adh.fiche.evidence.upload }}" style="max-width:100%;font:inherit;" /></label></sc-if>
+              <p style="font-size:12px;color:var(--ink5);">PDF, images, TXT, Word ou Excel · 5 Mo maximum · contrôle antivirus obligatoire. Les justificatifs restent conservés.</p>
+              <p role="alert" style="font-size:13px;color:var(--dangerTx2);">{{ adh.fiche.evidence.error }}</p>
+              <sc-for list="{{ adh.fiche.evidence.files }}" as="f"><div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:11px 13px;border:1px solid var(--bd);border-radius:12px;margin-top:9px;"><span style="flex:1;min-width:0;overflow-wrap:anywhere;font-size:13px;">{{ f.label }}</span><sc-if value="{{ f.canPreview }}"><button onClick="{{ f.preview }}" style="cursor:pointer;border:1px solid var(--bd2);background:var(--surface);border-radius:99px;padding:8px 14px;font-size:12px;color:var(--ink4);">Aperçu</button></sc-if><sc-if value="{{ f.canResume }}"><button disabled="{{ adh.fiche.evidence.busy }}" onClick="{{ f.resume }}" style="cursor:pointer;border:1px solid var(--bd2);background:var(--surface);border-radius:99px;padding:8px 14px;font-size:12px;color:var(--ink4);">Reprendre l’analyse</button></sc-if><sc-if value="{{ f.canDownload }}"><button onClick="{{ f.download }}" style="cursor:pointer;border:1px solid var(--bd2);background:var(--surface);border-radius:99px;padding:8px 14px;font-size:12px;color:var(--ink4);">Télécharger</button></sc-if></div></sc-for>
+              <sc-if value="{{ adh.fiche.evidence.preview.visible }}">
+                <section aria-label="Aperçu du justificatif" style="background:var(--surf2);border:1px solid var(--bd);border-radius:16px;padding:16px;margin-top:16px;min-width:0;">
+                  <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;"><h3 style="font-family:var(--fTitle);font-size:17px;margin:0;overflow-wrap:anywhere;min-width:0;">{{ adh.fiche.evidence.preview.filename }}</h3><button onClick="{{ adh.fiche.evidence.preview.close }}" style="cursor:pointer;border:1px solid var(--bd2);background:var(--surface);border-radius:99px;padding:8px 14px;font-size:12px;color:var(--ink4);">Fermer l’aperçu</button></div>
+                  <p style="font-size:12px;color:var(--ink5);">{{ adh.fiche.evidence.preview.note }}</p>
+                  <sc-if value="{{ adh.fiche.evidence.preview.hasImage }}"><img src="{{ adh.fiche.evidence.preview.image }}" alt="Page du justificatif" style="display:block;width:100%;height:auto;border-radius:8px;" /></sc-if>
+                  <sc-if value="{{ adh.fiche.evidence.preview.hasText }}"><pre style="white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.6 var(--fBody);margin:0;max-height:60vh;overflow:auto;">{{ adh.fiche.evidence.preview.text }}</pre></sc-if>
+                  <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:14px;"><button disabled="{{ !adh.fiche.evidence.preview.canPrevious }}" onClick="{{ adh.fiche.evidence.preview.previous }}" style="cursor:pointer;border:1px solid var(--bd2);background:var(--surface);border-radius:99px;padding:8px 14px;font-size:12px;color:var(--ink4);">Page précédente</button><span style="font-size:12px;">{{ adh.fiche.evidence.preview.label }}</span><button disabled="{{ !adh.fiche.evidence.preview.canNext }}" onClick="{{ adh.fiche.evidence.preview.next }}" style="cursor:pointer;border:1px solid var(--bd2);background:var(--surface);border-radius:99px;padding:8px 14px;font-size:12px;color:var(--ink4);">Page suivante</button></div>
+                </section>
+              </sc-if>
+            </section>
+          </sc-if>
+          <sc-if value="{{ adh.fiche.showCotis }}"><p style="font-size:12px;color:var(--ink5);line-height:1.5;">{{ adh.fiche.scheduleNote }}</p></sc-if>
+          <sc-if value="{{ adh.fiche.canPauseSchedule }}"><button onClick="{{ adh.fiche.pauseSchedule }}" style="cursor:pointer;border:1px solid var(--bd);background:var(--surface);border-radius:99px;padding:10px 16px;font-size:12px;color:var(--ink3);">Mettre en pause l’échéancier</button></sc-if>
+          <sc-if value="{{ adh.fiche.canResumeSchedule }}"><button onClick="{{ adh.fiche.openResume }}" style="cursor:pointer;border:1px solid var(--bd);background:var(--surface);border-radius:99px;padding:10px 16px;font-size:12px;color:var(--ink3);">Reprendre / valider le tarif</button></sc-if>
+          <sc-if value="{{ adh.fiche.resume.open }}"><section style="background:var(--surface);border:1px solid var(--bd);border-radius:20px;padding:20px;margin-top:16px;">
+          <h2 style="font-family:var(--fTitle);font-size:20px;">Confirmer la reprise</h2><p style="font-size:13px;line-height:1.6;color:var(--ink3);">{{ adh.fiche.resume.text }}</p><p role="alert" style="color:var(--dangerTx2);font-size:13px;">{{ adh.fiche.resume.error }}</p>
+          <button disabled="{{ adh.fiche.resume.busy }}" onClick="{{ adh.fiche.resume.cancel }}" style="border:1px solid var(--bd);border-radius:99px;padding:10px 16px;background:var(--surface);cursor:pointer;">Annuler</button>
+          <button disabled="{{ adh.fiche.resume.busy }}" onClick="{{ adh.fiche.resume.confirm }}" style="border:0;border-radius:99px;padding:10px 16px;background:linear-gradient(to right,var(--ac),var(--ac2));color:white;cursor:pointer;">Confirmer la reprise</button></section></sc-if>
+          <sc-if value="{{ adh.fiche.canCadence }}"><button onClick="{{ adh.fiche.openCadence }}" style="cursor:pointer;border:1px solid var(--bd);background:var(--surface);border-radius:99px;padding:10px 16px;font-size:12px;color:var(--ink3);">Cadence / résoudre un conflit</button></sc-if>
+          <sc-if value="{{ adh.fiche.cadence.open }}"><section style="background:var(--surface);border:1px solid var(--bd);border-radius:20px;padding:20px;margin-top:16px;">
+          <h2 style="font-family:var(--fTitle);font-size:20px;">Cadence et périodes</h2><p style="font-size:13px;line-height:1.6;">{{ adh.fiche.cadence.text }}</p>
+          <label style="display:block;font-size:13px;">Première date future<input disabled="{{ adh.fiche.cadence.busy }}" value="{{ adh.fiche.cadence.start }}" onChange="{{ adh.fiche.cadence.change }}" placeholder="AAAA-MM-JJ" style="box-sizing:border-box;width:100%;padding:11px;border:1px solid var(--bd);border-radius:13px;background:var(--surf2);" /></label>
+          <button disabled="{{ adh.fiche.cadence.busy }}" onClick="{{ adh.fiche.cadence.preview }}" style="border:1px solid var(--bd);border-radius:99px;padding:10px 16px;background:var(--surface);cursor:pointer;margin-top:12px;">Vérifier les périodes</button>
+          <sc-for list="{{ adh.fiche.cadence.unknown }}" as="u"><div style="padding:12px;border:1px solid var(--bd);border-radius:13px;margin-top:12px;"><p style="font-size:13px;">{{ u.text }}</p><label style="font-size:13px;">Dernier jour couvert<input disabled="{{ adh.fiche.cadence.busy }}" value="{{ u.value }}" onChange="{{ u.change }}" placeholder="AAAA-MM-JJ" style="box-sizing:border-box;width:100%;padding:11px;border:1px solid var(--bd);border-radius:13px;background:var(--surf2);" /></label><button disabled="{{ adh.fiche.cadence.busy }}" onClick="{{ u.confirm }}" style="border:1px solid var(--bd);border-radius:99px;padding:10px 16px;background:var(--surface);cursor:pointer;margin-top:12px;">Confirmer la fin de période</button></div></sc-for>
+          <sc-for list="{{ adh.fiche.cadence.conflicts }}" as="conflict"><p style="font-size:13px;color:var(--dangerTx2);">{{ conflict.text }}</p></sc-for>
+          <button disabled="{{ adh.fiche.cadence.busy }}" onClick="{{ adh.fiche.cadence.openCorrection }}" style="border:1px solid var(--bd);border-radius:99px;padding:10px 16px;background:var(--surface);cursor:pointer;margin:12px 0;">Corriger une couverture confirmée</button>
+          <sc-if value="{{ adh.fiche.cadence.correction.open }}"><section style="padding:16px;border:1px solid var(--bd);border-radius:13px;margin-bottom:16px;">
+          <h3>Couvertures confirmées</h3><p style="font-size:13px;">Correction de la fin de période avec motif et historique. Montants et règlements conservés ; aucune reprise automatique.</p>
+          <sc-if value="{{ adh.fiche.cadence.correction.empty }}"><p>Aucune couverture manuelle confirmée.</p></sc-if>
+          <sc-for list="{{ adh.fiche.cadence.correction.rows }}" as="coverage"><div style="padding:12px 0;border-bottom:1px solid var(--bd);"><p style="font-size:13px;">{{ coverage.text }}</p><button disabled="{{ adh.fiche.cadence.correction.busy }}" onClick="{{ coverage.choose }}" style="border:1px solid var(--bd);border-radius:99px;padding:10px 16px;background:var(--surface);cursor:pointer;">Corriger cette période</button><sc-for list="{{ coverage.history }}" as="change"><p style="font-size:12px;overflow-wrap:anywhere;">{{ change.text }}</p></sc-for></div></sc-for>
+          <sc-if value="{{ adh.fiche.cadence.correction.editing }}"><p style="font-size:13px;">{{ adh.fiche.cadence.correction.before }}</p>
+          <label style="display:block;font-size:13px;">Nouveau dernier jour couvert<input disabled="{{ adh.fiche.cadence.correction.busy }}" value="{{ adh.fiche.cadence.correction.lastDay }}" onChange="{{ adh.fiche.cadence.correction.changeDate }}" placeholder="AAAA-MM-JJ" style="box-sizing:border-box;width:100%;padding:11px;border:1px solid var(--bd);border-radius:13px;background:var(--surf2);" /></label>
+          <label style="display:block;font-size:13px;margin-top:12px;">Motif de la correction<textarea disabled="{{ adh.fiche.cadence.correction.busy }}" value="{{ adh.fiche.cadence.correction.reason }}" onChange="{{ adh.fiche.cadence.correction.changeReason }}" maxLength="500" style="box-sizing:border-box;width:100%;padding:11px;border:1px solid var(--bd);border-radius:13px;background:var(--surf2);"></textarea></label>
+          <button disabled="{{ !adh.fiche.cadence.correction.canConfirm }}" onClick="{{ adh.fiche.cadence.correction.confirm }}" style="border:0;border-radius:99px;padding:10px 16px;background:linear-gradient(to right,var(--ac),var(--ac2));color:white;cursor:pointer;margin-top:12px;">Confirmer la correction de couverture</button></sc-if>
+          <p role="alert" style="color:var(--dangerTx2);font-size:13px;">{{ adh.fiche.cadence.correction.error }}</p><button disabled="{{ adh.fiche.cadence.correction.busy }}" onClick="{{ adh.fiche.cadence.correction.reload }}" style="border:1px solid var(--bd);border-radius:99px;padding:10px 16px;background:var(--surface);cursor:pointer;">Recharger les périodes</button> <button disabled="{{ adh.fiche.cadence.correction.busy }}" onClick="{{ adh.fiche.cadence.correction.cancel }}" style="border:1px solid var(--bd);border-radius:99px;padding:10px 16px;background:var(--surface);cursor:pointer;">Fermer les corrections</button></section></sc-if>
+          <p role="alert" style="color:var(--dangerTx2);font-size:13px;">{{ adh.fiche.cadence.error }}</p>
+          <button disabled="{{ adh.fiche.cadence.busy }}" onClick="{{ adh.fiche.cadence.cancel }}" style="border:1px solid var(--bd);border-radius:99px;padding:10px 16px;background:var(--surface);cursor:pointer;">Annuler</button>
+          <sc-if value="{{ adh.fiche.cadence.canConfirm }}"><button onClick="{{ adh.fiche.cadence.confirm }}" style="border:0;border-radius:99px;padding:10px 16px;background:linear-gradient(to right,var(--ac),var(--ac2));color:white;cursor:pointer;">Confirmer la nouvelle cadence</button></sc-if></section></sc-if>
+          <sc-if value="{{ adh.fiche.charge.open }}" hint-placeholder-val="{{ false }}">
+            <section style="background: var(--surface); border: 1px solid var(--acBd2); border-radius: 24px; padding: 24px; margin-bottom: 16px;">
+              <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline; justify-content: space-between; margin-bottom: 16px;">
+                <h2 style="font-family:var(--fTitle); font-size: 19px; margin: 0;">Créer une échéance</h2>
+                <button onClick="{{ adh.fiche.charge.cancel }}" style="cursor: pointer; border: none; background: transparent; padding: 2px; font-size: 12px; font-weight: 600; color: var(--ink5);" style-hover="color: var(--danger);">Annuler</button>
+              </div>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 13px;">
+                <sc-for list="{{ adh.fiche.charge.fields }}" as="f" hint-placeholder-count="3">
+                  <label style="display: flex; flex-direction: column; gap: 6px; min-width: 0;">
+                    <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">{{ f.label }}</span>
+                    <input disabled="{{ adh.fiche.charge.busy }}" value="{{ f.value }}" onChange="{{ f.on }}" style="box-sizing: border-box; width: 100%; background: var(--surf2); border: 1px solid var(--bd); border-radius: 13px; padding: 11px 13px; font-size: 13.5px; color: var(--ink); outline: none; font-family: inherit;" style-focus="border-color: var(--acMid);" />
+                  </label>
+                </sc-for>
+              </div>
+              <p role="alert" style="font-size: 13px; color: var(--dangerTx2);">{{ adh.fiche.charge.error }}</p>
+              <p style="font-size: 12px; color: var(--ink5);">Dates : JJ/MM/AAAA ou AAAA-MM-JJ. Cette échéance ne déclenche aucun paiement.</p>
+              <button disabled="{{ adh.fiche.charge.busy }}" onClick="{{ adh.fiche.charge.submit }}" style="width: 100%; cursor: pointer; border: none; border-radius: 99px; padding: 13px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 13.5px; font-weight: 700; margin-top: 16px;">Enregistrer l’échéance</button>
+            </section>
+          </sc-if>
+
+          <sc-if value="{{ adh.fiche.payment.open }}" hint-placeholder-val="{{ false }}">
+            <section style="background: var(--surface); border: 1px solid var(--acBd2); border-radius: 24px; padding: 24px; margin-bottom: 16px;">
+              <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline; justify-content: space-between; margin-bottom: 16px;">
+                <h2 style="font-family:var(--fTitle); font-size: 19px; margin: 0;">Enregistrer un règlement</h2>
+                <button onClick="{{ adh.fiche.payment.cancel }}" style="cursor: pointer; border: none; background: transparent; padding: 2px; font-size: 12px; font-weight: 600; color: var(--ink5);" style-hover="color: var(--danger);">Annuler</button>
+              </div>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 13px;">
+                <label style="display:flex; flex-direction:column; gap:6px; min-width:0;"><span style="font-size:10.5px;font-weight:700;color:var(--ink6);text-transform:uppercase;">Échéance à régler</span><select disabled="{{ adh.fiche.payment.busy }}" value="{{ adh.fiche.payment.entryId }}" onChange="{{ adh.fiche.payment.select }}" style="box-sizing:border-box;width:100%;min-width:0;background:var(--surf2);border:1px solid var(--bd);border-radius:13px;padding:11px 13px;font:inherit;color:var(--ink);"><option value="">Choisir une échéance</option><sc-for list="{{ adh.fiche.payment.options }}" as="o"><option value="{{ o.id }}">{{ o.label }}</option></sc-for></select><sc-if value="{{ adh.fiche.payment.selectionLabel }}"><span style="font-size:12px;line-height:1.5;color:var(--ink5);overflow-wrap:anywhere;">{{ adh.fiche.payment.selectionLabel }}</span></sc-if></label>
+                <label style="display:flex;flex-direction:column;gap:6px;min-width:0;"><span style="font-size:10.5px;font-weight:700;color:var(--ink6);text-transform:uppercase;">Montant du règlement en euros</span><input disabled="{{ adh.fiche.payment.busy }}" value="{{ adh.fiche.payment.amount }}" onChange="{{ adh.fiche.payment.amountChange }}" style="box-sizing:border-box;width:100%;background:var(--surf2);border:1px solid var(--bd);border-radius:13px;padding:11px 13px;font:inherit;color:var(--ink);" /></label>
+
+              </div>
+              <label style="display:flex;flex-direction:column;gap:6px;margin-top:13px;min-width:0;"><span style="font-size:10.5px;font-weight:700;color:var(--ink6);text-transform:uppercase;">Date effective du versement</span><input disabled="{{ adh.fiche.payment.busy }}" value="{{ adh.fiche.payment.effectiveOn }}" onChange="{{ adh.fiche.payment.dateChange }}" placeholder="JJ/MM/AAAA" style="box-sizing:border-box;width:100%;background:var(--surf2);border:1px solid var(--bd);border-radius:13px;padding:11px 13px;font:inherit;color:var(--ink);" /></label>
+              <p role="alert" style="font-size: 13px; color: var(--dangerTx2);">{{ adh.fiche.payment.error }}</p>
+              <p style="font-size: 12px; color: var(--ink5);">Déclaration d’un règlement reçu, partiel ou intégral. Aucun mouvement bancaire déclenché.</p>
+              <button disabled="{{ adh.fiche.payment.busy }}" onClick="{{ adh.fiche.payment.submit }}" style="width: 100%; cursor: pointer; border: none; border-radius: 99px; padding: 13px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 13.5px; font-weight: 700; margin-top: 16px;">Déclarer le règlement</button>
+            </section>
+          </sc-if>
+
+          <sc-if value="{{ adh.fiche.correction.open }}" hint-placeholder-val="{{ false }}">
+            <section style="background: var(--surface); border: 1px solid var(--acBd2); border-radius: 24px; padding: 24px; margin-bottom: 16px;">
+              <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline; justify-content: space-between; margin-bottom: 16px;">
+                <h2 style="font-family:var(--fTitle); font-size: 19px; margin: 0;">Corriger un règlement</h2>
+                <button onClick="{{ adh.fiche.correction.cancel }}" style="cursor: pointer; border: none; background: transparent; padding: 2px; font-size: 12px; font-weight: 600; color: var(--ink5);" style-hover="color: var(--danger);">Annuler</button>
+              </div>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 13px;">
+                <label style="display:flex; flex-direction:column; gap:6px; min-width:0;"><span style="font-size:10.5px;font-weight:700;color:var(--ink6);text-transform:uppercase;">Règlement à corriger</span><select disabled="{{ adh.fiche.correction.busy }}" value="{{ adh.fiche.correction.paymentId }}" onChange="{{ adh.fiche.correction.select }}" style="box-sizing:border-box;width:100%;min-width:0;background:var(--surf2);border:1px solid var(--bd);border-radius:13px;padding:11px 13px;font:inherit;color:var(--ink);"><option value="">Choisir un règlement</option><sc-for list="{{ adh.fiche.correction.options }}" as="o"><option value="{{ o.id }}">{{ o.label }}</option></sc-for></select><sc-if value="{{ adh.fiche.correction.selectionLabel }}"><span style="font-size:12px;line-height:1.5;color:var(--ink5);overflow-wrap:anywhere;">{{ adh.fiche.correction.selectionLabel }}</span></sc-if></label>
+                <label style="display:flex;flex-direction:column;gap:6px;min-width:0;"><span style="font-size:10.5px;font-weight:700;color:var(--ink6);text-transform:uppercase;">Montant corrigé en euros</span><input disabled="{{ adh.fiche.correction.busy }}" value="{{ adh.fiche.correction.amount }}" onChange="{{ adh.fiche.correction.amountChange }}" style="box-sizing:border-box;width:100%;background:var(--surf2);border:1px solid var(--bd);border-radius:13px;padding:11px 13px;font:inherit;color:var(--ink);" /></label>
+
+              </div>
+              <label style="display:flex;flex-direction:column;gap:6px;margin-top:13px;"><span style="font-size:10.5px;font-weight:700;color:var(--ink6);text-transform:uppercase;">Motif de correction</span><textarea disabled="{{ adh.fiche.correction.busy }}" value="{{ adh.fiche.correction.reason }}" onChange="{{ adh.fiche.correction.reasonChange }}" style="box-sizing:border-box;width:100%;background:var(--surf2);border:1px solid var(--bd);border-radius:13px;padding:11px 13px;font:inherit;color:var(--ink);"></textarea></label>
+              <label style="display:flex;flex-direction:column;gap:6px;margin-top:13px;min-width:0;"><span style="font-size:10.5px;font-weight:700;color:var(--ink6);text-transform:uppercase;">Date effective corrigée (facultative)</span><input disabled="{{ adh.fiche.correction.busy }}" value="{{ adh.fiche.correction.effectiveOn }}" onChange="{{ adh.fiche.correction.dateChange }}" placeholder="JJ/MM/AAAA" style="box-sizing:border-box;width:100%;background:var(--surf2);border:1px solid var(--bd);border-radius:13px;padding:11px 13px;font:inherit;color:var(--ink);" /></label>
+              <p role="alert" style="font-size: 13px; color: var(--dangerTx2);">{{ adh.fiche.correction.error }}</p>
+              <p style="font-size: 12px; color: var(--ink5);">Le montant saisi remplace le montant retenu. Zéro annule son effet ; le règlement initial reste conservé.</p>
+              <button disabled="{{ adh.fiche.correction.busy }}" onClick="{{ adh.fiche.correction.submit }}" style="width: 100%; cursor: pointer; border: none; border-radius: 99px; padding: 13px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 13.5px; font-weight: 700; margin-top: 16px;">Enregistrer la correction</button>
+            </section>
+          </sc-if>
+
+          <sc-if value="{{ adh.fiche.editing }}" hint-placeholder-val="{{ false }}">
+            <section style="background: var(--surface); border: 1px solid var(--acBd2); border-radius: 24px; padding: 24px; margin-bottom: 16px;">
+              <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline; justify-content: space-between; margin-bottom: 16px;">
+                <h2 style="font-family:var(--fTitle); font-size: 19px; margin: 0;">Modifier la fiche</h2>
+                <button onClick="{{ adh.fiche.cancelEdit }}" style="cursor: pointer; border: none; background: transparent; padding: 2px; font-size: 12px; font-weight: 600; color: var(--ink5);" style-hover="color: var(--danger);">Annuler</button>
+              </div>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 13px;">
+                <sc-for list="{{ adh.fiche.fields }}" as="f" hint-placeholder-count="13">
+                  <label style="display: flex; flex-direction: column; gap: 6px; min-width: 0;">
+                    <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">{{ f.label }}</span>
+                    <input value="{{ f.value }}" onChange="{{ f.on }}" style="width: 100%; background: var(--surf2); border: 1px solid var(--bd); border-radius: 13px; padding: 11px 13px; font-size: 13.5px; color: var(--ink); outline: none; font-family: inherit;" style-focus="border-color: var(--acMid);" />
+                  </label>
+                </sc-for>
+              </div>
+              <button onClick="{{ adh.fiche.saveEdit }}" style="width: 100%; cursor: pointer; border: none; border-radius: 99px; padding: 13px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 13.5px; font-weight: 700; margin-top: 16px;">Enregistrer la fiche</button>
+            </section>
+          </sc-if>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; margin-bottom: 16px;">
+            <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 20px; padding: 20px;">
+              <h2 style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin: 0 0 14px;">Coordonnées</h2>
+              <div style="display: flex; flex-direction: column; gap: 11px;">
+                <sc-for list="{{ adh.fiche.coords }}" as="c" hint-placeholder-count="4">
+                  <div style="display: flex; gap: 12px; justify-content: space-between; font-size: 13px;">
+                    <span style="color: var(--ink6);">{{ c.label }}</span>
+                    <span style="font-weight: 600; color: var(--ink2); text-align: right;">{{ c.value }}</span>
+                  </div>
+                </sc-for>
+              </div>
+            </section>
+            <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 20px; padding: 20px;">
+              <h2 style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin: 0 0 14px;">Rattachement</h2>
+              <div style="display: flex; flex-direction: column; gap: 11px;">
+                <sc-for list="{{ adh.fiche.crit }}" as="c" hint-placeholder-count="4">
+                  <div style="display: flex; gap: 12px; justify-content: space-between; font-size: 13px;">
+                    <span style="color: var(--ink6);">{{ c.label }}</span>
+                    <span style="font-weight: 600; color: var(--ink2); text-align: right;">{{ c.value }}</span>
+                  </div>
+                </sc-for>
+              </div>
+            </section>
+          </div>
+
+          <sc-if value="{{ adh.fiche.showCotis }}" hint-placeholder-val="{{ true }}">
+          <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 20px; padding: 20px; margin-bottom: 16px;">
+            <h2 style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin: 0 0 14px;">Cotisation</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 14px;">
+              <sc-for list="{{ adh.fiche.cotis }}" as="c" hint-placeholder-count="4">
+                <div style="background: var(--surf2); border-radius: 14px; padding: 13px 15px;">
+                  <div style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">{{ c.label }}</div>
+                  <div style="font-size: 13.5px; font-weight: 600; color: var(--ink2); margin-top: 5px;">{{ c.value }}</div>
+                </div>
+              </sc-for>
+            </div>
+            <sc-if value="{{ adh.fiche.hasDu }}" hint-placeholder-val="{{ false }}">
+              <div style="background: var(--dangerBg); border: 1px solid var(--dangerBd2); border-radius: 14px; padding: 13px 15px; font-size: 13px; font-weight: 600; color: var(--dangerTx2); margin-bottom: 14px;">Reste dû : {{ adh.fiche.du }}</div>
+            </sc-if>
+            <div style="display: flex; flex-direction: column; gap: 9px;">
+              <sc-for list="{{ adh.fiche.histo }}" as="h" hint-placeholder-count="4">
+                <div style="display: flex; gap: 11px; align-items: center; border: 1px solid var(--bd); border-radius: 12px; padding: 11px 13px;">
+                  <span style="font-size: 11.5px; font-family: 'IBM Plex Mono', ui-monospace, monospace; color: var(--ink6); min-width: 96px;">{{ h.date }}</span>
+                  <span style="flex: 1; min-width: 0; font-size: 12.5px; color: var(--ink3);">{{ h.what }}</span>
+                  <sc-if value="{{ h.ok }}" hint-placeholder-val="{{ true }}">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ok)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 13 4 4L19 7"></path></svg>
+                  </sc-if>
+                </div>
+              </sc-for>
+            </div>
+          </section>
+          </sc-if>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px;">
+            <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 20px; padding: 20px;">
+              <h2 style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin: 0 0 14px;">Documents liés</h2>
+              <div style="display: flex; flex-direction: column; gap: 10px;">
+                <sc-for list="{{ adh.fiche.docs }}" as="d" hint-placeholder-count="3">
+                  <div style="display: flex; gap: 12px; align-items: center; border: 1px solid var(--bd); border-radius: 14px; padding: 12px 14px;">
+                    <span aria-hidden="true" style="width: 30px; height: 30px; flex: 0 0 30px; border-radius: 10px; background: var(--acBg); display: flex; align-items: center; justify-content: center;">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--acTx)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v5h6M8 13h8M8 17h6"></path></svg>
+                    </span>
+                    <span style="flex: 1; min-width: 0;">
+                      <span style="display: block; font-size: 13.5px; font-weight: 600; color: var(--ink);">{{ d.label }}</span>
+                      <span style="display: block; font-size: 12px; color: var(--ink5); margin-top: 2px;">{{ d.meta }}</span>
+                    </span>
+                    <button onClick="{{ d.act }}" style="flex: 0 0 auto; cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 8px 14px; font-size: 12px; font-weight: 600; color: var(--ink4);" style-hover="border-color: var(--acMid); color: var(--acTx);">{{ d.action }}</button>
+                  </div>
+                </sc-for>
+              </div>
+            </section>
+            <section style="background: var(--surf2); border: 1px solid var(--bd); border-radius: 20px; padding: 20px;">
+              <h2 style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin: 0 0 14px;">Listes de diffusion</h2>
+              <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px;">
+                <sc-for list="{{ adh.fiche.groupes }}" as="g" hint-placeholder-count="2">
+                  <span style="font-size: 12px; font-weight: 600; color: var(--acTx2); background: var(--acBg); border-radius: 99px; padding: 6px 12px;">{{ g.name }}</span>
+                </sc-for>
+              </div>
+              <p style="margin: 0; font-size: 12.5px; color: var(--ink5); line-height: 1.6;">{{ adh.fiche.listNote }}</p>
+            </section>
+          </div>
+        </div>
+      </sc-if>

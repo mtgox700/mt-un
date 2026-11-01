@@ -1,0 +1,89 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			141 button Formations
+				142 image
+				143 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			144 button Réglages
+				145 image
+				146 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			147 heading Organisation & membres, Value: 1
+				148 text Organisation & membres
+			149 text 5 membres · 4 commissions · plan Fédération
+			150 button + Inviter un membre
+			151 text 24 sièges du plan 3 membres actifs 4 commissions 1 invitation en attente SM Sophie Marchand Admin organisation  ·  en ligne ACTIF
+			152 button Retirer
+			153 button Suspendre
+			154 text JD Jean-Paul Diallo Élu titulaire  ·  il y a 1 h ACTIF
+			155 button Retirer
+			156 button Suspendre
+			157 text LC Leïla Chaïb Commission ASC  ·  hier ACTIF
+			158 button Retirer
+			159 button Suspendre
+			160 text MA Marc Aubert Suppléant  ·  jamais connecté INVITÉ
+			161 button Retirer
+			162 button Relancer
+			163 text CB Cabinet Berger (avocat) Lecture seule  ·  il y a 6 jours SUSPENDU
+			164 button Retirer
+			165 button Réactiver
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

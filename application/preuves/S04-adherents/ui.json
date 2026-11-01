@@ -1,0 +1,38 @@
+[
+  {
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "screen": "import-duplicate",
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "duplicate": true,
+    "scrollWidth": 390
+  },
+  {
+    "screen": "import-duplicate",
+    "name": "tablette",
+    "width": 768,
+    "height": 1024,
+    "duplicate": true,
+    "scrollWidth": 768
+  },
+  {
+    "screen": "import-duplicate",
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "duplicate": true,
+    "scrollWidth": 1440
+  }
+]

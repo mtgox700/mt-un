@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';import {createModuleStores} from './module-stores.js';import {createInvitation} from '../modules/admin/invitation.js';
+const stores=createModuleStores({members:[],adherents:[],sheet:'other',sheetText:'keep'});let route,flashes=0;const s=createInvitation(stores.module('admin'),{go:r=>route=r,flash:()=>flashes++});let n=0;const test=(name,f)=>{f();n++;console.log('PASS '+name)};
+test('closed by default',()=>assert.equal(s.invitationVals().sheetOpen,false));
+test('opening resets draft',()=>{s.openInvitation();assert.equal(s.invitationVals().sheetForm,true);assert.equal(s.invitationVals().sheetText,'')});
+test('empty submission refused',()=>{s.submitInvitation();assert.equal(s.invitationVals().sheetHasErr,true);assert.equal(flashes,0)});
+test('role selection isolated',()=>{s.invitationVals().sheetOptions[2].pick();assert.equal(s.invitationVals().sheetOptions[2].selected,true);assert.equal(stores.snapshot().sheet,'other')});
+test('input clears error',()=>{s.invitationVals().onSheetText({target:{value:'recette@example.invalid'}});assert.equal(s.invitationVals().sheetHasErr,false)});
+test('submission remains simulation without member creation',()=>{s.submitInvitation();assert.equal(s.invitationVals().sheetDone,true);assert.equal(stores.snapshot().members.length,0);assert.equal(flashes,1)});
+test('duplicate submit ignored',()=>{s.submitInvitation();assert.equal(flashes,1)});
+test('follow closes and navigates',()=>{s.invitationVals().sheetFollow();assert.equal(route,'membres');assert.equal(s.invitationVals().sheetOpen,false)});
+test('reopening clears prior completion and choice',()=>{s.openInvitation();assert.equal(s.invitationVals().sheetDone,false);assert.equal(s.invitationVals().sheetOptions[0].selected,true)});
+test('cancel leaves other overlays and contacts intact',()=>{s.invitationVals().sheetClose();assert.equal(stores.snapshot().sheetText,'keep');assert.deepEqual(stores.snapshot().adherents,[])});console.log(n+' invitation checks passed');

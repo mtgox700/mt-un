@@ -1,0 +1,17 @@
+# VPS de supervision (distinct de la production : une panne du VPS principal doit rester visible).
+# Petit VPS chez un autre fournisseur, Ubuntu 24.04, Docker installé.
+# Lancement : DOMAINE_SUPERVISION=statut.uniion.fr docker compose up -d
+services:
+  kuma:
+    image: louislam/uptime-kuma:1
+    restart: unless-stopped
+    volumes: [kuma:/app/data]
+    expose: ["3001"]
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    environment: [DOMAINE_SUPERVISION]
+    command: caddy reverse-proxy --from ${DOMAINE_SUPERVISION} --to kuma:3001
+    volumes: [caddy:/data]
+volumes: { kuma: {}, caddy: {} }

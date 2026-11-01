@@ -1,0 +1,47 @@
+[
+  {
+    "suite": "s07_messaging",
+    "exit": 0,
+    "seconds": 24.97
+  },
+  {
+    "suite": "s07_members",
+    "exit": 0,
+    "seconds": 13.46
+  },
+  {
+    "suite": "s07_files",
+    "exit": 0,
+    "seconds": 50.06
+  },
+  {
+    "suite": "s07_live",
+    "exit": 0,
+    "seconds": 9.2
+  },
+  {
+    "suite": "s07_live_edges",
+    "exit": 0,
+    "seconds": 7.51
+  },
+  {
+    "suite": "s07_access_edges",
+    "exit": 0,
+    "seconds": 5.04
+  },
+  {
+    "suite": "s07_b_edges",
+    "exit": 0,
+    "seconds": 6.91
+  },
+  {
+    "suite": "s07_file_edges",
+    "exit": 0,
+    "seconds": 4.9
+  },
+  {
+    "suite": "s07_discovery_edges",
+    "exit": 0,
+    "seconds": 10.97
+  }
+]

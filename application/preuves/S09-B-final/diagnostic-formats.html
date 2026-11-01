@@ -1,0 +1,4 @@
+<!doctype html><meta charset="utf-8"><title>S09 — formats fictifs</title><h1>Recette locale des décodeurs audio</h1><p>Aucun microphone, aucun fournisseur externe. Fichiers de silence synthétique.</p><button id="run">Tester WAV et AIFF fictifs</button><pre id="result">En attente</pre><script type="module">
+import {normalizeSegments,digest} from './audio-files.js';
+document.querySelector('#run').onclick=async()=>{const results=[];for(const name of ['ui-fictif.wav','ui-fictif.aiff']){try{const blob=await(await fetch(name)).blob(),segments=await normalizeSegments(blob);results.push({name,originalBytes:blob.size,originalHash:await digest(new Uint8Array(await blob.arrayBuffer())),segments:segments.length,wavBytes:segments.map(x=>x.bytes.length),durationMs:segments.reduce((n,x)=>n+x.durationMs,0),passed:true});}catch(e){results.push({name,passed:false,error:e.message})}}document.querySelector('#result').textContent=JSON.stringify(results,null,2);};
+</script>

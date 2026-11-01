@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-29",
+  "dimensions": [
+    "1440x1000",
+    "768x1024",
+    "390x844"
+  ],
+  "authorized": [
+    "desktop import and creation",
+    "tablet clear and reuse brand",
+    "mobile import"
+  ],
+  "denied": [
+    "reader clear at all three sizes",
+    "reader import mobile"
+  ],
+  "physical_devices": false
+}

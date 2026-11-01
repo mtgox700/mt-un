@@ -1,0 +1,74 @@
+[
+  {
+    "format": "mobile",
+    "reviewAllowed": true
+  },
+  {
+    "format": "mobile",
+    "exportDenied": true
+  },
+  {
+    "format": "mobile",
+    "publishDenied": true
+  },
+  {
+    "format": "tablette",
+    "reviewAllowed": true
+  },
+  {
+    "format": "tablette",
+    "exportDenied": true
+  },
+  {
+    "format": "tablette",
+    "publishDenied": true
+  },
+  {
+    "format": "desktop",
+    "reviewAllowed": true
+  },
+  {
+    "format": "desktop",
+    "exportDenied": true
+  },
+  {
+    "format": "desktop",
+    "publishDenied": true
+  },
+  {
+    "format": "desktop",
+    "exportAllowed": true
+  },
+  {
+    "format": "desktop",
+    "selfReviewDenied": true
+  },
+  {
+    "format": "desktop",
+    "publishAllowed": true
+  },
+  {
+    "format": "tablette",
+    "exportAllowed": true
+  },
+  {
+    "format": "tablette",
+    "selfReviewDenied": true
+  },
+  {
+    "format": "tablette",
+    "publishAllowed": true
+  },
+  {
+    "format": "mobile",
+    "exportAllowed": true
+  },
+  {
+    "format": "mobile",
+    "selfReviewDenied": true
+  },
+  {
+    "format": "mobile",
+    "publishAllowed": true
+  }
+]

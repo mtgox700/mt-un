@@ -1,0 +1,187 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			120 button Messages
+				121 image
+				122 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			89 button Réglages
+				90 image
+				91 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				115 text unii
+				116 text 1
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			117 text UNII SUGGÈRE
+			118 button 1 non lu · Jean-Paul Diallo
+			126 container
+				127 heading Nouvelle discussion, Value: 1
+					128 text Nouvelle discussion
+				129 button Nouvelle discussion
+				130 button Nouveau groupe
+				131 button Nouvelle diffusion aux adhérents
+				132 tab group Vue
+					133 tab (selectable, settable, boolean) Discussions, Value: 0
+					134 tab (selected, settable, boolean) Contacts & groupes, Value: 1
+				135 text field (settable) Rechercher
+				189 button Nouveau groupe
+				190 button Nouveau contact
+				191 button Nouvelle diffusion aux adhérents
+				192 button Gérer les contacts et les groupes dans les réglages →
+				193 text GROUPES
+				194 button Commission Négociation 5 membres
+					195 text Commission Négociation
+					196 text 5 membres
+				197 button Commission SSCT 4 membres
+					198 text Commission SSCT
+					199 text 4 membres
+				200 button Commission ASC 3 membres
+					201 text Commission ASC
+					202 text 3 membres
+				203 text ÉQUIPE & CONTACTS EXTERNES
+				204 button Jean-Paul Diallo Élu titulaire · Délégué syndical
+					205 text Jean-Paul Diallo
+					206 text Élu titulaire · Délégué syndical
+				207 button Leïla Chaïb Élue · Commission ASC
+					208 text Leïla Chaïb
+					209 text Élue · Commission ASC
+				210 button Marc Aubert Suppléant · Référent SSCT
+					211 text Marc Aubert
+					212 text Suppléant · Référent SSCT
+				213 button Nadia Roussel Élue suppléante
+					214 text Nadia Roussel
+					215 text Élue suppléante
+				216 button Thomas Lefèvre Représentant syndical au CSE
+					217 text Thomas Lefèvre
+					218 text Représentant syndical au CSE
+				219 button Cabinet Berger Avocat conseil
+					220 text Cabinet Berger
+					221 text Avocat conseil
+				222 text ADHÉRENTS
+				223 button Karim Benali Opérateur ligne 3TEST
+					224 text Karim Benali
+					225 text Opérateur ligne 3TEST
+				226 button Sandrine Lemoine Préparatrice de commandes
+					227 text Sandrine Lemoine
+					228 text Préparatrice de commandes
+				229 button Mehdi Fournier Technicien maintenance
+					230 text Mehdi Fournier
+					231 text Technicien maintenance
+				232 button Aurélie Pruvost Assistante ADV
+					233 text Aurélie Pruvost
+					234 text Assistante ADV
+				235 button Thierry Dubois Chaudronnier
+					236 text Thierry Dubois
+					237 text Chaudronnier
+				238 button Nadia Cherif Cariste
+					239 text Nadia Cherif
+					240 text Cariste
+				241 button Pascal Vandenberghe Régleur presse
+					242 text Pascal Vandenberghe
+					243 text Régleur presse
+				244 button Émilie Roussel Contrôleuse qualité
+					245 text Émilie Roussel
+					246 text Contrôleuse qualité
+				247 button Jonathan Leclercq Magasinier
+					248 text Jonathan Leclercq
+					249 text Magasinier
+				250 button Christine Delattre Gestionnaire paie
+					251 text Christine Delattre
+					252 text Gestionnaire paie
+				253 button Bruno Waeles Électromécanicien
+					254 text Bruno Waeles
+					255 text Électromécanicien
+				256 button Fatou Sarr Soudeuse
+					257 text Fatou Sarr
+					258 text Soudeuse
+				259 button Lucie Baradel Opératrice ligne 2
+					260 text Lucie Baradel
+					261 text Opératrice ligne 2
+				262 button Ahmed Zerrouki Cariste
+					263 text Ahmed Zerrouki
+					264 text Cariste
+				265 button Hélène Trouvain Gestionnaire ADV
+					266 text Hélène Trouvain
+					267 text Gestionnaire ADV
+				164 text Chiffrée de bout en bout — hors des outils de l'entreprise.
+			165 container
+				166 button Commission Négociation Vous, Jean-Paul, Leïla, Nadia, Thomas
+					167 text Commission Négociation
+					168 text Vous, Jean-Paul, Leïla, Nadia, Thomas
+				169 button Sélectionner
+				170 button unii, Help: Solliciter unii sur ce fil
+				171 button Description: Infos de la discussion, Help: Infos
+				172 text Messages chiffrés de bout en bout. Ni l'employeur ni uniion ne peuvent les lire.
+				173 container
+					174 button Description: Actions sur le message, Help: Actions
+					175 text Jean-Paul D. La direction propose 0,8 % sur les salaires de base. 09:12
+				176 container
+					177 button Description: Actions sur le message, Help: Actions
+					178 text C'est très insuffisant par rapport à l'inflation. On demande la communication des marges. 09:14 ✓✓
+				179 container
+					180 button Description: Actions sur le message, Help: Actions
+					181 text Leïla C. On maintient l'AG du personnel mardi 12 h 30 ? 09:20
+				186 container
+					187 button Description: Actions sur le message, Help: Actions
+					188 text RECETTE : message fictif pour vérifier la conversation. 16:54 ✓✓
+				182 button Description: Joindre un fichier, Help: Joindre
+				183 text field (settable) Votre message
+				184 button Envoyer
+
+The focused UI element is 134 tab (selected, settable, boolean) Contacts & groupes, Value: 1

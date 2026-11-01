@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-26T10:21:29.747384+00:00",
+  "status": "Lot serveur testé ; S01 reste ouvert",
+  "checks": 271,
+  "suites": [
+    {
+      "name": "Tests unitaires",
+      "count": 51,
+      "proof": "unit.log"
+    },
+    {
+      "name": "Sessions et MFA réels",
+      "count": 40,
+      "proof": "../S01-sessions-mfa/integration.json"
+    },
+    {
+      "name": "Droits Supabase",
+      "count": 12,
+      "proof": "../S01/integration.json"
+    },
+    {
+      "name": "HTTP réel",
+      "count": 9,
+      "proof": "../S01-sessions-mfa/http.json"
+    },
+    {
+      "name": "Récupération du mot de passe côté serveur",
+      "count": 20,
+      "proof": "recovery.json"
+    },
+    {
+      "name": "Second facteur de secours",
+      "count": 17,
+      "proof": "backup-factor.json"
+    },
+    {
+      "name": "Restauration Auth/MFA/base/fichiers",
+      "count": 122,
+      "proof": "mfa-restoration.json"
+    }
+  ],
+  "reference_files_unchanged": 834,
+  "restored_objects": 90,
+  "remaining": [
+    "Identité : invitations, acceptation et révocation des appartenances ; profils multi-organisations, invités, révoqués et plateforme à couvrir dans le nouveau socle.",
+    "MFA : obligation pour les rôles privilégiés et récupération assistée après perte de tous les facteurs. Le réenrôlement, y compris via les API Auth directes, reste à verrouiller et tester ; ne pas considérer la récupération complète du MFA comme validée.",
+    "Sauvegardes : raccorder le nouveau moteur compatible MFA au planificateur et aux alertes. Le planificateur existant utilise encore le moteur du prototype, qui refuse les facteurs MFA permanents. Les facteurs fictifs ont été retirés après les tests ; le moniteur ne signale aucun incident.",
+    "Sessions de production : stockage partagé et durable, reprise des révocations en cas de panne, HTTPS et cookies Secure ; le serveur actuel reste volontairement limité à la boucle locale.",
+    "Infrastructure : dépôt distant et CI active, environnements séparés, Supabase managé Europe, secrets et serveur OVH. Sauvegarde indépendante et clés séparées à mettre en place puis tester ; les copies et clés du présent exercice restent sur ce Mac.",
+    "Données : migration vers les propriétaires de données S00, portage des écritures, fichiers et partages dans leurs modules, puis recette complète des accès directs et références croisées.",
+    "Interface (S02) : brancher les formulaires de connexion, récupération et MFA en respectant la référence visuelle. Le lien du modèle email local pointe encore vers localhost:3000/auth/assistance ; cette page n’est pas livrée ici. Les tests de récupération appellent les routes serveur et lisent seulement les emails des comptes fictifs."
+  ],
+  "production_ready": false,
+  "prototype_and_s00_edited": false,
+  "local_monitor": {
+    "issues": [],
+    "last_verified_backup_utc": "2026-10-26T10:10:02Z"
+  }
+}

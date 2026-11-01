@@ -1,0 +1,161 @@
+Browser tab: 3, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 image uniion
+			5 button Réduire le menu
+			166 button Accueil
+				167 image
+				168 text Accueil
+			9 button Assistant
+				10 image
+				11 text Assistant
+			12 button Dossiers
+				13 image
+				14 text Dossiers
+			15 button Messages
+				16 image
+				17 text Messages
+			18 button Agenda
+				19 image
+				20 text Agenda
+			21 button Réunions
+				22 image
+				23 text Réunions
+			24 button Documents
+				25 image
+				26 text Documents
+			27 button Formations
+				28 image
+				29 text Formations
+			30 button Communication
+				31 image
+				32 text Communication
+			169 button Application mobile
+				170 image
+				171 text Application mobile
+			36 button Adhérents
+				37 image
+				38 text Adhérents
+			39 button Intranet
+				40 image
+				41 text Intranet
+			42 button Reporting
+				43 image
+				44 text Reporting
+			45 button Raccourcis
+				46 image
+				47 text Raccourcis
+			48 button Réglages
+				49 image
+				50 text Réglages
+			51 text ASSISTANT IA Une question de droit ?
+			52 button Ouvrir le chat
+			53 button SM Sophie Marchand Déléguée syndicale
+				54 text SM
+				55 text Sophie Marchand
+				56 text Déléguée syndicale
+			57 button Se déconnecter
+		58 container
+			165 button ← Retour
+			59 image
+			60 text field (settable)
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				62 text unii
+				63 text 3
+			64 button
+				65 image
+			66 button Se déconnecter
+				67 image
+		68 container
+			69 text UNII SUGGÈRE
+			70 button Échéance dans 24 h · Signalement — Service Logistique
+			71 button Échéance dans 4 h · Accident Atelier B
+			72 button Votre point de la semaine est prêt
+			172 text BONJOUR,
+			173 heading Sophie Marchand, Value: 1
+				174 text Sophie Marchand
+			175 text Section syndicale Métallurgie — Valenciennes  ·  7  dossiers ouverts, 1 échéance légale cette semaine
+			176 button URGENT il y a 10 min Accident Atelier B Enquête CSSCT déclenchée. Accusé de réception attendu sous 4 h.
+				177 text URGENT
+				178 text il y a 10 min
+				179 text Accident Atelier B
+				180 text Enquête CSSCT déclenchée. Accusé de réception attendu sous 4 h.
+			181 button Sondage NAO en cours Priorités salariales 2027 75 % de participation
+				182 text Sondage NAO en cours
+				183 text Priorités salariales 2027
+				184 text 75 % de participation
+			185 button Assistant IA
+				186 image
+				187 text Assistant IA
+			188 button Dossiers
+				189 image
+				190 text Dossiers
+			191 button Sondages
+				192 image
+				193 text Sondages
+			194 button Réunions
+				195 image
+				196 text Réunions
+			197 button Documents
+				198 image
+				199 text Documents
+			200 button Intranet
+				201 image
+				202 text Intranet
+			203 button Agenda
+				204 image
+				205 text Agenda
+			206 button Adhérents
+				207 image
+				208 text Adhérents
+			209 button Bilan de mandat
+				210 image
+				211 text Bilan de mandat
+			212 button Hors ligne
+				213 image
+				214 text Hors ligne
+			215 button Messages
+				216 image
+				217 text Messages
+			218 button Formations
+				219 image
+				220 text Formations
+			221 button Communication
+				222 image
+				223 text Communication
+			224 button Application mobile
+				225 image
+				226 text Application mobile
+			227 heading Mes dossiers, Value: 2
+				228 text Mes dossiers
+			229 button Tout voir
+			230 button Préparation d’une réunion d’information des élus Juridique · échéance Mois prochai ›
+				231 text Préparation d’une réunion d’information des élus
+				232 text Juridique · échéance Mois prochai
+				233 text ›
+			234 button Signalement — Service Logistique Harcèlement · échéance 24 h ›
+				235 text Signalement — Service Logistique
+				236 text Harcèlement · échéance 24 h
+				237 text ›
+			238 button Accident Atelier B CSSCT · échéance 4 h ›
+				239 text Accident Atelier B
+				240 text CSSCT · échéance 4 h
+				241 text ›
+			242 text AGENDA PARTAGÉ
+			243 heading Prochaines échéances, Value: 2
+				244 text Prochaines échéances
+			245 button 03 sep Séance NAO 2027 Salle du conseil · 9 h — 4 élus
+				246 text 03 sep
+				247 text Séance NAO 2027
+				248 text Salle du conseil · 9 h — 4 élus
+			249 button 05 sep Enquête CSSCT Atelier B Visite sur site · 2 élus
+				250 text 05 sep
+				251 text Enquête CSSCT Atelier B
+				252 text Visite sur site · 2 élus
+			253 button 12 sep Clôture du sondage télétravail Automatique · 18 h
+				254 text 12 sep
+				255 text Clôture du sondage télétravail
+				256 text Automatique · 18 h
+
+The focused UI element is 1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

@@ -1,0 +1,116 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		1533 text 1024 × 768
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				1534 container
+					1535 image uniion
+					1536 button Réduire le menu
+					1589 button Accueil
+						1590 image
+						1591 text Accueil
+					1540 button Assistant
+						1541 image
+						1542 text Assistant
+					1543 button Dossiers
+						1544 image
+						1545 text Dossiers
+					1546 button Messages
+						1547 image
+						1548 text Messages
+					1549 button Agenda
+						1550 image
+						1551 text Agenda
+					1552 button Réunions
+						1553 image
+						1554 text Réunions
+					1555 button Documents
+						1556 image
+						1557 text Documents
+					1558 button Formations
+						1559 image
+						1560 text Formations
+					1561 button Communication
+						1562 image
+						1563 text Communication
+					1564 button Application mobile
+						1565 image
+						1566 text Application mobile
+					1567 button Adhérents
+						1568 image
+						1569 text Adhérents
+					1570 button Intranet
+						1571 image
+						1572 text Intranet
+					1573 button Reporting
+						1574 image
+						1575 text Reporting
+					1576 button Raccourcis
+						1577 image
+						1578 text Raccourcis
+					1592 button Réglages
+						1593 image
+						1594 text Réglages
+					1582 text ASSISTANT IA Une question de droit ?
+					1583 button Ouvrir le chat
+					1584 button SM Sophie Marchand Déléguée syndicale
+						1585 text SM
+						1586 text Sophie Marchand
+						1587 text Déléguée syndicale
+					1588 button Se déconnecter
+				10 container
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				1334 container
+					1595 text BACK-OFFICE
+					1596 heading Tableau de bord organisation, Value: 1
+						1597 text Tableau de bord organisation
+					1598 text Tous les sites · 24 sièges · plan Fédération
+					1599 button Tous les sites
+					1600 button Valenciennes
+					1601 button Douai
+					1602 button Siège
+					1603 text ÉLUS ACTIFS 24 +2 ce mois DOSSIERS OUVERTS 17 −4 vs juillet PARTICIPATION SONDAGES 72 % +9 pts REQUÊTES IA 1648 quota à 56 %
+					1604 heading Activité par commission, Value: 2
+						1605 text Activité par commission
+					1606 text Négociation 9 dossiers · 412 messages SSCT 6 dossiers · 260 messages ASC 4 dossiers · 148 messages Formation 2 dossiers · 61 messages
+					1607 heading Raccourcis d'administration, Value: 2
+						1608 text Raccourcis d'administration
+					1609 button Gestion des membres 5 comptes · 1 invitation en attente ›
+						1610 text Gestion des membres
+						1611 text 5 comptes · 1 invitation en attente
+						1612 text ›
+					1613 button Bibliothèque documentaire 5 documents · versions suivies ›
+						1614 text Bibliothèque documentaire
+						1615 text 5 documents · versions suivies
+						1616 text ›
+					1617 button Configuration IA Fournisseur, clé API, quotas ›
+						1618 text Configuration IA
+						1619 text Fournisseur, clé API, quotas
+						1620 text ›
+					1621 button Prise en main de l'organisation Checklist de configuration ›
+						1622 text Prise en main de l'organisation
+						1623 text Checklist de configuration
+						1624 text ›
+					1625 button Bilan & reporting CSE Statistiques de mandat, export PDF et Excel ›
+						1626 text Bilan & reporting CSE
+						1627 text Statistiques de mandat, export PDF et Excel
+						1628 text ›
+					1629 button Facturation & sièges 24 sièges · prochaine échéance 01/09 ›
+						1630 text Facturation & sièges
+						1631 text 24 sièges · prochaine échéance 01/09
+						1632 text ›
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

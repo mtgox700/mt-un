@@ -1,0 +1,534 @@
+{
+  "date": "2026-10-23",
+  "sections": 87,
+  "statuts": {
+    "Parcours exécuté": 44,
+    "Écran inspecté": 22,
+    "Non exercé": 4,
+    "Parcours partiel": 17
+  },
+  "matrice": [
+    {
+      "id": "AUTH",
+      "section": "Connexion (identifiant, SSO, double authentification, accès admin)",
+      "statut": "Parcours exécuté",
+      "controle": "SSO simulé, récupération simulée, MFA invalide puis valide, connexion admin et déconnexion. Pas de fournisseur d’identité réel."
+    },
+    {
+      "id": "ADM",
+      "section": "Console super-admin — coque",
+      "statut": "Écran inspecté",
+      "controle": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté."
+    },
+    {
+      "id": "ADM-SUP",
+      "section": "Console admin — Supervision",
+      "statut": "Écran inspecté",
+      "controle": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté."
+    },
+    {
+      "id": "ADM-ORG",
+      "section": "Console admin — Organisations",
+      "statut": "Écran inspecté",
+      "controle": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté."
+    },
+    {
+      "id": "ADM-USR",
+      "section": "Console admin — Utilisateurs",
+      "statut": "Écran inspecté",
+      "controle": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté."
+    },
+    {
+      "id": "ADM-KEY",
+      "section": "Console admin — Clés IA",
+      "statut": "Écran inspecté",
+      "controle": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté."
+    },
+    {
+      "id": "ADM-EDI",
+      "section": "Console admin — Éditeur (paramètres plateforme)",
+      "statut": "Écran inspecté",
+      "controle": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté."
+    },
+    {
+      "id": "ADM-FAC",
+      "section": "Console admin — Offres & facturation",
+      "statut": "Écran inspecté",
+      "controle": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté."
+    },
+    {
+      "id": "ADM-LOG",
+      "section": "Console admin — Journaux",
+      "statut": "Écran inspecté",
+      "controle": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté."
+    },
+    {
+      "id": "COQ-SB",
+      "section": "Coque — barre latérale bureau",
+      "statut": "Parcours exécuté",
+      "controle": "Navigation et raccourcis principaux, suggestions et retours."
+    },
+    {
+      "id": "COQ-MH",
+      "section": "Coque — en-tête mobile",
+      "statut": "Non exercé",
+      "controle": "En-tête sur téléphone réel / largeur 390 non testé ; navigateur de recette en format bureau."
+    },
+    {
+      "id": "COQ-UNII",
+      "section": "Coque — bandeau unii",
+      "statut": "Parcours exécuté",
+      "controle": "Navigation et raccourcis principaux, suggestions et retours."
+    },
+    {
+      "id": "ACC",
+      "section": "Accueil",
+      "statut": "Parcours exécuté",
+      "controle": "Navigation et raccourcis principaux, suggestions et retours."
+    },
+    {
+      "id": "LEC",
+      "section": "Lecteur document / séance",
+      "statut": "Parcours exécuté",
+      "controle": "Lecteur, contenu et rattachement ; défaut F10. Le texte affiché n’est pas une vérification juridique du PDF."
+    },
+    {
+      "id": "DOS",
+      "section": "Dossiers kanban",
+      "statut": "Parcours exécuté",
+      "controle": "Création manuelle et IA guidée, édition, Kanban, détail, historique, chat et persistance. Défauts F04/F05/F07."
+    },
+    {
+      "id": "DOS-NEW",
+      "section": "Nouveau dossier",
+      "statut": "Parcours exécuté",
+      "controle": "Création manuelle et IA guidée, édition, Kanban, détail, historique, chat et persistance. Défauts F04/F05/F07."
+    },
+    {
+      "id": "DOS-DET",
+      "section": "Detail dossier",
+      "statut": "Parcours exécuté",
+      "controle": "Création manuelle et IA guidée, édition, Kanban, détail, historique, chat et persistance. Défauts F04/F05/F07."
+    },
+    {
+      "id": "REP",
+      "section": "Reporting",
+      "statut": "Parcours exécuté",
+      "controle": "Deux vues et assistant d’export CSV ; F13. PDF imprimé et contenu de fichier final non validés."
+    },
+    {
+      "id": "PJ",
+      "section": "Pieces jointes",
+      "statut": "Parcours partiel",
+      "controle": "Liste vide, dépôt simulé, aperçu. Pas de téléversement réel ni de restauration de version."
+    },
+    {
+      "id": "SIG",
+      "section": "Signature electronique",
+      "statut": "Parcours partiel",
+      "controle": "Ouverture et comparaison du document ; F08. Arrêt avant signature finale."
+    },
+    {
+      "id": "IA",
+      "section": "Assistant ia",
+      "statut": "Parcours exécuté",
+      "controle": "Demande fictive, réponse réelle, historique, nouvelle conversation, dossier guidé, refus hors périmètre, contrôle de masquage."
+    },
+    {
+      "id": "SON-NEW",
+      "section": "Nouveau sondage",
+      "statut": "Parcours exécuté",
+      "controle": "Création Oui/Non, cible, relecture automatique après délai, diffusion locale et détail. Pas de vote distant réel. F15."
+    },
+    {
+      "id": "SON-NEW-1",
+      "section": "Étape 1 : questions",
+      "statut": "Parcours exécuté",
+      "controle": "Création Oui/Non, cible, relecture automatique après délai, diffusion locale et détail. Pas de vote distant réel. F15."
+    },
+    {
+      "id": "SON-NEW-2",
+      "section": "Étape 2 : diffusion",
+      "statut": "Parcours exécuté",
+      "controle": "Création Oui/Non, cible, relecture automatique après délai, diffusion locale et détail. Pas de vote distant réel. F15."
+    },
+    {
+      "id": "SON-NEW-3",
+      "section": "Étape 3 : relecture & diffusion",
+      "statut": "Parcours exécuté",
+      "controle": "Création Oui/Non, cible, relecture automatique après délai, diffusion locale et détail. Pas de vote distant réel. F15."
+    },
+    {
+      "id": "SON",
+      "section": "Liste sondages",
+      "statut": "Parcours exécuté",
+      "controle": "Création Oui/Non, cible, relecture automatique après délai, diffusion locale et détail. Pas de vote distant réel. F15."
+    },
+    {
+      "id": "SON-DET",
+      "section": "Detail sondage",
+      "statut": "Parcours exécuté",
+      "controle": "Création Oui/Non, cible, relecture automatique après délai, diffusion locale et détail. Pas de vote distant réel. F15."
+    },
+    {
+      "id": "REU",
+      "section": "Reunions — liste",
+      "statut": "Parcours partiel",
+      "controle": "Liste, détail, génération réelle d’un PV et ouverture du PV dans Documents. Pas de transcription audio réelle."
+    },
+    {
+      "id": "REU-DIC",
+      "section": "Reunions — dictaphone",
+      "statut": "Parcours partiel",
+      "controle": "Écran de consentement, cases et activation du bouton. Aucun micro ouvert."
+    },
+    {
+      "id": "REU-DIC-1",
+      "section": "Consentement",
+      "statut": "Parcours partiel",
+      "controle": "Écran de consentement, cases et activation du bouton. Aucun micro ouvert."
+    },
+    {
+      "id": "REU-DIC-2",
+      "section": "Attente d'autorisation micro",
+      "statut": "Non exercé",
+      "controle": "Demande d’accès au micro, enregistrement, pause, arrêt et transcription non exercés ; nécessitent un test audio dédié."
+    },
+    {
+      "id": "REU-DIC-3",
+      "section": "En cours / pause / terminé",
+      "statut": "Non exercé",
+      "controle": "Demande d’accès au micro, enregistrement, pause, arrêt et transcription non exercés ; nécessitent un test audio dédié."
+    },
+    {
+      "id": "REU-DET",
+      "section": "Reunions — detail",
+      "statut": "Parcours partiel",
+      "controle": "Liste, détail, génération réelle d’un PV et ouverture du PV dans Documents. Pas de transcription audio réelle."
+    },
+    {
+      "id": "DOC",
+      "section": "Espace documents — accueil",
+      "statut": "Parcours exécuté",
+      "controle": "Bibliothèque, modèles, éditeur, style et charte, génération IA, aperçu, signature et feuille de diffusion. Chaque style/bloc n’a pas été testé manuellement ; auto-test intégré réussi."
+    },
+    {
+      "id": "DOC-EDI",
+      "section": "Espace documents — editeur",
+      "statut": "Parcours exécuté",
+      "controle": "Bibliothèque, modèles, éditeur, style et charte, génération IA, aperçu, signature et feuille de diffusion. Chaque style/bloc n’a pas été testé manuellement ; auto-test intégré réussi."
+    },
+    {
+      "id": "DOC-EDI-C",
+      "section": "Panneau contenu",
+      "statut": "Parcours exécuté",
+      "controle": "Bibliothèque, modèles, éditeur, style et charte, génération IA, aperçu, signature et feuille de diffusion. Chaque style/bloc n’a pas été testé manuellement ; auto-test intégré réussi."
+    },
+    {
+      "id": "DOC-EDI-S",
+      "section": "Panneau style (fourni par les extensions)",
+      "statut": "Parcours exécuté",
+      "controle": "Bibliothèque, modèles, éditeur, style et charte, génération IA, aperçu, signature et feuille de diffusion. Chaque style/bloc n’a pas été testé manuellement ; auto-test intégré réussi."
+    },
+    {
+      "id": "DOC-EDI-CH",
+      "section": "Panneau charte",
+      "statut": "Parcours exécuté",
+      "controle": "Bibliothèque, modèles, éditeur, style et charte, génération IA, aperçu, signature et feuille de diffusion. Chaque style/bloc n’a pas été testé manuellement ; auto-test intégré réussi."
+    },
+    {
+      "id": "DOC-GEN",
+      "section": "Generateur de documents",
+      "statut": "Parcours exécuté",
+      "controle": "Bibliothèque, modèles, éditeur, style et charte, génération IA, aperçu, signature et feuille de diffusion. Chaque style/bloc n’a pas été testé manuellement ; auto-test intégré réussi."
+    },
+    {
+      "id": "RAC",
+      "section": "Raccourcis",
+      "statut": "Parcours exécuté",
+      "controle": "Validation vide, création d’un raccourci fictif, persistance."
+    },
+    {
+      "id": "AGE",
+      "section": "Agenda partagé",
+      "statut": "Parcours partiel",
+      "controle": "Agenda, création d’événement, détail, ordre du jour ; F09. Import/export ICS et synchronisation externe non validés."
+    },
+    {
+      "id": "ADH",
+      "section": "Adherents — liste / groupes / cotisations",
+      "statut": "Parcours partiel",
+      "controle": "Liste, fiche, édition, cotisations et listes de diffusion. Pas de transaction ou paiement."
+    },
+    {
+      "id": "ADH-IMP",
+      "section": "Adherents — import csv",
+      "statut": "Parcours exécuté",
+      "controle": "Chargement du CSV exemple et import de trois lignes. Pas de fichier utilisateur téléversé."
+    },
+    {
+      "id": "ADH-FIC",
+      "section": "Adherents — fiche",
+      "statut": "Parcours partiel",
+      "controle": "Liste, fiche, édition, cotisations et listes de diffusion. Pas de transaction ou paiement."
+    },
+    {
+      "id": "ADH-MSG",
+      "section": "Adherents — message",
+      "statut": "Parcours partiel",
+      "controle": "Composition et modèle de convocation ; envoi externe non exécuté."
+    },
+    {
+      "id": "INT",
+      "section": "Intranet — accueil",
+      "statut": "Parcours exécuté",
+      "controle": "Intranet/site public, génération IA fictive, édition, aperçu mobile, code HTML, relecture et envoi simulé au webmaster, file de suivi."
+    },
+    {
+      "id": "INT-GEN",
+      "section": "Intranet — generateur de pages",
+      "statut": "Parcours exécuté",
+      "controle": "Intranet/site public, génération IA fictive, édition, aperçu mobile, code HTML, relecture et envoi simulé au webmaster, file de suivi."
+    },
+    {
+      "id": "INT-EDI",
+      "section": "Intranet — editeur de page",
+      "statut": "Parcours exécuté",
+      "controle": "Intranet/site public, génération IA fictive, édition, aperçu mobile, code HTML, relecture et envoi simulé au webmaster, file de suivi."
+    },
+    {
+      "id": "INT-PUB",
+      "section": "Intranet — envoi au webmaster",
+      "statut": "Parcours exécuté",
+      "controle": "Intranet/site public, génération IA fictive, édition, aperçu mobile, code HTML, relecture et envoi simulé au webmaster, file de suivi."
+    },
+    {
+      "id": "INT-SUI",
+      "section": "Intranet — suivi des publications",
+      "statut": "Parcours exécuté",
+      "controle": "Intranet/site public, génération IA fictive, édition, aperçu mobile, code HTML, relecture et envoi simulé au webmaster, file de suivi."
+    },
+    {
+      "id": "INT-CHA",
+      "section": "Intranet — gabarit du site",
+      "statut": "Écran inspecté",
+      "controle": "Charte et retour. Aucune publication de nouvelle identité."
+    },
+    {
+      "id": "NOT",
+      "section": "Centre de notifications",
+      "statut": "Parcours partiel",
+      "controle": "Liste et ouverture d’un sondage depuis sa notification ; pas de push distant."
+    },
+    {
+      "id": "RCH",
+      "section": "Recherche",
+      "statut": "Parcours exécuté",
+      "controle": "Recherche de recette puis du PV existant ; F12."
+    },
+    {
+      "id": "UNII-CFG",
+      "section": "Reglages unii",
+      "statut": "Écran inspecté",
+      "controle": "Actions par module, rôles et suggestions visibles ; droits non modifiés."
+    },
+    {
+      "id": "EXT",
+      "section": "Extensions",
+      "statut": "Parcours exécuté",
+      "controle": "Extension présente, permissions visibles, auto-test intégré passé. Pas d’installation externe."
+    },
+    {
+      "id": "PAR",
+      "section": "Parametres",
+      "statut": "Écran inspecté",
+      "controle": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque."
+    },
+    {
+      "id": "PAR-PRO",
+      "section": "Profil",
+      "statut": "Écran inspecté",
+      "controle": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque."
+    },
+    {
+      "id": "COM",
+      "section": "Communication",
+      "statut": "Parcours exécuté",
+      "controle": "Génération fictive, repli en concurrence, nouvelle tentative réussie, ajout au plan et persistance."
+    },
+    {
+      "id": "COM-PLAN",
+      "section": "Plan éditorial",
+      "statut": "Parcours exécuté",
+      "controle": "Génération fictive, repli en concurrence, nouvelle tentative réussie, ajout au plan et persistance."
+    },
+    {
+      "id": "COM-ATE",
+      "section": "Atelier de contenus",
+      "statut": "Parcours exécuté",
+      "controle": "Génération fictive, repli en concurrence, nouvelle tentative réussie, ajout au plan et persistance."
+    },
+    {
+      "id": "COM-POL",
+      "section": "Pôle communication",
+      "statut": "Écran inspecté",
+      "controle": "Formules et formulaire ; demande commerciale non soumise."
+    },
+    {
+      "id": "MOB",
+      "section": "Application mobile",
+      "statut": "Parcours exécuté",
+      "controle": "Création, génération IA, notification appliquée, relecture, soumission FO et validation simulée ; perte après rechargement F03."
+    },
+    {
+      "id": "FOR",
+      "section": "Formations",
+      "statut": "Parcours partiel",
+      "controle": "Deux catalogues, accès à une formation. Pas d’inscription auprès d’un organisme."
+    },
+    {
+      "id": "FOR-IA",
+      "section": "Catalogue ia",
+      "statut": "Parcours partiel",
+      "controle": "Deux catalogues, accès à une formation. Pas d’inscription auprès d’un organisme."
+    },
+    {
+      "id": "FOR-GEN",
+      "section": "Catalogue généraliste",
+      "statut": "Parcours partiel",
+      "controle": "Deux catalogues, accès à une formation. Pas d’inscription auprès d’un organisme."
+    },
+    {
+      "id": "FOR-UNII",
+      "section": "Formation avec unii",
+      "statut": "Parcours exécuté",
+      "controle": "Plan IA de quatre modules, correction IA, quiz 4/4, progression, synthèse et attestation F14. Question au formateur lancée, résultat final non relevé séparément."
+    },
+    {
+      "id": "CTC",
+      "section": "Contacts & groupes",
+      "statut": "Parcours exécuté",
+      "controle": "Création d’un contact fictif, ouverture de son fil, persistance."
+    },
+    {
+      "id": "MEM",
+      "section": "Memoire assistant",
+      "statut": "Écran inspecté",
+      "controle": "Liste des mémoires et commandes ; ajout/oubli non exécutés."
+    },
+    {
+      "id": "PAR-NOT",
+      "section": "Preferences notifications",
+      "statut": "Écran inspecté",
+      "controle": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque."
+    },
+    {
+      "id": "SEC-IA",
+      "section": "Securite — documentation ia",
+      "statut": "Écran inspecté",
+      "controle": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque."
+    },
+    {
+      "id": "PAR-SEC",
+      "section": "Securite",
+      "statut": "Écran inspecté",
+      "controle": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque."
+    },
+    {
+      "id": "PAR-RGPD",
+      "section": "Rgpd",
+      "statut": "Écran inspecté",
+      "controle": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque."
+    },
+    {
+      "id": "PAR-MBR",
+      "section": "Membres",
+      "statut": "Écran inspecté",
+      "controle": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque."
+    },
+    {
+      "id": "PAR-MAR",
+      "section": "Identite de marque",
+      "statut": "Écran inspecté",
+      "controle": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque."
+    },
+    {
+      "id": "PAR-IA",
+      "section": "Config ia",
+      "statut": "Parcours partiel",
+      "controle": "Affichage et bouton de test de connexion ; F17. Aucun secret modifié."
+    },
+    {
+      "id": "MSG",
+      "section": "Messages — liste + fil + infos",
+      "statut": "Parcours exécuté",
+      "controle": "Messages locaux, contact/groupe fictifs, transfert, rattachement au dossier, mention @unii et double panneau. F05/F06/F11."
+    },
+    {
+      "id": "OFF",
+      "section": "Mode hors ligne",
+      "statut": "Parcours partiel",
+      "controle": "Base hors ligne et ouverture du lecteur ; coupure réseau et disponibilité réelle sans serveur non testées."
+    },
+    {
+      "id": "ONB",
+      "section": "Onboarding",
+      "statut": "Écran inspecté",
+      "controle": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque."
+    },
+    {
+      "id": "ADB",
+      "section": "Tableau de bord admin",
+      "statut": "Écran inspecté",
+      "controle": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque."
+    },
+    {
+      "id": "MOD-ANON",
+      "section": "Fenêtre — Contrôle d'anonymisation",
+      "statut": "Parcours exécuté",
+      "controle": "Niveaux, valeurs fictives inconnues, blocage sur sentinelle connue et relèvement du niveau. F01/F02."
+    },
+    {
+      "id": "MOD-IAERR",
+      "section": "Fenêtre — Erreur IA",
+      "statut": "Non exercé",
+      "controle": "Fenêtre dédiée d’erreur réseau non déclenchée ; le repli Communication et le refus de masquage ont été testés séparément."
+    },
+    {
+      "id": "UNII",
+      "section": "Panneau unii (assistant latéral)",
+      "statut": "Parcours exécuté",
+      "controle": "Panneau contextuel et génération/application d’une notification mobile. Résumé du fil prérempli bloqué par le contrôle automatique, non exécuté."
+    },
+    {
+      "id": "MOD-FWM",
+      "section": "Fenêtre — fwm (transfert/webmaster)",
+      "statut": "Parcours exécuté",
+      "controle": "Transfert d’un message fictif vers Contact Fictif Recette."
+    },
+    {
+      "id": "MOD-DPM",
+      "section": "Fenêtre — dpm",
+      "statut": "Parcours exécuté",
+      "controle": "Choix d’un dossier existant et vérification de l’historique ; F05."
+    },
+    {
+      "id": "MOD-CTM",
+      "section": "Fenêtre — contact",
+      "statut": "Parcours exécuté",
+      "controle": "Création d’un contact fictif, ouverture de son fil, persistance."
+    },
+    {
+      "id": "MOD-GRM",
+      "section": "Fenêtre — groupe",
+      "statut": "Parcours exécuté",
+      "controle": "Création du groupe fictif avec le contact fictif."
+    },
+    {
+      "id": "MOD-SHEET",
+      "section": "Feuille mobile (sheet)",
+      "statut": "Parcours partiel",
+      "controle": "Récupération de compte, diffusion de document et export ; toutes les variantes de feuille non exécutées."
+    }
+  ]
+}

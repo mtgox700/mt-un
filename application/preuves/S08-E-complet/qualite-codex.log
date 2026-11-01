@@ -1,0 +1,49 @@
+acc-week 200
+acc-first 200
+dos-next 200
+dos-sum 200
+dos-delais 200
+dos-mail 200
+dos-prio 200
+reu-prep 200
+reu-dec 200
+reu-salaries 200
+reu-pv 200
+doc-relire 200
+doc-simpl 200
+doc-risk 200
+doc-idea 200
+msg-sum 200
+msg-reply 200
+ag-prep 200
+ag-delais 200
+com-month 200
+com-reform 200
+mob-page 200
+mob-short 200
+mob-push 200
+mob-check 200
+mob-ideas 200
+fm-reco 200
+adh-msg 200
+adh-relance 200
+pol-q 200
+pol-ana 200
+web-lis 200
+rep-explain 200
+rep-bilan 200
+rac-sugg 200
+par-help 200
+par-roles 200
+formation-course 503
+formation-feedback 200
+document-compose 200
+intranet-compose 200
+meeting-minutes 200
+communication-compose 200
+poll-options 200
+Traceback (most recent call last):
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/tests/s08_native_quality.py", line 22, in <module>
+    for action,spec in ACTIONS.items():
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

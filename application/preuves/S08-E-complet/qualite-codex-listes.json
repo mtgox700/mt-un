@@ -1,0 +1,164 @@
+[
+  {
+    "action": "dos-prio",
+    "status": 200,
+    "persistent": true,
+    "text": "BROUILLON À RELIRE — Classement provisoire proposé\n\nL’ordre ci-dessous est une suggestion d’organisation, non une urgence légale établie ni une validation juridique. Les sources ne permettent pas de départager les dossiers sur une urgence légale ou un enjeu humain démontré.\n\n• Priorité proposée en premier — S1, préparation des horaires fictifs du mardi : le sujet concerne des horaires, ce qui suggère de vérifier en premier les éventuelles contraintes des personnes ; aucune échéance légale ni conséquence humaine n’est documentée (S1, P1).\n• Priorité proposée ensuite — S2, préparation d’une réunion de travail : le texte porte sur une préparation sans décisions ni dates établies ; aucun élément fourni ne démontre une urgence légale ou un enjeu humain supérieur (S2, P1).\n\nÉléments manquants pour confirmer ou modifier ce classement : obligations et références juridiques applicables [à compléter] ; échéances contraignantes [à compléter] ; personnes concernées et conséquences concrètes d’un retard [à compléter] ; éventuels risques pour la santé, la sécurité ou les droits [à compléter]. Le passage S2 évoque une autre source sur les accès, mais celle-ci n’est pas fournie : cette affirmation ne peut pas être tenue pour établie ici. Toute appréciation juridique ultérieure restera une proposition à vérifier. Aucune action n’est exécutée.",
+    "excerpts": [
+      {
+        "source": "S1",
+        "passage": "P1",
+        "quote": "Préparation des horaires fictifs du mardi.",
+        "title": "Dossier fictif",
+        "kind": "case",
+        "version": "1",
+        "location": "description"
+      },
+      {
+        "source": "S2",
+        "passage": "P1",
+        "quote": "Question : Dans notre organisation fictive, comment préparer une réunion de travail sans inventer de décisions ni de dates ?",
+        "title": "Dans notre organisation fictive, comment préparer une réunion de travail sans inventer de décisions",
+        "kind": "case",
+        "version": "1",
+        "location": "description"
+      },
+      {
+        "source": "S2",
+        "passage": "P1",
+        "quote": "La source ne permet d’en rapporter aucune.",
+        "title": "Dans notre organisation fictive, comment préparer une réunion de travail sans inventer de décisions",
+        "kind": "case",
+        "version": "1",
+        "location": "description"
+      },
+      {
+        "source": "S2",
+        "passage": "P1",
+        "quote": "La source décrit uniquement la séparation du contrôle des droits. Elle ne fournit ni objectif de réunion, ni liste de participants, ni disponibilités, ni documents de travail, ni décisions, ni échéances.",
+        "title": "Dans notre organisation fictive, comment préparer une réunion de travail sans inventer de décisions",
+        "kind": "case",
+        "version": "1",
+        "location": "description"
+      }
+    ],
+    "artifact": null
+  },
+  {
+    "action": "doc-idea",
+    "status": 200,
+    "persistent": true,
+    "text": "BROUILLON À RELIRE — Proposition de trois documents à produire ce mois-ci\n\nFait disponible : la source indique que « Les horaires fictifs seront examinés mardi. » La date exacte de ce mardi, les horaires concernés, les personnes chargées de l’examen et ses modalités sont [à compléter]. Aucun résultat ni aucune décision ne sont fournis.\n\nLes documents ci-dessous sont des suggestions, et non des productions ou des actions exécutées. Leur utilité relative reste à confirmer selon les besoins et le calendrier [à compléter].\n\n1. Note préparatoire à l’examen des horaires fictifs\nPublic proposé : personnes chargées de l’examen et personnes consultées [à compléter].\nMessage clé proposé : préciser les horaires à examiner, les questions à trancher et les informations nécessaires avant l’examen annoncé pour mardi.\nContenu suggéré : objet de l’examen, horaires concernés [à compléter], points à discuter [à compléter], contraintes et contributions attendues [à compléter].\n\n2. Synthèse de l’examen, à rédiger après sa tenue\nPublic proposé : personnes ayant participé à l’examen et responsables du suivi [à compléter].\nMessage clé proposé : distinguer ce qui a été discuté, ce qui reste ouvert et les éventuelles décisions effectivement prises.\nContenu suggéré : date réelle de l’examen [à compléter], participants [à compléter], constats [à compléter], décisions éventuelles [à compléter] et suites proposées [à compléter]. La source ne permet pas d’affirmer que l’examen a eu lieu ni qu’une décision a été prise.\n\n3. Fiche d’information sur les horaires fictifs\nPublic proposé : personnes concernées par ces horaires [à compléter].\nMessage clé proposé : expliquer clairement la situation connue et les points restant à confirmer, sans présenter une proposition comme une décision.\nContenu suggéré : horaires concernés [à compléter], statut après examen [à compléter], éventuels changements [à compléter], date d’application si elle est décidée [à compléter] et interlocuteur pour les questions [à compléter].\n\nLimite du brouillon : la seule source annonce un examen mardi. Elle ne permet pas de situer ce mardi dans le mois visé, de déterminer les publics réels ni de confirmer un besoin de communication. Le choix et le calendrier de ces trois documents sont donc des propositions à relire et à ajuster.",
+    "excerpts": [
+      {
+        "source": "S1",
+        "passage": "P1",
+        "quote": "Les horaires fictifs seront examinés mardi.",
+        "title": "Document fictif",
+        "kind": "document",
+        "version": "1",
+        "location": "bloc/1"
+      }
+    ],
+    "artifact": null
+  },
+  {
+    "action": "fm-reco",
+    "status": 200,
+    "persistent": true,
+    "text": "BROUILLON À RELIRE — Recommandations proposées, non exécutées.\n\nFaits fournis : votre rôle est « Élu », votre niveau est « Débutant », le thème est « Préparer une réunion fictive » et votre objectif est de formuler un ordre du jour. Le champ « dur » indique une durée de 30 minutes.\n\nDeux formations suggérées, par ordre d’utilité :\n\n• « Construire un ordre du jour clair » — Intitulé proposé, et non formation identifiée dans un catalogue. Cette formation viserait à transformer les sujets à traiter en points ordonnés, avec un objectif explicite pour chacun. Elle répond directement à votre objectif de formuler un ordre du jour et pourrait être adaptée à un niveau débutant.\n\n• « Préparer une réunion dans son rôle d’élu » — Intitulé proposé, et non formation identifiée dans un catalogue. Cette formation viserait à préparer les sujets, les documents utiles et les interventions envisagées. Elle compléterait la première en reliant l’ordre du jour à la préparation concrète de la réunion fictive.\n\nLimites et éléments à compléter : la nature précise de votre mandat, l’instance concernée et vos responsabilités sont [à compléter]. Aucun catalogue de formations, programme, prérequis ou durée par formation n’est fourni : il n’est donc pas possible de désigner deux offres existantes ni de confirmer leur adéquation à la durée de 30 minutes. Il reste également à préciser si cette durée concerne chaque formation ou l’ensemble du parcours : [à compléter]. Ces recommandations sont pédagogiques et ne constituent pas une validation juridique.",
+    "excerpts": [
+      {
+        "source": "S1",
+        "passage": "P1",
+        "quote": "theme : Préparer une réunion fictive",
+        "title": "Réunion fictive sur les horaires du mardi",
+        "kind": "formations",
+        "version": "1",
+        "location": "theme"
+      },
+      {
+        "source": "S1",
+        "passage": "P2",
+        "quote": "dur : 30",
+        "title": "Réunion fictive sur les horaires du mardi",
+        "kind": "formations",
+        "version": "1",
+        "location": "dur"
+      },
+      {
+        "source": "S1",
+        "passage": "P3",
+        "quote": "level : Débutant",
+        "title": "Réunion fictive sur les horaires du mardi",
+        "kind": "formations",
+        "version": "1",
+        "location": "level"
+      },
+      {
+        "source": "S1",
+        "passage": "P4",
+        "quote": "role : Élu",
+        "title": "Réunion fictive sur les horaires du mardi",
+        "kind": "formations",
+        "version": "1",
+        "location": "role"
+      },
+      {
+        "source": "S1",
+        "passage": "P5",
+        "quote": "goal : Formuler un ordre du jour",
+        "title": "Réunion fictive sur les horaires du mardi",
+        "kind": "formations",
+        "version": "1",
+        "location": "goal"
+      }
+    ],
+    "artifact": null
+  },
+  {
+    "action": "adh-msg",
+    "status": 200,
+    "persistent": true,
+    "text": "BROUILLON À RELIRE — aucun envoi effectué\n\nObjet : [à compléter : sujet du message]\n\nBonjour,\n\nNous souhaitons vous informer de [à compléter : information vérifiée à communiquer].\n\nAction proposée : merci de [à compléter : action attendue et modalités de réponse].\n\nCordialement,\n[à compléter : signature de l’auteur]\n\nNote de relecture — Faits fournis : la fiche décrit le destinataire comme « Élu », avec un mandat « Titulaire », rattaché à « Entreprise fictive » et « Site fictif ». Elle ne décrit pas l’auteur. Le sujet, l’information à diffuser, l’objectif et les modalités de l’appel à l’action manquent. Le texte et l’appel à l’action ci-dessus sont des propositions à compléter avant tout envoi.",
+    "excerpts": [
+      {
+        "source": "S1",
+        "passage": "P1",
+        "quote": "poste : Élu",
+        "title": "Fiche membre",
+        "kind": "adherents",
+        "version": "1",
+        "location": "poste"
+      },
+      {
+        "source": "S1",
+        "passage": "P2",
+        "quote": "ent : Entreprise fictive",
+        "title": "Fiche membre",
+        "kind": "adherents",
+        "version": "1",
+        "location": "ent"
+      },
+      {
+        "source": "S1",
+        "passage": "P3",
+        "quote": "etab : Site fictif",
+        "title": "Fiche membre",
+        "kind": "adherents",
+        "version": "1",
+        "location": "etab"
+      },
+      {
+        "source": "S1",
+        "passage": "P4",
+        "quote": "mandat : Titulaire",
+        "title": "Fiche membre",
+        "kind": "adherents",
+        "version": "1",
+        "location": "mandat"
+      }
+    ],
+    "artifact": null
+  }
+]

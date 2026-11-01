@@ -1,0 +1,232 @@
+Browser tab: 12, Title: "127.0.0.1:5054/uniion App v3.dc.html", URL: "http://127.0.0.1:5054/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+	1 container dc-root
+		232 container
+			233 image uniion
+			234 button Réduire le menu
+			429 button Accueil
+				430 image
+				431 text Accueil
+			238 button Assistant
+				239 image
+				240 text Assistant
+			426 button Dossiers
+				427 image
+				428 text Dossiers
+			409 button Messages
+				410 image
+				411 text Messages
+			247 button Agenda
+				248 image
+				249 text Agenda
+			250 button Réunions
+				251 image
+				252 text Réunions
+			253 button Documents
+				254 image
+				255 text Documents
+			256 button Formations
+				257 image
+				258 text Formations
+			259 button Communication
+				260 image
+				261 text Communication
+			262 button Application mobile
+				263 image
+				264 text Application mobile
+			265 button Adhérents
+				266 image
+				267 text Adhérents
+			432 button Intranet
+				433 image
+				434 text Intranet
+			271 button Reporting
+				272 image
+				273 text Reporting
+			274 button Raccourcis
+				275 image
+				276 text Raccourcis
+			277 button Réglages
+				278 image
+				279 text Réglages
+			280 text ASSISTANT IA Une question de droit ?
+			281 button Ouvrir le chat
+			282 button SM Sophie Marchand Déléguée syndicale
+				283 text SM
+				284 text Sophie Marchand
+				285 text Déléguée syndicale
+			286 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			435 button Revenir à l'intranet
+			436 text field (settable) Description: Titre de la page, Value: Télétravail : vos droits après l'avenant
+			437 text intranet.section-valenciennes.fr/intranet/vos-droits/teletravail-avenant-2026
+			438 button Charte · Intranet
+			439 text RETOURNÉE
+			440 heading Thème de la page, Value: 2
+				441 text Thème de la page
+			442 text Rendu défini dans Charte des sites
+			443 checkbox Charte du site, Help: Rendu habituel, Value: 1
+			444 checkbox Éditorial, Help: Typographie de presse, crème, filets fins., Value: 0
+			445 checkbox Moderne à cartes, Help: Fond gris clair, cartes arrondies, boutons pilules., Value: 0
+			446 checkbox Militant, Help: Bandeau plein de couleur, titres condensés en capitales., Value: 0
+			447 checkbox Institutionnel, Help: Sobre, marine, structuré, très lisible., Value: 0
+			448 checkbox Magazine, Help: Fond sombre, titres en grand, accent vif., Value: 0
+			449 checkbox Minimal, Help: Beaucoup de blanc, un seul accent, filets., Value: 0
+			450 text CHAPÔ
+			451 text entry area (settable) L'avenant du 1er juillet ouvre deux jours par semaine et clarifie l'indemnité d'équipement.
+			452 text Résumé pour la page d'accueil du site : « L'avenant du 1er juillet ouvre deux jours par semaine et clarifie l'indemnité d'équipement… »
+			453 heading Blocs, Value: 2
+				454 text Blocs
+			455 text Modifiez le contenu : l'aperçu se met à jour en direct.
+			456 text PARAGRAPHE
+			457 text entry area (settable) Ce paragraphe d'introduction reprend le contexte, en deux ou trois phrases, sans jargon.
+			458 text INTERTITRE
+			459 text entry area (settable) Ce que cela change pour vous
+			460 text LISTE
+			461 text entry area (settable) Premier point concret
+Deuxième point concret
+Démarche à suivre
+			462 text ENCADRÉ
+			463 text entry area (settable) Une question ? Les élus tiennent permanence chaque mardi de 12 h à 14 h, local B12.
+			464 text Une ligne = un élément dans les blocs Liste.
+			465 text Ajouter une section :
+			466 button + Bandeau d'accroche, Help: Titre, phrase, puis « libellé du bouton | lien ».
+				467 text + 
+				468 text Bandeau d'accroche
+			469 button + Chiffres clés, Help: Une ligne par chiffre : valeur | légende.
+				470 text + 
+				471 text Chiffres clés
+			472 button + Frise de la négociation, Help: Une ligne par étape : date | libellé | « fait ».
+				473 text + 
+				474 text Frise de la négociation
+			475 button + FAQ dépliable, Help: Une ligne par question : question | réponse.
+				476 text + 
+				477 text FAQ dépliable
+			478 button + Cartes des élus, Help: Une ligne par élu : prénom | mandat. Coordonnées professionnelles uniquement.
+				479 text + 
+				480 text Cartes des élus
+			481 button + Agenda, Help: Une ligne par date : date | événement.
+				482 text + 
+				483 text Agenda
+			484 button + Appel à adhérer, Help: Phrase d'appel, puis « libellé | lien ».
+				485 text + 
+				486 text Appel à adhérer
+			487 heading Circuit de publication, Value: 2
+				488 text Circuit de publication
+			489 text Jean-Paul Deniau — Relue le 24 août.
+			490 text RETOUR DU WEBMASTER
+			491 text Le visuel d'en-tête pèse 3,2 Mo — merci de fournir une image sous 400 Ko, ou je publie sans visuel.
+			492 button Envoyer pour publication
+			493 button Copier le HTML
+			494 text Sophie Marchand · modifiée il y a 3 j
+			495 button Aperçu
+			496 button Code HTML
+			497 container Largeur d'aperçu
+				498 button Ordinateur
+				499 button Tablette
+				500 button Mobile
+			501 text intranet.section-valenciennes.fr/intranet/vos-droits/teletravail-avenant-2026
+			502 container Aperçu tablette de la page
+				503 AXWebArea about:srcdoc
+					504 link Description: Aller au contenu, Value: 127.0.0.1:5054/uniion%20App%20v3.dc.html#contenu
+					505 text Espace réservé aux salariés
+					506 link Description: Recherche, Value: 127.0.0.1:5054/intranet/recherche
+					507 link Description: Sophie Marchand, Value: 127.0.0.1:5054/intranet/mon-compte
+					508 link Description: Se déconnecter, Value: 127.0.0.1:5054/intranet/deconnexion
+					509 container
+						510 link Value: 127.0.0.1:5054/intranet, Description: Section syndicale Métallurgie — Valenciennes Section syndicale Métallurgie — Valenciennes Intranet des salariés
+						511 text Rechercher
+						512 search text field (settable) Rechercher, ID: q
+						513 button Rechercher
+					514 container Navigation principale
+						515 content list
+							516 link Description: Actualités, Value: 127.0.0.1:5054/intranet/actualites
+							517 link Description: Vos droits, Value: 127.0.0.1:5054/intranet/vos-droits
+							518 link Description: La section, Value: 127.0.0.1:5054/intranet/la-section
+							519 link Description: Négociations, Value: 127.0.0.1:5054/intranet/negociations
+							520 link Description: Loisirs & ASC, Value: 127.0.0.1:5054/intranet/asc
+							521 link Description: Nous contacter, Value: 127.0.0.1:5054/intranet/contacts
+					522 container Fil d'ariane
+						523 content list
+							524 container
+								525 link Description: Accueil, Value: 127.0.0.1:5054/intranet
+								526 text ›
+							527 container
+								528 link Description: Vos droits, Value: 127.0.0.1:5054/intranet/vos-droits
+								529 text ›
+							530 text Télétravail : vos droits après l'avenant
+					531 container
+						532 text VOS DROITS
+						533 heading Télétravail : vos droits après l'avenant, Value: 1
+							534 text Télétravail : vos droits après l'avenant
+						535 text L'avenant du 1er juillet ouvre deux jours par semaine et clarifie l'indemnité d'équipement. Par Sophie Marchand, adhérent de la section Mis à jour le 5 septembre 2026 Lecture 3 min
+					536 container contenu
+						537 container
+							538 text Ce paragraphe d'introduction reprend le contexte, en deux ou trois phrases, sans jargon.
+							539 heading Ce que cela change pour vous, Value: 2, ID: ce-que-cela-change-pour-vous
+								540 text Ce que cela change pour vous
+							541 content list
+								542 text Premier point concret
+								543 text Deuxième point concret
+								544 text Démarche à suivre
+							545 text À RETENIR
+							546 text Une question ? Les élus tiennent permanence chaque mardi de 12 h à 14 h, local B12. Partager cette page
+							547 link Description: Copier le lien, Value: 127.0.0.1:5054/uniion%20App%20v3.dc.html#
+							548 link Description: Par e-mail, Value: mailto:?subject=T%C3%A9l%C3%A9travail%20:%20vos%20droits%20apr%C3%A8s%20l%27avenant
+						549 container
+							550 container Sommaire
+								551 heading SUR CETTE PAGE, Value: 3
+									552 text SUR CETTE PAGE
+								553 content list
+									554 link Description: Ce que cela change pour vous, Value: 127.0.0.1:5054/uniion%20App%20v3.dc.html#ce-que-cela-change-pour-vous
+							555 heading PERMANENCES, Value: 3
+								556 text PERMANENCES
+							557 text Local B12 — mardi 12 h-14 h et jeudi 17 h-18 h 30.
+							558 link Description: Saisir vos représentants, Value: 127.0.0.1:5054/intranet/contacts
+							559 heading DOCUMENTS LIÉS, Value: 3
+								560 text DOCUMENTS LIÉS
+							561 content list
+								562 link Description: Toutes les pages de « Vos droits », Value: 127.0.0.1:5054/intranet/vos-droits
+								563 link Description: Comptes rendus de séance, Value: 127.0.0.1:5054/intranet/la-section/comptes-rendus
+								564 link Description: Fiches pratiques, Value: 127.0.0.1:5054/intranet/vos-droits
+							565 heading MOTS-CLÉS, Value: 3
+								566 text MOTS-CLÉS
+							567 text Vos droits
+							568 text teletravail-avenant-2026
+							569 text 2026
+					570 container
+						571 heading SECTION MÉTA VAL, Value: 4
+							572 text SECTION MÉTA VAL
+						573 text Local syndical — 12 rue de la Fonderie, 59300 Valenciennes
+						574 text section@syndicat-valenciennes.fr
+						575 heading RUBRIQUES, Value: 4
+							576 text RUBRIQUES
+						577 content list
+							578 link Description: Actualités, Value: 127.0.0.1:5054/intranet/actualites
+							579 link Description: Vos droits, Value: 127.0.0.1:5054/intranet/vos-droits
+							580 link Description: La section, Value: 127.0.0.1:5054/intranet/la-section
+							581 link Description: Négociations, Value: 127.0.0.1:5054/intranet/negociations
+						582 heading SERVICES, Value: 4
+							583 text SERVICES
+						584 content list
+							585 link Description: Saisine confidentielle, Value: 127.0.0.1:5054/intranet/contacts
+							586 link Description: Billetterie et ASC, Value: 127.0.0.1:5054/intranet/asc
+							587 link Description: Agenda des permanences, Value: 127.0.0.1:5054/intranet/agenda
+						588 heading INFORMATIONS, Value: 4
+							589 text INFORMATIONS
+						590 content list
+							591 link Description: Traitement de vos données, Value: 127.0.0.1:5054/intranet/donnees-personnelles
+							592 link Description: Accessibilité, Value: 127.0.0.1:5054/intranet/accessibilite
+							593 link Description: Aide, Value: 127.0.0.1:5054/intranet/aide
+						594 text © 2026 Section syndicale Métallurgie — Valenciennes intranet.section-valenciennes.fr Espace interne — ne pas diffuser hors de l'entreprise
+
+The focused UI element is 499 button Tablette

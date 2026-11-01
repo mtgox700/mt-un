@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "count": 22,
+  "checks": [
+    {
+      "test": "source_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "source_mfa",
+      "ok": true
+    },
+    {
+      "test": "target_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "target_mfa",
+      "ok": true
+    },
+    {
+      "test": "real_antivirus_clean_upload",
+      "ok": true
+    },
+    {
+      "test": "file_share_created",
+      "ok": true
+    },
+    {
+      "test": "before_acceptance_download_refused",
+      "ok": true
+    },
+    {
+      "test": "accepted",
+      "ok": true
+    },
+    {
+      "test": "content_and_selected_attachment",
+      "ok": true
+    },
+    {
+      "test": "real_shared_preview",
+      "ok": true
+    },
+    {
+      "test": "authorized_download_exact",
+      "ok": true
+    },
+    {
+      "test": "foreign_org_file_refused",
+      "ok": true
+    },
+    {
+      "test": "without_share_refused",
+      "ok": true
+    },
+    {
+      "test": "forged_path_refused",
+      "ok": true
+    },
+    {
+      "test": "invalid_preview_page_refused",
+      "ok": true
+    },
+    {
+      "test": "revocation_authorized",
+      "ok": true
+    },
+    {
+      "test": "revoked_preview_refused",
+      "ok": true
+    },
+    {
+      "test": "revoked_download_refused",
+      "ok": true
+    },
+    {
+      "test": "active_browser_share_created",
+      "ok": true
+    },
+    {
+      "test": "active_browser_share_accepted",
+      "ok": true
+    }
+  ]
+}

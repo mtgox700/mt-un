@@ -1,0 +1,19 @@
+{
+  "created_test_containers_running": [],
+  "existing_services_running": [
+    "supabase_db_unii-recette",
+    "supabase_storage_unii-recette",
+    "supabase_rest_unii-recette",
+    "supabase_inbucket_unii-recette",
+    "supabase_auth_unii-recette",
+    "supabase_kong_unii-recette",
+    "supabase_auth_unii",
+    "supabase_inbucket_unii",
+    "supabase_kong_unii",
+    "supabase_db_unii",
+    "uniion-clamav",
+    "supabase_storage_unii",
+    "supabase_rest_unii"
+  ],
+  "volumes_deleted": false
+}

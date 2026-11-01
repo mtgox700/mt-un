@@ -1,0 +1,554 @@
+[
+  {
+    "id": "REG-01",
+    "name": "No duplicate class methods",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 10,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-02",
+    "name": "Dossier edits support both calling conventions",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 11,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-03",
+    "name": "Message is appended only to selected dossier",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 12,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-04",
+    "name": "Unknown identities and identifiers masked at every level",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 13,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-05",
+    "name": "Tokens are stable, opaque and not colliding",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 14,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-06",
+    "name": "Manual RPS selection survives benign question",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 15,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-07",
+    "name": "Automatic level never weakens manual level",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 16,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-08",
+    "name": "Final network boundary masks question, corpus and memory",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 17,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-09",
+    "name": "Dossier context contains timeline and attached content",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 18,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-10",
+    "name": "Persisted keys include mobile pages",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 19,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-11",
+    "name": "Signature snapshot uses selected document blocks",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 20,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-12",
+    "name": "Agenda document preserves event details and route",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 21,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-13",
+    "name": "Reader attachment creates actual piece in current dossier",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 22,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-14",
+    "name": "@unii dispatches to conversation assistant",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 23,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-15",
+    "name": "Poll suggestions use current question and reject stale result",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 24,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-16",
+    "name": "Export selects requested actual file format",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 25,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-17",
+    "name": "Attestation produces PDF data rather than only a toast",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 26,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-18",
+    "name": "Brackets do not bypass privacy masking",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 27,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-19",
+    "name": "Generated signature includes the current generated document",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 28,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "REG-20",
+    "name": "Delayed reply remains attached to its source conversation",
+    "file": "prototype-local/tests/regression.cjs",
+    "line": 29,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-01",
+    "name": "Import audio : octets sauvegardés puis relus et accès journalisé",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 10,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-02",
+    "name": "Audio : erreur stockage ne crée pas de réunion",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 11,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-03",
+    "name": "Simulation : aucun faux audio enregistré",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 12,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-04",
+    "name": "Pièce : versions restaurables sans perdre les versions suivantes",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 13,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-05",
+    "name": "Pièce : quota refusé sans ajouter de métadonnées",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 14,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-06",
+    "name": "ICS : contient événement et échappe texte spécial",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 15,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-07",
+    "name": "CSV journal : données actuelles et guillemets échappés",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 16,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-08",
+    "name": "Cache : octets réellement stockés et retirés",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 17,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-09",
+    "name": "Cache : quota refusé sans faux statut disponible",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 18,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-10",
+    "name": "Signature : validation des trois lignes et sauvegarde",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 19,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-11",
+    "name": "PV retardé : aucune navigation après changement de parcours",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 20,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-12",
+    "name": "Micro : refus tardif après annulation ne relance pas la simulation",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 21,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-13",
+    "name": "Micro : flux reçu après annulation immédiatement libéré",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 22,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-14",
+    "name": "Navigation : pause de capture et arrêt de lecture",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 23,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "COR-15",
+    "name": "Audio : sauvegarde attend le dernier fragment du MediaRecorder",
+    "file": "prototype-local/tests/corrections-etape1.cjs",
+    "line": 24,
+    "nature": "Test logique prototype avec doubles/mocks ; pas test RLS de production",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "ET1-01",
+    "name": "Profil refuse nom",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 10,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-02",
+    "name": "Profil refuse siret",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 10,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-03",
+    "name": "Profil refuse email",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 10,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-04",
+    "name": "Profil refuse mandatFin",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 10,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-05",
+    "name": "Profil annulation",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 11,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-06",
+    "name": "Profil sauvegarde et restauration",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 12,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-07",
+    "name": "Contact nom requis",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 13,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-08",
+    "name": "Contact création et restauration",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 14,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-09",
+    "name": "Groupe nom requis",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 15,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-10",
+    "name": "Groupe membre requis",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 16,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-11",
+    "name": "Groupe créé et restauré",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 17,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-12",
+    "name": "Fiche refuse courriel doublon",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 18,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-13",
+    "name": "Agenda création édition restauration",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 19,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-14",
+    "name": "Agenda date impossible refusée",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 20,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-15",
+    "name": "Suppression adhérent exemple persiste",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 21,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-16",
+    "name": "Suppression événement exemple persiste",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 22,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-17",
+    "name": "CSV valide importé et restauré",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 25,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-18",
+    "name": "CSV invalide refusé",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 26,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-19",
+    "name": "CSV courriel @ seul refusé",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 27,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-20",
+    "name": "CSV doublon exact refusé",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 28,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-21",
+    "name": "CSV doublon casse différente refusé",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 29,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-22",
+    "name": "CSV champ cité avec séparateur conservé",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 30,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-23",
+    "name": "Stockage corrompu ne plante pas",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 31,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-24",
+    "name": "Authentification refuse mauvais courriel",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 32,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-25",
+    "name": "MFA refuse mauvais code",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 33,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-26",
+    "name": "Relecture demandée ne marque pas déjà relue",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 34,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-27",
+    "name": "Brouillon marque ne modifie pas la marque active",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 35,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-28",
+    "name": "Marque publiée conservée en stockage isolé",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 36,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-29",
+    "name": "Action unii désactivée masquée",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 37,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "ET1-30",
+    "name": "Action unii limitée au rôle",
+    "file": "prototype-local/tests/etape1.cjs",
+    "line": 38,
+    "nature": "Test logique prototype ; stockage local simulé, pas isolation tenant",
+    "statut": "Résultat historique PASS ; non relancé en S00"
+  },
+  {
+    "id": "EXP-01",
+    "name": "test_xlsx",
+    "file": "prototype-local/tests/exports_test.py",
+    "line": 9,
+    "nature": "Test de format export local, pas contrôle des autorisations",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "EXP-02",
+    "name": "test_csv",
+    "file": "prototype-local/tests/exports_test.py",
+    "line": 11,
+    "nature": "Test de format export local, pas contrôle des autorisations",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "EXP-03",
+    "name": "test_pdf",
+    "file": "prototype-local/tests/exports_test.py",
+    "line": 13,
+    "nature": "Test de format export local, pas contrôle des autorisations",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  },
+  {
+    "id": "EXP-04",
+    "name": "test_bad_format",
+    "file": "prototype-local/tests/exports_test.py",
+    "line": 15,
+    "nature": "Test de format export local, pas contrôle des autorisations",
+    "statut": "Existant, réussite rapportée à la passe précédente ; non relancé en S00"
+  }
+]

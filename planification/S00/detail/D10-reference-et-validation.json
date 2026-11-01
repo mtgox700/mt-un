@@ -1,0 +1,22 @@
+{
+  "decision": "D10",
+  "statut": "Validée par l’utilisateur",
+  "choix": "Prototype versionné comme référence fonctionnelle et visuelle ; changements visibles soumis à accord utilisateur ; validation à chaque sprint ; calendrier ajusté à capacité réelle.",
+  "reference": [
+    "Figer une copie versionnée du prototype actuel avec empreintes et captures des principaux états",
+    "Conserver écrans, identité visuelle, fonctions, comportements mobile/tablette et enchaînements ; signaler écarts",
+    "Prototype référence fonctionnelle et visuelle, pas référence de sécurité ; remplacer simulations et stockage sans altérer parcours sauf adaptation approuvée"
+  ],
+  "evolutions": [
+    "Spécifier avant développement écrans et états nécessaires aux nouveautés S00",
+    "Changements visibles UX et design soumis à accord utilisateur avant réalisation"
+  ],
+  "validation_sprint": [
+    "Démonstration et tests fonctionnels",
+    "Contrôles mobile/tablette et cloisonnement adaptés au changement",
+    "Acceptation produit par utilisateur selon prototype et décisions validées"
+  ],
+  "calendrier": "Ordre des sprints prévisionnel ; aucune date engagée avant capacité fixée ; réestimer après premiers sprints du socle",
+  "reports": "Registre des décisions reportées avec sprint concerné et condition avant intégration",
+  "implementation": "Décision enregistrée ; gel versionné, captures et validations à exécuter, non déclarés réalisés par cet enregistrement"
+}

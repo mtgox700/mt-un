@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": [
+    "authorized_file_search",
+    "old_sequence_open",
+    "inert_preview_without_download",
+    "mobile_send",
+    "exactly_one_database_row",
+    "message_visible_after_new_mfa_login"
+  ],
+  "reference": "preuves/S02-messagerie/thread-1440.png",
+  "physical_devices": false,
+  "user_visual_acceptance": false,
+  "captures": [
+    "fil-1440.png",
+    "fil-768.png",
+    "fil-390.png",
+    "apercu-1440.png",
+    "envoi-reconnexion-390.png"
+  ]
+}

@@ -1,0 +1,128 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 image uniion
+			5 button Réduire le menu
+			69 button Accueil
+				70 image
+				71 text Accueil
+			94 button Assistant
+				95 image
+				96 text Assistant
+			76 button Dossiers
+				77 image
+				78 text Dossiers
+			15 button Messages
+				16 image
+				17 text Messages
+			18 button Agenda
+				19 image
+				20 text Agenda
+			21 button Réunions
+				22 image
+				23 text Réunions
+			24 button Documents
+				25 image
+				26 text Documents
+			97 button Formations
+				98 image
+				99 text Formations
+			79 button Communication
+				80 image
+				81 text Communication
+			91 button Application mobile
+				92 image
+				93 text Application mobile
+			36 button Adhérents
+				37 image
+				38 text Adhérents
+			39 button Intranet
+				40 image
+				41 text Intranet
+			42 button Reporting
+				43 image
+				44 text Reporting
+			85 button Raccourcis
+				86 image
+				87 text Raccourcis
+			48 button Réglages
+				49 image
+				50 text Réglages
+			51 text ASSISTANT IA Une question de droit ?
+			52 button Ouvrir le chat
+			53 button SM Sophie Marchand Déléguée syndicale
+				54 text SM
+				55 text Sophie Marchand
+				56 text Déléguée syndicale
+			57 button Se déconnecter
+		58 container
+			75 button ← Retour
+			59 image
+			60 text field (settable)
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			64 button
+				65 image
+			66 button Se déconnecter
+				67 image
+		100 container
+			101 text INTELLIGENCE ARTIFICIELLE
+			102 heading Votre expert juridique de poche, Value: 1
+				103 text Votre expert juridique de poche
+			104 text Sourcé sur la Convention Métallurgie et le Code du travail NOUVELLE CONVERSATION Pas encore enregistrée — posez une question
+			105 button Mémoire · 4, Help: Gérer la mémoire de l'assistant
+			106 button Créer un dossier
+			107 button Plein écran
+			108 button Nouvelle conversation
+			109 button Nouveau dossier guidé
+			110 text HISTORIQUE 4 conversations
+			111 button Toutes
+			112 button Assistant
+			113 button Dossiers
+			114 button Réunions
+			115 button Cas fictif pour recette : préparer collectivement une réunion d’information des Dossiers il y a 3 min · 1 q.
+				116 text Cas fictif pour recette : préparer collectivement une réunion d’information des
+				117 text Dossiers
+				118 text il y a 3 min
+				119 text  · 
+				120 text 1 q.
+			121 button Description: Supprimer la conversation, Help: Supprimer
+			122 button Exemple fictif de recette : propose une liste de préparation pour une réunion de Assistant il y a 4 min · 1 q.
+				123 text Exemple fictif de recette : propose une liste de préparation pour une réunion de
+				124 text Assistant
+				125 text il y a 4 min
+				126 text  · 
+				127 text 1 q.
+			128 button Description: Supprimer la conversation, Help: Supprimer
+			129 button Heures de délégation non payées en cas d'arrêt maladie Assistant 22 oct. · 1 q.
+				130 text Heures de délégation non payées en cas d'arrêt maladie
+				131 text Assistant
+				132 text 22 oct.
+				133 text  · 
+				134 text 1 q.
+			135 button Description: Supprimer la conversation, Help: Supprimer
+			136 button Projet de PV — CSE ordinaire de septembre Réunions 20 oct. · 1 q.
+				137 text Projet de PV — CSE ordinaire de septembre
+				138 text Réunions
+				139 text 20 oct.
+				140 text  · 
+				141 text 1 q.
+			142 button Description: Supprimer la conversation, Help: Supprimer
+			143 image
+			144 text uniion Assistant Aucune identité transmise NIVEAU D'ANONYMISATION
+			145 checkbox Standard, Help: NAO, budget, articles — masquage léger (matricules)., Value: 1
+			146 checkbox RH sensible, Help: Inaptitude, discipline — masquage nominatif + matricules., Value: 0
+			147 checkbox RPS, Help: Harcèlement, souffrance au travail — masquage maximal., Value: 0
+			160 text UNIION ASSISTANT
+			161 text Nouvelle conversation. Posez votre question : je réponds en citant mes sources.
+			151 button Signalement de harcèlement
+			152 button Informations dues en NAO
+			153 button Enquête après accident
+			154 button Budget ASC
+			155 text field (settable)
+			156 button
+				157 image
+			158 text Réponses produites par un modèle de langage souverain hébergé dans l'Union européenne, sur le seul corpus de votre organisation (convention, accords, PV) et à partir d'un texte anonymisé — à vérifier avant tout usage contentieux.
+			159 button En savoir plus sur la sécurité
+
+The focused UI element is 108 button Nouvelle conversation

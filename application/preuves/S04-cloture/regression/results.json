@@ -1,0 +1,68 @@
+[
+  {
+    "suite": "s04_adherents.py",
+    "passed": true
+  },
+  {
+    "suite": "s04_cadence.py",
+    "passed": true
+  },
+  {
+    "suite": "s04_corrections.py",
+    "passed": true
+  },
+  {
+    "suite": "s04_coverage_corrections.py",
+    "passed": true
+  },
+  {
+    "suite": "s04_evidence.py",
+    "passed": true
+  },
+  {
+    "suite": "s04_exports.py",
+    "passed": true
+  },
+  {
+    "suite": "s04_ledger.py",
+    "passed": true
+  },
+  {
+    "suite": "s04_membership_end.py",
+    "passed": true
+  },
+  {
+    "suite": "s04_membership_return.py",
+    "passed": true
+  },
+  {
+    "suite": "s04_partial.py",
+    "passed": true
+  },
+  {
+    "suite": "s04_preview_resume.py",
+    "passed": true
+  },
+  {
+    "suite": "s04_resume.py",
+    "passed": true,
+    "retest": "S04-reprise-tarifs/integration.json",
+    "note": "Ancienne pr\u00e9paration de test ajust\u00e9e au member_anchor s\u00e9par\u00e9 depuis le lot cadence ; 83 contr\u00f4les passent."
+  },
+  {
+    "suite": "s04_return_due_today.py",
+    "passed": true
+  },
+  {
+    "suite": "s04_schedules.py",
+    "passed": true
+  },
+  {
+    "suite": "s04_summary.py",
+    "passed": true
+  },
+  {
+    "suite": "s04_typed.py",
+    "passed": true
+  }
+]

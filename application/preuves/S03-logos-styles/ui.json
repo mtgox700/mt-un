@@ -1,0 +1,26 @@
+[
+  {
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "download": true,
+    "noHorizontalOverflow": true,
+    "notice": true
+  },
+  {
+    "name": "tablette",
+    "width": 768,
+    "height": 1024,
+    "download": true,
+    "noHorizontalOverflow": true,
+    "notice": true
+  },
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "download": true,
+    "noHorizontalOverflow": true,
+    "notice": false
+  }
+]

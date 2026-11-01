@@ -1,0 +1,44 @@
+[
+  {
+    "surface": "Sondages",
+    "prototype": "Anonymat garanti / aucune donnée nominative",
+    "cible": "D06 : mode sans identité associée, consultation privilégiée explicite, information participant et seuil >=5",
+    "statut": "Écart consécutif aux décisions validées ; proposition visuelle détaillée à approuver avant réalisation D10"
+  },
+  {
+    "surface": "Hors ligne / adhérents",
+    "prototype": "Chiffré sur appareil dans certains textes alors que stockage prototype non chiffré",
+    "cible": "D08 : chiffrement et gestion clés à implémenter avant toute affirmation ; statut enregistré localement vs serveur",
+    "statut": "Écart consécutif aux décisions validées ; proposition visuelle détaillée à approuver avant réalisation D10"
+  },
+  {
+    "surface": "Publication web",
+    "prototype": "Envoi malgré absence relecture proposé",
+    "cible": "D12/D13 : bloquer diffusion sensible/externe sans second acteur et version approuvée",
+    "statut": "Écart consécutif aux décisions validées ; proposition visuelle détaillée à approuver avant réalisation D10"
+  },
+  {
+    "surface": "Signature",
+    "prototype": "Signature simulée / bouton Faire signer",
+    "cible": "D13 : validation interne par défaut ; signature prestataire module optionnel D05",
+    "statut": "Écart consécutif aux décisions validées ; proposition visuelle détaillée à approuver avant réalisation D10"
+  },
+  {
+    "surface": "Plateforme",
+    "prototype": "Abonnements par offres et rôle global sans exception",
+    "cible": "D05 facturation par module ; D06 exception ciblée pour réponses sans identité",
+    "statut": "Écart consécutif aux décisions validées ; proposition visuelle détaillée à approuver avant réalisation D10"
+  },
+  {
+    "surface": "Suppression / conservation",
+    "prototype": "Suppression locale immédiate / purge automatique affichée",
+    "cible": "D07 demande/approbation super admin ; D08 nettoyage seule copie confirmée",
+    "statut": "Écart consécutif aux décisions validées ; proposition visuelle détaillée à approuver avant réalisation D10"
+  },
+  {
+    "surface": "Fournisseurs",
+    "prototype": "Connexion compte ChatGPT / clé navigateur",
+    "cible": "D09 connecteurs serveur approuvés ; aucun secret local ni fournisseur implicite",
+    "statut": "Écart consécutif aux décisions validées ; proposition visuelle détaillée à approuver avant réalisation D10"
+  }
+]

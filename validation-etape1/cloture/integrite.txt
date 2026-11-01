@@ -1,0 +1,2 @@
+324 fichiers de référence conformes au manifeste.
+Comparaison public : 5 fichiers ; écarts : []

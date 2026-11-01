@@ -1,0 +1,88 @@
+Browser tab: 12, Title: "127.0.0.1:5054/uniion App v3.dc.html", URL: "http://127.0.0.1:5054/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+	1 container dc-root
+		57 container
+			107 image uniion
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			75 text ADHÉSIONS
+			76 heading Importer des adhérents, Value: 1
+				77 text Importer des adhérents
+			78 text Fichier CSV encodé en UTF-8, une ligne d'en-tête puis une ligne par adhérent. Séparateur point-virgule ou virgule, les deux sont acceptés.
+			79 button Télécharger le modèle CSV
+			80 button Choisir un fichier…
+			81 button Charger l'exemple
+			82 text Aucun fichier chargé Séparateur :  point-virgule
+			83 container
+				84 text CONTENU DU FICHIER — MODIFIABLE AVANT IMPORT
+				85 text entry area (settable) CONTENU DU FICHIER — MODIFIABLE AVANT IMPORT, Value: prenom;nom;email;entreprise;etablissement
+Test;Recette;test@example.invalid;Entreprise fictive;Site fictif
+Test;Doublon;TEST@EXAMPLE.INVALID;Entreprise fictive;Site fictif
+Test;Adresse;@;Entreprise fictive;Site fictif
+			108 heading CONTRÔLE DES LIGNES, Value: 2
+				109 text CONTRÔLE DES LIGNES
+			110 text 3 lignes prêtes à importer · 0 à corriger L2 Test Recette test@example.invalid PRÊTE
+			111 text Site fictif
+			112 text Entreprise inconnue — sera créée Établissement inconnue — sera créée L3 Test Doublon TEST@EXAMPLE.INVALID PRÊTE
+			113 text Site fictif
+			114 text Entreprise inconnue — sera créée Établissement inconnue — sera créée L4 Test Adresse @ PRÊTE
+			115 text Site fictif
+			116 text Entreprise inconnue — sera créée Établissement inconnue — sera créée
+			117 button Importer 3 adhérent(s)
+				118 text Importer 
+				119 text 3
+				120 text  adhérent(s)
+			121 button Vider
+			86 button Retour aux adhérents
+			87 heading COLONNES ATTENDUES, Value: 2
+				88 text COLONNES ATTENDUES
+			89 text prenom Prénom OBLIGATOIRE nom Nom OBLIGATOIRE email Courriel OBLIGATOIRE telephone Téléphone FACULTATIVE entreprise Entreprise OBLIGATOIRE etablissement Établissement OBLIGATOIRE section Section FACULTATIVE direction Direction FACULTATIVE emploi Emploi occupé FACULTATIVE date_adhesion Date d'adhésion FACULTATIVE mode_reglement Mode de règlement FACULTATIVE montant Montant de cotisation FACULTATIVE
+			90 text MODELE-IMPORT-ADHERENTS.CSV
+			91 text prenom;nom;email;telephone;entreprise;etablissement;section;direction;emploi;date_adhesion;mode_reglement;montant
+Lucie;Baradel;l.baradel@mv-sa.fr;06 11 22 33 44;Métallurgie Valenciennes SA;Site de Valenciennes;Section Atelier;Production;Opératrice ligne 2;01/09/2026;Prélèvement SEPA;13,40 €/mois
+Ahmed;Zerrouki;a.zerrouki@valmetal-log.fr;07 88 55 21 09;Valmétal Logistique;Plateforme de Prouvy;Section Logistique;Supply Chain;Cariste;01/09/2026;Chèque;11,80 €/mois
+Hélène;Trouvain;h.trouvain@vmv-services.fr;;VMV Services;Siège de Lille;Section Tertiaire;Fonctions support;Gestionnaire ADV;15/09/2026;Virement annuel;150 €/an
+
+			92 heading CE QUE FAIT L'IMPORT, Value: 2
+				93 text CE QUE FAIT L'IMPORT
+			94 content list
+				95 container
+					96 AXListMarker • 
+					97 text Chaque ligne valide crée une adhésion au statut « Adhésion en cours », bulletin à faire signer.
+				98 container
+					99 AXListMarker • 
+					100 text Les doublons de courriel, dans le fichier comme dans le fichier des adhérents, sont écartés.
+				101 container
+					102 AXListMarker • 
+					103 text Une entreprise, section ou direction inconnue est créée à l'import et reste filtrable.
+				104 container
+					105 AXListMarker • 
+					106 text Le fichier n'est lu que sur l'appareil : rien n'est envoyé à un serveur, l'import est journalisé.
+		122 container
+			123 button Accueil
+				124 image
+				125 text Accueil
+			126 button Dossiers
+				127 image
+				128 text Dossiers
+			129 button Agenda
+				130 image
+				131 text Agenda
+			132 button Réunions
+				133 image
+				134 text Réunions
+			135 button Réglages
+				136 image
+				137 text Réglages
+
+The focused UI element is 85 text entry area (settable) CONTENU DU FICHIER — MODIFIABLE AVANT IMPORT, Value: prenom;nom;email;entreprise;etablissement
+Test;Recette;test@example.invalid;Entreprise fictive;Site fictif
+Test;Doublon;TEST@EXAMPLE.INVALID;Entreprise fictive;Site fictif
+Test;Adresse;@;Entreprise fictive;Site fictif

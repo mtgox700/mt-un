@@ -1,0 +1,36 @@
+from pathlib import Path
+exec(compile(Path(__file__).with_name('s03_workflows.py').read_text().split("out=ROOT/'preuves/S03-convocations-odj'")[0],__file__,'exec'))
+import base64
+# Advance only the isolated in-process test clock between recipe batches.
+app.sessions.clock=lambda: time.time()+61
+out=ROOT/'preuves/S03-pdf-diffusion';out.mkdir(parents=True,exist_ok=True)
+sql(f"insert into public.uniion_authorities values('{org}','{a['id']}','download',false),('{org}','{a['id']}','agenda_publish',false),('{org}','{a['id']}','agenda_review',false),('{org}','{b['id']}','agenda_review',false);")
+p={'version':2}
+check('pdf_anonymous_denied',work(Client(),'export',p)[0]==403)
+check('pdf_foreign_denied',work(x,'export',p,o=foreign)[0]==403)
+check('pdf_without_download_denied',work(y,'export',p)[0]==403)
+st,pdf,_=work(x,'export',p);check('pdf_authorized',st==200 and base64.b64decode(pdf['base64']).startswith(b'%PDF-'));(out/'ordre-du-jour.pdf').write_bytes(base64.b64decode(pdf['base64']))
+check('publish_before_review_denied',work(x,'publish',p)[0]==403)
+check('self_review_denied',work(x,'review',p)[0]==403)
+check('second_actor_review',work(y,'review',p)[1]['reviewed'])
+check('reviewer_cannot_publish',work(y,'publish',p)[0]==403)
+check('publish_authorized',work(x,'publish',p)[1]['published'])
+check('authorized_recipient_reads_publication',work(y,'published',p)[1]['document']['title']==doc['title'])
+check('publish_idempotent',work(x,'publish',p)[1]['published'])
+sql(f"update uniion_private.agenda_audiences set audience='none' where organization_id='{org}' and user_id='{b['id']}';")
+check('revoked_recipient_publication_denied',work(y,'published',p)[0]==403)
+check('revoked_reviewer_blocks_publish',work(x,'publish',p)[0]==403)
+sql(f"update uniion_private.agenda_audiences set audience='adherents' where organization_id='{org}' and user_id='{b['id']}';")
+doc['title']='Ordre du jour — version suivante';check('new_draft_saved',work(x,'save_document',{'version':2,'document':doc})[0]==200)
+check('stale_export_denied',work(x,'export',p)[0]==403)
+check('new_version_not_approved',not work(x,'status',{'version':3})[1]['reviewed'])
+check('new_version_publish_denied',work(x,'publish',{'version':3})[0]==403)
+check('new_version_second_review',work(y,'review',{'version':3})[1]['reviewed'])
+check('new_version_published',work(x,'publish',{'version':3})[1]['published'])
+app.sessions.clock=lambda: time.time()+122
+check('event_change_saved',x.call('/identity/agenda/save',{'organization_id':org,'event':{**e,'id':eid,'version':1,'lieu':'Nouvelle salle fictive'}})[0]==200)
+check('event_change_invalidates_review',not work(x,'status',{'version':3})[1]['reviewed'])
+check('event_change_publish_denied',work(x,'publish',{'version':3})[0]==403)
+check('old_publication_cannot_be_reapproved',work(y,'review',{'version':3})[0]==403)
+(ROOT/'.local-auth/s03-publication.json').write_text(json.dumps({'organization':org,'event':eid,'document':d['document']['id'],'version':3}))
+(out/'integration.json').write_text(json.dumps({'passed':True,'count':len(checks),'checks':checks},indent=2));print(json.dumps({'passed':True,'count':len(checks)}))

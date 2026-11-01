@@ -1,0 +1,32 @@
+[
+  {
+    "width": 390,
+    "siteFilter": true,
+    "inviteModal": true,
+    "layout": {
+      "scroll": 382,
+      "width": 390
+    },
+    "cancelled": true
+  },
+  {
+    "width": 820,
+    "siteFilter": true,
+    "inviteModal": true,
+    "layout": {
+      "scroll": 820,
+      "width": 820
+    },
+    "cancelled": true
+  },
+  {
+    "width": 1440,
+    "siteFilter": true,
+    "inviteModal": true,
+    "layout": {
+      "scroll": 1440,
+      "width": 1440
+    },
+    "cancelled": true
+  }
+]

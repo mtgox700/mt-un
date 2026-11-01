@@ -1,0 +1,140 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			8 button
+				9 image
+			10 button Se déconnecter
+				11 image
+		12 container
+			13 text SITE INTERNE DE L'ORGANISATION
+			14 heading Intranet, Value: 1
+				15 text Intranet
+			16 text 5 pages suivies · 1 en ligne, 1 en attente du webmaster
+			17 tab group Choisir le site à gérer
+				18 tab (selectable, settable, boolean) Intranet 5 pages intranet.section-valenciennes.fr, Value: 0
+Intranet
+5 pages
+intranet.section-valenciennes.fr
+				19 tab (selectable, settable, boolean) Site internet 3 pages section-valenciennes.fr, Value: 0
+Site internet
+3 pages
+section-valenciennes.fr
+			20 text SALARIÉS AUTHENTIFIÉS Vous pouvez y publier des comptes rendus de séance, des positions de négociation et des documents de travail : l'audience est interne et identifiée. 1 pages en ligne 1 en attente webmaster 2 en préparation 1 retour à traiter
+			21 button Générateur de pages HTML Points clés → page rédigée, mise au gabarit du site, HTML propre.
+				22 text Générateur de pages HTML
+				23 text Points clés → page rédigée, mise au gabarit du site, HTML propre.
+			24 button Suivi des publications 1 demande en attente · 1 retour à traiter
+				25 text Suivi des publications
+				26 text 1 demande en attente · 1 retour à traiter
+			27 heading GABARITS DE PAGE, Value: 2
+				28 text GABARITS DE PAGE
+			29 button Actualité Un fait récent, un chapô, deux ou trois sections courtes. RUBRIQUE ACTUALITÉS
+				30 text Actualité
+				31 text Un fait récent, un chapô, deux ou trois sections courtes.
+				32 text RUBRIQUE ACTUALITÉS
+			33 button Communiqué interne Position de la section, ton institutionnel, signature du bureau. UNE PAGE
+				34 text Communiqué interne
+				35 text Position de la section, ton institutionnel, signature du bureau.
+				36 text UNE PAGE
+			37 button Fiche pratique Ce que dit le texte, ce que ça change pour vous, qui contacter. RUBRIQUE VOS DROITS
+				38 text Fiche pratique
+				39 text Ce que dit le texte, ce que ça change pour vous, qui contacter.
+				40 text RUBRIQUE VOS DROITS
+			41 button Questions-réponses Questions fréquentes sur un dispositif ou un accord, en blocs repliables. BLOCS REPLIABLES
+				42 text Questions-réponses
+				43 text Questions fréquentes sur un dispositif ou un accord, en blocs repliables.
+				44 text BLOCS REPLIABLES
+			45 button Événement Réunion d'information, permanence, assemblée : date, lieu, inscription. AVEC INSCRIPTION
+				46 text Événement
+				47 text Réunion d'information, permanence, assemblée : date, lieu, inscription.
+				48 text AVEC INSCRIPTION
+			49 button Compte rendu de séance Repris depuis un PV approuvé, allégé pour les salariés. DEPUIS RÉUNIONS
+				50 text Compte rendu de séance
+				51 text Repris depuis un PV approuvé, allégé pour les salariés.
+				52 text DEPUIS RÉUNIONS
+			53 heading ARBORESCENCE DU SITE, Value: 2
+				54 text ARBORESCENCE DU SITE
+			55 button Actualités 2 pages /intranet/actualites Communiqués, comptes rendus de séance, mobilisations.
+				56 text Actualités
+				57 text 2 pages
+				58 text /intranet/actualites
+				59 text Communiqués, comptes rendus de séance, mobilisations.
+			60 button Vos droits 1 page /intranet/vos-droits Fiches pratiques : congés, télétravail, temps de travail.
+				61 text Vos droits
+				62 text 1 page
+				63 text /intranet/vos-droits
+				64 text Fiches pratiques : congés, télétravail, temps de travail.
+			65 button La section 1 page /intranet/la-section Élus et mandats, permanences, procès-verbaux, comptes.
+				66 text La section
+				67 text 1 page
+				68 text /intranet/la-section
+				69 text Élus et mandats, permanences, procès-verbaux, comptes.
+			70 button Négociations 0 page /intranet/negociations NAO, accords en cours, positions déposées.
+				71 text Négociations
+				72 text 0 page
+				73 text /intranet/negociations
+				74 text NAO, accords en cours, positions déposées.
+			75 button Loisirs & ASC 1 page /intranet/asc Chèques vacances, billetterie, arbre de Noël.
+				76 text Loisirs & ASC
+				77 text 1 page
+				78 text /intranet/asc
+				79 text Chèques vacances, billetterie, arbre de Noël.
+			80 button Nous contacter 0 page /intranet/contacts Formulaire de saisine, coordonnées, alerte confidentielle.
+				81 text Nous contacter
+				82 text 0 page
+				83 text /intranet/contacts
+				84 text Formulaire de saisine, coordonnées, alerte confidentielle.
+			85 heading PAGES DE INTRANET.SECTION-VALENCIENNES.FR, Value: 2
+				86 text PAGES DE  INTRANET.SECTION-VALENCIENNES.FR
+			87 text 5 pages
+			88 button NAO 2027 : où en sont les négociations ? Actualités · Sophie Marchand · modifiée il y a 12 min BROUILLON
+				89 text NAO 2027 : où en sont les négociations ?
+				90 text Actualités · Sophie Marchand · modifiée il y a 12 min
+				91 text BROUILLON
+			92 button Supprimer
+			93 button Sécurité atelier B : ce que le CSE a obtenu Actualités · Jean-Paul Deniau · modifiée hier RELUE
+				94 text Sécurité atelier B : ce que le CSE a obtenu
+				95 text Actualités · Jean-Paul Deniau · modifiée hier
+				96 text RELUE
+			97 button Supprimer
+			98 button Chèques vacances 2026 : mode d'emploi Loisirs & ASC · Karim Belkacem · modifiée il y a 2 j EN ATTENTE WEBMASTER
+				99 text Chèques vacances 2026 : mode d'emploi
+				100 text Loisirs & ASC · Karim Belkacem · modifiée il y a 2 j
+				101 text EN ATTENTE WEBMASTER
+			102 button Supprimer
+			103 button Permanences des élus — rentrée 2026 La section · Sophie Marchand · modifiée il y a 6 j PUBLIÉE
+				104 text Permanences des élus — rentrée 2026
+				105 text La section · Sophie Marchand · modifiée il y a 6 j
+				106 text PUBLIÉE
+			107 button Supprimer
+			108 button Télétravail : vos droits après l'avenant Vos droits · Sophie Marchand · modifiée il y a 3 j RETOURNÉE
+				109 text Télétravail : vos droits après l'avenant
+				110 text Vos droits · Sophie Marchand · modifiée il y a 3 j
+				111 text RETOURNÉE
+			112 button Supprimer
+			113 text Vous éditez l'intranet au titre du rôle « communication ». 3 adhérents disposent de ce rôle ; les autres ont un accès en lecture.
+			114 button Charte de ce site
+		115 container
+			116 button Accueil
+				117 image
+				118 text Accueil
+			119 button Dossiers
+				120 image
+				121 text Dossiers
+			122 button Agenda
+				123 image
+				124 text Agenda
+			125 button Réunions
+				126 image
+				127 text Réunions
+			128 button Réglages
+				129 image
+				130 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

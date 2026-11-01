@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-30",
+  "mode": "viewports émulés, contrôles visibles via cua_repl",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 382,
+      "send": true,
+      "refusalReadable": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 760,
+      "send": true,
+      "refusalReadable": true,
+      "olderMessagesLoaded": true
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "send": true,
+      "refusalReadable": true,
+      "createFromParticipant": true,
+      "reply": true
+    }
+  ],
+  "reloadPersistence": true,
+  "moduleRevocationDuringSession": "send refused; private list and thread cleared",
+  "moduleFixtureRestored": true,
+  "physicalDevices": false
+}

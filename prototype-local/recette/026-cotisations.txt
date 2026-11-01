@@ -1,0 +1,123 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			103 button Documents
+				104 image
+				105 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			181 button Adhérents
+				182 image
+				183 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			89 button Réglages
+				90 image
+				91 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			184 text ADHÉSION ET COTISATIONS
+			185 heading Adhérents, Value: 1
+				186 text Adhérents
+			187 text 15 adhérents suivis sur 3 entreprises · 3 cotisations en retard · 5 adhésions à finaliser 15 adhérents actifs 47 % à jour de cotisation 3 retards à relancer 5 listes de diffusion
+			188 tab group Vues du module adhérents
+				189 tab (selectable, settable, boolean) Adhérents, Value: 0
+				190 tab (selectable, settable, boolean) Listes de diffusion, Value: 0
+				191 tab (selected, settable, boolean) Cotisations, Value: 1
+			192 heading Taux de recouvrement, Value: 2
+				193 text Taux de recouvrement
+			194 text 47 %
+			195 text 1 842 €
+			196 text encaissé ce trimestre
+			197 text 136 €
+			198 text en attente de règlement
+			199 text 66 %
+			200 text de crédit d'impôt pour l'adhérent
+			201 heading MODES DE RÈGLEMENT, Value: 2
+				202 text MODES DE RÈGLEMENT
+			203 text Prélèvement SEPA 10 adhérents Chèque en permanence 3 adhérents Virement annuel 2 adhérents
+			204 heading RETARDS DE COTISATION, Value: 2
+				205 text RETARDS DE COTISATION
+			206 button Relancer la liste « Cotisations en retard »
+			207 button Sandrine Lemoine Plateforme de Prouvy · Section Logistique · Chèque échue le 1er juin 2026
+				208 text Sandrine Lemoine
+				209 text Plateforme de Prouvy · Section Logistique
+				210 text  · 
+				211 text Chèque
+				212 text échue le 1er juin 2026
+			213 text 35,40 € — 3 mois
+			214 button Préparer une relance
+			215 button Marquer réglé
+			216 button Pascal Vandenberghe Site de Denain · Section Atelier · Chèque échue le 1er avril 2026
+				217 text Pascal Vandenberghe
+				218 text Site de Denain · Section Atelier
+				219 text  · 
+				220 text Chèque
+				221 text échue le 1er avril 2026
+			222 text 75,00 € — 5 mois
+			223 button Préparer une relance
+			224 button Marquer réglé
+			225 button Fatou Sarr Site de Valenciennes · Section Atelier · Prélèvement SEPA rejet de prélèvement le 5 juillet 2026
+				226 text Fatou Sarr
+				227 text Site de Valenciennes · Section Atelier
+				228 text  · 
+				229 text Prélèvement SEPA
+				230 text rejet de prélèvement le 5 juillet 2026
+			231 text 25,80 € — 2 mois
+			232 button Préparer une relance
+			233 button Marquer réglé
+			234 heading JOURNAL DES ENVOIS, Value: 2
+				235 text JOURNAL DES ENVOIS
+			236 text 31/08/2026 Import CSV — 3 adhésions créées Sophie Marchand  ·  Import fichier 28/08/2026 Relance de cotisation — 3 adhérents en retard Jean-Paul Diallo  ·  E-mail 21/08/2026 Convocation assemblée du 2 septembre — 12 adhérents Sophie Marchand  ·  E-mail + SMS 14/08/2026 Bienvenue — 2 nouvelles adhésions Sophie Marchand  ·  E-mail
+
+The focused UI element is 191 tab (selected, settable, boolean) Cotisations, Value: 1

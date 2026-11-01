@@ -1,0 +1,148 @@
+Browser tab: 3, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 image uniion
+			5 button Réduire le menu
+			172 button Accueil
+				173 image
+				174 text Accueil
+			175 button Assistant
+				176 image
+				177 text Assistant
+			12 button Dossiers
+				13 image
+				14 text Dossiers
+			15 button Messages
+				16 image
+				17 text Messages
+			18 button Agenda
+				19 image
+				20 text Agenda
+			21 button Réunions
+				22 image
+				23 text Réunions
+			24 button Documents
+				25 image
+				26 text Documents
+			27 button Formations
+				28 image
+				29 text Formations
+			30 button Communication
+				31 image
+				32 text Communication
+			169 button Application mobile
+				170 image
+				171 text Application mobile
+			36 button Adhérents
+				37 image
+				38 text Adhérents
+			39 button Intranet
+				40 image
+				41 text Intranet
+			42 button Reporting
+				43 image
+				44 text Reporting
+			45 button Raccourcis
+				46 image
+				47 text Raccourcis
+			48 button Réglages
+				49 image
+				50 text Réglages
+			51 text ASSISTANT IA Une question de droit ?
+			52 button Ouvrir le chat
+			53 button SM Sophie Marchand Déléguée syndicale
+				54 text SM
+				55 text Sophie Marchand
+				56 text Déléguée syndicale
+			57 button Se déconnecter
+		58 container
+			165 button ← Retour
+			59 image
+			60 text field (settable)
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			64 button
+				65 image
+			66 button Se déconnecter
+				67 image
+		178 container
+			179 text INTELLIGENCE ARTIFICIELLE
+			180 heading Votre expert juridique de poche, Value: 1
+				181 text Votre expert juridique de poche
+			182 text Sourcé sur la Convention Métallurgie et le Code du travail ASSISTANT Test fictif : propose trois points pour préparer une réunion d’information des é
+			183 button Mémoire · 4, Help: Gérer la mémoire de l'assistant
+			184 button Créer un dossier
+			185 button Plein écran
+			186 button Nouvelle conversation
+			187 button Nouveau dossier guidé
+			188 text HISTORIQUE 6 conversations
+			189 button Toutes
+			190 button Assistant
+			191 button Dossiers
+			192 button Réunions
+			193 button Test fictif : propose trois points pour préparer une réunion d’information des é Assistant il y a 2 min · 1 q.
+				194 text Test fictif : propose trois points pour préparer une réunion d’information des é
+				195 text Assistant
+				196 text il y a 2 min
+				197 text  · 
+				198 text 1 q.
+			199 button Description: Supprimer la conversation, Help: Supprimer
+			200 button Écris un programme JavaScript pour un jeu vidéo. Assistant aujourd’hui 17h11 · 1 q.
+				201 text Écris un programme JavaScript pour un jeu vidéo.
+				202 text Assistant
+				203 text aujourd’hui 17h11
+				204 text  · 
+				205 text 1 q.
+			206 button Description: Supprimer la conversation, Help: Supprimer
+			207 button Cas fictif pour recette : préparer collectivement une réunion d’information des Dossiers aujourd’hui 17h08 · 1 q.
+				208 text Cas fictif pour recette : préparer collectivement une réunion d’information des
+				209 text Dossiers
+				210 text aujourd’hui 17h08
+				211 text  · 
+				212 text 1 q.
+			213 button Description: Supprimer la conversation, Help: Supprimer
+			214 button Exemple fictif de recette : propose une liste de préparation pour une réunion de Assistant aujourd’hui 17h07 · 1 q.
+				215 text Exemple fictif de recette : propose une liste de préparation pour une réunion de
+				216 text Assistant
+				217 text aujourd’hui 17h07
+				218 text  · 
+				219 text 1 q.
+			220 button Description: Supprimer la conversation, Help: Supprimer
+			221 button Heures de délégation non payées en cas d'arrêt maladie Assistant 22 oct. · 1 q.
+				222 text Heures de délégation non payées en cas d'arrêt maladie
+				223 text Assistant
+				224 text 22 oct.
+				225 text  · 
+				226 text 1 q.
+			227 button Description: Supprimer la conversation, Help: Supprimer
+			228 button Projet de PV — CSE ordinaire de septembre Réunions 20 oct. · 1 q.
+				229 text Projet de PV — CSE ordinaire de septembre
+				230 text Réunions
+				231 text 20 oct.
+				232 text  · 
+				233 text 1 q.
+			234 button Description: Supprimer la conversation, Help: Supprimer
+			235 image
+			236 text uniion Assistant Aucune identité transmise NIVEAU D'ANONYMISATION
+			237 checkbox Standard, Help: NAO, budget, articles — masquage léger (matricules)., Value: 1
+			238 checkbox RH sensible, Help: Inaptitude, discipline — masquage nominatif + matricules., Value: 0
+			239 checkbox RPS, Help: Harcèlement, souffrance au travail — masquage maximal., Value: 0
+			240 container
+				241 text UNIION ASSISTANT Nouvelle conversation. Posez votre question : je réponds en citant mes sources. Test fictif : propose trois points pour préparer une réunion d’information des élus. REÇU PAR LE MODÈLE RPS  ·  0 entité masquée Test fictif : propose trois points pour préparer une réunion d’information des élus. ACCORD TÉLÉTRAVAIL D'ENTREPRISE DU 12 AOÛT 2026 — DISPOSITIONS RELATIVES AUX JOURS ÉLIGIBLES, À L’INDEMNITÉ ET AUX REFUS. 1. Avant la réunion, proposez un ordre du jour consacré au télétravail : éligibilité, indemnisation et traitement des refus, à partir de l’accord cité ci-dessous.
+2. Recueillez les questions des élus et préparez un tableau anonymisé des situations à clarifier, sans diffuser de données individuelles inutiles.
+3. Après la réunion, transmettez un relevé écrit des questions, des actions retenues, des responsables et des échéances convenues.
+Ces propositions constituent des points d’appui ; vérifiez les textes avant tout usage contentieux.
+Sources
+ACCORD TÉLÉTRAVAIL D'ENTREPRISE DU 12 AOÛT 2026 — dispositions précitées — corpus documentaire fourni, extrait non paginé. Journal d'appel IA · empreinte 7f3a1c27c1 · niveau RPS · 0 entités masquées · aucun clair enregistré
+				242 button Mémoriser
+			243 button Signalement de harcèlement
+			244 button Informations dues en NAO
+			245 button Enquête après accident
+			246 button Budget ASC
+			247 text field (settable)
+			248 button
+				249 image
+			250 text Prototype local : réponses produites via Codex connecté à votre compte ChatGPT, après masquage heuristique. Ce prototype ne garantit ni hébergement UE ni anonymisation complète — vérifiez les réponses avant utilisation.
+			251 button En savoir plus sur la sécurité
+
+The focused UI element is 1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

@@ -1,0 +1,47 @@
+[
+  {
+    "format": "desktop",
+    "exportAllowed": true,
+    "overflow": false
+  },
+  {
+    "format": "tablette",
+    "exportAllowed": true,
+    "overflow": false
+  },
+  {
+    "format": "mobile",
+    "exportAllowed": true,
+    "overflow": false
+  },
+  {
+    "format": "mobile",
+    "notificationVisible": true,
+    "overflow": false
+  },
+  {
+    "format": "tablette",
+    "notificationVisible": true,
+    "overflow": false
+  },
+  {
+    "format": "desktop",
+    "notificationVisible": true,
+    "overflow": false
+  },
+  {
+    "format": "desktop",
+    "exportDenied": true,
+    "overflow": false
+  },
+  {
+    "format": "tablette",
+    "exportDenied": true,
+    "overflow": false
+  },
+  {
+    "format": "mobile",
+    "exportDenied": true,
+    "overflow": false
+  }
+]

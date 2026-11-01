@@ -1,0 +1,167 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			120 button Messages
+				121 image
+				122 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			89 button Réglages
+				90 image
+				91 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				115 text unii
+				116 text 1
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			117 text UNII SUGGÈRE
+			118 button 1 non lu · Jean-Paul Diallo
+			126 container
+				127 heading Messages, Value: 1
+					128 text Messages
+				129 button Nouvelle discussion
+				130 button Nouveau groupe
+				131 button Nouvelle diffusion aux adhérents
+				132 tab group Vue
+					133 tab (selected, settable, boolean) Discussions, Value: 1
+					134 tab (selectable, settable, boolean) Contacts & groupes, Value: 0
+				135 text field (settable) Rechercher
+				136 checkbox Toutes, Value: 1
+				137 checkbox Non lues 1, Value: 0
+				138 checkbox Sans réponse de ma part 2, Value: 0
+				139 checkbox Dernier message de moi 2, Value: 0
+				140 checkbox Groupes 3, Value: 0
+				141 checkbox Diffusions, Value: 0
+				142 button Commission Négociation 16:54 ✓✓ Vous : RECETTE : message fictif pour vérifier la conversation.
+					143 text Commission Négociation
+					144 text 16:54
+					185 text ✓✓
+					145 text Vous : 
+					146 text RECETTE : message fictif pour vérifier la conversation.
+				148 button Commission SSCT hier ✓✓ Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire.
+					149 text Commission SSCT
+					150 text hier
+					151 text ✓✓
+					152 text Vous : 
+					153 text Je prépare la grille d'enquête et je la dépose dans la base documentaire.
+				154 button Commission ASC lun. Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts.
+					155 text Commission ASC
+					156 text lun.
+					157 text Leïla C. : 
+					158 text Troisième devis traiteur reçu : 2 900 € pour 180 couverts.
+				159 button Jean-Paul Diallo lun. Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi. 1
+					160 text Jean-Paul Diallo
+					161 text lun.
+					162 text Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.
+					163 text 1
+				164 text Chiffrée de bout en bout — hors des outils de l'entreprise.
+			165 container
+				166 button Commission Négociation Vous, Jean-Paul, Leïla, Nadia, Thomas
+					167 text Commission Négociation
+					168 text Vous, Jean-Paul, Leïla, Nadia, Thomas
+				169 button Sélectionner
+				170 button unii, Help: Solliciter unii sur ce fil
+				171 button Description: Infos de la discussion, Help: Infos
+				172 text Messages chiffrés de bout en bout. Ni l'employeur ni uniion ne peuvent les lire.
+				173 container
+					174 button Description: Actions sur le message, Help: Actions
+					175 text Jean-Paul D. La direction propose 0,8 % sur les salaires de base. 09:12
+				176 container
+					177 button Description: Actions sur le message, Help: Actions
+					178 text C'est très insuffisant par rapport à l'inflation. On demande la communication des marges. 09:14 ✓✓
+				179 container
+					180 button Description: Actions sur le message, Help: Actions
+					181 text Leïla C. On maintient l'AG du personnel mardi 12 h 30 ? 09:20
+				186 container
+					187 button Description: Actions sur le message, Help: Actions
+					188 text RECETTE : message fictif pour vérifier la conversation. 16:54 ✓✓
+				182 button Description: Joindre un fichier, Help: Joindre
+				183 text field (settable) Votre message
+				184 button Envoyer
+			189 container
+				190 button Fermer les infos
+				191 text Infos du groupe
+				192 text Commission Négociation
+				193 text Groupe · 5 membres
+				194 button Modifier le groupe
+				195 text Description
+				196 text Préparation et suivi des séances NAO 2027.
+				197 text 5 membres
+				198 button Ajouter des membres
+				199 text Vous Admin Élue titulaire · Secrétaire du CSE Jean-Paul Diallo Admin Élu titulaire · Délégué syndical
+				200 button Écrire
+				201 button Retirer admin
+				202 button Retirer
+				203 text Leïla Chaïb Élue · Commission ASC
+				204 button Écrire
+				205 button Nommer admin
+				206 button Retirer
+				207 text Nadia Roussel Élue suppléante
+				208 button Écrire
+				209 button Nommer admin
+				210 button Retirer
+				211 text Thomas Lefèvre Représentant syndical au CSE
+				212 button Écrire
+				213 button Nommer admin
+				214 button Retirer
+				215 text Mettre en sourdine
+				216 switch Description: Mettre en sourdine, Value: 0
+				217 text Épingler en haut de la liste
+				218 switch Description: Épingler, Value: 0
+				219 button Supprimer le groupe
+
+The focused UI element is 171 button Description: Infos de la discussion, Help: Infos

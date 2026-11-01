@@ -1,0 +1,7 @@
+{
+  "authenticatedMfaSession": true,
+  "selfEditDisabled": true,
+  "onlyOwnedPermissionsShown": true,
+  "historyDisabledWithoutAuthority": true,
+  "downloadPermissionRemovalSaved": true
+}

@@ -1,0 +1,1311 @@
+{
+  "version": "2026-10-23-v1",
+  "statut": "Référence candidate — validation utilisateur non recueillie",
+  "sections": [
+    {
+      "id": "AUTH",
+      "ecran": "Connexion (identifiant, SSO, double authentification, accès admin)",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "SSO simulé, récupération simulée, MFA invalide puis valide, connexion admin et déconnexion. Pas de fournisseur d’identité réel.",
+      "capture_reference": "captures/AUTH.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ADM",
+      "ecran": "Console super-admin — coque",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ADM-SUP",
+      "ecran": "Console admin — Supervision",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ADM-ORG",
+      "ecran": "Console admin — Organisations",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ADM-USR",
+      "ecran": "Console admin — Utilisateurs",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ADM-KEY",
+      "ecran": "Console admin — Clés IA",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ADM-EDI",
+      "ecran": "Console admin — Éditeur (paramètres plateforme)",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ADM-FAC",
+      "ecran": "Console admin — Offres & facturation",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ADM-LOG",
+      "ecran": "Console admin — Journaux",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Navigation des sept rubriques. Pas de rotation de clé, suspension, paiement, publication plateforme ou changement de droits exécuté.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "COQ-SB",
+      "ecran": "Coque — barre latérale bureau",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Navigation et raccourcis principaux, suggestions et retours.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "COQ-MH",
+      "ecran": "Coque — en-tête mobile",
+      "recette_initiale": "Non exercé",
+      "observations_initiales": "En-tête sur téléphone réel / largeur 390 non testé ; navigateur de recette en format bureau.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "COQ-UNII",
+      "ecran": "Coque — bandeau unii",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Navigation et raccourcis principaux, suggestions et retours.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ACC",
+      "ecran": "Accueil",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Navigation et raccourcis principaux, suggestions et retours.",
+      "capture_reference": "captures/ACC.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "LEC",
+      "ecran": "Lecteur document / séance",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Lecteur, contenu et rattachement ; défaut F10. Le texte affiché n’est pas une vérification juridique du PDF.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "DOS",
+      "ecran": "Dossiers kanban",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Création manuelle et IA guidée, édition, Kanban, détail, historique, chat et persistance. Défauts F04/F05/F07.",
+      "capture_reference": "captures/DOS.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "DOS-NEW",
+      "ecran": "Nouveau dossier",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Création manuelle et IA guidée, édition, Kanban, détail, historique, chat et persistance. Défauts F04/F05/F07.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "DOS-DET",
+      "ecran": "Detail dossier",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Création manuelle et IA guidée, édition, Kanban, détail, historique, chat et persistance. Défauts F04/F05/F07.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "REP",
+      "ecran": "Reporting",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Deux vues et assistant d’export CSV ; F13. PDF imprimé et contenu de fichier final non validés.",
+      "capture_reference": "captures/REP.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "PJ",
+      "ecran": "Pieces jointes",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Liste vide, dépôt simulé, aperçu. Pas de téléversement réel ni de restauration de version.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "SIG",
+      "ecran": "Signature electronique",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Ouverture et comparaison du document ; F08. Arrêt avant signature finale.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "IA",
+      "ecran": "Assistant ia",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Demande fictive, réponse réelle, historique, nouvelle conversation, dossier guidé, refus hors périmètre, contrôle de masquage.",
+      "capture_reference": "captures/IA.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "SON-NEW",
+      "ecran": "Nouveau sondage",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Création Oui/Non, cible, relecture automatique après délai, diffusion locale et détail. Pas de vote distant réel. F15.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "SON-NEW-1",
+      "ecran": "Étape 1 : questions",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Création Oui/Non, cible, relecture automatique après délai, diffusion locale et détail. Pas de vote distant réel. F15.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "SON-NEW-2",
+      "ecran": "Étape 2 : diffusion",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Création Oui/Non, cible, relecture automatique après délai, diffusion locale et détail. Pas de vote distant réel. F15.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "SON-NEW-3",
+      "ecran": "Étape 3 : relecture & diffusion",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Création Oui/Non, cible, relecture automatique après délai, diffusion locale et détail. Pas de vote distant réel. F15.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "SON",
+      "ecran": "Liste sondages",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Création Oui/Non, cible, relecture automatique après délai, diffusion locale et détail. Pas de vote distant réel. F15.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "SON-DET",
+      "ecran": "Detail sondage",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Création Oui/Non, cible, relecture automatique après délai, diffusion locale et détail. Pas de vote distant réel. F15.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "REU",
+      "ecran": "Reunions — liste",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Liste, détail, génération réelle d’un PV et ouverture du PV dans Documents. Pas de transcription audio réelle.",
+      "capture_reference": "captures/REU.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "REU-DIC",
+      "ecran": "Reunions — dictaphone",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Écran de consentement, cases et activation du bouton. Aucun micro ouvert.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "REU-DIC-1",
+      "ecran": "Consentement",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Écran de consentement, cases et activation du bouton. Aucun micro ouvert.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "REU-DIC-2",
+      "ecran": "Attente d'autorisation micro",
+      "recette_initiale": "Non exercé",
+      "observations_initiales": "Demande d’accès au micro, enregistrement, pause, arrêt et transcription non exercés ; nécessitent un test audio dédié.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "REU-DIC-3",
+      "ecran": "En cours / pause / terminé",
+      "recette_initiale": "Non exercé",
+      "observations_initiales": "Demande d’accès au micro, enregistrement, pause, arrêt et transcription non exercés ; nécessitent un test audio dédié.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "REU-DET",
+      "ecran": "Reunions — detail",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Liste, détail, génération réelle d’un PV et ouverture du PV dans Documents. Pas de transcription audio réelle.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "DOC",
+      "ecran": "Espace documents — accueil",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Bibliothèque, modèles, éditeur, style et charte, génération IA, aperçu, signature et feuille de diffusion. Chaque style/bloc n’a pas été testé manuellement ; auto-test intégré réussi.",
+      "capture_reference": "captures/DOC.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "DOC-EDI",
+      "ecran": "Espace documents — editeur",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Bibliothèque, modèles, éditeur, style et charte, génération IA, aperçu, signature et feuille de diffusion. Chaque style/bloc n’a pas été testé manuellement ; auto-test intégré réussi.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "DOC-EDI-C",
+      "ecran": "Panneau contenu",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Bibliothèque, modèles, éditeur, style et charte, génération IA, aperçu, signature et feuille de diffusion. Chaque style/bloc n’a pas été testé manuellement ; auto-test intégré réussi.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "DOC-EDI-S",
+      "ecran": "Panneau style (fourni par les extensions)",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Bibliothèque, modèles, éditeur, style et charte, génération IA, aperçu, signature et feuille de diffusion. Chaque style/bloc n’a pas été testé manuellement ; auto-test intégré réussi.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "DOC-EDI-CH",
+      "ecran": "Panneau charte",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Bibliothèque, modèles, éditeur, style et charte, génération IA, aperçu, signature et feuille de diffusion. Chaque style/bloc n’a pas été testé manuellement ; auto-test intégré réussi.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "DOC-GEN",
+      "ecran": "Generateur de documents",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Bibliothèque, modèles, éditeur, style et charte, génération IA, aperçu, signature et feuille de diffusion. Chaque style/bloc n’a pas été testé manuellement ; auto-test intégré réussi.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "RAC",
+      "ecran": "Raccourcis",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Validation vide, création d’un raccourci fictif, persistance.",
+      "capture_reference": "captures/RAC.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "AGE",
+      "ecran": "Agenda partagé",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Agenda, création d’événement, détail, ordre du jour ; F09. Import/export ICS et synchronisation externe non validés.",
+      "capture_reference": "captures/AGE.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ADH",
+      "ecran": "Adherents — liste / groupes / cotisations",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Liste, fiche, édition, cotisations et listes de diffusion. Pas de transaction ou paiement.",
+      "capture_reference": "captures/ADH.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ADH-IMP",
+      "ecran": "Adherents — import csv",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Chargement du CSV exemple et import de trois lignes. Pas de fichier utilisateur téléversé.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ADH-FIC",
+      "ecran": "Adherents — fiche",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Liste, fiche, édition, cotisations et listes de diffusion. Pas de transaction ou paiement.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ADH-MSG",
+      "ecran": "Adherents — message",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Composition et modèle de convocation ; envoi externe non exécuté.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "INT",
+      "ecran": "Intranet — accueil",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Intranet/site public, génération IA fictive, édition, aperçu mobile, code HTML, relecture et envoi simulé au webmaster, file de suivi.",
+      "capture_reference": "captures/WEB.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "INT-GEN",
+      "ecran": "Intranet — generateur de pages",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Intranet/site public, génération IA fictive, édition, aperçu mobile, code HTML, relecture et envoi simulé au webmaster, file de suivi.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "INT-EDI",
+      "ecran": "Intranet — editeur de page",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Intranet/site public, génération IA fictive, édition, aperçu mobile, code HTML, relecture et envoi simulé au webmaster, file de suivi.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "INT-PUB",
+      "ecran": "Intranet — envoi au webmaster",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Intranet/site public, génération IA fictive, édition, aperçu mobile, code HTML, relecture et envoi simulé au webmaster, file de suivi.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "INT-SUI",
+      "ecran": "Intranet — suivi des publications",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Intranet/site public, génération IA fictive, édition, aperçu mobile, code HTML, relecture et envoi simulé au webmaster, file de suivi.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "INT-CHA",
+      "ecran": "Intranet — gabarit du site",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Charte et retour. Aucune publication de nouvelle identité.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "NOT",
+      "ecran": "Centre de notifications",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Liste et ouverture d’un sondage depuis sa notification ; pas de push distant.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "RCH",
+      "ecran": "Recherche",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Recherche de recette puis du PV existant ; F12.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "UNII-CFG",
+      "ecran": "Reglages unii",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Actions par module, rôles et suggestions visibles ; droits non modifiés.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "EXT",
+      "ecran": "Extensions",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Extension présente, permissions visibles, auto-test intégré passé. Pas d’installation externe.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "PAR",
+      "ecran": "Parametres",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque.",
+      "capture_reference": "captures/PAR.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "PAR-PRO",
+      "ecran": "Profil",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "COM",
+      "ecran": "Communication",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Génération fictive, repli en concurrence, nouvelle tentative réussie, ajout au plan et persistance.",
+      "capture_reference": "captures/COM.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "COM-PLAN",
+      "ecran": "Plan éditorial",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Génération fictive, repli en concurrence, nouvelle tentative réussie, ajout au plan et persistance.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "COM-ATE",
+      "ecran": "Atelier de contenus",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Génération fictive, repli en concurrence, nouvelle tentative réussie, ajout au plan et persistance.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "COM-POL",
+      "ecran": "Pôle communication",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Formules et formulaire ; demande commerciale non soumise.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "MOB",
+      "ecran": "Application mobile",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Création, génération IA, notification appliquée, relecture, soumission FO et validation simulée ; perte après rechargement F03.",
+      "capture_reference": "captures/MOB.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "FOR",
+      "ecran": "Formations",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Deux catalogues, accès à une formation. Pas d’inscription auprès d’un organisme.",
+      "capture_reference": "captures/FOR.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "FOR-IA",
+      "ecran": "Catalogue ia",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Deux catalogues, accès à une formation. Pas d’inscription auprès d’un organisme.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "FOR-GEN",
+      "ecran": "Catalogue généraliste",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Deux catalogues, accès à une formation. Pas d’inscription auprès d’un organisme.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "FOR-UNII",
+      "ecran": "Formation avec unii",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Plan IA de quatre modules, correction IA, quiz 4/4, progression, synthèse et attestation F14. Question au formateur lancée, résultat final non relevé séparément.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "CTC",
+      "ecran": "Contacts & groupes",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Création d’un contact fictif, ouverture de son fil, persistance.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "MEM",
+      "ecran": "Memoire assistant",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Liste des mémoires et commandes ; ajout/oubli non exécutés.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "PAR-NOT",
+      "ecran": "Preferences notifications",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "SEC-IA",
+      "ecran": "Securite — documentation ia",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "PAR-SEC",
+      "ecran": "Securite",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "PAR-RGPD",
+      "ecran": "Rgpd",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "PAR-MBR",
+      "ecran": "Membres",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "PAR-MAR",
+      "ecran": "Identite de marque",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "PAR-IA",
+      "ecran": "Config ia",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Affichage et bouton de test de connexion ; F17. Aucun secret modifié.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "MSG",
+      "ecran": "Messages — liste + fil + infos",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Messages locaux, contact/groupe fictifs, transfert, rattachement au dossier, mention @unii et double panneau. F05/F06/F11.",
+      "capture_reference": "captures/MSG.jpg",
+      "validation_reference": "Capture bureau à examiner",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "OFF",
+      "ecran": "Mode hors ligne",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Base hors ligne et ouverture du lecteur ; coupure réseau et disponibilité réelle sans serveur non testées.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ONB",
+      "ecran": "Onboarding",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "ADB",
+      "ecran": "Tableau de bord admin",
+      "recette_initiale": "Écran inspecté",
+      "observations_initiales": "Écrans et navigation inspectés ; profil ouvert en édition puis annulé. Pas d’effacement, changement de droits, moyen de paiement ou publication de marque.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "MOD-ANON",
+      "ecran": "Fenêtre — Contrôle d'anonymisation",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Niveaux, valeurs fictives inconnues, blocage sur sentinelle connue et relèvement du niveau. F01/F02.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "MOD-IAERR",
+      "ecran": "Fenêtre — Erreur IA",
+      "recette_initiale": "Non exercé",
+      "observations_initiales": "Fenêtre dédiée d’erreur réseau non déclenchée ; le repli Communication et le refus de masquage ont été testés séparément.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "UNII",
+      "ecran": "Panneau unii (assistant latéral)",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Panneau contextuel et génération/application d’une notification mobile. Résumé du fil prérempli bloqué par le contrôle automatique, non exécuté.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "MOD-FWM",
+      "ecran": "Fenêtre — fwm (transfert/webmaster)",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Transfert d’un message fictif vers Contact Fictif Recette.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "MOD-DPM",
+      "ecran": "Fenêtre — dpm",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Choix d’un dossier existant et vérification de l’historique ; F05.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "MOD-CTM",
+      "ecran": "Fenêtre — contact",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Création d’un contact fictif, ouverture de son fil, persistance.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "MOD-GRM",
+      "ecran": "Fenêtre — groupe",
+      "recette_initiale": "Parcours exécuté",
+      "observations_initiales": "Création du groupe fictif avec le contact fictif.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    },
+    {
+      "id": "MOD-SHEET",
+      "ecran": "Feuille mobile (sheet)",
+      "recette_initiale": "Parcours partiel",
+      "observations_initiales": "Récupération de compte, diffusion de document et export ; toutes les variantes de feuille non exécutées.",
+      "capture_reference": null,
+      "validation_reference": "État à capturer / rejouer",
+      "validation_utilisateur": "À valider",
+      "criteres": [
+        "Même hiérarchie visuelle, composants, typographies, couleurs et espacements",
+        "Mêmes contrôles, libellés de métier, ordre des étapes et destinations",
+        "Tester état initial, succès, erreur et retour lorsque applicables",
+        "Vérifier persistance et absence de perte de saisie lorsque applicables"
+      ]
+    }
+  ]
+}

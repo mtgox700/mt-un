@@ -1,0 +1,26 @@
+{
+  "decision": "D11",
+  "statut": "Validée par l’utilisateur",
+  "choix": "Conversations : accès depuis arrivée par défaut ; ouverture explicite de historique par personne habilitée ; retrait des accès au départ ; réinvitation sans rétablissement automatique.",
+  "regles": [
+    "Nouveau participant voit messages envoyés depuis arrivée",
+    "Personne habilitée peut ouvrir messages sélectionnés, période ou historique autorisé ; aucune ouverture au-delà de son autorité",
+    "Pièces jointes soumises à leurs propres droits ; ajout participant ne contourne pas restrictions dossier ou document",
+    "Participant retiré perd accès conversation et anciens messages dans application",
+    "Réinvitation sans restauration automatique des anciens accès ; périmètre défini explicitement",
+    "Recherche, notifications et résumés IA respectent périmètre historique du lecteur",
+    "Ouvertures historique et retraits journalisés"
+  ],
+  "limites": [
+    "Fichier déjà téléchargé non récupérable à distance",
+    "Si conversation éligible hors ligne : révocation reçue à reconnexion, durée D08 applicable"
+  ],
+  "tests_requis": [
+    "Messages antérieurs non visibles par défaut dans lecture, recherche et IA",
+    "Ouverture historique limitée au périmètre autorisé",
+    "Pièce interdite non accessible malgré message visible",
+    "Retrait bloque accès en ligne, notifications et traitements différés",
+    "Réinvitation ne restaure pas anciens droits implicitement"
+  ],
+  "implementation": "Spécification validée ; modèle et tests à implémenter"
+}

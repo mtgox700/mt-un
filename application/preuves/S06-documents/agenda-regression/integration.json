@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "count": 24,
+  "checks": [
+    {
+      "test": "login_a",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "event_created",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_cannot_create",
+      "ok": true
+    },
+    {
+      "test": "document_created",
+      "ok": true
+    },
+    {
+      "test": "prototype_document_sections",
+      "ok": true
+    },
+    {
+      "test": "reader_read_only",
+      "ok": true
+    },
+    {
+      "test": "same_document_reopened",
+      "ok": true
+    },
+    {
+      "test": "document_saved",
+      "ok": true
+    },
+    {
+      "test": "reader_cannot_write",
+      "ok": true
+    },
+    {
+      "test": "stale_document_denied",
+      "ok": true
+    },
+    {
+      "test": "publication_status_injection_denied",
+      "ok": true
+    },
+    {
+      "test": "authorized_recipients",
+      "ok": true
+    },
+    {
+      "test": "recipient_list_denied",
+      "ok": true
+    },
+    {
+      "test": "send_without_authority_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_recipient_denied",
+      "ok": true
+    },
+    {
+      "test": "event_version_conflict_denied",
+      "ok": true
+    },
+    {
+      "test": "local_mail_delivered",
+      "ok": true
+    },
+    {
+      "test": "same_request_not_resent",
+      "ok": true
+    },
+    {
+      "test": "revoked_recipient_denied",
+      "ok": true
+    },
+    {
+      "test": "document_hidden_after_revoke",
+      "ok": true
+    }
+  ]
+}

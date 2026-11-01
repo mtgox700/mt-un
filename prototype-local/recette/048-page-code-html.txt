@@ -1,0 +1,233 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			129 button Intranet
+				130 image
+				131 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			89 button Réglages
+				90 image
+				91 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			132 button Revenir à l'intranet
+			133 text field (settable) Description: Titre de la page, Value: Réunion de préparation : démonstration fictive
+			134 text intranet.section-valenciennes.fr/intranet/actualites/reunion-preparation-demonstration-fictive
+			135 button Charte · Intranet
+			136 text BROUILLON
+			137 heading Thème de la page, Value: 2
+				138 text Thème de la page
+			139 text Rendu défini dans Charte des sites
+			140 checkbox Charte du site, Help: Rendu habituel, Value: 1
+			141 checkbox Éditorial, Help: Typographie de presse, crème, filets fins., Value: 0
+			142 checkbox Moderne à cartes, Help: Fond gris clair, cartes arrondies, boutons pilules., Value: 0
+			143 checkbox Militant, Help: Bandeau plein de couleur, titres condensés en capitales., Value: 0
+			144 checkbox Institutionnel, Help: Sobre, marine, structuré, très lisible., Value: 0
+			145 checkbox Magazine, Help: Fond sombre, titres en grand, accent vif., Value: 0
+			146 checkbox Minimal, Help: Beaucoup de blanc, un seul accent, filets., Value: 0
+			147 text CHAPÔ
+			148 text entry area (settable) Un exemple fictif pour préparer une réunion : accueil, ordre du jour et prochaines étapes. Les informations pratiques restent à confirmer avant toute diffusion réelle.
+			149 text Résumé pour la page d'accueil du site : « Un exemple fictif pour préparer une réunion : accueil, ordre du jour et prochaines étapes.… »
+			150 heading Blocs, Value: 2
+				151 text Blocs
+			152 text Modifiez le contenu : l'aperçu se met à jour en direct.
+			153 text PARAGRAPHE
+			154 text entry area (settable) Dans cette démonstration fictive, la réunion est prévue mardi à 10 h, salle A. Source : « Points clés de l'élu (anonymisés) », rubrique « Démonstration fictive », sans date ni version — source non vérifiée. Faites confirmer ces informations avant tout déplacement.
+			155 text INTERTITRE
+			156 text entry area (settable) Un déroulé proposé
+			157 text LISTE
+			158 text entry area (settable) Accueil : faire un tour des attentes.
+Ordre du jour : partager les sujets à préparer et choisir les priorités.
+Prochaines étapes : convenir des suites à donner et des échéances.
+			159 text BOUTON
+			160 text entry area (settable) Retour aux actualités
+			161 text INTERTITRE
+			162 text entry area (settable) Sources
+			163 text PARAGRAPHE
+			164 text entry area (settable) Points clés de l'élu (anonymisés) — rubrique « Démonstration fictive », sans date ni version — emplacement : brief fourni pour cette page. Source non vérifiée : contrôler le jour, l'horaire et la salle avant toute utilisation réelle.
+			165 text Une ligne = un élément dans les blocs Liste.
+			166 text Ajouter une section :
+			167 button + Bandeau d'accroche, Help: Titre, phrase, puis « libellé du bouton | lien ».
+				168 text + 
+				169 text Bandeau d'accroche
+			170 button + Chiffres clés, Help: Une ligne par chiffre : valeur | légende.
+				171 text + 
+				172 text Chiffres clés
+			173 button + Frise de la négociation, Help: Une ligne par étape : date | libellé | « fait ».
+				174 text + 
+				175 text Frise de la négociation
+			176 button + FAQ dépliable, Help: Une ligne par question : question | réponse.
+				177 text + 
+				178 text FAQ dépliable
+			179 button + Cartes des élus, Help: Une ligne par élu : prénom | mandat. Coordonnées professionnelles uniquement.
+				180 text + 
+				181 text Cartes des élus
+			182 button + Agenda, Help: Une ligne par date : date | événement.
+				183 text + 
+				184 text Agenda
+			185 button + Appel à adhérer, Help: Phrase d'appel, puis « libellé | lien ».
+				186 text + 
+				187 text Appel à adhérer
+			188 heading Circuit de publication, Value: 2
+				189 text Circuit de publication
+			190 text Aucune relecture pour l'instant. Un second membre du rôle communication doit valider avant l'envoi.
+			191 button Demander une relecture
+			192 button Envoyer pour publication
+			193 button Copier le HTML
+			194 text Sophie Marchand · modifiée à l'instant
+			195 button Aperçu
+			196 button Code HTML
+			197 text 94 lignes · HTML sémantique, styles dans la feuille du site
+			198 button Régénérer depuis les blocs
+			199 text entry area (settable) Description: Code HTML de la page, Value: <!-- Intranet · intranet.section-valenciennes.fr · rubrique Actualités · gabarit actu · charte héritée de l'identité de l'organisation -->
+<!-- Généré par uniion — HTML sémantique, styles dans la feuille du site -->
+<div class="up-site">
+<a class="up-skip" href="#contenu">Aller au contenu</a>
+<div class="up-util"><div class="up-wrap">
+  <span>Espace réservé aux salariés</span>
+  <span class="up-right">
+    <a href="/intranet/recherche">Recherche</a>
+    <a href="/intranet/mon-compte">Sophie Marchand</a>
+    <a href="/intranet/deconnexion">Se déconnecter</a>
+  </span>
+</div></div>
+<header class="up-head"><div class="up-wrap">
+  <a class="up-brand" href="/intranet">
+    <img class="up-logo-img" src="uniion-logo.png" alt="Section syndicale Métallurgie — Valenciennes" width="44" />
+    <span><strong>Section syndicale Métallurgie — Valenciennes</strong><span>Intranet des salariés</span></span>
+  </a>
+  <form class="up-search" role="search" action="/intranet/recherche">
+    <label class="up-skip" for="q">Rechercher</label>
+    <input id="q" name="q" type="search" placeholder="Rechercher une page…" />
+    <button type="submit">Rechercher</button>
+  </form>
+</div></header>
+<nav class="up-nav" aria-label="Navigation principale"><div class="up-wrap"><ul>
+  <li><a href="/intranet/actualites" aria-current="page">Actualités</a></li>
+  <li><a href="/intranet/vos-droits">Vos droits</a></li>
+  <li><a href="/intranet/la-section">La section</a></li>
+  <li><a href="/intranet/negociations">Négociations</a></li>
+  <li><a href="/intranet/asc">Loisirs & ASC</a></li>
+  <li><a href="/intranet/contacts">Nous contacter</a></li>
+</ul></div></nav>
+<div class="up-wrap up-crumb"><nav aria-label="Fil d'ariane"><ol>
+  <li><a href="/intranet">Accueil</a></li>
+  <li><a href="/intranet/actualites">Actualités</a></li>
+  <li aria-current="page">Réunion de préparation : démonstration fictive</li>
+</ol></nav></div>
+<section class="up-hero"><div class="up-wrap">
+  <p class="up-kicker">Actualités</p>
+  <h1>Réunion de préparation : démonstration fictive</h1>
+  <p class="up-chapo">Un exemple fictif pour préparer une réunion : accueil, ordre du jour et prochaines étapes. Les informations pratiques restent à confirmer avant toute diffusion réelle.</p>
+  <p class="up-byline">
+    <span class="up-av" aria-hidden="true">SM</span>
+    <span>Par Sophie Marchand, adhérent de la section</span>
+    <time datetime="2026-09-05">Mis à jour le 5 septembre 2026</time>
+    <span>Lecture 3 min</span>
+  </p>
+</div></section>
+<main class="up-main" id="contenu"><div class="up-wrap">
+<article class="up-article" data-rubrique="actus">
+  <p>Dans cette démonstration fictive, la réunion est prévue mardi à 10 h, salle A. Source : « Points clés de l'élu (anonymisés) », rubrique « Démonstration fictive », sans date ni version — source non vérifiée. Faites confirmer ces informations avant tout déplacement.</p>
+  <h2 id="un-deroule-propose">Un déroulé proposé</h2>
+  <ul>
+    <li>Accueil : faire un tour des attentes.</li>
+    <li>Ordre du jour : partager les sujets à préparer et choisir les priorités.</li>
+    <li>Prochaines étapes : convenir des suites à donner et des échéances.</li>
+  </ul>
+  <a class="up-cta" href="/intranet/actualites">Retour aux actualités <span aria-hidden="true">&#8594;</span></a>
+  <h2 id="sources">Sources</h2>
+  <p>Points clés de l'élu (anonymisés) — rubrique « Démonstration fictive », sans date ni version — emplacement : brief fourni pour cette page. Source non vérifiée : contrôler le jour, l'horaire et la salle avant toute utilisation réelle.</p>
+  <footer class="up-share">
+    <span>Partager cette page</span>
+    <a href="#" rel="nofollow">Copier le lien</a>
+    <a href="mailto:?subject=Réunion de préparation : démonstration fictive">Par e-mail</a>
+  </footer>
+</article>
+<aside class="up-aside">
+  <nav class="up-card" aria-label="Sommaire"><h3>Sur cette page</h3><ol>
+    <li><a href="#un-deroule-propose">Un déroulé proposé</a></li>
+    <li><a href="#sources">Sources</a></li>
+  </ol></nav>
+  <div class="up-card"><h3>Permanences</h3><p>Local B12 — mardi 12 h-14 h et jeudi 17 h-18 h 30.</p><a class="up-btn" href="/intranet/contacts">Saisir vos représentants</a></div>
+  <div class="up-card"><h3>Documents liés</h3><ul><li><a href="/intranet/actualites">Toutes les pages de « Actualités »</a></li><li><a href="/intranet/la-section/comptes-rendus">Comptes rendus de séance</a></li><li><a href="/intranet/vos-droits">Fiches pratiques</a></li></ul></div>
+  <div class="up-card"><h3>Mots-clés</h3><p><span class="up-tag">Actualités</span><span class="up-tag">reunion-preparation-demonstration-fictive</span><span class="up-tag">2026</span></p></div>
+</aside>
+</div></main>
+<footer class="up-foot"><div class="up-wrap">
+  <div class="up-cols">
+    <div class="up-col"><h4>SECTION MÉTA VAL</h4><p style="margin:0">Local syndical — 12 rue de la Fonderie, 59300 Valenciennes<br />section@syndicat-valenciennes.fr</p></div>
+    <div class="up-col"><h4>Rubriques</h4><ul>
+      <li><a href="/intranet/actualites">Actualités</a></li>
+      <li><a href="/intranet/vos-droits">Vos droits</a></li>
+      <li><a href="/intranet/la-section">La section</a></li>
+      <li><a href="/intranet/negociations">Négociations</a></li>
+    </ul></div>
+    <div class="up-col"><h4>Services</h4><ul><li><a href="/intranet/contacts">Saisine confidentielle</a></li><li><a href="/intranet/asc">Billetterie et ASC</a></li><li><a href="/intranet/agenda">Agenda des permanences</a></li></ul></div>
+    <div class="up-col"><h4>Informations</h4><ul><li><a href="/intranet/donnees-personnelles">Traitement de vos données</a></li><li><a href="/intranet/accessibilite">Accessibilité</a></li><li><a href="/intranet/aide">Aide</a></li></ul></div>
+  </div>
+  <div class="up-legal">
+    <span>© 2026 Section syndicale Métallurgie — Valenciennes</span>
+    <span>intranet.section-valenciennes.fr</span>
+    <span>Espace interne — ne pas diffuser hors de l'entreprise</span>
+  </div>
+</div></footer>
+</div>
+
+The focused UI element is 196 button Code HTML

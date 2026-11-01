@@ -1,0 +1,2 @@
+OK : 324 fichiers conformes à la référence 2026-10-23-v1
+OK : tous les fichiers public/ du prototype de travail identiques à la référence.

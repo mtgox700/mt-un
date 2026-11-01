@@ -1,0 +1,185 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - heading "Paramètres" [level=1]
+  - paragraph: Section syndicale Métallurgie — Valenciennes · plan Fédération, 84 adhérents
+  - button "Marque blanche Identité de marque Couleur principale, logos, typographie, mode sombre. Publication à l'organisation ou par établissement.":
+    - generic: Marque blanche
+    - generic: Identité de marque
+    - generic: Couleur principale, logos, typographie, mode sombre. Publication à l'organisation ou par établissement.
+  - button "Élue titulaire Profil & mandat Identité, informations de l'organisation, convention collective, mandats, visibilité des coordonnées.":
+    - generic: Élue titulaire
+    - generic: Profil & mandat
+    - generic: Identité, informations de l'organisation, convention collective, mandats, visibilité des coordonnées.
+  - button "Push + email Notifications Granularité par module, plages « ne pas déranger », escalade des alertes urgentes.":
+    - generic: Push + email
+    - generic: Notifications
+    - generic: Granularité par module, plages « ne pas déranger », escalade des alertes urgentes.
+  - button "19 contacts Contacts & groupes Annuaire de la messagerie (élus, adhérents, externes), groupes de discussion, membres et administrateurs.":
+    - generic: 19 contacts
+    - generic: Contacts & groupes
+    - generic: Annuaire de la messagerie (élus, adhérents, externes), groupes de discussion, membres et administrateurs.
+  - button "4 actifs Mémoire de l'assistant Faits retenus par l'IA d'une conversation à l'autre — stockés dans ce navigateur, modifiables et effaçables.":
+    - generic: 4 actifs
+    - generic: Mémoire de l'assistant
+    - generic: Faits retenus par l'IA d'une conversation à l'autre — stockés dans ce navigateur, modifiables et effaçables.
+  - button "37 actives Actions d'unii Actions proposées par unii dans chaque module, rôles autorisés, pastilles de suggestion.":
+    - generic: 37 actives
+    - generic: Actions d'unii
+    - generic: Actions proposées par unii dans chaque module, rôles autorisés, pastilles de suggestion.
+  - 'button "1 installée Extensions Modules complémentaires : styles de documents et tracts, thèmes et sections de pages web. Activation, contenus autorisés, auto-test."':
+    - generic: 1 installée
+    - generic: Extensions
+    - generic: "Modules complémentaires : styles de documents et tracts, thèmes et sections de pages web. Activation, contenus autorisés, auto-test."
+  - button "Admin Configuration IA Fournisseur LLM, clé API, quotas et comportement du modèle.":
+    - generic: Admin
+    - generic: Configuration IA
+    - generic: Fournisseur LLM, clé API, quotas et comportement du modèle.
+  - button "MFA actif Sécurité Double authentification, appareils connectés, journal d'audit.":
+    - generic: MFA actif
+    - generic: Sécurité
+    - generic: Double authentification, appareils connectés, journal d'audit.
+  - button "Conforme Confidentialité & RGPD Registre des traitements, purge automatique, export de vos données.":
+    - generic: Conforme
+    - generic: Confidentialité & RGPD
+    - generic: Registre des traitements, purge automatique, export de vos données.
+  - button "24 sièges Organisation & membres Membres, commissions, statuts et invitations.":
+    - generic: 24 sièges
+    - generic: Organisation & membres
+    - generic: Membres, commissions, statuts et invitations.
+  - button "Back-office Espace admin Tableau de bord organisation, activité par commission, facturation.":
+    - generic: Back-office
+    - generic: Espace admin
+    - generic: Tableau de bord organisation, activité par commission, facturation.
+  - button "0 en cache Mode hors ligne Extraits conservés dans ce navigateur, sans chiffrement applicatif.":
+    - generic: 0 en cache
+    - generic: Mode hors ligne
+    - generic: Extraits conservés dans ce navigateur, sans chiffrement applicatif.
+  - button "1/4 étapes Prise en main Convention collective, commissions, invitation des élus, alertes.":
+    - generic: 1/4 étapes
+    - generic: Prise en main
+    - generic: Convention collective, commissions, invitation des élus, alertes.
+  - heading "Ordre du menu de gauche" [level=2]
+  - paragraph: Placez en tête les modules que vous ouvrez le plus souvent. L'ordre s'applique aussitôt à la barre latérale et à la barre de navigation mobile.
+  - generic: "1"
+  - generic: Accueil
+  - generic: Aussi dans la barre mobile
+  - button "Déplacer Accueil vers le haut" [disabled]:
+  - button "Déplacer Accueil vers le bas":
+  - generic: "2"
+  - generic: Assistant
+  - generic: Barre latérale seulement
+  - button "Déplacer Assistant vers le haut":
+  - button "Déplacer Assistant vers le bas":
+  - generic: "3"
+  - generic: Dossiers
+  - generic: Aussi dans la barre mobile
+  - button "Déplacer Dossiers vers le haut":
+  - button "Déplacer Dossiers vers le bas":
+  - generic: "4"
+  - generic: Messages
+  - generic: Barre latérale seulement
+  - button "Déplacer Messages vers le haut":
+  - button "Déplacer Messages vers le bas":
+  - generic: "5"
+  - generic: Agenda
+  - generic: Aussi dans la barre mobile
+  - button "Déplacer Agenda vers le haut":
+  - button "Déplacer Agenda vers le bas":
+  - generic: "6"
+  - generic: Réunions
+  - generic: Aussi dans la barre mobile
+  - button "Déplacer Réunions vers le haut":
+  - button "Déplacer Réunions vers le bas":
+  - generic: "7"
+  - generic: Documents
+  - generic: Barre latérale seulement
+  - button "Déplacer Documents vers le haut":
+  - button "Déplacer Documents vers le bas":
+  - generic: "8"
+  - generic: Formations
+  - generic: Barre latérale seulement
+  - button "Déplacer Formations vers le haut":
+  - button "Déplacer Formations vers le bas":
+  - generic: "9"
+  - generic: Communication
+  - generic: Barre latérale seulement
+  - button "Déplacer Communication vers le haut":
+  - button "Déplacer Communication vers le bas":
+  - generic: "10"
+  - generic: Application mobile
+  - generic: Barre latérale seulement
+  - button "Déplacer Application mobile vers le haut":
+  - button "Déplacer Application mobile vers le bas":
+  - generic: "11"
+  - generic: Adhérents
+  - generic: Barre latérale seulement
+  - button "Déplacer Adhérents vers le haut":
+  - button "Déplacer Adhérents vers le bas":
+  - generic: "12"
+  - generic: Intranet
+  - generic: Barre latérale seulement
+  - button "Déplacer Intranet vers le haut":
+  - button "Déplacer Intranet vers le bas":
+  - generic: "13"
+  - generic: Reporting
+  - generic: Barre latérale seulement
+  - button "Déplacer Reporting vers le haut":
+  - button "Déplacer Reporting vers le bas":
+  - generic: "14"
+  - generic: Raccourcis
+  - generic: Barre latérale seulement
+  - button "Déplacer Raccourcis vers le haut":
+  - button "Déplacer Raccourcis vers le bas":
+  - generic: "15"
+  - generic: Réglages
+  - generic: Aussi dans la barre mobile
+  - button "Déplacer Réglages vers le haut":
+  - button "Déplacer Réglages vers le bas" [disabled]:

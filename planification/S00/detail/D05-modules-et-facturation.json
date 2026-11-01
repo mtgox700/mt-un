@@ -1,0 +1,52 @@
+{
+  "decision": "D05",
+  "statut": "Validée par l’utilisateur",
+  "choix": "Catalogue et autorisation par organisation contrôlés par le super admin ; activation locale déléguée ; droits métier séparés. Facturation distincte par module : accès conditionné à un droit payé valide, ou à un geste commercial explicitement attribué par le super admin seul.",
+  "responsabilites": {
+    "super_admin": "Catalogue, versions, déploiement, autorisation par organisation et attribution exclusive des gestes commerciaux",
+    "administrateur_local_habilite": "Activation ou désactivation des modules autorisés et disposant d’un droit commercial valide",
+    "responsable_habilitations": "Attribution des permissions métier distinctes de l’activation"
+  },
+  "conditions_cumulatives": [
+    "Organisation active et acteur autorisé",
+    "Module approuvé et autorisé pour organisation par super admin",
+    "Droit commercial valide : paiement confirmé côté serveur pour ce module et cette organisation, ou geste commercial accordé par super admin",
+    "Module activé localement",
+    "Permissions opération et ressource respectées, y compris partage explicite éventuel"
+  ],
+  "facturation": {
+    "unite": "Chaque module fait objet d’une facturation distincte ; droit rattaché à organisation cliente et module",
+    "verification": "Paiement confirmé par source de facturation fiable côté serveur ; aucune validation par navigateur ou simple retour de page de paiement",
+    "exceptions": "Seul super admin peut créer, modifier ou révoquer un droit gratuit de geste commercial ; aucun admin local ou support ne le peut",
+    "tracabilite": "Origine du droit, référence paiement ou motif commercial, auteur, dates de validité et historique audités ; ne pas falsifier statut de paiement pour représenter un cadeau",
+    "controle": "Droit commercial contrôlé côté serveur sur appels et traitements différés, pas seulement visibilité menu",
+    "secret": "Aucune donnée bancaire brute ni secret de paiement côté navigateur ou tables métier",
+    "points_a_preciser": [
+      "Tarifs et périodicité par module",
+      "Organisation facturée quand partage inter-organisations",
+      "Prorata, renouvellement, impayés, remboursements, litiges et éventuel délai de grâce",
+      "Durée des gestes commerciaux et avertissement avant échéance",
+      "Traitement commercial des composants obligatoires du socle",
+      "Accès de restitution/export aux données après fin de droit"
+    ]
+  },
+  "modules": [
+    "Activation ne confère aucun droit métier",
+    "Besoins de données, permissions, dépendances et destinations externes déclarés",
+    "Élargissement des accès ou nouvelle destination soumis à approbation explicite",
+    "Désactivation bloque fonctions, API et jobs sans suppression des données ; conservation et sauvegarde maintenues",
+    "Composants indispensables du socle non désactivables localement",
+    "V1 limitée aux modules approuvés et intégrés ; pas de code tiers arbitraire"
+  ],
+  "tests_requis": [
+    "Refus module autorisé mais non payé sans geste commercial",
+    "Refus module payé mais non autorisé ou non activé",
+    "Refus module activé sans permission métier",
+    "Refus falsification client statut payé ou droit gratuit",
+    "Seul super admin attribue geste commercial, traçable sans faux paiement",
+    "Paiement module A organisation A ne débloque ni module B ni organisation B",
+    "Expiration ou révocation bloque API et jobs sans suppression des données",
+    "Confirmation de paiement répétée traitée sans duplication de droits"
+  ],
+  "implementation": "Spécification validée ; intégration facturation, tables et contrôles à implémenter"
+}

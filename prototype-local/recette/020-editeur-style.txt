@@ -1,0 +1,193 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			68 button Accueil
+				69 image
+				70 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			20 button Réunions
+				21 image
+				22 text Réunions
+			83 button Documents
+				84 image
+				85 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				86 text unii
+				87 text 2
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			88 text UNII SUGGÈRE
+			89 button Brouillon à relire · Compte rendu — réunion de la section syndicale
+			90 button Brouillon à relire · NAO 2027 — où en sont les négociations
+			91 button Revenir à la liste des documents
+			92 text Titre du document
+			93 text field (settable) Titre du document, Value: Compte rendu — réunion de la section syndicale
+			94 button Imprimer / PDF
+			95 button Faire signer
+			96 button Diffuser
+			97 tab group Panneaux de l'éditeur
+				98 tab (selectable, settable, boolean) Contenu, Value: 0
+				99 tab (selectable, settable, boolean) Charte graphique, Value: 0
+				100 tab (selected, settable, boolean) Style, Value: 1
+			223 text unii propose 3 styles pour ce document
+			224 button La Voix — SECTION MÉTA VAL LOCAL SYNDICAL — 12 RUE DE LA FONDERIE PAGE 1 / 1 SÉANCE DU 26 AOÛT 2026 Compte rendu — réunion de la section syndicale Pour la section : Sophie Marchand (déléguée syndicale, secrétaire), Jean-Paul Diallo (trésorier), Leïla Chaïb (déléguée du personnel), Marc Aubert (représentant de proximité). Pour la direction : Mme Rousseau (DRH), M. Fontaine (directeur de site). Présents Ordre du jour ■ Approbation du compte rendu de la séance du 24 juillet ■ Information sur l'accident de l'atelier B du 25 août ■ Consultation sur le projet de réorganisation logistique ■ Budget des activités sociales et culturelles — arbitrage rentrée Délibérations Point Décision Pour Contre Compte rendu de juillet Approuvé 4 0 Enquête atelier B Enquête paritaire ouverte 4 0 Réorganisation logistique Avis différé, expertise demandée 3 1 Journal syndical
+				225 container
+					226 text La Voix — SECTION MÉTA VAL LOCAL SYNDICAL — 12 RUE DE LA FONDERIE PAGE 1 / 1 SÉANCE DU 26 AOÛT 2026 Compte rendu — réunion de la section syndicale Pour la section : Sophie Marchand (déléguée syndicale, secrétaire), Jean-Paul Diallo (trésorier), Leïla Chaïb (déléguée du personnel), Marc Aubert (représentant de proximité). Pour la direction : Mme Rousseau (DRH), M. Fontaine (directeur de site). Présents Ordre du jour ■ Approbation du compte rendu de la séance du 24 juillet ■ Information sur l'accident de l'atelier B du 25 août ■ Consultation sur le projet de réorganisation logistique ■ Budget des activités sociales et culturelles — arbitrage rentrée Délibérations Point Décision Pour Contre Compte rendu de juillet Approuvé 4 0 Enquête atelier B Enquête paritaire ouverte 4 0 Réorganisation logistique Avis différé, expertise demandée 3 1
+				227 text Journal syndical
+			228 button ? SÉANCE DU 26 AOÛT 2026 Compte rendu — réunion de la section syndicale Q. Présents Pour la section : Sophie Marchand (déléguée syndicale, secrétaire), Jean-Paul Diallo (trésorier), Leïla Chaïb (déléguée du personnel), Marc Aubert (représentant de proximité). Pour la direction : Mme Rousseau (DRH), M. Fontaine (directeur de site). Q. Ordre du jour ■ Approbation du compte rendu de la séance du 24 juillet ■ Information sur l'accident de l'atelier B du 25 août ■ Consultation sur le projet de réorganisation logistique ■ Budget des activités sociales et culturelles — arbitrage rentrée Q. Délibérations Point Décision Pour Contre Compte rendu de juillet Approuvé 4 0 Enquête atelier B Enquête paritaire ouverte 4 0 Réorganisation logistique Avis différé, expertise demandée 3 1 Une autre question ? section@syndicat-valenciennes.fr — 03 27 14 88 20 Question / réponse
+				229 container
+					230 text ?
+					231 text SÉANCE DU 26 AOÛT 2026
+					232 text Compte rendu — réunion de la section syndicale
+					233 container
+						234 text Q.  Présents
+					235 text Pour la section : Sophie Marchand (déléguée syndicale, secrétaire), Jean-Paul Diallo (trésorier), Leïla Chaïb (déléguée du personnel), Marc Aubert (représentant de proximité). Pour la direction : Mme Rousseau (DRH), M. Fontaine (directeur de site).
+					236 container
+						237 text Q.  Ordre du jour
+					238 text ■ Approbation du compte rendu de la séance du 24 juillet ■ Information sur l'accident de l'atelier B du 25 août ■ Consultation sur le projet de réorganisation logistique ■ Budget des activités sociales et culturelles — arbitrage rentrée
+					239 container
+						240 text Q.  Délibérations
+					241 text Point
+					242 text Décision
+					243 text Pour
+					244 text Contre
+					245 text Compte rendu de juillet
+					246 text Approuvé
+					247 text 4
+					248 text 0
+					249 text Enquête atelier B
+					250 text Enquête paritaire ouverte
+					251 text 4
+					252 text 0
+					253 text Réorganisation logistique
+					254 text Avis différé, expertise demandée
+					255 text 3
+					256 text 1
+					257 text Une autre question ? 
+					258 text section@syndicat-valenciennes.fr — 03 27 14 88 20
+				259 text Question / réponse
+			260 button SECTION MÉTA VAL Séance du 26 août 2026 Local syndical — 12 rue de la Fonderie COMPTE RENDU — RÉUNION DE LA SECTION SYNDICALE Pour la section : Sophie Marchand (déléguée syndicale, secrétaire), Jean-Paul Diallo (trésorier), Leïla Chaïb (déléguée du personnel), Marc Aubert (représentant de proximité). Pour la direction : Mme Rousseau (DRH), M. Fontaine (directeur de site). Illustration · ajoutez un bloc Photo (dessin de presse) PRÉSENTS ORDRE DU JOUR DÉLIBÉRATIONS Point Décision Pour Contre Compte rendu de juillet Approuvé 4 0 Enquête atelier B Enquête paritaire ouverte 4 0 Réorganisation logistique Avis différé, expertise demandée 3 1 FO EXIGE ! • Approbation du compte rendu de la séance du 24 juillet • Information sur l'accident de l'atelier B du 25 août • Consultation sur le projet de réorganisation logistique • Budget des activités sociales et culturelles — arbitrage rentrée Journal satirique
+				261 container
+					262 text SECTION MÉTA VAL Séance du 26 août 2026 Local syndical — 12 rue de la Fonderie COMPTE RENDU — RÉUNION DE LA SECTION SYNDICALE Pour la section : Sophie Marchand (déléguée syndicale, secrétaire), Jean-Paul Diallo (trésorier), Leïla Chaïb (déléguée du personnel), Marc Aubert (représentant de proximité). Pour la direction : Mme Rousseau (DRH), M. Fontaine (directeur de site). Illustration · ajoutez un bloc Photo (dessin de presse)
+					263 text PRÉSENTS
+					264 text ORDRE DU JOUR
+					265 text DÉLIBÉRATIONS
+					266 text Point
+					267 text Décision
+					268 text Pour
+					269 text Contre
+					270 text Compte rendu de juillet
+					271 text Approuvé
+					272 text 4
+					273 text 0
+					274 text Enquête atelier B
+					275 text Enquête paritaire ouverte
+					276 text 4
+					277 text 0
+					278 text Réorganisation logistique
+					279 text Avis différé, expertise demandée
+					280 text 3
+					281 text 1
+					282 text FO EXIGE !
+					283 text •  Approbation du compte rendu de la séance du 24 juillet •  Information sur l'accident de l'atelier B du 25 août •  Consultation sur le projet de réorganisation logistique •  Budget des activités sociales et culturelles — arbitrage rentrée
+				284 text Journal satirique
+			285 text STYLE GRAPHIQUE
+			286 checkbox Classique Charte graphique de l'organisation — rendu habituel., Value: 1
+			287 checkbox Affiche choc Un chiffre géant, un refus, des revendications surlignées., Value: 0
+			288 checkbox Journal syndical Bandeau-titre, colonnes, lettrine, citation., Value: 0
+			289 checkbox Infographie Chiffres clés, comparatifs et jauges en grand., Value: 0
+			290 checkbox Institutionnel sobre Structuré, factuel, daté. Pour l'information officielle., Value: 0
+			291 checkbox Photo pleine page La photo porte le message, le texte se pose en bas., Value: 0
+			292 checkbox Sérigraphie militante Deux encres, trame, tampon, écriture au feutre., Value: 0
+			293 checkbox Bulletin d'information Brèves, agenda et contacts en colonne., Value: 0
+			294 checkbox Question / réponse Les questions des salariés, des réponses courtes., Value: 0
+			295 checkbox Journal satirique Titre gothique, dessin de presse avec bulles, encadré « FO exige »., Value: 0
+			296 checkbox Bande dessinée Cases, récitatifs, bulles, chute en dernière case., Value: 0
+			297 checkbox Petite annonce parodique Détournement d'un format connu, puis retournement., Value: 0
+			298 checkbox Affiche rétro Rayons, diagonales, deux couleurs et fond crème., Value: 0
+			191 checkbox A4 portrait, Value: 1
+			192 checkbox 16:9 paysage, Value: 0
+			193 checkbox A5 tract, Value: 0
+			194 checkbox Description: Zoom 50 %, Value: 0
+			195 checkbox Description: Zoom 72 %, Value: 1
+			196 checkbox Description: Zoom 100 %, Value: 0
+			197 text 2 pages · A4 portrait
+			198 container docPrint
+				199 container
+					200 text SECTION MÉTA VAL Local syndical — 12 rue de la Fonderie
+					201 image Logo de l'organisation
+					202 text SÉANCE DU 26 AOÛT 2026
+					203 heading Compte rendu — réunion de la section syndicale, Value: 2
+						204 text Compte rendu — réunion de la section syndicale
+					205 heading Présents, Value: 3
+						206 text Présents
+					207 text Pour la section : Sophie Marchand (déléguée syndicale, secrétaire), Jean-Paul Diallo (trésorier), Leïla Chaïb (déléguée du personnel), Marc Aubert (représentant de proximité). Pour la direction : Mme Rousseau (DRH), M. Fontaine (directeur de site).
+					208 heading Ordre du jour, Value: 3
+						209 text Ordre du jour
+					210 text Approbation du compte rendu de la séance du 24 juillet Information sur l'accident de l'atelier B du 25 août Consultation sur le projet de réorganisation logistique Budget des activités sociales et culturelles — arbitrage rentrée
+					211 heading Délibérations, Value: 3
+						212 text Délibérations
+					213 text POINT DÉCISION POUR CONTRE Compte rendu de juillet Approuvé 4 0 Enquête atelier B Enquête paritaire ouverte 4 0 Réorganisation logistique Avis différé, expertise demandée 3 1 section@syndicat-valenciennes.fr — 03 27 14 88 20 Page 1 / 2
+				214 container
+					215 text SECTION MÉTA VAL Local syndical — 12 rue de la Fonderie
+					216 image Logo de l'organisation
+					217 heading Questions diverses, Value: 3
+						218 text Questions diverses
+					219 text Chaleur en atelier : la direction s'engage à installer deux points d'eau fraîche avant le 5 septembre Planning des congés d'hiver : diffusion aux équipes avant le 15 octobre Accès au local syndical le samedi : accord donné, badge à mettre à jour
+					220 heading Prochaine séance, Value: 3
+						221 text Prochaine séance
+					222 text Mardi 23 septembre 2026, 14 h 00, salle du conseil. Les points à inscrire à l'ordre du jour doivent parvenir au secrétariat avant le 16 septembre. section@syndicat-valenciennes.fr — 03 27 14 88 20 Page 2 / 2
+
+The focused UI element is 100 tab (selected, settable, boolean) Style, Value: 1

@@ -1,0 +1,16 @@
+{
+  "model": "ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66",
+  "engine": "faster-whisper/1.2.1",
+  "segments": [
+    {
+      "text": "Cette réunion est entièrement fictive, nous décidons de préparer le dossier vendredi,",
+      "endMs": 5120,
+      "startMs": 0
+    },
+    {
+      "text": "le prochain rendez vous et fixez à l'indice.",
+      "endMs": 7360,
+      "startMs": 5120
+    }
+  ]
+}

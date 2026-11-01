@@ -1,0 +1,81 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		6 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+						224 text unii
+						225 text 2
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				21 container
+					226 text UNII SUGGÈRE
+					227 button PV en relecture · Deuxième séance de négociation
+					228 button PV à rédiger · Visite de site — atelier peinture
+					321 text SÉANCES & PROCÈS-VERBAUX
+					322 heading Réunions, Value: 1
+						323 text Réunions
+					324 text 3 séances au registre · 2 PV en cours, 2 enregistrements en attente de destruction
+					325 button Enregistrer une réunion Dictaphone avec marqueurs de séance. Consentement des participants demandé avant le premier octet.
+						326 text Enregistrer une réunion
+						327 text Dictaphone avec marqueurs de séance. Consentement des participants demandé avant le premier octet.
+					328 text Importer un enregistrement Fichier du dictaphone, de la visio ou de la salle. Chiffré sur l'appareil, même règle de destruction. Choisir un fichier audio
+					329 button Choisir un fichier audio
+					330 heading TOUTES LES RÉUNIONS, Value: 2
+						331 text TOUTES LES RÉUNIONS
+					332 text 3 séances
+					333 button CSE ORDINAIRE 26 août 2026 · 14 h 00 · 1 h 52 Réunion ordinaire du 26 août Audio détruit — PV archivé APPROUVÉ
+						334 text CSE ORDINAIRE
+						335 text 26 août 2026 · 14 h 00
+						336 text  · 
+						337 text 1 h 52
+						338 text Réunion ordinaire du 26 août
+						339 text Audio détruit — PV archivé
+						340 text APPROUVÉ
+					341 button RÉUNION NAO 12 août 2026 · 09 h 30 · 2 h 07 Deuxième séance de négociation Audio conservé — destruction dans 12 j EN RELECTURE
+						342 text RÉUNION NAO
+						343 text 12 août 2026 · 09 h 30
+						344 text  · 
+						345 text 2 h 07
+						346 text Deuxième séance de négociation
+						347 text Audio conservé — destruction dans 12 j
+						348 text EN RELECTURE
+					349 button CSSCT 29 juillet 2026 · 10 h 00 · 58 min Visite de site — atelier peinture Audio conservé — destruction dans 3 j À RÉDIGER
+						350 text CSSCT
+						351 text 29 juillet 2026 · 10 h 00
+						352 text  · 
+						353 text 58 min
+						354 text Visite de site — atelier peinture
+						355 text Audio conservé — destruction dans 3 j
+						356 text À RÉDIGER
+				112 container
+					357 button Accueil
+						358 image
+						359 text Accueil
+					221 button Dossiers
+						222 image
+						223 text Dossiers
+					318 button Agenda
+						319 image
+						320 text Agenda
+					360 button Réunions
+						361 image
+						362 text Réunions
+					125 button Réglages
+						126 image
+						127 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

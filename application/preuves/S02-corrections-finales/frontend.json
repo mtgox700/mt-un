@@ -1,0 +1,128 @@
+[
+  {
+    "suite": "module-contract.test.mjs",
+    "exit": 0,
+    "summary": "6 module contract checks passed\n",
+    "error": ""
+  },
+  {
+    "suite": "actions.test.mjs",
+    "exit": 0,
+    "summary": "ASS contact rename updates direct conversation\nPASS contact removal updates group and direct links\nPASS contacts cannot write conversations directly\nPASS theme publication preserves inheritance\nPASS color conversion unchanged\n10 action checks passed\n",
+    "error": ""
+  },
+  {
+    "suite": "admin-import.test.mjs",
+    "exit": 0,
+    "summary": "9 administrative import assertions passed\n",
+    "error": ""
+  },
+  {
+    "suite": "admin-presenter.test.mjs",
+    "exit": 0,
+    "summary": "mber\nPASS invited action preserves status\nPASS removal callback scoped to selected member\nPASS invitation delegates shared overlay\nPASS site selection uses explicit host port\nPASS admin cannot mutate contacts\n8 administrative presenter checks passed\n",
+    "error": ""
+  },
+  {
+    "suite": "auth-resume.test.mjs",
+    "exit": 0,
+    "summary": "6 resume assertions passed\n",
+    "error": ""
+  },
+  {
+    "suite": "campaign-presenter.test.mjs",
+    "exit": 0,
+    "summary": " recipient summary capped at eight\nPASS subject input updates module\nPASS channel changes preview\nPASS attachment toggle\nPASS send uses campaign service\nPASS cancel preserves route\nPASS bulletin opens document port\n7 campaign presenter checks passed\n",
+    "error": ""
+  },
+  {
+    "suite": "campaigns-ai.test.mjs",
+    "exit": 0,
+    "summary": "S contacts cannot directly write conversations\nPASS residual identity blocks AI\nPASS one in-flight call and origin preserved\nPASS AI failure visible and busy cleared\nPASS JSON envelope preserved\nPASS invalid JSON refused\n10 campaign/AI checks passed\n",
+    "error": ""
+  },
+  {
+    "suite": "identity-edits.test.mjs",
+    "exit": 0,
+    "summary": "11 edit assertions passed\n",
+    "error": ""
+  },
+  {
+    "suite": "identity-s01.test.mjs",
+    "exit": 0,
+    "summary": "10 identity hydration assertions passed\n",
+    "error": ""
+  },
+  {
+    "suite": "invitation.test.mjs",
+    "exit": 0,
+    "summary": " submission remains simulation without member creation\nPASS duplicate submit ignored\nPASS follow closes and navigates\nPASS reopening clears prior completion and choice\nPASS cancel leaves other overlays and contacts intact\n10 invitation checks passed\n",
+    "error": ""
+  },
+  {
+    "suite": "invitations-s01.test.mjs",
+    "exit": 0,
+    "summary": "PASS bad organization rejected\nPASS invalid addresses fail before network\nPASS anonymous session refused\nPASS same origin csrf exact payload and deduplication\nPASS denial surfaced without false success\n5 S01 transport checks passed\n",
+    "error": ""
+  },
+  {
+    "suite": "member-filter.test.mjs",
+    "exit": 0,
+    "summary": "PASS initial list\nPASS company filter resets page\nPASS combined filters exclude mismatches\nPASS case insensitive text search\nPASS selection toggles without changing data\nPASS detail lookup\nPASS criteria labels retained\n7 member filter checks passed\n",
+    "error": ""
+  },
+  {
+    "suite": "member-management.test.mjs",
+    "exit": 0,
+    "summary": "hing\nPASS duplicate csv refused\nPASS sample loading does not import\n8 management checks passed\nPASS admin duplicate checked case insensitively against members\nPASS existing adherent may become an organisation member\n10 total management checks passed\n",
+    "error": ""
+  },
+  {
+    "suite": "members-s01.test.mjs",
+    "exit": 0,
+    "summary": "13 assertions passed\n",
+    "error": ""
+  },
+  {
+    "suite": "menus.test.mjs",
+    "exit": 0,
+    "summary": "icker uses dedicated port\nPASS picker lists and routes selected case\nPASS picker filters without mutating cases\nPASS picker creates with preserved payload\nPASS picker closes without deleting content\nPASS copy delegates clipboard\n9 menu checks passed\n",
+    "error": ""
+  },
+  {
+    "suite": "messaging.test.mjs",
+    "exit": 0,
+    "summary": "flag prevents duplicate creation\nPASS async case result stored in cases only\nPASS AI failure preserves case fallback\n15 messaging checks passed\nPASS broadcast delegates contact journal and preserves delivery metadata\nFINAL 16 messaging checks passed\n",
+    "error": ""
+  },
+  {
+    "suite": "module-stores.test.mjs",
+    "exit": 0,
+    "summary": "p selection\nPASS dynamic group filtering\nPASS theme site inheritance\nPASS theme draft isolated from published\nPASS theme cannot overwrite contacts\nTOTAL 22 checks passed\nPASS shallow frozen input cannot bypass nested isolation\nFINAL 23 checks passed\n",
+    "error": ""
+  },
+  {
+    "suite": "navigation-guard.test.mjs",
+    "exit": 0,
+    "summary": "12 guarded navigation assertions passed\n",
+    "error": ""
+  },
+  {
+    "suite": "permissions-navigation.test.mjs",
+    "exit": 0,
+    "summary": "6 navigation assertions passed\n",
+    "error": ""
+  },
+  {
+    "suite": "presenters.test.mjs",
+    "exit": 0,
+    "summary": "ed from owned state\nPASS list action uses navigation port\nPASS filter searches message content\nPASS message selection updates owned state\nPASS selection cleared by assistant panel\nPASS closed modals return empty view models\n6 presenter checks passed\n",
+    "error": ""
+  },
+  {
+    "suite": "shared-content.test.mjs",
+    "exit": 0,
+    "summary": "4 safe rendering assertions passed\n",
+    "error": ""
+  }
+]

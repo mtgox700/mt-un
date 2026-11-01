@@ -1,0 +1,35 @@
+{
+  "cases": [
+    {
+      "style": "journal",
+      "case": "vertical",
+      "blocked": true
+    },
+    {
+      "style": "journal",
+      "case": "horizontal",
+      "blocked": true
+    },
+    {
+      "style": "institutionnel",
+      "case": "vertical",
+      "blocked": true
+    },
+    {
+      "style": "institutionnel",
+      "case": "horizontal",
+      "blocked": true
+    },
+    {
+      "style": "bulletin",
+      "case": "vertical",
+      "blocked": true
+    },
+    {
+      "style": "bulletin",
+      "case": "horizontal",
+      "blocked": true
+    }
+  ],
+  "pagebreak_export": true
+}

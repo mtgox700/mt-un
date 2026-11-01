@@ -1,0 +1,20 @@
+{
+  "uniion/config.py": "7e8aa374a3824cc84f65e2d532aa5b02e4fcebdff60881aa277df4d244734353",
+  "uniion/http_sessions.py": "1f611fee2f0c4085f4be8b1fdb48b265e484886937f9bb3161c859ba805c17d0",
+  "uniion/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "uniion/app.py": "adfc64ef25d2c20472e3bbb874f9626f2a3071693271acc8165b99186d218470",
+  "uniion/core/registry.py": "bb59b3db42ffbbca8c25d564ea57304773f2e147e768a5f8cac3338e16b6fd6b",
+  "uniion/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "uniion/core/contracts.py": "b54f0433476c95a7723dddef586b8b24f4df4a234229304344dfc967561046d4",
+  "uniion/adapters/sessions.py": "c0ed6e25524a41d91e17d5f7e7d8335897b25d9aa5f0bc7c183f29baff120e9a",
+  "uniion/adapters/durable_sessions.py": "c42a32058abf4ff77afd2bc9045cf1cb35f578930d9eacf6a18531dfc1b11468",
+  "uniion/adapters/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "uniion/adapters/supabase_transport.py": "77700b35ffc25942649fcbeadea6ed671401cc64ae703335be337014bbfa4488",
+  "uniion/adapters/resources.py": "7b23d9043ed887325d6b5f259577523aded4ecac7395b3f645ceb5c2b5b58455",
+  "uniion/adapters/identity.py": "e923fa62d6baa4e7da6c1c3ad78453f693986bc5f79132a8f0651c4411f1d322",
+  "uniion/modules/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "uniion/modules/resources/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "uniion/modules/resources/module.py": "162404912156b53f2c03418733212135280ab3a6d7bf188cef8f7f2693316544",
+  "operations/session_health.py": "501e12fa964a719fb51172ff64d923b44bf1509d98a9d0933e23da7801e18a43",
+  ".github/workflows/quality.yml": "d79958e50f9572589e4df6738953d25a90948347e98f6709f35e2a422a70a76f"
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "style": "choc",
+    "format": "a4",
+    "blocked": "PDFContentMissing"
+  },
+  {
+    "style": "choc",
+    "format": "a5",
+    "blocked": "PDFContentMissing"
+  },
+  {
+    "style": "choc",
+    "format": "wide",
+    "blocked": "PDFContentMissing"
+  },
+  {
+    "style": "journal",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 23282,
+    "passed": true
+  },
+  {
+    "style": "journal",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 23277,
+    "passed": true
+  },
+  {
+    "style": "journal",
+    "format": "wide",
+    "blocked": "PDFOverflow"
+  },
+  {
+    "style": "infographie",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 10913,
+    "passed": true
+  },
+  {
+    "style": "infographie",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 10891,
+    "passed": true
+  },
+  {
+    "style": "infographie",
+    "format": "wide",
+    "blocked": "PDFOverflow"
+  },
+  {
+    "style": "institutionnel",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 18835,
+    "passed": true
+  },
+  {
+    "style": "institutionnel",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 18793,
+    "passed": true
+  },
+  {
+    "style": "institutionnel",
+    "format": "wide",
+    "blocked": "PDFOverflow"
+  },
+  {
+    "style": "photo",
+    "format": "a4",
+    "blocked": "PDFContentMissing"
+  },
+  {
+    "style": "photo",
+    "format": "a5",
+    "blocked": "PDFContentMissing"
+  },
+  {
+    "style": "photo",
+    "format": "wide",
+    "blocked": "PDFOverflow"
+  },
+  {
+    "style": "serigraphie",
+    "format": "a4",
+    "blocked": "PDFOverflow"
+  },
+  {
+    "style": "serigraphie",
+    "format": "a5",
+    "blocked": "PDFOverflow"
+  },
+  {
+    "style": "serigraphie",
+    "format": "wide",
+    "blocked": "PDFOverflow"
+  },
+  {
+    "style": "bulletin",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 17202,
+    "passed": true
+  },
+  {
+    "style": "bulletin",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 17190,
+    "passed": true
+  },
+  {
+    "style": "bulletin",
+    "format": "wide",
+    "blocked": "PDFOverflow"
+  },
+  {
+    "style": "qr",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 22043,
+    "passed": true
+  },
+  {
+    "style": "qr",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 22024,
+    "passed": true
+  },
+  {
+    "style": "qr",
+    "format": "wide",
+    "blocked": "PDFOverflow"
+  },
+  {
+    "style": "satirique",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 84929,
+    "passed": true
+  },
+  {
+    "style": "satirique",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 68648,
+    "passed": true
+  },
+  {
+    "style": "satirique",
+    "format": "wide",
+    "pages": 1,
+    "bytes": 86390,
+    "passed": true
+  },
+  {
+    "style": "bd",
+    "format": "a4",
+    "blocked": "PDFContentMissing"
+  },
+  {
+    "style": "bd",
+    "format": "a5",
+    "blocked": "PDFContentMissing"
+  },
+  {
+    "style": "bd",
+    "format": "wide",
+    "blocked": "PDFContentMissing"
+  },
+  {
+    "style": "annonce",
+    "format": "a4",
+    "pages": 1,
+    "bytes": 31305,
+    "passed": true
+  },
+  {
+    "style": "annonce",
+    "format": "a5",
+    "pages": 1,
+    "bytes": 31129,
+    "passed": true
+  },
+  {
+    "style": "annonce",
+    "format": "wide",
+    "blocked": "PDFOverflow"
+  },
+  {
+    "style": "retro",
+    "format": "a4",
+    "blocked": "PDFOverflow"
+  },
+  {
+    "style": "retro",
+    "format": "a5",
+    "blocked": "PDFOverflow"
+  },
+  {
+    "style": "retro",
+    "format": "wide",
+    "blocked": "PDFOverflow"
+  }
+]

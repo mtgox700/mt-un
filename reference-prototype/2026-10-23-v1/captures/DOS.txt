@@ -1,0 +1,144 @@
+Browser tab: 4, Title: "127.0.0.1:5052/uniion App v3.dc.html", URL: "http://127.0.0.1:5052/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			158 button Accueil
+				159 image
+				160 text Accueil
+			161 button Assistant
+				162 image
+				163 text Assistant
+			164 button Dossiers
+				165 image
+				166 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			17 button Agenda
+				18 image
+				19 text Agenda
+			20 button Réunions
+				21 image
+				22 text Réunions
+			23 button Documents
+				24 image
+				25 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			157 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				167 text unii
+				168 text 2
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		169 container
+			170 text GESTION DE PROJET
+			171 heading Suivi des demandes, Value: 1
+				172 text Suivi des demandes
+			173 text 6  dossiers · 2 échéances légales · mandat de déléguée syndicale Glissez une carte pour changer son état — ou sélectionnez-la et utilisez ← →
+			174 button + Nouveau dossier
+			175 text À TRAITER (3)
+			176 checkbox Description: Signalement — Service Logistique. Espace pour saisir la carte, ou glissez-la., Value: 0
+				177 text HARCÈLEMENT
+				178 text Signalement — Service Logistique
+				179 text Besoin de planifier un RDV avec Mme Leroy suite à son mail d'hier.
+				180 text SO
+				181 text 24 h
+			182 button unii · suite à donner
+			183 button Interroger l'assistant sur « Signalement — Service Logistique »
+				184 image
+				185 text IA
+			186 button Déplacer « Signalement — Service Logistique » vers En cours
+			187 checkbox Description: Accident Atelier B. Espace pour saisir la carte, ou glissez-la., Value: 0
+				188 text CSSCT
+				189 text Accident Atelier B
+				190 text Enquête CSSCT déclenchée. Accusé de réception attendu.
+				191 text JE
+				192 text 4 h
+			193 button unii · suite à donner
+			194 button Interroger l'assistant sur « Accident Atelier B »
+				195 image
+				196 text IA
+			197 button Déplacer « Accident Atelier B » vers En cours
+			198 checkbox Description: Valider devis traiteur. Espace pour saisir la carte, ou glissez-la., Value: 0
+				199 text ASC / NOËL
+				200 text Valider devis traiteur
+				201 text Trois offres reçues, arbitrage budget commission ASC.
+				202 text LE
+				203 text 5 j
+			204 button Interroger l'assistant sur « Valider devis traiteur »
+				205 image
+				206 text IA
+			207 button Déplacer « Valider devis traiteur » vers En cours
+			208 text EN COURS (2)
+			209 checkbox Description: Dossier inaptitude M. Martin. Espace pour saisir la carte, ou glissez-la., Value: 0
+				210 text JURIDIQUE
+				211 text Dossier inaptitude M. Martin
+				212 text Recherche de reclassement en cours. Attente retour RH.
+				213 text JE
+				214 text 3 j
+			215 button Déplacer « Dossier inaptitude M. Martin » vers À traiter
+			216 button Interroger l'assistant sur « Dossier inaptitude M. Martin »
+				217 image
+				218 text IA
+			219 button Déplacer « Dossier inaptitude M. Martin » vers Terminé
+			220 checkbox Description: Négociation PAP. Espace pour saisir la carte, ou glissez-la., Value: 0
+				221 text NÉGOCIATION
+				222 text Négociation PAP
+				223 text Protocole préélectoral — 2e réunion programmée.
+				224 text SO
+				225 text 10 j
+			226 button Déplacer « Négociation PAP » vers À traiter
+			227 button Interroger l'assistant sur « Négociation PAP »
+				228 image
+				229 text IA
+			230 button Déplacer « Négociation PAP » vers Terminé
+			231 text TERMINÉ (1)
+			232 checkbox Description: Inscription formation SSCT. Espace pour saisir la carte, ou glissez-la., Value: 0
+				233 text FORMATION
+				234 text Inscription formation SSCT
+				235 text Trois élus inscrits à la session de novembre.
+				236 text LE
+				237 text Clos
+			238 button Déplacer « Inscription formation SSCT » vers En cours
+			239 button Interroger l'assistant sur « Inscription formation SSCT »
+				240 image
+				241 text IA
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html

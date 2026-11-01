@@ -1,0 +1,35 @@
+RÉFÉRENCE CANDIDATE UNIION — 2026-10-23-v1
+
+Cette version fige le prototype corrigé, ses fichiers et ses preuves. Elle n’est pas une validation utilisateur ni une autorisation de mise en production.
+Ouvrir index.html pour la galerie, les 18 parcours et la matrice des 87 sections.
+
+EXÉCUTION
+Depuis application/ : UNIION_PORT=5052 python3 server.py
+Puis ouvrir http://127.0.0.1:5052. Codex doit être disponible dans PATH pour démarrer le serveur. Compte démo : adresse préremplie, mot de passe demo, code 402913.
+L’instance de travail reste http://127.0.0.1:5050. Les deux ports isolent le stockage du navigateur.
+L’IA est facultative pour la navigation : ses appels utilisent le compte ChatGPT connecté à Codex et consomment ses limites. Deux appels peuvent s’exécuter simultanément ; les suivants attendent.
+Les ressources React/Babel et les polices externes nécessitent Internet. Le code local est figé ; ces dépendances externes ne sont pas vendoriées. Cette archive n’est donc pas une image hermétique du runtime.
+
+REPRODUCTION DES CAPTURES
+Captures bureau 1272 × 716 ou 1280 × 720 (dimensions exactes dans captures/index.json), navigateur intégré, données démo initiales à l’ouverture de ce nouveau port, thème initial. Captures de la zone visible, pas de la totalité des pages longues. L’horloge et les données dynamiques peuvent varier.
+Aucun export de stockage local ou d’identifiant de connexion n’est inclus. Les captures et arbres d’accessibilité représentent les données démo affichées. Pour retrouver l’état initial, utiliser un profil de navigateur de test vierge ; ne pas effacer les données de travail.
+Les captures actuelles couvrent les 15 modules principaux et les deux écrans de connexion. Les autres variantes et les vues téléphone/tablette sont recensées comme restant à capturer.
+
+CONTRAT DE FIDÉLITÉ
+Conserver la structure, les dimensions, les couleurs, les polices, les icônes, les espacements, les libellés métier et les positions des actions.
+Conserver les étapes, dialogues, annulations, retours, sélections et transitions des parcours ; maintenir les données saisies pendant ces transitions.
+Remplacer les simulations derrière les interactions existantes. Toute différence visible nécessaire doit être documentée et examinée avant d’intégrer une nouvelle référence.
+Les réponses IA, heures, compteurs et données réelles peuvent évoluer ; leur présentation et les états chargement/erreur restent comparables.
+Ne pas reproduire les fausses garanties de sécurité ou les défauts déjà corrigés de l’archive originale.
+
+GESTION DE VERSION
+Ne pas modifier cette référence pendant le développement : créer une nouvelle version dans un autre dossier si un changement est accepté.
+manifest.json contient les empreintes des fichiers ; verifier.py les contrôle. Le ZIP contient le même instantané. Les empreintes détectent une modification, elles ne rendent pas les fichiers techniquement immuables.
+Les décisions utilisateur sont à enregistrer séparément (ID écran/parcours, date, décision, réserve). Aucune décision favorable n’est présumée.
+
+TESTS
+application/tests/regression.cjs : Node requis.
+application/tests/exports_test.py : Python avec openpyxl et pypdf requis pour les tests ; le serveur lui-même utilise la bibliothèque standard.
+application/tests/design_test.py : comparaison des balises/attributs/CSS avec la copie avant corrections.
+application/tests/bridge_test.py : test réseau optionnel sur 5051, consomme l’IA ; ne se lance pas implicitement.
+preuves/ contient les résultats antérieurs et les résultats relancés lors du gel ; les dates et limites doivent être conservées.

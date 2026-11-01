@@ -1,0 +1,837 @@
+--- avant/prototype.html
++++ public/uniion App v3.dc.html
+@@ -4,6 +4,7 @@
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <script src="./local-bridge.js"></script>
++<script src="./local-files.js"></script>
+ <script src="./support.js"></script>
+ </head>
+ <body>
+@@ -32,7 +33,7 @@
+     [data-print-hide] { display: none !important; }
+     #docPrint { position: absolute !important; left: 0 !important; top: 0 !important; z-index: 999; width: auto !important; margin: 0 !important; padding: 0 !important; background: #FFFFFF !important; display: block !important; gap: 0 !important; }
+     #docPrint .docwrap { width: auto !important; height: auto !important; margin: 0 !important; overflow: visible !important; }
+-    #docPrint .docpage { transform: none !important; margin: 0 !important; box-shadow: none !important; border: none !important; border-radius: 0 !important; break-after: page; page-break-after: always; }
++    #docPrint .docpage { height: auto !important; min-height: 0 !important; overflow: visible !important; transform: none !important; margin: 0 !important; box-shadow: none !important; border: none !important; border-radius: 0 !important; break-after: page; page-break-after: always; }
+     #docPrint .docpage:last-child { break-after: auto; page-break-after: avoid; }
+     @page { margin: 0; }
+   }
+@@ -41,7 +42,7 @@
+ </helmet>
+ 
+ <sc-if value="{{ notAuthed }}" hint-placeholder-val="{{ false }}">
+-  <div style="min-height: 100vh; display: flex; font-family:var(--fBody); color: var(--ink); background: var(--surface);">
++  <div style="min-height: 100vh; overflow-x: auto; display: flex; font-family:var(--fBody); color: var(--ink); background: var(--surface);">
+     <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
+       <div style="flex: 1 1 46%; background: linear-gradient(150deg, var(--inkSurf), var(--acDeep) 55%, var(--ac2)); padding: 56px 52px; display: flex; flex-direction: column; justify-content: space-between; color: #FFFFFF;">
+         <span style="font-family:var(--fTitle); font-size: 24px; letter-spacing: -.01em; color: #FFFFFF;">{{ brandProduct }}</span>
+@@ -130,7 +131,7 @@
+ 
+ 
+ <sc-if value="{{ adminAuthed }}" hint-placeholder-val="{{ false }}">
+-  <div data-screen-label="Console admin" style="min-height: 100vh; display: flex; font-family: var(--fBody); color: var(--ink); background: var(--surf2);">
++  <div data-screen-label="Console admin" style="min-height: 100vh; overflow-x: auto; display: flex; font-family: var(--fBody); color: var(--ink); background: var(--surf2);">
+     <aside style="width: 268px; flex: 0 0 268px; background: var(--inkSurf); color: #FFFFFF; padding: 24px 18px; display: flex; flex-direction: column; gap: 24px; position: sticky; top: 0; height: 100vh;">
+       <div style="padding-left: 6px;">
+         <div style="font-family: var(--fTitle); font-size: 21px;">uniion</div>
+@@ -164,7 +165,7 @@
+       </div>
+     </aside>
+ 
+-    <main style="flex: 1; min-width: 0; padding: 32px 34px 56px;">
++    <main style="flex: 1; min-width: 640px; padding: 32px 34px 56px;">
+       <div style="background: var(--warnBg); border: 1px solid var(--warnBd2); color: var(--warnTx2); border-radius: 14px; padding: 10px 14px; font-size: 12.5px; font-weight: 600; margin-bottom: 24px;">Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.</div>
+ 
+       <sc-if value="{{ adm.isSup }}" hint-placeholder-val="{{ true }}">
+@@ -419,7 +420,7 @@
+               <h1 style="font-family: var(--fTitle); font-size: 30px; margin: 0 0 4px;">Journal d'audit</h1>
+               <p style="margin: 0; color: var(--ink5); font-size: 14px;">Chaîne d'empreintes inaltérable — conservation 36 mois.</p>
+             </div>
+-            <button onClick="{{ adm.exportLogs }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); color: var(--ink4); font-weight: 600; font-size: 13px; padding: 11px 16px; border-radius: 13px;">Exporter (CSV signé)</button>
++            <button onClick="{{ adm.exportLogs }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); color: var(--ink4); font-weight: 600; font-size: 13px; padding: 11px 16px; border-radius: 13px;">Exporter (CSV local)</button>
+           </div>
+           <div style="background: var(--surface); border: 1px solid var(--bd); border-radius: 20px; overflow: hidden;">
+             <sc-for list="{{ adm.logs }}" as="l" hint-placeholder-count="5">
+@@ -438,7 +439,7 @@
+ </sc-if>
+ 
+ <sc-if value="{{ authed }}" hint-placeholder-val="{{ true }}">
+-<div style="min-height: 100vh; display: flex; font-family:var(--fBody); color: var(--ink); background: var(--surf2);">
++<div style="min-height: 100vh; overflow-x: auto; display: flex; font-family:var(--fBody); color: var(--ink); background: var(--surf2);">
+ 
+   <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
+     <aside style="width: {{ sbW }}; flex: 0 0 {{ sbW }}; background: var(--surface); border-right: 1px solid var(--bd); padding: {{ sbPad }}; display: flex; flex-direction: column; gap: 26px; position: sticky; top: 0; height: 100vh; box-sizing: border-box; overflow-y: auto; transition: width .2s ease;">
+@@ -1246,7 +1247,7 @@
+                   <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"></path><path d="M5 12h14"></path></svg>
+                 </span>
+                 <span style="font-size: 14px; font-weight: 700; color: var(--acTx2);">Déposer un document</span>
+-                <span style="font-size: 12.5px; color: var(--acTx); text-align: center; line-height: 1.5;">PDF, image, audio · 25 Mo max · chiffré à l'envoi</span>
++                <span style="font-size: 12.5px; color: var(--acTx); text-align: center; line-height: 1.5;">PDF, image, audio · 25 Mo max · stockage local</span>
+               </button>
+ 
+               <sc-if value="{{ uploading }}" hint-placeholder-val="{{ false }}">
+@@ -1312,7 +1313,7 @@
+ 
+               <section style="background: var(--okBg); border: 1px solid var(--okBd); border-radius: 22px; padding: 20px;">
+                 <div style="font-size: 10.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ok);">Traçabilité</div>
+-                <p style="margin: 8px 0 0; font-size: 13.5px; color: var(--okTx); line-height: 1.6;">Chaque dépôt, ouverture et suppression est horodaté dans le journal d'audit. Les pièces suivent la durée de conservation du dossier (5 ans).</p>
++                <p style="margin: 8px 0 0; font-size: 13.5px; color: var(--okTx); line-height: 1.6;">Les fichiers ajoutés sont conservés dans ce navigateur. Journal d’audit, chiffrement et conservation réglementaire restent à connecter.</p>
+               </section>
+             </div>
+           </div>
+@@ -1557,7 +1558,7 @@
+                     <sc-if value="{{ m.payload }}" hint-placeholder-val="{{ false }}">
+                       <div style="width: 100%; border: 1px dashed var(--okBd2); background: var(--okBg); border-radius: 14px; padding: 11px 13px;">
+                         <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 6px;">
+-                          <span style="font-size: 10px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--okTx);">Reçu par le modèle</span>
++                          <span style="font-size: 10px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--okTx);">Texte préparé pour le modèle</span>
+                           <span style="font-size: 10.5px; font-weight: 700; color: var(--okTx2); background: var(--okChip); border-radius: 99px; padding: 3px 9px;">{{ m.levelLabel }} · {{ m.tagCount }}</span>
+                         </div>
+                         <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; line-height: 1.6; color: var(--okTx2); white-space: pre-line;">{{ m.payload }}</div>
+@@ -4740,7 +4741,7 @@
+             <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 22px; padding: 22px;">
+               <h2 style="font-family:var(--fTitle); font-size: 19px; margin: 0 0 8px;">Signature des documents</h2>
+               <p style="margin: 0 0 14px; font-size: 13px; color: var(--ink5); line-height: 1.6;">Reprise automatiquement en pied des tracts et courriers générés.</p>
+-              <div style="background: var(--surf2); border-radius: 14px; padding: 16px; font-size: 13.5px; line-height: 1.7;">Sophie Marchand<br />Déléguée syndicale — Section de Valenciennes<br />sophie.marchand@cse-valenciennes.fr</div>
++              <div style="background: var(--surf2); border-radius: 14px; padding: 16px; font-size: 13.5px; line-height: 1.7;">{{ profileSignatureName }}<br />{{ profileSignatureRole }}<br />{{ profileSignatureEmail }}</div>
+               <div style="display: flex; flex-direction: column; gap: 9px; margin-top: 14px;">
+                 <button onClick="{{ goSignature }}" style="width: 100%; cursor: pointer; border: none; border-radius: 99px; padding: 12px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 13.5px; font-weight: 700;">Signer un document</button>
+                 <button onClick="{{ toast_saved }}" style="width: 100%; cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 12px; font-size: 13.5px; font-weight: 600; color: var(--ink3);">Modifier la signature</button>
+@@ -5733,7 +5734,7 @@
+                   <div style="font-size: 14px; font-weight: 600;">{{ p.label }}</div>
+                   <div style="font-size: 12.5px; color: var(--ink6); margin-top: 2px; line-height: 1.5;">{{ p.desc }}</div>
+                 </div>
+-                <button onClick="{{ p.go }}" style="flex: 0 0 auto; cursor: pointer; border: none; width: 46px; height: 26px; border-radius: 99px; background: {{ p.bg }}; position: relative;">
++                <button onClick="{{ p.go }}" role="switch" aria-label="{{ p.label }}" aria-checked="{{ p.on }}" style="flex: 0 0 auto; cursor: pointer; border: none; width: 46px; height: 26px; border-radius: 99px; background: {{ p.bg }}; position: relative;">
+                   <span style="position: absolute; top: 3px; left: {{ p.left }}; width: 20px; height: 20px; border-radius: 99px; background: var(--surface); transition: left .2s;"></span>
+                 </button>
+               </div>
+@@ -6873,14 +6874,14 @@
+       <div role="dialog" aria-modal="true" style="width: 100%; max-width: 560px; max-height: 86vh; overflow: auto; background: var(--surface); border-radius: 24px; padding: 24px; animation: scaleIn .25s ease-out;">
+         <div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 16px;">
+           <span style="flex: 1; min-width: 0;">
+-            <span style="display: block; font-size: 10.5px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink6);">Aperçu chiffré</span>
++            <span style="display: block; font-size: 10.5px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink6);">Aperçu local</span>
+             <span style="display: block; font-family:var(--fTitle); font-size: 21px; margin-top: 6px;">{{ piece.name }}</span>
+             <span style="display: block; font-size: 12px; color: var(--ink5); margin-top: 4px;">{{ piece.meta }}</span>
+           </span>
+           <button onClick="{{ closePreview }}" aria-label="Fermer l'aperçu" style="flex: 0 0 34px; width: 34px; height: 34px; border-radius: 99px; border: 1px solid var(--bd2); background: var(--surface); cursor: pointer; font-size: 16px; color: var(--ink5); line-height: 1;">×</button>
+         </div>
+-        <div style="background: var(--surf2); border: 1px solid var(--bd); border-radius: 16px; padding: 20px; font-size: 13.5px; line-height: 1.75; color: var(--ink3);">{{ piece.previewNote }}</div>
+-        <p style="margin: 14px 0 0; font-size: 11.5px; color: var(--ink6); line-height: 1.6;">Consultation tracée dans le journal d'audit du dossier — déchiffrement local, aucun envoi au serveur.</p>
++        <div style="background: var(--surf2); border: 1px solid var(--bd); border-radius: 16px; padding: 20px; font-size: 13.5px; line-height: 1.75; color: var(--ink3);">{{ piece.previewNote }}<sc-if value="{{ piecePreviewText }}"><pre style="white-space: pre-wrap; overflow-wrap: anywhere; font: inherit;">{{ piecePreviewText }}</pre></sc-if><sc-if value="{{ piecePreviewBinary }}"><iframe id="local-piece-frame" title="Contenu de la pièce" sandbox="" style="width: 100%; height: 360px; border: 0;"></iframe></sc-if></div>
++        <p style="margin: 14px 0 0; font-size: 11.5px; color: var(--ink6); line-height: 1.6;">Fichier conservé dans ce navigateur. Aucun envoi au serveur.</p>
+         <div style="display: flex; flex-wrap: wrap; gap: 9px; margin-top: 16px;">
+           <button onClick="{{ previewSign }}" style="flex: 1 1 150px; cursor: pointer; border: none; border-radius: 99px; padding: 13px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 13.5px; font-weight: 700;">Faire signer</button>
+           <button onClick="{{ closePreview }}" style="flex: 1 1 120px; cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 13px; font-size: 13.5px; font-weight: 600; color: var(--ink3);">Fermer</button>
+@@ -6896,7 +6897,7 @@
+         <span style="flex: 1; min-width: 0;">
+           <span style="display: block; font-size: 13.5px; font-weight: 700; color: var(--ink);">Appel au modèle en échec</span>
+           <span style="display: block; font-size: 12.5px; color: var(--ink5); line-height: 1.6; margin-top: 4px;">{{ aiErrText }}</span>
+-          <span style="display: block; font-size: 11.5px; color: var(--ink6); line-height: 1.55; margin-top: 6px;">Aucune réponse simulée n'a été substituée : rien n'a été produit ni enregistré.</span>
++          <span style="display: block; font-size: 11.5px; color: var(--ink6); line-height: 1.55; margin-top: 6px;">Aucune réponse de remplacement. La question et le message d’erreur peuvent rester dans votre historique local.</span>
+         </span>
+       </div>
+       <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px;">
+@@ -8001,11 +8002,11 @@
+ const planPrix = (offre) => PLAN_PRIX[PLAN_MIGRATE[offre] || offre] || PLAN_PRIX['Élu 1.0'];
+ const planNom = (offre) => (PLAN_PRIX[offre] ? offre : (PLAN_MIGRATE[offre] || 'Élu 1.0'));
+ const STORE_KEY = 'uniion.demo.v4';
+-const SEED_MERGE_KEYS = ['pages', 'adherents', 'dossiers', 'agenda', 'docs', 'reunions', 'members', 'groupes'];
++const SEED_MERGE_KEYS = []; // A saved collection is authoritative, including deletions.
+ const EXT_API = 1;
+ const CORE_DOC_TYPES = ['tag', 'h1', 'h2', 'h3', 'p', 'ul', 'quote', 'table', 'pagebreak'];
+ const PLAN_RANK = { p1: 1, p2: 2, p3: 3, p4: 4 };
+-const PERSIST_KEYS = ['mobPages', 'signed', 'sigSnapshot', 'localEffort', 'extCfg', 'org', 'navOrder', 'shortcuts', 'plan', 'planCycle', 'planCard', 'admUsers', 'admOrgs', 'admKeys', 'admEditor', 'adherents', 'groupes', 'adhLog', 'dossiers', 'pieces', 'docs', 'reunions', 'pages', 'pollsData', 'agenda', 'members', 'brand', 'charte', 'webCharte', 'wcSite', 'webSite', 'dchats', 'messages', 'convos', 'contacts', 'navMini', 'fmSessions', 'fmReq', 'comPlan', 'comReq', 'uniiCfg', 'uniiRole', 'uniiPills', 'aiConvs', 'aiConvId', 'aiMem', 'aiMemOn', 'flags', 'devices', 'unread', 'notifRead'];
++const PERSIST_KEYS = ['profileSignature', 'cached', 'lastSync', 'autoSync', 'onb', 'admLogs', 'mobPages', 'signed', 'sigSnapshot', 'localEffort', 'extCfg', 'org', 'navOrder', 'shortcuts', 'plan', 'planCycle', 'planCard', 'admUsers', 'admOrgs', 'admKeys', 'admEditor', 'adherents', 'groupes', 'adhLog', 'dossiers', 'pieces', 'docs', 'reunions', 'pages', 'pollsData', 'agenda', 'members', 'brand', 'charte', 'webCharte', 'wcSite', 'webSite', 'dchats', 'messages', 'convos', 'contacts', 'navMini', 'fmSessions', 'fmReq', 'comPlan', 'comReq', 'uniiCfg', 'uniiRole', 'uniiPills', 'aiConvs', 'aiConvId', 'aiMem', 'aiMemOn', 'flags', 'devices', 'unread', 'notifRead'];
+ 
+ class Component extends DCLogic {
+   waRef = React.createRef();
+@@ -8160,7 +8161,7 @@
+     unread: true, notifRead: {},
+     convos: CONVOS.map(function (c) { return Object.assign({}, c, { messages: c.messages.slice(), unread: c.id === 'nego' ? 2 : (c.id === 'jd' ? 1 : 0) }); }),
+     convoId: 'nego', msgDraft: '', contacts: CONTACTS, waPane: 'chats', waQ: '', waF: 'all', waInfo: false, navMini: false, fmTab: 'ia', fmQ: '', fmType: 'Tous', fmCat: 'Toutes', fmMode: 'all', fmReq: {}, fmSessions: [], fmSessId: null, fmBusy: false, fmSetup: { theme: '', dur: 30, level: 'Découverte', role: 'Élu·e CSE', goal: '' }, fmChat: '', fmChatBusy: false, fmRevBusy: false, waMenu: null, waReply: null, fwdMsg: null, fwdSel: [], fwdQ: '', dosPick: null, dosQ: '', ctEdit: null, grEdit: null, grQ: '', ctQ: '', ctCat: 'all',
+-    cached: { cc: true, cdt: true, tt: true, pv: false, reg: false }, autoSync: true, syncing: false, lastSync: 'il y a 12 min',
++    cached: {}, autoSync: true, syncing: false, lastSync: 'jamais',
+     onb: { convention: true, commissions: false, membres: false, notifs: false },
+     site: 'Tous les sites'
+   };
+@@ -8923,6 +8924,7 @@
+     }
+     try {
+       const ask = navigator.mediaDevices.getUserMedia({ audio: true });
++      ask.then(stream => { if (this.recAborted) stream.getTracks().forEach(t => t.stop()); }, () => {});
+       const stream = await Promise.race([
+         ask,
+         new Promise((res, rej) => { this.askTimer = setTimeout(function () { rej(new Error('timeout')); }, 7000); })
+@@ -8939,8 +8941,9 @@
+       this.recAnalyser = an;
+       this.recBuf = new Uint8Array(an.frequencyBinCount);
+       if (typeof MediaRecorder !== 'undefined') {
+-        try { this.recorder = new MediaRecorder(stream); this.recChunks = []; this.recorder.ondataavailable = (e) => { this.recChunks.push(e.data); }; this.recorder.start(); } catch (e) { this.recorder = null; }
++        try { this.recorder = new MediaRecorder(stream); this.recChunks = []; this.recorder.ondataavailable = (e) => { if (e.data.size) this.recChunks.push(e.data); }; this._recStopped = new Promise(resolve => { this.recorder.onstop = resolve; }); this.recorder.start(); } catch (e) { this.recorder = null; }
+       }
++      if (!this.recorder) { this.releaseMic(); this.startSimulated('Capture audio indisponible — aucun son conservé.'); return; }
+       this.recPatch({ phase: 'live', sim: false, err: '' });
+       this.recTimer = setInterval(() => {
+         if (!this.recAnalyser) return;
+@@ -9012,9 +9015,16 @@
+     return h > 0 ? h + ' h ' + pad(m % 60) + ' min' : pad(m) + ':' + pad(s % 60);
+   }
+ 
+-  saveRecording() {
++  async saveRecording() {
+     const rc = this.state.rec;
++    if (rc.sim) return this.flash('Simulation uniquement — aucun audio à enregistrer');
++    if (this._savingAudio) return;
++    this._savingAudio = true;
++    if (this.recorder) this.releaseMic();
++    await this._recStopped;
+     const id = 'r-' + Date.now();
++    try { const blob = new Blob(this.recChunks || [], {type: ((this.recChunks || [])[0] || {}).type || 'audio/webm'}); if (!blob.size) throw new Error('Audio vide'); await window.uniionFiles.put('audio:' + id, blob); } catch (e) { this._savingAudio = false; return this.flash('Audio non enregistré : ' + e.message); }
++    this._savingAudio = false;
+     const now = new Date();
+     const months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+     const mins = Math.max(1, Math.round(rc.t / 60));
+@@ -9026,7 +9036,7 @@
+     };
+     this.setState({ reunions: [reunion].concat(this.state.reunions), rec: { phase: 'consent', c1: false, c2: false, t: 0, level: 0, wave: [], markers: [], sim: false, err: '', type: rc.type } });
+     this.go('reunion', { reunionId: id });
+-    this.flash('Enregistrement chiffré sur l\'appareil — audio détruit à l\'approbation du PV, ou sous 30 jours');
++    this.recChunks = []; this.flash('Audio enregistré dans ce navigateur — conservation locale sans chiffrement applicatif');
+   }
+ 
+   discardRecording() {
+@@ -9037,35 +9047,52 @@
+ 
+   importAudioFile(file) {
+     if (!file) return;
+-    const mb = Math.max(0.1, file.size / 1048576);
+-    this.setState({ audioImport: { name: file.name, size: mb.toFixed(1) + ' Mo', step: 0, done: false } });
+-    let step = 0;
+-    clearInterval(this.impTimer);
+-    this.impTimer = setInterval(() => {
+-      step++;
+-      const cur = this.state.audioImport;
+-      if (!cur) { clearInterval(this.impTimer); return; }
+-      if (step >= 3) {
+-        clearInterval(this.impTimer);
+-        this.setState({ audioImport: Object.assign({}, cur, { step: 3, done: true }) });
+-      } else {
+-        this.setState({ audioImport: Object.assign({}, cur, { step: step }) });
+-      }
+-    }, 900);
+-  }
+-
+-  confirmImport() {
+-    const imp = this.state.audioImport;
+-    if (!imp) return;
++    if (!file.size || (!/^audio\//.test(file.type || '') && !/\.(wav|mp3|m4a|ogg|webm|aac|flac)$/i.test(file.name || ''))) return this.flash('Choisissez un fichier audio non vide');
++    this._audioImportFile = file;
++    this.setState({audioImport:{name:file.name,size:(file.size/1048576).toFixed(1)+' Mo',step:3,done:true}});
++  }
++
++  async confirmImport() {
++    const imp = this.state.audioImport, file = this._audioImportFile;
++    if (!imp || !file || this._savingAudio) return;
++    this._savingAudio = true;
+     const id = 'r-imp-' + Date.now();
+-    const reunion = {
+-      id: id, type: this.state.rec.type, title: 'Enregistrement importé — ' + imp.name.replace(/\.[a-z0-9]+$/i, ''),
+-      date: 'importé à l\'instant', dur: '—', audio: 'kept', retention: 30, pv: 'À rédiger', pvDoc: '',
+-      ordre: [], markers: [], access: [], destroyed: null
+-    };
+-    this.setState({ reunions: [reunion].concat(this.state.reunions), audioImport: null });
+-    this.go('reunion', { reunionId: id });
+-    this.flash('Fichier chiffré et rattaché à la réunion');
++    try { await window.uniionFiles.put('audio:' + id, file); }
++    catch (e) { this._savingAudio = false; return this.flash('Import non enregistré : ' + e.message); }
++    this._savingAudio = false; this._audioImportFile = null;
++    const reunion = {id:id,type:this.state.rec.type,title:'Enregistrement importé — '+imp.name.replace(/\.[a-z0-9]+$/i,''),date:new Date().toLocaleString('fr-FR'),dur:'—',audio:'kept',retention:30,pv:'À rédiger',pvDoc:'',ordre:[],markers:[],access:[],destroyed:null};
++    this.setState({reunions:[reunion].concat(this.state.reunions),audioImport:null});
++    this.go('reunion',{reunionId:id});
++    this.flash('Fichier audio conservé dans ce navigateur — sans chiffrement applicatif');
++  }
++
++  async listenAudio(reunion) {
++    if (this._playingAudio) { this._playingAudio.pause(); URL.revokeObjectURL(this._playingAudio.src); this._playingAudio = null; return; }
++    try {
++      const blob = await window.uniionFiles.get('audio:' + reunion.id);
++      if (!blob) throw new Error('Aucun fichier audio local pour cette réunion');
++      const audio = new Audio(URL.createObjectURL(blob));
++      try { await audio.play(); } catch (e) { URL.revokeObjectURL(audio.src); throw e; }
++      this._playingAudio = audio;
++      audio.onended = () => { URL.revokeObjectURL(audio.src); this._playingAudio = null; };
++      this.setState(s => ({reunions:s.reunions.map(r => r.id === reunion.id ? Object.assign({},r,{access:(r.access || []).concat([{who:'Utilisateur local',when:new Date().toLocaleString('fr-FR'),what:'Écoute audio'}])}) : r)}));
++      this.flash('Lecture en cours — cliquez à nouveau pour arrêter');
++    } catch (e) { this.flash(e.message); }
++  }
++
++  exportIcs(ev) {
++    const esc = v => String(v || '').replace(/\\/g,'\\\\').replace(/\r?\n/g,'\\n').replace(/;/g,'\\;').replace(/,/g,'\\,');
++    const day = ev.date.replace(/-/g,'');
++    const start = ev.start ? 'DTSTART:'+day+'T'+ev.start.replace(':','')+'00' : 'DTSTART;VALUE=DATE:'+day;
++    const end = ev.end ? 'DTEND:'+day+'T'+ev.end.replace(':','')+'00' : '';
++    const lines = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//uniion//Prototype local//FR','BEGIN:VEVENT','UID:'+esc(ev.id)+'@uniion.local','DTSTAMP:'+new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d+Z/,'Z'),start,end,'SUMMARY:'+esc(ev.title),'LOCATION:'+esc(ev.lieu),'DESCRIPTION:'+esc(ev.notes),'END:VEVENT','END:VCALENDAR'].filter(Boolean);
++    window.uniionFiles.download(new Blob([lines.join('\r\n')+'\r\n'],{type:'text/calendar;charset=utf-8'}),'evenement.ics');
++  }
++
++  exportLocalLogs() {
++    const q = v => '"'+String(v == null ? '' : v).replace(/"/g,'""')+'"';
++    const lines = [['Date','Auteur','Action','Niveau']].concat(this.state.admLogs.map(l => [l.t,l.qui,l.quoi,l.niv]));
++    window.uniionFiles.download(new Blob(['\ufeff'+lines.map(r => r.map(q).join(';')).join('\r\n')],{type:'text/csv;charset=utf-8'}),'journal-local.csv');
+   }
+ 
+   curReunion() { return this.state.reunions.find((x) => x.id === this.state.reunionId) || this.state.reunions[0]; }
+@@ -9407,29 +9434,31 @@
+   }
+ 
+ parseAdhCsv(text) {
+-    const raw = String(text || '').split(/\r?\n/).filter((l) => l.trim().length);
+-    if (!raw.length) return { empty: true, cols: [], rows: [], ok: 0, ko: 0, sep: ';', missing: [] };
+-    const sep = (raw[0].split(';').length >= raw[0].split(',').length) ? ';' : ',';
+-    const norm = (s) => s.trim().toLowerCase().replace(/^"|"$/g, '').replace(/[éè]/g, 'e').replace(/\s+/g, '_');
+-    const head = raw[0].split(sep).map(norm);
++    const input = String(text || '').replace(/^\uFEFF/, '');
++    if (!input.trim()) return { empty: true, cols: [], rows: [], ok: 0, ko: 0, sep: ';', missing: [] };
++    const first = input.split(/\r?\n/)[0];
++    const sep = this.csvRows(first, ';').rows[0].length >= this.csvRows(first, ',').rows[0].length ? ';' : ',';
++    const parsed = this.csvRows(input, sep), raw = parsed.rows;
++    const norm = (v) => v.trim().toLowerCase().replace(/[éè]/g, 'e').replace(/\s+/g, '_');
++    const head = raw[0].map(norm);
+     const missing = ADH_CSV_COLS.filter((c) => c.req && head.indexOf(c.h) < 0).map((c) => c.h);
+-    const known = {};
+-    const val = (cells, h) => { const i = head.indexOf(h); return i < 0 ? '' : (cells[i] || '').trim().replace(/^"|"$/g, ''); };
+-    const rows = raw.slice(1).map((line, n) => {
+-      const cells = line.split(sep);
++    const known = new Set();
++    const val = (cells, h) => { const i = head.indexOf(h); return i < 0 ? '' : (cells[i] || '').trim(); };
++    const rows = raw.slice(1).map((cells, n) => {
+       const rec = {};
+       ADH_CSV_COLS.forEach((c) => { rec[c.k] = val(cells, c.h); });
+-      const errs = [];
++      const errs = parsed.error ? [parsed.error] : [];
++      if (cells.length !== head.length) errs.push('Nombre de colonnes incohérent');
+       ADH_CSV_COLS.forEach((c) => { if (c.req && !rec[c.k]) errs.push(c.label + ' manquant'); });
+-      if (rec.email && rec.email.indexOf('@') < 0) errs.push('Courriel invalide');
++      if (rec.email && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(rec.email)) errs.push('Courriel invalide');
+       const dup = this.state.adherents.some((a) => a.email.toLowerCase() === rec.email.toLowerCase());
+       if (dup) errs.push('Adhérent déjà présent');
+       const warn = [];
+       [['ent', ADH_CRIT.ent, 'Entreprise'], ['etab', ADH_CRIT.etab, 'Établissement'], ['sect', ADH_CRIT.sect, 'Section'], ['dir', ADH_CRIT.dir, 'Direction']].forEach((x) => {
+         if (rec[x[0]] && x[1].indexOf(rec[x[0]]) < 0) warn.push(x[2] + ' inconnue — sera créée');
+       });
+-      if (known[rec.email]) errs.push('Doublon dans le fichier');
+-      known[rec.email] = true;
++      if (known.has(rec.email.toLowerCase())) errs.push('Doublon dans le fichier');
++      known.add(rec.email.toLowerCase());
+       return { line: n + 2, rec: rec, errs: errs, warn: warn, valid: errs.length === 0 };
+     });
+     return {
+@@ -9472,6 +9501,13 @@
+     const p = this.parseAdhCsv(this.adhCsvText());
+     const valid = p.rows.filter((r) => r.valid);
+     if (!valid.length) return this.flash('Aucune ligne valide à importer');
++    if (this.state.importMembers) {
++      const existing = new Set(this.state.members.map(m => String(m.email || '').toLowerCase()));
++      const members = valid.filter(r => !existing.has(r.rec.email.toLowerCase())).map((r,i) => ({id:'member'+Date.now()+i,name:r.rec.prenom+' '+r.rec.nom,email:r.rec.email,initials:(r.rec.prenom[0]+r.rec.nom[0]).toUpperCase(),role:'Élu',last:'Import local — invitation non envoyée',status:'Invité'}));
++      if (!members.length) return this.flash('Aucun nouveau membre à importer');
++      this.setState(s => ({members:s.members.concat(members),onb:Object.assign({},s.onb,{membres:true}),importMembers:false,adhImp:{text:'',touched:false,fileName:''}}));
++      this.go('membres'); return this.flash(members.length+' membres importés localement — invitations non envoyées');
++    }
+     const add = valid.map((r, i) => {
+       const rec = r.rec;
+       return {
+@@ -9527,7 +9563,7 @@
+     return {
+       isList: r === 'adherents', isFiche: r === 'adherent', isMsg: r === 'adhmsg',
+       title: W.memberTitle, kicker: W.memberKicker,
+-      importTitle: W.importTitle, msgTitle: W.msgTitle, listNote: W.listNote,
++      importTitle: this.state.importMembers ? 'Importer les élus' : W.importTitle, msgTitle: W.msgTitle, listNote: W.listNote,
+       tabList: tab === 'liste', tabGroupes: tab === 'groupes', tabCotis: tab === 'cotisations' && W.showCotis,
+       tabs: [{ id: 'liste', label: W.memberTitle }, { id: 'groupes', label: 'Listes de diffusion' }].concat(W.showCotis ? [{ id: 'cotisations', label: W.moneyTab }] : []).map((x) => ({
+         label: x.label, on: tab === x.id,
+@@ -9650,7 +9686,7 @@
+       relanceAll: () => this.openAdhMsg({ cible: 'groupe', groupeId: 'g3', modele: 'relance', objet: ADH_MSG_MODELS[0].objet, corps: ADH_MSG_MODELS[0].corps }),
+       log: this.state.adhLog,
+       newBulletin: () => this.adhBulletin(null),
+-      goImport: () => this.go('adhimport'),
++      goImport: () => { this.setState({importMembers:false}); this.go('adhimport'); },
+       imp: (() => {
+         const txt = this.adhCsvText();
+         const p = this.parseAdhCsv(txt);
+@@ -9835,6 +9871,7 @@
+   sheetDefs() {
+     const c = this.state.sheetCtx || {};
+     return {
++      editSignature: { title: 'Modifier la signature', sub: 'Une ligne pour le nom, une pour la fonction, une pour le courriel.', field: 'Signature', confirm: 'Enregistrer', doneTitle: 'Signature enregistrée', doneLines: ['Signature textuelle conservée dans ce navigateur.'], doneAction: 'Retour au profil', doneGo: 'profil' },
+       reset: {
+         title: 'Réinitialiser le mot de passe',
+         sub: 'Un lien à usage unique est envoyé sur votre adresse professionnelle. Il expire au bout de 30 minutes.',
+@@ -10026,12 +10063,28 @@
+     };
+   }
+ 
++  async cacheLocalDocs(id) {
++    if (this.state.syncing) return;
++    this.setState({syncing:true});
++    const cached = Object.assign({},this.state.cached);
++    try {
++      for (const key of (id ? [id] : DOCS.map(d => d.id))) {
++        if (id && cached[key]) { await window.uniionFiles.remove('doc:'+key); delete cached[key]; }
++        else { const data = this.viewerLibrary()[key]; if (!data) throw new Error('Document absent'); await window.uniionFiles.put('doc:'+key,new Blob([JSON.stringify(data)],{type:'application/json'})); cached[key]=true; }
++      }
++      this.setState({cached:cached,lastSync:new Date().toLocaleString('fr-FR')});
++      this.flash('Cache local mis à jour — extraits uniquement, sans chiffrement');
++    } catch(e) { this.flash('Cache incomplet : '+e.message); this.setState({cached:cached}); }
++    finally { this.setState({syncing:false}); }
++  }
++
+   viewerData() {
+-    const src = this.state.viewerKind === 'event' ? this.viewerEvents() : this.viewerLibrary();
++    const src = this.state.viewerKind === 'event' ? this.viewerEvents() : Object.assign({}, this.viewerLibrary(), this._cachedDocs || {});
+     return src[this.state.viewerId] || { kind: '', title: '', meta: '', badge: '', version: '', extracts: [] };
+   }
+ 
+   openViewer(kind, id) {
++    if (kind === 'doc' && this.state.cached[id] && window.uniionFiles) window.uniionFiles.get('doc:'+id).then(async blob => { if (!blob) return; const data = JSON.parse(await blob.text()); this._cachedDocs = Object.assign({},this._cachedDocs,{[id]:data}); this.setState({}); }).catch(() => this.flash('Cache local illisible — extraits de démonstration affichés'));
+     this.setState({ viewerKind: kind, viewerId: id });
+     this.go('viewer');
+   }
+@@ -10218,6 +10271,11 @@
+   async confirmSheet() {
+     const def = this.sheetDefs()[this.state.sheet];
+     if (!def) return;
++    if (this.state.sheet === 'editSignature') {
++      const lines = this.state.sheetText.split(/\r?\n/).map(x => x.trim());
++      if (lines.length !== 3 || !lines[0] || !lines[1] || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(lines[2])) return this.setState({ sheetErr: 'Indiquez un nom, une fonction et un courriel valide sur trois lignes.' });
++      this.setState({ profileSignature: lines, sig: Object.assign({}, this.state.sig, { name: lines[0] }) });
++    }
+     if (def.field && this.state.sheet === 'invite' && this.state.sheetText.indexOf('@') === -1) {
+       this.setState({ sheetErr: 'Renseignez au moins une adresse email valide.' });
+       return;
+@@ -10338,7 +10396,7 @@
+       anonOpen: false, typing: true, aiCalls: s.aiCalls + 1,
+       messages: s.messages.concat([{ isUser: true, text: q, payload: m.masked, levelLabel: levelLabel, tagCount: m.tags.length + ' entité' + (m.tags.length > 1 ? 's' : '') + ' masquée' + (m.tags.length > 1 ? 's' : '') }])
+     }));
+-    this.flash('Payload masqué transmis — aucune identité envoyée');
++    this.flash('Envoi en cours — texte masqué préparé');
+     this.runAssistant(q, m.masked, {
+       reidLine: reidLine ? 'Ré-identifié à l\'écran : ' + reidLine : '',
+       logLine: 'Journal d\'appel IA · empreinte ' + fp + ' · niveau ' + levelLabel + ' · ' + m.tags.length + ' entités masquées · aucun clair enregistré'
+@@ -10715,7 +10773,7 @@
+         bg: l.niv === 'Sensible' ? 'var(--dangerBg)' : l.niv === 'Alerte' ? 'var(--warnBg)' : 'var(--chip)',
+         tx: l.niv === 'Sensible' ? 'var(--dangerTx2)' : l.niv === 'Alerte' ? 'var(--warnTx2)' : 'var(--ink4)'
+       })),
+-      exportLogs: () => this.flash('Export du journal généré (CSV signé)')
++      exportLogs: () => this.exportLocalLogs()
+     };
+   }
+ 
+@@ -10828,7 +10886,7 @@
+   agCreate() {
+     const n = this.state.agNew;
+     if (!String(n.title).trim()) return this.flash('Donnez un intitulé à l\'événement');
+-    if (!/^\d{4}-\d{2}-\d{2}$/.test(n.date)) return this.flash('Date attendue au format AAAA-MM-JJ');
++    if (!this.validDate(n.date)) return this.flash('Date attendue au format AAAA-MM-JJ');
+     if (n.start && n.end && n.end <= n.start) return this.flash('L\'heure de fin doit suivre l\'heure de début');
+     const id = n.editId || ('e' + Date.now());
+     const evt = {
+@@ -10976,7 +11034,7 @@
+         })),
+         convoque: () => { this.go('adhmsg'); this.flash('Campagne préremplie — choisissez la liste à convoquer'); },
+         odj: () => this.createAgendaDocument(ev),
+-        ics: () => this.flash('Fichier .ics généré — importable dans Outlook, Thunderbird ou Google Agenda'),
++        ics: () => this.exportIcs(ev),
+         remove: () => this.agDelete(ev.id)
+       } : null,
+       newOpen: n.open,
+@@ -11172,7 +11230,7 @@
+       const msg = this.aiFail('Assistant juridique', e, () => { this.setState({ typing: true, aiErr: '' }); this.runAssistant(q, masked, trace); });
+       this.setState((s) => ({
+         typing: false,
+-        messages: s.messages.concat([{ isBot: true, source: 'Appel au modèle en échec', text: "Aucune réponse n'a été produite (" + msg + "). Rien n'a été enregistré. Réessayez, ou consultez la base documentaire hors ligne." }])
++        messages: s.messages.concat([{ isBot: true, source: 'Appel au modèle en échec', text: "Aucune réponse n'a été produite (" + msg + "). La question reste dans votre historique local. Réessayez, ou consultez la base documentaire hors ligne." }])
+       }));
+     });
+   }
+@@ -11235,6 +11293,9 @@
+   }
+ 
+   pvFromReunion(re) {
++    const originRoute = this.state.route, originId = this.state.reunionId;
++    if (this._pvPending && this._pvPending.has(re.id)) return this.flash('Génération déjà en cours pour cette réunion');
++    if (!this._pvPending) this._pvPending = new Set();
+     const marks = re.markers.map((m) => {
+       const def = MARKER_DEFS.find(function (x) { return x.id === m.kind; }) || { label: m.kind };
+       return this.clock(m.t) + ' · ' + def.label + ' : ' + m.note;
+@@ -11244,6 +11305,7 @@
+     if (!m) return;
+     this.setState((s) => ({ aiErr: '', aiCalls: s.aiCalls + 1 }));
+     this.flash('Rédaction du projet de PV par le modèle…');
++    this._pvPending.add(re.id);
+     const user = 'Type de séance : ' + re.type + '\nIntitulé : ' + re.title + '\nDate : ' + re.date + '\nDurée : ' + re.dur
+       + "\nOrdre du jour :\n" + (re.ordre.length ? re.ordre.join('\n') : 'non renseigné')
+       + '\n\nMarqueurs relevés en séance (anonymisés) :\n' + (m.masked || 'aucun marqueur')
+@@ -11261,9 +11323,11 @@
+         docs: [doc].concat(s.docs), docSrcDraft: null, docTab: 'contenu',
+         reunions: s.reunions.map((x) => (x.id === re.id ? Object.assign({}, x, { pvDoc: id, pv: 'À rédiger' }) : x))
+       }));
+-      this.go('docedit', { docId: id });
++      this._pvPending.delete(re.id);
++      if (this.state.route === originRoute && this.state.reunionId === originId) this.go('docedit', { docId: id });
+       this.flash('Projet de PV rédigé depuis ' + re.markers.length + ' marqueurs — à relire et compléter');
+     }).catch((e) => {
++      this._pvPending.delete(re.id);
+       this.aiFail('Rédaction du procès-verbal', e, () => this.pvFromReunion(re));
+     });
+   }
+@@ -11378,7 +11442,7 @@
+         p2: "Nous vous rappelons votre obligation de prévention (art. L1153-5 du Code du travail) et demandons l'ouverture d'une enquête paritaire dans les meilleurs délais.",
+         listTitle: 'Nous demandons',
+         items: [{ text: 'Une enquête paritaire sous 8 jours' }, { text: 'La protection immédiate de la salariée' }, { text: 'Un point à l\'ordre du jour du prochain CSE' }],
+-        footer: 'Sophie Marchand — Secrétaire du CSE'
++        footer: this.signatureLines().join(' — ')
+       };
+     }
+     if (t === 'Ordre du jour') {
+@@ -11861,8 +11925,8 @@
+   }
+   setWebGen(patch) { this.setState((s) => ({ webGen: Object.assign({}, s.webGen, patch) })); }
+   askReview() {
+-    this.patchPage({ status: 'Relue', review: { by: 'Jean-Paul Deniau', note: 'Relecture demandée — réponse attendue sous 24 h.' } });
+-    this.flash('Relecture demandée à Jean-Paul Deniau (rôle communication)');
++    this.patchPage({ status: 'En relecture', review: { by: 'Jean-Paul Deniau', note: 'Relecture demandée — réponse attendue sous 24 h.' } });
++    this.flash('Relecture préparée localement — aucun envoi externe');
+   }
+   setPub(patch) { this.setState((s) => ({ pubForm: Object.assign({}, s.pubForm, patch) })); }
+   sendToWebmaster() {
+@@ -11880,7 +11944,7 @@
+   webVals() {
+     const r = this.state.route;
+     const pill = {
+-      'Brouillon': ['var(--chip)', 'var(--ink4)'], 'Relue': ['var(--infoBg)', 'var(--infoTx2)'],
++      'En relecture': ['var(--infoBg)', 'var(--infoTx2)'], 'Brouillon': ['var(--chip)', 'var(--ink4)'], 'Relue': ['var(--infoBg)', 'var(--infoTx2)'],
+       'En attente webmaster': ['var(--acBg)', 'var(--acTx2)'], 'Publiée': ['var(--okBg)', 'var(--okTx)'], 'Retournée': ['var(--dangerBg)', 'var(--dangerTx2)']
+     };
+     const pg = this.curPage();
+@@ -12753,8 +12817,8 @@
+           if (reu0.pvDoc) { this.openDoc(reu0.pvDoc); return; }
+           this.pvFromReunion(reu0);
+         },
+-        listen: () => this.flash('Lecture de l\'enregistrement — écoute inscrite au journal d\'accès'),
+-        cert: () => this.flash('Certificat de destruction téléchargé (PDF)')
++        listen: () => this.listenAudio(reu0),
++        cert: () => this.flash('Aucun certificat réel disponible pour cette réunion de démonstration')
+       },
+       extractFamilies: [
+         { text: 'Décisions — objet, sens de la décision, base juridique invoquée' },
+@@ -13074,7 +13138,7 @@
+ 
+       previewOpen: this.state.previewOpen,
+       closePreview: () => this.setState({ previewOpen: false }),
+-      previewSign: () => { this.setState({ previewOpen: false }); this.signGeneratedDocument(); },
++      previewSign: () => this.flash('Signature des pièces jointes non connectée — aucun document envoyé'),
+ 
+       isSignatureNav: r === 'signature',
+       goSignature: () => this.go('signature'),
+@@ -13164,15 +13228,9 @@
+       toggleAuto: () => { this.setState({ autoSync: !this.state.autoSync }); this.flash(this.state.autoSync ? 'Synchronisation manuelle' : 'Synchronisation automatique activée'); },
+       syncStatus: this.state.syncing ? 'Synchronisation en cours…' : ('Dernière synchronisation : ' + this.state.lastSync + ' · ' + cachedCount + ' document' + (cachedCount > 1 ? 's' : '') + ' en cache'),
+       syncLabel: this.state.syncing ? 'Synchronisation…' : 'Tout synchroniser maintenant',
+-      syncAll: () => {
+-        this.setState({ syncing: true });
+-        clearTimeout(this.t4);
+-        this.t4 = setTimeout(() => {
+-          this.setState({ syncing: false, lastSync: "à l'instant", cached: { cc: true, cdt: true, tt: true, pv: true, reg: true } });
+-          this.flash('5 documents disponibles hors ligne');
+-        }, 1400);
+-      },
+-      cachedSummary: Object.keys(this.state.cached).filter((k) => this.state.cached[k]).length + ' documents sur ' + DOCS.length + ' disponibles hors ligne (chiffrés sur l\'appareil)',
++      syncAll: () => this.cacheLocalDocs(),
++      cachedSummary: Object.keys(this.state.cached).filter(k => this.state.cached[k]).length + ' extraits conservés localement — PDF sources et démarrage hors connexion non disponibles',
++
+       docs: DOCS.map((dc) => {
+         const on = !!this.state.cached[dc.id];
+         return {
+@@ -13180,11 +13238,7 @@
+           iconColor: on ? 'var(--acTx)' : 'var(--bd2)',
+           action: on ? 'Hors ligne' : 'Télécharger',
+           btnBg: on ? 'var(--okBg)' : '#FFFFFF', btnColor: on ? 'var(--okTx)' : 'var(--ink4)', btnBorder: on ? 'var(--okChip)' : 'var(--bd2)',
+-          go: () => {
+-            const c = Object.assign({}, this.state.cached); c[dc.id] = !on;
+-            this.setState({ cached: c });
+-            this.flash(on ? 'Retiré du cache local' : dc.name + ' disponible hors ligne');
+-          },
++          go: () => this.cacheLocalDocs(dc.id),
+           open: () => this.openViewer('doc', dc.id)
+         };
+       }),
+@@ -13194,7 +13248,7 @@
+       onbSteps: [
+         { key: 'convention', title: 'Convention collective', desc: 'Métallurgie (IDCC 3248) — sert de source à l\'Assistant Juridique.', action: 'Modifier', act: () => this.flash('Convention collective confirmée') },
+         { key: 'commissions', title: 'Créer vos commissions', desc: 'Négociation, SSCT, ASC, formation — chacune avec sa messagerie dédiée.', action: 'Créer les 4 commissions', act: () => this.flash('4 commissions créées') },
+-        { key: 'membres', title: 'Inviter les élus', desc: 'Invitation par lien ou import CSV pour les grandes fédérations.', action: 'Importer un CSV', act: () => this.go('membres') },
++        { key: 'membres', title: 'Inviter les élus', desc: 'Invitation par lien ou import CSV pour les grandes fédérations.', action: 'Importer un CSV', act: () => { this.setState({importMembers:true,adhImp:{text:'',touched:false,fileName:''}}); this.go('adhimport'); } },
+         { key: 'notifs', title: 'Régler vos alertes', desc: 'Canaux, plages « ne pas déranger » et escalade des urgences.', action: 'Configurer', act: () => this.go('prefs') }
+       ].map((s) => {
+         const done = this.state.onb[s.key];
+@@ -13204,7 +13258,7 @@
+           border: done ? 'var(--okChip)' : 'var(--chip)',
+           badgeBg: done ? 'var(--okChip)' : 'var(--surf2)', badgeColor: done ? 'var(--okTx)' : 'var(--ink6)',
+           btnBg: done ? 'var(--surf2)' : 'linear-gradient(to right, var(--ac), var(--ac2))', btnColor: done ? 'var(--ink4)' : '#FFFFFF',
+-          go: () => { const o = Object.assign({}, this.state.onb); o[s.key] = true; this.setState({ onb: o }); s.act(); }
++          go: () => { if (s.key !== 'membres') { const o = Object.assign({}, this.state.onb); o[s.key] = true; this.setState({ onb: o }); } s.act(); }
+         };
+       }),
+ 
+@@ -13457,7 +13511,7 @@
+       isPieces: r === 'pieces',
+       pieceCount: pieceList.length,
+       goPieces: () => this.go('pieces', { pieceId: (pieceList[0] || {}).id }),
+-      piecesSummary: d.title + ' · ' + pieceList.length + ' pièce' + (pieceList.length > 1 ? 's' : '') + ' chiffrée' + (pieceList.length > 1 ? 's' : ''),
++      piecesSummary: d.title + ' · ' + pieceList.length + ' pièce' + (pieceList.length > 1 ? 's' : '') + ' locale' + (pieceList.length > 1 ? 's' : ''),
+       pieces: pieceList.map((p) => {
+         const st = extStyle[p.ext] || extStyle.PDF;
+         const sel = piece && p.id === piece.id;
+@@ -13476,40 +13530,34 @@
+         iconColor: (extStyle[piece.ext] || extStyle.PDF).color,
+         meta: 'Version ' + piece.v + ' · ' + piece.size + ' · ' + piece.by + ' · ' + piece.date,
+         previewNote: piece.note,
+-        versions: Array.from({ length: piece.v }, (_, i) => piece.v - i).map((n) => ({
++        versions: Array.from({ length: piece.maxVersion || piece.v }, (_, i) => (piece.maxVersion || piece.v) - i).map((n) => ({
+           label: 'v' + n,
+           color: n === piece.v ? 'var(--acTx)' : 'var(--ink6)',
+           meta: n === piece.v ? 'Version courante · ' + piece.date : 'Remplacée · ' + piece.by,
+           action: n === piece.v ? 'Télécharger' : 'Restaurer',
+-          restore: () => {
+-            if (n === piece.v) return this.flash('Téléchargement chiffré démarré');
+-            this.setState((s) => {
+-              const map = Object.assign({}, s.pieces);
+-              map[d.id] = (map[d.id] || []).map((x) => x.id === piece.id ? Object.assign({}, x, { v: n, date: "aujourd'hui", by: 'Sophie M.', note: 'Version v' + n + ' restaurée comme version courante — restauration consignée au journal du dossier.' }) : x);
+-              return { pieces: map };
+-            });
+-            this.flash('Version v' + n + ' restaurée comme version courante');
+-          }
++          restore: () => this.pieceFile(d.id,piece,n,n !== piece.v,false)
+         }))
+       } : { name: '', ext: '', meta: '', previewNote: '', versions: [] },
+-      openPiece: () => { this.setState({ previewOpen: true }); this.flash('Aperçu ouvert — consultation tracée dans le journal'); },
++      openPiece: () => piece && this.pieceFile(d.id,piece,piece.v,false,true),
++      piecePreviewText: this.state.piecePreviewText || '', piecePreviewBinary: !!this.state.piecePreviewUrl,
+       newVersion: () => this.startUpload(true),
+       pickFile: () => this.startUpload(false),
+       attachToDoc: () => { this.setState({ docType: 'Courrier' }); this.go('tract'); },
+-      deletePiece: () => {
++      deletePiece: async () => {
+         if (!piece) return;
++        try { for (let n=1;n<=(piece.maxVersion || piece.v);n++) await window.uniionFiles.remove('piece:'+d.id+':'+piece.id+':'+n); } catch(e) { return this.flash('Suppression interrompue : '+e.message); }
+         this.setState((s) => {
+           const map = Object.assign({}, s.pieces);
+           map[d.id] = (map[d.id] || []).filter((x) => x.id !== piece.id);
+           return { pieces: map, pieceId: (map[d.id][0] || {}).id };
+         });
+-        this.flash('Pièce supprimée — suppression consignée au journal');
++        this.flash('Pièce et fichiers locaux supprimés');
+       },
+       uploading: !!up,
+       uploadName: up ? up.name : '',
+       uploadPct: up ? up.pct + ' %' : '',
+       uploadWidth: up ? up.pct + '%' : '0%',
+-      uploadStatus: up ? (up.pct < 100 ? 'Chiffrement et envoi…' : 'Chiffré et ajouté au coffre du dossier') : '',
++      uploadStatus: up ? (up.pct < 100 ? 'Enregistrement local…' : 'Fichier enregistré localement') : '',
+       dchatMsgs: this.dchatFor(d),
+       dchatTyping: this.state.dchatTyping,
+       dchatDraft: this.state.dchatDraft,
+@@ -13933,7 +13981,7 @@
+         { d: ICONS.shield[0], d2: ICONS.shield[1], title: 'Confidentialité & RGPD', badge: 'Conforme', desc: 'Registre des traitements, purge automatique, export de vos données.', go: () => this.go('rgpd') },
+         { d: ICONS.users[0], d2: ICONS.users[1], title: 'Organisation & membres', badge: '24 sièges', desc: 'Membres, commissions, statuts et invitations.', go: () => this.go('membres') },
+         { d: ICONS.chart[0], d2: ICONS.chart[1], title: 'Espace admin', badge: 'Back-office', desc: 'Tableau de bord organisation, activité par commission, facturation.', go: () => this.go('admin') },
+-        { d: ICONS.wifioff[0], d2: ICONS.wifioff[1], title: 'Mode hors ligne', badge: cachedCount + ' en cache', desc: 'Base documentaire chiffrée sur l\'appareil, synchronisation intelligente.', go: () => this.go('offline') },
++        { d: ICONS.wifioff[0], d2: ICONS.wifioff[1], title: 'Mode hors ligne', badge: cachedCount + ' en cache', desc: 'Extraits conservés dans ce navigateur, sans chiffrement applicatif.', go: () => this.go('offline') },
+         { d: ICONS.rocket[0], d2: ICONS.rocket[1], title: 'Prise en main', badge: Object.keys(this.state.onb).filter((k) => this.state.onb[k]).length + '/4 étapes', desc: 'Convention collective, commissions, invitation des élus, alertes.', go: () => this.go('onboarding') }
+       ],
+ 
+@@ -13952,7 +14000,8 @@
+         { value: '5', label: 'documents générés' },
+         { value: '2', label: 'sondages lancés' }
+       ],
+-      toast_saved: () => this.flash('Signature enregistrée'),
++      profileSignatureName: this.signatureLines()[0], profileSignatureRole: this.signatureLines()[1], profileSignatureEmail: this.signatureLines()[2],
++      toast_saved: () => { this.openSheet('editSignature'); this.setState({ sheetText: this.signatureLines().join('\n') }); },
+ 
+       prefRows: [
+         { key: 'push', label: 'Notifications push', desc: 'Alertes urgentes et résultats de sondage sur mobile.' },
+@@ -13962,7 +14011,7 @@
+         { key: 'escalade', label: 'Escalade automatique', desc: 'Si une alerte urgente reste sans accusé de réception sous 4 h.' }
+       ].map((p) => {
+         const s = sw(f[p.key]);
+-        return { label: p.label, desc: p.desc, bg: s.bg, left: s.left, go: () => this.toggle(p.key) };
++        return { label: p.label, desc: p.desc, on: !!f[p.key], bg: s.bg, left: s.left, go: () => this.toggle(p.key) };
+       }),
+ 
+       secRows: [
+@@ -13971,7 +14020,7 @@
+         { key: 'sso', label: 'SSO fédération (OIDC)', desc: 'Connexion via l\'annuaire de l\'union.' }
+       ].map((p) => {
+         const s = sw(f[p.key]);
+-        return { label: p.label, desc: p.desc, bg: s.bg, left: s.left, go: () => this.toggle(p.key) };
++        return { label: p.label, desc: p.desc, on: !!f[p.key], bg: s.bg, left: s.left, go: () => this.toggle(p.key) };
+       }),
+       devices: this.state.devices.map((dv) => ({
+         name: dv.name, meta: dv.meta,
+@@ -14060,7 +14109,7 @@
+       sheetOpen: !!this.state.sheet,
+       sheetTitle: (sheetDef || {}).title,
+       sheetSub: (sheetDef || {}).sub,
+-      sheetOptLabel: (sheetDef || {}).optLabel,
++      sheetOptLabel: (sheetDef || {}).optLabel || '',
+       sheetOptions: ((sheetDef || {}).options || []).map((o, i) => ({
+         label: o.label, hint: o.hint,
+         selected: this.state.sheetOpt === i, idle: this.state.sheetOpt !== i,
+@@ -14120,15 +14169,7 @@
+       viewerDownload: () => this.openSheet('signed'),
+       viewerCached: !!this.state.cached[this.state.viewerId],
+       viewerCacheLabel: this.state.cached[this.state.viewerId] ? 'Disponible hors ligne' : 'Rendre disponible hors ligne',
+-      viewerCache: () => {
+-        const id = this.state.viewerId;
+-        const on = !!this.state.cached[id];
+-        const c = Object.assign({}, this.state.cached); c[id] = !on;
+-        this.setState({ cached: c });
+-        if (on) { this.flash('Retiré du cache local'); return; }
+-        this.flash('Chiffré sur l\'appareil — consultable sans réseau');
+-        this.go('offline');
+-      },
++      viewerCache: () => this.cacheLocalDocs(this.state.viewerId),
+       viewerAgenda: () => { this.setState({ docType: 'Ordre du jour', tract: 'empty' }); this.go('tract'); },
+ 
+       anonOpen: this.state.anonOpen,
+@@ -14181,32 +14222,44 @@
+   startUpload(isVersion) {
+     if (this.state.upload) return;
+     const did = this.state.dossierId;
+-    const existing = (this.state.pieces[did] || []).find((p) => p.id === this.state.pieceId);
+-    const name = isVersion && existing ? existing.name : 'Courriel DRH 26-08.pdf';
+-    this.setState({ upload: { name: name, pct: 0 } });
+-    clearInterval(this.t6);
+-    this.t6 = setInterval(() => {
+-      const cur = this.state.upload;
+-      if (!cur) { clearInterval(this.t6); return; }
+-      const next = Math.min(100, cur.pct + 20);
+-      this.setState({ upload: { name: cur.name, pct: next } });
+-      if (next < 100) return;
+-      clearInterval(this.t6);
+-      setTimeout(() => {
+-        this.setState((s) => {
+-          const map = Object.assign({}, s.pieces);
+-          const list = (map[did] || []).slice();
+-          if (isVersion && existing) {
+-            map[did] = list.map((p) => p.id === existing.id ? Object.assign({}, p, { v: p.v + 1, date: '26 août', by: 'Sophie M.' }) : p);
+-            return { pieces: map, upload: null };
+-          }
+-          const id = 'u' + Date.now();
+-          map[did] = [{ id: id, name: name, ext: 'PDF', size: '512 Ko', by: 'Sophie M.', date: '26 août', v: 1, note: 'Document déposé depuis le mobile — chiffré côté client avant envoi.' }].concat(list);
+-          return { pieces: map, upload: null, pieceId: id };
+-        });
+-        this.flash(isVersion ? 'Nouvelle version enregistrée (ancienne conservée)' : 'Pièce ajoutée et chiffrée');
+-      }, 500);
+-    }, 220);
++    const existing = isVersion ? (this.state.pieces[did] || []).find(p => p.id === this.state.pieceId) : null;
++    const input = document.createElement('input'); input.type = 'file';
++    input.style.display = 'none'; document.body.appendChild(input);
++    input.onchange = () => { const file = input.files[0]; input.remove(); if (file) this.storePiece(file, did, existing); };
++    input.oncancel = () => input.remove();
++    input.click();
++  }
++  async storePiece(file, did, existing) {
++    if (!file.size) return this.flash('Le fichier est vide');
++    if (file.size > 25 * 1048576) return this.flash('Fichier trop volumineux — limite de 25 Mo');
++    const id = existing ? existing.id : 'u'+Date.now();
++    const version = existing ? (existing.maxVersion || existing.v)+1 : 1;
++    this.setState({upload:{name:file.name,pct:0}});
++    try {
++      await window.uniionFiles.put('piece:'+did+':'+id+':'+version,file);
++      const item = Object.assign({},existing || {},{id:id,name:file.name,ext:(file.name.split('.').pop() || 'FILE').toUpperCase(),size:Math.ceil(file.size/1024)+' Ko',by:'Utilisateur local',date:new Date().toLocaleDateString('fr-FR'),v:version,maxVersion:version,note:'Fichier conservé dans ce navigateur — sans chiffrement applicatif.'});
++      this.setState(s => ({pieces:Object.assign({},s.pieces,{[did]:existing ? (s.pieces[did] || []).map(p => p.id===id ? item : p) : [item].concat(s.pieces[did] || [])}),upload:null,pieceId:id}));
++      this.flash('Fichier enregistré localement');
++    } catch(e) { this.setState({upload:null}); this.flash('Fichier non enregistré : '+e.message); }
++  }
++  async pieceFile(did,piece,n,restore,preview) {
++    try {
++      const blob = await window.uniionFiles.get('piece:'+did+':'+piece.id+':'+n) || (piece.content && new Blob([piece.content],{type:'text/plain'}));
++      if (!blob) throw new Error('Fichier de démonstration : aucun contenu téléchargeable');
++      if (restore) {
++        this.setState(s => ({pieces:Object.assign({},s.pieces,{[did]:(s.pieces[did] || []).map(p => p.id===piece.id ? Object.assign({},p,{v:n}) : p)})}));
++        return this.flash('Version v'+n+' restaurée');
++      }
++      if (preview) {
++        if (this._pieceUrl) URL.revokeObjectURL(this._pieceUrl);
++        if (!/^(application\/pdf|image\/(png|jpeg|gif|webp)|text\/plain)$/.test(blob.type)) return this.flash('Aperçu indisponible pour ce format — utilisez Télécharger');
++        if (blob.type === 'text/plain') { this.setState({previewOpen:true,piecePreviewUrl:'',piecePreviewText:await blob.text()}); return; }
++        this._pieceUrl=URL.createObjectURL(blob);
++        this.setState({previewOpen:true,piecePreviewUrl:this._pieceUrl,piecePreviewText:''});
++        setTimeout(() => { const frame = document.getElementById('local-piece-frame'); if (frame && this.state.previewOpen) frame.src = this._pieceUrl; }, 0); return;
++      }
++      window.uniionFiles.download(blob,blob.name || piece.name);
++    } catch(e) { this.flash(e.message); }
+   }
+ 
+   setNp(patch) {
+@@ -14312,8 +14365,8 @@
+   }
+   fmRequest(key, title) {
+     const on = !!(this.state.fmReq || {})[key];
+-    this.setState((s) => ({ fmReq: Object.assign({}, s.fmReq, { [key]: !on }) }));
+-    this.flash(on ? 'Demande retirée' : 'Demande de session « ' + title + ' » transmise au bureau');
++    this.setState((s) => ({ fmReq: Object.assign({}, s.fmReq, { [key]: on ? false : { title: title, createdAt: new Date().toISOString(), status: 'Préparée localement' } }) }));
++    this.flash(on ? 'Demande retirée' : 'Demande de session « ' + title + ' » enregistrée localement — envoi au bureau non connecté');
+   }
+   fmPatch(id, fn) { this.setState((s) => ({ fmSessions: (s.fmSessions || []).map((x) => (x.id === id ? Object.assign({}, x, fn(x)) : x)) })); }
+   curFm() { return (this.state.fmSessions || []).find((x) => x.id === this.state.fmSessId) || null; }
+@@ -14829,7 +14882,7 @@
+     const ty = S.fmType || 'Tous';
+     const iaSections = FM_IA.map((s, si) => ({ num: s.num, title: s.title, sub: s.sub, items: s.items.map((it, ii) => ({ it: it, k: 'ia' + si + '-' + ii })).filter((x) => (ty === 'Tous' || x.it.type === ty) && hit(x.it.title + ' ' + x.it.pub + ' ' + x.it.obj.join(' '))).map((x) => {
+       const c = FM_TYPE_C[x.it.type] || ['var(--chip)', 'var(--ink4)'];
+-      return { type: x.it.type, typeBg: c[0], typeFg: c[1], dur: x.it.dur, title: x.it.title, pub: x.it.pub, obj: x.it.obj.map((o) => ({ t: o })), reqLabel: req[x.k] ? 'Session demandée ✓' : 'Demander une session', reqFg: req[x.k] ? 'var(--okTx)' : 'var(--ink3)', req: () => this.fmRequest(x.k, x.it.title), unii: () => this.fmPrefill(x.it.title + ' — ' + x.it.obj.join(' ; '), this.fmGuessDur(x.it.dur)) };
++      return { type: x.it.type, typeBg: c[0], typeFg: c[1], dur: x.it.dur, title: x.it.title, pub: x.it.pub, obj: x.it.obj.map((o) => ({ t: o })), reqLabel: req[x.k] ? 'Demande locale ✓' : 'Demander une session', reqFg: req[x.k] ? 'var(--okTx)' : 'var(--ink3)', req: () => this.fmRequest(x.k, x.it.title), unii: () => this.fmPrefill(x.it.title + ' — ' + x.it.obj.join(' ; '), this.fmGuessDur(x.it.dur)) };
+     }) })).filter((s) => s.items.length);
+     const cat = S.fmCat || 'Toutes', mode = S.fmMode || 'all';
+     const cats = ['Toutes'].concat(FM_GEN.map((g) => g.cat).filter((v, i, a) => a.indexOf(v) === i));
+@@ -14849,7 +14902,7 @@
+       formats: FM_FORMATS.map((f) => ({ a: f[0], b: f[1], c: f[2] })),
+       genCats: cats.map((x) => Object.assign({ label: x, on: cat === x, go: () => this.setState({ fmCat: x }) }, pill(cat === x))),
+       genModes: [['all', 'Tous formats'], ['oblig', 'Obligatoires · agréées DREETS'], ['inter', 'Inter-entreprises possible'], ['intra', 'Intra uniquement']].map((x) => Object.assign({ label: x[1], on: mode === x[0], go: () => this.setState({ fmMode: x[0] }) }, pill(mode === x[0]))),
+-      gen: gen.map((x) => ({ cat: x.g.cat, title: x.g.title, dur: x.g.dur, mode: x.g.mode, desc: x.g.desc, oblig: x.g.oblig, reqLabel: req[x.k] ? 'Session demandée ✓' : 'Demander une session', reqFg: req[x.k] ? 'var(--okTx)' : 'var(--ink3)', req: () => this.fmRequest(x.k, x.g.title), unii: () => this.fmPrefill(x.g.title + ' — ' + x.g.desc, this.fmGuessDur(x.g.dur)) })),
++      gen: gen.map((x) => ({ cat: x.g.cat, title: x.g.title, dur: x.g.dur, mode: x.g.mode, desc: x.g.desc, oblig: x.g.oblig, reqLabel: req[x.k] ? 'Demande locale ✓' : 'Demander une session', reqFg: req[x.k] ? 'var(--okTx)' : 'var(--ink3)', req: () => this.fmRequest(x.k, x.g.title), unii: () => this.fmPrefill(x.g.title + ' — ' + x.g.desc, this.fmGuessDur(x.g.dur)) })),
+       genNone: !gen.length, genCount: gen.length + ' formation' + (gen.length > 1 ? 's' : '') + ' · ' + FM_GEN.filter((g) => g.oblig).length + ' obligatoires agréées DREETS',
+       busy: !!S.fmBusy, busyLabel: 'Parcours de ' + nM + ' modules sur « ' + (st.theme || '') + ' », calibré pour ' + this.fmDurLabel(st.dur || 30) + ' au niveau ' + (st.level || '') + '. Vos informations sont anonymisées avant l\'envoi.',
+       showSetup: tab === 'unii' && !S.fmBusy && !sess, inSession: !S.fmBusy && !!sess,
+@@ -15323,6 +15376,27 @@
+     await window.uniionLocal.download(data);
+   }
+ 
++  validDate(value) {
++    if (!/^\d{4}-\d{2}-\d{2}$/.test(value || '')) return false;
++    const d = new Date(value + 'T12:00:00Z');
++    return !isNaN(d.getTime()) && d.toISOString().slice(0, 10) === value;
++  }
++  csvRows(text, sep) {
++    const rows = []; let row = [], cell = '', quoted = false, closed = false, error = '';
++    for (let i = 0; i < text.length; i++) {
++      const c = text[i];
++      if (quoted) { if (c === '"') { if (text[i+1] === '"') { cell += '"'; i++; } else { quoted = false; closed = true; } } else cell += c; }
++      else if (c === '"' && !cell && !closed) quoted = true;
++      else if (c === sep) { row.push(cell); cell = ''; closed = false; }
++      else if (c === '\n' || c === '\r') { if (c === '\r' && text[i+1] === '\n') i++; row.push(cell); if (row.some(x => x.trim())) rows.push(row); row = []; cell = ''; closed = false; }
++      else { if (closed && c.trim()) error = 'Caractère après un champ entre guillemets'; cell += c; }
++    }
++    if (quoted) error = 'Guillemets non fermés';
++    row.push(cell); if (row.some(x => x.trim())) rows.push(row);
++    return { rows: rows.length ? rows : [['']], error: error };
++  }
++  signatureLines() { return this.state.profileSignature || ['Sophie Marchand', 'Déléguée syndicale — Section de Valenciennes', 'sophie.marchand@cse-valenciennes.fr']; }
++
+   addNoteNow() {
+     const txt = this.state.noteDraft.trim();
+     if (!txt) return;

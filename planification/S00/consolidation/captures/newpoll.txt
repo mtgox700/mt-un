@@ -1,0 +1,80 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Consultation des salariés
+  - heading "Nouveau sondage" [level=1]
+  - paragraph: Vote anonyme, une seule réponse par salarié. Aucune donnée nominative n'est conservée.
+  - button "1 Question & réponses":
+    - generic: "1"
+    - generic: Question & réponses
+  - button "2 Cible & clôture":
+    - generic: "2"
+    - generic: Cible & clôture
+  - button "3 Relecture & diffusion":
+    - generic: "3"
+    - generic: Relecture & diffusion
+  - generic: Question posée aux salariés
+  - textbox "ex. Quelle priorité pour la NAO 2027 ?"
+  - generic: Type de réponse
+  - button "Choix unique"
+  - button "Choix multiples"
+  - button "Oui / Non"
+  - generic: Réponses proposées
+  - generic: "1"
+  - textbox "Réponse 1"
+  - button "Supprimer":
+  - generic: "2"
+  - textbox "Réponse 2"
+  - button "Supprimer":
+  - button "+ Ajouter une réponse"
+  - button "Propositions de l'assistant":
+    - text: Propositions de l'assistant
+  - button "Continuer vers la diffusion"
+  - button "Enregistrer le brouillon"

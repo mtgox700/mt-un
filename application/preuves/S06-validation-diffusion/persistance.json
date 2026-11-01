@@ -1,0 +1,26 @@
+[
+  {
+    "resource": "a934bb43-ae17-4e17-a64f-c9eccd65835a",
+    "version": 1,
+    "two_actors": true,
+    "published": true
+  },
+  {
+    "resource": "f233b9f9-dcce-45c8-9955-b5b5ba51b677",
+    "version": 1,
+    "two_actors": true,
+    "published": true
+  },
+  {
+    "resource": "8ce6e74d-2d51-4781-8433-4b772760a7be",
+    "version": 1,
+    "two_actors": true,
+    "published": true
+  },
+  {
+    "resource": "f42b9c41-9be7-40f7-abd4-101efd5a48d4",
+    "version": 1,
+    "two_actors": true,
+    "published": true
+  }
+]

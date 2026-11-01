@@ -1,0 +1,20 @@
+[
+  {
+    "screen": "desktop",
+    "pages": 2,
+    "complement_present": true,
+    "sha256": "59e97ac88ed6086404c41d46c8a7277e5e99d330193f835ceb4029825b5c0422"
+  },
+  {
+    "screen": "tablette",
+    "pages": 2,
+    "complement_present": true,
+    "sha256": "59e97ac88ed6086404c41d46c8a7277e5e99d330193f835ceb4029825b5c0422"
+  },
+  {
+    "screen": "mobile",
+    "pages": 2,
+    "complement_present": true,
+    "sha256": "59e97ac88ed6086404c41d46c8a7277e5e99d330193f835ceb4029825b5c0422"
+  }
+]

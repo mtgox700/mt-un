@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "count": 21,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_create_denied",
+      "ok": true
+    },
+    {
+      "test": "create_allowed",
+      "ok": true
+    },
+    {
+      "test": "ungranted_hidden",
+      "ok": true
+    },
+    {
+      "test": "ungranted_get_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_allowed",
+      "ok": true
+    },
+    {
+      "test": "reader_save_denied",
+      "ok": true
+    },
+    {
+      "test": "save_version_2",
+      "ok": true
+    },
+    {
+      "test": "reload_persistent",
+      "ok": true
+    },
+    {
+      "test": "stale_version_denied",
+      "ok": true
+    },
+    {
+      "test": "cross_org_get_denied",
+      "ok": true
+    },
+    {
+      "test": "cross_org_save_denied",
+      "ok": true
+    },
+    {
+      "test": "status_forgery_denied",
+      "ok": true
+    },
+    {
+      "test": "external_image_denied",
+      "ok": true
+    },
+    {
+      "test": "revoked_hidden",
+      "ok": true
+    },
+    {
+      "test": "direct_rls_hidden",
+      "ok": true
+    },
+    {
+      "test": "direct_versions_hidden",
+      "ok": true
+    },
+    {
+      "test": "disabled_module_denied",
+      "ok": true
+    },
+    {
+      "test": "unpaid_module_denied",
+      "ok": true
+    }
+  ]
+}

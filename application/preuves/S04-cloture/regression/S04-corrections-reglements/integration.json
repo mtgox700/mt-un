@@ -1,0 +1,282 @@
+{
+  "passed": true,
+  "count": 69,
+  "checks": [
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "empty_register",
+      "ok": true
+    },
+    {
+      "test": "read_only_import_denied",
+      "ok": true
+    },
+    {
+      "test": "import_saved",
+      "ok": true
+    },
+    {
+      "test": "no_user_created",
+      "ok": true
+    },
+    {
+      "test": "no_membership_created",
+      "ok": true
+    },
+    {
+      "test": "reloaded_from_database",
+      "ok": true
+    },
+    {
+      "test": "financial_fields_hidden",
+      "ok": true
+    },
+    {
+      "test": "financial_fields_authorized",
+      "ok": true
+    },
+    {
+      "test": "foreign_read_empty",
+      "ok": true
+    },
+    {
+      "test": "nonmember_admin_denied",
+      "ok": true
+    },
+    {
+      "test": "duplicate_case_denied",
+      "ok": true
+    },
+    {
+      "test": "atomic_import_denied",
+      "ok": true
+    },
+    {
+      "test": "atomic_no_partial_rows",
+      "ok": true
+    },
+    {
+      "test": "invalid_prenom",
+      "ok": true
+    },
+    {
+      "test": "invalid_email",
+      "ok": true
+    },
+    {
+      "test": "invalid_ent",
+      "ok": true
+    },
+    {
+      "test": "invalid_owner",
+      "ok": true
+    },
+    {
+      "test": "read_only_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "cross_org_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "edit_saved",
+      "ok": true
+    },
+    {
+      "test": "stale_edit_denied",
+      "ok": true
+    },
+    {
+      "test": "new_value_read_by_second_actor",
+      "ok": true
+    },
+    {
+      "test": "profile_write_does_not_grant_finance",
+      "ok": true
+    },
+    {
+      "test": "nonfinancial_editor_allowed",
+      "ok": true
+    },
+    {
+      "test": "finance_preserved",
+      "ok": true
+    },
+    {
+      "test": "module_disabled_denied",
+      "ok": true
+    },
+    {
+      "test": "commercial_access_revoked_denied",
+      "ok": true
+    },
+    {
+      "test": "departed_member_denied",
+      "ok": true
+    },
+    {
+      "test": "private_table_denied",
+      "ok": true
+    },
+    {
+      "test": "charge_for_partial",
+      "ok": true
+    },
+    {
+      "test": "no_right_payment",
+      "ok": true
+    },
+    {
+      "test": "foreign_payment",
+      "ok": true
+    },
+    {
+      "test": "partial_persisted",
+      "ok": true
+    },
+    {
+      "test": "retry_does_not_duplicate",
+      "ok": true
+    },
+    {
+      "test": "changed_retry_denied",
+      "ok": true
+    },
+    {
+      "test": "invalid_payment_0",
+      "ok": true
+    },
+    {
+      "test": "invalid_payment_1",
+      "ok": true
+    },
+    {
+      "test": "invalid_payment_2",
+      "ok": true
+    },
+    {
+      "test": "invalid_payment_3",
+      "ok": true
+    },
+    {
+      "test": "sum_unchanged_on_refusal",
+      "ok": true
+    },
+    {
+      "test": "finance_hidden",
+      "ok": true
+    },
+    {
+      "test": "remaining_settled",
+      "ok": true
+    },
+    {
+      "test": "overpay_closed_denied",
+      "ok": true
+    },
+    {
+      "test": "concurrent_overpayment_prevented",
+      "ok": true
+    },
+    {
+      "test": "concurrent_sum_exact",
+      "ok": true
+    },
+    {
+      "test": "revoked_payment_denied",
+      "ok": true
+    },
+    {
+      "test": "correction_without_rights_denied",
+      "ok": true
+    },
+    {
+      "test": "correction_foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "correction_reopens_balance",
+      "ok": true
+    },
+    {
+      "test": "original_and_reason_preserved",
+      "ok": true
+    },
+    {
+      "test": "retry_idempotent",
+      "ok": true
+    },
+    {
+      "test": "retry_altered_denied",
+      "ok": true
+    },
+    {
+      "test": "stale_version_denied",
+      "ok": true
+    },
+    {
+      "test": "invalid_correction_0",
+      "ok": true
+    },
+    {
+      "test": "invalid_correction_1",
+      "ok": true
+    },
+    {
+      "test": "invalid_correction_2",
+      "ok": true
+    },
+    {
+      "test": "invalid_correction_3",
+      "ok": true
+    },
+    {
+      "test": "invalid_correction_4",
+      "ok": true
+    },
+    {
+      "test": "cancel_without_delete",
+      "ok": true
+    },
+    {
+      "test": "initial_payment_retained",
+      "ok": true
+    },
+    {
+      "test": "restore_by_new_revision",
+      "ok": true
+    },
+    {
+      "test": "fully_paid_again",
+      "ok": true
+    },
+    {
+      "test": "three_audit_events",
+      "ok": true
+    },
+    {
+      "test": "disabled_correction_denied",
+      "ok": true
+    },
+    {
+      "test": "corrections_hidden_from_reader",
+      "ok": true
+    }
+  ]
+}

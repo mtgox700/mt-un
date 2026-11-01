@@ -1,0 +1,103 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Back-office
+  - heading "Tableau de bord organisation" [level=1]
+  - paragraph: Tous les sites · 24 sièges · plan Fédération
+  - button "Tous les sites"
+  - button "Valenciennes"
+  - button "Douai"
+  - button "Siège"
+  - generic: Élus actifs
+  - generic: "24"
+  - generic: +2 ce mois
+  - generic: Dossiers ouverts
+  - generic: "17"
+  - generic: −4 vs juillet
+  - generic: Participation sondages
+  - generic: 72 %
+  - generic: +9 pts
+  - generic: Requêtes IA
+  - generic: "1648"
+  - generic: quota à 56 %
+  - heading "Activité par commission" [level=2]
+  - generic: Négociation
+  - generic: 9 dossiers · 412 messages
+  - generic: SSCT
+  - generic: 6 dossiers · 260 messages
+  - generic: ASC
+  - generic: 4 dossiers · 148 messages
+  - generic: Formation
+  - generic: 2 dossiers · 61 messages
+  - heading "Raccourcis d'administration" [level=2]
+  - button "Gestion des membres 5 comptes · 1 invitation en attente ›":
+    - generic: Gestion des membres
+    - generic: 5 comptes · 1 invitation en attente
+    - generic: ›
+  - button "Bibliothèque documentaire 5 documents · versions suivies ›":
+    - generic: Bibliothèque documentaire
+    - generic: 5 documents · versions suivies
+    - generic: ›
+  - button "Configuration IA Fournisseur, clé API, quotas ›":
+    - generic: Configuration IA
+    - generic: Fournisseur, clé API, quotas
+    - generic: ›
+  - button "Prise en main de l'organisation Checklist de configuration ›":
+    - generic: Prise en main de l'organisation
+    - generic: Checklist de configuration
+    - generic: ›
+  - button "Bilan & reporting CSE Statistiques de mandat, export PDF et Excel ›":
+    - generic: Bilan & reporting CSE
+    - generic: Statistiques de mandat, export PDF et Excel
+    - generic: ›
+  - button "Facturation & sièges 24 sièges · prochaine échéance 01/09 ›":
+    - generic: Facturation & sièges
+    - generic: 24 sièges · prochaine échéance 01/09
+    - generic: ›

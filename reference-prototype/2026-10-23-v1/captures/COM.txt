@@ -1,0 +1,171 @@
+Browser tab: 4, Title: "127.0.0.1:5052/uniion App v3.dc.html", URL: "http://127.0.0.1:5052/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			158 button Accueil
+				159 image
+				160 text Accueil
+			161 button Assistant
+				162 image
+				163 text Assistant
+			170 button Dossiers
+				171 image
+				172 text Dossiers
+			173 button Messages
+				174 image
+				175 text Messages
+			176 button Agenda
+				177 image
+				178 text Agenda
+			186 button Réunions
+				187 image
+				188 text Réunions
+			189 button Documents
+				190 image
+				191 text Documents
+			192 button Formations
+				193 image
+				194 text Formations
+			195 button Communication
+				196 image
+				197 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			157 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				198 text unii
+				199 text 1
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		169 container
+			200 text UNII SUGGÈRE
+			201 button 2 idées à transformer en publication
+			202 text MOINS D'ADMINISTRATIF, PLUS DE TERRAIN
+			203 heading Communication, Value: 1
+				204 text Communication
+			205 text Planifiez, rédigez et diffusez la communication de la section vers les salariés et les adhérents. unii accélère l'écriture, l'équipe uniion peut prendre le relais.
+			206 tab group Communication
+				207 tab (selected, settable, boolean) Plan éditorial 6, Value: 1
+				208 tab (selectable, settable, boolean) Atelier de contenus, Value: 0
+				209 tab (selectable, settable, boolean) Pôle communication, Value: 0
+			210 heading Octobre 2026, Value: 2
+				211 text Octobre 2026
+			212 text 1 publication en attente de validation du bureau
+			213 button + Nouvelle publication
+			214 checkbox Tout · 6, Value: 1
+			215 checkbox Idée · 2, Value: 0
+			216 checkbox Brouillon · 1, Value: 0
+			217 checkbox À valider · 1, Value: 0
+			218 checkbox Programmé · 1, Value: 0
+			219 checkbox Publié · 1, Value: 0
+			220 container
+				221 text VEN. 2 oct.
+				222 button Publié, Help: Passer à « Idée »
+				223 text Fédérer
+				224 heading Tournée des ateliers : merci pour votre accueil, Value: 3
+					225 text Tournée des ateliers : merci pour votre accueil
+				226 text Post réseau social · Page de la section
+				227 button Rédiger avec unii
+				228 button Retirer
+			229 container
+				230 text MAR. 6 oct.
+				231 button À valider, Help: Passer à « Programmé »
+				232 text Informer
+				233 heading Réunion CSE du 29 septembre : nos interventions et vos questions, Value: 3
+					234 text Réunion CSE du 29 septembre : nos interventions et vos questions
+				235 text Résumé de PV · Intranet + affichage
+				236 button Rédiger avec unii
+				237 button Retirer
+			238 container
+				239 text VEN. 9 oct.
+				240 button Brouillon, Help: Passer à « À valider »
+				241 text Informer
+				242 heading Permanence syndicale : les nouveaux horaires, Value: 3
+					243 text Permanence syndicale : les nouveaux horaires
+				244 text Affiche / flyer · Affichage sur site
+				245 button Rédiger avec unii
+				246 button Retirer
+			247 container
+				248 text MER. 14 oct.
+				249 button Idée, Help: Passer à « Brouillon »
+				250 text Engager
+				251 heading NAO 2027 : vos priorités en trois questions, Value: 3
+					252 text NAO 2027 : vos priorités en trois questions
+				253 text Sondage · Application uniion
+				254 button Rédiger avec unii
+				255 button Retirer
+			256 container
+				257 text MAR. 20 oct.
+				258 button Programmé, Help: Passer à « Publié »
+				259 text Fédérer
+				260 heading Assemblée générale de section du 7 novembre, Value: 3
+					261 text Assemblée générale de section du 7 novembre
+				262 text Newsletter · E-mail aux adhérents
+				263 button Rédiger avec unii
+				264 button Retirer
+			265 container
+				266 text MAR. 27 oct.
+				267 button Idée, Help: Passer à « Brouillon »
+				268 text Informer
+				269 heading Heures supplémentaires : ce que prévoit l'accord, Value: 3
+					270 text Heures supplémentaires : ce que prévoit l'accord
+				271 text Article intranet · Intranet
+				272 button Rédiger avec unii
+				273 button Retirer
+			274 text Cliquez sur un statut pour le faire avancer : Idée → Brouillon → À valider → Programmé → Publié.
+			275 heading Temps forts du mandat, Value: 2
+				276 text Temps forts du mandat
+			277 text Les rendez-vous qui méritent une prise de parole. Ajoutez-les en idée ou rédigez-les tout de suite.
+			278 text Compte rendu de la réunion CSE
+			279 button Description: Ajouter au plan, Help: Ajouter au plan en idée
+			280 button Rédiger
+			281 text Point d'étape NAO
+			282 button Description: Ajouter au plan, Help: Ajouter au plan en idée
+			283 button Rédiger
+			284 text Campagne d'adhésion
+			285 button Description: Ajouter au plan, Help: Ajouter au plan en idée
+			286 button Rédiger
+			287 text Permanence syndicale
+			288 button Description: Ajouter au plan, Help: Ajouter au plan en idée
+			289 button Rédiger
+			290 text Assemblée générale de section
+			291 button Description: Ajouter au plan, Help: Ajouter au plan en idée
+			292 button Rédiger
+			293 text Une question, une réponse : droit du travail
+			294 button Description: Ajouter au plan, Help: Ajouter au plan en idée
+			295 button Rédiger
+			296 text Élections professionnelles : nos candidats
+			297 button Description: Ajouter au plan, Help: Ajouter au plan en idée
+			298 button Rédiger
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html

@@ -1,0 +1,31 @@
+{
+  "decision": "D07",
+  "statut": "Validée par utilisateur",
+  "choix": "Politique validée : sauvegardes base et fichiers 30 jours ; perte maximale visée 1 heure ; remise en service visée 8 heures, à vérifier par tests. Validation préalable du super admin avant toute suppression.",
+  "politique": [
+    "Conservation métier par catégorie à préciser avant données réelles",
+    "Corbeille 30 jours ; restauration soumise aux droits",
+    "Audio : demande de suppression 30 jours après validation transcription ou compte rendu sauf conservation autorisée",
+    "Journaux techniques minimisés 30 jours ; audit accès et habilitations 12 mois",
+    "Sauvegardes base et fichiers chiffrées, copie indépendante, rétention cible 30 jours",
+    "Tests restauration avant production puis chaque trimestre et après changement majeur",
+    "RPO visé 1 heure et RTO visé 8 heures à mesurer sur base et fichiers cohérents"
+  ],
+  "suppression": [
+    "Toute suppression nécessite validation préalable du super admin, sans lui donner accès au contenu métier",
+    "Les échéances déclenchent une demande, jamais une suppression automatique",
+    "Validation possible sur un lot précisément identifié avec motif, inventaire et impacts ; pas de délégation permanente implicite",
+    "Sans validation : conservation en attente et alerte de dépassement ; durée cible non garantie si validation retardée",
+    "Vérifier compatibilité des suppressions automatiques fournisseurs et sauvegardes avant production ; aucun contournement tacite",
+    "Articulation avec caches et copies temporaires à préciser en D08"
+  ],
+  "restauration": [
+    "Environnement isolé ; sauvegardes complètes réservées exploitation habilitée",
+    "Réappliquer suppressions et révocations avant remise en service",
+    "Empêcher réinjection de données supprimées par ancien cache",
+    "Vérifier fichiers, relations, droits inter-organisations, temps de restauration et perte constatée",
+    "Fin abonnement sans suppression immédiate ; restitution distincte"
+  ],
+  "implementation": "Spécification validée, non implémentée et non prouvée",
+  "exception_validee_D08": "Nettoyage automatique permis uniquement pour copies locales dont la version courante est confirmée sauvegardée sur serveur ; aucune suppression automatique des originaux, sauvegardes ou travail non synchronisé."
+}

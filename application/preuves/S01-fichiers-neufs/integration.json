@@ -1,0 +1,254 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "fresh_auth_storage_ready",
+      "ok": true
+    },
+    {
+      "test": "all_24_migrations_from_empty_database",
+      "ok": true
+    },
+    {
+      "test": "fictional_user_created_0",
+      "ok": true
+    },
+    {
+      "test": "login_0",
+      "ok": true
+    },
+    {
+      "test": "fictional_user_created_1",
+      "ok": true
+    },
+    {
+      "test": "login_1",
+      "ok": true
+    },
+    {
+      "test": "own_read_0",
+      "ok": true
+    },
+    {
+      "test": "foreign_read_denied_0",
+      "ok": true
+    },
+    {
+      "test": "foreign_write_denied_0",
+      "ok": true
+    },
+    {
+      "test": "own_read_1",
+      "ok": true
+    },
+    {
+      "test": "foreign_read_denied_1",
+      "ok": true
+    },
+    {
+      "test": "foreign_write_denied_1",
+      "ok": true
+    },
+    {
+      "test": "share_aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "mfa_enroll_0",
+      "ok": true
+    },
+    {
+      "test": "mfa_authorize_0",
+      "ok": true
+    },
+    {
+      "test": "mfa_verified_0",
+      "ok": true
+    },
+    {
+      "test": "mfa_required_0",
+      "ok": true
+    },
+    {
+      "test": "mfa_other_org_still_denied_0",
+      "ok": true
+    },
+    {
+      "test": "mfa_enroll_1",
+      "ok": true
+    },
+    {
+      "test": "mfa_authorize_1",
+      "ok": true
+    },
+    {
+      "test": "mfa_verified_1",
+      "ok": true
+    },
+    {
+      "test": "mfa_required_1",
+      "ok": true
+    },
+    {
+      "test": "mfa_other_org_still_denied_1",
+      "ok": true
+    },
+    {
+      "test": "explicit_share_created",
+      "ok": true
+    },
+    {
+      "test": "share_unaccepted_denied",
+      "ok": true
+    },
+    {
+      "test": "share_accepted",
+      "ok": true
+    },
+    {
+      "test": "share_explicit_read_allowed",
+      "ok": true
+    },
+    {
+      "test": "share_does_not_open_direct_table",
+      "ok": true
+    },
+    {
+      "test": "foreign_attachment_prepare_denied",
+      "ok": true
+    },
+    {
+      "test": "own_attachment_prepare_allowed",
+      "ok": true
+    },
+    {
+      "test": "file_without_upload_finish_denied",
+      "ok": true
+    },
+    {
+      "test": "unscanned_file_get_denied",
+      "ok": true
+    },
+    {
+      "test": "file_not_explicitly_shared_denied",
+      "ok": true
+    },
+    {
+      "test": "member_cannot_read_scanner_job",
+      "ok": true
+    },
+    {
+      "test": "member_cannot_forge_clean_result",
+      "ok": true
+    },
+    {
+      "test": "recipient_cannot_request_foreign_scan",
+      "ok": true
+    },
+    {
+      "test": "share_download_not_granted",
+      "ok": true
+    },
+    {
+      "test": "share_revoked",
+      "ok": true
+    },
+    {
+      "test": "share_read_after_revocation_denied",
+      "ok": true
+    },
+    {
+      "test": "scanner_created",
+      "ok": true
+    },
+    {
+      "test": "scanner_login",
+      "ok": true
+    },
+    {
+      "test": "real_png_upload_scanned_clean",
+      "ok": true
+    },
+    {
+      "test": "owner_download_bytes_exact",
+      "ok": true
+    },
+    {
+      "test": "owner_preview_real_png",
+      "ok": true
+    },
+    {
+      "test": "foreign_download_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_storage_upload_denied",
+      "ok": true
+    },
+    {
+      "test": "existing_file_overwrite_denied",
+      "ok": true
+    },
+    {
+      "test": "direct_storage_owner_denied",
+      "ok": true
+    },
+    {
+      "test": "recipient_without_download_permission_denied",
+      "ok": true
+    },
+    {
+      "test": "explicit_shared_download_exact",
+      "ok": true
+    },
+    {
+      "test": "explicit_shared_preview",
+      "ok": true
+    },
+    {
+      "test": "revoked_file_download_denied",
+      "ok": true
+    },
+    {
+      "test": "revoked_file_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "real_pdf_upload_scanned_clean",
+      "ok": true
+    },
+    {
+      "test": "real_pdf_preview_page",
+      "ok": true
+    },
+    {
+      "test": "pdf_download_bytes_exact",
+      "ok": true
+    },
+    {
+      "test": "real_antivirus_eicar_blocked",
+      "ok": true
+    },
+    {
+      "test": "infected_remains_quarantined",
+      "ok": true
+    },
+    {
+      "test": "infected_download_denied",
+      "ok": true
+    },
+    {
+      "test": "revoked_member_denied",
+      "ok": true
+    }
+  ],
+  "count": 61,
+  "source_accessed": false,
+  "fresh_database": true,
+  "container": "uniion-ci-32bfd735",
+  "automatic_deletion": false
+}

@@ -1,0 +1,113 @@
+Browser tab: 4, Title: "127.0.0.1:5052/uniion App v3.dc.html", URL: "http://127.0.0.1:5052/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			158 button Accueil
+				159 image
+				160 text Accueil
+			161 button Assistant
+				162 image
+				163 text Assistant
+			11 button Dossiers
+				12 image
+				13 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			17 button Agenda
+				18 image
+				19 text Agenda
+			20 button Réunions
+				21 image
+				22 text Réunions
+			23 button Documents
+				24 image
+				25 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			157 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		164 container
+			165 text INTELLIGENCE ARTIFICIELLE
+			166 heading Votre expert juridique de poche, Value: 1
+				167 text Votre expert juridique de poche
+			168 text Sourcé sur la Convention Métallurgie et le Code du travail NOUVELLE CONVERSATION Pas encore enregistrée — posez une question
+			169 button Mémoire · 4, Help: Gérer la mémoire de l'assistant
+			170 button Créer un dossier
+			171 button Plein écran
+			172 button Nouvelle conversation
+			173 button Nouveau dossier guidé
+			174 text HISTORIQUE 2 conversations
+			175 button Toutes
+			176 button Assistant
+			177 button Réunions
+			178 button Heures de délégation non payées en cas d'arrêt maladie Assistant 22 oct. · 1 q.
+				179 text Heures de délégation non payées en cas d'arrêt maladie
+				180 text Assistant
+				181 text 22 oct.
+				182 text  · 
+				183 text 1 q.
+			184 button Description: Supprimer la conversation, Help: Supprimer
+			185 button Projet de PV — CSE ordinaire de septembre Réunions 20 oct. · 1 q.
+				186 text Projet de PV — CSE ordinaire de septembre
+				187 text Réunions
+				188 text 20 oct.
+				189 text  · 
+				190 text 1 q.
+			191 button Description: Supprimer la conversation, Help: Supprimer
+			192 image
+			193 text uniion Assistant Aucune identité transmise NIVEAU D'ANONYMISATION
+			194 checkbox Standard, Help: NAO, budget, articles — masquage léger (matricules)., Value: 1
+			195 checkbox RH sensible, Help: Inaptitude, discipline — masquage nominatif + matricules., Value: 0
+			196 checkbox RPS, Help: Harcèlement, souffrance au travail — masquage maximal., Value: 0
+			197 text UNIION ASSISTANT
+			198 text Bonjour Sophie. Je peux répondre sur la Convention Métallurgie, le Code du travail ou analyser un accord d'entreprise.
+			199 button Signalement de harcèlement
+			200 button Informations dues en NAO
+			201 button Enquête après accident
+			202 button Budget ASC
+			203 text field (settable)
+			204 button
+				205 image
+			206 text Prototype local : réponses produites via Codex connecté à votre compte ChatGPT, après masquage heuristique. Ce prototype ne garantit ni hébergement UE ni anonymisation complète — vérifiez les réponses avant utilisation.
+			207 button En savoir plus sur la sécurité
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html

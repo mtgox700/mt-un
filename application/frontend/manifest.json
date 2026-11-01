@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "mode": "isolated-demo",
+  "reference": "prototype-local/public/uniion App v3.dc.html",
+  "reference_sha256": "f17d57ce037fb1a8fa95d8b15af2c1abecc164d0471e49bb8868d5bcd3df00b2",
+  "modules": [
+    {
+      "id": "home",
+      "view": "modules/home.html",
+      "condition": "isAccueil",
+      "sha256": "a3675d5c0576cbc0e3491a324ba7a734126c2f8362a0733150c6989175e64635"
+    },
+    {
+      "id": "cases",
+      "view": "modules/cases.html",
+      "condition": "isDossiers",
+      "sha256": "c4d71e0a34fd0eb86652ad885b6a4422d2df77d94658c33ac00699390b1b6cba"
+    },
+    {
+      "id": "case-detail",
+      "view": "modules/case-detail.html",
+      "condition": "isDossier",
+      "sha256": "c72dde81edc45ebd4ed566931173e40e32e08f9ea81e8a68b3bcb4b8f989c25d"
+    },
+    {
+      "id": "contacts",
+      "view": "modules/contacts.html",
+      "condition": "isContacts",
+      "sha256": "9bd548753a46a01f6f2ce910158486512d6cdfca657573b216b03fce427f1138"
+    },
+    {
+      "id": "messaging",
+      "view": "modules/messaging.html",
+      "condition": "wa.shell",
+      "sha256": "47188d9b6caef8d39077eb44a93ce0e3c65e57d2bd98e64d72f30215b2ddc0e6"
+    },
+    {
+      "id": "messaging-group",
+      "view": "modules/messaging-group.html",
+      "condition": "grm.open",
+      "sha256": "1da8a3a77a1503593499063e32be90e3bf7bdeebcffa58ab84c4cd1fe6802b44"
+    },
+    {
+      "id": "messaging-forward",
+      "view": "modules/messaging-forward.html",
+      "condition": "fwm.open",
+      "sha256": "3f0a9c9f994c09d7124230e4828f0d915eb8231d7bdeeea662fec1f09e948893"
+    },
+    {
+      "id": "case-picker",
+      "view": "modules/case-picker.html",
+      "condition": "dpm.open",
+      "sha256": "860abe8f6af73b24a716c6be21fb6b9f008485c0e31fa6ceb5f8559dcf6a5617"
+    },
+    {
+      "id": "campaign",
+      "view": "modules/campaign.html",
+      "condition": "adh.isMsg",
+      "sha256": "5b6ae1477842cd0c4aa38fa734fd34752e27ef7e6f1d91580aff82601a604450"
+    },
+    {
+      "id": "members",
+      "view": "modules/members.html",
+      "condition": "adh.isList",
+      "sha256": "031a3885b9c4f1ee9fb023626d3b48ec6852b63a71c13f4190ed6cb5c037ec75"
+    },
+    {
+      "id": "member-detail",
+      "view": "modules/member-detail.html",
+      "condition": "adh.isFiche",
+      "sha256": "4311481972e0ef26d83f8e87997cebd90ed8b958ca72383a1f833f17cd1ba18a"
+    },
+    {
+      "id": "admin-members",
+      "view": "modules/admin-members.html",
+      "condition": "isMembres",
+      "sha256": "ff62cda5c0b3a9b3f0b3e2c67033c3d755d5bf966417d86ffa843aa8c9f8db20"
+    },
+    {
+      "id": "admin-onboarding",
+      "view": "modules/admin-onboarding.html",
+      "condition": "isOnboarding",
+      "sha256": "d7efb955658dd11485c5b34f8c5b2d6b848cd08e69103de91a1d8399619deff2"
+    },
+    {
+      "id": "admin-dashboard",
+      "view": "modules/admin-dashboard.html",
+      "condition": "isAdmin",
+      "sha256": "000f761777be1994bb510fa797bb7a46a85e66cd04eec8992c215385536c71c3"
+    },
+    {
+      "id": "admin-invitation",
+      "view": "modules/admin-invitation.html",
+      "condition": "invitation.sheetOpen",
+      "sha256": "94be0e465e7269ec128ad3d19ce5173c2ea5ccba734b183314d1fddf49b87657"
+    },
+    {
+      "id": "agenda",
+      "view": "modules/agenda.html",
+      "condition": "isAgenda",
+      "sha256": "85222263fcd5d33b4114fa8fc0308b50f13128d9bf3cc8a3c4eb530ed029552a"
+    },
+    {
+      "id": "documents",
+      "view": "modules/documents.html",
+      "condition": "isDocs",
+      "sha256": "fb47493c250b808339ee98a267ee1c8cd8986c47b027f3d44df8217460b67b8f"
+    },
+    {
+      "id": "document-editor",
+      "view": "modules/document-editor.html",
+      "condition": "isDocEdit",
+      "sha256": "d0a22dafefc101295e88cb57b720b7e2b87006c4a372ee96ba40dd150990bd0d"
+    }
+  ],
+  "remaining_views": "legacy shell",
+  "logic": "runtime/reference-logic.js"
+}

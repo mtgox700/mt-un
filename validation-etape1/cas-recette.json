@@ -1,0 +1,122 @@
+[
+  {
+    "section": "ADH-MSG",
+    "parcours": "Message vide",
+    "attendu": "Objet et texte obligatoires",
+    "observe": "Refus explicite obtenu ; aucun envoi",
+    "statut": "Validé sur ce cas",
+    "preuve": "002-message-vide-validation"
+  },
+  {
+    "section": "ADH-FIC",
+    "parcours": "Annulation de fiche",
+    "attendu": "Abandonner la valeur temporaire",
+    "observe": "Valeur initiale maintenue",
+    "statut": "Validé sur ce cas",
+    "preuve": "005-fiche-annulation"
+  },
+  {
+    "section": "ADH-FIC",
+    "parcours": "Sauvegarde et rechargement",
+    "attendu": "Conserver la modification",
+    "observe": "Valeur RECETTE PERSISTANCE retrouvée après reconnexion ; valeur initiale restaurée ensuite",
+    "statut": "Validé sur ce cas",
+    "preuve": "007-fiche-apres-rechargement"
+  },
+  {
+    "section": "ADH",
+    "parcours": "Pagination",
+    "attendu": "Passer de 1–5 à 6–10 puis 11–12",
+    "observe": "Dernière page atteinte et bouton suivant désactivé",
+    "statut": "Validé sur ce cas",
+    "preuve": "010-pagination-derniere"
+  },
+  {
+    "section": "REU-DET",
+    "parcours": "Écouter",
+    "attendu": "Ouvrir une lecture audio et journaliser",
+    "observe": "Simple message de succès",
+    "statut": "Simulation F26",
+    "preuve": "012-reunion-ecouter"
+  },
+  {
+    "section": "REU-DET",
+    "parcours": "PV depuis marqueurs",
+    "attendu": "Générer un brouillon lié à la réunion",
+    "observe": "14 blocs créés ; quatre marqueurs repris ; avertissement de dépassement de page affiché ; contenu à relire",
+    "statut": "Génération réelle ; anomalie de navigation F27",
+    "preuve": "017-pv-genere-navigation-forcee"
+  },
+  {
+    "section": "FOR-IA",
+    "parcours": "Recherche absente",
+    "attendu": "État vide compréhensible",
+    "observe": "Aucune formation ne correspond à ces critères",
+    "statut": "Validé sur ce cas",
+    "preuve": "018-formation-vide-confirme"
+  },
+  {
+    "section": "FOR-GEN",
+    "parcours": "Catalogue et demande/retrait",
+    "attendu": "Demande au bureau et retrait",
+    "observe": "Changement local uniquement, aucun service d’envoi dans fmRequest",
+    "statut": "Simulation F28",
+    "preuve": "021-demande-session-retiree"
+  },
+  {
+    "section": "PAR-MBR",
+    "parcours": "Invitation vide et annulation",
+    "attendu": "Refuser une adresse vide puis fermer",
+    "observe": "Message de validation puis retour à cinq membres",
+    "statut": "Validé sur ce cas ; invitation réelle non testée",
+    "preuve": "024-invitation-vide-refusee"
+  },
+  {
+    "section": "AGE",
+    "parcours": "Événement vide",
+    "attendu": "Refuser un intitulé vide",
+    "observe": "Donnez un intitulé à l’événement",
+    "statut": "Validé sur ce cas",
+    "preuve": "026-agenda-titre-vide"
+  },
+  {
+    "section": "AGE",
+    "parcours": "Fin avant début",
+    "attendu": "Refuser 08:00 après début 09:00",
+    "observe": "L’heure de fin doit suivre l’heure de début ; annulation sans création",
+    "statut": "Validé sur ce cas",
+    "preuve": "027-agenda-horaire-inverse"
+  },
+  {
+    "section": "ONB",
+    "parcours": "Importer CSV élus",
+    "attendu": "Ouvrir le parcours d’import",
+    "observe": "Ouvre seulement la liste des membres",
+    "statut": "Anomalie F29",
+    "preuve": "030-onboarding-import-csv"
+  },
+  {
+    "section": "PAR-PRO",
+    "parcours": "Modifier signature",
+    "attendu": "Ouvrir les champs à modifier",
+    "observe": "Succès immédiat sans édition",
+    "statut": "Simulation F30",
+    "preuve": "031-profil-signature-edition"
+  },
+  {
+    "section": "PAR-IA",
+    "parcours": "Tester connexion",
+    "attendu": "Réponse du service IA",
+    "observe": "Réponse reçue : OK",
+    "statut": "Validé sur ce cas",
+    "preuve": "034-connexion-ia-resultat"
+  },
+  {
+    "section": "REU-DET",
+    "parcours": "PV après rechargement",
+    "attendu": "Conserver le document et son lien",
+    "observe": "Ouvrir le PV présent après reconnexion, contenu retrouvé",
+    "statut": "Validé sur ce cas",
+    "preuve": "036-pv-apres-rechargement"
+  }
+]

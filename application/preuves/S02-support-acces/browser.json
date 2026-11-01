@@ -1,0 +1,47 @@
+[
+  {
+    "phase": "lecture",
+    "width": 390,
+    "height": 844,
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "phase": "lecture",
+    "width": 768,
+    "height": 1024,
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "phase": "lecture",
+    "width": 1440,
+    "height": 900,
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "phase": "cloture",
+    "width": 1440,
+    "height": 900,
+    "revoked": true,
+    "readButtons": 0,
+    "overflow": false
+  },
+  {
+    "phase": "cloture",
+    "width": 768,
+    "height": 1024,
+    "revoked": true,
+    "readButtons": 0,
+    "overflow": false
+  },
+  {
+    "phase": "cloture",
+    "width": 390,
+    "height": 844,
+    "revoked": true,
+    "readButtons": 0,
+    "overflow": false
+  }
+]

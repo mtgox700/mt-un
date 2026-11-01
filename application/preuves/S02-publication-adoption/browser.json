@@ -1,0 +1,31 @@
+{
+  "publishedBySecondActor": [
+    1440,
+    768,
+    390
+  ],
+  "explicitlyAdopted": [
+    390,
+    768,
+    1440
+  ],
+  "noAutomaticAdoption": true,
+  "activeCount": 4,
+  "checks": [
+    {
+      "width": 1440,
+      "height": 900,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false
+    }
+  ]
+}

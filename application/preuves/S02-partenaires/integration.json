@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "count": 28,
+  "checks": [
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "mfa",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "local_mfa",
+      "ok": true
+    },
+    {
+      "test": "global_allowed",
+      "ok": true
+    },
+    {
+      "test": "local_registry_denied",
+      "ok": true
+    },
+    {
+      "test": "local_change_denied",
+      "ok": true
+    },
+    {
+      "test": "self_relation_denied",
+      "ok": true
+    },
+    {
+      "test": "unknown_target_denied",
+      "ok": true
+    },
+    {
+      "test": "create_directional",
+      "ok": true
+    },
+    {
+      "test": "visible_to_source",
+      "ok": true
+    },
+    {
+      "test": "no_reverse_relation",
+      "ok": true
+    },
+    {
+      "test": "no_contacts_leak",
+      "ok": true
+    },
+    {
+      "test": "no_business_access",
+      "ok": true
+    },
+    {
+      "test": "suspend",
+      "ok": true
+    },
+    {
+      "test": "hidden_suspended_target",
+      "ok": true
+    },
+    {
+      "test": "retained_suspended_row",
+      "ok": true
+    },
+    {
+      "test": "reactivate",
+      "ok": true
+    },
+    {
+      "test": "reactivate_no_contacts",
+      "ok": true
+    },
+    {
+      "test": "collection_target_allowed",
+      "ok": true
+    },
+    {
+      "test": "suspend_again",
+      "ok": true
+    },
+    {
+      "test": "collection_suspended_denied",
+      "ok": true
+    },
+    {
+      "test": "reverse_consent_targets_hidden",
+      "ok": true
+    },
+    {
+      "test": "restore",
+      "ok": true
+    },
+    {
+      "test": "global_role_revoked_read_denied",
+      "ok": true
+    },
+    {
+      "test": "global_role_revoked_write_denied",
+      "ok": true
+    }
+  ]
+}

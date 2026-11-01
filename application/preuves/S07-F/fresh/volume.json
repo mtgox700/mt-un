@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "messages": 1202,
+  "concurrency": 8,
+  "transport": "real Auth JWT / PostgREST via isolated Docker bridge; not BFF throughput",
+  "write_seconds": 51.49220370799958,
+  "write_p95_seconds": 0.4979722499992931,
+  "live_samples_seconds": [
+    1.732104957998672,
+    1.7966279169995687,
+    0.8799192919977941,
+    1.0989792910004326,
+    1.022268457996688,
+    0.9343396670010407,
+    0.9187411249986326,
+    0.8555076249976992,
+    0.8154751250003756,
+    0.8397387500008335
+  ],
+  "live_budget_seconds": 2
+}

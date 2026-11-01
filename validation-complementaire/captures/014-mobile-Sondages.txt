@@ -1,0 +1,63 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		6 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				21 container
+					413 text DÉMOCRATIE SOCIALE
+					414 heading Sondages salariés, Value: 1
+						415 text Sondages salariés
+					416 text Votes anonymes · 416 salariés inscrits
+					417 button + Lancer un sondage
+					418 button EN COURS Priorités salariales 2027 312 réponses sur 416 salariés · vote anonyme · clôture demain 18 h 75 % de participation
+						419 text EN COURS
+						420 text Priorités salariales 2027
+						421 text 312 réponses sur 416 salariés · vote anonyme · clôture demain 18 h
+						422 text 75 % de participation
+					423 button Supprimer
+					424 button EN COURS Accord télétravail — 2 ou 3 jours ? 224 réponses sur 416 salariés · clôture vendredi 54 % de participation
+						425 text EN COURS
+						426 text Accord télétravail — 2 ou 3 jours ?
+						427 text 224 réponses sur 416 salariés · clôture vendredi
+						428 text 54 % de participation
+					429 button Supprimer
+					430 button CLOS Qualité de la restauration collective 366 réponses · clos le 12 août 88 % de participation
+						431 text CLOS
+						432 text Qualité de la restauration collective
+						433 text 366 réponses · clos le 12 août
+						434 text 88 % de participation
+					435 button Supprimer
+				112 container
+					436 button Accueil
+						437 image
+						438 text Accueil
+					221 button Dossiers
+						222 image
+						223 text Dossiers
+					318 button Agenda
+						319 image
+						320 text Agenda
+					410 button Réunions
+						411 image
+						412 text Réunions
+					125 button Réglages
+						126 image
+						127 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

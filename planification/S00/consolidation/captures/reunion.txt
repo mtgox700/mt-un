@@ -1,0 +1,110 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+    - generic: "2"
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: unii suggère
+  - button "PV en relecture · Deuxième séance de négociation"
+  - button "PV à rédiger · Visite de site — atelier peinture"
+  - button "Réunions":
+    - text: Réunions
+  - generic: Réunion NAO
+  - heading "Deuxième séance de négociation" [level=1]
+  - paragraph: 12 août 2026 · 09 h 30 · durée 2 h 07
+  - generic: Procès-verbal
+  - generic: En relecture
+  - generic: Marqueurs
+  - generic: "4"
+  - generic: Enregistrement
+  - generic: Local
+  - heading "Ordre du jour" [level=2]
+  - generic: "1."
+  - generic: Enveloppe d'augmentation générale
+  - generic: "2."
+  - generic: Transports et titres restaurant
+  - generic: "3."
+  - generic: Télétravail
+  - button "Rédiger le PV depuis les marqueurs"
+  - button "Passer en mode assistant":
+    - text: Passer en mode assistant
+  - button "Écouter l'enregistrement"
+  - button "En savoir plus sur la sécurité":
+    - text: En savoir plus sur la sécurité
+  - heading "Rétention de l'audio" [level=2]
+  - generic: Conservation locale
+  - paragraph: L’enregistrement est conservé dans ce navigateur. Aucune échéance de destruction automatique n’est actuellement appliquée.
+  - paragraph: La destruction automatique et sa certification restent à connecter.
+  - heading "Marqueurs de séance" [level=2]
+  - paragraph: Points d'ancrage du PV. Chaque marqueur pointe la seconde exacte du passage.
+  - button "05:05 Enveloppe 2027 Changement de point":
+    - generic: 05:05
+    - generic: Enveloppe 2027
+    - generic: Changement de point
+  - button "25:20 0,8 % contre 4,5 % — positions maintenues Désaccord":
+    - generic: 25:20
+    - generic: 0,8 % contre 4,5 % — positions maintenues
+    - generic: Désaccord
+  - button "55:40 Chiffrage transports transmis avant le 2 septembre Engagement direction":
+    - generic: 55:40
+    - generic: Chiffrage transports transmis avant le 2 septembre
+    - generic: Engagement direction
+  - button "1 h 33 min Base de calcul des grilles à confirmer À vérifier":
+    - generic: 1 h 33 min
+    - generic: Base de calcul des grilles à confirmer
+    - generic: À vérifier
+  - heading "Transcription & extraction" [level=2]
+  - paragraph: Transcription non connectée. Les marqueurs peuvent servir à préparer le PV ; le contenu audio n’est pas analysé.
+  - generic: Décisions — objet, sens de la décision, base juridique invoquée
+  - generic: Votes — pour, contre, abstention, résultat et quorum
+  - generic: Engagements — qui, quoi, échéance, poussés en dossiers suivis
+  - generic: Points en suspens — renvoyés à l'ordre du jour de la séance suivante
+  - paragraph: Le PV utilise les marqueurs et les notes disponibles. Le contenu audio n’est pas transmis à l’IA.
+  - heading "Journal d'accès à l'enregistrement" [level=2]
+  - generic: Sophie Marchand
+  - generic: Écoute — 41 min · 13 août · 11 h 05

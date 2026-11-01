@@ -1,0 +1,90 @@
+[
+  {
+    "id": "001-pv-impression",
+    "label": "pv-impression"
+  },
+  {
+    "id": "002-csv-doublon-casse-et-adresse",
+    "label": "csv-doublon-casse-et-adresse"
+  },
+  {
+    "id": "003-csv-champ-entre-guillemets",
+    "label": "csv-champ-entre-guillemets"
+  },
+  {
+    "id": "004-dossier-vide",
+    "label": "dossier-vide"
+  },
+  {
+    "id": "005-dossier-edition-avancement",
+    "label": "dossier-edition-avancement"
+  },
+  {
+    "id": "006-sondage-vide-refuse",
+    "label": "sondage-vide-refuse"
+  },
+  {
+    "id": "007-sondage-oui-non-diffusion",
+    "label": "sondage-oui-non-diffusion"
+  },
+  {
+    "id": "008-sondage-relecture",
+    "label": "sondage-relecture"
+  },
+  {
+    "id": "009-sondage-brouillon",
+    "label": "sondage-brouillon"
+  },
+  {
+    "id": "010-groupe-nom-vide",
+    "label": "groupe-nom-vide"
+  },
+  {
+    "id": "011-groupe-membre-vide",
+    "label": "groupe-membre-vide"
+  },
+  {
+    "id": "012-groupe-annule",
+    "label": "groupe-annule"
+  },
+  {
+    "id": "013-notification-vers-dossier",
+    "label": "notification-vers-dossier"
+  },
+  {
+    "id": "014-page-retournee",
+    "label": "page-retournee"
+  },
+  {
+    "id": "015-page-retournee-mobile",
+    "label": "page-retournee-mobile"
+  },
+  {
+    "id": "016-page-retournee-tablette",
+    "label": "page-retournee-tablette"
+  },
+  {
+    "id": "017-publication-formulaire",
+    "label": "publication-formulaire"
+  },
+  {
+    "id": "018-publication-annulee",
+    "label": "publication-annulee"
+  },
+  {
+    "id": "019-extensions-autotest",
+    "label": "extensions-autotest"
+  },
+  {
+    "id": "020-sondage-apres-rechargement",
+    "label": "sondage-apres-rechargement"
+  },
+  {
+    "id": "021-sondage-reprise-etape",
+    "label": "sondage-reprise-etape"
+  },
+  {
+    "id": "022-dossier-apres-rechargement",
+    "label": "dossier-apres-rechargement"
+  }
+]

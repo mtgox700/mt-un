@@ -1,0 +1,71 @@
+Browser tab: 9, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+1 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	2 container Dimensions de recette
+		3 button Bureau 1280
+		4 button Mobile 390
+		5 button Tablette 768
+		6 button Tablette paysage 1024
+		7 text 390 × 844
+	8 container Description: Prototype inchangé, ID: prototype
+		9 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			10 container dc-root
+				11 container
+					12 image uniion
+					129 button ← Retour
+					13 image
+					14 text field (settable)
+					15 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					18 button
+						19 image
+					20 button Se déconnecter
+						21 image
+				22 container
+					638 heading Organisation & membres, Value: 1
+						639 text Organisation & membres
+					640 text 5 membres · 4 commissions · plan Fédération
+					641 button + Inviter un membre
+					642 text 24 sièges du plan 3 membres actifs 4 commissions 1 invitation en attente SM Sophie Marchand Admin organisation  ·  en ligne ACTIF
+					643 button Retirer
+					644 button Suspendre
+					645 text JD Jean-Paul Diallo Élu titulaire  ·  il y a 1 h ACTIF
+					646 button Retirer
+					647 button Suspendre
+					648 text LC Leïla Chaïb Commission ASC  ·  hier ACTIF
+					649 button Retirer
+					650 button Suspendre
+					651 text MA Marc Aubert Suppléant  ·  jamais connecté INVITÉ
+					652 button Retirer
+					653 button Relancer
+					654 text CB Cabinet Berger (avocat) Lecture seule  ·  il y a 6 jours SUSPENDU
+					655 button Retirer
+					656 button Réactiver
+				113 container
+					632 button Accueil
+						633 image
+						634 text Accueil
+					117 button Dossiers
+						118 image
+						119 text Dossiers
+					120 button Agenda
+						121 image
+						122 text Agenda
+					224 button Réunions
+						225 image
+						226 text Réunions
+					635 button Réglages
+						636 image
+						637 text Réglages
+				657 container Inviter des élus
+					658 heading Inviter des élus, Value: 2
+						659 text Inviter des élus
+					660 text Chaque invité reçoit un lien nominatif valable 7 jours et devra activer une double authentification.
+					661 text RÔLE ATTRIBUÉ
+					662 checkbox Élu titulaire Accès complet au coffre, Value: 1
+					663 checkbox Élu suppléant Lecture + sondages, Value: 0
+					664 checkbox Expert externe Lecture seule, dossiers désignés, Value: 0
+					665 text ADRESSES EMAIL, SÉPARÉES PAR UNE VIRGULE
+					666 text entry area (settable)
+					667 button Annuler
+					668 button Envoyer les invitations
+
+The focused UI element is 641 button + Inviter un membre

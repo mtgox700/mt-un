@@ -1,0 +1,133 @@
+Browser tab: 3, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 image uniion
+			5 button Réduire le menu
+			172 button Accueil
+				173 image
+				174 text Accueil
+			175 button Assistant
+				176 image
+				177 text Assistant
+			184 button Dossiers
+				185 image
+				186 text Dossiers
+			187 button Messages
+				188 image
+				189 text Messages
+			18 button Agenda
+				19 image
+				20 text Agenda
+			21 button Réunions
+				22 image
+				23 text Réunions
+			24 button Documents
+				25 image
+				26 text Documents
+			27 button Formations
+				28 image
+				29 text Formations
+			30 button Communication
+				31 image
+				32 text Communication
+			169 button Application mobile
+				170 image
+				171 text Application mobile
+			36 button Adhérents
+				37 image
+				38 text Adhérents
+			39 button Intranet
+				40 image
+				41 text Intranet
+			42 button Reporting
+				43 image
+				44 text Reporting
+			45 button Raccourcis
+				46 image
+				47 text Raccourcis
+			48 button Réglages
+				49 image
+				50 text Réglages
+			51 text ASSISTANT IA Une question de droit ?
+			52 button Ouvrir le chat
+			53 button SM Sophie Marchand Déléguée syndicale
+				54 text SM
+				55 text Sophie Marchand
+				56 text Déléguée syndicale
+			57 button Se déconnecter
+		58 container
+			165 button ← Retour
+			59 image
+			60 text field (settable)
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				181 text unii
+				182 text 1
+			64 button
+				65 image
+			66 button Se déconnecter
+				67 image
+		183 container
+			190 text UNII SUGGÈRE
+			191 button 1 non lu · Jean-Paul Diallo
+			192 container
+				193 heading Messages, Value: 1
+					194 text Messages
+				195 button Nouvelle discussion
+				196 button Nouveau groupe
+				197 button Nouvelle diffusion aux adhérents
+				198 tab group Vue
+					199 tab (selected, settable, boolean) Discussions, Value: 1
+					200 tab (selectable, settable, boolean) Contacts & groupes, Value: 0
+				201 text field (settable) Rechercher
+				202 checkbox Toutes, Value: 1
+				203 checkbox Non lues 1, Value: 0
+				204 checkbox Sans réponse de ma part 2, Value: 0
+				205 checkbox Dernier message de moi 4, Value: 0
+				206 checkbox Groupes 4, Value: 0
+				207 checkbox Diffusions, Value: 0
+				208 button Contact Fictif Recette 17:16 ✓✓ Vous : Message entièrement fictif de recette : préparer un atelier de test.
+					209 text Contact Fictif Recette
+					210 text 17:16
+					211 text ✓✓
+					212 text Vous : 
+					213 text Message entièrement fictif de recette : préparer un atelier de test.
+				214 button Groupe fictif recette 17:13 ✓✓ Vous : Message entièrement fictif de recette : préparer un atelier de test.
+					215 text Groupe fictif recette
+					216 text 17:13
+					217 text ✓✓
+					218 text Vous : 
+					219 text Message entièrement fictif de recette : préparer un atelier de test.
+				220 button Commission Négociation 16:54 ✓✓ Vous : RECETTE : message fictif pour vérifier la conversation.
+					221 text Commission Négociation
+					222 text 16:54
+					223 text ✓✓
+					224 text Vous : 
+					225 text RECETTE : message fictif pour vérifier la conversation.
+				226 button Commission SSCT hier ✓✓ Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire.
+					227 text Commission SSCT
+					228 text hier
+					229 text ✓✓
+					230 text Vous : 
+					231 text Je prépare la grille d'enquête et je la dépose dans la base documentaire.
+				232 button Commission ASC lun. Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts.
+					233 text Commission ASC
+					234 text lun.
+					235 text Leïla C. : 
+					236 text Troisième devis traiteur reçu : 2 900 € pour 180 couverts.
+				237 button Jean-Paul Diallo lun. Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi. 1
+					238 text Jean-Paul Diallo
+					239 text lun.
+					240 text Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.
+					241 text 1
+				242 text Chiffrée de bout en bout — hors des outils de l'entreprise.
+			243 container
+				244 heading Messages de la section, Value: 2
+					245 text Messages de la section
+				246 text Échangez avec les élus en direct ou en groupe, et retrouvez ici chaque envoi fait aux adhérents depuis « Envoyer un message ».
+				247 button Nouvelle discussion
+				248 button Nouveau groupe
+				249 button Diffuser aux adhérents
+				250 text Chiffrée de bout en bout
+
+The focused UI element is 1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

@@ -1,0 +1,41 @@
+[
+  {
+    "width": 390,
+    "emptyRejected": true,
+    "roleSelected": true,
+    "simulatedConfirmation": true,
+    "layout": {
+      "scroll": 382,
+      "width": 390
+    },
+    "returnMembers": true,
+    "reset": true,
+    "cancelled": true
+  },
+  {
+    "width": 820,
+    "emptyRejected": true,
+    "roleSelected": true,
+    "simulatedConfirmation": true,
+    "layout": {
+      "scroll": 820,
+      "width": 820
+    },
+    "returnMembers": true,
+    "reset": true,
+    "cancelled": true
+  },
+  {
+    "width": 1440,
+    "emptyRejected": true,
+    "roleSelected": true,
+    "simulatedConfirmation": true,
+    "layout": {
+      "scroll": 1440,
+      "width": 1440
+    },
+    "returnMembers": true,
+    "reset": true,
+    "cancelled": true
+  }
+]

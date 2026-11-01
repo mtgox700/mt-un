@@ -1,0 +1,6 @@
+formation-course 503
+Traceback (most recent call last):
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/tests/s08_native_quality.py", line 31, in <module>
+    assert all(r['status']==200 and r['persistent'] for r in results)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

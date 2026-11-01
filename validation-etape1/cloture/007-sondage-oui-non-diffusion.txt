@@ -1,0 +1,106 @@
+Browser tab: 12, Title: "127.0.0.1:5054/uniion App v3.dc.html", URL: "http://127.0.0.1:5054/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+	1 container dc-root
+		232 container
+			233 image uniion
+			234 button Réduire le menu
+			365 button Accueil
+				366 image
+				367 text Accueil
+			238 button Assistant
+				239 image
+				240 text Assistant
+			362 button Dossiers
+				363 image
+				364 text Dossiers
+			244 button Messages
+				245 image
+				246 text Messages
+			247 button Agenda
+				248 image
+				249 text Agenda
+			250 button Réunions
+				251 image
+				252 text Réunions
+			253 button Documents
+				254 image
+				255 text Documents
+			256 button Formations
+				257 image
+				258 text Formations
+			259 button Communication
+				260 image
+				261 text Communication
+			262 button Application mobile
+				263 image
+				264 text Application mobile
+			265 button Adhérents
+				266 image
+				267 text Adhérents
+			268 button Intranet
+				269 image
+				270 text Intranet
+			271 button Reporting
+				272 image
+				273 text Reporting
+			274 button Raccourcis
+				275 image
+				276 text Raccourcis
+			277 button Réglages
+				278 image
+				279 text Réglages
+			280 text ASSISTANT IA Une question de droit ?
+			281 button Ouvrir le chat
+			282 button SM Sophie Marchand Déléguée syndicale
+				283 text SM
+				284 text Sophie Marchand
+				285 text Déléguée syndicale
+			286 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			368 text CONSULTATION DES SALARIÉS
+			369 heading Nouveau sondage, Value: 1
+				370 text Nouveau sondage
+			371 text Vote anonyme, une seule réponse par salarié. Aucune donnée nominative n'est conservée.
+			372 button ✓ Question & réponses
+				373 text ✓
+				374 text Question & réponses
+			375 button 2 Cible & clôture
+				376 text 2
+				377 text Cible & clôture
+			378 button 3 Relecture & diffusion
+				379 text 3
+				380 text Relecture & diffusion
+			402 text CIBLE
+			403 button Tous les salariés 416 salariés · tous établissements
+				404 text Tous les salariés
+				405 text 416 salariés · tous établissements
+			406 button Site de Valenciennes 248 salariés · production et logistique
+				407 text Site de Valenciennes
+				408 text 248 salariés · production et logistique
+			409 button Ouvriers et employés 301 salariés · hors cadres
+				410 text Ouvriers et employés
+				411 text 301 salariés · hors cadres
+			412 button Adhérents du syndicat 87 adhérents à jour de cotisation
+				413 text Adhérents du syndicat
+				414 text 87 adhérents à jour de cotisation
+			415 text CLÔTURE DU VOTE
+			416 button 48 heures
+			417 button 7 jours
+			418 button 14 jours
+			419 text Clôture le 2 septembre à 18 h — juste avant la séance NAO.
+			420 text Vote strictement anonyme Imposé par la configuration de l'organisation — les réponses ne sont jamais reliées à un salarié. VERROUILLÉ Relance automatique Rappel push aux non-répondants à 48 h de la clôture.
+			421 button
+			422 button ← Étape précédente
+			400 button Continuer vers la relecture
+			401 button Enregistrer le brouillon
+
+The focused UI element is 400 button Continuer vers la relecture

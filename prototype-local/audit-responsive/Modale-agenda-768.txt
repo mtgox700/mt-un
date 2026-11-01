@@ -1,0 +1,148 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			8 button
+				9 image
+			10 button Se déconnecter
+				11 image
+		12 container
+			13 text PLANIFICATION PARTAGÉE
+			14 heading Agenda, Value: 1
+				15 text Agenda
+			16 text Séances, négociations, permanences et échéances de mandat — visibles de tous les militants. 12 événements — 12 au total .
+			17 button Mois précédent
+			18 text Septembre 2026
+			19 button Mois suivant
+			20 button Aujourd'hui
+			21 tab group Affichage
+				22 tab (selected, settable, boolean) Mois, Value: 1
+				23 tab (selectable, settable, boolean) Liste, Value: 0
+			24 button Nouvel événement
+			25 checkbox Réunion de section, Value: 0
+			26 checkbox Négociation, Value: 0
+			27 checkbox Permanence syndicale, Value: 0
+			28 checkbox Formation, Value: 0
+			29 checkbox Assemblée générale, Value: 0
+			30 checkbox Échéance, Value: 0
+			31 text LUN MAR MER JEU VEN SAM DIM
+			32 button Sélectionner le 2026-08-31
+			33 button Sélectionner le 2026-09-01
+			34 button Sélectionner le 2026-09-02
+			35 button NAO — 3ᵉ séance
+			36 button Assemblée des adhérents
+			37 button Sélectionner le 2026-09-03
+			38 button CSE ordinaire — septembre
+			39 button Sélectionner le 2026-09-04
+			40 button Permanence des élus
+			41 button Sélectionner le 2026-09-05
+			42 button Sélectionner le 2026-09-06
+			43 button Sélectionner le 2026-09-07
+			44 button Sélectionner le 2026-09-08
+			45 button Réponse de la direction — enquête Atelier B
+			46 button Sélectionner le 2026-09-09
+			47 button Sélectionner le 2026-09-10
+			48 button Formation SSCT — module 2
+			49 button Sélectionner le 2026-09-11
+			50 button Sélectionner le 2026-09-12
+			51 button Sélectionner le 2026-09-13
+			52 button Sélectionner le 2026-09-14
+			53 button Permanence des élus
+			54 button Sélectionner le 2026-09-15
+			55 button Sélectionner le 2026-09-16
+			56 button Sélectionner le 2026-09-17
+			57 button CSSCT — visite de l'atelier B
+			58 button Sélectionner le 2026-09-18
+			59 button Sélectionner le 2026-09-19
+			60 button Sélectionner le 2026-09-20
+			61 button Sélectionner le 2026-09-21
+			62 button Sélectionner le 2026-09-22
+			63 button NAO — 4ᵉ séance
+			64 button Sélectionner le 2026-09-23
+			65 button Sélectionner le 2026-09-24
+			66 button Dépôt du PV de septembre
+			67 button Sélectionner le 2026-09-25
+			68 button Sélectionner le 2026-09-26
+			69 button Sélectionner le 2026-09-27
+			70 button Sélectionner le 2026-09-28
+			71 button Sélectionner le 2026-09-29
+			72 button Réunion de section — Prouvy
+			73 button Sélectionner le 2026-09-30
+			74 button Sélectionner le 2026-10-01
+			75 button Entrée en vigueur — accord télétravail
+			76 button Sélectionner le 2026-10-02
+			77 button Sélectionner le 2026-10-03
+			78 button Sélectionner le 2026-10-04
+			79 button Sélectionner le 2026-10-05
+			80 button Sélectionner le 2026-10-06
+			81 button Sélectionner le 2026-10-07
+			82 button Sélectionner le 2026-10-08
+			83 button Sélectionner le 2026-10-09
+			84 button Sélectionner le 2026-10-10
+			85 button Sélectionner le 2026-10-11
+			86 container
+				87 heading Nouvel événement, Value: 2
+					88 text Nouvel événement
+				89 button Annuler
+				90 text INTITULÉ
+				91 text field (settable) INTITULÉ
+				92 text NATURE
+				93 checkbox Réunion de section, Value: 1
+				94 checkbox Négociation, Value: 0
+				95 checkbox Permanence syndicale, Value: 0
+				96 checkbox Formation, Value: 0
+				97 checkbox Assemblée générale, Value: 0
+				98 checkbox Échéance, Value: 0
+				99 text DATE
+				100 date field (settable) DATE, Value: 2026-09-03
+					101 container
+						102 stepper
+						103 stepper
+						104 stepper
+					105 pop up button Show date picker Show date picker
+				106 text DÉBUT
+				107 time field (settable) DÉBUT, Value: 09:00
+					108 container
+						109 stepper
+						110 stepper
+					111 pop up button Show time picker Show time picker
+				112 text FIN
+				113 time field (settable) FIN, Value: 11:00
+					114 container
+						115 stepper
+						116 stepper
+					117 pop up button Show time picker Show time picker
+				118 text LIEU
+				119 text field (settable) LIEU
+				120 text VISIBILITÉ
+				121 checkbox Militants seulement, Value: 1
+				122 checkbox Militants et adhérents, Value: 0
+				123 checkbox Tous les salariés, Value: 0
+				124 text Visible des seuls titulaires et suppléants. NOTE INTERNE
+				125 text entry area (settable) NOTE INTERNE
+				126 text Rappel 48 h avant
+				127 switch Description: Rappel 48 h avant, Value: 1
+				128 button Ajouter à l'agenda partagé
+		129 container
+			130 button Accueil
+				131 image
+				132 text Accueil
+			133 button Dossiers
+				134 image
+				135 text Dossiers
+			136 button Agenda
+				137 image
+				138 text Agenda
+			139 button Réunions
+				140 image
+				141 text Réunions
+			142 button Réglages
+				143 image
+				144 text Réglages
+
+The focused UI element is 24 button Nouvel événement

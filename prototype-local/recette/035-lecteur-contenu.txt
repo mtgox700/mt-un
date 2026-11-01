@@ -1,0 +1,78 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			305 button Accueil
+				306 image
+				307 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			165 button Formations
+				166 image
+				167 text Formations
+			302 button Communication
+				303 image
+				304 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			162 button Raccourcis
+				163 image
+				164 text Raccourcis
+			308 button Réglages
+				309 image
+				310 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable) RECETTE
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		311 container
+			312 text CONVENTION COLLECTIVE Source de l'Assistant
+			313 heading Convention collective Métallurgie 2026, Value: 1
+				314 text Convention collective Métallurgie 2026
+			315 text IDCC 3248 · PDF 12,4 Mo · disponible hors ligne Avenant salaires de branche du 12 juin 2026 intégré ART. 62 — CLASSIFICATIONS La grille de classification repose sur six degrés d'exigence. Toute évolution de poste donne lieu à un réexamen du positionnement. ART. 104 — PRIME D'ANCIENNETÉ Le taux progresse de 3 % après trois ans de présence, puis de 1 % par année supplémentaire dans la limite de 15 %.
+			316 button Analyser sans identité
+			317 button Joindre à un dossier
+			318 button Télécharger
+			319 checkbox Disponible hors ligne, Value: 1
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

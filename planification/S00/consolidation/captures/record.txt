@@ -1,0 +1,76 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+    - generic: "2"
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: unii suggère
+  - button "PV en relecture · Deuxième séance de négociation"
+  - button "PV à rédiger · Visite de site — atelier peinture"
+  - button "Réunions":
+    - text: Réunions
+  - heading "Avant d'enregistrer" [level=1]
+  - paragraph: L'enregistrement d'une séance suppose l'accord des personnes présentes. Deux confirmations sont requises avant que le micro ne s'ouvre.
+  - generic: Type de réunion
+  - button "CSE ordinaire" [pressed]
+  - button "CSSCT"
+  - button "Réunion NAO"
+  - button "Préparatoire élus"
+  - checkbox "Les personnes présentes ont été informées de l'enregistrement À annoncer en ouverture de séance, avant le premier mot consigné.":
+    - generic: Les personnes présentes ont été informées de l'enregistrement
+    - generic: À annoncer en ouverture de séance, avant le premier mot consigné.
+  - checkbox "La séance ne s'y est pas opposée Un refus, même d'une seule personne, interdit l'enregistrement — prise de notes uniquement.":
+    - generic: La séance ne s'y est pas opposée
+    - generic: Un refus, même d'une seule personne, interdit l'enregistrement — prise de notes uniquement.
+  - heading "Ce qui est fait de l'enregistrement" [level=2]
+  - generic: Le fichier reste dans ce navigateur, sans chiffrement applicatif ni téléversement audio.
+  - generic: La transcription audio et l’extraction automatique ne sont pas connectées.
+  - generic: La destruction automatique et sa certification restent à connecter.
+  - generic: Chaque écoute est inscrite au journal d'accès, consultable par les élus.
+  - button "Confirmez les deux points ci-dessus" [disabled]
+  - paragraph: Le navigateur demandera l'accès au micro. En cas de refus, la maquette basculera en enregistrement simulé.

@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "count": 13,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "case_created",
+      "ok": true
+    },
+    {
+      "test": "ungranted_file_list_denied",
+      "ok": true
+    },
+    {
+      "test": "pdf_uploaded_clean",
+      "ok": true
+    },
+    {
+      "test": "two_distinct_pages",
+      "ok": true
+    },
+    {
+      "test": "invalid_page_refused",
+      "ok": true
+    },
+    {
+      "test": "interrupted_preview_blocked",
+      "ok": true
+    },
+    {
+      "test": "reader_rescan_refused",
+      "ok": true
+    },
+    {
+      "test": "writer_rescan_allowed",
+      "ok": true
+    },
+    {
+      "test": "clean_after_real_scan",
+      "ok": true
+    },
+    {
+      "test": "preview_recovers",
+      "ok": true
+    },
+    {
+      "test": "revoked_next_page_refused",
+      "ok": true
+    }
+  ]
+}

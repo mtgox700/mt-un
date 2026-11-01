@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "test": "before-save_login",
+      "ok": true
+    },
+    {
+      "test": "before-save_abrupt_process_exit",
+      "ok": true
+    },
+    {
+      "test": "uncertain_session_business_closed",
+      "ok": true
+    },
+    {
+      "test": "uncertain_rotation_queued_for_revocation",
+      "ok": true
+    },
+    {
+      "test": "old_token_direct_rest_denied_after_reconciliation",
+      "ok": true
+    },
+    {
+      "test": "uncertain_rotation_queue_resolved",
+      "ok": true
+    },
+    {
+      "test": "after-save_login",
+      "ok": true
+    },
+    {
+      "test": "after-save_abrupt_process_exit",
+      "ok": true
+    },
+    {
+      "test": "saved_rotation_remains_authenticated",
+      "ok": true
+    },
+    {
+      "test": "saved_rotation_own_access",
+      "ok": true
+    },
+    {
+      "test": "saved_rotation_cross_org_denied",
+      "ok": true
+    },
+    {
+      "test": "saved_rotation_logout",
+      "ok": true
+    },
+    {
+      "test": "saved_rotation_logout_closes_access",
+      "ok": true
+    }
+  ],
+  "passed": true,
+  "count": 13,
+  "real_supabase_refresh": true,
+  "abrupt_child_exits": 2,
+  "supabase_services_stopped": false
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "B1",
+    "objet": "Impression du PV long",
+    "statut": "Bloqué par environnement et mise en page à contrôler",
+    "raison": "window.print() a ouvert une fenêtre native bloquant les interactions. Le contrôle natif de Codex est interdit par l’outil ; fermeture réalisée par l’utilisateur. Aucun PDF final récupéré ou vérifié. Le PV signale déjà un dépassement de page.",
+    "reprise": "Exporter via un navigateur disposant d’un dialogue PDF pilotable, puis contrôler que toutes les sections sont présentes."
+  },
+  {
+    "id": "B2",
+    "objet": "Microphone et appareils physiques",
+    "statut": "Non validé sur matériel réel",
+    "raison": "Les dimensions et aperçus testés ne sont pas des iPhone/iPad/Android réels. Permissions micro, clavier tactile et enregistrement physique non exercés. La conservation audio est de toute façon absente (F22/F26).",
+    "reprise": "Implémenter le stockage et la lecture audio, puis effectuer une recette physique avec fichier et enregistrement fictifs."
+  },
+  {
+    "id": "B3",
+    "objet": "Envois, relecture multi-utilisateur, signature, facturation",
+    "statut": "Bloqué par services absents ou simulés",
+    "raison": "Les changements locaux et messages de succès ne prouvent ni réception d’invitation/email/push, ni validation indépendante, ni signature opposable, ni paiement. Pas de destinataire ou transaction réelle utilisée.",
+    "reprise": "Brancher les services et comptes de test ; tester chaque effet observé côté destinataire."
+  },
+  {
+    "id": "B4",
+    "objet": "Hors ligne, pièces et versions",
+    "statut": "Bloqué par implémentation simulée",
+    "raison": "F20/F23 : cache et dépôt/restauration de fichiers non établis par le prototype. Les octets des pièces ne sont pas conservés par le dépôt simulé.",
+    "reprise": "Implémenter fichiers, versions et cache ; retester intégrité et rechargement sans réseau."
+  },
+  {
+    "id": "B5",
+    "objet": "Sécurité de production",
+    "statut": "Non établie",
+    "raison": "Les contrôles de rôle UI ne sont pas des permissions serveur. MFA, chiffrement, isolation des organisations et journaux de production ne sont pas démontrés par cette application locale.",
+    "reprise": "Après développement du backend : tests d’accès croisés, isolation des données et intégration de production."
+  }
+]

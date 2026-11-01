@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-29",
+  "status": "Clôture technique locale proposée sur le périmètre roadmap S04",
+  "criteria": [
+    {
+      "criterion": "Fiches, rattachements, import et doublons",
+      "status": "Validé",
+      "evidence": "Registre Supabase, import atomique contrôlé ; comptes plateforme distincts. Suites s04_adherents et s04_typed."
+    },
+    {
+      "criterion": "Cotisations et cycle d’adhésion",
+      "status": "Validé",
+      "evidence": "Échéances, paiements partiels, corrections auditées, dates, justificatifs, synthèses, pauses, tarifs/cadences, couvertures, fin et deux modes de réadhésion."
+    },
+    {
+      "criterion": "Anciennes fiches sans échéancier",
+      "status": "Validé",
+      "evidence": "Activation explicite dans le parcours Cadence existant ; première date future, versions, couvertures, aucun rattrapage."
+    },
+    {
+      "criterion": "Filtres et listes de diffusion",
+      "status": "Validé",
+      "evidence": "Listes dynamiques persistantes, création/édition, versions, audit ; critères financiers réels protégés par la lecture des cotisations."
+    },
+    {
+      "criterion": "Annuaire partagé par contrat",
+      "status": "Validé",
+      "evidence": "Contrat organisationnel minimal pour les futurs consommateurs ; pas de partage automatique entre organisations."
+    },
+    {
+      "criterion": "Import/export contrôlés",
+      "status": "Validé",
+      "evidence": "Imports sans corruption ni création de compte ; CSV règlements et reçus non fiscaux contrôlés et audités. Projection annuaire exportable côté API avec droit de téléchargement distinct."
+    },
+    {
+      "criterion": "Campagnes",
+      "status": "Contrat livré",
+      "evidence": "La roadmap S04 demande les contrats pour les modules suivants. Aucun envoi de campagne ni relance automatique déclaré opérationnel."
+    },
+    {
+      "criterion": "Reprise et restauration",
+      "status": "Validé en local",
+      "evidence": "65 tables, 174 fichiers, 241 contrôles de restauration et 16 contrôles Auth/MFA/droits après restauration."
+    }
+  ],
+  "production": false
+}

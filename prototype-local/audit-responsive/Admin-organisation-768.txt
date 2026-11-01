@@ -1,0 +1,70 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			8 button
+				9 image
+			10 button Se déconnecter
+				11 image
+		12 container
+			13 text BACK-OFFICE
+			14 heading Tableau de bord organisation, Value: 1
+				15 text Tableau de bord organisation
+			16 text Tous les sites · 24 sièges · plan Fédération
+			17 button Tous les sites
+			18 button Valenciennes
+			19 button Douai
+			20 button Siège
+			21 text ÉLUS ACTIFS 24 +2 ce mois DOSSIERS OUVERTS 17 −4 vs juillet PARTICIPATION SONDAGES 72 % +9 pts REQUÊTES IA 1648 quota à 56 %
+			22 heading Activité par commission, Value: 2
+				23 text Activité par commission
+			24 text Négociation 9 dossiers · 412 messages SSCT 6 dossiers · 260 messages ASC 4 dossiers · 148 messages Formation 2 dossiers · 61 messages
+			25 heading Raccourcis d'administration, Value: 2
+				26 text Raccourcis d'administration
+			27 button Gestion des membres 5 comptes · 1 invitation en attente ›
+				28 text Gestion des membres
+				29 text 5 comptes · 1 invitation en attente
+				30 text ›
+			31 button Bibliothèque documentaire 5 documents · versions suivies ›
+				32 text Bibliothèque documentaire
+				33 text 5 documents · versions suivies
+				34 text ›
+			35 button Configuration IA Fournisseur, clé API, quotas ›
+				36 text Configuration IA
+				37 text Fournisseur, clé API, quotas
+				38 text ›
+			39 button Prise en main de l'organisation Checklist de configuration ›
+				40 text Prise en main de l'organisation
+				41 text Checklist de configuration
+				42 text ›
+			43 button Bilan & reporting CSE Statistiques de mandat, export PDF et Excel ›
+				44 text Bilan & reporting CSE
+				45 text Statistiques de mandat, export PDF et Excel
+				46 text ›
+			47 button Facturation & sièges 24 sièges · prochaine échéance 01/09 ›
+				48 text Facturation & sièges
+				49 text 24 sièges · prochaine échéance 01/09
+				50 text ›
+		51 container
+			52 button Accueil
+				53 image
+				54 text Accueil
+			55 button Dossiers
+				56 image
+				57 text Dossiers
+			58 button Agenda
+				59 image
+				60 text Agenda
+			61 button Réunions
+				62 image
+				63 text Réunions
+			64 button Réglages
+				65 image
+				66 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

@@ -1,0 +1,95 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+    - generic: "2"
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: unii suggère
+  - button "Échéance dans 24 h · Signalement — Service Logistique"
+  - button "Échéance dans 4 h · Accident Atelier B"
+  - text: Coffre du dossier
+  - heading "Pièces jointes" [level=1]
+  - paragraph: Signalement — Service Logistique · 3 pièces locales
+  - button "Déposer un document PDF, image, audio · 25 Mo max · stockage local":
+    - generic: Déposer un document
+    - generic: PDF, image, audio · 25 Mo max · stockage local
+  - button "PDF Récit des faits — permanence 21/08.pdf 284 Ko · ajouté par Sophie M. le 21 août v3":
+    - generic: PDF
+    - generic: Récit des faits — permanence 21/08.pdf
+    - generic: 284 Ko · ajouté par Sophie M. le 21 août
+    - generic: v3
+  - button "ZIP Captures messages internes.zip 4,1 Mo · ajouté par Sophie M. le 23 août v1":
+    - generic: ZIP
+    - generic: Captures messages internes.zip
+    - generic: 4,1 Mo · ajouté par Sophie M. le 23 août
+    - generic: v1
+  - button "PDF Attestation collègue témoin.pdf 96 Ko · ajouté par Jean-Paul D. le 24 août v2":
+    - generic: PDF
+    - generic: Attestation collègue témoin.pdf
+    - generic: 96 Ko · ajouté par Jean-Paul D. le 24 août
+    - generic: v2
+  - heading "Récit des faits — permanence 21/08.pdf" [level=2]
+  - paragraph: Version 3 · 284 Ko · Sophie M. · 21 août
+  - generic: PDF
+  - generic: Compte rendu signé de la permanence, anonymisé pour partage en commission.
+  - button "Ouvrir l'aperçu"
+  - generic: Versions
+  - generic: v3
+  - generic: Version courante · 21 août
+  - button "Télécharger"
+  - generic: v2
+  - generic: Remplacée · Sophie M.
+  - button "Restaurer"
+  - generic: v1
+  - generic: Remplacée · Sophie M.
+  - button "Restaurer"
+  - button "Déposer une nouvelle version"
+  - button "Joindre à un courrier"
+  - button "Supprimer la pièce"
+  - generic: Traçabilité
+  - paragraph: Les fichiers ajoutés sont conservés dans ce navigateur. Journal d’audit, chiffrement et conservation réglementaire restent à connecter.

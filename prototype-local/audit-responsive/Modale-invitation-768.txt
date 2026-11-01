@@ -1,0 +1,63 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		67 container
+			68 image uniion
+			69 button ← Retour
+			70 image
+			71 text field (settable)
+			72 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			73 button
+				74 image
+			75 button Se déconnecter
+				76 image
+		77 container
+			78 heading Organisation & membres, Value: 1
+				79 text Organisation & membres
+			80 text 5 membres · 4 commissions · plan Fédération
+			81 button + Inviter un membre
+			82 text 24 sièges du plan 3 membres actifs 4 commissions 1 invitation en attente SM Sophie Marchand Admin organisation  ·  en ligne ACTIF
+			83 button Retirer
+			84 button Suspendre
+			85 text JD Jean-Paul Diallo Élu titulaire  ·  il y a 1 h ACTIF
+			86 button Retirer
+			87 button Suspendre
+			88 text LC Leïla Chaïb Commission ASC  ·  hier ACTIF
+			89 button Retirer
+			90 button Suspendre
+			91 text MA Marc Aubert Suppléant  ·  jamais connecté INVITÉ
+			92 button Retirer
+			93 button Relancer
+			94 text CB Cabinet Berger (avocat) Lecture seule  ·  il y a 6 jours SUSPENDU
+			95 button Retirer
+			96 button Réactiver
+		97 container
+			98 button Accueil
+				99 image
+				100 text Accueil
+			101 button Dossiers
+				102 image
+				103 text Dossiers
+			104 button Agenda
+				105 image
+				106 text Agenda
+			107 button Réunions
+				108 image
+				109 text Réunions
+			110 button Réglages
+				111 image
+				112 text Réglages
+		55 container Inviter des élus
+			56 heading Inviter des élus, Value: 2
+				57 text Inviter des élus
+			58 text Chaque invité reçoit un lien nominatif valable 7 jours et devra activer une double authentification.
+			59 text RÔLE ATTRIBUÉ
+			60 checkbox Élu titulaire Accès complet au coffre, Value: 1
+			61 checkbox Élu suppléant Lecture + sondages, Value: 0
+			62 checkbox Expert externe Lecture seule, dossiers désignés, Value: 0
+			63 text ADRESSES EMAIL, SÉPARÉES PAR UNE VIRGULE
+			64 text entry area (settable)
+			65 button Annuler
+			66 button Envoyer les invitations
+
+The focused UI element is 81 button + Inviter un membre

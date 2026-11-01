@@ -1,0 +1,28 @@
+[
+  {
+    "format": "mobile",
+    "saved": "15,25",
+    "invalidAmountRefused": true,
+    "invalidDateRefused": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "format": "tablette",
+    "saved": "16,50",
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "format": "desktop",
+    "saved": "17,00",
+    "cancelled": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "scenario": "reload_and_new_session",
+    "threeChargesVisible": true,
+    "totalOutstanding": "61,25 €"
+  }
+]

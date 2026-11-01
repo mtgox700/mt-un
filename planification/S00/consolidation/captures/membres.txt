@@ -1,0 +1,91 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - heading "Organisation & membres" [level=1]
+  - paragraph: 5 membres · 4 commissions · plan Fédération
+  - button "+ Inviter un membre"
+  - generic: "24"
+  - generic: sièges du plan
+  - generic: "3"
+  - generic: membres actifs
+  - generic: "4"
+  - generic: commissions
+  - generic: "1"
+  - generic: invitation en attente
+  - generic: SM
+  - generic: Sophie Marchand
+  - generic: Admin organisation · en ligne
+  - generic: Actif
+  - button "Retirer"
+  - button "Suspendre"
+  - generic: JD
+  - generic: Jean-Paul Diallo
+  - generic: Élu titulaire · il y a 1 h
+  - generic: Actif
+  - button "Retirer"
+  - button "Suspendre"
+  - generic: LC
+  - generic: Leïla Chaïb
+  - generic: Commission ASC · hier
+  - generic: Actif
+  - button "Retirer"
+  - button "Suspendre"
+  - generic: MA
+  - generic: Marc Aubert
+  - generic: Suppléant · jamais connecté
+  - generic: Invité
+  - button "Retirer"
+  - button "Relancer"
+  - generic: CB
+  - generic: Cabinet Berger (avocat)
+  - generic: Lecture seule · il y a 6 jours
+  - generic: Suspendu
+  - button "Retirer"
+  - button "Réactiver"

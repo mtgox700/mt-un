@@ -1,0 +1,134 @@
+Browser tab: 4, Title: "127.0.0.1:5052/uniion App v3.dc.html", URL: "http://127.0.0.1:5052/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			158 button Accueil
+				159 image
+				160 text Accueil
+			161 button Assistant
+				162 image
+				163 text Assistant
+			170 button Dossiers
+				171 image
+				172 text Dossiers
+			173 button Messages
+				174 image
+				175 text Messages
+			176 button Agenda
+				177 image
+				178 text Agenda
+			186 button Réunions
+				187 image
+				188 text Réunions
+			189 button Documents
+				190 image
+				191 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			47 button Réglages
+				48 image
+				49 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			157 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				182 text unii
+				183 text 1
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		169 container
+			184 text UNII SUGGÈRE
+			185 button Brouillon à relire · NAO 2027 — où en sont les négociations
+			192 text CRÉATION DE DOCUMENTS
+			193 heading Documents, Value: 1
+				194 text Documents
+			195 text 3 documents dans l'espace de la section · charte SECTION MÉTA VAL appliquée automatiquement
+			196 image Logo par défaut des documents
+			197 heading LOGO PAR DÉFAUT DES DOCUMENTS, Value: 2
+				198 text LOGO PAR DÉFAUT DES DOCUMENTS
+			199 text Repris dans l'en-tête de tous les documents créés : courriers, tracts, comptes rendus, bulletins. Modifiable document par document dans l'onglet Charte graphique.
+			200 container
+				201 text Remplacer
+				202 button Remplacer
+			203 button Retirer
+			204 heading PARTIR D'UN MODÈLE, Value: 2
+				205 text PARTIR D'UN MODÈLE
+			206 button Tract / affiche Appel à mobilisation, une page, titres larges et revendications chiffrées. A5 · 1 PAGE
+				207 text Tract / affiche
+				208 text Appel à mobilisation, une page, titres larges et revendications chiffrées.
+				209 text A5 · 1 PAGE
+			210 button Courrier à l'employeur Saisine formelle : objet, rappel du cadre légal, demande datée. A4 · 1 PAGE
+				211 text Courrier à l'employeur
+				212 text Saisine formelle : objet, rappel du cadre légal, demande datée.
+				213 text A4 · 1 PAGE
+			214 button Compte rendu de séance Présents, ordre du jour, délibérations et votes en tableau. A4 · 2 PAGES
+				215 text Compte rendu de séance
+				216 text Présents, ordre du jour, délibérations et votes en tableau.
+				217 text A4 · 2 PAGES
+			218 button Note aux adhérents Explication pédagogique d'un accord ou d'un changement de règle. A4 · 1 PAGE
+				219 text Note aux adhérents
+				220 text Explication pédagogique d'un accord ou d'un changement de règle.
+				221 text A4 · 1 PAGE
+			222 button Communiqué NAO État des négociations, comparatif des positions, prochaines étapes. 16:9 · 2 PAGES
+				223 text Communiqué NAO
+				224 text État des négociations, comparatif des positions, prochaines étapes.
+				225 text 16:9 · 2 PAGES
+			226 button Bulletin d'adhésion Formulaire d'adhésion : identité, situation professionnelle, cotisation, mandat SEPA. A4 · 2 PAGES
+				227 text Bulletin d'adhésion
+				228 text Formulaire d'adhésion : identité, situation professionnelle, cotisation, mandat SEPA.
+				229 text A4 · 2 PAGES
+			230 button Rédiger un document avec l'assistant
+				231 text Rédiger avec l'assistant
+				232 text Depuis un dossier, un sondage ou la convention — prompt anonymisé avant envoi.
+				233 text Ouvrir →
+			234 heading MES DOCUMENTS, Value: 2
+				235 text MES DOCUMENTS
+			236 text 3 documents
+			237 button NAO 2027 — où en sont les négociations 16:9 paysage · Communiqué NAO · modifié il y a 20 min BROUILLON
+				238 text NAO 2027 — où en sont les négociations
+				239 text 16:9 paysage · Communiqué NAO · modifié il y a 20 min
+				240 text BROUILLON
+			241 button Supprimer
+			242 button Courrier — enquête paritaire atelier B A4 portrait · Courrier à l'employeur · modifié hier SIGNÉ
+				243 text Courrier — enquête paritaire atelier B
+				244 text A4 portrait · Courrier à l'employeur · modifié hier
+				245 text SIGNÉ
+			246 button Supprimer
+			247 button Compte rendu — séance du 26 août A4 portrait · Compte rendu de séance · modifié il y a 3 jours RELU
+				248 text Compte rendu — séance du 26 août
+				249 text A4 portrait · Compte rendu de séance · modifié il y a 3 jours
+				250 text RELU
+			251 button Supprimer
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html

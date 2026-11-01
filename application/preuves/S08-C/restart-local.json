@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "states": {
+    "succeeded": 1
+  },
+  "charged": 1,
+  "events": 3,
+  "mode": "0o600",
+  "content_columns_absent": true
+}

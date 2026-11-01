@@ -1,0 +1,4133 @@
+[
+  {
+    "screen": "accueil",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Sophie Marchand",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 4,
+    "viewport": 352
+  },
+  {
+    "screen": "accueil",
+    "width": 390,
+    "bodyWidth": 352,
+    "heading": "Sophie Marchand",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 4,
+    "viewport": 352
+  },
+  {
+    "screen": "accueil",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Sophie Marchand",
+    "overflow": [],
+    "smallControls": 5,
+    "viewport": 760
+  },
+  {
+    "screen": "accueil",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Sophie Marchand",
+    "overflow": [],
+    "smallControls": 8,
+    "viewport": 1016
+  },
+  {
+    "screen": "Assistant-IA",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Votre expert juridique de poche",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 19,
+    "viewport": 352
+  },
+  {
+    "screen": "Assistant-IA",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Votre expert juridique de poche",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 312,
+        "tag": "SPAN",
+        "text": "Pas encore enregistrée — posez une question",
+        "width": 213
+      }
+    ],
+    "smallControls": 19,
+    "viewport": 382
+  },
+  {
+    "screen": "Assistant-IA",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Votre expert juridique de poche",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 312,
+        "tag": "SPAN",
+        "text": "Pas encore enregistrée — posez une question",
+        "width": 242
+      }
+    ],
+    "smallControls": 19,
+    "viewport": 760
+  },
+  {
+    "screen": "Assistant-IA",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Votre expert juridique de poche",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 312,
+        "tag": "SPAN",
+        "text": "Pas encore enregistrée — posez une question",
+        "width": 234
+      }
+    ],
+    "smallControls": 22,
+    "viewport": 1016
+  },
+  {
+    "screen": "Dossiers",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Suivi des demandes",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 4,
+    "viewport": 352
+  },
+  {
+    "screen": "Dossiers",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Suivi des demandes",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 4,
+    "viewport": 382
+  },
+  {
+    "screen": "Dossiers",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Suivi des demandes",
+    "overflow": [],
+    "smallControls": 4,
+    "viewport": 760
+  },
+  {
+    "screen": "Dossiers",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Suivi des demandes",
+    "overflow": [],
+    "smallControls": 7,
+    "viewport": 1016
+  },
+  {
+    "screen": "Agenda",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Agenda",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 408,
+        "tag": "MAIN",
+        "text": "Planification partagée\n          Agenda\n          Séances, négociations, permanences ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 388,
+        "tag": "DIV",
+        "text": "Planification partagée\n          Agenda\n          Séances, négociations, permanences ",
+        "width": 312
+      },
+      {
+        "cls": "",
+        "scroll": 388,
+        "tag": "DIV",
+        "text": "Septembre 2026\n              \n                \n              \n              Aujourd'h",
+        "width": 312
+      },
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 3ᵉ séance",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 143,
+        "tag": "BUTTON",
+        "text": "Assemblée des adhérents",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 151,
+        "tag": "BUTTON",
+        "text": "CSE ordinaire — septembre",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 233,
+        "tag": "BUTTON",
+        "text": "Réponse de la direction — enquête Atelier B",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "Formation SSCT — module 2",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "CSSCT — visite de l'atelier B",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 4ᵉ séance",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 148,
+        "tag": "BUTTON",
+        "text": "Dépôt du PV de septembre",
+        "width": 22
+      }
+    ],
+    "smallControls": 68,
+    "viewport": 352
+  },
+  {
+    "screen": "Agenda",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Agenda",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 408,
+        "tag": "MAIN",
+        "text": "Planification partagée\n          Agenda\n          Séances, négociations, permanences ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 388,
+        "tag": "DIV",
+        "text": "Planification partagée\n          Agenda\n          Séances, négociations, permanences ",
+        "width": 342
+      },
+      {
+        "cls": "",
+        "scroll": 388,
+        "tag": "DIV",
+        "text": "Septembre 2026\n              \n                \n              \n              Aujourd'h",
+        "width": 342
+      },
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 3ᵉ séance",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 143,
+        "tag": "BUTTON",
+        "text": "Assemblée des adhérents",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 151,
+        "tag": "BUTTON",
+        "text": "CSE ordinaire — septembre",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 233,
+        "tag": "BUTTON",
+        "text": "Réponse de la direction — enquête Atelier B",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "Formation SSCT — module 2",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "CSSCT — visite de l'atelier B",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 4ᵉ séance",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 148,
+        "tag": "BUTTON",
+        "text": "Dépôt du PV de septembre",
+        "width": 26
+      }
+    ],
+    "smallControls": 66,
+    "viewport": 382
+  },
+  {
+    "screen": "Agenda",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Agenda",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 3ᵉ séance",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 143,
+        "tag": "BUTTON",
+        "text": "Assemblée des adhérents",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 151,
+        "tag": "BUTTON",
+        "text": "CSE ordinaire — septembre",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 233,
+        "tag": "BUTTON",
+        "text": "Réponse de la direction — enquête Atelier B",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "Formation SSCT — module 2",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "CSSCT — visite de l'atelier B",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 4ᵉ séance",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 148,
+        "tag": "BUTTON",
+        "text": "Dépôt du PV de septembre",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 160,
+        "tag": "BUTTON",
+        "text": "Réunion de section — Prouvy",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 205,
+        "tag": "BUTTON",
+        "text": "Entrée en vigueur — accord télétravail",
+        "width": 80
+      }
+    ],
+    "smallControls": 66,
+    "viewport": 760
+  },
+  {
+    "screen": "Agenda",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Agenda",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 3ᵉ séance",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 143,
+        "tag": "BUTTON",
+        "text": "Assemblée des adhérents",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 151,
+        "tag": "BUTTON",
+        "text": "CSE ordinaire — septembre",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 233,
+        "tag": "BUTTON",
+        "text": "Réponse de la direction — enquête Atelier B",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "Formation SSCT — module 2",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "CSSCT — visite de l'atelier B",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 4ᵉ séance",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 148,
+        "tag": "BUTTON",
+        "text": "Dépôt du PV de septembre",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 160,
+        "tag": "BUTTON",
+        "text": "Réunion de section — Prouvy",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 205,
+        "tag": "BUTTON",
+        "text": "Entrée en vigueur — accord télétravail",
+        "width": 79
+      }
+    ],
+    "smallControls": 69,
+    "viewport": 1016
+  },
+  {
+    "screen": "Réunions",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Réunions",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 4,
+    "viewport": 352
+  },
+  {
+    "screen": "Réunions",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Réunions",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 5,
+    "viewport": 382
+  },
+  {
+    "screen": "Réunions",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Réunions",
+    "overflow": [],
+    "smallControls": 5,
+    "viewport": 760
+  },
+  {
+    "screen": "Réunions",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Réunions",
+    "overflow": [],
+    "smallControls": 8,
+    "viewport": 1016
+  },
+  {
+    "screen": "Documents",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Documents",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 4,
+    "viewport": 352
+  },
+  {
+    "screen": "Documents",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Documents",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 4,
+    "viewport": 382
+  },
+  {
+    "screen": "Documents",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Documents",
+    "overflow": [],
+    "smallControls": 5,
+    "viewport": 760
+  },
+  {
+    "screen": "Documents",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Documents",
+    "overflow": [],
+    "smallControls": 8,
+    "viewport": 1016
+  },
+  {
+    "screen": "Sondages",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Sondages salariés",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 5,
+    "viewport": 352
+  },
+  {
+    "screen": "Sondages",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Sondages salariés",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 5,
+    "viewport": 382
+  },
+  {
+    "screen": "Sondages",
+    "width": 768,
+    "bodyWidth": 768,
+    "heading": "Sondages salariés",
+    "overflow": [],
+    "smallControls": 5,
+    "viewport": 768
+  },
+  {
+    "screen": "Sondages",
+    "width": 1024,
+    "bodyWidth": 1024,
+    "heading": "Sondages salariés",
+    "overflow": [],
+    "smallControls": 8,
+    "viewport": 1024
+  },
+  {
+    "screen": "Intranet",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Intranet",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 2,
+    "viewport": 352
+  },
+  {
+    "screen": "Intranet",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Intranet",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 2,
+    "viewport": 382
+  },
+  {
+    "screen": "Intranet",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Intranet",
+    "overflow": [],
+    "smallControls": 2,
+    "viewport": 760
+  },
+  {
+    "screen": "Intranet",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Intranet",
+    "overflow": [],
+    "smallControls": 5,
+    "viewport": 1016
+  },
+  {
+    "screen": "Adhérents",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Adhérents",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 15,
+    "viewport": 352
+  },
+  {
+    "screen": "Adhérents",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Adhérents",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 15,
+    "viewport": 382
+  },
+  {
+    "screen": "Adhérents",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Adhérents",
+    "overflow": [],
+    "smallControls": 17,
+    "viewport": 760
+  },
+  {
+    "screen": "Adhérents",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Adhérents",
+    "overflow": [],
+    "smallControls": 20,
+    "viewport": 1016
+  },
+  {
+    "screen": "Bilan-de-mandat",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Reporting",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 7,
+    "viewport": 352
+  },
+  {
+    "screen": "Bilan-de-mandat",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Reporting",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 7,
+    "viewport": 382
+  },
+  {
+    "screen": "Bilan-de-mandat",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Reporting",
+    "overflow": [],
+    "smallControls": 6,
+    "viewport": 760
+  },
+  {
+    "screen": "Bilan-de-mandat",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Reporting",
+    "overflow": [],
+    "smallControls": 9,
+    "viewport": 1016
+  },
+  {
+    "screen": "Hors-ligne",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Mode hors ligne",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 256,
+        "tag": "SPAN",
+        "text": "Convention collective Métallurgie 2026",
+        "width": 98
+      },
+      {
+        "cls": "",
+        "scroll": 198,
+        "tag": "SPAN",
+        "text": "Code du travail — extraits CSE",
+        "width": 98
+      },
+      {
+        "cls": "",
+        "scroll": 153,
+        "tag": "SPAN",
+        "text": "Accord télétravail 2024",
+        "width": 98
+      },
+      {
+        "cls": "",
+        "scroll": 195,
+        "tag": "SPAN",
+        "text": "PV réunion CSE — juillet 2026",
+        "width": 98
+      },
+      {
+        "cls": "",
+        "scroll": 179,
+        "tag": "SPAN",
+        "text": "Règlement intérieur du CSE",
+        "width": 98
+      }
+    ],
+    "smallControls": 8,
+    "viewport": 352
+  },
+  {
+    "screen": "Hors-ligne",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Mode hors ligne",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 256,
+        "tag": "SPAN",
+        "text": "Convention collective Métallurgie 2026",
+        "width": 128
+      },
+      {
+        "cls": "",
+        "scroll": 198,
+        "tag": "SPAN",
+        "text": "Code du travail — extraits CSE",
+        "width": 128
+      },
+      {
+        "cls": "",
+        "scroll": 153,
+        "tag": "SPAN",
+        "text": "Accord télétravail 2024",
+        "width": 128
+      },
+      {
+        "cls": "",
+        "scroll": 195,
+        "tag": "SPAN",
+        "text": "PV réunion CSE — juillet 2026",
+        "width": 128
+      },
+      {
+        "cls": "",
+        "scroll": 179,
+        "tag": "SPAN",
+        "text": "Règlement intérieur du CSE",
+        "width": 128
+      }
+    ],
+    "smallControls": 12,
+    "viewport": 382
+  },
+  {
+    "screen": "Hors-ligne",
+    "width": 768,
+    "bodyWidth": 768,
+    "heading": "Mode hors ligne",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 256,
+        "tag": "SPAN",
+        "text": "Convention collective Métallurgie 2026",
+        "width": 141
+      },
+      {
+        "cls": "",
+        "scroll": 198,
+        "tag": "SPAN",
+        "text": "Code du travail — extraits CSE",
+        "width": 141
+      },
+      {
+        "cls": "",
+        "scroll": 153,
+        "tag": "SPAN",
+        "text": "Accord télétravail 2024",
+        "width": 141
+      },
+      {
+        "cls": "",
+        "scroll": 195,
+        "tag": "SPAN",
+        "text": "PV réunion CSE — juillet 2026",
+        "width": 141
+      },
+      {
+        "cls": "",
+        "scroll": 179,
+        "tag": "SPAN",
+        "text": "Règlement intérieur du CSE",
+        "width": 141
+      }
+    ],
+    "smallControls": 12,
+    "viewport": 768
+  },
+  {
+    "screen": "Hors-ligne",
+    "width": 1024,
+    "bodyWidth": 1024,
+    "heading": "Mode hors ligne",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 256,
+        "tag": "SPAN",
+        "text": "Convention collective Métallurgie 2026",
+        "width": 137
+      },
+      {
+        "cls": "",
+        "scroll": 198,
+        "tag": "SPAN",
+        "text": "Code du travail — extraits CSE",
+        "width": 137
+      },
+      {
+        "cls": "",
+        "scroll": 153,
+        "tag": "SPAN",
+        "text": "Accord télétravail 2024",
+        "width": 137
+      },
+      {
+        "cls": "",
+        "scroll": 195,
+        "tag": "SPAN",
+        "text": "PV réunion CSE — juillet 2026",
+        "width": 137
+      },
+      {
+        "cls": "",
+        "scroll": 179,
+        "tag": "SPAN",
+        "text": "Règlement intérieur du CSE",
+        "width": 137
+      }
+    ],
+    "smallControls": 15,
+    "viewport": 1024
+  },
+  {
+    "screen": "Messages",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Messages",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 344,
+        "tag": "SPAN",
+        "text": "Leïla C. : On maintient l'AG du personnel mardi 12 h 30 ?",
+        "width": 193
+      },
+      {
+        "cls": "",
+        "scroll": 488,
+        "tag": "SPAN",
+        "text": "Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire.",
+        "width": 195
+      },
+      {
+        "cls": "",
+        "scroll": 410,
+        "tag": "SPAN",
+        "text": "Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts.",
+        "width": 219
+      },
+      {
+        "cls": "",
+        "scroll": 416,
+        "tag": "SPAN",
+        "text": "Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.",
+        "width": 193
+      }
+    ],
+    "smallControls": 10,
+    "viewport": 352
+  },
+  {
+    "screen": "Messages",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Messages",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 344,
+        "tag": "SPAN",
+        "text": "Leïla C. : On maintient l'AG du personnel mardi 12 h 30 ?",
+        "width": 223
+      },
+      {
+        "cls": "",
+        "scroll": 488,
+        "tag": "SPAN",
+        "text": "Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire.",
+        "width": 225
+      },
+      {
+        "cls": "",
+        "scroll": 410,
+        "tag": "SPAN",
+        "text": "Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts.",
+        "width": 249
+      },
+      {
+        "cls": "",
+        "scroll": 416,
+        "tag": "SPAN",
+        "text": "Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.",
+        "width": 223
+      }
+    ],
+    "smallControls": 12,
+    "viewport": 382
+  },
+  {
+    "screen": "Messages",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Messages",
+    "overflow": [],
+    "smallControls": 12,
+    "viewport": 760
+  },
+  {
+    "screen": "Messages",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Messages",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 344,
+        "tag": "SPAN",
+        "text": "Leïla C. : On maintient l'AG du personnel mardi 12 h 30 ?",
+        "width": 263
+      },
+      {
+        "cls": "",
+        "scroll": 488,
+        "tag": "SPAN",
+        "text": "Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire.",
+        "width": 265
+      },
+      {
+        "cls": "",
+        "scroll": 410,
+        "tag": "SPAN",
+        "text": "Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts.",
+        "width": 289
+      },
+      {
+        "cls": "",
+        "scroll": 416,
+        "tag": "SPAN",
+        "text": "Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.",
+        "width": 263
+      }
+    ],
+    "smallControls": 15,
+    "viewport": 1016
+  },
+  {
+    "screen": "Formations",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Formations",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 113,
+        "tag": "DIV",
+        "text": "Sensibilisation",
+        "width": 106
+      }
+    ],
+    "smallControls": 52,
+    "viewport": 352
+  },
+  {
+    "screen": "Formations",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Formations",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 52,
+    "viewport": 382
+  },
+  {
+    "screen": "Formations",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Formations",
+    "overflow": [],
+    "smallControls": 52,
+    "viewport": 760
+  },
+  {
+    "screen": "Formations",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Formations",
+    "overflow": [],
+    "smallControls": 55,
+    "viewport": 1016
+  },
+  {
+    "screen": "Communication",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Communication",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 42,
+    "viewport": 352
+  },
+  {
+    "screen": "Communication",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Communication",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 42,
+    "viewport": 382
+  },
+  {
+    "screen": "Communication",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Communication",
+    "overflow": [],
+    "smallControls": 42,
+    "viewport": 760
+  },
+  {
+    "screen": "Communication",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Communication",
+    "overflow": [],
+    "smallControls": 45,
+    "viewport": 1016
+  },
+  {
+    "screen": "Application-mobile",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Application mobile",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 12,
+    "viewport": 352
+  },
+  {
+    "screen": "Application-mobile",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Application mobile",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 12,
+    "viewport": 382
+  },
+  {
+    "screen": "Application-mobile",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Application mobile",
+    "overflow": [],
+    "smallControls": 14,
+    "viewport": 760
+  },
+  {
+    "screen": "Application-mobile",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Application mobile",
+    "overflow": [],
+    "smallControls": 17,
+    "viewport": 1016
+  },
+  {
+    "screen": "Réglages",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Paramètres",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 103,
+        "tag": "SPAN",
+        "text": "Communication\n                    Barre latérale seulement",
+        "width": 92
+      },
+      {
+        "cls": "",
+        "scroll": 103,
+        "tag": "SPAN",
+        "text": "Communication",
+        "width": 92
+      }
+    ],
+    "smallControls": 32,
+    "viewport": 352
+  },
+  {
+    "screen": "Réglages",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Paramètres",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 32,
+    "viewport": 382
+  },
+  {
+    "screen": "Réglages",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Paramètres",
+    "overflow": [],
+    "smallControls": 32,
+    "viewport": 760
+  },
+  {
+    "screen": "Réglages",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Paramètres",
+    "overflow": [],
+    "smallControls": 35,
+    "viewport": 1016
+  },
+  {
+    "screen": "Profil",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Sophie Marchand",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 323,
+        "tag": "DIV",
+        "text": "SM\n              \n                Sophie Marchand\n                Déléguée syndicale ",
+        "width": 312
+      },
+      {
+        "cls": "",
+        "scroll": 322,
+        "tag": "SECTION",
+        "text": "Abonnement et paiements\n              Formule Élu 2.0 — 199 € HT / mois. Prochaine éc",
+        "width": 310
+      },
+      {
+        "cls": "",
+        "scroll": 300,
+        "tag": "DIV",
+        "text": "Moyen de paiement\n                \n                  Visa\n                  \n        ",
+        "width": 266
+      }
+    ],
+    "smallControls": 15,
+    "viewport": 352
+  },
+  {
+    "screen": "Profil",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Sophie Marchand",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 300,
+        "tag": "DIV",
+        "text": "Moyen de paiement\n                \n                  Visa\n                  \n        ",
+        "width": 296
+      }
+    ],
+    "smallControls": 15,
+    "viewport": 382
+  },
+  {
+    "screen": "Profil",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Sophie Marchand",
+    "overflow": [],
+    "smallControls": 15,
+    "viewport": 760
+  },
+  {
+    "screen": "Profil",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Sophie Marchand",
+    "overflow": [],
+    "smallControls": 18,
+    "viewport": 1016
+  },
+  {
+    "screen": "Notifications",
+    "width": 360,
+    "bodyWidth": 360,
+    "heading": "Notifications",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 360
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 360
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 360
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 360
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 7,
+    "viewport": 360
+  },
+  {
+    "screen": "Notifications",
+    "width": 390,
+    "bodyWidth": 390,
+    "heading": "Notifications",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 390
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 390
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 390
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 390
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 7,
+    "viewport": 390
+  },
+  {
+    "screen": "Notifications",
+    "width": 768,
+    "bodyWidth": 768,
+    "heading": "Notifications",
+    "overflow": [],
+    "smallControls": 7,
+    "viewport": 768
+  },
+  {
+    "screen": "Notifications",
+    "width": 1024,
+    "bodyWidth": 1024,
+    "heading": "Notifications",
+    "overflow": [],
+    "smallControls": 10,
+    "viewport": 1024
+  },
+  {
+    "screen": "Membres",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Organisation & membres",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 12,
+    "viewport": 352
+  },
+  {
+    "screen": "Membres",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Organisation & membres",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 12,
+    "viewport": 382
+  },
+  {
+    "screen": "Membres",
+    "width": 768,
+    "bodyWidth": 768,
+    "heading": "Organisation & membres",
+    "overflow": [],
+    "smallControls": 12,
+    "viewport": 768
+  },
+  {
+    "screen": "Membres",
+    "width": 1024,
+    "bodyWidth": 1024,
+    "heading": "Organisation & membres",
+    "overflow": [],
+    "smallControls": 15,
+    "viewport": 1024
+  },
+  {
+    "screen": "Marque",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Identité de marque",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 320,
+        "tag": "DIV",
+        "text": "Marque blanche · administrateurs\n              Identité de marque\n              Ident",
+        "width": 312
+      },
+      {
+        "cls": "",
+        "scroll": 320,
+        "tag": "DIV",
+        "text": "Palette\n              Toute l'interface, les documents générés et les pages intranet ",
+        "width": 312
+      },
+      {
+        "cls": "",
+        "scroll": 278,
+        "tag": "DIV",
+        "text": "Logo — fond clair\n                    \n                      \n                       ",
+        "width": 274
+      },
+      {
+        "cls": "",
+        "scroll": 278,
+        "tag": "DIV",
+        "text": "Logo — fond clair\n                    \n                      \n                       ",
+        "width": 274
+      },
+      {
+        "cls": "",
+        "scroll": 278,
+        "tag": "DIV",
+        "text": "Logo — fond sombre\n                    \n                      \n                      ",
+        "width": 274
+      },
+      {
+        "cls": "",
+        "scroll": 278,
+        "tag": "DIV",
+        "text": "Monogramme carré\n                    \n                      \n                      \n ",
+        "width": 274
+      },
+      {
+        "cls": "",
+        "scroll": 278,
+        "tag": "DIV",
+        "text": "Logo intranet\n                    \n                      \n                      \n    ",
+        "width": 274
+      },
+      {
+        "cls": "",
+        "scroll": 278,
+        "tag": "DIV",
+        "text": "Logo site public\n                    \n                      \n                      \n ",
+        "width": 274
+      }
+    ],
+    "smallControls": 18,
+    "viewport": 352
+  },
+  {
+    "screen": "Marque",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Identité de marque",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 300,
+        "tag": "DIV",
+        "text": "Logo — fond clair\n                    \n                      \n                       ",
+        "width": 296
+      },
+      {
+        "cls": "",
+        "scroll": 300,
+        "tag": "DIV",
+        "text": "Logo — fond clair\n                    \n                      \n                       ",
+        "width": 296
+      },
+      {
+        "cls": "",
+        "scroll": 300,
+        "tag": "DIV",
+        "text": "Logo — fond sombre\n                    \n                      \n                      ",
+        "width": 296
+      },
+      {
+        "cls": "",
+        "scroll": 300,
+        "tag": "DIV",
+        "text": "Monogramme carré\n                    \n                      \n                      \n ",
+        "width": 296
+      },
+      {
+        "cls": "",
+        "scroll": 300,
+        "tag": "DIV",
+        "text": "Logo intranet\n                    \n                      \n                      \n    ",
+        "width": 296
+      },
+      {
+        "cls": "",
+        "scroll": 300,
+        "tag": "DIV",
+        "text": "Logo site public\n                    \n                      \n                      \n ",
+        "width": 296
+      }
+    ],
+    "smallControls": 18,
+    "viewport": 382
+  },
+  {
+    "screen": "Marque",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Identité de marque",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 309,
+        "tag": "DIV",
+        "text": "Logo — fond clair\n                    \n                      \n                       ",
+        "width": 305
+      },
+      {
+        "cls": "",
+        "scroll": 309,
+        "tag": "DIV",
+        "text": "Logo — fond clair\n                    \n                      \n                       ",
+        "width": 305
+      },
+      {
+        "cls": "",
+        "scroll": 309,
+        "tag": "DIV",
+        "text": "Logo — fond sombre\n                    \n                      \n                      ",
+        "width": 305
+      },
+      {
+        "cls": "",
+        "scroll": 309,
+        "tag": "DIV",
+        "text": "Monogramme carré\n                    \n                      \n                      \n ",
+        "width": 305
+      },
+      {
+        "cls": "",
+        "scroll": 309,
+        "tag": "DIV",
+        "text": "Logo intranet\n                    \n                      \n                      \n    ",
+        "width": 305
+      },
+      {
+        "cls": "",
+        "scroll": 309,
+        "tag": "DIV",
+        "text": "Logo site public\n                    \n                      \n                      \n ",
+        "width": 305
+      }
+    ],
+    "smallControls": 18,
+    "viewport": 760
+  },
+  {
+    "screen": "Marque",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Identité de marque",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 305,
+        "tag": "DIV",
+        "text": "Logo — fond clair\n                    \n                      \n                       ",
+        "width": 301
+      },
+      {
+        "cls": "",
+        "scroll": 305,
+        "tag": "DIV",
+        "text": "Logo — fond clair\n                    \n                      \n                       ",
+        "width": 301
+      },
+      {
+        "cls": "",
+        "scroll": 305,
+        "tag": "DIV",
+        "text": "Logo — fond sombre\n                    \n                      \n                      ",
+        "width": 301
+      },
+      {
+        "cls": "",
+        "scroll": 305,
+        "tag": "DIV",
+        "text": "Monogramme carré\n                    \n                      \n                      \n ",
+        "width": 301
+      },
+      {
+        "cls": "",
+        "scroll": 305,
+        "tag": "DIV",
+        "text": "Logo intranet\n                    \n                      \n                      \n    ",
+        "width": 301
+      },
+      {
+        "cls": "",
+        "scroll": 305,
+        "tag": "DIV",
+        "text": "Logo site public\n                    \n                      \n                      \n ",
+        "width": 301
+      }
+    ],
+    "smallControls": 21,
+    "viewport": 1016
+  },
+  {
+    "screen": "Contacts",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Contacts & groupes",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 51,
+    "viewport": 352
+  },
+  {
+    "screen": "Contacts",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Contacts & groupes",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 51,
+    "viewport": 382
+  },
+  {
+    "screen": "Contacts",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Contacts & groupes",
+    "overflow": [],
+    "smallControls": 51,
+    "viewport": 760
+  },
+  {
+    "screen": "Contacts",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Contacts & groupes",
+    "overflow": [],
+    "smallControls": 54,
+    "viewport": 1016
+  },
+  {
+    "screen": "Admin-organisation",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Tableau de bord organisation",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 6,
+    "viewport": 352
+  },
+  {
+    "screen": "Admin-organisation",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Tableau de bord organisation",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 6,
+    "viewport": 382
+  },
+  {
+    "screen": "Admin-organisation",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Tableau de bord organisation",
+    "overflow": [],
+    "smallControls": 6,
+    "viewport": 760
+  },
+  {
+    "screen": "Admin-organisation",
+    "width": 1024,
+    "bodyWidth": 1024,
+    "heading": "Tableau de bord organisation",
+    "overflow": [],
+    "smallControls": 9,
+    "viewport": 1024
+  },
+  {
+    "screen": "Editeur-document",
+    "width": 360,
+    "bodyWidth": 352,
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 462,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 462,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 462,
+        "tag": "MAIN",
+        "text": "unii suggère\n          \n            Brouillon à relire · NAO 2027 — où en sont les né",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 442,
+        "tag": "DIV",
+        "text": "Titre du document\n                \n              \n            \n            \n         ",
+        "width": 312
+      },
+      {
+        "cls": "",
+        "scroll": 76,
+        "tag": "SPAN",
+        "text": "Titre du document",
+        "width": 1
+      },
+      {
+        "cls": "",
+        "scroll": 442,
+        "tag": "DIV",
+        "text": "Contenu\n                \n                  Charte graphique\n                \n        ",
+        "width": 312
+      },
+      {
+        "cls": "",
+        "scroll": 441,
+        "tag": "SECTION",
+        "text": "A4 portrait\n                  \n                    16:9 paysage\n                  \n  ",
+        "width": 310
+      },
+      {
+        "cls": "",
+        "scroll": 425,
+        "tag": "DIV",
+        "text": "SECTION MÉTA VAL\n                            Local syndical — 12 rue de la Fonderie\n ",
+        "width": 278
+      }
+    ],
+    "smallControls": 67,
+    "viewport": 352
+  },
+  {
+    "screen": "Editeur-document",
+    "width": 390,
+    "bodyWidth": 382,
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 477,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 477,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 477,
+        "tag": "MAIN",
+        "text": "unii suggère\n          \n            Brouillon à relire · NAO 2027 — où en sont les né",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 457,
+        "tag": "DIV",
+        "text": "Titre du document\n                \n              \n            \n            \n         ",
+        "width": 342
+      },
+      {
+        "cls": "",
+        "scroll": 76,
+        "tag": "SPAN",
+        "text": "Titre du document",
+        "width": 1
+      },
+      {
+        "cls": "",
+        "scroll": 457,
+        "tag": "DIV",
+        "text": "Contenu\n                \n                  Charte graphique\n                \n        ",
+        "width": 342
+      },
+      {
+        "cls": "",
+        "scroll": 456,
+        "tag": "SECTION",
+        "text": "A4 portrait\n                  \n                    16:9 paysage\n                  \n  ",
+        "width": 340
+      },
+      {
+        "cls": "",
+        "scroll": 440,
+        "tag": "DIV",
+        "text": "SECTION MÉTA VAL\n                            Local syndical — 12 rue de la Fonderie\n ",
+        "width": 308
+      }
+    ],
+    "smallControls": 70,
+    "viewport": 382
+  },
+  {
+    "screen": "Editeur-document",
+    "width": 768,
+    "bodyWidth": 760,
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 76,
+        "tag": "SPAN",
+        "text": "Titre du document",
+        "width": 1
+      }
+    ],
+    "smallControls": 74,
+    "viewport": 760
+  },
+  {
+    "screen": "Editeur-document",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 1135,
+        "tag": "DIV",
+        "text": "Accueil\n            \n          \n        \n          \n          \n            \n         ",
+        "width": 1016
+      },
+      {
+        "cls": "",
+        "scroll": 871,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 752
+      },
+      {
+        "cls": "",
+        "scroll": 871,
+        "tag": "MAIN",
+        "text": "unii suggère\n          \n            Brouillon à relire · NAO 2027 — où en sont les né",
+        "width": 752
+      },
+      {
+        "cls": "",
+        "scroll": 851,
+        "tag": "DIV",
+        "text": "Titre du document\n                \n              \n            \n            \n         ",
+        "width": 712
+      },
+      {
+        "cls": "",
+        "scroll": 76,
+        "tag": "SPAN",
+        "text": "Titre du document",
+        "width": 1
+      },
+      {
+        "cls": "",
+        "scroll": 851,
+        "tag": "DIV",
+        "text": "Contenu\n                \n                  Charte graphique\n                \n        ",
+        "width": 712
+      },
+      {
+        "cls": "",
+        "scroll": 432,
+        "tag": "SECTION",
+        "text": "A4 portrait\n                  \n                    16:9 paysage\n                  \n  ",
+        "width": 292
+      },
+      {
+        "cls": "",
+        "scroll": 416,
+        "tag": "DIV",
+        "text": "SECTION MÉTA VAL\n                            Local syndical — 12 rue de la Fonderie\n ",
+        "width": 260
+      }
+    ],
+    "smallControls": 68,
+    "viewport": 1016
+  },
+  {
+    "screen": "Formulaire-agenda-inline",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Agenda",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 408,
+        "tag": "MAIN",
+        "text": "Planification partagée\n          Agenda\n          Séances, négociations, permanences ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 388,
+        "tag": "DIV",
+        "text": "Planification partagée\n          Agenda\n          Séances, négociations, permanences ",
+        "width": 312
+      },
+      {
+        "cls": "",
+        "scroll": 388,
+        "tag": "DIV",
+        "text": "Septembre 2026\n              \n                \n              \n              Aujourd'h",
+        "width": 312
+      },
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 3ᵉ séance",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 143,
+        "tag": "BUTTON",
+        "text": "Assemblée des adhérents",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 151,
+        "tag": "BUTTON",
+        "text": "CSE ordinaire — septembre",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 233,
+        "tag": "BUTTON",
+        "text": "Réponse de la direction — enquête Atelier B",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "Formation SSCT — module 2",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "CSSCT — visite de l'atelier B",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 4ᵉ séance",
+        "width": 22
+      },
+      {
+        "cls": "",
+        "scroll": 148,
+        "tag": "BUTTON",
+        "text": "Dépôt du PV de septembre",
+        "width": 22
+      }
+    ],
+    "smallControls": 73,
+    "viewport": 352
+  },
+  {
+    "screen": "Formulaire-agenda-inline",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Agenda",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 408,
+        "tag": "MAIN",
+        "text": "Planification partagée\n          Agenda\n          Séances, négociations, permanences ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 388,
+        "tag": "DIV",
+        "text": "Planification partagée\n          Agenda\n          Séances, négociations, permanences ",
+        "width": 342
+      },
+      {
+        "cls": "",
+        "scroll": 388,
+        "tag": "DIV",
+        "text": "Septembre 2026\n              \n                \n              \n              Aujourd'h",
+        "width": 342
+      },
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 3ᵉ séance",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 143,
+        "tag": "BUTTON",
+        "text": "Assemblée des adhérents",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 151,
+        "tag": "BUTTON",
+        "text": "CSE ordinaire — septembre",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 233,
+        "tag": "BUTTON",
+        "text": "Réponse de la direction — enquête Atelier B",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "Formation SSCT — module 2",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "CSSCT — visite de l'atelier B",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 4ᵉ séance",
+        "width": 26
+      },
+      {
+        "cls": "",
+        "scroll": 148,
+        "tag": "BUTTON",
+        "text": "Dépôt du PV de septembre",
+        "width": 26
+      }
+    ],
+    "smallControls": 73,
+    "viewport": 382
+  },
+  {
+    "screen": "Formulaire-agenda-inline",
+    "width": 768,
+    "bodyWidth": 760,
+    "heading": "Agenda",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 3ᵉ séance",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 143,
+        "tag": "BUTTON",
+        "text": "Assemblée des adhérents",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 151,
+        "tag": "BUTTON",
+        "text": "CSE ordinaire — septembre",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 233,
+        "tag": "BUTTON",
+        "text": "Réponse de la direction — enquête Atelier B",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "Formation SSCT — module 2",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "CSSCT — visite de l'atelier B",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 4ᵉ séance",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 148,
+        "tag": "BUTTON",
+        "text": "Dépôt du PV de septembre",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 160,
+        "tag": "BUTTON",
+        "text": "Réunion de section — Prouvy",
+        "width": 80
+      },
+      {
+        "cls": "",
+        "scroll": 205,
+        "tag": "BUTTON",
+        "text": "Entrée en vigueur — accord télétravail",
+        "width": 80
+      }
+    ],
+    "smallControls": 73,
+    "viewport": 760
+  },
+  {
+    "screen": "Formulaire-agenda-inline",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Agenda",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 3ᵉ séance",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 143,
+        "tag": "BUTTON",
+        "text": "Assemblée des adhérents",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 151,
+        "tag": "BUTTON",
+        "text": "CSE ordinaire — septembre",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 233,
+        "tag": "BUTTON",
+        "text": "Réponse de la direction — enquête Atelier B",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "Formation SSCT — module 2",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 121,
+        "tag": "BUTTON",
+        "text": "Permanence des élus",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 157,
+        "tag": "BUTTON",
+        "text": "CSSCT — visite de l'atelier B",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 102,
+        "tag": "BUTTON",
+        "text": "NAO — 4ᵉ séance",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 148,
+        "tag": "BUTTON",
+        "text": "Dépôt du PV de septembre",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 160,
+        "tag": "BUTTON",
+        "text": "Réunion de section — Prouvy",
+        "width": 79
+      },
+      {
+        "cls": "",
+        "scroll": 205,
+        "tag": "BUTTON",
+        "text": "Entrée en vigueur — accord télétravail",
+        "width": 79
+      }
+    ],
+    "smallControls": 76,
+    "viewport": 1016
+  },
+  {
+    "screen": "Conversation",
+    "width": 360,
+    "bodyWidth": 352,
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 8,
+    "viewport": 352
+  },
+  {
+    "screen": "Conversation",
+    "width": 390,
+    "bodyWidth": 382,
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 444,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      },
+      {
+        "cls": "",
+        "scroll": 40,
+        "tag": "BUTTON",
+        "text": "CN\n                  \n                    Commission Négociation\n                    ",
+        "width": 22
+      }
+    ],
+    "smallControls": 8,
+    "viewport": 382
+  },
+  {
+    "screen": "Conversation",
+    "width": 768,
+    "bodyWidth": 760,
+    "overflow": [],
+    "smallControls": 8,
+    "viewport": 760
+  },
+  {
+    "screen": "Conversation",
+    "width": 1024,
+    "bodyWidth": 1016,
+    "heading": "Messages",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 344,
+        "tag": "SPAN",
+        "text": "Leïla C. : On maintient l'AG du personnel mardi 12 h 30 ?",
+        "width": 289
+      },
+      {
+        "cls": "",
+        "scroll": 488,
+        "tag": "SPAN",
+        "text": "Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire.",
+        "width": 265
+      },
+      {
+        "cls": "",
+        "scroll": 410,
+        "tag": "SPAN",
+        "text": "Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts.",
+        "width": 289
+      },
+      {
+        "cls": "",
+        "scroll": 416,
+        "tag": "SPAN",
+        "text": "Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.",
+        "width": 263
+      },
+      {
+        "cls": "",
+        "scroll": 183,
+        "tag": "SPAN",
+        "text": "Commission Négociation",
+        "width": 8
+      },
+      {
+        "cls": "",
+        "scroll": 219,
+        "tag": "SPAN",
+        "text": "Vous, Jean-Paul, Leïla, Nadia, Thomas",
+        "width": 8
+      }
+    ],
+    "smallControls": 19,
+    "viewport": 1016
+  },
+  {
+    "screen": "Modale-invitation",
+    "width": 360,
+    "bodyWidth": 352,
+    "heading": "Organisation & membres",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 352
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 12,
+    "viewport": 352
+  },
+  {
+    "screen": "Modale-invitation",
+    "width": 390,
+    "bodyWidth": 382,
+    "heading": "Organisation & membres",
+    "overflow": [
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "HEADER",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 419,
+        "tag": "DIV",
+        "text": "← Retour\n        \n        \n          \n            \n            \n          \n        \n ",
+        "width": 382
+      },
+      {
+        "cls": "",
+        "scroll": 42,
+        "tag": "DIV",
+        "text": "",
+        "width": 28
+      }
+    ],
+    "smallControls": 12,
+    "viewport": 382
+  },
+  {
+    "screen": "Modale-invitation",
+    "width": 768,
+    "bodyWidth": 768,
+    "heading": "Organisation & membres",
+    "overflow": [],
+    "smallControls": 12,
+    "viewport": 768
+  },
+  {
+    "screen": "Modale-invitation",
+    "width": 1024,
+    "bodyWidth": 1024,
+    "heading": "Organisation & membres",
+    "overflow": [],
+    "smallControls": 15,
+    "viewport": 1024
+  }
+]

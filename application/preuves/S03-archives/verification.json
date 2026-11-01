@@ -1,0 +1,24 @@
+{
+  "python": {
+    "passed": 139,
+    "failed": 0
+  },
+  "frontend": {
+    "passed": 28,
+    "failed": 0
+  },
+  "boundaries": "passed",
+  "backup": {
+    "status": "ok",
+    "id": "20261028T094537Z",
+    "active_alerts": []
+  },
+  "source_changes": [
+    "uniion/adapters/agenda.py",
+    "uniion/adapters/convocation_archive.py",
+    "supabase/migrations/202610280071_convocation_archives.sql",
+    "operations/backup_restore.py"
+  ],
+  "frontend_changed": false,
+  "device_testing": "emulated viewports, not physical devices"
+}

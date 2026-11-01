@@ -1,0 +1,40 @@
+Browser tab: 13, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 text uniion CONSOLE D'ADMINISTRATION
+			29 button Supervision
+				30 image
+				31 text Supervision
+			32 button Organisations
+				33 image
+				34 text Organisations
+			10 button Utilisateurs
+				11 image
+				12 text Utilisateurs
+			13 button Clés API IA
+				14 image
+				15 text Clés API IA
+			16 button Éditeur de l’application
+				17 image
+				18 text Éditeur de l’application
+			19 button Abonnements et paiements
+				20 image
+				21 text Abonnements et paiements
+			22 button Journal d’audit
+				23 image
+				24 text Journal d’audit
+			25 text SA Super administrateur admin@uniion.fr
+			26 button Se déconnecter
+		27 container
+			28 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+			35 heading Organisations, Value: 1
+				36 text Organisations
+			37 text Sections, unions et CSE hébergés sur la plateforme. Métallurgie — Valenciennes Section syndicale  · offre  Élu 2.0 MEMBRES 6 ADHÉRENTS 214 REQUÊTES IA / MOIS 1 840 Actif
+			38 button Suspendre
+			39 text UD 59 — Lille Union départementale  · offre  Élu 4.0 MEMBRES 14 ADHÉRENTS 1 320 REQUÊTES IA / MOIS 6 210 Actif
+			40 button Suspendre
+			41 text CSE Brasserie du Nord CSE  · offre  Élu 1.0 MEMBRES 9 ADHÉRENTS 380 REQUÊTES IA / MOIS 420 Essai — 12 j restants
+			42 button Suspendre
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

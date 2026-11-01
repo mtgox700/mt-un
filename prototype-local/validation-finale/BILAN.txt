@@ -1,0 +1,22 @@
+Audio local et contrôle d’affichage admin validés dans le périmètre testé ; impression du compte rendu A4 validée par l’utilisateur. Cela ne clôt pas la recette exhaustive de tous les écrans ni la préparation de production.
+
+Impression : Validé par l’utilisateur : les deux pages du compte rendu s’impriment après correction.
+Limites : Validation du compte rendu A4 de deux pages testé. Les documents très longs, les autres formats et navigateurs restent à couvrir ; aucun PDF exporté n’a été inspecté par l’agent.
+
+1. Figer la référence corrigée
+Nouvelle version de référence distincte de la référence originale : écrans, captures, enchaînements, états vides/erreurs/chargement et composants. Critères de fidélité visuelle et fonctionnelle explicites.
+
+2. Terminer la recette ciblée
+Import des élus, aperçu PDF/images et grandes pièces ; impression longue/A5/paysage ; utilisation sur de vrais téléphones et tablettes (micro, clavier, fichiers). Vérifier les parcours non couverts dans la matrice existante.
+
+3. Arrêter le périmètre de la première version
+Pour chaque fonction : indispensable au lancement ou différée. Décider notamment du hors-ligne complet, de la transcription, des canaux de notification, de la signature électronique et de la facturation. Conserver les enchaînements du prototype pour les fonctions retenues.
+
+4. Définir les données et les droits
+Modèle des organisations, utilisateurs/rôles, dossiers, pièces/versions, réunions, documents et publications ; règles de partage et de suppression ; conservation et migration des données de démonstration séparées des données réelles.
+
+5. Préparer l’architecture OVH/Supabase et les intégrations
+Répartition frontend/backend/stockage, authentification, isolation serveur des organisations, secrets, accès IA de production, transcription et services externes retenus. Environnements de développement, recette et production distincts.
+
+6. Écrire le plan de développement et de livraison
+Lots avec critères de réception : parité prototype, accès croisés interdits, persistance et concurrence multiutilisateur, fichiers, envois réels en environnement de test. Prévoir sauvegardes/restauration, supervision, déploiement et retour arrière.

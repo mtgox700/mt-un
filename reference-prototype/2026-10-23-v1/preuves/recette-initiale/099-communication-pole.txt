@@ -1,0 +1,217 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			165 button Formations
+				166 image
+				167 text Formations
+			168 button Communication
+				169 image
+				170 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			162 button Raccourcis
+				163 image
+				164 text Raccourcis
+			144 button Réglages
+				145 image
+				146 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				171 text unii
+				172 text 1
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			173 text UNII SUGGÈRE
+			174 button 2 idées à transformer en publication
+			175 text MOINS D'ADMINISTRATIF, PLUS DE TERRAIN
+			176 heading Communication, Value: 1
+				177 text Communication
+			178 text Planifiez, rédigez et diffusez la communication de la section vers les salariés et les adhérents. unii accélère l'écriture, l'équipe uniion peut prendre le relais.
+			179 tab group Communication
+				180 tab (selectable, settable, boolean) Plan éditorial 6, Value: 0
+				181 tab (selectable, settable, boolean) Atelier de contenus, Value: 0
+				182 tab (selected, settable, boolean) Pôle communication, Value: 1
+			183 text PÔLE COMMUNICATION UNIION
+			184 heading Donnez de la voix à votre mandat, sans y passer vos soirées, Value: 2
+				185 text Donnez de la voix à votre mandat, sans y passer vos soirées
+			186 container
+				187 text Community management, contenus, réseaux sociaux, print, vidéo et événementiel : l'équipe uniion aide les  représentants syndicaux  à informer les salariés, animer leur communauté et montrer l'impact de leurs actions. L'IA accélère la production, notre équipe garantit la qualité et le ton juste.
+			188 text Réseaux sociaux pilotés Calendrier éditorial Contenus et visuels Modération Reporting Vidéos et témoignages Animation de communauté Veille e-réputation
+			189 heading Votre community manager d'élus, à la carte, Value: 2
+				190 text Votre community manager d'élus, à la carte
+			191 text Déléguez tout ou partie de votre communication, au niveau qui correspond à votre mandat. Ces formules sont distinctes des offres Élu 1.0 à 4.0 ; les abonnés Élu 3.0 et 4.0 bénéficient de conditions préférentielles.
+			192 container
+				193 text Essentiel Une présence régulière
+				194 definition list
+					195 container Réseaux
+						196 text Réseaux
+					197 text 1 au choix
+					198 container Publications
+						199 text Publications
+					200 text Jusqu'à 2 / mois
+					201 container Modération
+						202 text Modération
+					203 text Hebdomadaire
+					204 container Vidéos
+						205 text Vidéos
+					206 text —
+				207 text Reporting mensuel simplifié, délégation partielle légère
+				208 checkbox Choisir Essentiel, Value: 0
+			209 container
+				210 text Confort Accélérez votre communication
+				211 definition list
+					212 container Réseaux
+						213 text Réseaux
+					214 text 1 au choix
+					215 container Publications
+						216 text Publications
+					217 text Jusqu'à 4 / mois
+					218 container Modération
+						219 text Modération
+					220 text 3 fois par semaine
+					221 container Vidéos
+						222 text Vidéos
+					223 text 1 / mois
+				224 text Reporting mensuel
+				225 checkbox Choisir Confort, Value: 0
+			226 container
+				227 text Premium Installez une dynamique éditoriale
+				228 definition list
+					229 container Réseaux
+						230 text Réseaux
+					231 text 1 au choix
+					232 container Publications
+						233 text Publications
+					234 text Jusqu'à 8 / mois
+					235 container Modération
+						236 text Modération
+					237 text Quotidienne
+					238 container Vidéos
+						239 text Vidéos
+					240 text 2 / mois
+				241 text Sondages, questions, jeux concours
+				242 checkbox Formule choisie ✓, Value: 1
+			243 container
+				244 text Excellence Déléguez votre communication
+				245 definition list
+					246 container Réseaux
+						247 text Réseaux
+					248 text Jusqu'à 2
+					249 container Publications
+						250 text Publications
+					251 text Jusqu'à 12 / mois
+					252 container Modération
+						253 text Modération
+					254 text Incluse
+					255 container Vidéos
+						256 text Vidéos
+					257 text 3 / mois
+				258 text Stratégie éditoriale personnalisée, veille e-réputation
+				259 checkbox Choisir Excellence, Value: 0
+			260 container
+				261 text Signature Un accompagnement sur mesure
+				262 definition list
+					263 container Réseaux
+						264 text Réseaux
+					265 text Jusqu'à 3
+					266 container Publications
+						267 text Publications
+					268 text Jusqu'à 16 / mois
+					269 container Modération
+						270 text Modération
+					271 text Incluse
+					272 container Vidéos
+						273 text Vidéos
+					274 text 4 / mois
+				275 text Délégation totale, réactivité sous 24 h ouvrées
+				276 checkbox Choisir Signature, Value: 0
+			277 heading Le socle de toutes les formules, Value: 2
+				278 text Le socle de toutes les formules
+			279 content list
+				280 text Calendrier éditorial mensuel
+				281 text Visuels et contenus créés pour vous
+				282 text Messages adaptés à vos salariés
+				283 text Image de votre mandat sécurisée : hébergement en France, conformité RGPD
+				284 text Interlocuteur dédié (sauf formule Essentiel)
+			285 heading Communiquer utile et responsable, Value: 2
+				286 text Communiquer utile et responsable
+			287 text Informer
+			288 text Rendre clair ce qui ne l'est pas, même un PV indigeste
+			289 text Fédérer
+			290 text Créer des rendez-vous qui rapprochent élus et salariés
+			291 text Valoriser
+			292 text Montrer les actions, avantages et initiatives
+			293 text Engager
+			294 text Donner envie de participer, de répondre, de venir
+			295 heading Tous vos supports, au même endroit, Value: 2
+				296 text Tous vos supports, au même endroit
+			297 text Du tract à la journée bien-être, des supports clairs et cohérents pour vos temps forts.
+			298 container
+				299 text 01 Print Affiches, flyers, brochures, guides, chèques cadeaux, billetterie, cartes et PLV. Vos actions se voient au premier regard.
+			300 container
+				301 text 02 Digital Visuels réseaux, newsletters, bannières, écrans, intranets et signatures mail. Une présence cohérente sur tous les canaux.
+			302 container
+				303 text 03 Vidéo & motion design Des formats courts et percutants pour expliquer vos actions et toucher plus de salariés.
+			304 container
+				305 text 04 Événementiel Kits, invitations, habillages et signalétique pour vos rencontres, salons et journées bien-être.
+			306 container
+				307 text 05 Création sur mesure Une identité propre à votre instance : conseil, création, suivi et personnalisation.
+			308 container
+				309 text 06 Objets personnalisés Welcome packs, cadeaux, textiles et accessoires utiles et durables.
+			310 heading Votre projet, Value: 2
+				311 text Votre projet
+			312 text Du besoin à la création : parlons de vos objectifs, de votre identité et de vos temps forts.
+			313 container
+				314 text Formule envisagée :  Premium  — modifiable ci-dessus.
+			315 text entry area (settable)
+			316 button Demandez votre plan de communication d'élu
+			317 text uniion : accompagnement juridique, économique, formation, solutions digitales, communication et assistance pour les CSE et les syndicats.
+
+The focused UI element is 182 tab (selected, settable, boolean) Pôle communication, Value: 1

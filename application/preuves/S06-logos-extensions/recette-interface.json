@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-29",
+  "viewports": [
+    "1440x1000",
+    "768x1024",
+    "390x844"
+  ],
+  "authorized": [
+    "logo PNG import desktop",
+    "style journal save/reload desktop",
+    "extension block save tablet and mobile"
+  ],
+  "denied": [
+    "remove logo reader all three viewports",
+    "change style reader all three viewports"
+  ],
+  "physical_devices": false
+}

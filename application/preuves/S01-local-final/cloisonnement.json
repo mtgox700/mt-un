@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "test": "own_org_0",
+      "ok": true
+    },
+    {
+      "test": "forged_org_0",
+      "ok": true
+    },
+    {
+      "test": "foreign_resource_same_org_parameter_0",
+      "ok": true
+    },
+    {
+      "test": "direct_rest_rls_0",
+      "ok": true
+    },
+    {
+      "test": "own_org_1",
+      "ok": true
+    },
+    {
+      "test": "forged_org_1",
+      "ok": true
+    },
+    {
+      "test": "foreign_resource_same_org_parameter_1",
+      "ok": true
+    },
+    {
+      "test": "direct_rest_rls_1",
+      "ok": true
+    },
+    {
+      "test": "member_without_business_rights",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "invalid_token_denied",
+      "ok": true
+    },
+    {
+      "test": "unnamed_partner_denied",
+      "ok": true
+    }
+  ],
+  "passed": true,
+  "count": 12,
+  "database_mutations": "Auth sessions only; business data and rights untouched"
+}

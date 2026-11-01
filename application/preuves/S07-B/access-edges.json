@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "count": 26,
+  "checks": [
+    {
+      "test": "login_author",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "login_other",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "org_admin_outsider_no_read",
+      "ok": true
+    },
+    {
+      "test": "org_admin_outsider_no_manage",
+      "ok": true
+    },
+    {
+      "test": "direct_bad_create_6",
+      "ok": true
+    },
+    {
+      "test": "direct_bad_create_7",
+      "ok": true
+    },
+    {
+      "test": "direct_bad_create_8",
+      "ok": true
+    },
+    {
+      "test": "direct_bad_create_9",
+      "ok": true
+    },
+    {
+      "test": "direct_bad_create_10",
+      "ok": true
+    },
+    {
+      "test": "direct_bad_member_role_11",
+      "ok": true
+    },
+    {
+      "test": "direct_bad_history_grant_12",
+      "ok": true
+    },
+    {
+      "test": "direct_bad_history_grant_13",
+      "ok": true
+    },
+    {
+      "test": "direct_bad_history_grant_14",
+      "ok": true
+    },
+    {
+      "test": "direct_bad_leave_15",
+      "ok": true
+    },
+    {
+      "test": "foreign_organization_denied",
+      "ok": true
+    },
+    {
+      "test": "grant_audited",
+      "ok": true
+    },
+    {
+      "test": "grants_private",
+      "ok": true
+    },
+    {
+      "test": "internal_rpc_not_executable",
+      "ok": true
+    },
+    {
+      "test": "inaccessible_successor_cannot_allow_leave",
+      "ok": true
+    },
+    {
+      "test": "unreadable_recipient_history_denied",
+      "ok": true
+    },
+    {
+      "test": "suspended_recipient_history_denied",
+      "ok": true
+    },
+    {
+      "test": "concurrent_versions_one_winner",
+      "ok": true
+    },
+    {
+      "test": "stale_episode_not_exposed",
+      "ok": true
+    },
+    {
+      "test": "org_reinvite_fresh_period",
+      "ok": true
+    }
+  ]
+}

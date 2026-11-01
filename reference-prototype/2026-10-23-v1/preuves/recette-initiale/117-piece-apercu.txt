@@ -1,0 +1,108 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			305 button Accueil
+				306 image
+				307 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			311 button Dossiers
+				312 image
+				313 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			165 button Formations
+				166 image
+				167 text Formations
+			302 button Communication
+				303 image
+				304 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			162 button Raccourcis
+				163 image
+				164 text Raccourcis
+			308 button Réglages
+				309 image
+				310 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable) RECETTE
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				314 text unii
+				315 text 2
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		316 container
+			317 text UNII SUGGÈRE
+			318 button Échéance dans 24 h · Signalement — Service Logistique
+			319 button Échéance dans 4 h · Accident Atelier B
+			320 text COFFRE DU DOSSIER
+			321 heading Pièces jointes, Value: 1
+				322 text Pièces jointes
+			323 text Nouveau dossier sans titre · 1 pièce chiffrée
+			324 button Déposer un document PDF, image, audio · 25 Mo max · chiffré à l'envoi
+				325 image
+				326 text Déposer un document
+				327 text PDF, image, audio · 25 Mo max · chiffré à l'envoi
+			328 button PDF Courriel DRH 26-08.pdf 512 Ko · ajouté par Sophie M. le 26 août v1
+				329 text PDF
+				330 text Courriel DRH 26-08.pdf
+				331 text 512 Ko · ajouté par Sophie M. le 26 août
+				332 text v1
+			333 heading Courriel DRH 26-08.pdf, Value: 2
+				334 text Courriel DRH 26-08.pdf
+			335 text Version 1 · 512 Ko · Sophie M. · 26 août
+			336 text PDF Document déposé depuis le mobile — chiffré côté client avant envoi.
+			337 button Ouvrir l'aperçu
+			338 text VERSIONS
+			339 text v1 Version courante · 26 août
+			340 button Télécharger
+			341 button Déposer une nouvelle version
+			342 button Joindre à un courrier
+			343 button Supprimer la pièce
+			344 text TRAÇABILITÉ
+			345 text Chaque dépôt, ouverture et suppression est horodaté dans le journal d'audit. Les pièces suivent la durée de conservation du dossier (5 ans).
+		346 container
+			347 text APERÇU CHIFFRÉ Courriel DRH 26-08.pdf Version 1 · 512 Ko · Sophie M. · 26 août
+			348 button Fermer l'aperçu
+			349 text Document déposé depuis le mobile — chiffré côté client avant envoi. Consultation tracée dans le journal d'audit du dossier — déchiffrement local, aucun envoi au serveur.
+			350 button Faire signer
+			351 button Fermer
+		352 text Aperçu ouvert — consultation tracée dans le journal
+
+The focused UI element is 337 button Ouvrir l'aperçu

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Développement uniion"
+  short_description: "Développer uniion avec fidélité, isolation et preuves"
+  default_prompt: "Utilise $uniion-developpement pour réaliser le prochain lot uniion en respectant les décisions S00 et en produisant sa recette."

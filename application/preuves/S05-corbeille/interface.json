@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-29",
+  "environment": "Supabase local unii / application 5068",
+  "formats": [
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "business_request": true,
+      "super_admin_approval": true,
+      "business_restore": true,
+      "admin_business_access_denied": true,
+      "business_admin_access_denied": true,
+      "horizontal_overflow": false
+    },
+    {
+      "name": "tablette",
+      "width": 768,
+      "height": 1024,
+      "business_request": true,
+      "super_admin_approval": true,
+      "business_restore": true,
+      "admin_business_access_denied": true,
+      "business_admin_access_denied": true,
+      "horizontal_overflow": false
+    },
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "business_request": true,
+      "super_admin_approval": true,
+      "business_restore": true,
+      "admin_business_access_denied": true,
+      "business_admin_access_denied": true,
+      "horizontal_overflow": false
+    }
+  ],
+  "restored_download_identical": true,
+  "notes": [
+    "Émulation de viewports, pas appareils physiques.",
+    "Ajouts fonctionnels validés explicitement par utilisateur ; composants existants réutilisés.",
+    "Super admin de recette déjà habilité utilisé ; aucun nouveau rôle global attribué.",
+    "Une erreur SQL de liste a été corrigée par migration 102 avant la recette finale."
+  ]
+}

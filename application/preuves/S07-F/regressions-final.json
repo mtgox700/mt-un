@@ -1,0 +1,12 @@
+[
+  {
+    "suite": "s07_messaging",
+    "exit": 0,
+    "seconds": 12.66
+  },
+  {
+    "suite": "s07_discovery",
+    "exit": 1,
+    "seconds": 45.44
+  }
+]

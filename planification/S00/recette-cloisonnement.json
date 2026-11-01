@@ -1,0 +1,142 @@
+[
+  {
+    "id": "ISO-01",
+    "scenario": "lecture par ID A→B",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-02",
+    "scenario": "liste/comptage A→B",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-03",
+    "scenario": "création avec organisation B",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-04",
+    "scenario": "modification/suppression A→B",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-05",
+    "scenario": "référence enfant A vers parent B",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-06",
+    "scenario": "fichier et URL temporaire",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-07",
+    "scenario": "recherche et index vectoriel",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-08",
+    "scenario": "contexte/citations/mémoire IA",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-09",
+    "scenario": "abonnement temps réel",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-10",
+    "scenario": "export et artefacts dérivés",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-11",
+    "scenario": "job lancé avant révocation",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-12",
+    "scenario": "changement compte/cache hors ligne",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-13",
+    "scenario": "admin organisation sans ACL sensible",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-14",
+    "scenario": "super admin sans accès métier",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-15",
+    "scenario": "extension avec permission déclarée mais non accordée",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-16",
+    "scenario": "invité expiré",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-17",
+    "scenario": "utilisateur multi-organisations avec organisation active incorrecte",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-18",
+    "scenario": "média privé référencé dans publication publique",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-19",
+    "scenario": "transfert source autorisée vers destination interdite",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  },
+  {
+    "id": "ISO-20",
+    "scenario": "réactivation module sans élargir les droits",
+    "jeu": "Organisations A/B ; utilisateurs a,b,multi,adminA,super,invité ; dossier A restreint ; conversation privée A",
+    "attendu": "Refus ou filtrage sans fuite de contenu, métadonnée ou effet secondaire ; cas autorisé témoin à conserver",
+    "statut": "Spécifié, NON EXÉCUTÉ (architecture cible absente)"
+  }
+]

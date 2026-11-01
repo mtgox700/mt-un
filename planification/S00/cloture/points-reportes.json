@@ -1,0 +1,79 @@
+[
+  {
+    "id": "R01",
+    "sujet": "Fournisseurs IA, transcription, email, push ; signature optionnelle",
+    "echeance": "Avant S08/S09/S10 et intégrations concernées ; signature avant module dédié",
+    "action": "Choisir fournisseur, localisation, conditions et coûts ; aucun flux réel avant approbation",
+    "statut": "Report explicite D09"
+  },
+  {
+    "id": "R02",
+    "sujet": "Suppression fournisseurs et rotation sauvegardes vs validation super admin",
+    "echeance": "Avant activation des flux et sauvegardes réels",
+    "action": "Résoudre purge automatique et approbation ; ne pas promettre 30 jours exacts si approbation retardée",
+    "statut": "Report explicite D07/D09"
+  },
+  {
+    "id": "R03",
+    "sujet": "Infrastructure et reprise",
+    "echeance": "S01 conception ; preuve avant production S15",
+    "action": "Région, offre, capacité, chiffrement, clés, sauvegardes indépendantes base+fichiers ; démontrer RPO 1h/RTO 8h",
+    "statut": "Détails techniques ouverts"
+  },
+  {
+    "id": "R04",
+    "sujet": "Migration du stockage prototype",
+    "echeance": "S01–S03 stratégie ; chaque module avant données réelles",
+    "action": "57 champs et 4 familles annexes explicitement traités dans consolidation/MIGRATION.html ; import opt-in, secrets exclus, droits reconstruits, reprise et rollback définis.",
+    "statut": "Réserve de spécification levée en S00 ; implémentation et répétition migration à S01/par module"
+  },
+  {
+    "id": "R05",
+    "sujet": "Conservation métier",
+    "echeance": "Avant données réelles de chaque module",
+    "action": "Durées par catégorie, demandes de suppression, lots approuvés, restitutions et protection des sauvegardes",
+    "statut": "Détails D07 ouverts"
+  },
+  {
+    "id": "R06",
+    "sujet": "Facturation par module",
+    "echeance": "Socle droits commerciaux S02 ; avant activation payante",
+    "action": "Tarifs, périodicité, renouvellement, impayés, gestes commerciaux, restitution et partage entre organisations ; fournisseur paiement à choisir",
+    "statut": "Détails D05 ouverts"
+  },
+  {
+    "id": "R07",
+    "sujet": "Hors ligne",
+    "echeance": "Préparer dès S01/S02 ; implémentation S13",
+    "action": "Bornes durée et autorité admin ; clés, appareils, conflits, rejet opérations, quotas, reprise audio ; RPO ne couvre pas données uniquement locales",
+    "statut": "D08 accepté ; ingénierie et tests ouverts"
+  },
+  {
+    "id": "R08",
+    "sujet": "Contrats et modèle consolidés",
+    "echeance": "Avant implémentation des modules concernés",
+    "action": "95 entités, 40 opérations, 9 commandes transactionnelles et 16 scénarios sécurité consolidés ; décisions D01–D13 intégrées ; aucun SQL déployé.",
+    "statut": "Réserve S00 levée au niveau logique et contrats ; migrations SQL/politiques à développer"
+  },
+  {
+    "id": "R09",
+    "sujet": "Référence et recette complète",
+    "echeance": "G0 / début S01 puis chaque sprint",
+    "action": "60 routes dans 3 formats (180 captures), références connexion/MFA/modales, 117 images historiques indexées, surfaces/variantes archivées. Écarts prototype/cible explicités ; clavier physique et toutes combinaisons non déclarés testés.",
+    "statut": "Référence S00 complétée ; recette comportementale exhaustive à exécuter par module"
+  },
+  {
+    "id": "R10",
+    "sujet": "Capacité et calendrier",
+    "echeance": "Avant engagement de dates ; réestimer après S03",
+    "action": "Fixer capacité réelle, estimer backlog et responsabilités de recette ; semaines roadmap indicatives",
+    "statut": "D10"
+  },
+  {
+    "id": "R11",
+    "sujet": "Tests sécurité et restauration",
+    "echeance": "S01 puis chaque module ; preuve globale S15",
+    "action": "Mettre à jour cas ISO/SEC pour exceptions explicitement validées D02/D04/D06/D12 ; tests négatifs API/base/fichiers/recherche/jobs et exercice restauration",
+    "statut": "Aucun test production exécuté en S00"
+  }
+]

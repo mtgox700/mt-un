@@ -1,0 +1,100 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Communication
+  - heading "Message aux adhérents" [level=1]
+  - tablist "Choix des destinataires":
+    - tab "Sélection / filtres" [selected]
+    - tab "Liste de diffusion"
+  - generic: Adhérents filtrés
+  - generic: 12 destinataires
+  - generic: KB
+  - generic: Karim Benali
+  - generic: SL
+  - generic: Sandrine Lemoine
+  - generic: MF
+  - generic: Mehdi Fournier
+  - generic: AP
+  - generic: Aurélie Pruvost
+  - generic: TD
+  - generic: Thierry Dubois
+  - generic: NC
+  - generic: Nadia Cherif
+  - generic: PV
+  - generic: Pascal Vandenberghe
+  - generic: ER
+  - generic: Émilie Roussel
+  - generic: + 4 autres
+  - heading "Canal" [level=2]
+  - button "E-mail" [pressed]
+  - button "SMS"
+  - button "Notification app"
+  - heading "Modèles de message" [level=2]
+  - button "Relance de cotisation"
+  - button "Convocation à l'assemblée"
+  - button "Bienvenue au nouvel adhérent"
+  - button "Point sur les négociations"
+  - generic: Objet
+  - textbox "Objet":
+    - /placeholder: Objet du message…
+  - generic: Message
+  - textbox "Message":
+    - /placeholder: Votre message aux adhérents…
+  - generic: Joindre le bulletin d'adhésion
+  - generic: Pièce jointe générée depuis le modèle de la bibliothèque documentaire, à la charte de l'organisation.
+  - switch "Joindre le bulletin d'adhésion"
+  - button "Envoyer"
+  - button "Annuler"
+  - heading "Aperçu de l'envoi" [level=2]
+  - paragraph: "E-mail envoyé en copie cachée : les adhérents ne voient jamais la liste des destinataires."
+  - generic: Objet
+  - heading "Lien avec les documents" [level=2]
+  - paragraph: "Le bulletin d'adhésion est un modèle de la bibliothèque : identité, situation professionnelle, cotisation, mandat SEPA et mention RGPD sur la donnée sensible."
+  - button "Ouvrir le modèle de bulletin dans l'éditeur →"

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/tests/s07_f_regressions.py", line 9, in <module>
+    runpy.run_path(str(Path(__file__).with_name(name+'.py')),run_name='__main__')
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/tests/s07_volume_edges.py", line 9, in <module>
+    check('unread_equivalent_'+label,sql(query).splitlines()[-1]=='t')
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/tests/s07_volume_edges.py", line 26, in check
+AssertionError: unread_equivalent_author

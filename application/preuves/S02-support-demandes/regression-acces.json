@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "count": 34,
+  "checks": [
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "login_manager",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "manager_mfa",
+      "ok": true
+    },
+    {
+      "test": "login_agent",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "agent_mfa",
+      "ok": true
+    },
+    {
+      "test": "assignment_no_access",
+      "ok": true
+    },
+    {
+      "test": "agent_no_approval",
+      "ok": true
+    },
+    {
+      "test": "unknown_agent_denied",
+      "ok": true
+    },
+    {
+      "test": "empty_agents_denied",
+      "ok": true
+    },
+    {
+      "test": "unowned_resource_denied",
+      "ok": true
+    },
+    {
+      "test": "too_long_expiry_denied",
+      "ok": true
+    },
+    {
+      "test": "wrong_org_denied",
+      "ok": true
+    },
+    {
+      "test": "explicit_approval",
+      "ok": true
+    },
+    {
+      "test": "named_agent_read",
+      "ok": true
+    },
+    {
+      "test": "unnamed_agent_denied",
+      "ok": true
+    },
+    {
+      "test": "download_denied",
+      "ok": true
+    },
+    {
+      "test": "other_resource_denied",
+      "ok": true
+    },
+    {
+      "test": "other_org_read_denied",
+      "ok": true
+    },
+    {
+      "test": "immutable_selected_version",
+      "ok": true
+    },
+    {
+      "test": "revoke",
+      "ok": true
+    },
+    {
+      "test": "revoked_read_denied",
+      "ok": true
+    },
+    {
+      "test": "download_approval",
+      "ok": true
+    },
+    {
+      "test": "controlled_download",
+      "ok": true
+    },
+    {
+      "test": "expiry_denied",
+      "ok": true
+    },
+    {
+      "test": "close",
+      "ok": true
+    },
+    {
+      "test": "closed_read_denied",
+      "ok": true
+    },
+    {
+      "test": "closed_download_denied",
+      "ok": true
+    },
+    {
+      "test": "reopen",
+      "ok": true
+    },
+    {
+      "test": "reopen_no_reactivation",
+      "ok": true
+    },
+    {
+      "test": "module_disabled_denied",
+      "ok": true
+    },
+    {
+      "test": "agent_still_no_membership_resources",
+      "ok": true
+    }
+  ]
+}

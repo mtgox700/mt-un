@@ -1,0 +1,86 @@
+{
+  "date": "24 octobre 2026",
+  "audio": {
+    "etat": "Validé dans le navigateur local",
+    "preuves": [
+      "WAV réel de 12 secondes importé, réunion créée, lecture démarrée et journalisée.",
+      "Capture micro réelle : environ 9 secondes actives, pause/reprise et marqueur Décision à 7 secondes.",
+      "Sauvegarde, relecture, persistance après rechargement et lecture depuis le marqueur réussies."
+    ],
+    "limites": [
+      "La qualité acoustique au haut-parleur n’a pas été évaluée par écoute humaine.",
+      "Transcription, chiffrement applicatif et destruction certifiée restent non connectés."
+    ]
+  },
+  "admin": {
+    "etat": "21 parcours affichés : 7 rubriques × 390, 768 et 1024 pixels",
+    "correction": "Badge du journal tronqué corrigé par dimensionnement de la colonne et retour à la ligne ; retest visuel mobile/tablette.",
+    "limite": "Disposition d’origine conservée : défilement horizontal requis à 390 et 768 pixels. Ce n’est pas une refonte responsive. Les services de production ne sont pas validés."
+  },
+  "impression": {
+    "etat": "Validé par l’utilisateur : les deux pages du compte rendu s’impriment après correction.",
+    "corrections": [
+      "Masquage de la navigation et de l’éditeur uniquement en impression.",
+      "Sauts de page déplacés sur les conteneurs de pages ; suppression du saut final.",
+      "Dimensions des pages conservées, suppression du zoom de prévisualisation à l’impression.",
+      "Position relative des pages à l’impression : les pages absolues se superposaient dans des conteneurs de hauteur nulle."
+    ],
+    "preuves": [
+      "Document A4 de 2 pages présent dans le DOM ; chaque page mesure 794 × 1123 px sans débordement vertical (scrollHeight = height).",
+      "Confirmation utilisateur le 24 octobre 2026 : « C’est bon, les deux pages s’impriment maintenant. »"
+    ],
+    "limites": "Validation du compte rendu A4 de deux pages testé. Les documents très longs, les autres formats et navigateurs restent à couvrir ; aucun PDF exporté n’a été inspecté par l’agent."
+  },
+  "corrections_audio": [
+    "Annulation micro : libération d’un flux reçu tardivement et absence de reprise simulée après refus tardif.",
+    "Navigation : mise en pause de la capture et arrêt de la lecture ; libération du micro à la déconnexion.",
+    "Sauvegarde attend le dernier fragment MediaRecorder ; durée précise affichée pour les nouveaux enregistrements.",
+    "Les marqueurs déclenchent maintenant une lecture au repère temporel.",
+    "Suppression des annonces erronées de chiffrement, transcription et destruction automatique sur le parcours audio."
+  ],
+  "validation": "69 tests réussis : 20 régressions + 30 étape 1 + 15 fichiers/audio + 4 exports Python. Référence gelée : 324 fichiers inchangés.",
+  "avant_developpement_final": [
+    {
+      "etape": 1,
+      "titre": "Figer la référence corrigée",
+      "livrable": "Nouvelle version de référence distincte de la référence originale : écrans, captures, enchaînements, états vides/erreurs/chargement et composants. Critères de fidélité visuelle et fonctionnelle explicites.",
+      "statut": "À constituer ; la référence originale demeure intacte."
+    },
+    {
+      "etape": 2,
+      "titre": "Terminer la recette ciblée",
+      "livrable": "Import des élus, aperçu PDF/images et grandes pièces ; impression longue/A5/paysage ; utilisation sur de vrais téléphones et tablettes (micro, clavier, fichiers). Vérifier les parcours non couverts dans la matrice existante.",
+      "statut": "À compléter sans rouvrir les contrôles déjà validés."
+    },
+    {
+      "etape": 3,
+      "titre": "Arrêter le périmètre de la première version",
+      "livrable": "Pour chaque fonction : indispensable au lancement ou différée. Décider notamment du hors-ligne complet, de la transcription, des canaux de notification, de la signature électronique et de la facturation. Conserver les enchaînements du prototype pour les fonctions retenues.",
+      "statut": "Arbitrages à venir."
+    },
+    {
+      "etape": 4,
+      "titre": "Définir les données et les droits",
+      "livrable": "Modèle des organisations, utilisateurs/rôles, dossiers, pièces/versions, réunions, documents et publications ; règles de partage et de suppression ; conservation et migration des données de démonstration séparées des données réelles.",
+      "statut": "À spécifier avant implémentation Supabase."
+    },
+    {
+      "etape": 5,
+      "titre": "Préparer l’architecture OVH/Supabase et les intégrations",
+      "livrable": "Répartition frontend/backend/stockage, authentification, isolation serveur des organisations, secrets, accès IA de production, transcription et services externes retenus. Environnements de développement, recette et production distincts.",
+      "statut": "À concevoir ; le pont IA local lié au compte ChatGPT ne vaut pas architecture de production."
+    },
+    {
+      "etape": 6,
+      "titre": "Écrire le plan de développement et de livraison",
+      "livrable": "Lots avec critères de réception : parité prototype, accès croisés interdits, persistance et concurrence multiutilisateur, fichiers, envois réels en environnement de test. Prévoir sauvegardes/restauration, supervision, déploiement et retour arrière.",
+      "statut": "À préparer avant lancement du développement final ; exécution des tests de production pendant et après celui-ci."
+    }
+  ],
+  "conclusion": "Audio local et contrôle d’affichage admin validés dans le périmètre testé ; impression du compte rendu A4 validée par l’utilisateur. Cela ne clôt pas la recette exhaustive de tous les écrans ni la préparation de production.",
+  "responsive_24_octobre": {
+    "statut": "Le prototype n’est pas entièrement responsive, et sa disposition mobile ne constitue pas encore une UX adaptée sur tous les parcours.",
+    "rapport": "../audit-responsive/BILAN-RESPONSIVE.html",
+    "action": "Valider des variantes mobiles avant de figer la référence finale."
+  }
+}

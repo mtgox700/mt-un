@@ -1,0 +1,122 @@
+[
+  {
+    "suite": "module-contract.test.mjs",
+    "exit": 0,
+    "summary": "6 module contract checks passed",
+    "failure": ""
+  },
+  {
+    "suite": "actions.test.mjs",
+    "exit": 0,
+    "summary": "PASS note updates case and clears draft\nPASS empty note ignored\nPASS current case fallback preserved\nPASS empty contact name rejected\nPASS contact creation\nPASS contact rename updates direct conversation\nPASS contact removal updates group and direct links\nPASS contacts cannot write conversations directly\nPASS theme publication preserves inheritance\nPASS color conversion unchanged\n10 action checks passed",
+    "failure": ""
+  },
+  {
+    "suite": "admin-import.test.mjs",
+    "exit": 0,
+    "summary": "9 administrative import assertions passed",
+    "failure": ""
+  },
+  {
+    "suite": "admin-presenter.test.mjs",
+    "exit": 0,
+    "summary": "PASS member summary and pending count\nPASS onboarding imports through explicit contacts port\nPASS suspend and reactivate preserve other member\nPASS invited action preserves status\nPASS removal callback scoped to selected member\nPASS invitation delegates shared overlay\nPASS site selection uses explicit host port\nPASS admin cannot mutate contacts\n8 administrative presenter checks passed",
+    "failure": ""
+  },
+  {
+    "suite": "auth-resume.test.mjs",
+    "exit": 1,
+    "summary": "",
+    "failure": "rvices/auth-s01.js:5\n const originalGo=controller.go.bind(controller);let navigating=false;\n                                ^\n\nTypeError: Cannot read properties of undefined (reading 'bind')\n    at attachS01Auth (file:///Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/frontend/services/auth-s01.js:5:33)\n    at file:///Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/frontend/state/auth-resume.test.mjs:4:12\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async node:internal/modules/esm/loader:643:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v24.19.0"
+  },
+  {
+    "suite": "campaign-presenter.test.mjs",
+    "exit": 0,
+    "summary": "PASS recipient summary capped at eight\nPASS subject input updates module\nPASS channel changes preview\nPASS attachment toggle\nPASS send uses campaign service\nPASS cancel preserves route\nPASS bulletin opens document port\n7 campaign presenter checks passed",
+    "failure": ""
+  },
+  {
+    "suite": "campaigns-ai.test.mjs",
+    "exit": 0,
+    "summary": "PASS selected recipients resolved\nPASS campaign creates direct thread and journal\nPASS no recipients refuses delivery\nPASS empty subject refuses delivery\nPASS contacts cannot directly write conversations\nPASS residual identity blocks AI\nPASS one in-flight call and origin preserved\nPASS AI failure visible and busy cleared\nPASS JSON envelope preserved\nPASS invalid JSON refused\n10 campaign/AI checks passed",
+    "failure": ""
+  },
+  {
+    "suite": "identity-edits.test.mjs",
+    "exit": 0,
+    "summary": "11 edit assertions passed",
+    "failure": ""
+  },
+  {
+    "suite": "identity-s01.test.mjs",
+    "exit": 0,
+    "summary": "10 identity hydration assertions passed",
+    "failure": ""
+  },
+  {
+    "suite": "invitation.test.mjs",
+    "exit": 0,
+    "summary": "PASS closed by default\nPASS opening resets draft\nPASS empty submission refused\nPASS role selection isolated\nPASS input clears error\nPASS submission remains simulation without member creation\nPASS duplicate submit ignored\nPASS follow closes and navigates\nPASS reopening clears prior completion and choice\nPASS cancel leaves other overlays and contacts intact\n10 invitation checks passed",
+    "failure": ""
+  },
+  {
+    "suite": "invitations-s01.test.mjs",
+    "exit": 0,
+    "summary": "PASS bad organization rejected\nPASS invalid addresses fail before network\nPASS anonymous session refused\nPASS same origin csrf exact payload and deduplication\nPASS denial surfaced without false success\n5 S01 transport checks passed",
+    "failure": ""
+  },
+  {
+    "suite": "member-filter.test.mjs",
+    "exit": 0,
+    "summary": "PASS initial list\nPASS company filter resets page\nPASS combined filters exclude mismatches\nPASS case insensitive text search\nPASS selection toggles without changing data\nPASS detail lookup\nPASS criteria labels retained\n7 member filter checks passed",
+    "failure": ""
+  },
+  {
+    "suite": "member-management.test.mjs",
+    "exit": 0,
+    "summary": "PASS edit uses separate draft\nPASS invalid email rejected\nPASS valid edit saved\nPASS cancel discards changes\nPASS paid updates status\nPASS empty import does nothing\nPASS duplicate csv refused\nPASS sample loading does not import\n8 management checks passed\nPASS admin duplicate checked case insensitively against members\nPASS existing adherent may become an organisation member\n10 total management checks passed",
+    "failure": ""
+  },
+  {
+    "suite": "members-s01.test.mjs",
+    "exit": 0,
+    "summary": "13 assertions passed",
+    "failure": ""
+  },
+  {
+    "suite": "menus.test.mjs",
+    "exit": 0,
+    "summary": "PASS reply closes menu and preserves snippet\nPASS private reply uses contact port\nPASS forward initializes selection\nPASS case picker uses dedicated port\nPASS picker lists and routes selected case\nPASS picker filters without mutating cases\nPASS picker creates with preserved payload\nPASS picker closes without deleting content\nPASS copy delegates clipboard\n9 menu checks passed",
+    "failure": ""
+  },
+  {
+    "suite": "messaging.test.mjs",
+    "exit": 0,
+    "summary": "ect conversation isolated\nPASS forward to selected discussion\nPASS group validation\nPASS group creation\nPASS member removal updates membership and log\nPASS thread to case passes context through port\nPASS messaging cannot write dossiers\nPASS case busy flag prevents duplicate creation\nPASS async case result stored in cases only\nPASS AI failure preserves case fallback\n15 messaging checks passed\nPASS broadcast delegates contact journal and preserves delivery metadata\nFINAL 16 messaging checks passed",
+    "failure": ""
+  },
+  {
+    "suite": "module-stores.test.mjs",
+    "exit": 0,
+    "summary": "PASS cross module transaction notifies once\nPASS prototype pollution refused atomically\nPASS navigation records route\nPASS back restores previous route\nPASS separate instances isolated\n16 checks passed\nPASS contacts independent lookup\nPASS static group selection\nPASS dynamic group filtering\nPASS theme site inheritance\nPASS theme draft isolated from published\nPASS theme cannot overwrite contacts\nTOTAL 22 checks passed\nPASS shallow frozen input cannot bypass nested isolation\nFINAL 23 checks passed",
+    "failure": ""
+  },
+  {
+    "suite": "permissions-navigation.test.mjs",
+    "exit": 0,
+    "summary": "6 navigation assertions passed",
+    "failure": ""
+  },
+  {
+    "suite": "presenters.test.mjs",
+    "exit": 0,
+    "summary": "PASS list rendered from owned state\nPASS list action uses navigation port\nPASS filter searches message content\nPASS message selection updates owned state\nPASS selection cleared by assistant panel\nPASS closed modals return empty view models\n6 presenter checks passed",
+    "failure": ""
+  },
+  {
+    "suite": "shared-content.test.mjs",
+    "exit": 0,
+    "summary": "4 safe rendering assertions passed",
+    "failure": ""
+  }
+]

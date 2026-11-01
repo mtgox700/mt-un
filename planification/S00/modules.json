@@ -1,0 +1,174 @@
+[
+  {
+    "module": "socle",
+    "responsabilite": "Identité, organisation active, navigation, UI, droits ; services transversaux séparés du métier",
+    "contrats_proposes": "Contrats de session, autorisation, fichiers, recherche, audit et jobs",
+    "regle": "Jamais de lecture globale implicite de contenus",
+    "routes": [
+      "accueil",
+      "raccourcis",
+      "extensions",
+      "notifs",
+      "recherche",
+      "params",
+      "profil",
+      "prefs",
+      "securite",
+      "iasecu",
+      "rgpd",
+      "membres",
+      "apikey",
+      "memoire",
+      "offline",
+      "onboarding",
+      "admin",
+      "contacts",
+      "unii",
+      "marque"
+    ]
+  },
+  {
+    "module": "plateforme",
+    "responsabilite": "Organisations, activation modules, quotas, exploitation et abonnements globaux",
+    "contrats_proposes": "Opérations plateforme autorisées côté serveur",
+    "regle": "Super admin seul ; sans lecture métier par défaut",
+    "routes": [
+      "plateforme:supervision",
+      "plateforme:organisations",
+      "plateforme:utilisateurs",
+      "plateforme:cles",
+      "plateforme:editeur",
+      "plateforme:facturation",
+      "plateforme:journaux"
+    ]
+  },
+  {
+    "module": "dossiers",
+    "responsabilite": "Dossiers, ACL, notes, historique, pièces liées",
+    "contrats_proposes": "appendEvidence, attachDocument, getAuthorizedContext",
+    "regle": "ACL du dossier obligatoire, y compris sur dérivés",
+    "routes": [
+      "dossiers",
+      "dossier",
+      "nouveau",
+      "pieces"
+    ]
+  },
+  {
+    "module": "adherents",
+    "responsabilite": "Adhérents, cotisations, listes, imports",
+    "contrats_proposes": "resolveAuthorizedRecipients, getContactProjection",
+    "regle": "Droits explicites fichier adhérents ; annuaire minimisé",
+    "routes": [
+      "adherents",
+      "adherent",
+      "adhmsg",
+      "adhimport"
+    ]
+  },
+  {
+    "module": "messagerie",
+    "responsabilite": "Conversations, participants, messages",
+    "contrats_proposes": "getAuthorizedMessages, transferMessage",
+    "regle": "Participants autorisés uniquement",
+    "routes": [
+      "messagerie",
+      "thread"
+    ]
+  },
+  {
+    "module": "documents",
+    "responsabilite": "Documents, versions, modèles, export, signatures",
+    "contrats_proposes": "createFromContext, exportAuthorizedDocument",
+    "regle": "Dérivés au moins aussi restreints que leur source",
+    "routes": [
+      "tract",
+      "documents",
+      "docedit",
+      "signature",
+      "viewer"
+    ]
+  },
+  {
+    "module": "agenda",
+    "responsabilite": "Événements, participants, rappels",
+    "contrats_proposes": "createEvent, listVisibleEvents",
+    "regle": "Visibilité par événement ; rappels filtrés",
+    "routes": [
+      "agenda"
+    ]
+  },
+  {
+    "module": "reunions",
+    "responsabilite": "Séances, consentements, audio, transcription, PV",
+    "contrats_proposes": "requestTranscription, approveMinutes",
+    "regle": "Audio/transcription/PV contrôlés séparément",
+    "routes": [
+      "reunions",
+      "record",
+      "reunion"
+    ]
+  },
+  {
+    "module": "assistant",
+    "responsabilite": "Conversations IA et mémoire ; passerelle IA partagée",
+    "contrats_proposes": "generateWithAuthorizedContext",
+    "regle": "Intersection organisation + utilisateur + ACL des sources",
+    "routes": [
+      "assistant"
+    ]
+  },
+  {
+    "module": "sondages",
+    "responsabilite": "Sondages, éligibilité, votes, résultats",
+    "contrats_proposes": "createPoll, getAuthorizedAggregates",
+    "regle": "Identité d’éligibilité séparée du bulletin selon modèle choisi",
+    "routes": [
+      "sondages",
+      "sondage",
+      "newpoll"
+    ]
+  },
+  {
+    "module": "communication",
+    "responsabilite": "Plan éditorial, brouillons, campagnes",
+    "contrats_proposes": "prepareCampaign, requestPublication",
+    "regle": "Validation et destination explicites",
+    "routes": [
+      "communication"
+    ]
+  },
+  {
+    "module": "publications",
+    "responsabilite": "Sites, pages, versions, validations, publication FO",
+    "contrats_proposes": "previewPage, publishApprovedVersion",
+    "regle": "Interne par défaut ; publication explicite par destination",
+    "routes": [
+      "intranet",
+      "webgen",
+      "webedit",
+      "webpub",
+      "webqueue",
+      "webcharte",
+      "mobile"
+    ]
+  },
+  {
+    "module": "formations",
+    "responsabilite": "Catalogues, sessions, progression, attestations",
+    "contrats_proposes": "startSession, getOwnProgress",
+    "regle": "Progression personnelle, agrégats autorisés",
+    "routes": [
+      "formations"
+    ]
+  },
+  {
+    "module": "reporting",
+    "responsabilite": "Définitions d’indicateurs et projections",
+    "contrats_proposes": "buildAuthorizedReport",
+    "regle": "Ne contourne pas les droits via agrégations ou exports",
+    "routes": [
+      "reporting"
+    ]
+  }
+]

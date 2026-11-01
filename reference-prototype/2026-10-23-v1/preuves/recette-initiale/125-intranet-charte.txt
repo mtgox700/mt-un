@@ -1,0 +1,139 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			305 button Accueil
+				306 image
+				307 text Accueil
+			329 button Assistant
+				330 image
+				331 text Assistant
+			320 button Dossiers
+				321 image
+				322 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			326 button Réunions
+				327 image
+				328 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			165 button Formations
+				166 image
+				167 text Formations
+			302 button Communication
+				303 image
+				304 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			332 button Intranet
+				333 image
+				334 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			162 button Raccourcis
+				163 image
+				164 text Raccourcis
+			308 button Réglages
+				309 image
+				310 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable) RECETTE
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		335 container
+			336 heading Charte des sites, Value: 1
+				337 text Charte des sites
+			338 text Chaque site a sa charte : l'intranet peut rester sobre pendant que le site public porte les couleurs de l'organisation. Le HTML transmis au webmaster reste sémantique — ces réglages décrivent la feuille de style du site.
+			339 tab group Site à charter
+				340 tab (selectable, settable, boolean) Intranet intranet.section-valenciennes.fr, Value: 0
+				341 tab (selectable, settable, boolean) Site internet section-valenciennes.fr, Value: 0
+			342 text Hériter de l'identité de l'organisation Les couleurs et la police de titre suivent l'identité de l'organisation définie dans Réglages · Identité de marque. Modifier l'identité met ce site à jour.
+			343 switch Description: Hériter de l'identité de l'organisation, Value: 1
+			344 text Identité de l'organisation : Orange uniion
+			345 button Modifier l'identité
+			346 container Aperçu de la charte
+				347 text intranet.section-valenciennes.fr
+				348 text Section syndicale Métallurgie — Valenciennes Actualités Vos droits Contact
+				349 text ACTUALITÉS
+				350 text Salaires : la section maintient ses revendications
+				351 text Le chapô résume la page en une phrase, avec la police et les couleurs retenues pour ce site.
+				352 text Donner votre avis
+				353 text SUR CETTE PAGE
+			354 text Couleurs et police reprises de l'identité de l'organisation. En choisir une autre détache la charte de ce site.
+			355 text COULEUR D'ACCENT
+			356 button Choisir cette couleur d'accent
+			357 button Choisir cette couleur d'accent
+			358 button Choisir cette couleur d'accent
+			359 button Choisir cette couleur d'accent
+			360 button Choisir cette couleur d'accent
+			361 button Choisir cette couleur d'accent
+			362 button Choisir cette couleur d'accent
+			363 button Choisir cette couleur d'accent
+			364 text COULEUR D'EN-TÊTE ET DE PIED DE PAGE
+			365 button Choisir cette couleur d'en-tête
+			366 button Choisir cette couleur d'en-tête
+			367 button Choisir cette couleur d'en-tête
+			368 button Choisir cette couleur d'en-tête
+			369 button Choisir cette couleur d'en-tête
+			370 button Choisir cette couleur d'en-tête
+			371 button Choisir cette couleur d'en-tête
+			372 button Choisir cette couleur d'en-tête
+			373 text POLICE DES TITRES
+			374 button Philosopher
+			375 button Georgia
+			376 button Sans-serif système
+			377 text NAVIGATION
+			378 button Navigation claire
+			379 button Bandeau de couleur
+			380 text ANGLES
+			381 button Angles nets
+			382 button Arrondis doux
+			383 button Très arrondis
+			384 text LARGEUR DE CONTENU
+			385 button Article
+			386 button Fiche étroite
+			387 button Large
+			388 text 760 px de largeur de contenu
+			389 text LOGO DE CE SITE
+			390 container
+				391 image Logo du site
+				392 text Déposer un logo propre à ce site
+			393 text Source : identité de l'organisation — logo fond clair
+			394 text Taille du logo dans l'en-tête
+			395 text 100 %
+			396 button Réinitialiser
+			397 slider (settable, integer) Taille du logo dans l'en-tête, Value: 100, ID: wcLogoScale
+			398 text De 60 à 300 % de la hauteur de référence (44 px), proportions conservées.
+			399 text Afficher le logo dans l'en-tête du site
+			400 switch Description: Afficher le logo dans l'en-tête, Value: 1
+			401 text INTRANET-2026.CSS
+			402 text .up-site{--up-accent:#DC2626;--up-head:hsl(0 42% 16%);--up-tint:hsl(0 92% 96%);--up-tint2:hsl(0 88% 90%);--up-w:760px}.up-site,.up-site *,.up-site *::before,.up-site *::after{box-sizing:border-box}.up-site{font-family:system-ui,Segoe UI,Helvetica,sans-serif;color:#1F2937;line-height:1.65;background:#F8F8F7;margin:0}.up-site a{color:var(--up-accent)}.up-site{--up-r:14px}.up-site .up-wrap{max-width:1120px;margin:0 auto…
+			403 button Enregistrer le gabarit
+			404 button Retour
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

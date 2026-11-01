@@ -1,0 +1,226 @@
+--- avant.html
++++ application-corrigee.html
+@@ -31,10 +31,12 @@
+   @media print {
+     html, body { height: auto !important; overflow: visible !important; background: #FFFFFF !important; }
+     [data-print-hide] { display: none !important; }
+-    #docPrint { position: absolute !important; left: 0 !important; top: 0 !important; z-index: 999; width: auto !important; margin: 0 !important; padding: 0 !important; background: #FFFFFF !important; display: block !important; gap: 0 !important; }
+-    #docPrint .docwrap { width: auto !important; height: auto !important; margin: 0 !important; overflow: visible !important; }
+-    #docPrint .docpage { height: auto !important; min-height: 0 !important; overflow: visible !important; transform: none !important; margin: 0 !important; box-shadow: none !important; border: none !important; border-radius: 0 !important; break-after: page; page-break-after: always; }
+-    #docPrint .docpage:last-child { break-after: auto; page-break-after: avoid; }
++    body:has(#docPrint) :not(#docPrint):not(#docPrint *):not(:has(#docPrint)) { display: none !important; }
++    body:has(#docPrint) :has(#docPrint) { display: block !important; position: static !important; width: auto !important; min-width: 0 !important; height: auto !important; min-height: 0 !important; margin: 0 !important; padding: 0 !important; overflow: visible !important; background: white !important; }
++    #docPrint { position: static !important; width: auto !important; margin: 0 !important; padding: 0 !important; background: white !important; display: block !important; gap: 0 !important; }
++    #docPrint .docwrap { width: auto !important; height: auto !important; margin: 0 !important; overflow: visible !important; break-after: page; page-break-after: always; }
++    #docPrint .docwrap:last-child { break-after: auto; page-break-after: auto; }
++    #docPrint .docpage { overflow: visible !important; transform: none !important; margin: 0 !important; box-shadow: none !important; border: none !important; border-radius: 0 !important; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+     @page { margin: 0; }
+   }
+ </style>
+@@ -424,10 +426,10 @@
+           </div>
+           <div style="background: var(--surface); border: 1px solid var(--bd); border-radius: 20px; overflow: hidden;">
+             <sc-for list="{{ adm.logs }}" as="l" hint-placeholder-count="5">
+-              <div style="display: grid; grid-template-columns: 110px 220px 1fr auto; gap: 12px; align-items: center; padding: 14px 18px; border-bottom: 1px solid var(--bd); font-size: 13px;">
++              <div style="display: grid; grid-template-columns: 110px 220px minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 14px 18px; border-bottom: 1px solid var(--bd); font-size: 13px;">
+                 <span style="color: var(--ink5);">{{ l.t }}</span>
+                 <span style="font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ l.qui }}</span>
+-                <span style="color: var(--ink4); line-height: 1.5;">{{ l.quoi }}</span>
++                <span style="color: var(--ink4); line-height: 1.5; overflow-wrap: anywhere;">{{ l.quoi }}</span>
+                 <span style="background: {{ l.bg }}; color: {{ l.tx }}; font-size: 11px; font-weight: 700; padding: 4px 9px; border-radius: 99px;">{{ l.niv }}</span>
+               </div>
+             </sc-for>
+@@ -1929,7 +1931,7 @@
+                 <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--acTx)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="M17 8l-5-5-5 5M12 3v12"></path></svg>
+               </span>
+               <span style="font-size: 15px; font-weight: 700; color: var(--ink);">Importer un enregistrement</span>
+-              <span style="font-size: 12.5px; color: var(--ink5); line-height: 1.55;">Fichier du dictaphone, de la visio ou de la salle. Chiffré sur l'appareil, même règle de destruction.</span>
++              <span style="font-size: 12.5px; color: var(--ink5); line-height: 1.55;">Fichier du dictaphone, de la visio ou de la salle. Conservation locale dans ce navigateur.</span>
+               <sc-if value="{{ noImport }}" hint-placeholder-val="{{ true }}">
+                 <label style="align-self: flex-start; cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 9px 16px; font-size: 12.5px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Choisir un fichier audio
+                   <input type="file" accept="audio/*" onChange="{{ onAudioFile }}" style="position: absolute; width: 1px; height: 1px; opacity: 0;" />
+@@ -2196,7 +2198,7 @@
+                   <div aria-hidden="true" style="height: 7px; border-radius: 99px; background: var(--acBd); overflow: hidden; margin-bottom: 8px;">
+                     <div style="height: 100%; width: {{ reu.retentionPct }}; background: linear-gradient(to right, var(--ac), var(--ac2)); border-radius: 99px;"></div>
+                   </div>
+-                  <p style="margin: 0; font-size: 11.5px; color: var(--acTx3);">Destruction certifiée dès l'approbation du PV, ou à échéance des 30 jours — au premier des deux.</p>
++                  <p style="margin: 0; font-size: 11.5px; color: var(--acTx3);">La destruction automatique et sa certification restent à connecter.</p>
+                 </section>
+               </sc-if>
+ 
+@@ -2252,7 +2254,7 @@
+                     </div>
+                   </sc-for>
+                 </div>
+-                <p style="margin: 0; font-size: 11.5px; color: var(--ink5); line-height: 1.55;">Transcription et extraction passent par l'anonymisation avant inférence : les noms deviennent des jetons, recollés côté client.</p>
++                <p style="margin: 0; font-size: 11.5px; color: var(--ink5); line-height: 1.55;">Le PV utilise les marqueurs et les notes disponibles. Le contenu audio n’est pas transmis à l’IA.</p>
+               </section>
+ 
+               <sc-if value="{{ reu.hasAccess }}" hint-placeholder-val="{{ false }}">
+@@ -8880,6 +8882,7 @@
+     this._lastMsgs = this.state.messages;
+   }
+   componentWillUnmount() {
++    this.recAborted = true; this.stopPlayback();
+     clearTimeout(this._save);
+     if (this.onExt) window.removeEventListener('uniion:extensions', this.onExt);
+     this.releaseMic();
+@@ -8917,7 +8920,7 @@
+ 
+   async startRecording() {
+     this.recPatch({ t: 0, wave: [], markers: [], err: '', phase: 'asking' });
+-    this.recAborted = false;
++    this.recAborted = false; this.recChunks = []; this._recStopped = null;
+     if (typeof navigator === 'undefined' || !navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+       this.startSimulated('Micro indisponible sur cet appareil — enregistrement simulé pour la démonstration.');
+       return;
+@@ -8954,6 +8957,8 @@
+       }, 100);
+     } catch (err) {
+       clearTimeout(this.askTimer);
++      if (this.recAborted) return;
++      this.releaseMic();
+       this.recAborted = true;
+       this.startSimulated(err && err.message === 'timeout'
+         ? 'Aucune réponse à la demande d\'autorisation — enregistrement simulé, aucun son n\'est capté.'
+@@ -9031,7 +9036,7 @@
+     const reunion = {
+       id: id, type: rc.type, title: rc.type + ' du ' + now.getDate() + ' ' + months[now.getMonth()],
+       date: now.getDate() + ' ' + months[now.getMonth()] + ' ' + now.getFullYear() + ' · ' + now.getHours() + ' h ' + (now.getMinutes() < 10 ? '0' : '') + now.getMinutes(),
+-      dur: mins + ' min', audio: 'kept', retention: 30, pv: 'À rédiger', pvDoc: '',
++      dur: this.clock(rc.t), audio: 'kept', retention: 30, pv: 'À rédiger', pvDoc: '',
+       ordre: [], markers: rc.markers.slice(), access: [], destroyed: null
+     };
+     this.setState({ reunions: [reunion].concat(this.state.reunions), rec: { phase: 'consent', c1: false, c2: false, t: 0, level: 0, wave: [], markers: [], sim: false, err: '', type: rc.type } });
+@@ -9066,12 +9071,13 @@
+     this.flash('Fichier audio conservé dans ce navigateur — sans chiffrement applicatif');
+   }
+ 
+-  async listenAudio(reunion) {
+-    if (this._playingAudio) { this._playingAudio.pause(); URL.revokeObjectURL(this._playingAudio.src); this._playingAudio = null; return; }
++  async listenAudio(reunion, offset) {
++    if (this._playingAudio) { this.stopPlayback(); if (offset == null) return; }
+     try {
+       const blob = await window.uniionFiles.get('audio:' + reunion.id);
+       if (!blob) throw new Error('Aucun fichier audio local pour cette réunion');
+       const audio = new Audio(URL.createObjectURL(blob));
++      if (offset != null) audio.currentTime = Math.max(0,offset);
+       try { await audio.play(); } catch (e) { URL.revokeObjectURL(audio.src); throw e; }
+       this._playingAudio = audio;
+       audio.onended = () => { URL.revokeObjectURL(audio.src); this._playingAudio = null; };
+@@ -9823,12 +9829,16 @@
+     };
+   }
+ 
++  stopPlayback() { if (this._playingAudio) { this._playingAudio.pause(); URL.revokeObjectURL(this._playingAudio.src); this._playingAudio = null; } }
++  leaveAudio() { this.stopPlayback(); if (this.state.rec.phase === 'asking') { this.recAborted = true; clearTimeout(this.askTimer); this.releaseMic(); this.recPatch({phase:'consent'}); } else if (this.state.rec.phase === 'live') this.pauseRecording(); }
+     go(route, extra) {
++    if (route !== this.state.route) this.leaveAudio();
+     const st = Object.assign({ route: route, history: this.state.history.concat([this.state.route]) }, extra || {});
+     this.setState(st);
+     if (typeof window !== 'undefined') window.scrollTo(0, 0);
+   }
+   back() {
++    this.leaveAudio();
+     const h = this.state.history.slice();
+     const prev = h.pop() || 'accueil';
+     this.setState({ route: prev, history: h });
+@@ -12308,13 +12318,13 @@
+     const pvPill = { 'À rédiger': ['var(--acBg)', 'var(--acTx2)'], 'En relecture': ['var(--infoBg)', 'var(--infoTx2)'], 'Approuvé': ['var(--okBg)', 'var(--okTx)'], 'Archivé': ['var(--chip)', 'var(--ink4)'] };
+     const audioTxt = function (x) {
+       if (x.audio === 'destroyed') return { label: 'Audio détruit — PV archivé', short: 'Détruit', fg: 'var(--okTx)' };
+-      return { label: 'Audio conservé — destruction dans ' + x.retention + ' j', short: x.retention + ' j restants', fg: 'var(--acTx2)' };
++      return { label: 'Audio local — destruction automatique non connectée', short: 'Local', fg: 'var(--acTx2)' };
+     };
+     const markerOf = function (id) { return MARKER_DEFS.find(function (m) { return m.id === id; }) || MARKER_DEFS[0]; };
+     const impSteps = [
+       { n: 1, label: 'Fichier lu sur l\'appareil' },
+-      { n: 2, label: 'Chiffrement local AES-256' },
+-      { n: 3, label: 'Transcription en file d\'attente' }
++      { n: 2, label: 'Fichier prêt pour le stockage local' },
++      { n: 3, label: 'Transcription non connectée' }
+     ];
+ 
+     /* ---- Espace Création de documents ---- */
+@@ -12687,7 +12697,7 @@
+       ag: this.agVals(),
+       isReunions: r === 'reunions', isRecord: r === 'record', isReunion: r === 'reunion',
+ 
+-      reunionsSummary: this.state.reunions.length + ' séances au registre · ' + this.state.reunions.filter(function (x) { return x.pv !== 'Approuvé'; }).length + ' PV en cours, ' + this.state.reunions.filter(function (x) { return x.audio === 'kept'; }).length + ' enregistrements en attente de destruction',
++      reunionsSummary: this.state.reunions.length + ' séances au registre · ' + this.state.reunions.filter(function (x) { return x.pv !== 'Approuvé'; }).length + ' PV en cours, ' + this.state.reunions.filter(function (x) { return x.audio === 'kept'; }).length + ' enregistrements référencés',
+       reunionsCount: this.state.reunions.length + ' séance' + (this.state.reunions.length > 1 ? 's' : ''),
+       goRecord: () => this.go('record'),
+       backToReunions: () => { this.releaseMic(); this.go('reunions'); },
+@@ -12707,12 +12717,12 @@
+       importSize: imp ? imp.size : '',
+       importDone: !!(imp && imp.done),
+       importSteps: impSteps.map(function (s) {
+-        const done = imp && imp.step >= s.n;
++        const done = imp && imp.step >= s.n && s.n !== 3;
+         return { label: s.label, mark: done ? '✓' : s.n, fg: done ? 'var(--okTx)' : 'var(--ink5)', dotBg: done ? 'var(--okChip)' : 'var(--bd2)', dotFg: done ? 'var(--okTx)' : 'var(--ink5)' };
+       }),
+       onAudioFile: (e) => { const f = e.target.files && e.target.files[0]; this.importAudioFile(f); },
+       confirmImportBtn: () => this.confirmImport(),
+-      cancelImport: () => { clearInterval(this.impTimer); this.setState({ audioImport: null }); },
++      cancelImport: () => { clearInterval(this.impTimer); this._audioImportFile = null; this.setState({ audioImport: null }); },
+ 
+       recConsent: rc.phase === 'consent',
+       recAsking: rc.phase === 'asking',
+@@ -12748,9 +12758,9 @@
+         };
+       }),
+       recPolicy: [
+-        { text: 'Le fichier reste chiffré sur cet appareil : il n\'est jamais téléversé sur un serveur.' },
+-        { text: 'Transcription et extraction passent par l\'anonymisation avant inférence — noms et matricules remplacés par des jetons.' },
+-        { text: 'Destruction certifiée dès l\'approbation du PV, ou au bout de 30 jours — au premier des deux.' },
++        { text: 'Le fichier reste dans ce navigateur, sans chiffrement applicatif ni téléversement audio.' },
++        { text: 'La transcription audio et l’extraction automatique ne sont pas connectées.' },
++        { text: 'La destruction automatique et sa certification restent à connecter.' },
+         { text: 'Chaque écoute est inscrite au journal d\'accès, consultable par les élus.' }
+       ],
+       recBlocked: !(rc.c1 && rc.c2),
+@@ -12787,8 +12797,8 @@
+         audioFg: audioTxt(reu0).fg,
+         hasOrdre: reu0.ordre.length > 0,
+         ordre: reu0.ordre.map(function (o, i) { return { n: (i + 1) + '.', text: o }; }),
+-        retentionBadge: reu0.retention + ' jour' + (reu0.retention > 1 ? 's' : '') + ' restants',
+-        retentionText: 'L\'enregistrement de cette séance est encore disponible pour la rédaction et la levée des désaccords d\'interprétation. Il sera détruit automatiquement.',
++        retentionBadge: 'Conservation locale',
++        retentionText: 'L’enregistrement est conservé dans ce navigateur. Aucune échéance de destruction automatique n’est actuellement appliquée.',
+         retentionPct: Math.max(4, Math.min(100, Math.round((reu0.retention / 30) * 100))) + '%',
+         destroyedWhen: reu0.destroyed ? reu0.destroyed.when : '',
+         proofs: reu0.destroyed ? [
+@@ -12804,14 +12814,14 @@
+           const def = markerOf(m.kind);
+           return {
+             time: this.clock(m.t), note: m.note, label: def.label, fg: def.color, bg: def.bg,
+-            go: () => this.flash(reu0.audio === 'destroyed' ? 'Audio détruit — seule la citation du PV subsiste' : 'Lecture à ' + this.clock(m.t) + ' — ' + def.label)
++            go: () => reu0.audio === 'destroyed' ? this.flash('Audio détruit — seule la citation du PV subsiste') : this.listenAudio(reu0,m.t)
+           };
+         }),
+         hasAccess: reu0.access.length > 0,
+         access: reu0.access.slice(),
+         extractState: reu0.audio === 'destroyed'
+           ? 'Extraction terminée et versée au PV approuvé. La transcription a été détruite avec l\'audio.'
+-          : 'Transcription en file d\'attente. L\'assistant en extraira quatre familles d\'informations, chacune horodatée et citée.',
++          : 'Transcription non connectée. Les marqueurs peuvent servir à préparer le PV ; le contenu audio n’est pas analysé.',
+         pvCta: reu0.pvDoc ? 'Ouvrir le PV' : (reu0.pv === 'Approuvé' ? 'Consulter le PV archivé' : 'Rédiger le PV depuis les marqueurs'),
+         writePv: () => {
+           if (reu0.pvDoc) { this.openDoc(reu0.pvDoc); return; }
+@@ -12859,7 +12869,7 @@
+       docCols: this.state.isDesktop ? 'minmax(320px, 400px) minmax(0, 1fr)' : 'minmax(0, 1fr)',
+       docPrint: () => {
+         this.syncPageSize(cdoc.format);
+-        this.flash('PDF prêt — ' + dpages.length + ' page' + (dpages.length > 1 ? 's' : '') + ' au format ' + dfmt.label);
++        this.flash('Aperçu avant impression — ' + dpages.length + ' page' + (dpages.length > 1 ? 's' : '') + ' au format ' + dfmt.label);
+         if (typeof window !== 'undefined') setTimeout(function () { window.print(); }, 500);
+       },
+       docSign: () => this.signDocument(cdoc),
+@@ -13132,6 +13142,7 @@
+       authPasskey: () => { this.setAuth({ code: '402913', err: '' }); this.flash('Clé de sécurité reconnue — code pré-rempli'); },
+       authForgot: () => this.openSheet('reset'),
+       logout: () => {
++        this.recAborted = true; this.releaseMic(); this.stopPlayback();
+         this.setState({ authed: false, route: 'accueil', history: [], auth: { step: 'id', email: this.state.auth.email, pwd: '', code: '', err: '', sso: false } });
+         if (typeof window !== 'undefined') window.scrollTo(0, 0);
+       },

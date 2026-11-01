@@ -1,0 +1,145 @@
+[
+  {
+    "id": "D01",
+    "decision": "Supabase hébergé ou auto-hébergé, région",
+    "options": "Hébergé ; auto-hébergé sur infrastructure dédiée",
+    "recommandation": "Privilégier hébergé en région européenne, après validation des contraintes et responsabilités",
+    "bloque": "S01 : infrastructure, sauvegardes, exploitation",
+    "responsable": "Responsable produit ; validation technique, sécurité ou exploitation selon sujet",
+    "statut": "Validée par l’utilisateur",
+    "choix_valide": "Application sur VPS OVH ; Supabase managé en Europe ; sauvegarde séparée des fichiers ; restauration testée.",
+    "reste_a_preciser": "Région européenne exacte, offre et dimensionnement ; durées de conservation et objectifs de reprise en D07."
+  },
+  {
+    "id": "D02",
+    "decision": "Frontière exacte d’une organisation",
+    "options": "Tenant par structure autonome ; tenant commun avec sous-groupes",
+    "recommandation": "Tenant par structure autonome ; aucune lecture héritée entre fédération, union et section",
+    "bloque": "S01 : identifiants, migration et modèle RLS",
+    "responsable": "Responsable produit ; validation technique, sécurité ou exploitation selon sujet",
+    "statut": "Validée par l’utilisateur",
+    "choix_valide": "Une organisation par structure autonome, sans accès hérité. Partage explicite et unidirectionnel de ressources sélectionnées en lecture seule, téléchargement contrôlé séparément. Héritage volontaire de collections de référence versionnées avec approbation des mises à jour.",
+    "specification": "D02-partage-et-heritage.json"
+  },
+  {
+    "id": "D03",
+    "decision": "Rôles métier et délégation sensible",
+    "options": "Administrateur local habilité séparément ; référent métier dédié",
+    "recommandation": "Séparer gestion des comptes, accès métier et attribution des ACL ; formaliser premier super admin et récupération",
+    "bloque": "S01 : politique d’autorisation et jeux de tests",
+    "responsable": "Responsable produit ; validation technique, sécurité ou exploitation selon sujet",
+    "statut": "Validée par l’utilisateur",
+    "choix_valide": "Séparation super admin, administrateur organisation, responsable des habilitations et utilisateur métier ; cumul explicite et audité ; aucune auto-escalade ; permission spécifique de partage inter-organisations.",
+    "specification": "D03-responsabilites-et-delegation.json"
+  },
+  {
+    "id": "D04",
+    "decision": "Support et accès exceptionnel aux contenus",
+    "options": "Aucun accès ; accès temporaire consenti et audité",
+    "recommandation": "Désactiver tout accès exceptionnel en V1 tant que la procédure n’est pas validée",
+    "bloque": "Support : pas de lecture implicite ni impersonation libre",
+    "responsable": "Responsable produit ; validation technique, sécurité ou exploitation selon sujet",
+    "statut": "Validée par l’utilisateur",
+    "choix_valide": "Aucun accès métier du support par défaut. Partage explicite approuvé par un responsable métier habilité, limité à des agents nommément désignés, avec expiration et révocation automatique à la clôture du ticket.",
+    "specification": "D04-partage-support.json"
+  },
+  {
+    "id": "D05",
+    "decision": "Activation locale des modules",
+    "options": "Super admin seul ; admin local parmi modules approuvés",
+    "recommandation": "Catalogue et installation globaux réservés au super admin ; délégation locale explicite à décider",
+    "bloque": "Socle modules et permissions",
+    "responsable": "Responsable produit ; validation technique, sécurité ou exploitation selon sujet",
+    "statut": "Validée par l’utilisateur",
+    "choix_valide": "Catalogue et autorisation par organisation contrôlés par le super admin ; activation locale déléguée ; droits métier séparés. Facturation distincte par module : accès conditionné à un droit payé valide, ou à un geste commercial explicitement attribué par le super admin seul.",
+    "specification": "D05-modules-et-facturation.json"
+  },
+  {
+    "id": "D06",
+    "decision": "Sondages anonymes ou nominatifs",
+    "options": "Nominatif ; pseudonyme ; anonymat avec modèle de menace défini",
+    "recommandation": "Choisir par type de sondage avant implémentation ; ne pas promettre anonymat avec simple suppression de FK",
+    "bloque": "Sondages : journaux, timestamps, seuils de résultats",
+    "responsable": "Responsable produit ; validation technique, sécurité ou exploitation selon sujet",
+    "statut": "Validée par l’utilisateur",
+    "choix_valide": "Deux modes : nominatif et sans identité associée (dit anonyme, sans garantie d’anonymat absolu). Seuil minimal de 5 répondants pour publication des résultats du second mode. Super admin autorisé à consulter les réponses sans identité et à en déléguer explicitement l’accès.",
+    "specification": "D06-sondages-confidentialite.json"
+  },
+  {
+    "id": "D07",
+    "decision": "Conservation et reprise",
+    "options": "Politique par catégorie de données, corbeille, sauvegardes et gels",
+    "recommandation": "Décider les durées audio, pièces, IA, logs et backups séparément ; fixer RPO/RTO et tester une restauration",
+    "bloque": "Données réelles : purge, sauvegardes et obligations à valider",
+    "responsable": "Responsable produit ; validation technique, sécurité ou exploitation selon sujet",
+    "statut": "Validée par l’utilisateur",
+    "choix_valide": "Politique validée : sauvegardes base et fichiers 30 jours ; perte maximale visée 1 heure ; remise en service visée 8 heures, à vérifier par tests. Validation préalable du super admin avant toute suppression.",
+    "specification": "D07-conservation-sauvegardes.json"
+  },
+  {
+    "id": "D08",
+    "decision": "Hors ligne",
+    "options": "Pas de contenu sensible ; périmètre chiffré limité avec expiration",
+    "recommandation": "Exclure les contenus très sensibles par défaut ; pas de promesse de révocation immédiate sans réseau",
+    "bloque": "Cache, téléchargements, conflits et appareils partagés",
+    "responsable": "Responsable produit ; validation technique, sécurité ou exploitation selon sujet",
+    "statut": "Validée par l’utilisateur",
+    "choix_valide": "Hors ligne sélectif avec espace local chiffré, durée initiale 24 heures réglable dans administration, synchronisation contrôlée au retour réseau et nettoyage automatique limité aux copies déjà sauvegardées sur serveur.",
+    "specification": "D08-hors-ligne-synchronisation.json"
+  },
+  {
+    "id": "D09",
+    "decision": "Fournisseurs et flux sortants",
+    "options": "Fournisseurs dédiés ; services auto-hébergés selon capacité",
+    "recommandation": "Valider chaque destination, contrat et périmètre transmis ; aucun choix de production déduit du pont ChatGPT local",
+    "bloque": "IA, transcription, signature, email et push",
+    "responsable": "Responsable produit ; validation technique, sécurité ou exploitation selon sujet",
+    "statut": "Cadre validé par l’utilisateur ; fournisseurs à choisir",
+    "choix_valide": "Cadre intégrations validé : fournisseurs approuvés par super admin, activation explicite par organisation, connecteurs remplaçables, données minimisées et aucun transfert ou fournisseur de secours implicite. Fournisseurs restant à choisir ; articulation avec D07 reportée explicitement.",
+    "specification": "D09-fournisseurs-et-flux.json"
+  },
+  {
+    "id": "D10",
+    "decision": "Référentiel visuel et capacité de livraison",
+    "options": "Référence versionnée et recette par sprint ; calendrier selon équipe",
+    "recommandation": "Geler la référence sans modifier le prototype ; accepter écrans et parcours avant extraction",
+    "bloque": "G0 et engagement calendaire",
+    "responsable": "Responsable produit ; validation technique, sécurité ou exploitation selon sujet",
+    "statut": "Validée par l’utilisateur",
+    "choix_valide": "Prototype versionné comme référence fonctionnelle et visuelle ; changements visibles soumis à accord utilisateur ; validation à chaque sprint ; calendrier ajusté à capacité réelle.",
+    "specification": "D10-reference-et-validation.json"
+  },
+  {
+    "id": "D11",
+    "decision": "Historique des conversations",
+    "options": "Tout historique aux nouveaux participants ; accès depuis entrée ; partage explicite",
+    "recommandation": "Par défaut accès depuis entrée ; historique antérieur partagé explicitement, révocation contrôlée",
+    "bloque": "Messages, pièces, recherche et IA",
+    "responsable": "Responsable produit ; validation technique, sécurité ou exploitation selon sujet",
+    "statut": "Validée par l’utilisateur",
+    "choix_valide": "Conversations : accès depuis arrivée par défaut ; ouverture explicite de historique par personne habilitée ; retrait des accès au départ ; réinvitation sans rétablissement automatique.",
+    "specification": "D11-historique-conversations.json"
+  },
+  {
+    "id": "D12",
+    "decision": "Partage des contenus dérivés",
+    "options": "Intersection des droits sources ; copie déclassifiée après validation",
+    "recommandation": "Intersection par défaut ; déclassification interdite tant que son autorité et sa procédure ne sont pas définies",
+    "bloque": "Exports, résumés IA, transferts et publications",
+    "responsable": "Responsable produit ; validation technique, sécurité ou exploitation selon sujet",
+    "statut": "Validée par l’utilisateur",
+    "choix_valide": "Restrictions des sources héritées par défaut pour les contenus dérivés ; diffusion possible de version distincte après relecture humaine et autorisation spécifique, sans accès aux sources.",
+    "specification": "D12-derives-et-diffusion.json"
+  },
+  {
+    "id": "D13",
+    "decision": "Validation et signature",
+    "options": "Auto-validation autorisée selon type ; séparation auteur/valideur",
+    "recommandation": "Décider les catégories exigeant un second acteur et la valeur attendue de la signature",
+    "bloque": "Relecture, publication, signature et états de documents",
+    "responsable": "Responsable produit ; validation technique, sécurité ou exploitation selon sujet",
+    "statut": "Validée par l’utilisateur",
+    "choix_valide": "Circuits validés : second acteur obligatoire pour diffusions sensibles ou externes, permissions séparées et approbation par version. Validations internes par défaut ; signature électronique par prestataire en option dans un module dédié.",
+    "specification": "D13-validation-et-signature.json"
+  }
+]

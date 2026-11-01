@@ -1,0 +1,4 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {correctionPayload} from '../modules/contacts/correction-form.js';
+const entries=[{cents:2000,paidCents:1750,payments:[{id:'p',cents:500,revision:2}]}],d={paymentId:'p',amount:'2,50',reason:'Erreur de saisie',requestId:'stable'};
+test('correction retains revision, exact amount and retry key',()=>assert.deepEqual(correctionPayload(d,entries),{id:'p',revision:2,amount_cents:250,reason:'Erreur de saisie',request_id:'stable'}));
+test('zero correction is allowed; invalid amount, target or reason is refused',()=>{assert.equal(correctionPayload({...d,amount:'0'},entries).amount_cents,0);for(const patch of [{amount:'-1'},{amount:'7,51'},{amount:'1.234'},{reason:''},{paymentId:'foreign'}])assert.throws(()=>correctionPayload({...d,...patch},entries));});

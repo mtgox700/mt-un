@@ -1,0 +1,372 @@
+[
+  {
+    "id": "acc-week",
+    "module": "accueil",
+    "label": "Faire le point de la semaine",
+    "source_kind": "workspace",
+    "quality_execution": "qualite-corrections-1.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "acc-first",
+    "module": "accueil",
+    "label": "Par quoi commencer ?",
+    "source_kind": "workspace",
+    "quality_execution": "qualite-corrections-1.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "dos-next",
+    "module": "dossiers",
+    "label": "Proposer la suite à donner",
+    "source_kind": "case",
+    "quality_execution": "qualite-corrections-1.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": true
+  },
+  {
+    "id": "dos-sum",
+    "module": "dossiers",
+    "label": "Résumer la chronologie",
+    "source_kind": "case",
+    "quality_execution": "qualite-corrections-1.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": true
+  },
+  {
+    "id": "dos-delais",
+    "module": "dossiers",
+    "label": "Vérifier les délais légaux",
+    "source_kind": "case",
+    "quality_execution": "qualite-corrections-1.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": true
+  },
+  {
+    "id": "dos-mail",
+    "module": "dossiers",
+    "label": "Rédiger un courrier à la direction",
+    "source_kind": "case",
+    "quality_execution": "qualite-corrections-1.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": true
+  },
+  {
+    "id": "dos-prio",
+    "module": "dossiers",
+    "label": "Prioriser mes dossiers",
+    "source_kind": "case",
+    "quality_execution": "qualite-codex-listes.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "reu-prep",
+    "module": "reunions",
+    "label": "Préparer les questions à poser",
+    "source_kind": "reunions",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "reu-dec",
+    "module": "reunions",
+    "label": "Extraire décisions et actions",
+    "source_kind": "reunions",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "reu-salaries",
+    "module": "reunions",
+    "label": "Résumé pour les salariés",
+    "source_kind": "reunions",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "reu-pv",
+    "module": "reunions",
+    "label": "Rédiger le projet de PV",
+    "source_kind": "reunions",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "doc-relire",
+    "module": "documents",
+    "label": "Relire ton et clarté",
+    "source_kind": "document",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": true
+  },
+  {
+    "id": "doc-simpl",
+    "module": "documents",
+    "label": "Simplifier pour les salariés",
+    "source_kind": "document",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": true
+  },
+  {
+    "id": "doc-risk",
+    "module": "documents",
+    "label": "Repérer les risques juridiques",
+    "source_kind": "document",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "doc-idea",
+    "module": "documents",
+    "label": "Proposer un document à produire",
+    "source_kind": "document",
+    "quality_execution": "qualite-codex-listes.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "msg-sum",
+    "module": "messagerie",
+    "label": "Résumer le fil",
+    "source_kind": "message",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "msg-reply",
+    "module": "messagerie",
+    "label": "Proposer une réponse",
+    "source_kind": "message",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "ag-prep",
+    "module": "agenda",
+    "label": "Préparer la prochaine réunion",
+    "source_kind": "agenda",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "ag-delais",
+    "module": "agenda",
+    "label": "Rappeler les délais de convocation",
+    "source_kind": "agenda",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "com-month",
+    "module": "communication",
+    "label": "Proposer le plan du mois",
+    "source_kind": "communication",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": true
+  },
+  {
+    "id": "com-reform",
+    "module": "communication",
+    "label": "Reformuler pour les salariés",
+    "source_kind": "communication",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "mob-page",
+    "module": "mobile",
+    "label": "Rédiger le contenu de la page",
+    "source_kind": "mobile",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": true
+  },
+  {
+    "id": "mob-short",
+    "module": "mobile",
+    "label": "Adapter à la lecture mobile",
+    "source_kind": "mobile",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": true
+  },
+  {
+    "id": "mob-push",
+    "module": "mobile",
+    "label": "Rédiger la notification push",
+    "source_kind": "mobile",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": true
+  },
+  {
+    "id": "mob-check",
+    "module": "mobile",
+    "label": "Vérifier avant publication",
+    "source_kind": "mobile",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "mob-ideas",
+    "module": "mobile",
+    "label": "Proposer les pages à créer",
+    "source_kind": "mobile",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "fm-reco",
+    "module": "formations",
+    "label": "Recommander une formation",
+    "source_kind": "formations",
+    "quality_execution": "qualite-codex-listes.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "adh-msg",
+    "module": "adherents",
+    "label": "Rédiger un message à une liste",
+    "source_kind": "adherents",
+    "quality_execution": "qualite-codex-listes.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "adh-relance",
+    "module": "adherents",
+    "label": "Préparer une relance",
+    "source_kind": "adherents",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "pol-q",
+    "module": "sondages",
+    "label": "Rédiger des questions neutres",
+    "source_kind": "sondages",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "pol-ana",
+    "module": "sondages",
+    "label": "Analyser les résultats",
+    "source_kind": "sondages",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "web-lis",
+    "module": "intranet",
+    "label": "Vérifier la lisibilité des pages",
+    "source_kind": "intranet",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "rep-explain",
+    "module": "reporting",
+    "label": "Expliquer un indicateur",
+    "source_kind": "reporting",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "rep-bilan",
+    "module": "reporting",
+    "label": "Rédiger le bilan du mandat",
+    "source_kind": "reporting",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "rac-sugg",
+    "module": "raccourcis",
+    "label": "Suggérer des raccourcis utiles",
+    "source_kind": "raccourcis",
+    "quality_execution": "qualite-codex.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "par-help",
+    "module": "params",
+    "label": "Expliquer un réglage",
+    "source_kind": "workspace",
+    "quality_execution": "qualite-corrections-1.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  },
+  {
+    "id": "par-roles",
+    "module": "params",
+    "label": "Aider à configurer les rôles",
+    "source_kind": "workspace",
+    "quality_execution": "qualite-corrections-1.json",
+    "codex_status": 200,
+    "persistent": true,
+    "apply_explicit": false
+  }
+]

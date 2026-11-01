@@ -1,0 +1,22 @@
+{
+  "uniion/adapters/ai_proposals.py": "395bc35335570d9e78e8e093bf73c393f7e00a66b2c150b0a0a52cbe2260f489",
+  "uniion/adapters/ai_drafts.py": "d43478a6be88b37a8ed7a9a1ad1fb211b6bab05a7da2b93b5e7db77322b05d66",
+  "uniion/adapters/ai_actions.py": "d2b23dec94d89e469c4b4bd1857ae3737b8783602ffc98aba99c46dad4c6193c",
+  "uniion/adapters/ai_history.py": "678bb368473e3cef7bc91a44f6058bdb0b66581454751582cf5d5186aebcf1fd",
+  "uniion/adapters/ai_assistant.py": "fa22aac69bc95a8cbe18fe6f2329a1918eab0dafb8ddaa119fe1a9705dde4c76",
+  "uniion/adapters/ai_context_service.py": "aeb41ce9e8e061128404a80ede0f95ad5da6367eb8551156254cf3926c53afd0",
+  "uniion/ai_http.py": "9d915925d91de0adb52f371c8a427b72c14a7ce80a012c6aa3417a9c81d674ff",
+  "uniion/core/ai_action_catalog.json": "97066b037b355ce7430da9c38f5250e5c10f4c689d94bcaff790a9b497631490",
+  "supabase/migrations/202610310145_ai_draft_apply.sql": "0d583d3f481cfbcf091608f984e94ccdaba5671c957aa8696d37267176a2a317",
+  "frontend/modules/ai/actions.js": "1bd990d332d594de8e166275f52614da993313e0988591a9de0954b5010e9dca",
+  "frontend/modules/ai/assistant.js": "09eeba04d9105dd0e3680b1ff2a9394cd7ce8a073ac560869c238c2a536936f6",
+  "frontend/host/shell.html": "894c370b575c96927d12345181626e7a0531b64e6d9b4677b2f5d9b7d4d98f33",
+  "frontend/logic/shared.jsfrag": "1cf4aceea4ebd2d68bfa89ce493c52b0c50ca0021ae483bca2e6e5847ee855bc",
+  "tests/test_ai_proposals.py": "6e97b0d4fd0f0976651ee8fa9f94912094697360d77e8917662192ef70aee83e",
+  "tests/s08_drafts_integration.py": "973bb473b0226ca02024551ea0dfbf02dad3b23aa1a66b9cc80d78165e8c6020",
+  "frontend/state/ai-actions.test.mjs": "0939878e650f70a9da078dcbb1798ba3bd1d4c09a9d4abb07bd944f08405ba62",
+  "operations/s08_e_final_fresh.py": "926e29d80eed01edc131747b3cc4a5d258babc0f8b9f3a61fd7ef47ac27af668",
+  "operations/s08_e_final_restore.py": "1190cfa6a7a5061c79c1d71f7b1080520c6fd885a2881d2f1a8fe8c099f5a828",
+  "operations/s08_e_final_scope.py": "b7f1f860f8ff7af0479514860bf8df9224bebde84bbc15a7bb01930ff2849542",
+  "operations/s08_e_final_integrity.py": "9fc546b6990245f7e84731de6d18f642728effe7270e0635177542e14e37bb7f"
+}

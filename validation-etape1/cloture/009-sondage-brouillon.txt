@@ -1,0 +1,100 @@
+Browser tab: 12, Title: "127.0.0.1:5054/uniion App v3.dc.html", URL: "http://127.0.0.1:5054/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+	1 container dc-root
+		232 container
+			233 image uniion
+			234 button Réduire le menu
+			365 button Accueil
+				366 image
+				367 text Accueil
+			238 button Assistant
+				239 image
+				240 text Assistant
+			362 button Dossiers
+				363 image
+				364 text Dossiers
+			244 button Messages
+				245 image
+				246 text Messages
+			247 button Agenda
+				248 image
+				249 text Agenda
+			250 button Réunions
+				251 image
+				252 text Réunions
+			253 button Documents
+				254 image
+				255 text Documents
+			256 button Formations
+				257 image
+				258 text Formations
+			259 button Communication
+				260 image
+				261 text Communication
+			262 button Application mobile
+				263 image
+				264 text Application mobile
+			265 button Adhérents
+				266 image
+				267 text Adhérents
+			268 button Intranet
+				269 image
+				270 text Intranet
+			271 button Reporting
+				272 image
+				273 text Reporting
+			274 button Raccourcis
+				275 image
+				276 text Raccourcis
+			277 button Réglages
+				278 image
+				279 text Réglages
+			280 text ASSISTANT IA Une question de droit ?
+			281 button Ouvrir le chat
+			282 button SM Sophie Marchand Déléguée syndicale
+				283 text SM
+				284 text Sophie Marchand
+				285 text Déléguée syndicale
+			286 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			368 text DÉMOCRATIE SOCIALE
+			369 heading Sondages salariés, Value: 1
+				370 text Sondages salariés
+			371 text Votes anonymes · 416 salariés inscrits
+			372 button + Lancer un sondage
+			373 button BROUILLON RECETTE — préférez-vous une réunion le matin ? Étape 3 sur 3 · 2 réponse(s) rédigée(s) Non diffusé
+				374 text BROUILLON
+				375 text RECETTE — préférez-vous une réunion le matin ?
+				376 text Étape 3 sur 3 · 2 réponse(s) rédigée(s)
+				377 text Non diffusé
+			378 button Supprimer
+			379 button EN COURS Priorités salariales 2027 312 réponses sur 416 salariés · vote anonyme · clôture demain 18 h 75 % de participation
+				380 text EN COURS
+				381 text Priorités salariales 2027
+				382 text 312 réponses sur 416 salariés · vote anonyme · clôture demain 18 h
+				383 text 75 % de participation
+			384 button Supprimer
+			385 button EN COURS Accord télétravail — 2 ou 3 jours ? 224 réponses sur 416 salariés · clôture vendredi 54 % de participation
+				386 text EN COURS
+				387 text Accord télétravail — 2 ou 3 jours ?
+				388 text 224 réponses sur 416 salariés · clôture vendredi
+				389 text 54 % de participation
+			390 button Supprimer
+			391 button CLOS Qualité de la restauration collective 366 réponses · clos le 12 août 88 % de participation
+				392 text CLOS
+				393 text Qualité de la restauration collective
+				394 text 366 réponses · clos le 12 août
+				395 text 88 % de participation
+			396 button Supprimer
+		397 text Brouillon enregistré — repris depuis Sondages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

@@ -1,0 +1,25 @@
+{
+  "decision": "D04",
+  "statut": "Validée par l’utilisateur",
+  "choix": "Aucun accès métier du support par défaut. Partage explicite approuvé par un responsable métier habilité, limité à des agents nommément désignés, avec expiration et révocation automatique à la clôture du ticket.",
+  "initiative": [
+    "Organisation demandant assistance et sélectionnant les ressources",
+    "Support demandant un partage motivé sans accès ni possibilité de parcourir les ressources avant approbation"
+  ],
+  "autorisation": "Approbation explicite par acteur métier disposant de la permission de partage sur les ressources concernées",
+  "beneficiaires": "Agents support nommément désignés ; aucun accès automatique au reste de l’équipe",
+  "perimetre": "Ressources explicitement sélectionnées et liées à un ticket ; données conservées dans organisation source",
+  "permissions": "Lecture seule ; téléchargement désactivé par défaut et autorisé séparément ; ni modification, repartage, accès hors ligne ou impersonation",
+  "duree": "Expiration obligatoire courte ; renouvellement par approbation explicite ; révocation manuelle à tout moment et automatique à clôture du ticket même avant expiration",
+  "ticket": "Références et diagnostics minimisés ; aucune copie permanente des contenus partagés",
+  "audit": "Demandes, approbations, consultations, téléchargements, clôtures et révocations journalisés",
+  "limite": "Un fichier déjà téléchargé ne peut pas être récupéré à distance après révocation",
+  "tests_requis": [
+    "Demande support sans accès ni découverte des ressources",
+    "Refus pour agent non désigné",
+    "Refus hors périmètre et téléchargement sans autorisation",
+    "Expiration, révocation et clôture bloquent les accès et traitements différés",
+    "Réouverture ticket ne réactive pas un partage révoqué sans nouvelle approbation explicite"
+  ],
+  "implementation": "Spécification validée ; contrôles et tests à implémenter"
+}

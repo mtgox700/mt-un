@@ -1,0 +1,230 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+    - generic: "1"
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: unii suggère
+  - button "Brouillon à relire · NAO 2027 — où en sont les négociations"
+  - button "Revenir à la liste des documents":
+  - generic: Titre du document
+  - textbox "Titre du document": NAO 2027 — où en sont les négociations
+  - button "Imprimer / PDF"
+  - button "Faire signer"
+  - button "Diffuser"
+  - tablist "Panneaux de l'éditeur":
+    - tab "Contenu" [selected]
+    - tab "Charte graphique"
+    - tab "Style"
+  - generic: Contenu
+  - button "Blocs" [pressed]
+  - button "Markdown"
+  - button "Ajouter un bloc titre principal":
+    - generic: +
+    - generic: Titre principal
+  - button "Ajouter un bloc intertitre":
+    - generic: +
+    - generic: Intertitre
+  - button "Ajouter un bloc paragraphe":
+    - generic: +
+    - generic: Paragraphe
+  - button "Ajouter un bloc liste à puces":
+    - generic: +
+    - generic: Liste à puces
+  - button "Ajouter un bloc encadré réglementaire":
+    - generic: +
+    - generic: Encadré réglementaire
+  - button "Ajouter un bloc tableau":
+    - generic: +
+    - generic: Tableau
+  - button "Ajouter un bloc badge de rubrique":
+    - generic: +
+    - generic: Badge
+  - button "Ajouter un bloc saut de page":
+    - generic: +
+    - generic: Saut de page
+  - button "Ajouter un bloc chiffre clé":
+    - generic: +
+    - generic: Chiffre clé
+  - button "Ajouter un bloc comparatif":
+    - generic: +
+    - generic: Comparatif
+  - button "Ajouter un bloc frise de dates":
+    - generic: +
+    - generic: Frise de dates
+  - button "Ajouter un bloc photo":
+    - generic: +
+    - generic: Photo
+  - button "Ajouter un bloc qr code":
+    - generic: +
+    - generic: QR code
+  - button "Ajouter un bloc coupon d'adhésion":
+    - generic: +
+    - generic: Coupon d'adhésion
+  - button "Ajouter un bloc trombinoscope":
+    - generic: +
+    - generic: Trombinoscope
+  - button "Ajouter un bloc tampon":
+    - generic: +
+    - generic: Tampon
+  - button "Ajouter un bloc bandeau surligné":
+    - generic: +
+    - generic: Bandeau surligné
+  - button "Ajouter un bloc signature":
+    - generic: +
+    - generic: Signature
+  - button "Ajouter un bloc bulles de dialogue":
+    - generic: +
+    - generic: Bulles de dialogue
+  - button "Ajouter un bloc encadré « fo exige »":
+    - generic: +
+    - generic: Encadré « FO exige »
+  - generic: Badge de rubrique
+  - button "Déplacer ce bloc vers le haut": ↑
+  - button "Déplacer ce bloc vers le bas": ↓
+  - button "Supprimer ce bloc": ✕
+  - textbox "Badge de rubrique, bloc 1 sur 8":
+    - /placeholder: Santé au travail
+    - text: Communiqué
+  - generic: Titre principal
+  - button "Déplacer ce bloc vers le haut": ↑
+  - button "Déplacer ce bloc vers le bas": ↓
+  - button "Supprimer ce bloc": ✕
+  - textbox "Titre principal, bloc 2 sur 8":
+    - /placeholder: Titre du document
+    - text: NAO 2027 — où en sont les négociations
+  - generic: Paragraphe
+  - button "Déplacer ce bloc vers le haut": ↑
+  - button "Déplacer ce bloc vers le bas": ↓
+  - button "Supprimer ce bloc": ✕
+  - textbox "Paragraphe, bloc 3 sur 8":
+    - /placeholder: Votre texte…
+    - text: Deux séances se sont tenues les 12 et 26 août. La délégation présente ici l'écart entre les demandes portées par les salariés et les propositions de la direction, avant la séance décisive du 2 septembre.
+  - generic: Tableau
+  - button "Déplacer ce bloc vers le haut": ↑
+  - button "Déplacer ce bloc vers le bas": ↓
+  - button "Supprimer ce bloc": ✕
+  - textbox "Tableau, bloc 4 sur 8":
+    - /placeholder: Colonne A | Colonne B
+    - text: Sujet | Demande de la section | Proposition direction | Écart Augmentation générale | 4,5 % | 0,8 % | 3,7 pts Transports | 75 % | 50 % (inchangé) | 25 pts Titres restaurant | 11,50 € | 9,80 € | 1,70 € Télétravail | 2 jours indemnisés | 1 jour non indemnisé | 1 jour
+  - paragraph: Une ligne par rangée, colonnes séparées par « | ». La première ligne fait l'en-tête.
+  - generic: Saut de page
+  - button "Déplacer ce bloc vers le haut": ↑
+  - button "Déplacer ce bloc vers le bas": ↓
+  - button "Supprimer ce bloc": ✕
+  - generic: nouvelle page
+  - generic: Titre principal
+  - button "Déplacer ce bloc vers le haut": ↑
+  - button "Déplacer ce bloc vers le bas": ↓
+  - button "Supprimer ce bloc": ✕
+  - textbox "Titre principal, bloc 6 sur 8":
+    - /placeholder: Titre du document
+    - text: Les prochaines étapes
+  - generic: Liste à puces
+  - button "Déplacer ce bloc vers le haut": ↑
+  - button "Déplacer ce bloc vers le bas": ↓
+  - button "Supprimer ce bloc": ✕
+  - textbox "Liste à puces, bloc 7 sur 8":
+    - /placeholder: Un élément par ligne
+    - text: Mardi 2 septembre — séance de négociation, remise du cahier revendicatif consolidé Jeudi 4 septembre — assemblée du personnel, compte rendu de séance Lundi 8 septembre — consultation des salariés sur la suite à donner
+  - paragraph: Un élément par ligne.
+  - generic: Encadré réglementaire
+  - button "Déplacer ce bloc vers le haut": ↑
+  - button "Déplacer ce bloc vers le bas": ↓
+  - button "Supprimer ce bloc": ✕
+  - textbox "Encadré réglementaire, bloc 8 sur 8":
+    - /placeholder: Article L. 4121-1 du Code du travail…
+    - text: La consultation d'août a réuni 287 réponses sur 416 salariés, soit 69 % de participation. La revalorisation générale arrive en tête des priorités à 68 %.
+  - button "A4 portrait"
+  - button "16:9 paysage" [pressed]
+  - button "A5 tract"
+  - button "Zoom 50 %": 50 %
+  - button "Zoom 72 %" [pressed]: 72 %
+  - button "Zoom 100 %": 100 %
+  - generic: 2 pages · 16:9 paysage
+  - generic: SECTION MÉTA VAL
+  - generic: Local syndical — 12 rue de la Fonderie
+  - img "Logo de l'organisation"
+  - generic: Communiqué
+  - heading "NAO 2027 — où en sont les négociations" [level=2]
+  - paragraph: Deux séances se sont tenues les 12 et 26 août. La délégation présente ici l'écart entre les demandes portées par les salariés et les propositions de la direction, avant la séance décisive du 2 septembre.
+  - generic: Sujet
+  - generic: Demande de la section
+  - generic: Proposition direction
+  - generic: Écart
+  - generic: Augmentation générale
+  - generic: 4,5 %
+  - generic: 0,8 %
+  - generic: 3,7 pts
+  - generic: Transports
+  - generic: 75 %
+  - generic: 50 % (inchangé)
+  - generic: 25 pts
+  - generic: Titres restaurant
+  - generic: 11,50 €
+  - generic: 9,80 €
+  - generic: 1,70 €
+  - generic: Télétravail
+  - generic: 2 jours indemnisés
+  - generic: 1 jour non indemnisé
+  - generic: 1 jour
+  - generic: section@syndicat-valenciennes.fr — 03 27 14 88 20
+  - generic: Page 1 / 2
+  - generic: SECTION MÉTA VAL
+  - generic: Local syndical — 12 rue de la Fonderie
+  - img "Logo de l'organisation"
+  - heading "Les prochaines étapes" [level=2]
+  - generic: ■
+  - generic: Mardi 2 septembre — séance de négociation, remise du cahier revendicatif consolidé
+  - generic: ■
+  - generic: Jeudi 4 septembre — assemblée du personnel, compte rendu de séance
+  - generic: ■
+  - generic: Lundi 8 septembre — consultation des salariés sur la suite à donner
+  - generic: La consultation d'août a réuni 287 réponses sur 416 salariés, soit 69 % de participation. La revalorisation générale arrive en tête des priorités à 68 %.
+  - generic: section@syndicat-valenciennes.fr — 03 27 14 88 20
+  - generic: Page 2 / 2

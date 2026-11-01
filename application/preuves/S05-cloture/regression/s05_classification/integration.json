@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "count": 26,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "event_created",
+      "ok": true
+    },
+    {
+      "test": "document_created",
+      "ok": true
+    },
+    {
+      "test": "review",
+      "ok": true
+    },
+    {
+      "test": "publish",
+      "ok": true
+    },
+    {
+      "test": "local_delivery",
+      "ok": true
+    },
+    {
+      "test": "case_created",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_classification_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "unknown_source_denied",
+      "ok": true
+    },
+    {
+      "test": "message_classified",
+      "ok": true
+    },
+    {
+      "test": "idempotent_link",
+      "ok": true
+    },
+    {
+      "test": "message_visible_with_source",
+      "ok": true
+    },
+    {
+      "test": "stale_target_denied",
+      "ok": true
+    },
+    {
+      "test": "pdf_classified",
+      "ok": true
+    },
+    {
+      "test": "ics_classified",
+      "ok": true
+    },
+    {
+      "test": "two_file_references",
+      "ok": true
+    },
+    {
+      "test": "pdf_download",
+      "ok": true
+    },
+    {
+      "test": "preview",
+      "ok": true
+    },
+    {
+      "test": "source_revocation_hides_text",
+      "ok": true
+    },
+    {
+      "test": "source_revocation_hides_files",
+      "ok": true
+    },
+    {
+      "test": "source_revocation_denies_download",
+      "ok": true
+    },
+    {
+      "test": "source_revocation_denies_preview",
+      "ok": true
+    },
+    {
+      "test": "case_revocation_denies_download",
+      "ok": true
+    }
+  ]
+}

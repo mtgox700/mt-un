@@ -1,0 +1,122 @@
+Browser tab: 9, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		6 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				21 container
+					265 button ← Tous les adhérents
+						266 text ← 
+						267 text Tous les adhérents
+					268 heading Karim Benali, Value: 1
+						269 text Karim Benali
+					270 container
+						271 text Opérateur ligne 3  ·  Adhérent depuis mars 2019
+					272 text DÉLÉGUÉ DE SECTION À JOUR
+					273 button Envoyer un message
+					306 heading Modifier la fiche, Value: 2
+						307 text Modifier la fiche
+					308 button Annuler
+					309 container
+						310 text PRÉNOM
+						311 text field (settable) PRÉNOM, Value: Karim
+					312 container
+						313 text NOM
+						314 text field (settable) NOM, Value: Benali
+					315 container
+						316 text COURRIEL
+						317 text field (settable) COURRIEL, Value: k.benali@mv-sa.fr
+					318 container
+						319 text TÉLÉPHONE
+						320 text field (settable) TÉLÉPHONE, Value: 06 12 44 87 21
+					321 container
+						322 text EMPLOI OCCUPÉ
+						323 text field (settable) EMPLOI OCCUPÉ, Value: Opérateur ligne 3
+					324 container
+						325 text ENTREPRISE
+						326 text field (settable) ENTREPRISE, Value: Métallurgie Valenciennes SA
+					327 container
+						328 text ÉTABLISSEMENT
+						329 text field (settable) ÉTABLISSEMENT, Value: Site de Valenciennes
+					330 container
+						331 text SECTION SYNDICALE
+						332 text field (settable) SECTION SYNDICALE, Value: Section Atelier
+					333 container
+						334 text DIRECTION
+						335 text field (settable) DIRECTION, Value: Production
+					336 container
+						337 text MANDAT
+						338 text field (settable) MANDAT, Value: Délégué de section
+					339 container
+						340 text ADHÉRENT DEPUIS
+						341 text field (settable) ADHÉRENT DEPUIS, Value: mars 2019
+					342 container
+						343 text MODE DE RÈGLEMENT
+						344 text field (settable) MODE DE RÈGLEMENT, Value: Prélèvement SEPA
+					345 container
+						346 text MONTANT DE COTISATION
+						347 text field (settable) MONTANT DE COTISATION, Value: 14,20 €/mois
+					348 button Enregistrer la fiche
+					276 heading COORDONNÉES, Value: 2
+						277 text COORDONNÉES
+					278 text Courriel k.benali@mv-sa.fr Téléphone 06 12 44 87 21 Emploi Opérateur ligne 3 Bulletin Signé le 12 mars 2019
+					279 heading RATTACHEMENT, Value: 2
+						280 text RATTACHEMENT
+					281 text Entreprise Métallurgie Valenciennes SA Établissement Site de Valenciennes Section Section Atelier Direction Production
+					282 heading COTISATION, Value: 2
+						283 text COTISATION
+					284 text MODE DE RÈGLEMENT
+					285 text Prélèvement SEPA
+					286 text MONTANT
+					287 text 14,20 €/mois
+					288 text DERNIER VERSEMENT
+					289 text 5 août 2026
+					290 text PROCHAINE ÉCHÉANCE
+					291 text 5 septembre 2026
+					292 text août 2026 Cotisation encaissée — 14,20 €/mois juillet 2026 Cotisation encaissée — 14,20 €/mois juin 2026 Cotisation encaissée — 14,20 €/mois janvier 2026 Attestation fiscale 2025 transmise
+					293 heading DOCUMENTS LIÉS, Value: 2
+						294 text DOCUMENTS LIÉS
+					295 text Bulletin d'adhésion Signé le 12 mars 2019
+					296 button Ouvrir
+					297 text Attestation fiscale 2025 Crédit d'impôt de 66 % — PDF signé
+					298 button Ouvrir
+					299 text Notice des droits de l'adhérent Assistance juridique, fonds de solidarité
+					300 button Envoyer
+					301 heading LISTES DE DIFFUSION, Value: 2
+						302 text LISTES DE DIFFUSION
+					303 text Tous les adhérents Atelier — Valenciennes Délégués et élus
+					304 container
+						305 text Ces listes se déduisent du rattachement et du statut de cotisation : aucun ajout manuel à maintenir.  Les messages partent en copie cachée.
+				112 container
+					225 button Accueil
+						226 image
+						227 text Accueil
+					116 button Dossiers
+						117 image
+						118 text Dossiers
+					119 button Agenda
+						120 image
+						121 text Agenda
+					122 button Réunions
+						123 image
+						124 text Réunions
+					125 button Réglages
+						126 image
+						127 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/tests/s08_native_integration.py", line 108, in <module>
+    sql(f"insert into public.uniion_resource_grants values('{org}','{refs['reunions']['id']}','{a['id']}',true,false,null,null)")
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/tests/s08_native_integration.py", line 12, in sql
+    if r.returncode:raise RuntimeError(r.stderr.decode())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: ERROR:  null value in column "valid_until" of relation "uniion_resource_grants" violates not-null constraint
+DETAIL:  Failing row contains (f54c4ee0-3e19-4fb3-b1a6-cc98a4fdee54, f5013698-752a-4a43-9263-872b92e5db29, 2053abdd-e28a-43b0-bff3-a79de52436b8, t, f, null, null).
+

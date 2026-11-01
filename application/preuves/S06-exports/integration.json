@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "count": 21,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "create_document",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "writer_without_download_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_without_download_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "authorized_pdf",
+      "ok": true
+    },
+    {
+      "test": "two_pages",
+      "ok": true
+    },
+    {
+      "test": "last_page_preserved",
+      "ok": true
+    },
+    {
+      "test": "document_metadata",
+      "ok": true
+    },
+    {
+      "test": "stale_denied",
+      "ok": true
+    },
+    {
+      "test": "revoked_during_render_denied",
+      "ok": true
+    },
+    {
+      "test": "edit_during_render",
+      "ok": true
+    },
+    {
+      "test": "changed_during_render_denied",
+      "ok": true
+    },
+    {
+      "test": "logo_style_saved",
+      "ok": true
+    },
+    {
+      "test": "extension_pdf",
+      "ok": true
+    },
+    {
+      "test": "extension_two_pages",
+      "ok": true
+    },
+    {
+      "test": "extension_last_page",
+      "ok": true
+    },
+    {
+      "test": "custom_logo_embedded",
+      "ok": true
+    },
+    {
+      "test": "disabled_module_denied",
+      "ok": true
+    }
+  ]
+}

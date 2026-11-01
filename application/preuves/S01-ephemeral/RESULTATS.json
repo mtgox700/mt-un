@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-26",
+  "unit_linux": 102,
+  "fresh_stack_checks": 13,
+  "worker_real_http_checks": 44,
+  "total_distinct_checks": 159,
+  "references_unchanged": 834,
+  "source_worker_activated": false,
+  "source_secrets_read": false,
+  "production_deployed": false
+}

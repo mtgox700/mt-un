@@ -1,0 +1,168 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - generic: Site interne de l'organisation
+  - heading "Intranet" [level=1]
+  - paragraph: 5 pages suivies · 1 en ligne, 1 en attente du webmaster
+  - tablist "Choisir le site à gérer":
+    - tab "Intranet 5 pages intranet.section-valenciennes.fr":
+      - generic: Intranet
+      - generic: 5 pages
+      - generic: intranet.section-valenciennes.fr
+    - tab "Site internet 3 pages section-valenciennes.fr":
+      - generic: Site internet
+      - generic: 3 pages
+      - generic: section-valenciennes.fr
+  - generic: Salariés authentifiés
+  - generic: "Vous pouvez y publier des comptes rendus de séance, des positions de négociation et des documents de travail : l'audience est interne et identifiée."
+  - generic: "1"
+  - generic: pages en ligne
+  - generic: "1"
+  - generic: en attente webmaster
+  - generic: "2"
+  - generic: en préparation
+  - generic: "1"
+  - generic: retour à traiter
+  - button "Générateur de pages HTML Points clés → page rédigée, mise au gabarit du site, HTML propre.":
+    - generic: Générateur de pages HTML
+    - generic: Points clés → page rédigée, mise au gabarit du site, HTML propre.
+  - button "Suivi des publications 1 demande en attente · 1 retour à traiter":
+    - generic: Suivi des publications
+    - generic: 1 demande en attente · 1 retour à traiter
+  - heading "Gabarits de page" [level=2]
+  - button "Actualité Un fait récent, un chapô, deux ou trois sections courtes. Rubrique Actualités":
+    - generic: Actualité
+    - generic: Un fait récent, un chapô, deux ou trois sections courtes.
+    - generic: Rubrique Actualités
+  - button "Communiqué interne Position de la section, ton institutionnel, signature du bureau. Une page":
+    - generic: Communiqué interne
+    - generic: Position de la section, ton institutionnel, signature du bureau.
+    - generic: Une page
+  - button "Fiche pratique Ce que dit le texte, ce que ça change pour vous, qui contacter. Rubrique Vos droits":
+    - generic: Fiche pratique
+    - generic: Ce que dit le texte, ce que ça change pour vous, qui contacter.
+    - generic: Rubrique Vos droits
+  - button "Questions-réponses Questions fréquentes sur un dispositif ou un accord, en blocs repliables. Blocs repliables":
+    - generic: Questions-réponses
+    - generic: Questions fréquentes sur un dispositif ou un accord, en blocs repliables.
+    - generic: Blocs repliables
+  - 'button "Événement Réunion d''information, permanence, assemblée : date, lieu, inscription. Avec inscription"':
+    - generic: Événement
+    - generic: "Réunion d'information, permanence, assemblée : date, lieu, inscription."
+    - generic: Avec inscription
+  - button "Compte rendu de séance Repris depuis un PV approuvé, allégé pour les salariés. Depuis Réunions":
+    - generic: Compte rendu de séance
+    - generic: Repris depuis un PV approuvé, allégé pour les salariés.
+    - generic: Depuis Réunions
+  - heading "Arborescence du site" [level=2]
+  - button "Actualités 2 pages /intranet/actualites Communiqués, comptes rendus de séance, mobilisations.":
+    - generic: Actualités
+    - generic: 2 pages
+    - generic: /intranet/actualites
+    - generic: Communiqués, comptes rendus de séance, mobilisations.
+  - 'button "Vos droits 1 page /intranet/vos-droits Fiches pratiques : congés, télétravail, temps de travail."':
+    - generic: Vos droits
+    - generic: 1 page
+    - generic: /intranet/vos-droits
+    - generic: "Fiches pratiques : congés, télétravail, temps de travail."
+  - button "La section 1 page /intranet/la-section Élus et mandats, permanences, procès-verbaux, comptes.":
+    - generic: La section
+    - generic: 1 page
+    - generic: /intranet/la-section
+    - generic: Élus et mandats, permanences, procès-verbaux, comptes.
+  - button "Négociations 0 page /intranet/negociations NAO, accords en cours, positions déposées.":
+    - generic: Négociations
+    - generic: 0 page
+    - generic: /intranet/negociations
+    - generic: NAO, accords en cours, positions déposées.
+  - button "Loisirs & ASC 1 page /intranet/asc Chèques vacances, billetterie, arbre de Noël.":
+    - generic: Loisirs & ASC
+    - generic: 1 page
+    - generic: /intranet/asc
+    - generic: Chèques vacances, billetterie, arbre de Noël.
+  - button "Nous contacter 0 page /intranet/contacts Formulaire de saisine, coordonnées, alerte confidentielle.":
+    - generic: Nous contacter
+    - generic: 0 page
+    - generic: /intranet/contacts
+    - generic: Formulaire de saisine, coordonnées, alerte confidentielle.
+  - heading "Pages de intranet.section-valenciennes.fr" [level=2]
+  - generic: 5 pages
+  - 'button "NAO 2027 : où en sont les négociations ? Actualités · Sophie Marchand · modifiée il y a 12 min Brouillon"':
+    - generic: "NAO 2027 : où en sont les négociations ?"
+    - generic: Actualités · Sophie Marchand · modifiée il y a 12 min
+    - generic: Brouillon
+    - generic: ›
+  - button "Supprimer"
+  - 'button "Sécurité atelier B : ce que le CSE a obtenu Actualités · Jean-Paul Deniau · modifiée hier Relue"':
+    - generic: "Sécurité atelier B : ce que le CSE a obtenu"
+    - generic: Actualités · Jean-Paul Deniau · modifiée hier
+    - generic: Relue
+    - generic: ›
+  - button "Supprimer"
+  - 'button "Chèques vacances 2026 : mode d''emploi Loisirs & ASC · Karim Belkacem · modifiée il y a 2 j En attente webmaster"':
+    - generic: "Chèques vacances 2026 : mode d'emploi"
+    - generic: Loisirs & ASC · Karim Belkacem · modifiée il y a 2 j
+    - generic: En attente webmaster
+    - generic: ›
+  - button "Supprimer"
+  - button "Permanences des élus — rentrée 2026 La section · Sophie Marchand · modifiée il y a 6 j Publiée":
+    - generic: Permanences des élus — rentrée 2026
+    - generic: La section · Sophie Marchand · modifiée il y a 6 j
+    - generic: Publiée
+    - generic: ›
+  - button "Supprimer"
+  - 'button "Télétravail : vos droits après l''avenant Vos droits · Sophie Marchand · modifiée il y a 3 j Retournée"':
+    - generic: "Télétravail : vos droits après l'avenant"
+    - generic: Vos droits · Sophie Marchand · modifiée il y a 3 j
+    - generic: Retournée
+    - generic: ›
+  - button "Supprimer"
+  - paragraph: Vous éditez l'intranet au titre du rôle « communication ». 3 adhérents disposent de ce rôle ; les autres ont un accès en lecture.
+  - button "Charte de ce site"

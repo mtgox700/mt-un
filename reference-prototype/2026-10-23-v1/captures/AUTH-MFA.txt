@@ -1,0 +1,20 @@
+Browser tab: 4, Title: "127.0.0.1:5052/uniion App v3.dc.html", URL: "http://127.0.0.1:5052/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 text uniion
+		3 heading L'outil des élus, pas celui de la direction., Value: 1
+			4 text L'outil des élus, pas celui de la direction.
+		5 text Prototype local : dossiers, assistant juridique, consultations des salariés et bilan de mandat. Données de démonstration ; hébergement et protections de production à intégrer.
+		6 text Chiffrement cible AES-256 Cible RGPD · démonstration locale Anonymisation avant inférence IA
+		7 heading Vérification en deux étapes, Value: 2
+			8 text Vérification en deux étapes
+		9 text Code à 6 chiffres envoyé sur iPhone 15 — Sophie (application uniion).
+		10 text field (settable) Code à six chiffres
+		11 button Vérifier et ouvrir la session
+		12 button Renvoyer un code
+		13 button Utiliser une clé de sécurité
+		14 button Changer de compte
+		15 container
+			16 text Démonstration : le code valide est  402913 .
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5052/uniion%20App%20v3.dc.html

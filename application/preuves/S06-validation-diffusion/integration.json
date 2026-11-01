@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "count": 25,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "create",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "ungranted_reviewer_denied",
+      "ok": true
+    },
+    {
+      "test": "author_review_denied",
+      "ok": true
+    },
+    {
+      "test": "unreviewed_publish_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "second_actor_review",
+      "ok": true
+    },
+    {
+      "test": "reader_sees_validated",
+      "ok": true
+    },
+    {
+      "test": "reviewer_cannot_publish",
+      "ok": true
+    },
+    {
+      "test": "revoked_reviewer_blocks_publication",
+      "ok": true
+    },
+    {
+      "test": "publish",
+      "ok": true
+    },
+    {
+      "test": "published_persistent",
+      "ok": true
+    },
+    {
+      "test": "publish_idempotent",
+      "ok": true
+    },
+    {
+      "test": "single_audit",
+      "ok": true
+    },
+    {
+      "test": "edit_after_publication",
+      "ok": true
+    },
+    {
+      "test": "new_version_draft",
+      "ok": true
+    },
+    {
+      "test": "old_version_denied",
+      "ok": true
+    },
+    {
+      "test": "new_version_needs_review",
+      "ok": true
+    },
+    {
+      "test": "old_publication_preserved",
+      "ok": true
+    },
+    {
+      "test": "module_disabled_denied",
+      "ok": true
+    },
+    {
+      "test": "create_ui_desktop",
+      "ok": true
+    },
+    {
+      "test": "create_ui_tablette",
+      "ok": true
+    },
+    {
+      "test": "create_ui_mobile",
+      "ok": true
+    }
+  ]
+}

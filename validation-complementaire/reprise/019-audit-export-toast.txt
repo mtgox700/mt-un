@@ -1,0 +1,45 @@
+Browser tab: 8, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		116 text 1024 × 768
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 text uniion CONSOLE D'ADMINISTRATION
+					76 button Supervision
+						77 image
+						78 text Supervision
+					79 button Organisations
+						80 image
+						81 text Organisations
+					73 button Utilisateurs
+						74 image
+						75 text Utilisateurs
+					82 button Clés API IA
+						83 image
+						84 text Clés API IA
+					85 button Éditeur de l’application
+						86 image
+						87 text Éditeur de l’application
+					117 button Abonnements et paiements
+						118 image
+						119 text Abonnements et paiements
+					120 button Journal d’audit
+						121 image
+						122 text Journal d’audit
+					33 text SA Super administrateur admin@uniion.fr
+					34 button Se déconnecter
+				35 container
+					36 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+					123 heading Journal d'audit, Value: 1
+						124 text Journal d'audit
+					125 text Chaîne d'empreintes inaltérable — conservation 36 mois.
+					126 button Exporter (CSV signé)
+					127 text 11/09 09:41 admin@uniion.fr Rotation de la clé « Production — assistant juridique » Sensible 11/09 08:12 système Quota IA à 80 % — UD 59 — Lille Alerte 10/09 17:55 admin@uniion.fr Suspension du compte claire.dubois@ud59.fr Sensible 10/09 14:03 yann.lemoine@ud59.fr Export du registre des adhérents (1 320 lignes) Information 09/09 11:20 admin@uniion.fr Publication du gabarit « Tract A4 » v3 Information
+
+The focused UI element is 126 button Exporter (CSV signé)

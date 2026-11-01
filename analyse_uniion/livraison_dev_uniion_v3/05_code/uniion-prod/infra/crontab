@@ -1,0 +1,6 @@
+# crontab de l'utilisateur d'exploitation (crontab -u deploy infra/crontab)
+MAILTO=""
+7 * * * *   /srv/uniion/backup.sh base     >> /var/log/uniion-backup.log 2>&1
+40 2 * * *  /srv/uniion/backup.sh fichiers >> /var/log/uniion-backup.log 2>&1
+*/10 * * * * /srv/uniion/disque.sh         >> /var/log/uniion-disque.log 2>&1
+0 6 1 1,4,7,10 * /srv/uniion/restore-test.sh >> /var/log/uniion-restore.log 2>&1

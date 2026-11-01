@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "test": "real_login",
+      "ok": true
+    },
+    {
+      "test": "own_business_initial",
+      "ok": true
+    },
+    {
+      "test": "real_refresh_after_reload",
+      "ok": true
+    },
+    {
+      "test": "own_business_after_real_refresh",
+      "ok": true
+    },
+    {
+      "test": "cross_org_denied_after_reload",
+      "ok": true
+    },
+    {
+      "test": "real_tokens_not_plaintext_on_disk",
+      "ok": true
+    },
+    {
+      "test": "provider_failure_reported",
+      "ok": true
+    },
+    {
+      "test": "cookie_closed_despite_provider_failure",
+      "ok": true
+    },
+    {
+      "test": "revocation_queue_survives_reload",
+      "ok": true
+    },
+    {
+      "test": "local_access_closed_during_provider_failure",
+      "ok": true
+    },
+    {
+      "test": "retry_queue_drained",
+      "ok": true
+    },
+    {
+      "test": "old_jwt_refused_by_direct_rest_after_retry",
+      "ok": true
+    },
+    {
+      "test": "logout_survives_second_reload",
+      "ok": true
+    }
+  ],
+  "passed": true,
+  "count": 13,
+  "fault_injection": "Only the test transport logout raises temporary failure; Supabase services remain running."
+}

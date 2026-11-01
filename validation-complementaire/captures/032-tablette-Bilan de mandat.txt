@@ -1,0 +1,66 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		808 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				557 container
+					1190 text PILOTAGE
+					1191 heading Reporting, Value: 1
+						1192 text Reporting
+					1193 text Du 1er janvier au 26 août 2026 · 416 salariés · 24 élus
+					1194 button Année 2026
+					1195 button 12 derniers mois
+					1196 button Mandat 2024–2028
+					1197 checkbox Bilan de mandat, Value: 1
+					1198 checkbox Utilisation de l'application, Value: 0
+					1199 text DOSSIERS TRAITÉS 84 +18 % vs 2025 DOSSIERS CLOS 71 85 % de résolution DÉLAI MOYEN 9 j −3 j vs 2025 PARTICIPATION SONDAGES 72 % +9 pts
+					1200 heading Dossiers par mois, Value: 2
+						1201 text Dossiers par mois
+					1202 text Ouverts en orange, clos en gris.
+					1203 text Jan Fév Mar Avr Mai Juin Juil Août
+					1204 heading Répartition par thème, Value: 2
+						1205 text Répartition par thème
+					1206 text Salaires et primes 26 dossiers · 31 % Santé et sécurité 21 dossiers · 25 % Temps de travail 15 dossiers · 18 % Discipline et sanctions 12 dossiers · 14 % Égalité et discriminations 10 dossiers · 12 %
+					1207 heading Activité du mandat, Value: 2
+						1208 text Activité du mandat
+					1209 text Réunions CSE 8 ordinaires, 2 extraordinaires 10 Séances de négociation NAO, télétravail, égalité pro 6 Sondages diffusés 72 % de participation moyenne 9 Consultations de l'assistant 96 % sourcées convention ou code 1 240 Heures de délégation sur 1 920 h de crédit annuel 1 412
+					1210 heading Exporter le bilan, Value: 2
+						1211 text Exporter le bilan
+					1212 text Le bilan reprend la mise en forme attendue pour l'annexe du rapport annuel du CSE. Aucune donnée nominative de salarié n'y figure.
+					1213 button Bilan annuel (PDF)
+					1214 button Données détaillées (Excel)
+					1215 button Partager en lecture seule aux élus
+				112 container
+					1216 button Accueil
+						1217 image
+						1218 text Accueil
+					998 button Dossiers
+						999 image
+						1000 text Dossiers
+					1095 button Agenda
+						1096 image
+						1097 text Agenda
+					1187 button Réunions
+						1188 image
+						1189 text Réunions
+					903 button Réglages
+						904 image
+						905 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

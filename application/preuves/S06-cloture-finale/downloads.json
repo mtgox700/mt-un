@@ -1,0 +1,17 @@
+[
+  {
+    "viewport": "mobile",
+    "pages": 2,
+    "sha256": "cbf5e36b918eb2e21c85c58b83deaa8e9543350106a42373bf8dece836943ee5"
+  },
+  {
+    "viewport": "tablette",
+    "pages": 2,
+    "sha256": "cbf5e36b918eb2e21c85c58b83deaa8e9543350106a42373bf8dece836943ee5"
+  },
+  {
+    "viewport": "desktop",
+    "pages": 2,
+    "sha256": "cbf5e36b918eb2e21c85c58b83deaa8e9543350106a42373bf8dece836943ee5"
+  }
+]

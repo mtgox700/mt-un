@@ -1,0 +1,125 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+    - generic: "3"
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: unii suggère
+  - button "Échéance dans 24 h · Signalement — Service Logistique"
+  - button "Échéance dans 4 h · Accident Atelier B"
+  - button "Votre point de la semaine est prêt"
+  - generic: Bonjour,
+  - heading "Sophie Marchand" [level=1]
+  - paragraph: Section syndicale Métallurgie — Valenciennes · 5 dossiers ouverts, 1 échéance légale cette semaine
+  - button "Urgent il y a 10 min Accident Atelier B Enquête CSSCT déclenchée. Accusé de réception attendu sous 4 h.":
+    - generic: Urgent
+    - generic: il y a 10 min
+    - generic: Accident Atelier B
+    - generic: Enquête CSSCT déclenchée. Accusé de réception attendu sous 4 h.
+  - button "Sondage NAO en cours Priorités salariales 2027 75 % de participation":
+    - generic: Sondage NAO en cours
+    - generic: Priorités salariales 2027
+    - generic: 75 % de participation
+  - button "Assistant IA":
+    - generic: Assistant IA
+  - button "Dossiers":
+    - generic: Dossiers
+  - button "Sondages":
+    - generic: Sondages
+  - button "Réunions":
+    - generic: Réunions
+  - button "Documents":
+    - generic: Documents
+  - button "Intranet":
+    - generic: Intranet
+  - button "Agenda":
+    - generic: Agenda
+  - button "Adhérents":
+    - generic: Adhérents
+  - button "Bilan de mandat":
+    - generic: Bilan de mandat
+  - button "Hors ligne":
+    - generic: Hors ligne
+  - button "Messages":
+    - generic: Messages
+  - button "Formations":
+    - generic: Formations
+  - button "Communication":
+    - generic: Communication
+  - button "Application mobile":
+    - generic: Application mobile
+  - heading "Mes dossiers" [level=2]
+  - button "Tout voir"
+  - button "Signalement — Service Logistique Harcèlement · échéance 24 h ›":
+    - generic: Signalement — Service Logistique
+    - generic: Harcèlement · échéance 24 h
+    - generic: ›
+  - button "Accident Atelier B CSSCT · échéance 4 h ›":
+    - generic: Accident Atelier B
+    - generic: CSSCT · échéance 4 h
+    - generic: ›
+  - button "Valider devis traiteur ASC / Noël · échéance 5 j ›":
+    - generic: Valider devis traiteur
+    - generic: ASC / Noël · échéance 5 j
+    - generic: ›
+  - generic: Agenda partagé
+  - heading "Prochaines échéances" [level=2]
+  - button "03 sep Séance NAO 2027 Salle du conseil · 9 h — 4 élus":
+    - generic: 03 sep
+    - generic: Séance NAO 2027
+    - generic: Salle du conseil · 9 h — 4 élus
+    - generic: ›
+  - button "05 sep Enquête CSSCT Atelier B Visite sur site · 2 élus":
+    - generic: 05 sep
+    - generic: Enquête CSSCT Atelier B
+    - generic: Visite sur site · 2 élus
+    - generic: ›
+  - button "12 sep Clôture du sondage télétravail Automatique · 18 h":
+    - generic: 12 sep
+    - generic: Clôture du sondage télétravail
+    - generic: Automatique · 18 h
+    - generic: ›

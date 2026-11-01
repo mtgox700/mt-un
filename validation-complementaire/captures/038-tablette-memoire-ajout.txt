@@ -1,0 +1,93 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		808 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				1334 container
+					1459 text ASSISTANT IA
+					1460 heading Mémoire de l'assistant, Value: 1
+						1461 text Mémoire de l'assistant
+					1462 text Les faits retenus ici accompagnent chaque question posée à l'IA, d'une conversation à l'autre. Ils restent dans ce navigateur, sont anonymisés avant envoi et ne sont jamais cités comme source juridique.
+					1463 text Utiliser la mémoire dans les réponses
+					1464 text 5 éléments actifs transmis (anonymisés) à chaque requête IA
+					1465 switch Description: Activer ou suspendre la mémoire, Value: 0
+					1466 text AJOUTER UN ÉLÉMENT
+					1467 button Mandat & organisation
+					1468 button Textes applicables
+					1469 button Préférences de rédaction
+					1470 button Sujets en cours
+					1471 text entry area (settable)
+					1472 button Ajouter à la mémoire
+					1473 heading Mandat & organisation, Value: 3
+						1474 text Mandat & organisation
+					1475 text 2
+					1476 switch Description: Activer ou désactiver cet élément, Value: 0
+					1477 text Recette fictive : privilégier des réponses courtes pour cet exercice.
+					1478 text Ajouté manuellement · 23 oct. 2026
+					1479 button Modifier
+					1480 button Oublier
+					1506 switch Description: Activer ou désactiver cet élément, Value: 0
+					1507 text Élue titulaire au CSE et secrétaire adjointe ; mandat jusqu’en juin 2027.
+					1508 text Ajouté manuellement · 3 oct. 2026
+					1509 button Modifier
+					1510 button Oublier
+					1481 heading Textes applicables, Value: 3
+						1482 text Textes applicables
+					1483 text 1
+					1484 switch Description: Activer ou désactiver cet élément, Value: 0
+					1485 text Convention collective nationale de la Métallurgie applicable ; accord d’entreprise télétravail signé en mars 2025.
+					1486 text Proposé par l’assistant · 11 oct. 2026
+					1487 button Modifier
+					1488 button Oublier
+					1489 heading Préférences de rédaction, Value: 3
+						1490 text Préférences de rédaction
+					1491 text 1
+					1492 switch Description: Activer ou désactiver cet élément, Value: 0
+					1493 text Réponses courtes : d’abord le délai légal, puis un plan d’action daté.
+					1494 text Ajouté manuellement · 17 oct. 2026
+					1495 button Modifier
+					1496 button Oublier
+					1497 heading Sujets en cours, Value: 3
+						1498 text Sujets en cours
+					1499 text 1
+					1500 switch Description: Activer ou désactiver cet élément, Value: 0
+					1501 text NAO 2026 ouverte : revendication de 4,5 % d’augmentation générale.
+					1502 text Retenu depuis une réponse · 21 oct. 2026
+					1503 button Modifier
+					1504 button Oublier
+					1505 button Tout oublier
+				1511 text Ajouté à la mémoire — modifiable dans Réglages › Mémoire
+				112 container
+					1331 button Accueil
+						1332 image
+						1333 text Accueil
+					998 button Dossiers
+						999 image
+						1000 text Dossiers
+					1095 button Agenda
+						1096 image
+						1097 text Agenda
+					1187 button Réunions
+						1188 image
+						1189 text Réunions
+					1456 button Réglages
+						1457 image
+						1458 text Réglages
+
+The focused UI element is 1472 button Ajouter à la mémoire

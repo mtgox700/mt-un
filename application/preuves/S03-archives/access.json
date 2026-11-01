@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "direct_storage_read_denied",
+      "ok": true
+    },
+    {
+      "test": "worker_cannot_overwrite_final_object",
+      "ok": true
+    },
+    {
+      "test": "metadata_replacement_denied",
+      "ok": true
+    },
+    {
+      "test": "wrong_organization_archive_denied",
+      "ok": true
+    },
+    {
+      "test": "anonymous_archive_denied",
+      "ok": true
+    },
+    {
+      "test": "metadata_unchanged",
+      "ok": true
+    }
+  ]
+}

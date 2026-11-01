@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "width": 390,
+      "height": 844,
+      "closed": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "closed": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "closed": true,
+      "overflow": false
+    }
+  ],
+  "createdDesktop": true,
+  "closedDesktop": true,
+  "reopenedTablet": true,
+  "closedMobile": true,
+  "targetedRefreshRetested": true
+}

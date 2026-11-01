@@ -1,0 +1,7 @@
+{
+  "file": "supabase/migrations/202610300140_message_action_validation.sql",
+  "sha256": "65fdb09367994ee009b62cadbbde55ef33b856b5f8872458c6e0b75ff274ef1d",
+  "container": "uniion-ci-e3983a36",
+  "applied_after_bootstrap": true,
+  "passed": true
+}

@@ -1,0 +1,85 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Représentants":
+      - generic: Représentants
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "S0 s08-f04cd85d2a2f4278b00eb31d2297cff6@uniion-local.example Membre":
+    - generic: S0
+    - generic: s08-f04cd85d2a2f4278b00eb31d2297cff6@uniion-local.example
+    - generic: Membre
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…"
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - button "Réunions":
+    - text: Réunions
+  - status: Flux audio interrompu ; segments reçus conservés. — Capture PCM ; segments conservés chiffrés.
+  - button "Durée d’accès locale"
+  - button "Reprendre un brouillon mis de côté"
+  - heading "Avant d'enregistrer" [level=1]
+  - paragraph: L'enregistrement d'une séance suppose l'accord des personnes présentes. Deux confirmations sont requises avant que le micro ne s'ouvre.
+  - button "Préparer une réunion"
+  - generic: Réunion serveur
+  - button "Réunion S09 entièrement fictive" [pressed]
+  - checkbox "Les personnes présentes ont été informées de l'enregistrement À annoncer en ouverture de séance, avant le premier mot consigné." [checked]:
+    - generic: ✓
+    - generic: Les personnes présentes ont été informées de l'enregistrement
+    - generic: À annoncer en ouverture de séance, avant le premier mot consigné.
+  - checkbox "La séance ne s'y est pas opposée Un refus, même d'une seule personne, interdit l'enregistrement — prise de notes uniquement." [checked]:
+    - generic: ✓
+    - generic: La séance ne s'y est pas opposée
+    - generic: Un refus, même d'une seule personne, interdit l'enregistrement — prise de notes uniquement.
+  - heading "Ce qui est fait de l'enregistrement" [level=2]
+  - generic: Recette fictive uniquement. Capture PCM jusqu’à huit heures, en segments de deux minutes maximum.
+  - generic: Brouillon chiffré sur cet appareil ; blocs transférés et contrôlés avant confirmation serveur.
+  - generic: Le consentement et les habilitations sont revérifiés. Aucune suppression automatique.
+  - generic: Transcription non connectée. Les accès audio sont audités.
+  - button "Confirmez puis sauvegardez le brouillon"
+  - paragraph: Pour une capture, le navigateur demandera l’accès au micro. Un refus ne déclenche aucune simulation.
+  - status:
+    - generic: Flux audio interrompu ; segments reçus conservés.
+  - generic: Enregistrement terminé
+  - generic: Réunion
+  - generic: 00:00
+  - button "Enregistrer la séance"
+  - button "Mettre de côté"
+  - heading "Marqueurs posés" [level=2]
+  - generic: 0 marqueur
+  - paragraph: Aucun marqueur pour l'instant. Posez-en un au moment d'un vote, d'un engagement de la direction ou d'un désaccord.

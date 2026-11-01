@@ -1,0 +1,76 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				8 text unii
+				9 text 2
+			10 button
+				11 image
+			12 button Se déconnecter
+				13 image
+		14 container
+			15 text UNII SUGGÈRE
+			16 button 2 non lus · Commission Négociation
+			17 button 1 non lu · Jean-Paul Diallo
+			18 container
+				19 heading Messages, Value: 1
+					20 text Messages
+				21 button Nouvelle discussion
+				22 button Nouveau groupe
+				23 button Nouvelle diffusion aux adhérents
+				24 tab group Vue
+					25 tab (selected, settable, boolean) Discussions, Value: 1
+					26 tab (selectable, settable, boolean) Contacts & groupes, Value: 0
+				27 text field (settable) Rechercher
+				28 checkbox Toutes, Value: 1
+				29 checkbox Non lues 2, Value: 0
+				30 checkbox Sans réponse de ma part 3, Value: 0
+				31 checkbox Dernier message de moi 1, Value: 0
+				32 checkbox Groupes 3, Value: 0
+				33 checkbox Diffusions, Value: 0
+				34 button Commission Négociation 09:20 Leïla C. : On maintient l'AG du personnel mardi 12 h 30 ? 2
+					35 text Commission Négociation
+					36 text 09:20
+					37 text Leïla C. : 
+					38 text On maintient l'AG du personnel mardi 12 h 30 ?
+					39 text 2
+				40 button Commission SSCT hier ✓✓ Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire.
+					41 text Commission SSCT
+					42 text hier
+					43 text ✓✓
+					44 text Vous : 
+					45 text Je prépare la grille d'enquête et je la dépose dans la base documentaire.
+				46 button Commission ASC lun. Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts.
+					47 text Commission ASC
+					48 text lun.
+					49 text Leïla C. : 
+					50 text Troisième devis traiteur reçu : 2 900 € pour 180 couverts.
+				51 button Jean-Paul Diallo lun. Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi. 1
+					52 text Jean-Paul Diallo
+					53 text lun.
+					54 text Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.
+					55 text 1
+				56 text Messagerie locale de démonstration — aucun envoi externe.
+		57 container
+			58 button Accueil
+				59 image
+				60 text Accueil
+			61 button Dossiers
+				62 image
+				63 text Dossiers
+			64 button Agenda
+				65 image
+				66 text Agenda
+			67 button Réunions
+				68 image
+				69 text Réunions
+			70 button Réglages
+				71 image
+				72 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

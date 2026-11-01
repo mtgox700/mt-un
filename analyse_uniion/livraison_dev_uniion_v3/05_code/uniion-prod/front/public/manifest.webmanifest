@@ -1,0 +1,14 @@
+{
+  "name": "uniion",
+  "short_name": "uniion",
+  "description": "L'établi numérique des représentants du personnel.",
+  "lang": "fr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F9FAFB",
+  "theme_color": "#F97316",
+  "icons": [
+    { "src": "/uniion-logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

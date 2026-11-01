@@ -1,0 +1,16 @@
+Browser tab: 3, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 313, 318-319
+~				311 text unii 1 dernier message du fil  · visible par vous seule à l'instant
+~				312 container
++					313 text «  Propose deux étapes pour cet atelier fictif de préparation des élus.  »
+~				314 text 1. Cadrer l’exercice : choisissez une situation entièrement fictive de préparation d’une réunion CSE. Définissez ensemble l’objectif, répartissez les rôles et préparez une courte liste de questions à poser.
+
+2. Simuler puis débriefer : jouez les échanges entre élus et direction, puis relevez les informations manquantes, les points à vérifier et les améliorations à apporter. Terminez par un plan d’action avec responsables et échéances fictives.
+
+Sources
+Proposition pédagogique originale — aucune affirmation juridique ; aucune source externe mobilisée.
+~				315 button Insérer dans ma réponse
+~				316 button Poursuivre dans l'assistant
+~				317 button Masquer
+The focused UI element is 310 button Envoyer

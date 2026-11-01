@@ -1,0 +1,18 @@
+{
+  "session_health": {
+    "ok": true,
+    "issues": [],
+    "checked_at": 1793034527.9300401,
+    "pending_revocations": 0,
+    "oldest_pending_seconds": 0
+  },
+  "backup_monitor": {
+    "issues": [],
+    "events": [],
+    "changed": false,
+    "last_backup": "20261026T165005Z",
+    "last_tick": 1793034302.617441,
+    "automatic_deletion": false
+  },
+  "previous_backup_delay": "already recovered; reported and acknowledged"
+}

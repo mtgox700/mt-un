@@ -1,0 +1,30 @@
+[
+  {
+    "format": "mobile",
+    "selectionRequired": true,
+    "overpaymentRefused": true,
+    "paidCents": 200,
+    "totalRemaining": 2300,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "format": "tablette",
+    "paidCents": 100,
+    "totalRemaining": 2200,
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "format": "desktop",
+    "paidCents": 200,
+    "totalRemaining": 2000,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "reloadVerified": true,
+    "settledEntryRemoved": true,
+    "fullSelectionTextAdded": true
+  }
+]

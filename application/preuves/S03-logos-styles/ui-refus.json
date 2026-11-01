@@ -1,0 +1,20 @@
+[
+  {
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "denied": true
+  },
+  {
+    "name": "tablette",
+    "width": 768,
+    "height": 1024,
+    "denied": true
+  },
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "denied": true
+  }
+]

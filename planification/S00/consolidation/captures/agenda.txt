@@ -1,0 +1,158 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Planification partagée
+  - heading "Agenda" [level=1]
+  - paragraph: Séances, négociations, permanences et échéances de mandat — visibles de tous les militants. 12 événements — 12 au total.
+  - button "Mois précédent":
+  - generic: Septembre 2026
+  - button "Mois suivant":
+  - button "Aujourd'hui"
+  - tablist "Affichage":
+    - tab "Mois" [selected]
+    - tab "Liste"
+  - button "Nouvel événement"
+  - button "Réunion de section":
+    - generic: Réunion de section
+  - button "Négociation":
+    - generic: Négociation
+  - button "Permanence syndicale":
+    - generic: Permanence syndicale
+  - button "Formation":
+    - generic: Formation
+  - button "Assemblée générale":
+    - generic: Assemblée générale
+  - button "Échéance":
+    - generic: Échéance
+  - generic: lun
+  - generic: mar
+  - generic: mer
+  - generic: jeu
+  - generic: ven
+  - generic: sam
+  - generic: dim
+  - button "Sélectionner le 2026-08-31": "31"
+  - button "Sélectionner le 2026-09-01": "1"
+  - button "Sélectionner le 2026-09-02": "2"
+  - button "NAO — 3ᵉ séance"
+  - button "Assemblée des adhérents"
+  - button "Sélectionner le 2026-09-03": "3"
+  - button "CSE ordinaire — septembre"
+  - button "Sélectionner le 2026-09-04": "4"
+  - button "Permanence des élus"
+  - button "Sélectionner le 2026-09-05": "5"
+  - button "Sélectionner le 2026-09-06": "6"
+  - button "Sélectionner le 2026-09-07": "7"
+  - button "Sélectionner le 2026-09-08": "8"
+  - button "Réponse de la direction — enquête Atelier B"
+  - button "Sélectionner le 2026-09-09": "9"
+  - button "Sélectionner le 2026-09-10": "10"
+  - button "Formation SSCT — module 2"
+  - button "Sélectionner le 2026-09-11": "11"
+  - button "Sélectionner le 2026-09-12": "12"
+  - button "Sélectionner le 2026-09-13": "13"
+  - button "Sélectionner le 2026-09-14": "14"
+  - button "Permanence des élus"
+  - button "Sélectionner le 2026-09-15": "15"
+  - button "Sélectionner le 2026-09-16": "16"
+  - button "Sélectionner le 2026-09-17": "17"
+  - button "CSSCT — visite de l'atelier B"
+  - button "Sélectionner le 2026-09-18": "18"
+  - button "Sélectionner le 2026-09-19": "19"
+  - button "Sélectionner le 2026-09-20": "20"
+  - button "Sélectionner le 2026-09-21": "21"
+  - button "Sélectionner le 2026-09-22": "22"
+  - button "NAO — 4ᵉ séance"
+  - button "Sélectionner le 2026-09-23": "23"
+  - button "Sélectionner le 2026-09-24": "24"
+  - button "Dépôt du PV de septembre"
+  - button "Sélectionner le 2026-09-25": "25"
+  - button "Sélectionner le 2026-09-26": "26"
+  - button "Sélectionner le 2026-09-27": "27"
+  - button "Sélectionner le 2026-09-28": "28"
+  - button "Sélectionner le 2026-09-29": "29"
+  - button "Réunion de section — Prouvy"
+  - button "Sélectionner le 2026-09-30": "30"
+  - button "Sélectionner le 2026-10-01": "1"
+  - button "Entrée en vigueur — accord télétravail"
+  - button "Sélectionner le 2026-10-02": "2"
+  - button "Sélectionner le 2026-10-03": "3"
+  - button "Sélectionner le 2026-10-04": "4"
+  - button "Sélectionner le 2026-10-05": "5"
+  - button "Sélectionner le 2026-10-06": "6"
+  - button "Sélectionner le 2026-10-07": "7"
+  - button "Sélectionner le 2026-10-08": "8"
+  - button "Sélectionner le 2026-10-09": "9"
+  - button "Sélectionner le 2026-10-10": "10"
+  - button "Sélectionner le 2026-10-11": "11"
+  - complementary:
+    - heading "Jeudi 3 septembre" [level=2]
+    - button "+ Ajouter"
+    - button "Réunion de section CSE ordinaire — septembre 09 h 00 → 12 h 30 · Salle du conseil, siège":
+      - generic: Réunion de section
+      - generic: CSE ordinaire — septembre
+      - generic: 09 h 00 → 12 h 30 · Salle du conseil, siège
+    - heading "Prochaines échéances" [level=2]
+    - button "NAO — 3ᵉ séance Mercredi 2 septembre · 09 h 00":
+      - generic: NAO — 3ᵉ séance
+      - generic: Mercredi 2 septembre · 09 h 00
+    - button "Assemblée des adhérents Mercredi 2 septembre · 12 h 15":
+      - generic: Assemblée des adhérents
+      - generic: Mercredi 2 septembre · 12 h 15
+    - button "CSE ordinaire — septembre Jeudi 3 septembre · 09 h 00":
+      - generic: CSE ordinaire — septembre
+      - generic: Jeudi 3 septembre · 09 h 00
+    - button "Permanence des élus Vendredi 4 septembre · 12 h 00":
+      - generic: Permanence des élus
+      - generic: Vendredi 4 septembre · 12 h 00
+    - button "Réponse de la direction — enquête Atelier B Mardi 8 septembre":
+      - generic: Réponse de la direction — enquête Atelier B
+      - generic: Mardi 8 septembre
+    - paragraph: Les rappels sont envoyés aux militants concernés 48 h avant l'échéance, par notification et par courriel.

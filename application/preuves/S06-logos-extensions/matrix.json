@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "count": 26,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "choc_create",
+      "ok": true
+    },
+    {
+      "test": "choc_reload",
+      "ok": true
+    },
+    {
+      "test": "journal_create",
+      "ok": true
+    },
+    {
+      "test": "journal_reload",
+      "ok": true
+    },
+    {
+      "test": "infographie_create",
+      "ok": true
+    },
+    {
+      "test": "infographie_reload",
+      "ok": true
+    },
+    {
+      "test": "institutionnel_create",
+      "ok": true
+    },
+    {
+      "test": "institutionnel_reload",
+      "ok": true
+    },
+    {
+      "test": "photo_create",
+      "ok": true
+    },
+    {
+      "test": "photo_reload",
+      "ok": true
+    },
+    {
+      "test": "serigraphie_create",
+      "ok": true
+    },
+    {
+      "test": "serigraphie_reload",
+      "ok": true
+    },
+    {
+      "test": "bulletin_create",
+      "ok": true
+    },
+    {
+      "test": "bulletin_reload",
+      "ok": true
+    },
+    {
+      "test": "qr_create",
+      "ok": true
+    },
+    {
+      "test": "qr_reload",
+      "ok": true
+    },
+    {
+      "test": "satirique_create",
+      "ok": true
+    },
+    {
+      "test": "satirique_reload",
+      "ok": true
+    },
+    {
+      "test": "bd_create",
+      "ok": true
+    },
+    {
+      "test": "bd_reload",
+      "ok": true
+    },
+    {
+      "test": "annonce_create",
+      "ok": true
+    },
+    {
+      "test": "annonce_reload",
+      "ok": true
+    },
+    {
+      "test": "retro_create",
+      "ok": true
+    },
+    {
+      "test": "retro_reload",
+      "ok": true
+    }
+  ]
+}

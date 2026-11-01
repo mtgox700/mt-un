@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "count": 10,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "created",
+      "ok": true
+    },
+    {
+      "test": "claimed_process_exited",
+      "ok": true
+    },
+    {
+      "test": "running_survives_process_exit",
+      "ok": true
+    },
+    {
+      "test": "unexpired_lease_not_stolen",
+      "ok": true
+    },
+    {
+      "test": "fresh_worker_exited",
+      "ok": true
+    },
+    {
+      "test": "fresh_worker_completed_pdf",
+      "ok": true
+    },
+    {
+      "test": "obsolete_lease_cannot_overwrite",
+      "ok": true
+    },
+    {
+      "test": "pdf_still_done",
+      "ok": true
+    }
+  ],
+  "lease_expiry": "Timestamp advanced on this fictional job only"
+}

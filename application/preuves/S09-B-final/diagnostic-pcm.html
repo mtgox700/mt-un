@@ -1,0 +1,5 @@
+<!doctype html><meta charset="utf-8"><h1>Diagnostic PCM indépendant</h1><button id="start">Démarrer le signal fictif</button><button id="stop">Arrêter</button><pre id="state">En attente</pre><script type="module">
+import {createPCMRecorder} from './pcm-recorder.js';let rec,ctx,timer,osc,started,count=0;
+document.querySelector('#start').onclick=async()=>{ctx=new AudioContext();await ctx.resume();osc=ctx.createOscillator();const g=ctx.createGain(),dest=ctx.createMediaStreamDestination();g.gain.value=.01;osc.connect(g);g.connect(dest);osc.start();rec=await createPCMRecorder(dest.stream);rec.ondataavailable=e=>count+=e.samples.length;rec.start();started=Date.now();timer=setInterval(()=>document.querySelector('#state').textContent=JSON.stringify({wallSeconds:(Date.now()-started)/1000,sourceClock:ctx.currentTime,sourceState:ctx.state,samples:count,audioSeconds:count/16000}),250);};
+document.querySelector('#stop').onclick=()=>{rec?.stop();osc?.stop();ctx?.close();clearInterval(timer);};
+</script>

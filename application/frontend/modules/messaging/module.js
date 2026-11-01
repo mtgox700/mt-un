@@ -1,0 +1,1 @@
+import View from '../../generated/messaging.jsx';import {defineModule} from '../../host/module-contract.js';export {View};export default defineModule({id:'messaging',routes:['messagerie','thread'],View});

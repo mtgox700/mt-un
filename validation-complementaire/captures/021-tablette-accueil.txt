@@ -1,0 +1,131 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		808 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+						809 text unii
+						810 text 3
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				557 container
+					811 text UNII SUGGÈRE
+					812 button Échéance dans 24 h · Signalement — Service Logistique
+					813 button Échéance dans 4 h · Accident Atelier B
+					814 button Votre point de la semaine est prêt
+					815 text BONJOUR,
+					816 heading Sophie Marchand, Value: 1
+						817 text Sophie Marchand
+					818 text Section syndicale Métallurgie — Valenciennes  ·  5  dossiers ouverts, 1 échéance légale cette semaine
+					819 button URGENT il y a 10 min Accident Atelier B Enquête CSSCT déclenchée. Accusé de réception attendu sous 4 h.
+						820 text URGENT
+						821 text il y a 10 min
+						822 text Accident Atelier B
+						823 text Enquête CSSCT déclenchée. Accusé de réception attendu sous 4 h.
+					824 button Sondage NAO en cours Priorités salariales 2027 75 % de participation
+						825 text Sondage NAO en cours
+						826 text Priorités salariales 2027
+						827 text 75 % de participation
+					828 button Assistant IA
+						829 image
+						830 text Assistant IA
+					831 button Dossiers
+						832 image
+						833 text Dossiers
+					834 button Sondages
+						835 image
+						836 text Sondages
+					837 button Réunions
+						838 image
+						839 text Réunions
+					840 button Documents
+						841 image
+						842 text Documents
+					843 button Intranet
+						844 image
+						845 text Intranet
+					846 button Agenda
+						847 image
+						848 text Agenda
+					849 button Adhérents
+						850 image
+						851 text Adhérents
+					852 button Bilan de mandat
+						853 image
+						854 text Bilan de mandat
+					855 button Hors ligne
+						856 image
+						857 text Hors ligne
+					858 button Messages
+						859 image
+						860 text Messages
+					861 button Formations
+						862 image
+						863 text Formations
+					864 button Communication
+						865 image
+						866 text Communication
+					867 button Application mobile
+						868 image
+						869 text Application mobile
+					870 heading Mes dossiers, Value: 2
+						871 text Mes dossiers
+					872 button Tout voir
+					873 button Signalement — Service Logistique Harcèlement · échéance 24 h ›
+						874 text Signalement — Service Logistique
+						875 text Harcèlement · échéance 24 h
+						876 text ›
+					877 button Accident Atelier B CSSCT · échéance 4 h ›
+						878 text Accident Atelier B
+						879 text CSSCT · échéance 4 h
+						880 text ›
+					881 button Valider devis traiteur ASC / Noël · échéance 5 j ›
+						882 text Valider devis traiteur
+						883 text ASC / Noël · échéance 5 j
+						884 text ›
+					885 text AGENDA PARTAGÉ
+					886 heading Prochaines échéances, Value: 2
+						887 text Prochaines échéances
+					888 button 03 sep Séance NAO 2027 Salle du conseil · 9 h — 4 élus
+						889 text 03 sep
+						890 text Séance NAO 2027
+						891 text Salle du conseil · 9 h — 4 élus
+					892 button 05 sep Enquête CSSCT Atelier B Visite sur site · 2 élus
+						893 text 05 sep
+						894 text Enquête CSSCT Atelier B
+						895 text Visite sur site · 2 élus
+					896 button 12 sep Clôture du sondage télétravail Automatique · 18 h
+						897 text 12 sep
+						898 text Clôture du sondage télétravail
+						899 text Automatique · 18 h
+				112 container
+					900 button Accueil
+						901 image
+						902 text Accueil
+					221 button Dossiers
+						222 image
+						223 text Dossiers
+					318 button Agenda
+						319 image
+						320 text Agenda
+					410 button Réunions
+						411 image
+						412 text Réunions
+					903 button Réglages
+						904 image
+						905 text Réglages
+
+The focused UI element is 4 button Tablette 768

@@ -1,0 +1,350 @@
+{
+  "passed": true,
+  "count": 86,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "author_mfa",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reader_mfa",
+      "ok": true
+    },
+    {
+      "test": "meeting_created",
+      "ok": true
+    },
+    {
+      "test": "consent_saved",
+      "ok": true
+    },
+    {
+      "test": "meeting_author_has_no_implicit_audio",
+      "ok": true
+    },
+    {
+      "test": "manager_self_grant_refused",
+      "ok": true
+    },
+    {
+      "test": "audio_rights_granted",
+      "ok": true
+    },
+    {
+      "test": "stale_grant_refused",
+      "ok": true
+    },
+    {
+      "test": "manager_has_no_implicit_audio",
+      "ok": true
+    },
+    {
+      "test": "speech_uploaded",
+      "ok": true
+    },
+    {
+      "test": "absent",
+      "ok": true
+    },
+    {
+      "test": "unauthorized_reader",
+      "ok": true
+    },
+    {
+      "test": "foreign_org",
+      "ok": true
+    },
+    {
+      "test": "pending",
+      "ok": true
+    },
+    {
+      "test": "idempotent",
+      "ok": true
+    },
+    {
+      "test": "ordinary_worker_refused",
+      "ok": true
+    },
+    {
+      "test": "actual_worker",
+      "ok": true
+    },
+    {
+      "test": "done",
+      "ok": true
+    },
+    {
+      "test": "real_french_speech",
+      "ok": true
+    },
+    {
+      "test": "completed_idempotent",
+      "ok": true
+    },
+    {
+      "test": "private_jobs",
+      "ok": true
+    },
+    {
+      "test": "worker_cannot_read_completed_source",
+      "ok": true
+    },
+    {
+      "test": "no_download_inheritance",
+      "ok": true
+    },
+    {
+      "test": "marker_saved",
+      "ok": true
+    },
+    {
+      "test": "pv_absent",
+      "ok": true
+    },
+    {
+      "test": "pv_prepared",
+      "ok": true
+    },
+    {
+      "test": "separate_resource",
+      "ok": true
+    },
+    {
+      "test": "transcript_and_marker",
+      "ok": true
+    },
+    {
+      "test": "readable_times_and_empty_agenda",
+      "ok": true
+    },
+    {
+      "test": "idempotent_pv",
+      "ok": true
+    },
+    {
+      "test": "consent_not_invalidated",
+      "ok": true
+    },
+    {
+      "test": "source_version_unchanged",
+      "ok": true
+    },
+    {
+      "test": "snapshot_marker_version",
+      "ok": true
+    },
+    {
+      "test": "reviewer_without_audio_cannot_read",
+      "ok": true
+    },
+    {
+      "test": "inventory_requires_publish",
+      "ok": true
+    },
+    {
+      "test": "reviewer_audio_granted",
+      "ok": true
+    },
+    {
+      "test": "reviewer_reads_all_sources",
+      "ok": true
+    },
+    {
+      "test": "s08_context_has_transcript_and_markers",
+      "ok": true
+    },
+    {
+      "test": "authorized_direct_resource",
+      "ok": true
+    },
+    {
+      "test": "source_snapshot_edit_refused",
+      "ok": true
+    },
+    {
+      "test": "correction_version",
+      "ok": true
+    },
+    {
+      "test": "stale_edit_refused",
+      "ok": true
+    },
+    {
+      "test": "self_review_denied",
+      "ok": true
+    },
+    {
+      "test": "unreviewed_publish_denied",
+      "ok": true
+    },
+    {
+      "test": "other_org_denied",
+      "ok": true
+    },
+    {
+      "test": "second_actor_review",
+      "ok": true
+    },
+    {
+      "test": "publish_version",
+      "ok": true
+    },
+    {
+      "test": "publish_idempotent",
+      "ok": true
+    },
+    {
+      "test": "published_text_only",
+      "ok": true
+    },
+    {
+      "test": "no_download",
+      "ok": true
+    },
+    {
+      "test": "nonrecipient_no_feed",
+      "ok": true
+    },
+    {
+      "test": "edit_new_version",
+      "ok": true
+    },
+    {
+      "test": "new_version_needs_review",
+      "ok": true
+    },
+    {
+      "test": "old_publication_unchanged",
+      "ok": true
+    },
+    {
+      "test": "long_correction_not_truncated",
+      "ok": true
+    },
+    {
+      "test": "revoke_author_audio",
+      "ok": true
+    },
+    {
+      "test": "ordinary_derivative_hidden",
+      "ok": true
+    },
+    {
+      "test": "s08_context_denied_after_revoke",
+      "ok": true
+    },
+    {
+      "test": "direct_resource_hidden",
+      "ok": true
+    },
+    {
+      "test": "direct_versions_hidden",
+      "ok": true
+    },
+    {
+      "test": "approved_copy_independent",
+      "ok": true
+    },
+    {
+      "test": "approved_copy_no_audio",
+      "ok": true
+    },
+    {
+      "test": "consent_withdrawn",
+      "ok": true
+    },
+    {
+      "test": "reviewer_draft_hidden_after_withdrawal",
+      "ok": true
+    },
+    {
+      "test": "approved_copy_survives_withdrawal",
+      "ok": true
+    },
+    {
+      "test": "inventory_after_withdrawal",
+      "ok": true
+    },
+    {
+      "test": "reviewer_revokes_old_version_after_withdrawal",
+      "ok": true
+    },
+    {
+      "test": "revoked_copy_hidden",
+      "ok": true
+    },
+    {
+      "test": "private_provenance",
+      "ok": true
+    },
+    {
+      "test": "restore_test_audio_grant",
+      "ok": true
+    },
+    {
+      "test": "new_consent",
+      "ok": true
+    },
+    {
+      "test": "new_audio",
+      "ok": true
+    },
+    {
+      "test": "new_sequence_first",
+      "ok": true
+    },
+    {
+      "test": "new_transcription_first",
+      "ok": true
+    },
+    {
+      "test": "first_snapshot_ready",
+      "ok": true
+    },
+    {
+      "test": "new_sequence_audio_second",
+      "ok": true
+    },
+    {
+      "test": "new_sequence_second",
+      "ok": true
+    },
+    {
+      "test": "new_set_no_stale_pv",
+      "ok": true
+    },
+    {
+      "test": "new_transcription_set",
+      "ok": true
+    },
+    {
+      "test": "new_set_distinct_pv",
+      "ok": true
+    },
+    {
+      "test": "all_parts_in_pv",
+      "ok": true
+    },
+    {
+      "test": "all_sources_snapshotted",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-24",
+  "constats": [
+    {
+      "id": "R01",
+      "statut": "Corrigé",
+      "detail": "En-tête sur deux lignes, recherche dédiée, retour compact, accès Menu à tous les modules et à la déconnexion."
+    },
+    {
+      "id": "R02",
+      "statut": "Corrigé",
+      "detail": "Titre de discussion prioritaire, actions sur une seconde ligne, hauteur ajustée au viewport visuel. Saisie mesurée jusqu’à y=343 dans une hauteur de 430 px."
+    },
+    {
+      "id": "R03",
+      "statut": "Corrigé",
+      "detail": "Éditer / Aperçu sur mobile, outils d’ajout repliables, ajustement automatique à la largeur et zoom manuel avec défilement dans le panneau. Zoom mobile distinct du réglage desktop."
+    },
+    {
+      "id": "R04",
+      "statut": "Corrigé",
+      "detail": "Commandes du mois adaptées, vue Liste par défaut sous 940 px, vue Mois conservée. Nouveau formulaire amené à y=140 et premier champ focalisé."
+    },
+    {
+      "id": "R05",
+      "statut": "Corrigé",
+      "detail": "Menu admin repliable, fermeture après sélection, suppression de la largeur minimale de 640 px, journal en cartes."
+    },
+    {
+      "id": "R06",
+      "statut": "Corrigé",
+      "detail": "Historique et nouvelle conversation accessibles à la demande ; conversation affichée en priorité."
+    },
+    {
+      "id": "R07",
+      "statut": "Corrigé",
+      "detail": "Recherche visible, filtres avancés repliables, critères actifs conservés. Titres de documents hors ligne sur plusieurs lignes."
+    },
+    {
+      "id": "R08",
+      "statut": "Corrigé sur les contrôles ciblés",
+      "detail": "Menu complet ajouté ; zones tactiles agrandies pour en-tête, édition, agenda, conversation, assistant et console admin."
+    },
+    {
+      "id": "R09",
+      "statut": "À vérifier sur appareil",
+      "detail": "Défilement des dialogues borné à la hauteur disponible et prise en compte de visualViewport. Clavier réel, rotation, zoom d’accessibilité et confort tactile à valider sur iOS/Android."
+    }
+  ],
+  "tests_automatises": 69,
+  "reference_fichiers": 324,
+  "mesures": 74,
+  "limite": "Viewports navigateur, pas appareils physiques ni recette exhaustive des sous-écrans"
+}

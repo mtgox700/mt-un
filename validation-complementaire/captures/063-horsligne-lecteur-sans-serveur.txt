@@ -1,0 +1,48 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		2022 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					1642 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				2162 container
+					2163 text CONVENTION COLLECTIVE Source de l'Assistant
+					2164 heading Convention collective Métallurgie 2026, Value: 1
+						2165 text Convention collective Métallurgie 2026
+					2166 text IDCC 3248 · PDF 12,4 Mo · disponible hors ligne Avenant salaires de branche du 12 juin 2026 intégré ART. 62 — CLASSIFICATIONS La grille de classification repose sur six degrés d'exigence. Toute évolution de poste donne lieu à un réexamen du positionnement. ART. 104 — PRIME D'ANCIENNETÉ Le taux progresse de 3 % après trois ans de présence, puis de 1 % par année supplémentaire dans la limite de 15 %.
+					2167 button Analyser sans identité
+					2168 button Joindre à un dossier
+					2169 button Télécharger
+					2170 checkbox Disponible hors ligne, Value: 1
+				1643 container
+					2159 button Accueil
+						2160 image
+						2161 text Accueil
+					1647 button Dossiers
+						1648 image
+						1649 text Dossiers
+					1961 button Agenda
+						1962 image
+						1963 text Agenda
+					2112 button Réunions
+						2113 image
+						2114 text Réunions
+					2171 button Réglages
+						2172 image
+						2173 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

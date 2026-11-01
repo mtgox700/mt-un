@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/tests/s08_native_followup.py", line 26, in <module>
+    st,result,_=ai(x,'create_case',id=rid,version=1);check('private_case_created',st==200);case=result['id']
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/tests/s08_native_followup.py", line 26, in check
+    st,result,_=ai(x,'create_case',id=rid,version=1);check('private_case_created',st==200);case=result['id']
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: private_case_created

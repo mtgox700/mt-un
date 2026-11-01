@@ -1,0 +1,144 @@
+{
+  "checks": [
+    {
+      "test": "admin_password_login",
+      "ok": true
+    },
+    {
+      "test": "member_login",
+      "ok": true
+    },
+    {
+      "test": "admin_aal1_invitation_refused",
+      "ok": true
+    },
+    {
+      "test": "admin_enrollment",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "admin_aal2",
+      "ok": true
+    },
+    {
+      "test": "unprivileged_invitation_refused",
+      "ok": true
+    },
+    {
+      "test": "other_org_admin_refused",
+      "ok": true
+    },
+    {
+      "test": "self_escalation_fields_refused",
+      "ok": true
+    },
+    {
+      "test": "authorized_invitation",
+      "ok": true
+    },
+    {
+      "test": "wrong_email_holder_refused",
+      "ok": true
+    },
+    {
+      "test": "invalid_token_refused",
+      "ok": true
+    },
+    {
+      "test": "revocation_wrong_org_refused",
+      "ok": true
+    },
+    {
+      "test": "pending_invitation_revoked",
+      "ok": true
+    },
+    {
+      "test": "revoked_invitation_refused",
+      "ok": true
+    },
+    {
+      "test": "replacement_invitation",
+      "ok": true
+    },
+    {
+      "test": "matching_verified_email_accepted",
+      "ok": true
+    },
+    {
+      "test": "invitation_single_use",
+      "ok": true
+    },
+    {
+      "test": "multi_org_membership_visible",
+      "ok": true
+    },
+    {
+      "test": "no_automatic_business_access",
+      "ok": true
+    },
+    {
+      "test": "original_org_access_preserved",
+      "ok": true
+    },
+    {
+      "test": "other_org_resource_refused",
+      "ok": true
+    },
+    {
+      "test": "self_revocation_refused",
+      "ok": true
+    },
+    {
+      "test": "unprivileged_revocation_refused",
+      "ok": true
+    },
+    {
+      "test": "membership_revoked",
+      "ok": true
+    },
+    {
+      "test": "revoked_org_disappears_direct_rpc",
+      "ok": true
+    },
+    {
+      "test": "other_membership_preserved_after_revocation",
+      "ok": true
+    },
+    {
+      "test": "revoked_membership_cannot_silently_rejoin",
+      "ok": true
+    },
+    {
+      "test": "direct_rpc_without_rights_refused",
+      "ok": true
+    },
+    {
+      "test": "lost_factor_password_login",
+      "ok": true
+    },
+    {
+      "test": "missing_factor_app_reenrollment_refused",
+      "ok": true
+    },
+    {
+      "test": "direct_unapproved_aal2_denied",
+      "ok": true
+    },
+    {
+      "test": "direct_unapproved_aal2_resources_empty",
+      "ok": true
+    },
+    {
+      "test": "unapproved_factor_cannot_self_approve",
+      "ok": true
+    }
+  ],
+  "count": 34,
+  "passed": true,
+  "fictional_org": "3731251b-1a62-48de-80df-f4b60f28ae24",
+  "business_data_deleted": false
+}

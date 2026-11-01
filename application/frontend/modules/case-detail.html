@@ -1,0 +1,176 @@
+<sc-if value="{{ isDossier }}" hint-placeholder-val="{{ false }}">
+        <div style="animation: fadeUp .45s ease-out; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; align-items: start;">
+          <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 22px; padding: 24px;">
+            <span style="background: var(--priBg); color: var(--pri); font-size: 10.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: 5px 11px; border-radius: 99px;">{{ dossier.tag }}</span>
+            <sc-if value="{{ dossier.reading }}" hint-placeholder-val="{{ true }}">
+              <h1 style="font-family:var(--fTitle); font-size: 28px; margin: 14px 0 8px;">{{ dossier.title }}</h1>
+              <p style="margin: 0 0 14px; color: var(--ink5); font-size: 14.5px; line-height: 1.6; text-wrap: pretty;">{{ dossier.long }}</p>
+              <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;">
+                <button onClick="{{ dossier.edit }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 9px 16px; font-size: 12.5px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Modifier le dossier</button>
+                <button onClick="{{ dossier.del.act }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 9px 14px; background: {{ dossier.del.bg }}; color: {{ dossier.del.fg }}; font-size: 12px; font-weight: 600;" style-hover="color: var(--dangerTx2);">{{ dossier.del.label }}</button>
+              </div>
+            </sc-if>
+            <sc-if value="{{ dossier.editing }}" hint-placeholder-val="{{ false }}">
+              <div style="display: flex; flex-direction: column; gap: 12px; margin: 14px 0 20px;">
+                <label style="display: flex; flex-direction: column; gap: 6px;">
+                  <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Intitulé</span>
+                  <input value="{{ dossier.title }}" onChange="{{ dossier.onTitle }}" style="width: 100%; background: var(--surf2); border: 1px solid var(--bd); border-radius: 13px; padding: 11px 13px; font-size: 14px; color: var(--ink); outline: none; font-family: inherit;" style-focus="border-color: var(--acMid);" />
+                </label>
+                <label style="display: flex; flex-direction: column; gap: 6px;">
+                  <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Description</span>
+                  <textarea value="{{ dossier.long }}" onChange="{{ dossier.onLong }}" style="width: 100%; min-height: 90px; resize: vertical; background: var(--surf2); border: 1px solid var(--bd); border-radius: 13px; padding: 11px 13px; font-size: 13.5px; line-height: 1.6; color: var(--ink); outline: none; font-family: inherit;" style-focus="border-color: var(--acMid);"></textarea>
+                </label>
+                <label style="display: flex; flex-direction: column; gap: 6px;">
+                  <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Échéance</span>
+                  <input value="{{ dossier.due }}" onChange="{{ dossier.onDue }}" style="width: 100%; background: var(--surf2); border: 1px solid var(--bd); border-radius: 13px; padding: 11px 13px; font-size: 13.5px; color: var(--ink); outline: none; font-family: inherit;" style-focus="border-color: var(--acMid);" />
+                </label>
+                <button onClick="{{ dossier.done }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 12px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 13.5px; font-weight: 700;">Terminer la modification</button>
+              </div>
+            </sc-if>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin-bottom: 22px;">
+              <div style="background: var(--surf2); border-radius: 14px; padding: 13px;">
+                <div style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Échéance</div>
+                <div style="font-size: 15px; font-weight: 700; color: var(--danger); margin-top: 4px;">{{ dossier.due }}</div>
+              </div>
+              <div style="background: var(--surf2); border-radius: 14px; padding: 13px;">
+                <div style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Statut</div>
+                <div style="font-size: 15px; font-weight: 700; margin-top: 4px;">{{ dossier.statusLabel }}</div>
+              </div>
+              <div style="background: var(--surf2); border-radius: 14px; padding: 13px;">
+                <div style="font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink6);">Référent</div>
+                <div style="font-size: 15px; font-weight: 700; margin-top: 4px;">{{ dossier.owner }}</div>
+              </div>
+            </div>
+
+            <h2 style="font-family:var(--fTitle); font-size: 18px; margin: 0 0 14px;">Historique</h2>
+            <div>
+              <sc-for list="{{ dossier.timeline }}" as="t" hint-placeholder-count="3">
+                <div style="display: flex; gap: 14px;">
+                  <div style="display: flex; flex-direction: column; align-items: center; flex: 0 0 14px;">
+                    <span style="width: 9px; height: 9px; border-radius: 99px; background: var(--ac); margin-top: 6px;"></span>
+                    <span style="flex: 1; width: 1px; background: var(--chip);"></span>
+                  </div>
+                  <div style="padding-bottom: 18px; min-width: 0;">
+                    <div style="font-size: 11.5px; color: var(--ink6);">{{ t.date }}</div>
+                    <div style="font-size: 14px; font-weight: 600; margin-top: 2px;">{{ t.title }}</div>
+                    <div style="font-size: 13px; color: var(--ink5); margin-top: 3px; line-height: 1.5;">{{ t.body }}</div><sc-if value="{{ t.canWithdraw }}"><button onClick="{{ t.withdraw }}" style="border:1px solid var(--bd2);border-radius:99px;padding:8px 12px;background:var(--surface);color:var(--ink3);cursor:pointer;">Retirer du dossier</button></sc-if>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+
+            <div style="border-top: 1px solid var(--bd); padding-top: 16px; display: flex; gap: 10px; align-items: center;">
+              <input value="{{ noteDraft }}" onChange="{{ onNote }}" onKeyDown="{{ onNoteKey }}" placeholder="Ajouter une note au dossier…" style="flex: 1; min-width: 0; background: var(--surf2); border: 1px solid var(--bd); border-radius: 99px; padding: 12px 16px; font-size: 13.5px; outline: none;" />
+              <button onClick="{{ addNote }}" style="flex: 0 0 auto; cursor: pointer; border: none; border-radius: 99px; padding: 12px 18px; background: var(--inkSurf); color: #FFFFFF; font-size: 13px; font-weight: 700;">Ajouter</button>
+            </div>
+          </section>
+
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 22px; padding: 20px;">
+              <h2 style="font-family:var(--fTitle); font-size: 18px; margin: 0 0 14px;">Actions</h2>
+              <div style="display: flex; flex-direction: column; gap: 10px;">
+                <button onClick="{{ askAboutDossier }}" style="cursor: pointer; border: none; border-radius: 14px; padding: 14px 16px; text-align: left; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 14px; font-weight: 700;">Relire les extraits fictifs →</button>
+                <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; background: var(--okBg); border: 1px solid var(--okBd); border-radius: 12px; padding: 9px 12px; margin-top: -3px;">
+                  <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--okTx2); background: var(--okChip); border-radius: 99px; padding: 3px 9px;">{{ dossierLevelLabel }}</span>
+                  <span style="font-size: 12px; color: var(--okTx); line-height: 1.5;">{{ dossierLevelNote }}</span>
+                </div>
+                <button onClick="{{ goCourrier }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 14px; padding: 14px 16px; text-align: left; font-size: 14px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Générer un courrier à la direction</button>
+                <button onClick="{{ goPieces }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 14px; padding: 14px 16px; text-align: left; font-size: 14px; font-weight: 600; color: var(--ink3); display: flex; align-items: center; gap: 10px;" style-hover="border-color: var(--acMid); color: var(--acTx);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48"></path></svg>
+                  Pièces jointes
+                  <span style="margin-left: auto; font-size: 12px; font-weight: 700; color: var(--acTx); background: var(--acBg); border-radius: 99px; padding: 3px 10px;">{{ pieceCount }}</span>
+                </button>
+                <button onClick="{{ advance }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 14px; padding: 14px 16px; text-align: left; font-size: 14px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">{{ advanceLabel }}</button>
+              </div>
+            </section>
+
+            <section style="background: var(--surface); border: 1px solid var(--acBd); border-radius: 22px; overflow: hidden;">
+              <div style="display: flex; align-items: center; gap: 10px; padding: 14px 18px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF;">
+                <span style="width: 26px; height: 26px; flex: 0 0 26px; border-radius: 99px; background: rgba(255,255,255,.22); display: flex; align-items: center; justify-content: center;">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"></path></svg>
+                </span>
+                <span style="font-size: 14px; font-weight: 700;">Assistant du dossier</span>
+                <span style="margin-left: auto; font-size: 11px; font-weight: 700; background: rgba(255,255,255,.18); border-radius: 99px; padding: 4px 10px;">Source à vérifier</span>
+                <button onClick="{{ dchatToAsst }}" title="Ouvrir ce sujet dans l'Assistant" style="cursor: pointer; display: inline-flex; align-items: center; gap: 6px; border: 1px solid rgba(255,255,255,.4); background: rgba(255,255,255,.16); color: #FFFFFF; border-radius: 99px; padding: 5px 11px; font-size: 11.5px; font-weight: 700;" style-hover="background: rgba(255,255,255,.28);"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"></path><path d="M7 7h10v10"></path></svg>Mode assistant</button>
+              </div>
+
+              <div style="display: flex; flex-wrap: wrap; gap: 6px; padding: 11px 18px; background: var(--acBg2); border-bottom: 1px solid var(--acBd);">
+                <sc-for list="{{ dchatContext }}" as="c" hint-placeholder-count="4">
+                  <span style="font-size: 11px; font-weight: 700; color: var(--acTx3); background: var(--acBd); border-radius: 99px; padding: 4px 10px;">{{ c.label }}</span>
+                </sc-for>
+              </div>
+
+              <div style="padding: 16px 18px; display: flex; flex-direction: column; gap: 12px; max-height: 340px; overflow-y: auto;">
+                <sc-for list="{{ dchatMsgs }}" as="m" hint-placeholder-count="1">
+                  <sc-if value="{{ m.isUser }}" hint-placeholder-val="{{ false }}">
+                    <div style="align-self: flex-end; max-width: 90%; background: var(--chip); color: var(--ink); border-radius: 16px 4px 16px 16px; padding: 11px 13px; font-size: 13.5px; line-height: 1.55;">{{ m.text }}</div>
+                  </sc-if>
+                  <sc-if value="{{ m.isBot }}" hint-placeholder-val="{{ true }}">
+                    <div style="align-self: flex-start; max-width: 92%; background: var(--acBg); border: 1px solid var(--acBd); border-radius: 4px 16px 16px 16px; padding: 12px 14px;">
+                      <div style="font-size: 10px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--acTx); margin-bottom: 6px;">{{ m.source }}</div>
+                      <div style="font-size: 13.5px; line-height: 1.6; color: var(--ink2); white-space: pre-line;">{{ m.text }}</div>
+                    </div>
+                  </sc-if>
+                </sc-for>
+                <sc-if value="{{ dchatTyping }}" hint-placeholder-val="{{ false }}">
+                  <div style="align-self: flex-start; display: flex; gap: 5px; background: var(--surf2); border-radius: 99px; padding: 11px 15px;">
+                    <span style="width: 6px; height: 6px; border-radius: 99px; background: var(--ac); animation: blink 1s infinite;"></span>
+                    <span style="width: 6px; height: 6px; border-radius: 99px; background: var(--ac); animation: blink 1s .2s infinite;"></span>
+                    <span style="width: 6px; height: 6px; border-radius: 99px; background: var(--ac); animation: blink 1s .4s infinite;"></span>
+                  </div>
+                </sc-if>
+              </div>
+
+              <div style="padding: 0 18px 14px; display: flex; flex-wrap: wrap; gap: 7px;">
+                <sc-for list="{{ dchatSuggest }}" as="s" hint-placeholder-count="3">
+                  <button onClick="{{ s.go }}" style="cursor: pointer; border: 1px solid var(--bd); background: var(--surface); border-radius: 99px; padding: 8px 13px; font-size: 12px; font-weight: 600; color: var(--ink4); text-align: left;" style-hover="border-color: var(--acMid); color: var(--acTx);">{{ s.label }}</button>
+                </sc-for>
+              </div>
+
+              <div style="padding: 0 14px 14px; display: flex; gap: 9px; align-items: center;">
+                <input value="{{ dchatDraft }}" onChange="{{ onDchat }}" onKeyDown="{{ onDchatKey }}" placeholder="Poser une question sur ce dossier…" style="flex: 1; min-width: 0; background: var(--surf2); border: 1px solid var(--bd); border-radius: 99px; padding: 12px 16px; font-size: 13.5px; outline: none;" />
+                <button onClick="{{ dchatSend }}" aria-label="Envoyer à l'assistant" style="flex: 0 0 auto; cursor: pointer; border: none; border-radius: 99px; width: 42px; height: 42px; background: var(--inkSurf); color: #FFFFFF; display: flex; align-items: center; justify-content: center;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"></path><path d="m5 12 7-7 7 7"></path></svg>
+                </button>
+              </div>
+
+              <div style="border-top: 1px solid var(--surf2); padding: 10px 18px 12px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+                <span style="font-size: 11.5px; color: var(--ink6); line-height: 1.5;">{{ dchatPrivacy }}</span>
+                <button onClick="{{ goIaSecu }}" style="cursor: pointer; display: inline-flex; align-items: center; gap: 7px; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 9px 15px; font-size: 12px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"></path></svg>En savoir plus sur la sécurité
+                </button>
+                <button onClick="{{ askAboutDossier }}" style="margin-left: auto; cursor: pointer; border: none; background: transparent; padding: 4px; font-size: 12.5px; font-weight: 700; color: var(--acTx);">Analyse complète →</button>
+              </div>
+            </section>
+
+            <section style="background: var(--surface); border: 1px solid var(--bd); border-radius: 22px; padding: 20px;">
+              <h2 style="font-family:var(--fTitle); font-size: 18px; margin: 0 0 6px;">Assigner à un élu</h2>
+              <p style="margin: 0 0 14px; font-size: 12.5px; color: var(--ink6);">Membres déjà habilités. Changer de référent retire l’accès direct de l’ancien.</p>
+              <div style="display: flex; flex-direction: column; gap: 8px;">
+                <sc-for list="{{ elus }}" as="e" hint-placeholder-count="4">
+                  <sc-if value="{{ e.selected }}" hint-placeholder-val="{{ false }}">
+                    <button onClick="{{ e.go }}" style="cursor: pointer; display: flex; align-items: center; gap: 11px; border: 1.5px solid var(--ac); background: var(--acBg); border-radius: 14px; padding: 11px 14px; text-align: left;">
+                      <span style="width: 26px; height: 26px; flex: 0 0 26px; border-radius: 99px; background: linear-gradient(135deg, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 10px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ e.initials }}</span>
+                      <span style="font-size: 13.5px; font-weight: 700; color: var(--acTx2);">{{ e.name }}</span>
+                      <span style="margin-left: auto; font-size: 11.5px; font-weight: 700; color: var(--acTx);">Référent</span>
+                    </button>
+                  </sc-if>
+                  <sc-if value="{{ e.idle }}" hint-placeholder-val="{{ true }}">
+                    <button onClick="{{ e.go }}" style="cursor: pointer; display: flex; align-items: center; gap: 11px; border: 1px solid var(--bd); background: var(--surface); border-radius: 14px; padding: 11px 14px; text-align: left;" style-hover="border-color: var(--acMid);">
+                      <span style="width: 26px; height: 26px; flex: 0 0 26px; border-radius: 99px; background: var(--chip); color: var(--ink4); font-size: 10px; font-weight: 700; display: flex; align-items: center; justify-content: center;">{{ e.initials }}</span>
+                      <span style="font-size: 13.5px; color: var(--ink3); font-weight: {{ e.weight }};">{{ e.name }}</span>
+                      <span style="margin-left: auto; font-size: 11.5px; color: var(--ink6);">{{ e.role }}</span>
+                    </button>
+                  </sc-if>
+                </sc-for>
+              </div>
+            </section>
+
+            <section style="background: var(--okBg); border: 1px solid var(--okBd); border-radius: 22px; padding: 20px;">
+              <div style="font-size: 10.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ok);">Cloisonnement</div>
+              <p style="margin: 8px 0 0; font-size: 13.5px; color: var(--okTx); line-height: 1.6;">Données enregistrées sur Supabase local. Accès limité aux membres habilités pour ce dossier.</p>
+            </section>
+          </div>
+        </div>
+      </sc-if>

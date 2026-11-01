@@ -1,0 +1,65 @@
+{
+  "authorized": [
+    {
+      "format": "mobile",
+      "width": 390,
+      "height": 844,
+      "amount": 1400,
+      "balance": 2600
+    },
+    {
+      "format": "tablette",
+      "width": 768,
+      "height": 1024,
+      "amount": 1300,
+      "balance": 2700
+    },
+    {
+      "format": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "amount": 1200,
+      "balance": 2800
+    }
+  ],
+  "invalid": [
+    "selection absente refusée",
+    "motif absent refusé"
+  ],
+  "persistedAfterReauthentication": true,
+  "denied": [
+    {
+      "format": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "financeAbsent": true,
+      "correctionAbsent": true,
+      "sizes": {
+        "scroll": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "format": "tablette",
+      "width": 768,
+      "height": 1024,
+      "financeAbsent": true,
+      "correctionAbsent": true,
+      "sizes": {
+        "scroll": 768,
+        "width": 768
+      }
+    },
+    {
+      "format": "mobile",
+      "width": 390,
+      "height": 844,
+      "financeAbsent": true,
+      "correctionAbsent": true,
+      "sizes": {
+        "scroll": 390,
+        "width": 390
+      }
+    }
+  ]
+}

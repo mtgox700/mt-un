@@ -1,0 +1,128 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			8 button
+				9 image
+			10 button Se déconnecter
+				11 image
+		12 container
+			13 text ADHÉSION ET COTISATIONS
+			14 heading Adhérents, Value: 1
+				15 text Adhérents
+			16 text 12 adhérents suivis sur 3 entreprises · 3 cotisations en retard · 2 adhésions à finaliser 12 adhérents actifs 58 % à jour de cotisation 3 retards à relancer 5 listes de diffusion
+			17 tab group Vues du module adhérents
+				18 tab (selected, settable, boolean) Adhérents, Value: 1
+				19 tab (selectable, settable, boolean) Listes de diffusion, Value: 0
+				20 tab (selectable, settable, boolean) Cotisations, Value: 0
+			21 text FILTRER LES ADHÉRENTS
+			22 text field (settable) Rechercher un adhérent
+			23 container
+				24 text ENTREPRISE
+				25 pop up button (collapsed, settable) ENTREPRISE, Value: Toutes, Secondary Actions: Expand
+					26 menu
+						27 (selected) Toutes
+						28 Métallurgie Valenciennes SA
+						29 Valmétal Logistique
+						30 VMV Services
+			31 container
+				32 text ÉTABLISSEMENT
+				33 pop up button (collapsed, settable) ÉTABLISSEMENT, Value: Tous, Secondary Actions: Expand
+					34 menu
+						35 (selected) Tous
+						36 Site de Valenciennes
+						37 Site de Denain
+						38 Plateforme de Prouvy
+						39 Siège de Lille
+			40 container
+				41 text SECTION
+				42 pop up button (collapsed, settable) SECTION, Value: Toutes, Secondary Actions: Expand
+					43 menu
+						44 (selected) Toutes
+						45 Section Atelier
+						46 Section Logistique
+						47 Section Tertiaire
+						48 Section Maintenance
+			49 container
+				50 text DIRECTION
+				51 pop up button (collapsed, settable) DIRECTION, Value: Toutes, Secondary Actions: Expand
+					52 menu
+						53 (selected) Toutes
+						54 Production
+						55 Supply Chain
+						56 Fonctions support
+						57 Technique
+			58 container
+				59 text COTISATION
+				60 pop up button (collapsed, settable) COTISATION, Value: Toutes, Secondary Actions: Expand
+					61 menu
+						62 (selected) Toutes
+						63 À jour
+						64 En retard
+						65 Adhésion en cours
+			66 text field (settable) Nom de la nouvelle liste de diffusion
+			67 button Créer une liste depuis ces critères
+			68 text 12 adhérents sur 12
+			69 button Tout sélectionner
+			70 button Envoyer un message
+			71 checkbox Description: Sélectionner Karim Benali, Value: 0
+			72 button Karim Benali DÉLÉGUÉ DE SECTION Site de Valenciennes · Section Atelier
+				73 text Karim Benali
+				74 text DÉLÉGUÉ DE SECTION
+				75 text Site de Valenciennes · Section Atelier
+			76 text 14,20 €/mois · Prélèvement SEPA À JOUR
+			77 button Ouvrir la fiche de Karim Benali
+			78 checkbox Description: Sélectionner Sandrine Lemoine, Value: 0
+			79 button Sandrine Lemoine Plateforme de Prouvy · Section Logistique
+				80 text Sandrine Lemoine
+				81 text Plateforme de Prouvy · Section Logistique
+			82 text 11,80 €/mois · Chèque EN RETARD
+			83 button Ouvrir la fiche de Sandrine Lemoine
+			84 checkbox Description: Sélectionner Mehdi Fournier, Value: 0
+			85 button Mehdi Fournier ÉLU SUPPLÉANT CSE Site de Denain · Section Maintenance
+				86 text Mehdi Fournier
+				87 text ÉLU SUPPLÉANT CSE
+				88 text Site de Denain · Section Maintenance
+			89 text 16,50 €/mois · Prélèvement SEPA À JOUR
+			90 button Ouvrir la fiche de Mehdi Fournier
+			91 checkbox Description: Sélectionner Aurélie Pruvost, Value: 0
+			92 button Aurélie Pruvost Siège de Lille · Section Tertiaire
+				93 text Aurélie Pruvost
+				94 text Siège de Lille · Section Tertiaire
+			95 text 12,40 €/mois · Prélèvement SEPA ADHÉSION EN COURS
+			96 button Ouvrir la fiche de Aurélie Pruvost
+			97 checkbox Description: Sélectionner Thierry Dubois, Value: 0
+			98 button Thierry Dubois Site de Valenciennes · Section Atelier
+				99 text Thierry Dubois
+				100 text Site de Valenciennes · Section Atelier
+			101 text 168 €/an · Virement annuel À JOUR
+			102 button Ouvrir la fiche de Thierry Dubois
+			103 text 1–5 sur 12
+			104 button (disabled) Page précédente
+			105 button Page suivante
+			106 text L'appartenance syndicale est une donnée sensible : le fichier reste chiffré sur l'appareil, n'est jamais transmis à l'employeur et les exports sont journalisés.
+			107 button Importer un fichier CSV
+			108 button Nouveau bulletin d'adhésion
+		109 container
+			110 button Accueil
+				111 image
+				112 text Accueil
+			113 button Dossiers
+				114 image
+				115 text Dossiers
+			116 button Agenda
+				117 image
+				118 text Agenda
+			119 button Réunions
+				120 image
+				121 text Réunions
+			122 button Réglages
+				123 image
+				124 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

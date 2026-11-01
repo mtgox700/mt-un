@@ -1,0 +1,46 @@
+{
+  "authorized": [
+    {
+      "width": 1440,
+      "height": 900,
+      "submitted": true,
+      "chosenTarget": "c88a7cf6-ee16-4518-8763-958252900fe7",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "submitted": true,
+      "chosenTarget": "c88a7cf6-ee16-4518-8763-958252900fe7",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "submitted": true,
+      "chosenTarget": "c88a7cf6-ee16-4518-8763-958252900fe7",
+      "overflow": false
+    }
+  ],
+  "refused": [
+    {
+      "width": 1440,
+      "height": 900,
+      "creationDisabled": true,
+      "draftsInvisible": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "creationDisabled": true,
+      "draftsInvisible": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "creationDisabled": true,
+      "draftsInvisible": true
+    }
+  ],
+  "selfPublishBlocked": true
+}

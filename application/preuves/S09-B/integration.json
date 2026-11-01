@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "count": 41,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "author_mfa",
+      "ok": true
+    },
+    {
+      "test": "reader_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "reader_mfa",
+      "ok": true
+    },
+    {
+      "test": "meeting_created",
+      "ok": true
+    },
+    {
+      "test": "consent_saved",
+      "ok": true
+    },
+    {
+      "test": "meeting_author_has_no_implicit_audio",
+      "ok": true
+    },
+    {
+      "test": "manager_self_grant_refused",
+      "ok": true
+    },
+    {
+      "test": "audio_rights_granted",
+      "ok": true
+    },
+    {
+      "test": "stale_grant_refused",
+      "ok": true
+    },
+    {
+      "test": "manager_has_no_implicit_audio",
+      "ok": true
+    },
+    {
+      "test": "invalid_container_refused",
+      "ok": true
+    },
+    {
+      "test": "stale_consent_refused",
+      "ok": true
+    },
+    {
+      "test": "setup_current_rights",
+      "ok": true
+    },
+    {
+      "test": "setup_no_implicit_right",
+      "ok": true
+    },
+    {
+      "test": "manage_email_self_denied",
+      "ok": true
+    },
+    {
+      "test": "begin_prepared",
+      "ok": true
+    },
+    {
+      "test": "same_begin_same_audio",
+      "ok": true
+    },
+    {
+      "test": "first_part",
+      "ok": true
+    },
+    {
+      "test": "incomplete_cannot_finish",
+      "ok": true
+    },
+    {
+      "test": "part_replay",
+      "ok": true
+    },
+    {
+      "test": "part_overwrite_denied",
+      "ok": true
+    },
+    {
+      "test": "part_past_end_denied",
+      "ok": true
+    },
+    {
+      "test": "fractional_part_denied",
+      "ok": true
+    },
+    {
+      "test": "other_actor_progress_denied",
+      "ok": true
+    },
+    {
+      "test": "restart_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "restart_mfa",
+      "ok": true
+    },
+    {
+      "test": "progress_after_restart",
+      "ok": true
+    },
+    {
+      "test": "part_two",
+      "ok": true
+    },
+    {
+      "test": "part_three",
+      "ok": true
+    },
+    {
+      "test": "complete_real_scan",
+      "ok": true
+    },
+    {
+      "test": "complete_replay",
+      "ok": true
+    },
+    {
+      "test": "exact_reloaded_audio",
+      "ok": true
+    },
+    {
+      "test": "foreign_transfer_denied",
+      "ok": true
+    },
+    {
+      "test": "chunk_table_private",
+      "ok": true
+    },
+    {
+      "test": "withdrawal",
+      "ok": true
+    },
+    {
+      "test": "withdrawn_progress_denied",
+      "ok": true
+    },
+    {
+      "test": "withdrawn_completion_denied",
+      "ok": true
+    }
+  ]
+}

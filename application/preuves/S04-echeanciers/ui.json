@@ -1,0 +1,52 @@
+{
+  "authorized": [
+    {
+      "label": "mobile",
+      "active": true,
+      "firstDue": true,
+      "pauseVisible": true,
+      "scroll": 390,
+      "viewport": 390
+    },
+    {
+      "label": "tablette",
+      "active": true,
+      "firstDue": true,
+      "pauseVisible": true,
+      "scroll": 768,
+      "viewport": 768
+    },
+    {
+      "label": "desktop",
+      "active": true,
+      "firstDue": true,
+      "pauseVisible": true,
+      "scroll": 1440,
+      "viewport": 1440
+    }
+  ],
+  "denied": [
+    {
+      "label": "mobile",
+      "member": true,
+      "noPlan": true,
+      "noPause": true,
+      "noMoney": true
+    },
+    {
+      "label": "tablette",
+      "member": true,
+      "noPlan": true,
+      "noPause": true,
+      "noMoney": true
+    },
+    {
+      "label": "desktop",
+      "member": true,
+      "noPlan": true,
+      "noPause": true,
+      "noMoney": true
+    }
+  ],
+  "pausePersisted": true
+}

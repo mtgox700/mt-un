@@ -1,0 +1,163 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+    - generic: "1"
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: unii suggère
+  - button "2 idées à transformer en publication"
+  - text: Moins d'administratif, plus de terrain
+  - heading "Communication" [level=1]
+  - paragraph: Planifiez, rédigez et diffusez la communication de la section vers les salariés et les adhérents. unii accélère l'écriture, l'équipe uniion peut prendre le relais.
+  - tablist "Communication":
+    - tab "Plan éditorial 6" [selected]:
+      - generic: Plan éditorial
+      - generic: "6"
+    - tab "Atelier de contenus":
+      - generic: Atelier de contenus
+    - tab "Pôle communication":
+      - generic: Pôle communication
+  - heading "Octobre 2026" [level=2]
+  - generic: 1 publication en attente de validation du bureau
+  - button "+ Nouvelle publication"
+  - button "Tout · 6" [pressed]
+  - button "Idée · 2"
+  - button "Brouillon · 1"
+  - button "À valider · 1"
+  - button "Programmé · 1"
+  - button "Publié · 1"
+  - article:
+    - generic: Ven.
+    - generic: "2"
+    - generic: oct.
+    - button "Publié"
+    - generic: Fédérer
+    - 'heading "Tournée des ateliers : merci pour votre accueil" [level=3]'
+    - generic: Post réseau social · Page de la section
+    - button "Rédiger avec unii":
+      - generic: Rédiger avec unii
+    - button "Retirer"
+  - article:
+    - generic: Mar.
+    - generic: "6"
+    - generic: oct.
+    - button "À valider"
+    - generic: Informer
+    - 'heading "Réunion CSE du 29 septembre : nos interventions et vos questions" [level=3]'
+    - generic: Résumé de PV · Intranet + affichage
+    - button "Rédiger avec unii":
+      - generic: Rédiger avec unii
+    - button "Retirer"
+  - article:
+    - generic: Ven.
+    - generic: "9"
+    - generic: oct.
+    - button "Brouillon"
+    - generic: Informer
+    - 'heading "Permanence syndicale : les nouveaux horaires" [level=3]'
+    - generic: Affiche / flyer · Affichage sur site
+    - button "Rédiger avec unii":
+      - generic: Rédiger avec unii
+    - button "Retirer"
+  - article:
+    - generic: Mer.
+    - generic: "14"
+    - generic: oct.
+    - button "Idée"
+    - generic: Engager
+    - 'heading "NAO 2027 : vos priorités en trois questions" [level=3]'
+    - generic: Sondage · Application uniion
+    - button "Rédiger avec unii":
+      - generic: Rédiger avec unii
+    - button "Retirer"
+  - article:
+    - generic: Mar.
+    - generic: "20"
+    - generic: oct.
+    - button "Programmé"
+    - generic: Fédérer
+    - heading "Assemblée générale de section du 7 novembre" [level=3]
+    - generic: Newsletter · E-mail aux adhérents
+    - button "Rédiger avec unii":
+      - generic: Rédiger avec unii
+    - button "Retirer"
+  - article:
+    - generic: Mar.
+    - generic: "27"
+    - generic: oct.
+    - button "Idée"
+    - generic: Informer
+    - 'heading "Heures supplémentaires : ce que prévoit l''accord" [level=3]'
+    - generic: Article intranet · Intranet
+    - button "Rédiger avec unii":
+      - generic: Rédiger avec unii
+    - button "Retirer"
+  - generic: "Cliquez sur un statut pour le faire avancer : Idée → Brouillon → À valider → Programmé → Publié."
+  - heading "Temps forts du mandat" [level=2]
+  - paragraph: Les rendez-vous qui méritent une prise de parole. Ajoutez-les en idée ou rédigez-les tout de suite.
+  - generic: Compte rendu de la réunion CSE
+  - button "Ajouter au plan": +
+  - button "Rédiger"
+  - generic: Point d'étape NAO
+  - button "Ajouter au plan": +
+  - button "Rédiger"
+  - generic: Campagne d'adhésion
+  - button "Ajouter au plan": +
+  - button "Rédiger"
+  - generic: Permanence syndicale
+  - button "Ajouter au plan": +
+  - button "Rédiger"
+  - generic: Assemblée générale de section
+  - button "Ajouter au plan": +
+  - button "Rédiger"
+  - generic: "Une question, une réponse : droit du travail"
+  - button "Ajouter au plan": +
+  - button "Rédiger"
+  - generic: "Élections professionnelles : nos candidats"
+  - button "Ajouter au plan": +
+  - button "Rédiger"

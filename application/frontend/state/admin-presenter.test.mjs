@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {createModuleStores} from './module-stores.js';
+import {createAdminPresenter} from '../modules/admin/presenter.js';
+const stores=createModuleStores({members:[{id:'a',name:'A',status:'Actif'},{id:'i',name:'I',status:'Invité'}],onb:{convention:true},importMembers:false,adherents:[]});
+let route,cleared=false,site='Tous les sites',sheet,flash;
+const p=createAdminPresenter(stores.module('admin'),{go:r=>route=r,clearCsv:()=>cleared=true,selectSite:s=>site=s,openSheet:s=>sheet=s,flash:s=>flash=s,askDel:(_id,_label,fn)=>fn},()=>({site}));
+let n=0;const test=(name,fn)=>{fn();n++;console.log('PASS '+name)};
+test('member summary and pending count',()=>{assert.match(p.adminVals().memberSummary,/2 membres/);assert.equal(p.adminVals().orgStats[3].value,'1')});
+test('onboarding imports through explicit contacts port',()=>{p.adminVals().onbSteps[2].go();assert.equal(route,'adhimport');assert.equal(cleared,true);assert.equal(stores.snapshot().importMembers,true);assert.equal(stores.snapshot().onb.membres,undefined)});
+test('suspend and reactivate preserve other member',()=>{p.adminVals().members[0].go();assert.equal(stores.snapshot().members[0].status,'Suspendu');assert.equal(stores.snapshot().members[1].status,'Invité');p.adminVals().members[0].go();assert.equal(stores.snapshot().members[0].status,'Actif')});
+test('invited action preserves status',()=>{p.adminVals().members[1].go();assert.equal(stores.snapshot().members[1].status,'Invité');assert.match(flash,/Invitation/) });
+test('removal callback scoped to selected member',()=>{p.adminVals().members[1].del();assert.equal(stores.snapshot().members.length,1);assert.equal(p.adminVals().orgStats[3].value,'0')});
+test('invitation delegates shared overlay',()=>{p.adminVals().invite();assert.equal(sheet,'invite')});
+test('site selection uses explicit host port',()=>{p.adminVals().sites[2].go();assert.equal(site,'Douai');assert.match(p.adminVals().adminScope,/Douai/)});
+test('admin cannot mutate contacts',()=>assert.throws(()=>stores.module('admin').update({adherents:[]})));
+console.log(n+' administrative presenter checks passed');

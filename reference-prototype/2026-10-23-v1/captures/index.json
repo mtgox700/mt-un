@@ -1,0 +1,172 @@
+[
+  {
+    "id": "AUTH",
+    "label": "Connexion",
+    "file": "captures/AUTH.jpg",
+    "section_id": "AUTH",
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  {
+    "id": "AUTH-MFA",
+    "label": "Vérification en deux étapes",
+    "file": "captures/AUTH-MFA.jpg",
+    "section_id": "AUTH-MFA",
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  {
+    "id": "ACC",
+    "label": "Accueil",
+    "file": "captures/ACC.jpg",
+    "section_id": "ACC",
+    "dimensions": [
+      1272,
+      716
+    ]
+  },
+  {
+    "id": "IA",
+    "label": "Assistant",
+    "file": "captures/IA.jpg",
+    "section_id": "IA",
+    "dimensions": [
+      1272,
+      716
+    ]
+  },
+  {
+    "id": "DOS",
+    "label": "Dossiers",
+    "file": "captures/DOS.jpg",
+    "section_id": "DOS",
+    "dimensions": [
+      1272,
+      716
+    ]
+  },
+  {
+    "id": "MSG",
+    "label": "Messages",
+    "file": "captures/MSG.jpg",
+    "section_id": "MSG",
+    "dimensions": [
+      1272,
+      716
+    ]
+  },
+  {
+    "id": "AGE",
+    "label": "Agenda",
+    "file": "captures/AGE.jpg",
+    "section_id": "AGE",
+    "dimensions": [
+      1272,
+      716
+    ]
+  },
+  {
+    "id": "REU",
+    "label": "Réunions",
+    "file": "captures/REU.jpg",
+    "section_id": "REU",
+    "dimensions": [
+      1272,
+      716
+    ]
+  },
+  {
+    "id": "DOC",
+    "label": "Documents",
+    "file": "captures/DOC.jpg",
+    "section_id": "DOC",
+    "dimensions": [
+      1272,
+      716
+    ]
+  },
+  {
+    "id": "FOR",
+    "label": "Formations",
+    "file": "captures/FOR.jpg",
+    "section_id": "FOR",
+    "dimensions": [
+      1272,
+      716
+    ]
+  },
+  {
+    "id": "COM",
+    "label": "Communication",
+    "file": "captures/COM.jpg",
+    "section_id": "COM",
+    "dimensions": [
+      1272,
+      716
+    ]
+  },
+  {
+    "id": "MOB",
+    "label": "Application mobile",
+    "file": "captures/MOB.jpg",
+    "section_id": "MOB",
+    "dimensions": [
+      1272,
+      716
+    ]
+  },
+  {
+    "id": "ADH",
+    "label": "Adhérents",
+    "file": "captures/ADH.jpg",
+    "section_id": "ADH",
+    "dimensions": [
+      1272,
+      716
+    ]
+  },
+  {
+    "id": "WEB",
+    "label": "Intranet",
+    "file": "captures/WEB.jpg",
+    "section_id": "INT",
+    "dimensions": [
+      1272,
+      716
+    ]
+  },
+  {
+    "id": "REP",
+    "label": "Reporting",
+    "file": "captures/REP.jpg",
+    "section_id": "REP",
+    "dimensions": [
+      1272,
+      716
+    ]
+  },
+  {
+    "id": "RAC",
+    "label": "Raccourcis",
+    "file": "captures/RAC.jpg",
+    "section_id": "RAC",
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  {
+    "id": "PAR",
+    "label": "Réglages",
+    "file": "captures/PAR.jpg",
+    "section_id": "PAR",
+    "dimensions": [
+      1272,
+      716
+    ]
+  }
+]

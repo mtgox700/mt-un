@@ -1,0 +1,8 @@
+{
+  "status": 200,
+  "exact_fixture_response": true,
+  "provider": "codex-local",
+  "scope": "fixture-only",
+  "no_business_content": true,
+  "error_code": null
+}

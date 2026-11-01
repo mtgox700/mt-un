@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-26T11:46:57.740659+00:00",
+  "status": "Sessions durables locales actives ; S01 reste ouvert",
+  "checks_this_run": 175,
+  "suites": [
+    {
+      "name": "Tests unitaires, dont 13 nouveaux tests de persistance",
+      "count": 69,
+      "proof": "unit.log"
+    },
+    {
+      "name": "HTTP avec redémarrages réels",
+      "count": 12,
+      "proof": "http.json"
+    },
+    {
+      "name": "Supabase réel et panne de révocation injectée",
+      "count": 13,
+      "proof": "integration.json"
+    },
+    {
+      "name": "Régression HTTP",
+      "count": 9,
+      "proof": "../S01-sessions-mfa/http.json"
+    },
+    {
+      "name": "Récupération du mot de passe",
+      "count": 20,
+      "proof": "../S01-finalisation/recovery.json"
+    },
+    {
+      "name": "Cloisonnement Supabase",
+      "count": 12,
+      "proof": "../S01/integration.json"
+    },
+    {
+      "name": "Sessions et MFA",
+      "count": 40,
+      "proof": "../S01-sessions-mfa/integration.json"
+    }
+  ],
+  "references_unchanged": 834,
+  "production_ready": false,
+  "session_scope": "single host, multiple processes; encrypted SQLite",
+  "remaining": [
+    "Récupération MFA : terminer l’adaptateur Auth privilégié pour remplacer un facteur encore enregistré après perte de l’appareil, avec demande et approbation distincte. L’application ne dispose pas encore d’un credential serveur dédié pour cette opération ; aucune clé interne n’a été extraite. Le refus actuel reste sûr.",
+    "Administration : généraliser le MFA obligatoire à toutes les anciennes commandes privilégiées et retester chaque rôle. Les nouvelles commandes d’identité imposent déjà le MFA ; les anciennes RPC restent à traiter avec le portage de leurs parcours.",
+    "Sessions en production : choisir et qualifier le déploiement. Le stockage livré est durable et partagé entre processus sur un même hôte ; plusieurs serveurs nécessitent un stockage distribué, un gestionnaire de clés et une supervision des files de révocation. Tester aussi le crash pendant une rotation de refresh token.",
+    "Infrastructure : dépôt distant, CI active, environnements séparés, Supabase managé Europe, serveur de production OVH, HTTPS/cookies Secure, secrets et sauvegardes externes avec garde des clés séparée. Vérifier les objectifs RPO/RTO sur cette infrastructure.",
+    "Modules : achever le portage des écritures, pièces jointes et partages et la migration des propriétaires de données S00 ; compléter les tests de toutes les frontières et le circuit de réadmission sans reprise implicite des anciens droits.",
+    "Interface S02 : raccorder les formulaires, emails, invitations et approbations au nouveau socle ; refaire les parcours mobile/tablette/desktop avec comparaison à la référence."
+  ],
+  "backup_monitor": {
+    "issues": [],
+    "last_verified_backup_utc": "2026-10-26T11:17:45Z",
+    "chat_monitor": "PAUSED unchanged"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "count": 17,
+  "checks": [
+    {
+      "test": "login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "direct_invalid_get_2",
+      "ok": true
+    },
+    {
+      "test": "direct_invalid_get_3",
+      "ok": true
+    },
+    {
+      "test": "direct_invalid_get_4",
+      "ok": true
+    },
+    {
+      "test": "direct_invalid_send_5",
+      "ok": true
+    },
+    {
+      "test": "direct_invalid_send_6",
+      "ok": true
+    },
+    {
+      "test": "direct_invalid_send_7",
+      "ok": true
+    },
+    {
+      "test": "direct_invalid_send_8",
+      "ok": true
+    },
+    {
+      "test": "direct_invalid_create_9",
+      "ok": true
+    },
+    {
+      "test": "direct_invalid_participants_10",
+      "ok": true
+    },
+    {
+      "test": "direct_invalid_list_11",
+      "ok": true
+    },
+    {
+      "test": "private_tables_no_authenticated_privilege",
+      "ok": true
+    },
+    {
+      "test": "read_permission_revoked_direct",
+      "ok": true
+    },
+    {
+      "test": "organization_departure_denied",
+      "ok": true
+    },
+    {
+      "test": "organization_reinvite_no_old_access",
+      "ok": true
+    },
+    {
+      "test": "fixture_restored",
+      "ok": true
+    }
+  ]
+}

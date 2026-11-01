@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "width": 390,
+      "role": "superadmin",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "role": "superadmin",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "role": "superadmin",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "role": "local",
+      "overflow": false,
+      "globalControlsAbsent": true,
+      "allowed": true,
+      "denied": true
+    },
+    {
+      "width": 768,
+      "role": "local",
+      "overflow": false,
+      "globalControlsAbsent": true,
+      "allowed": true,
+      "denied": true
+    },
+    {
+      "width": 390,
+      "role": "local",
+      "overflow": false,
+      "globalControlsAbsent": true,
+      "allowed": true,
+      "denied": true
+    },
+    {
+      "width": 390,
+      "navigationRefused": true,
+      "authorizedScreen": true
+    },
+    {
+      "width": 768,
+      "navigationRefused": true,
+      "authorizedScreen": true
+    },
+    {
+      "width": 1440,
+      "navigationRefused": true,
+      "authorizedScreen": true
+    }
+  ],
+  "commercialFormSubmitted": true,
+  "commercialFormWidths": [
+    390,
+    768,
+    1440
+  ]
+}

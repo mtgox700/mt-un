@@ -1,0 +1,61 @@
+route,module_cible,libelle,condition,ligne_controle,ligne_template,statut
+adherents,adherents,adherents,isList,9635,,Observé dans le code ; couverture visuelle à relier
+adherent,adherents,adherent,isFiche,9635,,Observé dans le code ; couverture visuelle à relier
+adhmsg,adherents,Campagne adhérents,isMsg,9635,,Observé dans le code ; couverture visuelle à relier
+adhimport,adherents,Import CSV,isImport,9766,,Observé dans le code ; couverture visuelle à relier
+intranet,publications,intranet,isIntranet,12072,3810,Observé dans le code ; couverture visuelle à relier
+webgen,publications,Générateur intranet,isWebGen,12072,3983,Observé dans le code ; couverture visuelle à relier
+webedit,publications,Éditeur intranet,isWebEdit,12072,4081,Observé dans le code ; couverture visuelle à relier
+webpub,publications,Préparation envoi webmaster,isWebPub,12074,4202,Observé dans le code ; couverture visuelle à relier
+webqueue,publications,Suivi publications,isWebQueue,12074,4278,Observé dans le code ; couverture visuelle à relier
+webcharte,publications,Charte des sites,isWebCharte,12074,4328,Observé dans le code ; couverture visuelle à relier
+accueil,socle,Accueil,isAccueil,12760,633,Observé dans le code ; couverture visuelle à relier
+dossiers,dossiers,dossiers,isDossiers,12760,745,Observé dans le code ; couverture visuelle à relier
+dossier,dossiers,dossier,isDossier,12760,896,Observé dans le code ; couverture visuelle à relier
+nouveau,dossiers,nouveau,isNouveau,12760,864,Observé dans le code ; couverture visuelle à relier
+assistant,assistant,assistant,isAssistant,12761,1544,Observé dans le code ; couverture visuelle à relier
+sondages,sondages,sondages,isSondages,12761,1930,Observé dans le code ; couverture visuelle à relier
+sondage,sondages,sondage,isSondage,12761,1960,Observé dans le code ; couverture visuelle à relier
+tract,documents,Génération de document,isTract,12761,2818,Observé dans le code ; couverture visuelle à relier
+documents,documents,documents,isDocs,12762,2362,Observé dans le code ; couverture visuelle à relier
+docedit,documents,docedit,isDocEdit,12762,2450,Observé dans le code ; couverture visuelle à relier
+agenda,agenda,agenda,isAgenda,12763,2991,Observé dans le code ; couverture visuelle à relier
+raccourcis,socle,raccourcis,isRaccourcis,12764,2923,Observé dans le code ; couverture visuelle à relier
+reunions,reunions,reunions,isReunions,12766,1997,Observé dans le code ; couverture visuelle à relier
+record,reunions,Consentement et enregistrement,isRecord,12766,2072,Observé dans le code ; couverture visuelle à relier
+reunion,reunions,reunion,isReunion,12766,2219,Observé dans le code ; couverture visuelle à relier
+extensions,socle,extensions,isExtensions,13100,4600,Observé dans le code ; couverture visuelle à relier
+notifs,socle,notifs,isNotifs,13100,4494,Observé dans le code ; couverture visuelle à relier
+recherche,socle,recherche,isSearch,13100,4516,Observé dans le code ; couverture visuelle à relier
+params,socle,params,isParams,13100,4687,Observé dans le code ; couverture visuelle à relier
+profil,socle,profil,isProfil,13100,4739,Observé dans le code ; couverture visuelle à relier
+prefs,socle,Préférences notifications,isPrefs,13101,5811,Observé dans le code ; couverture visuelle à relier
+securite,socle,securite,isSecurite,13101,5873,Observé dans le code ; couverture visuelle à relier
+iasecu,socle,Sécurité IA,isIaSecu,13101,5832,Observé dans le code ; couverture visuelle à relier
+rgpd,socle,rgpd,isRgpd,13102,5932,Observé dans le code ; couverture visuelle à relier
+membres,socle,membres,isMembres,13102,6006,Observé dans le code ; couverture visuelle à relier
+apikey,socle,Configuration IA,isApikey,13102,6258,Observé dans le code ; couverture visuelle à relier
+memoire,socle,Mémoire IA,isMemoire,13102,5737,Observé dans le code ; couverture visuelle à relier
+messagerie,messagerie,messagerie,isMessagerie,13103,,Observé dans le code ; couverture visuelle à relier
+thread,messagerie,Discussion,isThread,13103,,Observé dans le code ; couverture visuelle à relier
+offline,socle,offline,isOffline,13103,6745,Observé dans le code ; couverture visuelle à relier
+onboarding,socle,onboarding,isOnboarding,13103,6781,Observé dans le code ; couverture visuelle à relier
+admin,socle,Administration de l’organisation,isAdmin,13103,6804,Observé dans le code ; couverture visuelle à relier
+signature,documents,signature,isSignature,13103,1409,Observé dans le code ; couverture visuelle à relier
+contacts,socle,contacts,isContacts,13103,5680,Observé dans le code ; couverture visuelle à relier
+formations,formations,formations,isFormations,13103,5382,Observé dans le code ; couverture visuelle à relier
+communication,communication,communication,isCommunication,13103,4930,Observé dans le code ; couverture visuelle à relier
+mobile,publications,mobile,isMobApp,13103,5168,Observé dans le code ; couverture visuelle à relier
+unii,socle,Configuration des actions unii,isUniiCfg,13103,4539,Observé dans le code ; couverture visuelle à relier
+pieces,dossiers,pieces,isPieces,13604,1320,Observé dans le code ; couverture visuelle à relier
+marque,socle,marque,isMarque,13720,6044,Observé dans le code ; couverture visuelle à relier
+reporting,reporting,reporting,isReporting,13861,1074,Observé dans le code ; couverture visuelle à relier
+newpoll,sondages,Création sondage,isNewPoll,13900,1725,Observé dans le code ; couverture visuelle à relier
+viewer,documents,Lecteur documentaire,isViewer,14256,709,Observé dans le code ; couverture visuelle à relier
+plateforme:supervision,plateforme,supervision,adminAuthed + admRoute,10743,,Console séparée dans le prototype ; autorisation cible à construire
+plateforme:organisations,plateforme,organisations,adminAuthed + admRoute,10743,,Console séparée dans le prototype ; autorisation cible à construire
+plateforme:utilisateurs,plateforme,utilisateurs,adminAuthed + admRoute,10743,,Console séparée dans le prototype ; autorisation cible à construire
+plateforme:cles,plateforme,cles,adminAuthed + admRoute,10743,,Console séparée dans le prototype ; autorisation cible à construire
+plateforme:editeur,plateforme,editeur,adminAuthed + admRoute,10743,,Console séparée dans le prototype ; autorisation cible à construire
+plateforme:facturation,plateforme,facturation,adminAuthed + admRoute,10742,,Console séparée dans le prototype ; autorisation cible à construire
+plateforme:journaux,plateforme,journaux,adminAuthed + admRoute,10743,,Console séparée dans le prototype ; autorisation cible à construire

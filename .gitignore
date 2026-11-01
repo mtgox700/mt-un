@@ -1,0 +1,30 @@
+# Secrets et états locaux
+.env
+.env.*
+!.env.example
+**/.local-*/
+*.key
+*.pem
+*.p12
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.aesgcm
+*.enc
+# Dépendances et résultats reproductibles
+.venv/
+.venv*/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+coverage/
+.DS_Store
+**/.build-tools/
+**/dist/
+# Packages de transfert locaux
+*.zip
+application/planification/review-globale-*/
+application/planification/github-*/

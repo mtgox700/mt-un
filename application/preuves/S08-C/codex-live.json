@@ -1,0 +1,8 @@
+{
+  "http_status": 200,
+  "exact_fixture_response": true,
+  "state": "succeeded",
+  "charged": 1,
+  "usage": null,
+  "cost": null
+}

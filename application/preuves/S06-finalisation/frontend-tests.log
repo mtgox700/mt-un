@@ -1,0 +1,272 @@
+6 module contract checks passed
+✔ host/module-contract.test.mjs (58.30425ms)
+PASS note updates case and clears draft
+PASS empty note ignored
+PASS current case fallback preserved
+PASS empty contact name rejected
+PASS contact creation
+PASS contact rename updates direct conversation
+PASS contact removal updates group and direct links
+PASS contacts cannot write conversations directly
+PASS theme publication preserves inheritance
+PASS color conversion unchanged
+10 action checks passed
+✔ state/actions.test.mjs (82.685625ms)
+✔ calendar validation rejects rollover and ambiguous dates (0.780792ms)
+✔ dues require currency and preserve explicit precision/cadence (0.462666ms)
+✔ unrelated edit preserves legacy ambiguity but new invalid values fail (0.202791ms)
+✔ late register response cannot restore data after logout (1.64775ms)
+✔ failed write preserves draft and sends no finance field without permission (0.409166ms)
+✔ invalid CSV never reaches import endpoint (0.142625ms)
+✔ charge retry preserves request identity and refuses concurrent submissions (5.2115ms)
+✔ no financial write permission means no creation draft or request (0.158708ms)
+✔ partial payment retry retains identity, blocks duplicate click and clears on logout (21.508833ms)
+✔ correction retry preserves request and reason; logout clears draft (1.060375ms)
+✔ export requires capability and a late response after logout is discarded (0.3065ms)
+✔ financial read alone does not enable exports (0.143375ms)
+✔ financial permission loss leaves the financial tab and removes ledger rows (0.17025ms)
+✔ schedule pause requires financial write and keeps the member scoped (2.489834ms)
+✔ schedule pause duplicate click is suppressed and late response cannot restore data (0.647166ms)
+✔ durable list retry preserves idempotency key and logout removes capability (0.419583ms)
+9 administrative import assertions passed
+✔ state/admin-import.test.mjs (68.311917ms)
+PASS member summary and pending count
+PASS onboarding imports through explicit contacts port
+PASS suspend and reactivate preserve other member
+PASS invited action preserves status
+PASS removal callback scoped to selected member
+PASS invitation delegates shared overlay
+PASS site selection uses explicit host port
+PASS admin cannot mutate contacts
+8 administrative presenter checks passed
+✔ state/admin-presenter.test.mjs (68.983708ms)
+Agenda files: selection persisted by version, invalid upload refused and identity cleanup verified.
+✔ state/agenda-files.test.mjs (69.185917ms)
+Agenda home: ordering, expired events, opening, isolated presenter, action dispatch, late response and refusal OK
+✔ state/agenda-home.test.mjs (93.524084ms)
+Agenda workflows: durable edit, conflict, read-only, cleanup, campaign and conversation transition OK
+Late logo read after identity cleanup ignored.
+✔ state/agenda-workflows.test.mjs (97.956542ms)
+Agenda service: load, save, refusal, clearing, deletion and export safeguards OK
+✔ state/agenda.test.mjs (56.870416ms)
+6 resume assertions passed
+✔ state/auth-resume.test.mjs (46.556583ms)
+PASS recipient summary capped at eight
+PASS subject input updates module
+PASS channel changes preview
+PASS attachment toggle
+PASS send uses campaign service
+PASS cancel preserves route
+PASS bulletin opens document port
+7 campaign presenter checks passed
+✔ state/campaign-presenter.test.mjs (51.748083ms)
+PASS selected recipients resolved
+PASS campaign creates direct thread and journal
+PASS no recipients refuses delivery
+PASS empty subject refuses delivery
+PASS contacts cannot directly write conversations
+PASS residual identity blocks AI
+PASS one in-flight call and origin preserved
+PASS AI failure visible and busy cleared
+PASS JSON envelope preserved
+PASS invalid JSON refused
+10 campaign/AI checks passed
+✔ state/campaigns-ai.test.mjs (84.973792ms)
+✔ home presents only current server rows and excludes closed cases (2.004584ms)
+✔ late response after logout cannot repopulate dossiers (4.401375ms)
+✔ failed update clears stale data and never announces success (0.413458ms)
+✔ unknown selected dossier never falls back to another (0.160625ms)
+✔ assignment refreshes access before navigating away from revoked dossier (0.26325ms)
+✔ assignment failure produces no success or optimistic owner (0.203416ms)
+✔ file count is available before opening the vault (2.857584ms)
+✔ late vault response after logout cannot expose filenames or navigate (0.301ms)
+✔ refused vault access removes stale files (0.171208ms)
+✔ late restoration response after logout cannot reload private files (0.259083ms)
+✔ restoration sends selected version and concurrency precondition (0.224084ms)
+✔ classification sends only server references and target version (0.608625ms)
+✔ classification refusal stays readable inside picker (0.6805ms)
+✔ late picker after logout cannot expose the source (0.715583ms)
+✔ rate limit stops file retry cascade and explains recovery (0.7185ms)
+✔ classification distinguishes temporary limit from permission refusal (0.191292ms)
+✔ home access failure clears private cases without preventing landing page (0.159792ms)
+✔ rescan cannot reload files after logout (0.260333ms)
+✔ explicit charge converts exact cents and canonical dates (2.413625ms)
+✔ invalid charge refuses missing date, rollover and nonpositive amount (0.303708ms)
+✔ server reload replaces records, failure clears, logout invalidates pending response (17.070209ms)
+✔ historical files load only for an authorized record and clear on logout (0.319541ms)
+✔ correction retains revision, exact amount and retry key (0.886875ms)
+✔ zero correction is allowed; invalid amount, target or reason is refused (0.255125ms)
+✔ correction needs changed date and reason; edit preserves expected revision (21.135709ms)
+✔ uncertain failure keeps request id for retry and input; reload invalidates edit (0.489542ms)
+✔ denied and cleared identity cannot expose late coverages (0.431125ms)
+✔ publication does not open after logout (6.316792ms)
+✔ failed review stays on sheet without optimistic approval (1.038209ms)
+✔ double confirmation sends once and only confirms the server result (1.144625ms)
+✔ document list cannot repopulate after logout (9.538375ms)
+✔ reader edits never reach server or optimistic state (0.834541ms)
+✔ failed draft save blocks navigation and retains draft (0.808125ms)
+✔ queued saves use the latest committed version without erasing later input (4.335625ms)
+✔ remote photos are rejected before an optimistic render (0.277542ms)
+✔ extension style and image values survive the versioned save payload (0.230584ms)
+✔ global logo action saves organization defaults without patching the last document (0.311583ms)
+✔ reader cannot update global defaults even with a writable selected document (0.1145ms)
+✔ failed save prevents export of an older committed version (0.228916ms)
+✔ duplicate export is suppressed and logout prevents a late download (0.835709ms)
+✔ unload warns for unsaved or in-flight edits and releases after durable save (2.309041ms)
+✔ late evidence metadata is discarded on identity clear (3.890417ms)
+✔ read-only metadata never grants upload or blocked download (0.243ms)
+✔ switching member clears selected evidence and late responses (0.118166ms)
+✔ late preview cannot reappear after closing or changing identity (2.06425ms)
+✔ resume is write-gated and ignores duplicate click while running (0.870875ms)
+✔ empty ledger never fabricates payment or due date (0.869666ms)
+✔ settled and outstanding entries remain distinguishable (49.834667ms)
+✔ partial payments drive remaining balance and history independently of paidAt (7.496375ms)
+✔ effective date uses calendar validation and refuses unknown/future dates (1.588958ms)
+✔ last effective date is independent from recording order and cancelled amounts (44.357834ms)
+✔ summary displays money recovery rather than member percentage (27.191333ms)
+✔ empty ledger is unknown, never 100 percent recovered (6.144041ms)
+✔ missing authorization/data yields no figures or overdue members (1.112208ms)
+✔ overdue action opens the actual member before payment, read-only refuses (1.4565ms)
+✔ refused navigation never opens a payment draft (1.04925ms)
+11 edit assertions passed
+✔ state/identity-edits.test.mjs (87.538ms)
+10 identity hydration assertions passed
+✔ state/identity-s01.test.mjs (109.461625ms)
+PASS closed by default
+PASS opening resets draft
+PASS empty submission refused
+PASS role selection isolated
+PASS input clears error
+PASS submission remains simulation without member creation
+PASS duplicate submit ignored
+PASS follow closes and navigates
+PASS reopening clears prior completion and choice
+PASS cancel leaves other overlays and contacts intact
+10 invitation checks passed
+✔ state/invitation.test.mjs (98.599833ms)
+PASS bad organization rejected
+PASS invalid addresses fail before network
+PASS anonymous session refused
+PASS same origin csrf exact payload and deduplication
+PASS denial surfaced without false success
+5 S01 transport checks passed
+✔ state/invitations-s01.test.mjs (88.23025ms)
+PASS initial list
+PASS company filter resets page
+PASS combined filters exclude mismatches
+PASS case insensitive text search
+PASS selection toggles without changing data
+PASS detail lookup
+PASS criteria labels retained
+7 member filter checks passed
+✔ state/member-filter.test.mjs (54.839208ms)
+PASS edit uses separate draft
+PASS invalid email rejected
+PASS valid edit saved
+PASS cancel discards changes
+PASS paid updates status
+PASS empty import does nothing
+PASS duplicate csv refused
+PASS sample loading does not import
+8 management checks passed
+PASS admin duplicate checked case insensitively against members
+PASS existing adherent may become an organisation member
+10 total management checks passed
+✔ state/member-management.test.mjs (95.212125ms)
+13 assertions passed
+✔ state/members-s01.test.mjs (76.726ms)
+✔ end needs date and motive and preserves version in confirmation (7.194875ms)
+✔ failure retains request for retry; cancel has no write (0.225459ms)
+✔ rights, ended member and late identity response (0.132167ms)
+✔ return requires preview; changing mode invalidates approval (5.592667ms)
+✔ blocked overlap cannot submit and correction uses separate command (0.539916ms)
+PASS reply closes menu and preserves snippet
+PASS private reply uses contact port
+PASS forward initializes selection
+PASS case picker uses dedicated port
+PASS picker lists and routes selected case
+PASS picker filters without mutating cases
+PASS picker creates with preserved payload
+PASS picker closes without deleting content
+PASS copy delegates clipboard
+9 menu checks passed
+✔ state/menus.test.mjs (55.27125ms)
+PASS open clears unread and selects thread
+PASS empty message ignored
+PASS send preserves reply and clears composer
+PASS AI mention delegated explicitly
+PASS direct existing conversation reused
+PASS new direct conversation isolated
+PASS forward to selected discussion
+PASS group validation
+PASS group creation
+PASS member removal updates membership and log
+PASS thread to case passes context through port
+PASS messaging cannot write dossiers
+PASS case busy flag prevents duplicate creation
+PASS async case result stored in cases only
+PASS AI failure preserves case fallback
+15 messaging checks passed
+PASS broadcast delegates contact journal and preserves delivery metadata
+FINAL 16 messaging checks passed
+✔ state/messaging.test.mjs (73.095208ms)
+PASS restricted module read
+PASS foreign write refused
+PASS state snapshot immutable
+PASS deep mutation denied
+PASS seed not retained mutable
+PASS unknown module refused
+PASS compatibility inaccessible to modules
+PASS case update isolated
+PASS selected case update
+PASS unknown case not created
+PASS flat compatibility projection
+PASS cross module transaction notifies once
+PASS prototype pollution refused atomically
+PASS navigation records route
+PASS back restores previous route
+PASS separate instances isolated
+16 checks passed
+PASS contacts independent lookup
+PASS static group selection
+PASS dynamic group filtering
+PASS theme site inheritance
+PASS theme draft isolated from published
+PASS theme cannot overwrite contacts
+TOTAL 22 checks passed
+PASS shallow frozen input cannot bypass nested isolation
+FINAL 23 checks passed
+✔ state/module-stores.test.mjs (60.423209ms)
+12 guarded navigation assertions passed
+✔ state/navigation-guard.test.mjs (42.713417ms)
+✔ selected payment converts exact cents and retains retry identity (17.891709ms)
+✔ selection, positive amount, precision and remaining balance required (0.670916ms)
+6 navigation assertions passed
+✔ state/permissions-navigation.test.mjs (54.024791ms)
+PASS list rendered from owned state
+PASS list action uses navigation port
+PASS filter searches message content
+PASS message selection updates owned state
+PASS selection cleared by assistant panel
+PASS closed modals return empty view models
+6 presenter checks passed
+✔ state/presenters.test.mjs (53.086083ms)
+Publication notices: authorized opening, durable read command, atomic read-all and cleanup OK
+✔ state/publication-notices.test.mjs (63.308875ms)
+✔ changing date invalidates confirmation and cancel is read-only (17.842167ms)
+✔ unknown coverage and overlaps block client confirmation (0.414292ms)
+✔ permissions and logout discard proposal (0.132791ms)
+✔ historical activation uses its own command and member version without inventing schedule revision (0.196792ms)
+✔ preview does not mutate, cancel sends no confirmation (16.239417ms)
+✔ retry preserves request identity and duplicate confirm is suppressed (0.579541ms)
+✔ logout discards pending proposal and permission denies actions (0.156583ms)
+4 safe rendering assertions passed
+✔ state/shared-content.test.mjs (39.79225ms)
+ℹ tests 112
+ℹ suites 0
+ℹ pass 112
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 531.671083

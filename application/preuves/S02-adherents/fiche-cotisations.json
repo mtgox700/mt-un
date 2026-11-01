@@ -1,0 +1,56 @@
+[
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "screen": "fiche",
+    "equal": true,
+    "noOverflow": true
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "screen": "cotisations",
+    "equal": true,
+    "noOverflow": true
+  },
+  {
+    "size": {
+      "width": 820,
+      "height": 1180
+    },
+    "screen": "fiche",
+    "equal": true,
+    "noOverflow": true
+  },
+  {
+    "size": {
+      "width": 820,
+      "height": 1180
+    },
+    "screen": "cotisations",
+    "equal": true,
+    "noOverflow": true
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "screen": "fiche",
+    "equal": true,
+    "noOverflow": true
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "screen": "cotisations",
+    "equal": true,
+    "noOverflow": true
+  }
+]

@@ -1,0 +1,68 @@
+Browser tab: 13, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container
+		2 text uniion
+		3 text CONSOLE D'ADMINISTRATION
+		4 container
+			29 button Supervision
+				30 image
+				31 text Supervision
+			32 button Organisations
+				33 image
+				34 text Organisations
+			11 button Utilisateurs
+				12 image
+				13 text Utilisateurs
+			14 button Clés API IA
+				15 image
+				16 text Clés API IA
+			17 button Éditeur de l’application
+				18 image
+				19 text Éditeur de l’application
+			20 button Abonnements et paiements
+				21 image
+				22 text Abonnements et paiements
+			23 button Journal d’audit
+				24 image
+				25 text Journal d’audit
+		26 text SA Super administrateur admin@uniion.fr
+		27 button Se déconnecter
+		28 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+		35 heading Organisations, Value: 1
+			36 text Organisations
+		37 text Sections, unions et CSE hébergés sur la plateforme.
+		38 text Métallurgie — Valenciennes
+		39 container
+			40 text Section syndicale  · offre  Élu 2.0
+		41 text MEMBRES
+		42 text 6
+		43 text ADHÉRENTS
+		44 text 214
+		45 text REQUÊTES IA / MOIS
+		46 text 1 840
+		47 text Actif
+		48 button Suspendre
+		49 text UD 59 — Lille
+		50 container
+			51 text Union départementale  · offre  Élu 4.0
+		52 text MEMBRES
+		53 text 14
+		54 text ADHÉRENTS
+		55 text 1 320
+		56 text REQUÊTES IA / MOIS
+		57 text 6 210
+		58 text Actif
+		59 button Suspendre
+		60 text CSE Brasserie du Nord
+		61 container
+			62 text CSE  · offre  Élu 1.0
+		63 text MEMBRES
+		64 text 9
+		65 text ADHÉRENTS
+		66 text 380
+		67 text REQUÊTES IA / MOIS
+		68 text 420
+		69 text Essai — 12 j restants
+		70 button Suspendre
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

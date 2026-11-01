@@ -1,0 +1,35 @@
+UNIION — PROTOTYPE LOCAL
+
+Ouvrir : http://127.0.0.1:5050
+Relancer : double-cliquer sur Lancer.command (garder le Terminal ouvert).
+Arrêter : Ctrl+C dans le Terminal qui exécute le serveur.
+
+Compte de démonstration : adresse préremplie, mot de passe demo.
+Code de démonstration : 402913.
+
+IA : connexion ChatGPT déjà gérée par Codex. Aucune clé à coller.
+Réglages > Configuration IA > Tester la connexion permet de tester le raccordement.
+Les sélecteurs Anthropic/Mistral et chiffres de consommation du prototype restent
+illustratifs : la passerelle locale utilise le modèle par défaut de Codex.
+Les appels consomment les limites du compte Codex/ChatGPT.
+Une requête à la fois, délai maximal 180 secondes. Aucun outil externe n'est
+nécessaire pour les réponses ; recherche web désactivée.
+
+Le serveur écoute exclusivement sur 127.0.0.1 et contrôle l'origine des appels.
+Le navigateur ne reçoit pas les identifiants de connexion ChatGPT.
+L'authentification est gérée par le logiciel officiel Codex.
+Si la session expire : exécuter codex login puis relancer.
+
+Il s'agit toujours du prototype : données de démonstration, authentification
+simulée et traitements métier simulés. Aucun branchement Supabase n'est effectué.
+Les mentions de souveraineté, hébergement UE, chiffrement ou garanties de
+confidentialité affichées par le prototype ne qualifient pas ce raccordement
+ChatGPT. Utiliser des données fictives pour cette recette.
+
+La copie originale reste dans analyse_uniion/livraison_dev_uniion_v3/01_prototype.
+Dans public/uniion App v3.dc.html, seules l'inclusion de la passerelle, la sélection
+du raccordement local, l'appel IA et son statut ont été ajoutés. Aucun style modifié.
+Les ressources React/Babel et polices du prototype demandent une connexion Internet.
+
+Documentation du raccordement : https://learn.chatgpt.com/docs/app-server
+Ce raccordement local ne constitue pas le déploiement commercial OVH.

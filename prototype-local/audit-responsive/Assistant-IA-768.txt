@@ -1,0 +1,75 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			8 button
+				9 image
+			10 button Se déconnecter
+				11 image
+		12 container
+			13 text INTELLIGENCE ARTIFICIELLE
+			14 heading Votre expert juridique de poche, Value: 1
+				15 text Votre expert juridique de poche
+			16 text Sourcé sur la Convention Métallurgie et le Code du travail NOUVELLE CONVERSATION Pas encore enregistrée — posez une question
+			17 button Mémoire · 4, Help: Gérer la mémoire de l'assistant
+			18 button Créer un dossier
+			19 button Plein écran
+			20 button Nouvelle conversation
+			21 button Nouveau dossier guidé
+			22 text HISTORIQUE 2 conversations
+			23 button Toutes
+			24 button Assistant
+			25 button Réunions
+			26 button Heures de délégation non payées en cas d'arrêt maladie Assistant 22 oct. · 1 q.
+				27 text Heures de délégation non payées en cas d'arrêt maladie
+				28 text Assistant
+				29 text 22 oct.
+				30 text  · 
+				31 text 1 q.
+			32 button Description: Supprimer la conversation, Help: Supprimer
+			33 button Projet de PV — CSE ordinaire de septembre Réunions 20 oct. · 1 q.
+				34 text Projet de PV — CSE ordinaire de septembre
+				35 text Réunions
+				36 text 20 oct.
+				37 text  · 
+				38 text 1 q.
+			39 button Description: Supprimer la conversation, Help: Supprimer
+			40 image
+			41 text uniion Assistant Aucune identité transmise NIVEAU D'ANONYMISATION
+			42 checkbox Standard, Help: NAO, budget, articles — masquage léger (matricules)., Value: 1
+			43 checkbox RH sensible, Help: Inaptitude, discipline — masquage nominatif + matricules., Value: 0
+			44 checkbox RPS, Help: Harcèlement, souffrance au travail — masquage maximal., Value: 0
+			45 text UNIION ASSISTANT
+			46 text Bonjour Sophie. Je peux répondre sur la Convention Métallurgie, le Code du travail ou analyser un accord d'entreprise.
+			47 button Signalement de harcèlement
+			48 button Informations dues en NAO
+			49 button Enquête après accident
+			50 button Budget ASC
+			51 text field (settable)
+			52 button
+				53 image
+			54 text Prototype local : réponses produites via Codex connecté à votre compte ChatGPT, après masquage heuristique. Ce prototype ne garantit ni hébergement UE ni anonymisation complète — vérifiez les réponses avant utilisation.
+			55 button En savoir plus sur la sécurité
+		56 container
+			57 button Accueil
+				58 image
+				59 text Accueil
+			60 button Dossiers
+				61 image
+				62 text Dossiers
+			63 button Agenda
+				64 image
+				65 text Agenda
+			66 button Réunions
+				67 image
+				68 text Réunions
+			69 button Réglages
+				70 image
+				71 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

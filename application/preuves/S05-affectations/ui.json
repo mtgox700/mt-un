@@ -1,0 +1,36 @@
+{
+  "newOwner": [
+    {
+      "format": "desktop",
+      "document": 1440,
+      "viewport": 1440,
+      "readNewOwner": true,
+      "assignmentHistory": true
+    },
+    {
+      "format": "tablette",
+      "document": 768,
+      "viewport": 768,
+      "readNewOwner": true,
+      "assignmentHistory": true
+    },
+    {
+      "format": "mobile",
+      "document": 390,
+      "viewport": 390,
+      "readNewOwner": true,
+      "assignmentHistory": true
+    }
+  ],
+  "assignmentsPerformed": [
+    "mobile",
+    "tablette",
+    "desktop"
+  ],
+  "oldOwnerBackDenied": [
+    "mobile",
+    "tablette",
+    "desktop"
+  ],
+  "physicalDevices": false
+}

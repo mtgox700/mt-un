@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "suites": [
+    {
+      "suite": "s09_consent_integration.py",
+      "count": 34,
+      "passed": true
+    },
+    {
+      "suite": "s09_audio_integration.py",
+      "count": 56,
+      "passed": true
+    },
+    {
+      "suite": "s09_markers_integration.py",
+      "count": 60,
+      "passed": true
+    }
+  ],
+  "count": 150,
+  "note": "Markers replayed after adding two real concurrent-write checks; its integration.json is the final result."
+}

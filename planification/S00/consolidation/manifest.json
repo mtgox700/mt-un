@@ -1,0 +1,12 @@
+{
+  "normative": [
+    "schema-consolide.json",
+    "droits-consolides.json",
+    "migration-57-champs.json",
+    "migration-stockages-annexes.json",
+    "contrats-commandes.json",
+    "recette-consolidee.json",
+    "reference-visuelle.json"
+  ],
+  "precedence": "Décisions utilisateur D01–D13 > fichiers consolidés > propositions historiques detail/ ; reports non arbitrés ne donnent aucun droit"
+}

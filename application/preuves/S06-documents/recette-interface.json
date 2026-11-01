@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-29",
+  "environment": "Supabase local, comptes fictifs",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 1440,
+      "height": 1000
+    }
+  ],
+  "checked": [
+    "Édition autorisée et relecture après retour à la liste aux trois formats",
+    "Création depuis le modèle Courrier sur desktop",
+    "Lecteur : seul le document attribué apparaît, le nouveau courrier privé reste absent",
+    "Refus de création lecteur sur desktop",
+    "Refus de modification du titre sur les trois formats, titre original conservé",
+    "Bascule Éditer/Aperçu mobile et tablette",
+    "Styles de référence réintégrés à la compilation ; commandes mobiles masquées sur desktop"
+  ],
+  "limits": [
+    "Émulation de viewport, pas appareils physiques",
+    "Pas de validation exhaustive des modèles, logos, extensions ou exports Documents"
+  ]
+}

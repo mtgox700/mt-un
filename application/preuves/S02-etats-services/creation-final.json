@@ -1,0 +1,29 @@
+[
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "retained": true,
+    "list": true,
+    "returnPath": "detail → formulaire → liste (historique conservé)"
+  },
+  {
+    "size": {
+      "width": 820,
+      "height": 1180
+    },
+    "retained": true,
+    "list": true,
+    "returnPath": "detail → formulaire → liste (historique conservé)"
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "retained": true,
+    "list": true,
+    "returnPath": "detail → formulaire → liste (historique conservé)"
+  }
+]

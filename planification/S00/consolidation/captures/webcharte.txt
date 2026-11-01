@@ -1,0 +1,125 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - heading "Charte des sites" [level=1]
+  - paragraph: "Chaque site a sa charte : l'intranet peut rester sobre pendant que le site public porte les couleurs de l'organisation. Le HTML transmis au webmaster reste sémantique — ces réglages décrivent la feuille de style du site."
+  - tablist "Site à charter":
+    - tab "Intranet intranet.section-valenciennes.fr":
+      - generic: Intranet
+      - generic: intranet.section-valenciennes.fr
+    - tab "Site internet section-valenciennes.fr":
+      - generic: Site internet
+      - generic: section-valenciennes.fr
+  - generic: Hériter de l'identité de l'organisation
+  - generic: Les couleurs et la police de titre suivent l'identité de l'organisation définie dans Réglages · Identité de marque. Modifier l'identité met ce site à jour.
+  - switch "Hériter de l'identité de l'organisation" [checked]
+  - generic: "Identité de l'organisation : Orange uniion"
+  - button "Modifier l'identité"
+  - region "Aperçu de la charte":
+    - generic: intranet.section-valenciennes.fr
+    - generic: Section syndicale Métallurgie — Valenciennes
+    - generic: Actualités
+    - generic: Vos droits
+    - generic: Contact
+    - generic: Actualités
+    - generic: "Salaires : la section maintient ses revendications"
+    - generic: Le chapô résume la page en une phrase, avec la police et les couleurs retenues pour ce site.
+    - generic: Donner votre avis
+    - generic: Sur cette page
+  - paragraph: Couleurs et police reprises de l'identité de l'organisation. En choisir une autre détache la charte de ce site.
+  - generic: Couleur d'accent
+  - button "Choisir cette couleur d'accent"
+  - button "Choisir cette couleur d'accent"
+  - button "Choisir cette couleur d'accent"
+  - button "Choisir cette couleur d'accent"
+  - button "Choisir cette couleur d'accent"
+  - button "Choisir cette couleur d'accent"
+  - button "Choisir cette couleur d'accent"
+  - button "Choisir cette couleur d'accent"
+  - generic: Couleur d'en-tête et de pied de page
+  - button "Choisir cette couleur d'en-tête"
+  - button "Choisir cette couleur d'en-tête"
+  - button "Choisir cette couleur d'en-tête"
+  - button "Choisir cette couleur d'en-tête"
+  - button "Choisir cette couleur d'en-tête"
+  - button "Choisir cette couleur d'en-tête"
+  - button "Choisir cette couleur d'en-tête"
+  - button "Choisir cette couleur d'en-tête"
+  - generic: Police des titres
+  - button "Philosopher"
+  - button "Georgia"
+  - button "Sans-serif système"
+  - generic: Navigation
+  - button "Navigation claire"
+  - button "Bandeau de couleur"
+  - generic: Angles
+  - button "Angles nets"
+  - button "Arrondis doux"
+  - button "Très arrondis"
+  - generic: Largeur de contenu
+  - button "Article"
+  - button "Fiche étroite"
+  - button "Large"
+  - paragraph: 760 px de largeur de contenu
+  - generic: Logo de ce site
+  - img "Logo du site"
+  - generic: Déposer un logo propre à ce site
+  - paragraph: "Source : identité de l'organisation — logo fond clair"
+  - generic: Taille du logo dans l'en-tête
+  - generic: 100 %
+  - button "Réinitialiser"
+  - slider "Taille du logo dans l'en-tête": "100"
+  - paragraph: De 60 à 300 % de la hauteur de référence (44 px), proportions conservées.
+  - generic: Afficher le logo dans l'en-tête du site
+  - switch "Afficher le logo dans l'en-tête" [checked]
+  - generic: intranet-2026.css
+  - generic: ".up-site{--up-accent:#DC2626;--up-head:hsl(0 42% 16%);--up-tint:hsl(0 92% 96%);--up-tint2:hsl(0 88% 90%);--up-w:760px}.up-site,.up-site *,.up-site *::before,.up-site *::after{box-sizing:border-box}.up-site{font-family:system-ui,Segoe UI,Helvetica,sans-serif;color:#1F2937;line-height:1.65;background:#F8F8F7;margin:0}.up-site a{color:var(--up-accent)}.up-site{--up-r:14px}.up-site .up-wrap{max-width:1120px;margin:0 auto…"
+  - button "Enregistrer le gabarit"
+  - button "Retour"

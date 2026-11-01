@@ -1,0 +1,30 @@
+[
+  {
+    "format": "mobile",
+    "dateRefused": true,
+    "amountRefused": true,
+    "saved": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "format": "tablette",
+    "amountRefused": true,
+    "saved": true,
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "format": "desktop",
+    "amountRefused": true,
+    "saved": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "scenario": "reload",
+    "date": "28/10/2026",
+    "amount": "40,50 €/trimestre",
+    "persisted": true
+  }
+]

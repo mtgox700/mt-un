@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "functions": [
+    {
+      "function": "uniion_admin_context_core",
+      "authenticated_execute": false
+    },
+    {
+      "function": "uniion_admin_context_pre_cyber",
+      "authenticated_execute": false
+    },
+    {
+      "function": "uniion_share_create_core",
+      "authenticated_execute": false
+    },
+    {
+      "function": "uniion_shared_read_core",
+      "authenticated_execute": false
+    }
+  ]
+}

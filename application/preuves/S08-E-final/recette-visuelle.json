@@ -1,0 +1,27 @@
+{
+  "parcours": "document fictif certifié → Codex réel → correction privée → relecture → insertion explicite dans le même document",
+  "source_initiale_conservee": true,
+  "bloc_ajoute": true,
+  "statut_reste_brouillon": true,
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "mobile_scrollwidth": 382,
+  "mobile_innerwidth": 390,
+  "boutons_mobile_accessibles_apres_defilement": true,
+  "notes": [
+    "relecture-390.png capture transitoire du redimensionnement ; relecture-390-stable.png et relecture-390-actions.png montrent le rendu stabilisé",
+    "Le test navigateur porte sur le document ; les 37 parcours ne sont pas tous qualifiés visuellement."
+  ]
+}

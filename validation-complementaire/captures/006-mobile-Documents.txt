@@ -1,0 +1,104 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		6 text 390 × 844
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+						224 text unii
+						225 text 1
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				21 container
+					226 text UNII SUGGÈRE
+					227 button Brouillon à relire · NAO 2027 — où en sont les négociations
+					413 text CRÉATION DE DOCUMENTS
+					414 heading Documents, Value: 1
+						415 text Documents
+					416 text 3 documents dans l'espace de la section · charte SECTION MÉTA VAL appliquée automatiquement
+					417 image Logo par défaut des documents
+					418 heading LOGO PAR DÉFAUT DES DOCUMENTS, Value: 2
+						419 text LOGO PAR DÉFAUT DES DOCUMENTS
+					420 text Repris dans l'en-tête de tous les documents créés : courriers, tracts, comptes rendus, bulletins. Modifiable document par document dans l'onglet Charte graphique.
+					421 container
+						422 text Remplacer
+						423 button Remplacer
+					424 button Retirer
+					425 heading PARTIR D'UN MODÈLE, Value: 2
+						426 text PARTIR D'UN MODÈLE
+					427 button Tract / affiche Appel à mobilisation, une page, titres larges et revendications chiffrées. A5 · 1 PAGE
+						428 text Tract / affiche
+						429 text Appel à mobilisation, une page, titres larges et revendications chiffrées.
+						430 text A5 · 1 PAGE
+					431 button Courrier à l'employeur Saisine formelle : objet, rappel du cadre légal, demande datée. A4 · 1 PAGE
+						432 text Courrier à l'employeur
+						433 text Saisine formelle : objet, rappel du cadre légal, demande datée.
+						434 text A4 · 1 PAGE
+					435 button Compte rendu de séance Présents, ordre du jour, délibérations et votes en tableau. A4 · 2 PAGES
+						436 text Compte rendu de séance
+						437 text Présents, ordre du jour, délibérations et votes en tableau.
+						438 text A4 · 2 PAGES
+					439 button Note aux adhérents Explication pédagogique d'un accord ou d'un changement de règle. A4 · 1 PAGE
+						440 text Note aux adhérents
+						441 text Explication pédagogique d'un accord ou d'un changement de règle.
+						442 text A4 · 1 PAGE
+					443 button Communiqué NAO État des négociations, comparatif des positions, prochaines étapes. 16:9 · 2 PAGES
+						444 text Communiqué NAO
+						445 text État des négociations, comparatif des positions, prochaines étapes.
+						446 text 16:9 · 2 PAGES
+					447 button Bulletin d'adhésion Formulaire d'adhésion : identité, situation professionnelle, cotisation, mandat SEPA. A4 · 2 PAGES
+						448 text Bulletin d'adhésion
+						449 text Formulaire d'adhésion : identité, situation professionnelle, cotisation, mandat SEPA.
+						450 text A4 · 2 PAGES
+					451 button Rédiger un document avec l'assistant
+						452 text Rédiger avec l'assistant
+						453 text Depuis un dossier, un sondage ou la convention — prompt anonymisé avant envoi.
+						454 text Ouvrir →
+					455 heading MES DOCUMENTS, Value: 2
+						456 text MES DOCUMENTS
+					457 text 3 documents
+					458 button NAO 2027 — où en sont les négociations 16:9 paysage · Communiqué NAO · modifié il y a 20 min BROUILLON
+						459 text NAO 2027 — où en sont les négociations
+						460 text 16:9 paysage · Communiqué NAO · modifié il y a 20 min
+						461 text BROUILLON
+					462 button Supprimer
+					463 button Courrier — enquête paritaire atelier B A4 portrait · Courrier à l'employeur · modifié hier SIGNÉ
+						464 text Courrier — enquête paritaire atelier B
+						465 text A4 portrait · Courrier à l'employeur · modifié hier
+						466 text SIGNÉ
+					467 button Supprimer
+					468 button Compte rendu — séance du 26 août A4 portrait · Compte rendu de séance · modifié il y a 3 jours RELU
+						469 text Compte rendu — séance du 26 août
+						470 text A4 portrait · Compte rendu de séance · modifié il y a 3 jours
+						471 text RELU
+					472 button Supprimer
+				112 container
+					473 button Accueil
+						474 image
+						475 text Accueil
+					221 button Dossiers
+						222 image
+						223 text Dossiers
+					318 button Agenda
+						319 image
+						320 text Agenda
+					410 button Réunions
+						411 image
+						412 text Réunions
+					125 button Réglages
+						126 image
+						127 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

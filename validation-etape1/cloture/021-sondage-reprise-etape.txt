@@ -1,0 +1,102 @@
+Browser tab: 12, Title: "127.0.0.1:5054/uniion App v3.dc.html", URL: "http://127.0.0.1:5054/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 image uniion
+			5 button Réduire le menu
+			159 button Accueil
+				160 image
+				161 text Accueil
+			9 button Assistant
+				10 image
+				11 text Assistant
+			12 button Dossiers
+				13 image
+				14 text Dossiers
+			15 button Messages
+				16 image
+				17 text Messages
+			18 button Agenda
+				19 image
+				20 text Agenda
+			21 button Réunions
+				22 image
+				23 text Réunions
+			24 button Documents
+				25 image
+				26 text Documents
+			27 button Formations
+				28 image
+				29 text Formations
+			30 button Communication
+				31 image
+				32 text Communication
+			33 button Application mobile
+				34 image
+				35 text Application mobile
+			36 button Adhérents
+				37 image
+				38 text Adhérents
+			39 button Intranet
+				40 image
+				41 text Intranet
+			42 button Reporting
+				43 image
+				44 text Reporting
+			45 button Raccourcis
+				46 image
+				47 text Raccourcis
+			48 button Réglages
+				49 image
+				50 text Réglages
+			51 text ASSISTANT IA Une question de droit ?
+			52 button Ouvrir le chat
+			53 button SM Sophie Marchand Déléguée syndicale
+				54 text SM
+				55 text Sophie Marchand
+				56 text Déléguée syndicale
+			57 button Se déconnecter
+		58 container
+			162 button ← Retour
+			59 image
+			60 text field (settable)
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			64 button
+				65 image
+			66 button Se déconnecter
+				67 image
+		68 container
+			163 text CONSULTATION DES SALARIÉS
+			164 heading Nouveau sondage, Value: 1
+				165 text Nouveau sondage
+			166 text Vote anonyme, une seule réponse par salarié. Aucune donnée nominative n'est conservée.
+			167 button ✓ Question & réponses
+				168 text ✓
+				169 text Question & réponses
+			170 button ✓ Cible & clôture
+				171 text ✓
+				172 text Cible & clôture
+			173 button 3 Relecture & diffusion
+				174 text 3
+				175 text Relecture & diffusion
+			176 heading Aperçu côté salarié, Value: 2
+				177 text Aperçu côté salarié
+			178 text Tel qu'il apparaîtra dans l'app et sur l'affichage QR code.
+			179 text VOTE ANONYME
+			180 text RECETTE — préférez-vous une réunion le matin ?
+			181 text Oui Non
+			182 text 416 salariés concernés · clôture dans 7 jours · anonyme
+			183 heading Contrôles de conformité, Value: 2
+				184 text Contrôles de conformité
+			185 text ✓ Question claire et non orientée Formulation neutre, aucune mention nominative. ✓ 2 réponses proposées Une option « autre » permet d'éviter les réponses forcées. ✓ Anonymat garanti Aucun identifiant salarié stocké — conforme à la délibération CNIL sur les consultations syndicales. ✓ Base légale : intérêt légitime Consultation liée au mandat CSE, mention d'information incluse dans l'invitation.
+			186 heading Modération, Value: 2
+				187 text Modération
+			188 text BROUILLON
+			189 text Deux élus doivent valider le sondage avant diffusion (règle de l'organisation).
+			190 text SM Sophie Marchand Autrice JD Jean-Paul Diallo Non sollicité KB Karim Belkacem Non sollicité
+			191 button Envoyer en relecture
+			192 button ← Étape précédente
+			193 button Enregistrer le brouillon
+		158 text Brouillon repris à l'étape 3
+
+The focused UI element is 1 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

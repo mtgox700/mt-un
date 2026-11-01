@@ -1,0 +1,179 @@
+Browser tab: 3, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 image uniion
+			5 button Réduire le menu
+			172 button Accueil
+				173 image
+				174 text Accueil
+			175 button Assistant
+				176 image
+				177 text Assistant
+			184 button Dossiers
+				185 image
+				186 text Dossiers
+			187 button Messages
+				188 image
+				189 text Messages
+			190 button Agenda
+				191 image
+				192 text Agenda
+			21 button Réunions
+				22 image
+				23 text Réunions
+			24 button Documents
+				25 image
+				26 text Documents
+			27 button Formations
+				28 image
+				29 text Formations
+			30 button Communication
+				31 image
+				32 text Communication
+			169 button Application mobile
+				170 image
+				171 text Application mobile
+			36 button Adhérents
+				37 image
+				38 text Adhérents
+			39 button Intranet
+				40 image
+				41 text Intranet
+			42 button Reporting
+				43 image
+				44 text Reporting
+			45 button Raccourcis
+				46 image
+				47 text Raccourcis
+			48 button Réglages
+				49 image
+				50 text Réglages
+			51 text ASSISTANT IA Une question de droit ?
+			52 button Ouvrir le chat
+			53 button SM Sophie Marchand Déléguée syndicale
+				54 text SM
+				55 text Sophie Marchand
+				56 text Déléguée syndicale
+			57 button Se déconnecter
+		58 container
+			165 button ← Retour
+			59 image
+			60 text field (settable)
+			61 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			64 button
+				65 image
+			66 button Se déconnecter
+				67 image
+		183 container
+			193 text PLANIFICATION PARTAGÉE
+			194 heading Agenda, Value: 1
+				195 text Agenda
+			196 text Séances, négociations, permanences et échéances de mandat — visibles de tous les militants. 13 événements — 13 au total .
+			197 button Mois précédent
+			198 text Septembre 2026
+			199 button Mois suivant
+			200 button Aujourd'hui
+			201 tab group Affichage
+				202 tab (selected, settable, boolean) Mois, Value: 1
+				203 tab (selectable, settable, boolean) Liste, Value: 0
+			204 button Nouvel événement
+			205 checkbox Réunion de section, Value: 0
+			206 checkbox Négociation, Value: 0
+			207 checkbox Permanence syndicale, Value: 0
+			208 checkbox Formation, Value: 0
+			209 checkbox Assemblée générale, Value: 0
+			210 checkbox Échéance, Value: 0
+			211 text LUN MAR MER JEU VEN SAM DIM
+			212 button Sélectionner le 2026-08-31
+			213 button Sélectionner le 2026-09-01
+			214 button Sélectionner le 2026-09-02
+			215 button NAO — 3ᵉ séance
+			216 button Assemblée des adhérents
+			217 button Sélectionner le 2026-09-03
+			218 button CSE ordinaire — septembre
+			219 button RECETTE réunion fictive
+			220 button Sélectionner le 2026-09-04
+			221 button Permanence des élus
+			222 button Sélectionner le 2026-09-05
+			223 button Sélectionner le 2026-09-06
+			224 button Sélectionner le 2026-09-07
+			225 button Sélectionner le 2026-09-08
+			226 button Réponse de la direction — enquête Atelier B
+			227 button Sélectionner le 2026-09-09
+			228 button Sélectionner le 2026-09-10
+			229 button Formation SSCT — module 2
+			230 button Sélectionner le 2026-09-11
+			231 button Sélectionner le 2026-09-12
+			232 button Sélectionner le 2026-09-13
+			233 button Sélectionner le 2026-09-14
+			234 button Permanence des élus
+			235 button Sélectionner le 2026-09-15
+			236 button Sélectionner le 2026-09-16
+			237 button Sélectionner le 2026-09-17
+			238 button CSSCT — visite de l'atelier B
+			239 button Sélectionner le 2026-09-18
+			240 button Sélectionner le 2026-09-19
+			241 button Sélectionner le 2026-09-20
+			242 button Sélectionner le 2026-09-21
+			243 button Sélectionner le 2026-09-22
+			244 button NAO — 4ᵉ séance
+			245 button Sélectionner le 2026-09-23
+			246 button Sélectionner le 2026-09-24
+			247 button Dépôt du PV de septembre
+			248 button Sélectionner le 2026-09-25
+			249 button Sélectionner le 2026-09-26
+			250 button Sélectionner le 2026-09-27
+			251 button Sélectionner le 2026-09-28
+			252 button Sélectionner le 2026-09-29
+			253 button Réunion de section — Prouvy
+			254 button Sélectionner le 2026-09-30
+			255 button Sélectionner le 2026-10-01
+			256 button Entrée en vigueur — accord télétravail
+			257 button Sélectionner le 2026-10-02
+			258 button Sélectionner le 2026-10-03
+			259 button Sélectionner le 2026-10-04
+			260 button Sélectionner le 2026-10-05
+			261 button Sélectionner le 2026-10-06
+			262 button Sélectionner le 2026-10-07
+			263 button Sélectionner le 2026-10-08
+			264 button Sélectionner le 2026-10-09
+			265 button Sélectionner le 2026-10-10
+			266 button Sélectionner le 2026-10-11
+			267 container
+				268 heading Jeudi 3 septembre, Value: 2
+					269 text Jeudi 3 septembre
+				270 button + Ajouter
+				271 button RÉUNION DE SECTION CSE ordinaire — septembre 09 h 00 → 12 h 30 · Salle du conseil, siège
+					272 text RÉUNION DE SECTION
+					273 text CSE ordinaire — septembre
+					274 text 09 h 00 → 12 h 30
+					275 text  · 
+					276 text Salle du conseil, siège
+				277 button RÉUNION DE SECTION RECETTE réunion fictive 09 h 00 → 11 h 00 · Salle de test
+					278 text RÉUNION DE SECTION
+					279 text RECETTE réunion fictive
+					280 text 09 h 00 → 11 h 00
+					281 text  · 
+					282 text Salle de test
+			283 container
+				284 heading PROCHAINES ÉCHÉANCES, Value: 2
+					285 text PROCHAINES ÉCHÉANCES
+				286 button NAO — 3ᵉ séance Mercredi 2 septembre · 09 h 00
+					287 text NAO — 3ᵉ séance
+					288 text Mercredi 2 septembre · 09 h 00
+				289 button Assemblée des adhérents Mercredi 2 septembre · 12 h 15
+					290 text Assemblée des adhérents
+					291 text Mercredi 2 septembre · 12 h 15
+				292 button CSE ordinaire — septembre Jeudi 3 septembre · 09 h 00
+					293 text CSE ordinaire — septembre
+					294 text Jeudi 3 septembre · 09 h 00
+				295 button RECETTE réunion fictive Jeudi 3 septembre · 09 h 00
+					296 text RECETTE réunion fictive
+					297 text Jeudi 3 septembre · 09 h 00
+				298 button Permanence des élus Vendredi 4 septembre · 12 h 00
+					299 text Permanence des élus
+					300 text Vendredi 4 septembre · 12 h 00
+				301 text Les rappels sont envoyés aux militants concernés 48 h avant l'échéance, par notification et par courriel.
+
+The focused UI element is 1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

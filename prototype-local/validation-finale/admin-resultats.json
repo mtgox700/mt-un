@@ -1,0 +1,191 @@
+[
+  {
+    "width": 390,
+    "label": "Supervision",
+    "heading": "Supervision",
+    "mainScrollWidth": 640,
+    "mainWidth": 640,
+    "scrollWidth": 908,
+    "viewport": 382
+  },
+  {
+    "width": 390,
+    "label": "Organisations",
+    "heading": "Organisations",
+    "mainScrollWidth": 640,
+    "mainWidth": 640,
+    "scrollWidth": 908,
+    "viewport": 382
+  },
+  {
+    "width": 390,
+    "label": "Utilisateurs",
+    "heading": "Utilisateurs",
+    "mainScrollWidth": 640,
+    "mainWidth": 640,
+    "scrollWidth": 908,
+    "viewport": 382
+  },
+  {
+    "width": 390,
+    "label": "Clés API IA",
+    "heading": "Clés API IA",
+    "mainScrollWidth": 640,
+    "mainWidth": 640,
+    "scrollWidth": 908,
+    "viewport": 382
+  },
+  {
+    "width": 390,
+    "label": "Éditeur de l’application",
+    "heading": "Éditeur de l'application",
+    "mainScrollWidth": 640,
+    "mainWidth": 640,
+    "scrollWidth": 908,
+    "viewport": 382
+  },
+  {
+    "width": 390,
+    "label": "Abonnements et paiements",
+    "heading": "Abonnements et paiements",
+    "mainScrollWidth": 640,
+    "mainWidth": 640,
+    "scrollWidth": 908,
+    "viewport": 382
+  },
+  {
+    "width": 390,
+    "label": "Journal d’audit",
+    "heading": "Journal d'audit",
+    "mainScrollWidth": 640,
+    "mainWidth": 640,
+    "scrollWidth": 908,
+    "viewport": 382
+  },
+  {
+    "width": 768,
+    "label": "Supervision",
+    "heading": "Supervision",
+    "mainScrollWidth": 640,
+    "mainWidth": 640,
+    "scrollWidth": 908,
+    "viewport": 760
+  },
+  {
+    "width": 768,
+    "label": "Organisations",
+    "heading": "Organisations",
+    "mainScrollWidth": 640,
+    "mainWidth": 640,
+    "scrollWidth": 908,
+    "viewport": 760
+  },
+  {
+    "width": 768,
+    "label": "Utilisateurs",
+    "heading": "Utilisateurs",
+    "mainScrollWidth": 640,
+    "mainWidth": 640,
+    "scrollWidth": 908,
+    "viewport": 760
+  },
+  {
+    "width": 768,
+    "label": "Clés API IA",
+    "heading": "Clés API IA",
+    "mainScrollWidth": 640,
+    "mainWidth": 640,
+    "scrollWidth": 908,
+    "viewport": 760
+  },
+  {
+    "width": 768,
+    "label": "Éditeur de l’application",
+    "heading": "Éditeur de l'application",
+    "mainScrollWidth": 640,
+    "mainWidth": 640,
+    "scrollWidth": 908,
+    "viewport": 760
+  },
+  {
+    "width": 768,
+    "label": "Abonnements et paiements",
+    "heading": "Abonnements et paiements",
+    "mainScrollWidth": 640,
+    "mainWidth": 640,
+    "scrollWidth": 908,
+    "viewport": 760
+  },
+  {
+    "width": 768,
+    "label": "Journal d’audit",
+    "heading": "Journal d'audit",
+    "mainScrollWidth": 640,
+    "mainWidth": 640,
+    "scrollWidth": 908,
+    "viewport": 760
+  },
+  {
+    "width": 1024,
+    "label": "Supervision",
+    "heading": "Supervision",
+    "mainScrollWidth": 756,
+    "mainWidth": 756,
+    "scrollWidth": 1024,
+    "viewport": 1024
+  },
+  {
+    "width": 1024,
+    "label": "Organisations",
+    "heading": "Organisations",
+    "mainScrollWidth": 756,
+    "mainWidth": 756,
+    "scrollWidth": 1024,
+    "viewport": 1024
+  },
+  {
+    "width": 1024,
+    "label": "Utilisateurs",
+    "heading": "Utilisateurs",
+    "mainScrollWidth": 748,
+    "mainWidth": 748,
+    "scrollWidth": 1016,
+    "viewport": 1016
+  },
+  {
+    "width": 1024,
+    "label": "Clés API IA",
+    "heading": "Clés API IA",
+    "mainScrollWidth": 756,
+    "mainWidth": 756,
+    "scrollWidth": 1024,
+    "viewport": 1024
+  },
+  {
+    "width": 1024,
+    "label": "Éditeur de l’application",
+    "heading": "Éditeur de l'application",
+    "mainScrollWidth": 748,
+    "mainWidth": 748,
+    "scrollWidth": 1016,
+    "viewport": 1016
+  },
+  {
+    "width": 1024,
+    "label": "Abonnements et paiements",
+    "heading": "Abonnements et paiements",
+    "mainScrollWidth": 748,
+    "mainWidth": 748,
+    "scrollWidth": 1016,
+    "viewport": 1016
+  },
+  {
+    "width": 1024,
+    "label": "Journal d’audit",
+    "heading": "Journal d'audit",
+    "mainScrollWidth": 756,
+    "mainWidth": 756,
+    "scrollWidth": 1024,
+    "viewport": 1024
+  }
+]

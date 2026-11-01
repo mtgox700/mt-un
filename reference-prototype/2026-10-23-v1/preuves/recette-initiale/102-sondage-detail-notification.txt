@@ -1,0 +1,82 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			106 button Accueil
+				107 image
+				108 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			126 button Messages
+				127 image
+				128 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			100 button Réunions
+				101 image
+				102 text Réunions
+			123 button Documents
+				124 image
+				125 text Documents
+			165 button Formations
+				166 image
+				167 text Formations
+			168 button Communication
+				169 image
+				170 text Communication
+			138 button Application mobile
+				139 image
+				140 text Application mobile
+			112 button Adhérents
+				113 image
+				114 text Adhérents
+			132 button Intranet
+				133 image
+				134 text Intranet
+			156 button Reporting
+				157 image
+				158 text Reporting
+			162 button Raccourcis
+				163 image
+				164 text Raccourcis
+			144 button Réglages
+				145 image
+				146 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable) RECETTE
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			171 text RÉSULTATS
+			172 heading Priorités salariales 2027, Value: 1
+				173 text Priorités salariales 2027
+			174 text 312 réponses sur 416 salariés · vote anonyme · clôture demain 18 h
+			175 text Revalorisation générale des salaires 68 % Prime exceptionnelle 17 % Semaine de 4 jours 11 % Autre priorité 4 %
+			176 heading Le mandat est clair, Value: 2
+				177 text Le mandat est clair
+			178 text La revalorisation générale arrive largement en tête. Transformez ce résultat en tract de mobilisation avant la séance NAO du 3 septembre.
+			179 button Générer le tract →
+			180 button Relancer les non-répondants
+			181 text ANONYMAT GARANTI
+			182 text Aucun lien technique n'est conservé entre l'identité du votant et son choix.
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "activeBrand",
+    "code": "activeBrand() {\n    const base = this.state.brandPreview ? this.state.brandDraft : this.state.brand;\n    const site = this.state.site;\n    const ov = base.sites && site && site !== 'Tous les sites' ? base.sites[site] : null;\n    return ov ? Object.assign({}, base, ov) : base;\n  }"
+  },
+  {
+    "name": "patchBrandDraft",
+    "code": "patchBrandDraft(patch) {\n    this.setState((s) => {\n      const scope = s.brandScope;\n      if (scope === 'org') return { brandDraft: Object.assign({}, s.brandDraft, patch) };\n      const sites = Object.assign({}, s.brandDraft.sites);\n      sites[scope] = Object.assign({}, sites[scope] || {}, patch);\n      return { brandDraft: Object.assign({}, s.brandDraft, { sites: sites }) };\n    });\n  }"
+  },
+  {
+    "name": "brandScopeValue",
+    "code": "brandScopeValue(key) {\n    const d = this.state.brandDraft;\n    const scope = this.state.brandScope;\n    if (scope !== 'org' && d.sites && d.sites[scope] && d.sites[scope][key] !== undefined) return d.sites[scope][key];\n    return d[key];\n  }"
+  }
+]

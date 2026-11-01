@@ -1,0 +1,193 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+    - generic: "1"
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: unii suggère
+  - button "1 non lu · Jean-Paul Diallo"
+  - complementary:
+    - heading "Messages" [level=1]
+    - button "Nouvelle discussion":
+    - button "Nouveau groupe" [active]:
+    - button "Nouvelle diffusion aux adhérents":
+    - tablist "Vue":
+      - tab "Discussions" [selected]
+      - tab "Contacts & groupes"
+    - textbox "Rechercher":
+      - /placeholder: Rechercher une discussion ou un message
+    - button "Toutes" [pressed]:
+      - generic: Toutes
+    - button "Non lues 1":
+      - generic: Non lues
+      - generic: "1"
+    - button "Sans réponse de ma part 3":
+      - generic: Sans réponse de ma part
+      - generic: "3"
+    - button "Dernier message de moi 1":
+      - generic: Dernier message de moi
+      - generic: "1"
+    - button "Groupes 3":
+      - generic: Groupes
+      - generic: "3"
+    - button "Diffusions":
+      - generic: Diffusions
+    - 'button "Commission Négociation 09:20 Leïla C. : On maintient l''AG du personnel mardi 12 h 30 ?"':
+      - generic: CN
+      - generic: Commission Négociation
+      - generic: 09:20
+      - generic: "Leïla C. : On maintient l'AG du personnel mardi 12 h 30 ?"
+    - 'button "Commission SSCT hier ✓✓ Vous : Je prépare la grille d''enquête et je la dépose dans la base documentaire."':
+      - generic: SS
+      - generic: Commission SSCT
+      - generic: hier
+      - generic: ✓✓
+      - generic: "Vous : Je prépare la grille d'enquête et je la dépose dans la base documentaire."
+    - 'button "Commission ASC lun. Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts."':
+      - generic: AS
+      - generic: Commission ASC
+      - generic: lun.
+      - generic: "Leïla C. : Troisième devis traiteur reçu : 2 900 € pour 180 couverts."
+    - button "Jean-Paul Diallo lun. Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi. 1":
+      - generic: JD
+      - generic: Jean-Paul Diallo
+      - generic: lun.
+      - generic: Tu peux reprendre le dossier inaptitude ? Je suis en formation jeudi.
+      - generic: "1"
+    - generic: Messagerie locale de démonstration — aucun envoi externe.
+  - heading "Messages de la section" [level=2]
+  - paragraph: Échangez avec les élus en direct ou en groupe, et retrouvez ici chaque envoi fait aux adhérents depuis « Envoyer un message ».
+  - button "Nouvelle discussion"
+  - button "Nouveau groupe"
+  - button "Diffuser aux adhérents"
+  - text: Messagerie locale de démonstration
+- dialog "Nouveau groupe":
+  - heading "Nouveau groupe" [level=2]
+  - generic: Nom du groupe
+  - textbox "Nom du groupe":
+    - /placeholder: Commission Égalité professionnelle
+  - generic: Description
+  - textbox "Description":
+    - /placeholder: Objet du groupe, règles d'échange…
+  - generic: Membres
+  - generic: 0 sélectionné + vous
+  - textbox "Ajouter un élu, un adhérent, un contact…"
+  - button "Jean-Paul Diallo Équipe & élus · Élu titulaire · Délégué syndical":
+    - generic: JD
+    - generic: Jean-Paul Diallo
+    - generic: Équipe & élus · Élu titulaire · Délégué syndical
+  - button "Leïla Chaïb Équipe & élus · Élue · Commission ASC":
+    - generic: LC
+    - generic: Leïla Chaïb
+    - generic: Équipe & élus · Élue · Commission ASC
+  - button "Marc Aubert Équipe & élus · Suppléant · Référent SSCT":
+    - generic: MA
+    - generic: Marc Aubert
+    - generic: Équipe & élus · Suppléant · Référent SSCT
+  - button "Nadia Roussel Équipe & élus · Élue suppléante":
+    - generic: NR
+    - generic: Nadia Roussel
+    - generic: Équipe & élus · Élue suppléante
+  - button "Thomas Lefèvre Équipe & élus · Représentant syndical au CSE":
+    - generic: TL
+    - generic: Thomas Lefèvre
+    - generic: Équipe & élus · Représentant syndical au CSE
+  - button "Cabinet Berger Contact externe · Avocat conseil":
+    - generic: CB
+    - generic: Cabinet Berger
+    - generic: Contact externe · Avocat conseil
+  - button "Karim Benali Adhérent·e · Opérateur ligne 3":
+    - generic: KB
+    - generic: Karim Benali
+    - generic: Adhérent·e · Opérateur ligne 3
+  - button "Sandrine Lemoine Adhérent·e · Préparatrice de commandes":
+    - generic: SL
+    - generic: Sandrine Lemoine
+    - generic: Adhérent·e · Préparatrice de commandes
+  - button "Mehdi Fournier Adhérent·e · Technicien maintenance":
+    - generic: MF
+    - generic: Mehdi Fournier
+    - generic: Adhérent·e · Technicien maintenance
+  - button "Aurélie Pruvost Adhérent·e · Assistante ADV":
+    - generic: AP
+    - generic: Aurélie Pruvost
+    - generic: Adhérent·e · Assistante ADV
+  - button "Thierry Dubois Adhérent·e · Chaudronnier":
+    - generic: TD
+    - generic: Thierry Dubois
+    - generic: Adhérent·e · Chaudronnier
+  - button "Nadia Cherif Adhérent·e · Cariste":
+    - generic: NC
+    - generic: Nadia Cherif
+    - generic: Adhérent·e · Cariste
+  - button "Pascal Vandenberghe Adhérent·e · Régleur presse":
+    - generic: PV
+    - generic: Pascal Vandenberghe
+    - generic: Adhérent·e · Régleur presse
+  - button "Émilie Roussel Adhérent·e · Contrôleuse qualité":
+    - generic: ER
+    - generic: Émilie Roussel
+    - generic: Adhérent·e · Contrôleuse qualité
+  - button "Jonathan Leclercq Adhérent·e · Magasinier":
+    - generic: JL
+    - generic: Jonathan Leclercq
+    - generic: Adhérent·e · Magasinier
+  - button "Christine Delattre Adhérent·e · Gestionnaire paie":
+    - generic: CD
+    - generic: Christine Delattre
+    - generic: Adhérent·e · Gestionnaire paie
+  - button "Bruno Waeles Adhérent·e · Électromécanicien":
+    - generic: BW
+    - generic: Bruno Waeles
+    - generic: Adhérent·e · Électromécanicien
+  - button "Fatou Sarr Adhérent·e · Soudeuse":
+    - generic: FS
+    - generic: Fatou Sarr
+    - generic: Adhérent·e · Soudeuse
+  - button "Annuler"
+  - button "Créer le groupe"

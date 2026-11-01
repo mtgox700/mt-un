@@ -1,0 +1,26 @@
+[
+  {
+    "source": "localStorage uniion.localLlm.v1",
+    "cible": "provider_connections + coffre serveur",
+    "traitement": "Ne jamais exporter/importer clé brute ; configuration non secrète à revalider ; rotation/reprovisionnement décidé à intégration",
+    "preuve": "HTML lignes 11151–11221"
+  },
+  {
+    "source": "IndexedDB uniion-local-files / files / audio:<id>",
+    "cible": "recordings + files + file_versions + stockage privé",
+    "traitement": "Export opt-in blob, hash, taille, MIME, association réunion ; quarantaine puis contrôle, pas appel IA implicite",
+    "preuve": "local-files.js ; appels uniionFiles dans HTML"
+  },
+  {
+    "source": "IndexedDB files / piece:<dossier>:<id>:<version>",
+    "cible": "files + file_versions + stockage privé",
+    "traitement": "Un mapping UUID pour dossier/pièce/version ; versions immuables ; blobs manquants ou orphelins signalés ; jamais rattacher autre organisation",
+    "preuve": "HTML lignes 14332–14340"
+  },
+  {
+    "source": "IndexedDB files / doc:<id>",
+    "cible": "documents/document_versions ou cache local reconstruit",
+    "traitement": "Extrait demo pas copie maître ; garder provenance ; ne pas dupliquer document déjà importé ; manifest offline recréé",
+    "preuve": "HTML lignes 10148–10162"
+  }
+]

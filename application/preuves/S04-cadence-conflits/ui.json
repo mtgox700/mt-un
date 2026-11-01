@@ -1,0 +1,81 @@
+{
+  "unknown": [
+    {
+      "label": "mobile",
+      "unknownVisible": true,
+      "confirmAbsent": true
+    },
+    {
+      "label": "tablette",
+      "unknownVisible": true,
+      "confirmAbsent": true
+    },
+    {
+      "label": "desktop",
+      "unknownVisible": true,
+      "confirmAbsent": true
+    }
+  ],
+  "overlap": [
+    {
+      "label": "mobile",
+      "overlap": true,
+      "confirmAbsent": true
+    },
+    {
+      "label": "tablette",
+      "overlap": true,
+      "confirmAbsent": true
+    },
+    {
+      "label": "desktop",
+      "overlap": true,
+      "confirmAbsent": true
+    }
+  ],
+  "allowed": [
+    {
+      "label": "mobile",
+      "confirmation": true,
+      "annual": true,
+      "scroll": 390,
+      "viewport": 390
+    },
+    {
+      "label": "tablette",
+      "confirmation": true,
+      "annual": true,
+      "scroll": 768,
+      "viewport": 768
+    },
+    {
+      "label": "desktop",
+      "confirmation": true,
+      "annual": true,
+      "scroll": 1440,
+      "viewport": 1440
+    }
+  ],
+  "denied": [
+    {
+      "label": "mobile",
+      "memberVisible": true,
+      "controlAbsent": true,
+      "financialAbsent": true
+    },
+    {
+      "label": "tablette",
+      "memberVisible": true,
+      "controlAbsent": true,
+      "financialAbsent": true
+    },
+    {
+      "label": "desktop",
+      "memberVisible": true,
+      "controlAbsent": true,
+      "financialAbsent": true
+    }
+  ],
+  "desktopConfirmation": true,
+  "existingBalanceUnchanged": true
+}

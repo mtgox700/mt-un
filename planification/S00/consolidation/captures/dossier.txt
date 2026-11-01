@@ -1,0 +1,126 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+    - generic: "2"
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: unii suggère
+  - button "Échéance dans 24 h · Signalement — Service Logistique"
+  - button "Échéance dans 4 h · Accident Atelier B"
+  - generic: Harcèlement
+  - heading "Signalement — Service Logistique" [level=1]
+  - paragraph: Salariée reçue en permanence le 21/08. Faits répétés de dénigrement public par son responsable d'équipe. Demande d'accompagnement CSE et d'enquête paritaire.
+  - button "Modifier le dossier"
+  - button "Supprimer le dossier"
+  - generic: Échéance
+  - generic: 24 h
+  - generic: Statut
+  - generic: À traiter
+  - generic: Référent
+  - generic: Sophie M.
+  - heading "Historique" [level=2]
+  - generic: 21 août · 14 h 10
+  - generic: Permanence CSE
+  - generic: Salariée reçue par Sophie M. — récit des faits consigné.
+  - generic: 22 août · 09 h 30
+  - generic: Assistant juridique consulté
+  - generic: "Cadre légal : art. L1153-5, obligation de prévention."
+  - generic: 23 août · 17 h 45
+  - generic: Pièces ajoutées
+  - generic: 3 captures de messages internes (chiffrées).
+  - textbox "Ajouter une note au dossier…"
+  - button "Ajouter"
+  - heading "Actions" [level=2]
+  - button "Analyser sans identité →"
+  - generic: Niveau RPS
+  - generic: Masquage maximal · pièces jamais transmises
+  - button "Générer un courrier à la direction"
+  - button "Pièces jointes 3":
+    - text: Pièces jointes
+    - generic: "3"
+  - button "Faire avancer le dossier"
+  - generic: Assistant du dossier
+  - generic: Contexte chargé
+  - button "Mode assistant":
+    - text: Mode assistant
+  - generic: Harcèlement
+  - generic: Échéance 24 h
+  - generic: 3 pièces
+  - generic: Niveau RPS
+  - generic: Contexte du dossier chargé
+  - generic: "J'ai lu « Signalement — Service Logistique » : catégorie Harcèlement, échéance 24 h, 3 entrées d'historique. Posez votre question, je réponds sur ce dossier en citant les textes applicables."
+  - button "Quels textes s'appliquent ici ?"
+  - button "Quels délais dois-je respecter ?"
+  - button "Que demander à la direction ?"
+  - button "Résume l'historique en 5 lignes"
+  - textbox "Poser une question sur ce dossier…"
+  - button "Envoyer à l'assistant":
+  - generic: Masquage heuristique avant envoi · traitement via votre compte ChatGPT.
+  - button "En savoir plus sur la sécurité":
+    - text: En savoir plus sur la sécurité
+  - button "Analyse complète →"
+  - heading "Assigner à un élu" [level=2]
+  - paragraph: Seuls les élus formés SSCT apparaissent en gras.
+  - button "SM Sophie Marchand Référent":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Référent
+  - button "JD Jean-Paul Diallo Trésorier":
+    - generic: JD
+    - generic: Jean-Paul Diallo
+    - generic: Trésorier
+  - button "LC Leïla Chaïb Élue titulaire":
+    - generic: LC
+    - generic: Leïla Chaïb
+    - generic: Élue titulaire
+  - button "MA Marc Aubert Suppléant":
+    - generic: MA
+    - generic: Marc Aubert
+    - generic: Suppléant
+  - generic: Cloisonnement
+  - paragraph: "Prototype local : données enregistrées dans ce navigateur. Chiffrement et journal d’accès de production à intégrer."

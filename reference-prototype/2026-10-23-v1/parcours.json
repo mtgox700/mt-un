@@ -1,0 +1,128 @@
+[
+  {
+    "id": "P01",
+    "nom": "Connexion",
+    "sequence": "Connexion → Continuer → code → Accueil",
+    "attendu": "Erreur de code, retour au compte, déconnexion ; SSO reste simulé.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P02",
+    "nom": "Dossier manuel",
+    "sequence": "Dossiers → Nouveau dossier → détail → modification → historique → retour Kanban",
+    "attendu": "Titre, contexte, échéance et statut conservés après rechargement.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P03",
+    "nom": "Assistant",
+    "sequence": "Assistant → question → contrôle de masquage → confirmation → réponse → historique",
+    "attendu": "Niveau RPS préservé ; annuler revient à la saisie ; erreur propose une reprise sans fausse réponse.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P04",
+    "nom": "Dossier guidé",
+    "sequence": "Assistant → Nouveau dossier guidé → réponses → synthèse → création → détail",
+    "attendu": "Conserver ordre des questions, synthèse éditable et reprise du contexte.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P05",
+    "nom": "Messagerie",
+    "sequence": "Messages → fil → message → @unii → réponse dans le fil",
+    "attendu": "Sélection, citations et panneau unii local distinct du global ; réponse attachée au bon fil.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P06",
+    "nom": "Transfert vers dossier",
+    "sequence": "Messages → actions du message → choisir un dossier → détail/historique",
+    "attendu": "Une seule entrée dans le bon dossier ; texte conservé.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P07",
+    "nom": "Document",
+    "sequence": "Documents → modèle → éditeur → contenu/style/charte → aperçu → signature",
+    "attendu": "Document choisi transmis sans substitution ; signature uniquement simulée dans la référence.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P08",
+    "nom": "Agenda",
+    "sequence": "Agenda → événement → ordre du jour → éditeur",
+    "attendu": "Titre, date, lieu et notes de l’événement conservés.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P09",
+    "nom": "Sondage",
+    "sequence": "Sondages → Nouveau → questions → diffusion → relecture → détail",
+    "attendu": "Ordre des trois étapes inchangé ; retours conservent la saisie ; suggestions liées à la question.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P10",
+    "nom": "Réunion",
+    "sequence": "Réunions → détail / dictaphone → consentement → micro → enregistrement → transcription/PV",
+    "attendu": "Tester refus de permission, pause, reprise et erreur. Micro réel reste à valider.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P11",
+    "nom": "Pièces",
+    "sequence": "Dossier → Pièces jointes → aperçu ; lecteur → rattacher → Pièces jointes",
+    "attendu": "Bonne pièce et bon dossier ; distinguer métadonnées et contenu effectivement disponible.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P12",
+    "nom": "Application mobile",
+    "sequence": "Application mobile → modèle → éditeur → relecture → validation FO → publication locale",
+    "attendu": "Conserver les étapes, aperçu et données après rechargement ; aucun push externe dans la référence.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P13",
+    "nom": "Intranet",
+    "sequence": "Intranet → modèle/générateur → éditeur → aperçu → envoi webmaster → suivi",
+    "attendu": "Structure, options et validations inchangées ; publication externe simulée.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P14",
+    "nom": "Communication",
+    "sequence": "Communication → atelier → génération → relecture → plan éditorial",
+    "attendu": "Réponse IA, erreur et nouvelle tentative ; conservation du contenu.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P15",
+    "nom": "Formation",
+    "sequence": "Formations → formation avec unii → plan → modules → quiz → synthèse → attestation",
+    "attendu": "Progression, erreurs et reprise ; PDF local non certifié.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P16",
+    "nom": "Reporting",
+    "sequence": "Reporting → période/vue → export → format → téléchargement → retour",
+    "attendu": "Format réel cohérent ; statistiques de démonstration clairement distinguées.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P17",
+    "nom": "Recherche et navigation",
+    "sequence": "Recherche globale → résultat → document/conversation ; menu → module → retour",
+    "attendu": "Bonne destination, pas de perte de contexte ; variante menu réduit et mobile à comparer.",
+    "statut": "À valider sur la version figée"
+  },
+  {
+    "id": "P18",
+    "nom": "Adhérents et administration",
+    "sequence": "Adhérents → fiche/groupes/import ; Réglages → rubriques ; accès super-admin → sept rubriques",
+    "attendu": "Contrôles sensibles et services réels restent simulés ; ne pas prendre leur apparence pour une autorisation serveur.",
+    "statut": "À valider sur la version figée"
+  }
+]

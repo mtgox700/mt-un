@@ -1,0 +1,26 @@
+✔ only fixture id leaves browser (1.845458ms)
+✔ cancel discards late success (0.910584ms)
+✔ logout discards late failure (0.144083ms)
+✔ navigation discards late success (0.120791ms)
+✔ failure never retries (0.12675ms)
+✔ legacy free text closed (0.183833ms)
+✔ configuration uses server versions (0.164833ms)
+✔ late policy ignored after logout (0.086208ms)
+✔ logout during policy reload after save cannot restore a message (2.562334ms)
+✔ context generation sends references only and rechecks before display (0.338459ms)
+✔ context preview never calls provider (0.116667ms)
+✔ revocation or unavailable recheck removes entire displayed context (0.149ms)
+✔ failed final recheck never displays result (0.084417ms)
+✔ empty catalog never invokes provider (0.06625ms)
+✔ late contextual response discarded on logout (0.729333ms)
+✔ durable accounting displays unknown cost and server quota (0.158458ms)
+✔ late accounting cannot cross logout (0.064458ms)
+✔ unavailable accounting is never displayed as zero (0.060167ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 69.132208

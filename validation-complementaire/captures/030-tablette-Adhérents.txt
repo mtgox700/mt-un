@@ -1,0 +1,136 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		808 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				557 container
+					1190 text ADHÉSION ET COTISATIONS
+					1191 heading Adhérents, Value: 1
+						1192 text Adhérents
+					1193 text 12 adhérents suivis sur 3 entreprises · 3 cotisations en retard · 2 adhésions à finaliser 12 adhérents actifs 58 % à jour de cotisation 3 retards à relancer 5 listes de diffusion
+					1194 tab group Vues du module adhérents
+						1195 tab (selected, settable, boolean) Adhérents, Value: 1
+						1196 tab (selectable, settable, boolean) Listes de diffusion, Value: 0
+						1197 tab (selectable, settable, boolean) Cotisations, Value: 0
+					1198 text FILTRER LES ADHÉRENTS
+					1199 text field (settable) Rechercher un adhérent
+					1200 container
+						1201 text ENTREPRISE
+						1202 pop up button (collapsed, settable) ENTREPRISE, Value: Toutes, Secondary Actions: Expand
+							1203 menu
+								1204 (selected) Toutes
+								1205 Métallurgie Valenciennes SA
+								1206 Valmétal Logistique
+								1207 VMV Services
+					1208 container
+						1209 text ÉTABLISSEMENT
+						1210 pop up button (collapsed, settable) ÉTABLISSEMENT, Value: Tous, Secondary Actions: Expand
+							1211 menu
+								1212 (selected) Tous
+								1213 Site de Valenciennes
+								1214 Site de Denain
+								1215 Plateforme de Prouvy
+								1216 Siège de Lille
+					1217 container
+						1218 text SECTION
+						1219 pop up button (collapsed, settable) SECTION, Value: Toutes, Secondary Actions: Expand
+							1220 menu
+								1221 (selected) Toutes
+								1222 Section Atelier
+								1223 Section Logistique
+								1224 Section Tertiaire
+								1225 Section Maintenance
+					1226 container
+						1227 text DIRECTION
+						1228 pop up button (collapsed, settable) DIRECTION, Value: Toutes, Secondary Actions: Expand
+							1229 menu
+								1230 (selected) Toutes
+								1231 Production
+								1232 Supply Chain
+								1233 Fonctions support
+								1234 Technique
+					1235 container
+						1236 text COTISATION
+						1237 pop up button (collapsed, settable) COTISATION, Value: Toutes, Secondary Actions: Expand
+							1238 menu
+								1239 (selected) Toutes
+								1240 À jour
+								1241 En retard
+								1242 Adhésion en cours
+					1243 text field (settable) Nom de la nouvelle liste de diffusion
+					1244 button Créer une liste depuis ces critères
+					1245 text 12 adhérents sur 12
+					1246 button Tout sélectionner
+					1247 button Envoyer un message
+					1248 checkbox Description: Sélectionner Karim Benali, Value: 0
+					1249 button Karim Benali DÉLÉGUÉ DE SECTION Site de Valenciennes · Section Atelier
+						1250 text Karim Benali
+						1251 text DÉLÉGUÉ DE SECTION
+						1252 text Site de Valenciennes · Section Atelier
+					1253 text 14,20 €/mois · Prélèvement SEPA À JOUR
+					1254 button Ouvrir la fiche de Karim Benali
+					1255 checkbox Description: Sélectionner Sandrine Lemoine, Value: 0
+					1256 button Sandrine Lemoine Plateforme de Prouvy · Section Logistique
+						1257 text Sandrine Lemoine
+						1258 text Plateforme de Prouvy · Section Logistique
+					1259 text 11,80 €/mois · Chèque EN RETARD
+					1260 button Ouvrir la fiche de Sandrine Lemoine
+					1261 checkbox Description: Sélectionner Mehdi Fournier, Value: 0
+					1262 button Mehdi Fournier ÉLU SUPPLÉANT CSE Site de Denain · Section Maintenance
+						1263 text Mehdi Fournier
+						1264 text ÉLU SUPPLÉANT CSE
+						1265 text Site de Denain · Section Maintenance
+					1266 text 16,50 €/mois · Prélèvement SEPA À JOUR
+					1267 button Ouvrir la fiche de Mehdi Fournier
+					1268 checkbox Description: Sélectionner Aurélie Pruvost, Value: 0
+					1269 button Aurélie Pruvost Siège de Lille · Section Tertiaire
+						1270 text Aurélie Pruvost
+						1271 text Siège de Lille · Section Tertiaire
+					1272 text 12,40 €/mois · Prélèvement SEPA ADHÉSION EN COURS
+					1273 button Ouvrir la fiche de Aurélie Pruvost
+					1274 checkbox Description: Sélectionner Thierry Dubois, Value: 0
+					1275 button Thierry Dubois Site de Valenciennes · Section Atelier
+						1276 text Thierry Dubois
+						1277 text Site de Valenciennes · Section Atelier
+					1278 text 168 €/an · Virement annuel À JOUR
+					1279 button Ouvrir la fiche de Thierry Dubois
+					1280 text 1–5 sur 12
+					1281 button (disabled) Page précédente
+					1282 button Page suivante
+					1283 text L'appartenance syndicale est une donnée sensible : le fichier reste chiffré sur l'appareil, n'est jamais transmis à l'employeur et les exports sont journalisés.
+					1284 button Importer un fichier CSV
+					1285 button Nouveau bulletin d'adhésion
+				112 container
+					1286 button Accueil
+						1287 image
+						1288 text Accueil
+					998 button Dossiers
+						999 image
+						1000 text Dossiers
+					1095 button Agenda
+						1096 image
+						1097 text Agenda
+					1187 button Réunions
+						1188 image
+						1189 text Réunions
+					903 button Réglages
+						904 image
+						905 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

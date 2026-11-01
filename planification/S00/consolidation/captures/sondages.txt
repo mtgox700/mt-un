@@ -1,0 +1,72 @@
+- complementary:
+  - img "uniion"
+  - button "Réduire le menu":
+  - navigation:
+    - button "Accueil":
+      - generic: Accueil
+    - button "Assistant":
+      - generic: Assistant
+    - button "Dossiers":
+      - generic: Dossiers
+    - button "Messages":
+      - generic: Messages
+    - button "Agenda":
+      - generic: Agenda
+    - button "Réunions":
+      - generic: Réunions
+    - button "Documents":
+      - generic: Documents
+    - button "Formations":
+      - generic: Formations
+    - button "Communication":
+      - generic: Communication
+    - button "Application mobile":
+      - generic: Application mobile
+    - button "Adhérents":
+      - generic: Adhérents
+    - button "Intranet":
+      - generic: Intranet
+    - button "Reporting":
+      - generic: Reporting
+    - button "Raccourcis":
+      - generic: Raccourcis
+    - button "Réglages":
+      - generic: Réglages
+  - generic: Assistant IA
+  - generic: Une question de droit ?
+  - button "Ouvrir le chat"
+  - button "SM Sophie Marchand Déléguée syndicale":
+    - generic: SM
+    - generic: Sophie Marchand
+    - generic: Déléguée syndicale
+  - button "Se déconnecter":
+- banner:
+  - button "Retour": ← Retour
+  - textbox "Rechercher un dossier, un document, une réponse IA…": NAO
+  - button "Demander à unii":
+    - generic: unii
+  - button "Notifications":
+  - button "Se déconnecter":
+- main:
+  - text: Démocratie sociale
+  - heading "Sondages salariés" [level=1]
+  - paragraph: Votes anonymes · 416 salariés inscrits
+  - button "+ Lancer un sondage"
+  - button "En cours Priorités salariales 2027 312 réponses sur 416 salariés · vote anonyme · clôture demain 18 h 75 % de participation":
+    - generic: En cours
+    - generic: Priorités salariales 2027
+    - generic: 312 réponses sur 416 salariés · vote anonyme · clôture demain 18 h
+    - generic: 75 % de participation
+  - button "Supprimer"
+  - button "En cours Accord télétravail — 2 ou 3 jours ? 224 réponses sur 416 salariés · clôture vendredi 54 % de participation":
+    - generic: En cours
+    - generic: Accord télétravail — 2 ou 3 jours ?
+    - generic: 224 réponses sur 416 salariés · clôture vendredi
+    - generic: 54 % de participation
+  - button "Supprimer"
+  - button "Clos Qualité de la restauration collective 366 réponses · clos le 12 août 88 % de participation":
+    - generic: Clos
+    - generic: Qualité de la restauration collective
+    - generic: 366 réponses · clos le 12 août
+    - generic: 88 % de participation
+  - button "Supprimer"

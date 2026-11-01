@@ -1,0 +1,20 @@
+{
+  "decision": "D03",
+  "statut": "Validée par l’utilisateur",
+  "choix": "Séparation super admin, administrateur organisation, responsable des habilitations et utilisateur métier ; cumul explicite et audité ; aucune auto-escalade ; permission spécifique de partage inter-organisations.",
+  "responsabilites": {
+    "super_admin": "Gestion globale et désignation initiale des administrateurs et responsables des habilitations ; aucun accès métier implicite",
+    "administrateur_organisation": "Comptes, invitations et configuration locale ; aucun accès privé implicite",
+    "responsable_habilitations": "Permissions métier et accès sensibles dans son périmètre ; partage externe soumis à permission spécifique",
+    "utilisateur_metier": "Accès aux seules ressources habilitées ; création sans droit automatique de partage externe"
+  },
+  "regles": [
+    "Cumul explicite et journalisé",
+    "Aucune auto-attribution de privilèges ; délégation bornée par autorité du délégant",
+    "Permissions sensibles séparées : export adhérents, téléchargement, partage externe et gestion habilitations",
+    "Bénéficiaires du partage reçu approuvés par responsable local habilité dans les limites de la source",
+    "Révocation appliquée aux fichiers, recherche, IA et tâches différées",
+    "Super admin désigne premier administrateur et premier responsable habilitations, éventuellement même personne ; délégations suivantes locales"
+  ],
+  "implementation": "Spécification validée ; contrôles et tests de production à implémenter"
+}

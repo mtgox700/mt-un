@@ -1,0 +1,162 @@
+{
+  "passed": true,
+  "count": 39,
+  "checks": [
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "event_created",
+      "ok": true
+    },
+    {
+      "test": "document_created",
+      "ok": true
+    },
+    {
+      "test": "upload_clean",
+      "ok": true
+    },
+    {
+      "test": "select",
+      "ok": true
+    },
+    {
+      "test": "review",
+      "ok": true
+    },
+    {
+      "test": "publish",
+      "ok": true
+    },
+    {
+      "test": "delivery",
+      "ok": true
+    },
+    {
+      "test": "create",
+      "ok": true
+    },
+    {
+      "test": "reader_denied",
+      "ok": true
+    },
+    {
+      "test": "free_file_classified",
+      "ok": true
+    },
+    {
+      "test": "bytes_exact",
+      "ok": true
+    },
+    {
+      "test": "preview_allowed",
+      "ok": true
+    },
+    {
+      "test": "source_revoked_hidden",
+      "ok": true
+    },
+    {
+      "test": "source_revoked_download",
+      "ok": true
+    },
+    {
+      "test": "quarantined_hidden",
+      "ok": true
+    },
+    {
+      "test": "quarantined_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "source_case",
+      "ok": true
+    },
+    {
+      "test": "source_upload",
+      "ok": true
+    },
+    {
+      "test": "source_selected",
+      "ok": true
+    },
+    {
+      "test": "review_new_version",
+      "ok": true
+    },
+    {
+      "test": "publish_new_version",
+      "ok": true
+    },
+    {
+      "test": "source_delivery",
+      "ok": true
+    },
+    {
+      "test": "classify_source_file",
+      "ok": true
+    },
+    {
+      "test": "source_read_allowed",
+      "ok": true
+    },
+    {
+      "test": "trash_requested",
+      "ok": true
+    },
+    {
+      "test": "pending_still_readable",
+      "ok": true
+    },
+    {
+      "test": "reader_cannot_approve",
+      "ok": true
+    },
+    {
+      "test": "superadmin_approve",
+      "ok": true
+    },
+    {
+      "test": "trashed_link_hidden",
+      "ok": true
+    },
+    {
+      "test": "trashed_link_download_denied",
+      "ok": true
+    },
+    {
+      "test": "trashed_link_preview_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_cannot_restore",
+      "ok": true
+    },
+    {
+      "test": "restore_by_writer",
+      "ok": true
+    },
+    {
+      "test": "restoration_keeps_revocation",
+      "ok": true
+    },
+    {
+      "test": "writer_restored_exact",
+      "ok": true
+    },
+    {
+      "test": "reader_restored_exact",
+      "ok": true
+    }
+  ]
+}

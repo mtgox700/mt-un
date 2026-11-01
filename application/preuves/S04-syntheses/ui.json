@@ -1,0 +1,44 @@
+{
+  "authorized": [
+    {
+      "label": "mobile",
+      "authorized": true,
+      "scroll": 390,
+      "viewport": 390
+    },
+    {
+      "label": "tablette",
+      "authorized": true,
+      "scroll": 768,
+      "viewport": 768
+    },
+    {
+      "label": "desktop",
+      "authorized": true,
+      "scroll": 1440,
+      "viewport": 1440
+    }
+  ],
+  "denied": [
+    {
+      "label": "mobile",
+      "noFinancialTab": true,
+      "noSummary": true,
+      "memberVisible": true
+    },
+    {
+      "label": "tablette",
+      "noFinancialTab": true,
+      "noSummary": true,
+      "memberVisible": true
+    },
+    {
+      "label": "desktop",
+      "noFinancialTab": true,
+      "noSummary": true,
+      "memberVisible": true
+    }
+  ],
+  "overdueOpensMember": true,
+  "paymentDraftOpened": true
+}

@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "count": 13,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "recipient_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "no_automatic_read_on_org_return",
+      "ok": true
+    },
+    {
+      "test": "no_automatic_send_on_org_return",
+      "ok": true
+    },
+    {
+      "test": "no_automatic_list_on_org_return",
+      "ok": true
+    },
+    {
+      "test": "explicit_direct_reinvite",
+      "ok": true
+    },
+    {
+      "test": "no_direct_history_restored",
+      "ok": true
+    },
+    {
+      "test": "direct_renewal_idempotent",
+      "ok": true
+    },
+    {
+      "test": "direct_old_reply_denied",
+      "ok": true
+    },
+    {
+      "test": "new_direct_message_visible",
+      "ok": true
+    },
+    {
+      "test": "renewal_audited",
+      "ok": true
+    }
+  ]
+}

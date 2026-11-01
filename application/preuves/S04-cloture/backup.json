@@ -1,0 +1,13 @@
+{
+  "backup": "20261029T081525Z",
+  "seconds": 12.53,
+  "tables": 65,
+  "rows": 7800,
+  "users": 9,
+  "verified_totp_factors": 4,
+  "objects": 174,
+  "object_bytes": 823890,
+  "encrypted_bytes": 1037555,
+  "retention_target_days": 30,
+  "automatic_deletion": false
+}

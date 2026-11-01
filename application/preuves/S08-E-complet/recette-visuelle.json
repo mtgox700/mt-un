@@ -1,0 +1,60 @@
+{
+  "environment": "Local fictif, Codex réel",
+  "sizes": [
+    [
+      1440,
+      1000
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "scenarios": [
+    {
+      "scenario": "conversation libre et création dossier privé",
+      "passed": true
+    },
+    {
+      "scenario": "cours 15 minutes puis exercice et retour",
+      "passed": true
+    },
+    {
+      "scenario": "communication vers plan persistant",
+      "passed": true
+    },
+    {
+      "scenario": "auto-validation refusée",
+      "passed": true
+    },
+    {
+      "scenario": "second acteur relecture et publication locale",
+      "passed": true
+    },
+    {
+      "scenario": "publication persistée après redémarrage, sans doublon",
+      "passed": true
+    },
+    {
+      "scenario": "révocation publication",
+      "passed": true
+    },
+    {
+      "scenario": "modèle Contacts des élus créé en base",
+      "passed": true
+    },
+    {
+      "scenario": "déconnexion sans écran vide",
+      "passed": true
+    }
+  ],
+  "notes": [
+    "formation-tablette.png transitoire ; communication-tablette-stable.png utilisée pour le rendu tablette",
+    "mobile-contacts-creation.png précède la correction des libellés et métadonnées ; capture finale séparée",
+    "Pas de recette navigateur individuelle de chacune des 44 générations."
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "count": 38,
+  "checks": [
+    {
+      "test": "login_a",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "event_created",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_cannot_create",
+      "ok": true
+    },
+    {
+      "test": "document_created",
+      "ok": true
+    },
+    {
+      "test": "prototype_document_sections",
+      "ok": true
+    },
+    {
+      "test": "reader_read_only",
+      "ok": true
+    },
+    {
+      "test": "same_document_reopened",
+      "ok": true
+    },
+    {
+      "test": "document_saved",
+      "ok": true
+    },
+    {
+      "test": "reader_cannot_write",
+      "ok": true
+    },
+    {
+      "test": "stale_document_denied",
+      "ok": true
+    },
+    {
+      "test": "publication_status_injection_denied",
+      "ok": true
+    },
+    {
+      "test": "direct_unscanned_logo_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_logo_write_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_logo_write_denied",
+      "ok": true
+    },
+    {
+      "test": "remote_logo_denied",
+      "ok": true
+    },
+    {
+      "test": "fake_png_denied",
+      "ok": true
+    },
+    {
+      "test": "malformed_png_denied",
+      "ok": true
+    },
+    {
+      "test": "scanned_logo_and_style_saved",
+      "ok": true
+    },
+    {
+      "test": "logo_style_reloaded",
+      "ok": true
+    },
+    {
+      "test": "unlisted_style_denied",
+      "ok": true
+    },
+    {
+      "test": "invalid_palette_denied",
+      "ok": true
+    },
+    {
+      "test": "unknown_options_denied",
+      "ok": true
+    },
+    {
+      "test": "reader_export_denied",
+      "ok": true
+    },
+    {
+      "test": "extension_pdf_export",
+      "ok": true
+    },
+    {
+      "test": "pdf_content",
+      "ok": true
+    },
+    {
+      "test": "pdf_logo",
+      "ok": true
+    },
+    {
+      "test": "stale_export_denied",
+      "ok": true
+    },
+    {
+      "test": "revoked_logo_read_denied",
+      "ok": true
+    },
+    {
+      "test": "real_antivirus_eicar_blocked",
+      "ok": true
+    },
+    {
+      "test": "user_cannot_forge_scan_receipt",
+      "ok": true
+    },
+    {
+      "test": "second_event_created",
+      "ok": true
+    },
+    {
+      "test": "receipt_cannot_cross_events",
+      "ok": true
+    },
+    {
+      "test": "external_photo_url_denied",
+      "ok": true
+    },
+    {
+      "test": "classic_custom_logo_embedded",
+      "ok": true
+    }
+  ]
+}

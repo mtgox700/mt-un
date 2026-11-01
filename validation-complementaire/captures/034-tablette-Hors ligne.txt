@@ -1,0 +1,81 @@
+Browser tab: 6, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		808 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 image uniion
+					128 button ← Retour
+					12 image
+					13 text field (settable)
+					14 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+					17 button
+						18 image
+					19 button Se déconnecter
+						20 image
+				557 container
+					1190 image
+					1191 heading Mode hors ligne, Value: 1
+						1192 text Mode hors ligne
+					1193 text En visite d'usine, en sous-sol ou en déplacement : votre base documentaire reste accessible et chiffrée sur l'appareil.
+					1194 text Synchronisation intelligente
+					1195 button
+					1196 text Dernière synchronisation : il y a 12 min · 3 documents en cache
+					1197 button Tout synchroniser maintenant
+					1198 heading Base documentaire, Value: 2
+						1199 text Base documentaire
+					1200 text 3 documents sur 5 disponibles hors ligne (chiffrés sur l'appareil)
+					1201 image
+					1202 button Convention collective Métallurgie 2026 PDF · 4,2 Mo · v2026.1 · ouvrir
+						1203 text Convention collective Métallurgie 2026
+						1204 text PDF · 4,2 Mo · v2026.1
+						1205 text  · ouvrir
+					1206 button Hors ligne
+					1207 image
+					1208 button Code du travail — extraits CSE PDF · 8,7 Mo · ouvrir
+						1209 text Code du travail — extraits CSE
+						1210 text PDF · 8,7 Mo
+						1211 text  · ouvrir
+					1212 button Hors ligne
+					1213 image
+					1214 button Accord télétravail 2024 PDF · 1,1 Mo · ouvrir
+						1215 text Accord télétravail 2024
+						1216 text PDF · 1,1 Mo
+						1217 text  · ouvrir
+					1218 button Hors ligne
+					1219 image
+					1220 button PV réunion CSE — juillet 2026 PDF · 640 Ko · ouvrir
+						1221 text PV réunion CSE — juillet 2026
+						1222 text PDF · 640 Ko
+						1223 text  · ouvrir
+					1224 button Télécharger
+					1225 image
+					1226 button Règlement intérieur du CSE PDF · 320 Ko · ouvrir
+						1227 text Règlement intérieur du CSE
+						1228 text PDF · 320 Ko
+						1229 text  · ouvrir
+					1230 button Télécharger
+				112 container
+					1231 button Accueil
+						1232 image
+						1233 text Accueil
+					998 button Dossiers
+						999 image
+						1000 text Dossiers
+					1095 button Agenda
+						1096 image
+						1097 text Agenda
+					1187 button Réunions
+						1188 image
+						1189 text Réunions
+					1234 button Réglages
+						1235 image
+						1236 text Réglages
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

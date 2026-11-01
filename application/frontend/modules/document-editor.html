@@ -1,0 +1,376 @@
+<!-- ESPACE DOCUMENTS — EDITEUR -->
+      <sc-if value="{{ isDocEdit }}" hint-placeholder-val="{{ false }}">
+        <div style="animation: fadeUp .45s ease-out;">
+          <div data-print-hide="1" style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 18px;">
+            <div style="display: flex; align-items: center; gap: 12px; min-width: 240px; flex: 1;">
+              <button onClick="{{ backToDocs }}" aria-label="Revenir à la liste des documents" style="width: 36px; height: 36px; flex: 0 0 auto; cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 12px; display: flex; align-items: center; justify-content: center;" style-hover="border-color: var(--acMid);">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--ink4)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg>
+              </button>
+              <label style="flex: 1; min-width: 0; display: block;">
+                <span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0);">Titre du document</span>
+                <input value="{{ docTitle }}" onChange="{{ onDocTitle }}" style="width: 100%; font-family:var(--fTitle); font-size: 25px; color: var(--ink); border: none; border-bottom: 1px solid transparent; background: transparent; padding: 3px 0; outline: none;" style-focus="border-bottom-color: var(--acMid);" />
+              </label>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 9px;">
+              <button onClick="{{ docPrint }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 11px 20px; background: linear-gradient(to right, var(--ac), var(--ac2)); color: #FFFFFF; font-size: 13px; font-weight: 700;">Imprimer / PDF</button>
+              <button onClick="{{ docSign }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 11px 18px; font-size: 13px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Faire signer</button>
+              <sc-if value="{{ documentHistory }}"><button onClick="{{ documentHistory }}" style="cursor:pointer;border:1px solid var(--bd2);background:var(--surface);border-radius:99px;padding:11px 18px;color:var(--ink3);">Versions publiées</button></sc-if>
+              <button onClick="{{ docDiffuse }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 11px 18px; font-size: 13px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Diffuser</button>
+            </div>
+          </div>
+
+          <div class="mobile-control" role="group" aria-label="Vue du document"><button class="mobile-control" onClick="{{ mobileDocEdit }}" aria-pressed="{{ mobileDocEditing }}">Éditer</button><button class="mobile-control" onClick="{{ mobileDocPreview }}" aria-pressed="{{ mobilePreview }}">Aperçu</button></div><div class="doc-layout" data-preview="{{ mobilePreview }}" style="display: grid; grid-template-columns: {{ docCols }}; gap: 18px; align-items: start;">
+            <section data-print-hide="1" style="background: var(--surface); border: 1px solid var(--bd); border-radius: 22px; padding: 18px; min-width: 0;">
+              <sc-if value="{{ agendaFiles.visible }}"><section style="border:1px solid var(--bd);border-radius:16px;padding:14px;margin:14px 0;min-width:0;">
+<h2 style="font-size:13.5px;margin:0 0 8px;">Pièces jointes de la convocation</h2><p style="font-size:12px;color:var(--ink5);">{{ agendaFiles.hint }}</p><p style="font-size:12px;">{{ agendaFiles.version }}</p>
+<label style="display:flex;flex-direction:column;gap:6px;font-size:12px;">Dossier source<select value="{{ agendaFiles.resource }}" onChange="{{ agendaFiles.onResource }}" style="max-width:100%;padding:10px;border:1px solid var(--bd2);border-radius:12px;background:var(--surf2);"><sc-for list="{{ agendaFiles.resources }}" as="r"><option value="{{ r.id }}">{{ r.name }}</option></sc-for></select></label>
+<label style="display:block;font-size:12px;margin:12px 0;">Ajouter un fichier<input type="file" accept=".pdf,.png,.jpg,.jpeg,.txt,.docx,.xlsx" onChange="{{ agendaFiles.upload }}" disabled="{{ agendaFiles.busy }}" style="display:block;max-width:100%;margin-top:6px;" /></label>
+<sc-for list="{{ agendaFiles.files }}" as="f"><div style="display:flex;align-items:center;gap:8px;margin:8px 0;min-width:0;"><label style="display:flex;align-items:center;gap:8px;flex:1;min-width:0;font-size:12px;overflow-wrap:anywhere;"><input type="checkbox" checked="{{ f.selected }}" onChange="{{ f.toggle }}" disabled="{{ agendaFiles.busy }}" />{{ f.filename }}</label><button onClick="{{ f.download }}" style="border:1px solid var(--bd2);border-radius:99px;padding:7px 10px;background:var(--surface);font-size:12px;">Télécharger</button></div></sc-for>
+</section></sc-if>
+<div role="tablist" aria-label="Panneaux de l'éditeur" style="display: flex; gap: 4px; background: var(--surf2); border-radius: 14px; padding: 4px; margin-bottom: 16px;">
+                <sc-for list="{{ docTabs }}" as="t" hint-placeholder-count="2">
+                  <button onClick="{{ t.go }}" role="tab" aria-selected="{{ t.on }}" style="flex: 1; cursor: pointer; border: none; border-radius: 11px; padding: 9px 12px; font-size: 12.5px; font-weight: 700; background: {{ t.bg }}; color: {{ t.fg }}; box-shadow: {{ t.sh }};">{{ t.label }}</button>
+                </sc-for>
+              </div>
+
+              <!-- Panneau contenu -->
+              <sc-if value="{{ docTabContent }}" hint-placeholder-val="{{ true }}">
+                <div>
+                  <sc-if value="{{ dsx.hasMissing }}" hint-placeholder-val="{{ false }}">
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; background: var(--acBg); border: 1px solid var(--acBd); border-radius: 14px; padding: 10px 12px; margin-bottom: 12px;">
+                      <span style="flex: 1 1 200px; font-size: 12px; color: var(--acTx); line-height: 1.45;">{{ dsx.missingLabel }}</span>
+                      <button onClick="{{ dsx.goSlots }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 7px 13px; background: var(--ac); color: #FFFFFF; font-size: 11.5px; font-weight: 700;">Ajouter les images</button>
+                    </div>
+                  </sc-if>
+                  <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                    <span style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5);">Contenu</span>
+                    <div style="display: flex; gap: 4px; background: var(--surf2); border-radius: 99px; padding: 3px;">
+                      <sc-for list="{{ docModes }}" as="md" hint-placeholder-count="2">
+                        <button onClick="{{ md.go }}" aria-pressed="{{ md.on }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 6px 13px; font-size: 11.5px; font-weight: 700; background: {{ md.bg }}; color: {{ md.fg }};">{{ md.label }}</button>
+                      </sc-for>
+                    </div>
+                  </div>
+
+                  <sc-if value="{{ docModeBlocks }}" hint-placeholder-val="{{ true }}">
+                    <div>
+                      <button class="mobile-control" onClick="{{ toggleMobileTools }}" aria-expanded="{{ mobileTools }}">Ajouter un bloc</button><div class="mobile-collapse" data-open="{{ mobileTools }}" style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px;">
+                        <sc-for list="{{ blockInserts }}" as="bi" hint-placeholder-count="8">
+                          <button onClick="{{ bi.add }}" aria-label="{{ bi.aria }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 10px; padding: 7px 11px; font-size: 11.5px; font-weight: 600; color: var(--ink3); display: flex; align-items: center; gap: 6px;" style-hover="border-color: var(--acMid); color: var(--acTx);">
+                            <span aria-hidden="true" style="font-size: 12px; color: var(--acTx); font-weight: 800;">+</span>{{ bi.label }}
+                          </button>
+                        </sc-for>
+                      </div>
+
+                      <div style="display: flex; flex-direction: column; gap: 10px;">
+                        <sc-for list="{{ docBlocks }}" as="b" hint-placeholder-count="5">
+                          <div style="border: 1px solid {{ b.border }}; background: {{ b.bg }}; border-radius: 16px; padding: 11px 12px;">
+                            <div style="display: flex; gap: 8px; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+                              <span style="font-size: 10px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: {{ b.labelFg }};">{{ b.typeLabel }}</span>
+                              <span style="display: flex; gap: 3px;">
+                                <button onClick="{{ b.up }}" aria-label="Déplacer ce bloc vers le haut" style="width: 26px; height: 26px; cursor: pointer; border: none; background: transparent; border-radius: 8px; color: var(--ink5); font-size: 13px;" style-hover="background: var(--chip); color: var(--ink);">↑</button>
+                                <button onClick="{{ b.down }}" aria-label="Déplacer ce bloc vers le bas" style="width: 26px; height: 26px; cursor: pointer; border: none; background: transparent; border-radius: 8px; color: var(--ink5); font-size: 13px;" style-hover="background: var(--chip); color: var(--ink);">↓</button>
+                                <button onClick="{{ b.del }}" aria-label="Supprimer ce bloc" style="width: 26px; height: 26px; cursor: pointer; border: none; background: transparent; border-radius: 8px; color: var(--ink6); font-size: 13px;" style-hover="background: var(--dangerBg); color: var(--danger);">✕</button>
+                              </span>
+                            </div>
+                            <sc-if value="{{ b.editable }}" hint-placeholder-val="{{ true }}">
+                              <textarea value="{{ b.text }}" onChange="{{ b.onText }}" placeholder="{{ b.ph }}" aria-label="{{ b.aria }}" rows="{{ b.rows }}" style="width: 100%; resize: vertical; background: var(--surface); border: 1px solid var(--bd2); border-radius: 11px; padding: 9px 11px; font-size: 13px; line-height: 1.55; color: var(--ink); outline: none;" style-focus="border-color: var(--ac);"></textarea>
+                            </sc-if>
+                            <sc-if value="{{ b.canImg }}" hint-placeholder-val="{{ false }}">
+                              <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 8px;">
+                                <sc-if value="{{ b.hasImg }}" hint-placeholder-val="{{ false }}"><span role="img" aria-label="Image du bloc" style="width: 58px; height: 42px; border-radius: 8px; background: {{ b.imgBg }}; border: 1px solid var(--bd2);"></span></sc-if>
+                                <label style="position: relative; cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 7px 13px; font-size: 11.5px; font-weight: 600; color: var(--ink3);">{{ b.imgLabel }}<input type="file" accept="image/*" onChange="{{ b.onImg }}" style="position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%;"></input></label>
+                                <sc-if value="{{ b.hasImg }}" hint-placeholder-val="{{ false }}"><button onClick="{{ b.delImg }}" style="cursor: pointer; border: none; background: transparent; color: var(--ink5); font-size: 11.5px; font-weight: 700;">Retirer l'image</button></sc-if>
+                              </div>
+                            </sc-if>
+                            <sc-if value="{{ b.isBreak }}" hint-placeholder-val="{{ false }}">
+                              <div style="display: flex; align-items: center; gap: 9px; font-size: 12px; color: var(--ink5);">
+                                <span aria-hidden="true" style="flex: 1; height: 1px; background: repeating-linear-gradient(to right, var(--bd2) 0 5px, transparent 5px 10px);"></span>
+                                nouvelle page
+                                <span aria-hidden="true" style="flex: 1; height: 1px; background: repeating-linear-gradient(to right, var(--bd2) 0 5px, transparent 5px 10px);"></span>
+                              </div>
+                            </sc-if>
+                            <sc-if value="{{ b.hint }}" hint-placeholder-val="{{ false }}">
+                              <p style="margin: 7px 0 0; font-size: 11px; color: var(--ink5); line-height: 1.5;">{{ b.hint }}</p>
+                            </sc-if>
+                          </div>
+                        </sc-for>
+                      </div>
+                    </div>
+                  </sc-if>
+
+                  <sc-if value="{{ docModeSource }}" hint-placeholder-val="{{ false }}">
+                    <div>
+                      <p style="margin: 0 0 9px; font-size: 11.5px; color: var(--ink5); line-height: 1.55;">Markdown : <code style="color: var(--danger); font-weight: 700;"># titre</code> · <code style="color: var(--danger); font-weight: 700;">## intertitre</code> · <code style="color: var(--danger); font-weight: 700;">- liste</code> · <code style="color: var(--danger); font-weight: 700;">&gt; encadré</code> · <code style="color: var(--danger); font-weight: 700;">[badge]</code> · <code style="color: var(--danger); font-weight: 700;">|&nbsp;a&nbsp;|&nbsp;b&nbsp;|</code> · <code style="color: var(--danger); font-weight: 700;">---</code> saut de page.</p>
+                      <textarea value="{{ docSource }}" onChange="{{ onDocSource }}" aria-label="Source Markdown du document" style="width: 100%; min-height: 440px; resize: vertical; background: var(--inkSurf); border: none; border-radius: 16px; padding: 15px; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; line-height: 1.7; color: #E5E7EB; outline: none;"></textarea>
+                    </div>
+                  </sc-if>
+                </div>
+              </sc-if>
+
+              <!-- Panneau style (fourni par les extensions) -->
+              <sc-if value="{{ docTabStyle }}" hint-placeholder-val="{{ false }}">
+                <div style="display: flex; flex-direction: column; gap: 18px;">
+                  <sc-if value="{{ dsx.hasSuggs }}" hint-placeholder-val="{{ false }}">
+                    <div style="background: var(--acBg); border: 1px solid var(--acBd); border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 10px;">
+                      <span style="font-size: 12px; font-weight: 700; color: var(--acTx);">unii propose 3 styles pour ce document</span>
+                      <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                        <sc-for list="{{ dsx.suggs }}" as="sg" hint-placeholder-count="3">
+                          <button onClick="{{ sg.go }}" style="cursor: pointer; border: 2px solid {{ sg.bd }}; background: var(--surface); border-radius: 12px; padding: 6px; display: flex; flex-direction: column; gap: 6px; align-items: center;">{{ sg.el }}<span style="font-size: 11px; font-weight: 700; color: var(--ink3);">{{ sg.label }}</span></button>
+                        </sc-for>
+                      </div>
+                      <sc-if value="{{ dsx.hasAsk }}" hint-placeholder-val="{{ false }}">
+                        <button onClick="{{ dsx.askUnii }}" style="align-self: flex-start; cursor: pointer; border: 1px solid var(--acBd); background: var(--surface); color: var(--acTx); border-radius: 99px; padding: 8px 14px; font-size: 12px; font-weight: 700;">Adapter le texte à ce style avec unii</button>
+                      </sc-if>
+                    </div>
+                  </sc-if>
+                  <sc-if value="{{ dsx.locked }}" hint-placeholder-val="{{ false }}">
+                    <p style="margin: 0; font-size: 12px; color: var(--ink5); line-height: 1.5;">Les propositions de style par unii sont incluses à partir de l'offre Élu 2.0.</p>
+                  </sc-if>
+                  <div>
+                    <span style="display: block; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin-bottom: 9px;">Style graphique</span>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px;">
+                      <button onClick="{{ dsx.classic.go }}" aria-pressed="{{ dsx.classic.on }}" style="cursor: pointer; text-align: left; border: 1.5px solid {{ dsx.classic.bd }}; background: {{ dsx.classic.bg }}; border-radius: 14px; padding: 10px 11px; display: flex; flex-direction: column; gap: 4px;">
+                        <span style="width: 22px; height: 22px; border-radius: 50%; background: var(--ac); box-shadow: 0 0 0 1px var(--bd2);"></span>
+                        <span style="font-size: 12.5px; font-weight: 700; color: var(--ink);">{{ dsx.classic.label }}</span>
+                        <span style="font-size: 11px; color: var(--ink5); line-height: 1.35;">{{ dsx.classic.desc }}</span>
+                      </button>
+                      <sc-for list="{{ dsx.list }}" as="s" hint-placeholder-count="8">
+                        <button onClick="{{ s.go }}" aria-pressed="{{ s.on }}" style="cursor: pointer; text-align: left; border: 1.5px solid {{ s.bd }}; background: {{ s.bg }}; border-radius: 14px; padding: 10px 11px; display: flex; flex-direction: column; gap: 4px;">
+                          <span style="width: 22px; height: 22px; border-radius: 50%; background: {{ s.sw }}; box-shadow: 0 0 0 1px var(--bd2);"></span>
+                          <span style="font-size: 12.5px; font-weight: 700; color: var(--ink);">{{ s.label }}</span>
+                          <span style="font-size: 11px; color: var(--ink5); line-height: 1.35;">{{ s.desc }}</span>
+                        </button>
+                      </sc-for>
+                    </div>
+                  </div>
+                  <sc-if value="{{ dsx.hasCur }}" hint-placeholder-val="{{ false }}">
+                    <div style="display: flex; flex-direction: column; gap: 14px; border-top: 1px solid var(--bd); padding-top: 14px;">
+                      <span style="font-size: 11.5px; color: var(--ink6);">{{ dsx.src }}</span>
+                      <sc-if value="{{ dsx.hasNotice }}" hint-placeholder-val="{{ false }}">
+                        <p style="margin: 0; background: var(--warnBg, #FEF3C7); color: var(--warnTx, #92400E); border-radius: 12px; padding: 10px 12px; font-size: 12px; line-height: 1.5;">{{ dsx.notice }}</p>
+                      </sc-if>
+                      <sc-if value="{{ dsx.hasSlots }}" hint-placeholder-val="{{ false }}">
+                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                          <span style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5);">Images de ce style</span>
+                          <sc-for list="{{ dsx.slots }}" as="sl" hint-placeholder-count="1">
+                            <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center; border: 1px solid var(--bd); border-radius: 12px; padding: 8px 10px;">
+                              <span aria-hidden="true" style="flex: 0 0 auto; width: 64px; height: 46px; border-radius: 8px; background: {{ sl.bg }}; border: 1px solid var(--bd2);"></span>
+                              <span style="flex: 1 1 140px; min-width: 0;"><span style="display: block; font-size: 12.5px; font-weight: 700; color: var(--ink);">{{ sl.label }}</span><span style="display: block; font-size: 11px; color: var(--ink5); line-height: 1.4;">{{ sl.state }}</span></span>
+                              <label style="position: relative; cursor: pointer; border: 1px solid var(--acBd); background: var(--acBg); color: var(--acTx); border-radius: 99px; padding: 7px 13px; font-size: 11.5px; font-weight: 700;">{{ sl.btn }}<input type="file" accept="image/*" onChange="{{ sl.onImg }}" aria-label="{{ sl.label }}" style="position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%;"></input></label>
+                              <sc-if value="{{ sl.hasImg }}" hint-placeholder-val="{{ false }}"><button onClick="{{ sl.del }}" style="cursor: pointer; border: none; background: transparent; color: var(--ink5); font-size: 11.5px; font-weight: 700;">Retirer</button></sc-if>
+                            </div>
+                          </sc-for>
+                          <span style="font-size: 11px; color: var(--ink6);">Astuce : glissez une image directement sur l'aperçu de la page.</span>
+                        </div>
+                      </sc-if>
+                      <sc-if value="{{ dsx.hasPals }}" hint-placeholder-val="{{ false }}">
+                        <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;"><span style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin-right: 4px;">Palette</span><sc-for list="{{ dsx.pals }}" as="p" hint-placeholder-count="4"><button onClick="{{ p.go }}" aria-label="{{ p.label }}" title="{{ p.label }}" style="width: 26px; height: 26px; border-radius: 50%; border: none; cursor: pointer; background: {{ p.bg }}; box-shadow: {{ p.ring }};"></button></sc-for></div>
+                      </sc-if>
+                      <sc-if value="{{ dsx.hasFonts }}" hint-placeholder-val="{{ false }}">
+                        <div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center;"><span style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin-right: 4px;">Polices</span><sc-for list="{{ dsx.fonts }}" as="f" hint-placeholder-count="3"><button onClick="{{ f.go }}" style="cursor: pointer; border: 1px solid var(--bd2); border-radius: 99px; padding: 5px 11px; font-size: 11.5px; font-weight: 600; background: {{ f.bg }}; color: {{ f.fg }};">{{ f.label }}</button></sc-for></div>
+                      </sc-if>
+                      <sc-if value="{{ dsx.hasFmt }}" hint-placeholder-val="{{ false }}">
+                        <button onClick="{{ dsx.fmtGo }}" style="align-self: flex-start; cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); color: var(--ink3); border-radius: 99px; padding: 8px 14px; font-size: 12px; font-weight: 600;">{{ dsx.fmtLabel }}</button>
+                      </sc-if>
+                      <p style="margin: 0; font-size: 11.5px; color: var(--ink5); line-height: 1.55;">Le style réorganise vos blocs sur la page ; le contenu n'est pas modifié. Revenez à « Classique » à tout moment.</p>
+                    </div>
+                  </sc-if>
+                </div>
+              </sc-if>
+
+              <!-- Panneau charte -->
+              <sc-if value="{{ docTabCharte }}" hint-placeholder-val="{{ false }}">
+                <div style="display: flex; flex-direction: column; gap: 20px;">
+                  <div>
+                    <span style="display: block; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin-bottom: 9px;">Couleur d'accent</span>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 9px;">
+                      <sc-for list="{{ accentSwatches }}" as="sw" hint-placeholder-count="6">
+                        <button onClick="{{ sw.go }}" aria-label="{{ sw.aria }}" aria-pressed="{{ sw.on }}" style="width: 32px; height: 32px; cursor: pointer; border-radius: 10px; background: {{ sw.hex }}; border: 2px solid {{ sw.ring }}; box-shadow: {{ sw.sh }};"></button>
+                      </sc-for>
+                    </div>
+                    <label style="display: flex; align-items: center; gap: 9px; font-size: 12px; color: var(--ink4);">Code hexadécimal
+                      <input value="{{ charteAccent }}" onChange="{{ onAccentHex }}" style="width: 108px; border: 1px solid var(--bd2); border-radius: 10px; padding: 7px 10px; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; color: var(--ink); outline: none;" style-focus="border-color: var(--ac);" />
+                    </label>
+                  </div>
+
+                  <div>
+                    <span style="display: block; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin-bottom: 9px;">Couleur du texte</span>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                      <sc-for list="{{ inkSwatches }}" as="sw" hint-placeholder-count="3">
+                        <button onClick="{{ sw.go }}" aria-label="{{ sw.aria }}" aria-pressed="{{ sw.on }}" style="cursor: pointer; display: flex; align-items: center; gap: 7px; border: 1.5px solid {{ sw.ring }}; background: var(--surface); border-radius: 99px; padding: 6px 12px 6px 7px; font-size: 12px; font-weight: 600; color: var(--ink3);">
+                          <span aria-hidden="true" style="width: 16px; height: 16px; border-radius: 99px; background: {{ sw.hex }};"></span>{{ sw.label }}
+                        </button>
+                      </sc-for>
+                    </div>
+                  </div>
+
+                  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px;">
+                    <label style="display: flex; flex-direction: column; gap: 6px; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5);">Police des titres
+                      <select value="{{ charteTitleFont }}" onChange="{{ onTitleFont }}" style="width: 100%; border: 1px solid var(--bd2); border-radius: 11px; padding: 9px 10px; font-size: 13px; font-weight: 500; color: var(--ink); background: var(--surface); outline: none;" style-focus="border-color: var(--ac);">
+                        <sc-for list="{{ fontOptions }}" as="f" hint-placeholder-count="5">
+                          <option value="{{ f.id }}">{{ f.label }}</option>
+                        </sc-for>
+                      </select>
+                    </label>
+                    <label style="display: flex; flex-direction: column; gap: 6px; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5);">Police du texte
+                      <select value="{{ charteBodyFont }}" onChange="{{ onBodyFont }}" style="width: 100%; border: 1px solid var(--bd2); border-radius: 11px; padding: 9px 10px; font-size: 13px; font-weight: 500; color: var(--ink); background: var(--surface); outline: none;" style-focus="border-color: var(--ac);">
+                        <sc-for list="{{ fontOptions }}" as="f" hint-placeholder-count="5">
+                          <option value="{{ f.id }}">{{ f.label }}</option>
+                        </sc-for>
+                      </select>
+                    </label>
+                  </div>
+
+                  <div>
+                    <span style="display: block; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin-bottom: 9px;">Densité du texte</span>
+                    <div style="display: flex; gap: 6px;">
+                      <sc-for list="{{ densityOpts }}" as="dn" hint-placeholder-count="3">
+                        <button onClick="{{ dn.go }}" aria-pressed="{{ dn.on }}" style="flex: 1; cursor: pointer; border: 1.5px solid {{ dn.ring }}; background: {{ dn.bg }}; border-radius: 12px; padding: 9px; font-size: 12px; font-weight: 700; color: {{ dn.fg }};">{{ dn.label }}</button>
+                      </sc-for>
+                    </div>
+                  </div>
+
+                  <div>
+                    <span style="display: block; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5); margin-bottom: 9px;">Logo de l'organisation</span>
+                    <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center;">
+                      <span style="width: 92px; height: 52px; flex: 0 0 auto; border: 1px dashed var(--bd2); border-radius: 12px; background: var(--surf2); display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                        <sc-if value="{{ charteHasLogo }}" hint-placeholder-val="{{ false }}">
+                          <span role="img" aria-label="Logo actuel de l'organisation" style="{{ charteLogoSt }}"></span>
+                        </sc-if>
+                        <sc-if value="{{ charteNoLogo }}" hint-placeholder-val="{{ false }}">
+                          <span style="font-size: 10.5px; color: var(--ink6);">aucun</span>
+                        </sc-if>
+                      </span>
+                      <div style="display: flex; flex-direction: column; gap: 7px;">
+                        <label style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 8px 15px; font-size: 12px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Importer un logo
+                          <input type="file" accept="image/*" onChange="{{ onLogoFile }}" style="position: absolute; width: 1px; height: 1px; opacity: 0; overflow: hidden;" />
+                        </label>
+                        <sc-if value="{{ charteHasLogo }}" hint-placeholder-val="{{ true }}">
+                          <button onClick="{{ clearLogo }}" style="cursor: pointer; border: none; background: transparent; padding: 0; font-size: 11.5px; font-weight: 600; color: var(--ink6); text-align: left;" style-hover="color: var(--danger);">Retirer le logo</button>
+                        </sc-if>
+                      </div>
+                    </div>
+                    <p style="margin: 9px 0 0; font-size: 11px; color: var(--ink5); line-height: 1.5;">{{ docLogoStorageHint }}</p>
+                  </div>
+
+                  <div style="display: flex; flex-direction: column; gap: 11px;">
+                    <span style="font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink5);">En-tête &amp; pied de page</span>
+                    <sc-for list="{{ charteSwitches }}" as="s" hint-placeholder-count="3">
+                      <div style="display: flex; gap: 12px; align-items: center; justify-content: space-between; background: var(--surf2); border-radius: 14px; padding: 11px 13px;">
+                        <span style="font-size: 13px; font-weight: 600; color: var(--ink2);">{{ s.label }}</span>
+                        <button onClick="{{ s.toggle }}" onKeyDown="{{ s.key }}" role="switch" aria-checked="{{ s.on }}" aria-label="{{ s.label }}" style="width: 44px; height: 25px; flex: 0 0 auto; position: relative; cursor: pointer; border: none; border-radius: 99px; background: {{ s.bg }}; transition: background .18s;">
+                          <span aria-hidden="true" style="position: absolute; top: 3px; left: {{ s.left }}; width: 19px; height: 19px; border-radius: 99px; background: var(--surface); transition: left .18s;"></span>
+                        </button>
+                      </div>
+                    </sc-for>
+                    <sc-for list="{{ charteFields }}" as="f" hint-placeholder-count="4">
+                      <label style="display: flex; flex-direction: column; gap: 6px; font-size: 12px; font-weight: 600; color: var(--ink3);">{{ f.label }}
+                        <input value="{{ f.value }}" onChange="{{ f.onChange }}" style="width: 100%; border: 1px solid var(--bd2); border-radius: 11px; padding: 9px 11px; font-size: 13px; font-weight: 500; color: var(--ink); outline: none;" style-focus="border-color: var(--ac);" />
+                      </label>
+                    </sc-for>
+                    <sc-if value="{{ charteIdentOverride }}" hint-placeholder-val="{{ false }}">
+                      <div style="grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; background: var(--surf2); border: 1px solid var(--bd); border-radius: 14px; padding: 11px 13px;">
+                        <span style="flex: 1; min-width: 180px; font-size: 11.5px; color: var(--ink5); line-height: 1.55;">Identité de l'émetteur saisie à la main : elle ne suit plus les informations de l'organisation.</span>
+                        <button onClick="{{ charteResetIdent }}" style="cursor: pointer; border: 1px solid var(--bd2); background: var(--surface); border-radius: 99px; padding: 8px 14px; font-size: 11.5px; font-weight: 600; color: var(--ink3);" style-hover="border-color: var(--acMid); color: var(--acTx);">Reprendre celle de l'organisation</button>
+                      </div>
+                    </sc-if>
+                  </div>
+                </div>
+              </sc-if>
+            </section>
+
+            <section style="min-width: 0; background: var(--chip); border: 1px solid var(--bd2); border-radius: 22px; padding: 16px;">
+              <div data-print-hide="1" style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin-bottom: 14px;">
+                <div style="display: flex; gap: 4px; background: var(--surface); border-radius: 12px; padding: 4px; border: 1px solid var(--bd2);">
+                  <sc-for list="{{ formatOpts }}" as="fo" hint-placeholder-count="3">
+                    <button onClick="{{ fo.go }}" aria-pressed="{{ fo.on }}" style="cursor: pointer; border: none; border-radius: 9px; padding: 7px 12px; font-size: 11.5px; font-weight: 700; background: {{ fo.bg }}; color: {{ fo.fg }};">{{ fo.label }}</button>
+                  </sc-for>
+                </div>
+                <div style="display: flex; gap: 10px; align-items: center;">
+                  <div style="display: flex; gap: 3px; background: var(--surface); border-radius: 99px; padding: 3px; border: 1px solid var(--bd2);">
+                    <button class="mobile-control" onClick="{{ mobileDocFit }}">Ajuster</button><sc-for list="{{ zoomOpts }}" as="z" hint-placeholder-count="3">
+                      <button onClick="{{ z.go }}" aria-label="{{ z.aria }}" aria-pressed="{{ z.on }}" style="cursor: pointer; border: none; border-radius: 99px; padding: 6px 11px; font-size: 11px; font-weight: 700; background: {{ z.bg }}; color: {{ z.fg }};">{{ z.label }}</button>
+                    </sc-for>
+                  </div>
+                  <span aria-live="polite" style="font-size: 11.5px; font-weight: 600; color: var(--ink4);">{{ pageCountLabel }}</span>
+                </div>
+              </div>
+
+              <sc-if value="{{ docOverflow }}" hint-placeholder-val="{{ false }}">
+                <div data-print-hide="1" role="status" style="display: flex; gap: 9px; align-items: flex-start; background: var(--acBg); border: 1px solid var(--acBd2); border-radius: 14px; padding: 11px 13px; margin-bottom: 14px;">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--warnTx)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 2px;"><path d="M12 9v4M12 17h.01"></path><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"></path></svg>
+                  <span style="font-size: 12px; line-height: 1.55; color: var(--warnTx);">{{ overflowMsg }}</span>
+                </div>
+              </sc-if>
+
+              <div id="docPrint" onDragOver="{{ dsx.dragOver }}" onDrop="{{ dsx.drop }}" style="display: flex; flex-direction: column; align-items: center; gap: 18px;">
+                <sc-for list="{{ docPages }}" as="pg" hint-placeholder-count="1">
+                  <div class="docwrap" style="width: {{ pg.wrapW }}; height: {{ pg.wrapH }}; position: relative;">
+                    <div class="docpage" style="{{ pg.st }}">
+                      <sc-if value="{{ pg.isExt }}" hint-placeholder-val="{{ false }}">{{ pg.extEl }}</sc-if>
+                      <sc-if value="{{ pg.showHeader }}" hint-placeholder-val="{{ true }}">
+                        <div style="{{ pg.headerSt }}">
+                          <span style="min-width: 0;">
+                            <span style="{{ pg.emetteurSt }}">{{ pg.emetteur }}</span>
+                            <span style="{{ pg.sectionSt }}">{{ pg.section }}</span>
+                          </span>
+                          <sc-if value="{{ pg.hasLogo }}" hint-placeholder-val="{{ false }}">
+                            <span role="img" aria-label="Logo de l'organisation" style="{{ pg.logoSt }}"></span>
+                          </sc-if>
+                        </div>
+                      </sc-if>
+
+                      <div style="{{ pg.bodySt }}">
+                        <sc-for list="{{ pg.blocks }}" as="b" hint-placeholder-count="4">
+                          <sc-if value="{{ b.isExt }}" hint-placeholder-val="{{ false }}"><div>{{ b.el }}</div></sc-if>
+                          <sc-if value="{{ b.isTag }}" hint-placeholder-val="{{ false }}">
+                            <span style="{{ b.st }}">{{ b.text }}</span>
+                          </sc-if>
+                          <sc-if value="{{ b.isH1 }}" hint-placeholder-val="{{ true }}">
+                            <h2 style="{{ b.st }}">{{ b.text }}</h2>
+                          </sc-if>
+                          <sc-if value="{{ b.isH2 }}" hint-placeholder-val="{{ false }}">
+                            <h3 style="{{ b.st }}">{{ b.text }}</h3>
+                          </sc-if>
+                          <sc-if value="{{ b.isH3 }}" hint-placeholder-val="{{ false }}">
+                            <h4 style="{{ b.st }}">{{ b.text }}</h4>
+                          </sc-if>
+                          <sc-if value="{{ b.isP }}" hint-placeholder-val="{{ true }}">
+                            <p style="{{ b.st }}">{{ b.text }}</p>
+                          </sc-if>
+                          <sc-if value="{{ b.isUl }}" hint-placeholder-val="{{ false }}">
+                            <div style="{{ b.st }}">
+                              <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="3">
+                                <div style="{{ b.itemSt }}"><span aria-hidden="true" style="{{ b.bulletSt }}">■</span><span style="min-width: 0;">{{ it.text }}</span></div>
+                              </sc-for>
+                            </div>
+                          </sc-if>
+                          <sc-if value="{{ b.isQuote }}" hint-placeholder-val="{{ false }}">
+                            <div style="{{ b.st }}">{{ b.text }}</div>
+                          </sc-if>
+                          <sc-if value="{{ b.isTable }}" hint-placeholder-val="{{ false }}">
+                            <div style="{{ b.st }}">
+                              <sc-for list="{{ b.cells }}" as="c" hint-placeholder-count="6">
+                                <div style="{{ c.st }}">{{ c.text }}</div>
+                              </sc-for>
+                            </div>
+                          </sc-if>
+                        </sc-for>
+                      </div>
+
+                      <sc-if value="{{ pg.showFooter }}" hint-placeholder-val="{{ true }}">
+                        <div style="{{ pg.footerSt }}">
+                          <span style="min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ pg.contact }}</span>
+                          <span style="{{ pg.pageNoSt }}">{{ pg.pageNo }}</span>
+                        </div>
+                      </sc-if>
+                    </div>
+                  </div>
+                </sc-for>
+              </div>
+            </section>
+          </div>
+        </div>
+      </sc-if>
+
+      

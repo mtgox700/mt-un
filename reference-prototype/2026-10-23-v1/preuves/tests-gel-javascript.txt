@@ -1,0 +1,21 @@
+PASS No duplicate class methods
+PASS Dossier edits support both calling conventions
+PASS Message is appended only to selected dossier
+PASS Unknown identities and identifiers masked at every level
+PASS Tokens are stable, opaque and not colliding
+PASS Manual RPS selection survives benign question
+PASS Automatic level never weakens manual level
+PASS Final network boundary masks question, corpus and memory
+PASS Dossier context contains timeline and attached content
+PASS Persisted keys include mobile pages
+PASS Signature snapshot uses selected document blocks
+PASS Agenda document preserves event details and route
+PASS Reader attachment creates actual piece in current dossier
+PASS @unii dispatches to conversation assistant
+PASS Poll suggestions use current question and reject stale result
+PASS Export selects requested actual file format
+PASS Attestation produces PDF data rather than only a toast
+PASS Brackets do not bypass privacy masking
+PASS Generated signature includes the current generated document
+PASS Delayed reply remains attached to its source conversation
+20 regression tests passed

@@ -1,0 +1,33 @@
+Browser tab: 3, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 42-44, 229-231, 235, 238-239, 241-244, 246-248, 251-256, 258-320
++			229 button Reporting
++				230 image
++				231 text Reporting
+~			232 text PILOTAGE
+~			233 heading Reporting, Value: 1
+~				234 text Reporting
++			235 text Du 1er janvier au 26 août 2026 · 416 salariés · 24 élus
+~			236 button Année 2026
+~			237 button 12 derniers mois
++			238 button Mandat 2024–2028
++			239 checkbox Bilan de mandat, Value: 1
+~			240 checkbox Utilisation de l'application, Value: 0
++			241 text DOSSIERS TRAITÉS 84 +18 % vs 2025 DOSSIERS CLOS 71 85 % de résolution DÉLAI MOYEN 9 j −3 j vs 2025 PARTICIPATION SONDAGES 72 % +9 pts
++			242 heading Dossiers par mois, Value: 2
++				243 text Dossiers par mois
++			244 text Ouverts en orange, clos en gris.
+~			245 text Jan Fév Mar Avr Mai Juin Juil Août
++			246 heading Répartition par thème, Value: 2
++				247 text Répartition par thème
++			248 text Salaires et primes 26 dossiers · 31 % Santé et sécurité 21 dossiers · 25 % Temps de travail 15 dossiers · 18 % Discipline et sanctions 12 dossiers · 14 % Égalité et discriminations 10 dossiers · 12 %
+~			249 heading Activité du mandat, Value: 2
+~				250 text Activité du mandat
++			251 text Réunions CSE 8 ordinaires, 2 extraordinaires 10 Séances de négociation NAO, télétravail, égalité pro 6 Sondages diffusés 72 % de participation moyenne 9 Consultations de l'assistant 96 % sourcées convention ou code 1 240 Heures de délégation sur 1 920 h de crédit annuel 1 412
++			252 heading Exporter le bilan, Value: 2
++				253 text Exporter le bilan
++			254 text Le bilan reprend la mise en forme attendue pour l'annexe du rapport annuel du CSE. Aucune donnée nominative de salarié n'y figure.
++			255 button Bilan annuel (PDF)
++			256 button Données détaillées (Excel)
+~			257 button Partager en lecture seule aux élus
+The focused UI element is 1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

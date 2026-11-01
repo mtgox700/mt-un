@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "count": 22,
+  "checks": [
+    {
+      "test": "ai_snapshot_roundtrip",
+      "ok": true
+    },
+    {
+      "test": "ai_sqlite_integrity",
+      "ok": true
+    },
+    {
+      "test": "ai_schema_v2",
+      "ok": true
+    },
+    {
+      "test": "draft_application_receipts_restored",
+      "ok": true
+    },
+    {
+      "test": "restored_business_records",
+      "ok": true
+    },
+    {
+      "test": "restored_business_publications",
+      "ok": true
+    },
+    {
+      "test": "restored_ai_action_settings",
+      "ok": true
+    },
+    {
+      "test": "restored_ai_business_roles",
+      "ok": true
+    },
+    {
+      "test": "restored_ai_interactive_recipes",
+      "ok": true
+    },
+    {
+      "test": "restored_ai_case_derivatives",
+      "ok": true
+    },
+    {
+      "test": "restored_login",
+      "ok": true
+    },
+    {
+      "test": "restored_aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "restored_mfa",
+      "ok": true
+    },
+    {
+      "test": "restored_policy_ready",
+      "ok": true
+    },
+    {
+      "test": "persisted_history_present",
+      "ok": true
+    },
+    {
+      "test": "restored_history_source_revalidated",
+      "ok": true
+    },
+    {
+      "test": "restored_no_implicit_replay",
+      "ok": true
+    },
+    {
+      "test": "restored_actor_isolation",
+      "ok": true
+    },
+    {
+      "test": "restored_org_isolation",
+      "ok": true
+    },
+    {
+      "test": "memory_preference_exact",
+      "ok": true
+    },
+    {
+      "test": "restored_revocation_blocks_history",
+      "ok": true
+    },
+    {
+      "test": "missing_key_fails_closed",
+      "ok": true
+    }
+  ],
+  "sql_checks": 382,
+  "elapsed_seconds": 50.617,
+  "restore_seconds": 23.683,
+  "ai_snapshot_sha256": "ed0782d0d9e11079cd156688ff7a1391ac88887c7c3de33545d04966b8a5b81e",
+  "automatic_deletion": false,
+  "production_admission": false,
+  "limitation": "Separate SQL and SQLite snapshots; source revalidation mandatory; no production RPO/RTO claim"
+}

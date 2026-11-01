@@ -1,0 +1,13 @@
+{
+  "interval_seconds": 2700,
+  "retry_seconds": 300,
+  "max_age_seconds": 3600,
+  "watchdog_seconds": 720,
+  "timeout_seconds": 600,
+  "minimum_free_bytes": 1073741824,
+  "automatic_deletion": false,
+  "desktop_notifications": true,
+  "state_dir": "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/.local-backup-scheduler",
+  "backup_dir": "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/.local-backups",
+  "key_dir": "/Users/mt/.codex/.chatgpt-projects/g-p-6aaba98c248081918b85b5c6a9dceffd/application/.local-auth/backup-keys"
+}

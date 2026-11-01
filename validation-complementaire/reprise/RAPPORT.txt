@@ -1,0 +1,13 @@
+Validation complémentaire — reprise du 23 octobre 2026
+
+20 nouvelles captures et arbres d’accessibilité, soit 83 captures au total.
+Application et référence inchangées : 324 fichiers vérifiés conformes au manifeste.
+
+Exécuté : connexion administrateur de démonstration et code MFA ; ouverture des sept rubriques à 390 px et 768 px ; journal à 1024 px ; filtres utilisateurs Suspendu (1), Invitation en attente (1), Actif (5), Tous (7) ; recherche sans résultat ; effacement de la recherche rétablit les sept comptes ; export journal ; déconnexion et rechargement ; reconnexion militante ; vérification de la mémoire fictive modifiée précédemment, toujours présente.
+
+F24 : console administrateur inutilisable confortablement à 390 px, contenu fortement tronqué. Journal également tronqué à 768 px. Lisible à 1024 px.
+F25 : Exporter (CSV signé) n’effectue qu’un affichage de message ; aucun générateur ni signature dans le gestionnaire.
+
+La mémoire affiche toujours « Recette fictive modifiée : réponses en trois points. » après rechargement et reconnexion.
+
+Limites : dimensions d’iframe simulées, pas de matériel mobile/tablette réel ; les actions de suspension, MFA, clés API, paiements et publication ne sont pas validées par leur simple affichage et n’ont pas été exécutées. Aucun nouvel appel au modèle IA pendant cette passe. Les six anomalies F18–F23 de la passe précédente restent ouvertes. La validation globale reste partielle : formulaires métier secondaires, persistance complète, permissions réelles et dispositifs physiques restent à couvrir. Les garanties serveur de sécurité et de signature affichées ne sont pas établies par ces tests.

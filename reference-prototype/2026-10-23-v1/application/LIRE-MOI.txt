@@ -1,0 +1,2 @@
+Consulter ../LIRE-MOI.txt pour les instructions à jour de cette référence.
+Le lanceur Lancer.command utilise par défaut le port de travail 5050 : privilégier UNIION_PORT=5052 python3 server.py pour la référence.

@@ -1,0 +1,30 @@
+from pathlib import Path
+exec(compile(Path(__file__).with_name('s03_workflows.py').read_text().split("out=ROOT/'preuves/S03-convocations-odj'")[0],__file__,'exec'))
+import base64
+app.sessions.clock=lambda: time.time()+61
+out=ROOT/'preuves/S03-fidelite-notifications';out.mkdir(parents=True,exist_ok=True)
+sql(f"insert into public.uniion_authorities values('{org}','{a['id']}','download',false),('{org}','{a['id']}','agenda_publish',false),('{org}','{b['id']}','agenda_review',false);")
+p={'version':2}
+def notices(c,read=None,o=org):return c.call('/identity/agenda/publication-notices',{'organization_id':o,'read_id':read})
+check('notices_empty_before_publication',notices(y)[1]==[])
+check('second_actor_review',work(y,'review',p)[1]['reviewed']);check('publication',work(x,'publish',p)[1]['published'])
+st,rows,_=notices(y);check('recipient_notified',st==200 and len(rows)==1 and not rows[0]['read']);nid=rows[0]['id']
+check('repeat_publication',work(x,'publish',p)[1]['published']);check('no_duplicate',len(notices(y)[1])==1)
+check('other_user_cannot_mark',notices(x,nid)[0]==403);check('other_org_denied',notices(y,o=foreign)[0]==403);check('anonymous_denied',notices(Client())[0]==403)
+check('mark_read',notices(y,nid)[1][0]['read']);check('read_persisted',notices(y)[1][0]['read'])
+sql(f"update uniion_private.agenda_audiences set audience='none' where organization_id='{org}' and user_id='{b['id']}';")
+check('revoked_notice_hidden',notices(y)[1]==[]);check('revoked_notice_read_denied',notices(y,nid)[0]==403)
+sql(f"update uniion_private.agenda_audiences set audience='adherents' where organization_id='{org}' and user_id='{b['id']}';")
+st,pdf,_=work(x,'export',p);check('pdf_export',st==200 and base64.b64decode(pdf['base64']).startswith(b'%PDF'));(out/'ordre-du-jour.pdf').write_bytes(base64.b64decode(pdf['base64']))
+check('pdf_without_download_denied',work(y,'export',p)[0]==403)
+charte=work(x,'document')[1]['document']['charte'];check('charter_persisted',charte['emetteur']=='Agenda pilote fictif S03')
+check('arbitrary_logo_rejected',work(x,'save_document',{'version':2,'document':{**doc,'charte':{**charte,'logo':'https://example.invalid/private'}}})[0]==403)
+check('read_only_charter_denied',work(y,'save_document',{'version':2,'document':{**doc,'charte':charte}})[0]==403)
+check('new_version',work(x,'save_document',{'version':2,'document':{**doc,'charte':charte}})[0]==200)
+check('old_notice_hidden_on_edit',notices(y)[1]==[])
+check('new_review',work(y,'review',{'version':3})[1]['reviewed']);check('new_publish',work(x,'publish',{'version':3})[1]['published'])
+check('new_notice_unread',notices(y)[1][0]['read'] is False)
+check('read_all_atomic',notices(y,'00000000-0000-0000-0000-000000000000')[1][0]['read'])
+check('read_all_does_not_mark_other_user',notices(x)[1][0]['read'] is False)
+(ROOT/'.local-auth/s03-fidelity.json').write_text(json.dumps({'organization':org,'event':eid,'document':d['document']['id'],'version':3}))
+(out/'integration.json').write_text(json.dumps({'passed':True,'count':len(checks),'checks':checks},indent=2));print(json.dumps({'passed':True,'count':len(checks)}))

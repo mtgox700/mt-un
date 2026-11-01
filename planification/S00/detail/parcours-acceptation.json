@@ -1,0 +1,106 @@
+[
+  {
+    "id": "P01",
+    "parcours": "Connexion → organisation → accueil",
+    "domaines": "Identité, appartenance, préférences",
+    "preuves_partielles": "ET1-24; ET1-25",
+    "reste_a_tester": "Session réelle, MFA, comptes multi-org, révocation, bootstrap super admin ; tests existants limités au formulaire démo",
+    "statut": "À compléter pour production"
+  },
+  {
+    "id": "P02",
+    "parcours": "Dossier → pièce → assistant → document",
+    "domaines": "Dossiers, fichiers, IA, documents",
+    "preuves_partielles": "REG-02; REG-09; REG-13; COR-04; COR-05",
+    "reste_a_tester": "E2E atomique avec droits source/destination, erreur stockage, réponse tardive et révocation",
+    "statut": "À compléter pour production"
+  },
+  {
+    "id": "P03",
+    "parcours": "Agenda → ordre du jour → document",
+    "domaines": "Agenda, documents",
+    "preuves_partielles": "REG-12; COR-06",
+    "reste_a_tester": "Délais, timezone, invités et ACL du document dérivé",
+    "statut": "À compléter pour production"
+  },
+  {
+    "id": "P04",
+    "parcours": "Message → transfert / classement dossier",
+    "domaines": "Messages, dossiers",
+    "preuves_partielles": "REG-03; REG-14; REG-20",
+    "reste_a_tester": "Participants privés, cible interdite, révocation, pièces et contexte IA",
+    "statut": "À compléter pour production"
+  },
+  {
+    "id": "P05",
+    "parcours": "Audio → transcription → PV → signature",
+    "domaines": "Réunions, IA, documents",
+    "preuves_partielles": "COR-01; COR-02; COR-03; COR-11; COR-12; COR-13; COR-14; COR-15; REG-11",
+    "reste_a_tester": "Vrai fournisseur, reprise jobs, droits audio distincts, preuve signature réelle",
+    "statut": "À compléter pour production"
+  },
+  {
+    "id": "P06",
+    "parcours": "CSV adhérents → liste → campagne",
+    "domaines": "Adhérents, annuaire, campagnes",
+    "preuves_partielles": "Tests ET1 CSV + fiche/groupe via catalogue",
+    "reste_a_tester": "Droits cotisations/export, destinataire réel, échec fournisseur et idempotence",
+    "statut": "À compléter pour production"
+  },
+  {
+    "id": "P07",
+    "parcours": "Sondage → réponse → résultats",
+    "domaines": "Sondages, reporting",
+    "preuves_partielles": "REG-15",
+    "reste_a_tester": "Anonymat, éligibilité, doublons, agrégats et clôture : tests cibles absents",
+    "statut": "À compléter pour production"
+  },
+  {
+    "id": "P08",
+    "parcours": "Page → relecture → publication",
+    "domaines": "Publications, communication",
+    "preuves_partielles": "ET1 relecture via catalogue ; REG-10 persistance mobile",
+    "reste_a_tester": "Aucune diffusion réelle testée ; versions, droits publication, assets privés/publics",
+    "statut": "À compléter pour production"
+  },
+  {
+    "id": "P09",
+    "parcours": "Formation → progression → attestation",
+    "domaines": "Formations, fichiers",
+    "preuves_partielles": "REG-17",
+    "reste_a_tester": "Validation apprentissage, droits personnels, attestations, fournisseur IA",
+    "statut": "À compléter pour production"
+  },
+  {
+    "id": "P10",
+    "parcours": "Reporting → export",
+    "domaines": "Reporting, exports",
+    "preuves_partielles": "REG-16; EXP-01; EXP-02; EXP-03; EXP-04",
+    "reste_a_tester": "Droits sur données sources, agrégats, coûts et volumétrie",
+    "statut": "À compléter pour production"
+  },
+  {
+    "id": "P11",
+    "parcours": "Cache → déconnexion → autre compte",
+    "domaines": "Hors ligne, identité",
+    "preuves_partielles": "COR-08; COR-09",
+    "reste_a_tester": "Isolation compte/tenant, expiration, révocation hors réseau et conflits",
+    "statut": "À compléter pour production"
+  },
+  {
+    "id": "P12",
+    "parcours": "Installation → activation module → désactivation",
+    "domaines": "Plateforme, registre",
+    "preuves_partielles": "Aucun test complet rattaché",
+    "reste_a_tester": "Version SDK, permission, dépendances, absence suppression de données, refus URL/API",
+    "statut": "À compléter pour production"
+  },
+  {
+    "id": "P13",
+    "parcours": "Notification persistante → navigation / fermeture",
+    "domaines": "Socle UI",
+    "preuves_partielles": "Mesure notification dans bilan sous-écrans ; fermeture contrôlée historiquement",
+    "reste_a_tester": "Test automatisé avec message long, erreur persistante, zoom et modal ouverte",
+    "statut": "À compléter pour production"
+  }
+]

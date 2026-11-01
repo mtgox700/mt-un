@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-30",
+  "sprint": "S07",
+  "status": "Package de lancement ; développement non démarré par ce lot",
+  "files": [
+    "00-LIRE-EN-PREMIER.md",
+    "01-PROMPT-NOUVEAU-CHAT.md",
+    "02-ETAT-COURANT.md",
+    "03-LOTS.md",
+    "04-CONTRATS-ET-SECURITE.md",
+    "05-RECETTE.md",
+    "06-REPERES-TECHNIQUES.md",
+    "07-SUIVI-LOT.md"
+  ],
+  "scope": "application uniquement, local, données fictives",
+  "entry": "01-PROMPT-NOUVEAU-CHAT.md"
+}

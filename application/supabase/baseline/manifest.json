@@ -1,0 +1,20 @@
+{
+  "source": "copie de recette, migrations d\u00e9j\u00e0 appliqu\u00e9es localement",
+  "automatic_apply": false,
+  "files": {
+    "202610250001_isolation_foundation.sql": "24034d2c174d4f569eda6805b17113a23ba506298d3ae502c247cbbdd8e2f755",
+    "202610250002_local_runtime.sql": "78232e0b86f7027672f769b8c86cae721a08b6b8cff9a76fb6e2792699a7cd13",
+    "202610250003_payload_guards.sql": "4bdabc9c87e16c85e117f398cdf1e3523342fcb5a9bd53e3b60b12a9fb756933",
+    "202610250004_resource_versions.sql": "3bfd01f59f970986712cc498b4f1de81db076ef431bb55a40e5eecef0f24115b",
+    "202610250005_rights_sharing.sql": "5675d1a1e4103e67c7c686e0162d6bd5c5ddb7eb7971c34d51489bff5d104460",
+    "202610250006_rights_batch.sql": "9a37116b78c441d93e6f9819cb69b46e578d1d89c862dbb1185c9cdadbbb9436",
+    "202610250007_share_recheck.sql": "83c6c5e603caac642fec33de02cdc4f63495972f3bb85a389318a3cb222b7d8a",
+    "202610250008_share_version_confirmation.sql": "d6159473abcb2bc5a38ea8dc6c26e105934982036229193a01bc0f023b6c0a9b",
+    "202610250009_attachments.sql": "2cdade753359dacb51cc286e55ac4b8c37a857f721304981a0ea577417c644ac",
+    "202610250010_scan_preview.sql": "2cb6a4b65432a1dc7b052f7039b138ae82b3a84bbaa8c66700fb465a19baa9a9",
+    "202610250011_scan_generation.sql": "947849bbd284b9f1c09e9310da25d3a246b7e6ec7645f869f62fccf6dbb026f5",
+    "202610250012_upload_audit.sql": "d58fbec2ad07be3340de776201cfc37750826ce419891e684a54a138383134f8",
+    "202610250013_cyber_hardening.sql": "5164647fc47e77891328572dc4805cdeadbe9ef140f74f862781adb00d10f2de",
+    "202610250014_directory_context.sql": "307cb4c9e523ee2383ee7e54702218764c7f0a509a45362c25a00814dcb19151"
+  }
+}

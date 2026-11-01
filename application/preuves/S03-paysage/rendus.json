@@ -1,0 +1,434 @@
+[
+  {
+    "style": "choc",
+    "format": "a4",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "choc",
+    "format": "a4",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "choc",
+    "format": "a5",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "choc",
+    "format": "a5",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "choc",
+    "format": "wide",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "choc",
+    "format": "wide",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "journal",
+    "format": "a4",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "journal",
+    "format": "a4",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "journal",
+    "format": "a5",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "journal",
+    "format": "a5",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "journal",
+    "format": "wide",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "journal",
+    "format": "wide",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "infographie",
+    "format": "a4",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "infographie",
+    "format": "a4",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "infographie",
+    "format": "a5",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "infographie",
+    "format": "a5",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "infographie",
+    "format": "wide",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "infographie",
+    "format": "wide",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "institutionnel",
+    "format": "a4",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "institutionnel",
+    "format": "a4",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "institutionnel",
+    "format": "a5",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "institutionnel",
+    "format": "a5",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "institutionnel",
+    "format": "wide",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "institutionnel",
+    "format": "wide",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "photo",
+    "format": "a4",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "photo",
+    "format": "a4",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "photo",
+    "format": "a5",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "photo",
+    "format": "a5",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "photo",
+    "format": "wide",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "photo",
+    "format": "wide",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "serigraphie",
+    "format": "a4",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "serigraphie",
+    "format": "a4",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "serigraphie",
+    "format": "a5",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "serigraphie",
+    "format": "a5",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "serigraphie",
+    "format": "wide",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "serigraphie",
+    "format": "wide",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "bulletin",
+    "format": "a4",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "bulletin",
+    "format": "a4",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "bulletin",
+    "format": "a5",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "bulletin",
+    "format": "a5",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "bulletin",
+    "format": "wide",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "bulletin",
+    "format": "wide",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "qr",
+    "format": "a4",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "qr",
+    "format": "a4",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "qr",
+    "format": "a5",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "qr",
+    "format": "a5",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "qr",
+    "format": "wide",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "qr",
+    "format": "wide",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "satirique",
+    "format": "a4",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "satirique",
+    "format": "a4",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "satirique",
+    "format": "a5",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "satirique",
+    "format": "a5",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "satirique",
+    "format": "wide",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "satirique",
+    "format": "wide",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "bd",
+    "format": "a4",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "bd",
+    "format": "a4",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "bd",
+    "format": "a5",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "bd",
+    "format": "a5",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "bd",
+    "format": "wide",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "bd",
+    "format": "wide",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "annonce",
+    "format": "a4",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "annonce",
+    "format": "a4",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "annonce",
+    "format": "a5",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "annonce",
+    "format": "a5",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "annonce",
+    "format": "wide",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "annonce",
+    "format": "wide",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "retro",
+    "format": "a4",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "retro",
+    "format": "a4",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "retro",
+    "format": "a5",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "retro",
+    "format": "a5",
+    "content": "long",
+    "result": "blocked"
+  },
+  {
+    "style": "retro",
+    "format": "wide",
+    "content": "court",
+    "result": "exported"
+  },
+  {
+    "style": "retro",
+    "format": "wide",
+    "content": "long",
+    "result": "blocked"
+  }
+]

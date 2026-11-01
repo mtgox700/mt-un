@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "count": 38,
+  "checks": [
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "login",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "mfa",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "local_mfa",
+      "ok": true
+    },
+    {
+      "test": "super_context",
+      "ok": true
+    },
+    {
+      "test": "local_context",
+      "ok": true
+    },
+    {
+      "test": "foreign_denied",
+      "ok": true
+    },
+    {
+      "test": "local_grant_denied",
+      "ok": true
+    },
+    {
+      "test": "local_catalog_denied",
+      "ok": true
+    },
+    {
+      "test": "local_authorize_denied",
+      "ok": true
+    },
+    {
+      "test": "local_delegate_denied",
+      "ok": true
+    },
+    {
+      "test": "unauthorized_grant_denied",
+      "ok": true
+    },
+    {
+      "test": "authorize",
+      "ok": true
+    },
+    {
+      "test": "unpaid_activation_denied",
+      "ok": true
+    },
+    {
+      "test": "empty_reason_denied",
+      "ok": true
+    },
+    {
+      "test": "commercial_grant",
+      "ok": true
+    },
+    {
+      "test": "no_activation",
+      "ok": true
+    },
+    {
+      "test": "no_delegation_denied",
+      "ok": true
+    },
+    {
+      "test": "delegate",
+      "ok": true
+    },
+    {
+      "test": "local_activation",
+      "ok": true
+    },
+    {
+      "test": "no_business_right",
+      "ok": true
+    },
+    {
+      "test": "super_no_business_bypass",
+      "ok": true
+    },
+    {
+      "test": "explicit_right_allowed",
+      "ok": true
+    },
+    {
+      "test": "resource_allowed",
+      "ok": true
+    },
+    {
+      "test": "catalog_suspend",
+      "ok": true
+    },
+    {
+      "test": "catalog_denied",
+      "ok": true
+    },
+    {
+      "test": "catalog_resource_denied",
+      "ok": true
+    },
+    {
+      "test": "catalog_restore",
+      "ok": true
+    },
+    {
+      "test": "local_revoke_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_revoke_denied",
+      "ok": true
+    },
+    {
+      "test": "revoke",
+      "ok": true
+    },
+    {
+      "test": "revoked_denied",
+      "ok": true
+    },
+    {
+      "test": "revoked_resource_denied",
+      "ok": true
+    },
+    {
+      "test": "paid_allowed",
+      "ok": true
+    },
+    {
+      "test": "expired_denied",
+      "ok": true
+    }
+  ]
+}

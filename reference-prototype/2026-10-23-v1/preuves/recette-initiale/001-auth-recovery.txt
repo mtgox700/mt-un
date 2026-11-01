@@ -1,0 +1,35 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 text uniion
+		3 heading L'outil des élus, pas celui de la direction., Value: 1
+			4 text L'outil des élus, pas celui de la direction.
+		5 text Dossiers chiffrés de bout en bout, assistant juridique sourcé sur votre convention, consultations des salariés et bilan de mandat. Hébergement en France, aucun accès employeur.
+		6 text Chiffrement AES-256 RGPD · données en France Anonymisation avant inférence IA
+		7 heading Connexion, Value: 2
+			8 text Connexion
+		9 text Compte militant de la section syndicale Métallurgie — Valenciennes.
+		10 container
+			11 text Adresse professionnelle
+			12 text field (settable) Adresse professionnelle, Value: <redacted>
+		13 container
+			14 text Mot de passe
+			15 text field (settable) Mot de passe
+		16 button Continuer
+		17 text ou
+		18 button SSO fédération (SAML)
+			19 image
+			20 text SSO fédération (SAML)
+		21 button Mot de passe oublié ?
+		22 button Accès super administrateur (admin@uniion.fr)
+		23 container Réinitialiser le mot de passe
+			24 heading Réinitialiser le mot de passe, Value: 2
+				25 text Réinitialiser le mot de passe
+			26 text Un lien à usage unique est envoyé sur votre adresse professionnelle. Il expire au bout de 30 minutes.
+			27 text CANAL DE RÉCEPTION
+			28 checkbox Email professionnel sophie.marchand@cse-valenciennes.fr, Value: 1
+			29 checkbox SMS — appareil de confiance iPhone 15 · •• 47, Value: 0
+			30 button Annuler
+			31 button Envoyer le lien
+
+The focused UI element is 21 button Mot de passe oublié ?

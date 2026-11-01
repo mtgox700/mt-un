@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "count": 7,
+  "checks": [
+    {
+      "test": "separate_timer_detects_application_heartbeat_loss",
+      "ok": true
+    },
+    {
+      "test": "unchanged_failure_not_repeated",
+      "ok": true
+    },
+    {
+      "test": "timer_detects_recovery",
+      "ok": true
+    },
+    {
+      "test": "one_alert_one_recovery",
+      "ok": true
+    },
+    {
+      "test": "events_contain_no_health_payload",
+      "ok": true
+    },
+    {
+      "test": "private_state",
+      "ok": true
+    },
+    {
+      "test": "source_services_not_stopped",
+      "ok": true
+    }
+  ],
+  "test_job_unloaded": true,
+  "desktop_notifications_disabled_for_test": true
+}

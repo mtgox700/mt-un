@@ -1,0 +1,29 @@
+{
+  "id": "d11c4f1f-fda1-4d92-801d-eca7646ea64c",
+  "error": null,
+  "parts": [
+    {
+      "audio": "25ea0304-b064-467d-889e-ce689cf8ca98",
+      "result": {
+        "model": "ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66",
+        "engine": "faster-whisper/1.2.1",
+        "segments": [
+          {
+            "text": "Cette réunion est entièrement fictive, nous décidons de préparer le dossier vendredi,",
+            "endMs": 5120,
+            "startMs": 0
+          },
+          {
+            "text": "le prochain rendez vous et fixez à l'indice.",
+            "endMs": 7360,
+            "startMs": 5120
+          }
+        ]
+      },
+      "offsetMs": 0
+    }
+  ],
+  "state": "done",
+  "total": 1,
+  "completed": 1
+}

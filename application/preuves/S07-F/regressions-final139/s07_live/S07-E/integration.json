@@ -1,0 +1,178 @@
+{
+  "passed": true,
+  "count": 43,
+  "checks": [
+    {
+      "test": "login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "mfa",
+      "ok": true
+    },
+    {
+      "test": "login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "mfa",
+      "ok": true
+    },
+    {
+      "test": "login",
+      "ok": true
+    },
+    {
+      "test": "aal1_live_denied",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "mfa",
+      "ok": true
+    },
+    {
+      "test": "group",
+      "ok": true
+    },
+    {
+      "test": "recipient_unread",
+      "ok": true
+    },
+    {
+      "test": "author_no_unread",
+      "ok": true
+    },
+    {
+      "test": "outsider_no_notices",
+      "ok": true
+    },
+    {
+      "test": "outsider_no_live_metadata",
+      "ok": true
+    },
+    {
+      "test": "notice_reference_only",
+      "ok": true
+    },
+    {
+      "test": "cannot_read_hidden",
+      "ok": true
+    },
+    {
+      "test": "read_ack",
+      "ok": true
+    },
+    {
+      "test": "notices_clear",
+      "ok": true
+    },
+    {
+      "test": "new_unread",
+      "ok": true
+    },
+    {
+      "test": "old_read_no_regression",
+      "ok": true
+    },
+    {
+      "test": "future_read_denied",
+      "ok": true
+    },
+    {
+      "test": "invalid_read_input",
+      "ok": true
+    },
+    {
+      "test": "sse_authenticated",
+      "ok": true
+    },
+    {
+      "test": "sse_retry",
+      "ok": true
+    },
+    {
+      "test": "sse_state",
+      "ok": true
+    },
+    {
+      "test": "open_channel_new_message",
+      "ok": true
+    },
+    {
+      "test": "stream_not_user_activity",
+      "ok": true
+    },
+    {
+      "test": "resume_authoritative_snapshot",
+      "ok": true
+    },
+    {
+      "test": "historic_focus_preserved",
+      "ok": true
+    },
+    {
+      "test": "remove_member",
+      "ok": true
+    },
+    {
+      "test": "open_channel_revoked_thread_empty",
+      "ok": true
+    },
+    {
+      "test": "no_revoked_text",
+      "ok": true
+    },
+    {
+      "test": "departed_notices_empty",
+      "ok": true
+    },
+    {
+      "test": "reinvite_no_old_counts",
+      "ok": true
+    },
+    {
+      "test": "reinvite_new_unread",
+      "ok": true
+    },
+    {
+      "test": "permission_revokes_channel",
+      "ok": true
+    },
+    {
+      "test": "foreign_origin_denied",
+      "ok": true
+    },
+    {
+      "test": "cross_site_denied",
+      "ok": true
+    },
+    {
+      "test": "anonymous_stream_denied",
+      "ok": true
+    },
+    {
+      "test": "expired_stream_closed",
+      "ok": true
+    },
+    {
+      "test": "connections_released",
+      "ok": true
+    },
+    {
+      "test": "reads_private",
+      "ok": true
+    }
+  ]
+}

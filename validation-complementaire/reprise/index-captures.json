@@ -1,0 +1,82 @@
+[
+  {
+    "id": "001-mobile-supervision",
+    "label": "mobile-supervision"
+  },
+  {
+    "id": "002-mobile-organisations",
+    "label": "mobile-organisations"
+  },
+  {
+    "id": "003-mobile-utilisateurs",
+    "label": "mobile-utilisateurs"
+  },
+  {
+    "id": "004-mobile-cles-ia",
+    "label": "mobile-cles-ia"
+  },
+  {
+    "id": "005-mobile-editeur",
+    "label": "mobile-editeur"
+  },
+  {
+    "id": "006-mobile-abonnements",
+    "label": "mobile-abonnements"
+  },
+  {
+    "id": "007-mobile-audit",
+    "label": "mobile-audit"
+  },
+  {
+    "id": "008-tablette-audit",
+    "label": "tablette-audit"
+  },
+  {
+    "id": "009-tablette-filtre-suspendu",
+    "label": "tablette-filtre-suspendu"
+  },
+  {
+    "id": "010-tablette-filtre-invitation",
+    "label": "tablette-filtre-invitation"
+  },
+  {
+    "id": "011-tablette-filtre-actif",
+    "label": "tablette-filtre-actif"
+  },
+  {
+    "id": "012-tablette-recherche-vide",
+    "label": "tablette-recherche-vide"
+  },
+  {
+    "id": "013-tablette-Supervision",
+    "label": "tablette-Supervision"
+  },
+  {
+    "id": "014-tablette-Organisations",
+    "label": "tablette-Organisations"
+  },
+  {
+    "id": "015-tablette-Cl-s-API-IA",
+    "label": "tablette-Cl-s-API-IA"
+  },
+  {
+    "id": "016-tablette--diteur-de-l-application",
+    "label": "tablette--diteur-de-l-application"
+  },
+  {
+    "id": "017-tablette-Abonnements-et-paiements",
+    "label": "tablette-Abonnements-et-paiements"
+  },
+  {
+    "id": "018-paysage-audit",
+    "label": "paysage-audit"
+  },
+  {
+    "id": "019-audit-export-toast",
+    "label": "audit-export-toast"
+  },
+  {
+    "id": "020-memoire-apres-reconnexion",
+    "label": "memoire-apres-reconnexion"
+  }
+]

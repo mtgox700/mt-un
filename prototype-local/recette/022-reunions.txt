@@ -1,0 +1,111 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button Réduire le menu
+			68 button Accueil
+				69 image
+				70 text Accueil
+			8 button Assistant
+				9 image
+				10 text Assistant
+			77 button Dossiers
+				78 image
+				79 text Dossiers
+			14 button Messages
+				15 image
+				16 text Messages
+			80 button Agenda
+				81 image
+				82 text Agenda
+			86 button Réunions
+				87 image
+				88 text Réunions
+			83 button Documents
+				84 image
+				85 text Documents
+			26 button Formations
+				27 image
+				28 text Formations
+			29 button Communication
+				30 image
+				31 text Communication
+			32 button Application mobile
+				33 image
+				34 text Application mobile
+			35 button Adhérents
+				36 image
+				37 text Adhérents
+			38 button Intranet
+				39 image
+				40 text Intranet
+			41 button Reporting
+				42 image
+				43 text Reporting
+			44 button Raccourcis
+				45 image
+				46 text Raccourcis
+			89 button Réglages
+				90 image
+				91 text Réglages
+			50 text ASSISTANT IA Une question de droit ?
+			51 button Ouvrir le chat
+			52 button SM Sophie Marchand Déléguée syndicale
+				53 text SM
+				54 text Sophie Marchand
+				55 text Déléguée syndicale
+			56 button Se déconnecter
+		57 container
+			74 button ← Retour
+			58 image
+			59 text field (settable)
+			60 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+				92 text unii
+				93 text 2
+			63 button
+				64 image
+			65 button Se déconnecter
+				66 image
+		67 container
+			94 text UNII SUGGÈRE
+			95 button PV en relecture · Deuxième séance de négociation
+			96 button PV à rédiger · Visite de site — atelier peinture
+			97 text SÉANCES & PROCÈS-VERBAUX
+			98 heading Réunions, Value: 1
+				99 text Réunions
+			100 text 3 séances au registre · 2 PV en cours, 2 enregistrements en attente de destruction
+			101 button Enregistrer une réunion Dictaphone avec marqueurs de séance. Consentement des participants demandé avant le premier octet.
+				102 text Enregistrer une réunion
+				103 text Dictaphone avec marqueurs de séance. Consentement des participants demandé avant le premier octet.
+			104 text Importer un enregistrement Fichier du dictaphone, de la visio ou de la salle. Chiffré sur l'appareil, même règle de destruction. Choisir un fichier audio
+			105 button Choisir un fichier audio
+			106 heading TOUTES LES RÉUNIONS, Value: 2
+				107 text TOUTES LES RÉUNIONS
+			108 text 3 séances
+			109 button CSE ORDINAIRE 26 août 2026 · 14 h 00 · 1 h 52 Réunion ordinaire du 26 août Audio détruit — PV archivé APPROUVÉ
+				110 text CSE ORDINAIRE
+				111 text 26 août 2026 · 14 h 00
+				112 text  · 
+				113 text 1 h 52
+				114 text Réunion ordinaire du 26 août
+				115 text Audio détruit — PV archivé
+				116 text APPROUVÉ
+			117 button RÉUNION NAO 12 août 2026 · 09 h 30 · 2 h 07 Deuxième séance de négociation Audio conservé — destruction dans 12 j EN RELECTURE
+				118 text RÉUNION NAO
+				119 text 12 août 2026 · 09 h 30
+				120 text  · 
+				121 text 2 h 07
+				122 text Deuxième séance de négociation
+				123 text Audio conservé — destruction dans 12 j
+				124 text EN RELECTURE
+			125 button CSSCT 29 juillet 2026 · 10 h 00 · 58 min Visite de site — atelier peinture Audio conservé — destruction dans 3 j À RÉDIGER
+				126 text CSSCT
+				127 text 29 juillet 2026 · 10 h 00
+				128 text  · 
+				129 text 58 min
+				130 text Visite de site — atelier peinture
+				131 text Audio conservé — destruction dans 3 j
+				132 text À RÉDIGER
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

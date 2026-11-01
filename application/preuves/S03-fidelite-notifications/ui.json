@@ -1,0 +1,50 @@
+[
+  {
+    "format": "mobile",
+    "noticeOpensDocument": true
+  },
+  {
+    "format": "mobile",
+    "downloadWithoutPermissionDenied": true
+  },
+  {
+    "format": "tablette",
+    "noticeOpensDocument": true
+  },
+  {
+    "format": "tablette",
+    "downloadWithoutPermissionDenied": true
+  },
+  {
+    "format": "desktop",
+    "noticeOpensDocument": true
+  },
+  {
+    "format": "desktop",
+    "downloadWithoutPermissionDenied": true
+  },
+  {
+    "format": "desktop",
+    "exportAllowed": true
+  },
+  {
+    "format": "tablette",
+    "exportAllowed": true
+  },
+  {
+    "format": "mobile",
+    "exportAllowed": true
+  },
+  {
+    "format": "mobile",
+    "markAllReadAllowed": true
+  },
+  {
+    "format": "tablette",
+    "markAllReadAllowed": true
+  },
+  {
+    "format": "desktop",
+    "markAllReadAllowed": true
+  }
+]

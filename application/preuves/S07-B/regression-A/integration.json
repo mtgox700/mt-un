@@ -1,0 +1,194 @@
+{
+  "passed": true,
+  "count": 47,
+  "checks": [
+    {
+      "test": "author_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "recipient_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "third_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_denied",
+      "ok": true
+    },
+    {
+      "test": "third_mfa_enroll",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "anonymous_denied",
+      "ok": true
+    },
+    {
+      "test": "empty_initial_list",
+      "ok": true
+    },
+    {
+      "test": "participants_real",
+      "ok": true
+    },
+    {
+      "test": "conversation_created",
+      "ok": true
+    },
+    {
+      "test": "create_retry_same_id",
+      "ok": true
+    },
+    {
+      "test": "recipient_same_conversation",
+      "ok": true
+    },
+    {
+      "test": "message_persisted",
+      "ok": true
+    },
+    {
+      "test": "recipient_reads",
+      "ok": true
+    },
+    {
+      "test": "retry_no_duplicate",
+      "ok": true
+    },
+    {
+      "test": "changed_retry_denied",
+      "ok": true
+    },
+    {
+      "test": "third_list_hidden",
+      "ok": true
+    },
+    {
+      "test": "third_get_denied",
+      "ok": true
+    },
+    {
+      "test": "third_send_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_get_denied",
+      "ok": true
+    },
+    {
+      "test": "foreign_participant_denied",
+      "ok": true
+    },
+    {
+      "test": "forged_author_denied",
+      "ok": true
+    },
+    {
+      "test": "private_tables_denied",
+      "ok": true
+    },
+    {
+      "test": "direct_rpc_third_denied",
+      "ok": true
+    },
+    {
+      "test": "concurrent_single_message",
+      "ok": true
+    },
+    {
+      "test": "reply_same_thread",
+      "ok": true
+    },
+    {
+      "test": "reply_missing_denied",
+      "ok": true
+    },
+    {
+      "test": "page_bound",
+      "ok": true
+    },
+    {
+      "test": "pagination_stable",
+      "ok": true
+    },
+    {
+      "test": "reconnect",
+      "ok": true
+    },
+    {
+      "test": "relogin",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "persistent_after_reconnect",
+      "ok": true
+    },
+    {
+      "test": "read_without_write",
+      "ok": true
+    },
+    {
+      "test": "write_permission_denied",
+      "ok": true
+    },
+    {
+      "test": "disabled_denied",
+      "ok": true
+    },
+    {
+      "test": "expired_entitlement_denied",
+      "ok": true
+    },
+    {
+      "test": "suspended_denied",
+      "ok": true
+    },
+    {
+      "test": "departed_hidden",
+      "ok": true
+    },
+    {
+      "test": "departed_get_denied",
+      "ok": true
+    },
+    {
+      "test": "reinvited_no_history",
+      "ok": true
+    },
+    {
+      "test": "old_reply_denied",
+      "ok": true
+    },
+    {
+      "test": "new_period_message",
+      "ok": true
+    },
+    {
+      "test": "new_period_only",
+      "ok": true
+    },
+    {
+      "test": "admin_nonparticipant_denied",
+      "ok": true
+    }
+  ]
+}

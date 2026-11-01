@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "physical_devices": false,
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "horizontal_overflow_observed": false,
+  "scenarios": [
+    "Notification et compteur reçus sans rechargement",
+    "Ouverture du message depuis la notification",
+    "Tout marquer comme lu depuis le mobile",
+    "Message ajouté au fil déjà ouvert via le second acteur HTTP",
+    "Retrait de participation : fil et compteurs effacés spontanément",
+    "Réinvitation : discussion vide sans ancien historique",
+    "Reprise de session après redémarrage local"
+  ],
+  "reference": "preuves/S03-fidelite-notifications/notifications-desktop.png"
+}

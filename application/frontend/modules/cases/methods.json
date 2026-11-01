@@ -1,0 +1,6 @@
+[
+  {
+    "name": "patchDossier",
+    "code": "patchDossier(idOrPatch, value) {\n    const id = typeof idOrPatch === 'string' ? idOrPatch : this.state.dossierId;\n    const patch = typeof idOrPatch === 'string' ? value : idOrPatch;\n    if (!patch || typeof patch !== 'object') return;\n    this.setState((s) => ({\n      dossiers: s.dossiers.map(function (d) { return d.id === id ? Object.assign({}, d, patch) : d; })\n    }));\n  }"
+  }
+]

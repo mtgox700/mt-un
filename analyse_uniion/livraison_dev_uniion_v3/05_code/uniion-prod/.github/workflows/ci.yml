@@ -1,0 +1,104 @@
+name: ci
+on:
+  push: { branches: [main], tags: ['v*'] }
+  pull_request:
+
+jobs:
+  secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: gitleaks/gitleaks-action@v2
+        env: { GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+
+  base:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: supabase/setup-cli@v1
+        with: { version: latest }
+      - run: supabase start -x studio,imgproxy,inbucket,vector,logflare
+      - name: Migrations depuis zéro
+        run: supabase db reset
+      - name: Tests de cloisonnement (pgTAP)
+        run: supabase test db
+      - name: Aucune table sans RLS
+        run: |
+          n=$(psql "postgresql://postgres:postgres@127.0.0.1:54322/postgres" -Atc \
+            "select count(*) from pg_tables where schemaname='public' and not rowsecurity")
+          test "$n" = "0" || { echo "$n table(s) sans RLS"; exit 1; }
+      - name: Aucun droit anon sur public
+        run: |
+          n=$(psql "postgresql://postgres:postgres@127.0.0.1:54322/postgres" -Atc \
+            "select count(*) from information_schema.role_table_grants where grantee='anon' and table_schema='public'")
+          test "$n" = "0" || { echo "anon a $n droit(s)"; exit 1; }
+
+  fonctions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with: { deno-version: v2.x }
+      - run: deno lint supabase/functions
+      - run: deno check supabase/functions/*/index.ts
+      - name: Textes piégés (masquage) et corpus
+        run: deno test supabase/functions/_shared/
+      - name: Corpus vérifié par un juriste (version de production)
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: deno test supabase/functions/_shared/corpus.test.ts
+        env: { UNIION_ENV: production }
+
+  front:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: front } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: front/package-lock.json }
+      - run: npm ci
+      - run: npm run lint
+      - name: Build + garde-fou (secrets, appels tiers, budget)
+        run: npm run build
+        env:
+          VITE_SUPABASE_URL: https://api.exemple.invalid
+          VITE_SUPABASE_ANON_KEY: ci
+      - name: Intégrité de l'extension Studio (SRI)
+        run: echo "sha384-$(openssl dgst -sha384 -binary dist/ext/uniion-studio-1.2.0.js | openssl base64 -A)"
+
+  # main → recette (automatique) ; étiquette v* → production (approbation manuelle).
+  # Les variables et secrets sont portés par chaque environnement GitHub (recette, production).
+  deploiement:
+    if: github.event_name == 'push'
+    needs: [secrets, base, fonctions, front]
+    runs-on: ubuntu-latest
+    environment: ${{ startsWith(github.ref, 'refs/tags/v') && 'production' || 'recette' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: supabase/setup-cli@v1
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: cd front && npm ci && npm run build
+        env:
+          VITE_SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ vars.SUPABASE_ANON_KEY }}
+          VITE_EXT_CLE_PUBLIQUE: ${{ vars.EXT_CLE_PUBLIQUE }}
+      - name: Clé SSH
+        run: |
+          install -m 700 -d ~/.ssh
+          echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/id_ed25519 && chmod 600 ~/.ssh/id_ed25519
+          echo "${{ vars.VPS_HOST_KEY }}" > ~/.ssh/known_hosts
+      - name: Migrations (tunnel SSH, jamais de port Postgres public)
+        run: |
+          ssh -fN -L 54329:127.0.0.1:5432 deploy@${{ vars.VPS_HOST }}
+          supabase db push --db-url "postgresql://postgres.uniion:${{ secrets.POSTGRES_PASSWORD }}@127.0.0.1:54329/postgres"
+      - name: Fonctions et front
+        run: |
+          rsync -az --delete --filter='P main/' supabase/functions/ deploy@${{ vars.VPS_HOST }}:/srv/uniion/functions/
+          rsync -az --delete front/dist/ deploy@${{ vars.VPS_HOST }}:/srv/uniion/front-next/
+          ssh deploy@${{ vars.VPS_HOST }} 'cd /srv/uniion && rm -rf front-prev && mv front front-prev && mv front-next front && cd supabase && docker compose restart functions'
+      # Retour arrière : ssh deploy@vps 'cd /srv/uniion && mv front front-bad && mv front-prev front'
+      - name: Sonde de santé après déploiement
+        run: |
+          sleep 15
+          curl -fsS -m 20 -H "x-sante: ${{ secrets.SANTE_JETON }}" https://api.${{ vars.DOMAINE }}/functions/v1/sante

@@ -1,0 +1,1755 @@
+{
+  "count": 44,
+  "passed": true,
+  "scope": "Recette fictive locale ; qualité observée sur les exemples conservés, pas une garantie générale de justesse. Les résultats de vote et indicateurs absents ne sont pas inventés.",
+  "actions": [
+    {
+      "action": "acc-week",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Point de la semaine\n\nPérimètre et limites\nLa date de lecture indiquée est le 2026-10-31. L’extrait ne couvre que les dossiers sans source classée, les réunions autorisées et les événements visibles. Il ne permet donc pas un bilan exhaustif ; une absence dans cet extrait n’atteste pas l’absence de travail. Période exacte de la semaine à couvrir : [à compléter].\n\nÉchéances\n• « Dossier fictif » : statut « todo », avec pour description « Préparation des horaires fictifs du mardi. » L’échéance est indiquée uniquement comme « Mardi ». Date précise, responsable et état d’avancement : [à compléter]. Ne pas assimiler cette échéance au 2026-11-03 sans confirmation.\n\nDossiers urgents\nAucun niveau d’urgence n’est renseigné dans l’extrait. Le « Dossier fictif » est à examiner en raison de son échéance mentionnée, mais son caractère urgent reste à confirmer. Autres dossiers urgents, éventuels blocages et conséquences d’un retard : [à compléter].\n\nRéunions à préparer\n• L’agenda mentionne une « Réunion fictive » le 2026-11-03, de 10:00 à 11:00, en « Salle fictive ».\n• La liste des réunions mentionne également une « Réunion fictive sur les horaires du mardi » à la date du 2026-11-03, sans description ni échéance renseignée. Le lien entre ces deux entrées n’est pas établi par la source.\n• Suggestions de préparation : confirmer s’il s’agit de la même réunion, préciser l’objectif, les participants et les documents attendus, puis préparer les points relatifs aux horaires du mardi si ce sujet est confirmé. Ordre du jour, participants et documents disponibles : [à compléter].\n\nLes trois priorités du jour — propositions à confirmer\n1. Clarifier la date exacte de l’échéance « Mardi », le responsable et l’avancement du « Dossier fictif » afin d’évaluer son urgence.\n2. Confirmer le lien entre les deux entrées de réunion et réunir les éléments de préparation nécessaires.\n3. Compléter le périmètre du bilan avec les échéances, dossiers urgents et réunions non couverts par cet extrait, auprès des interlocuteurs habilités.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "\"dateDeLecture\": \"2026-10-31\"",
+          "title": "S08 E complet — contexte fictif",
+          "kind": "workspace",
+          "version": "1",
+          "location": "description"
+        },
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Espace uniion : droits de modules et de ressources distincts. Extrait limité aux dossiers sans source classée et aux réunions autorisés, ainsi qu’aux événements visibles. Une absence n’atteste pas l’absence de travail.",
+          "title": "S08 E complet — contexte fictif",
+          "kind": "workspace",
+          "version": "1",
+          "location": "description"
+        },
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "{\"date\": null, \"titre\": \"Dossier fictif\", \"module\": \"dossiers\", \"statut\": \"todo\", \"version\": 1, \"echeance\": \"Mardi\", \"description\": \"Préparation des horaires fictifs du mardi.\"}",
+          "title": "S08 E complet — contexte fictif",
+          "kind": "workspace",
+          "version": "1",
+          "location": "description"
+        },
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "{\"fin\": \"11:00\", \"date\": \"2026-11-03\", \"lieu\": \"Salle fictive\", \"debut\": \"10:00\", \"titre\": \"Réunion fictive\"}",
+          "title": "S08 E complet — contexte fictif",
+          "kind": "workspace",
+          "version": "1",
+          "location": "description"
+        },
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "{\"date\": \"2026-11-03\", \"titre\": \"Réunion fictive sur les horaires du mardi\", \"module\": \"reunions\", \"statut\": null, \"version\": 1, \"echeance\": null, \"description\": \"\"}",
+          "title": "S08 E complet — contexte fictif",
+          "kind": "workspace",
+          "version": "1",
+          "location": "description"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-corrections-1.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "acc-first",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — aucune action exécutée.\n\nPriorité suggérée aujourd’hui : commencer la préparation des horaires fictifs du mardi dans le « Dossier fictif ». Justification factuelle : ce dossier porte le statut « todo », mentionne l’échéance « Mardi » et concerne la préparation de ces horaires. Une réunion sur les horaires du mardi est également indiquée au 2026-11-03. Ce rapprochement motive la suggestion, sans établir que le dossier doit être terminé avant cette réunion.\n\nPremière action concrète proposée : rédiger dans un brouillon une courte liste des horaires à préparer, en laissant chaque horaire inconnu sous la forme [à compléter]. Avant de fixer un ordre de travail définitif, préciser la date exacte correspondant à l’échéance « Mardi », les horaires attendus et les éléments déjà préparés : [à compléter].\n\nLimite : l’extrait fourni est partiel et précise qu’une absence n’atteste pas l’absence de travail. Cette priorité est donc une proposition fondée sur les seuls éléments visibles, et non une comparaison exhaustive de toutes les tâches.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "{\"date\": null, \"titre\": \"Dossier fictif\", \"module\": \"dossiers\", \"statut\": \"todo\", \"version\": 1, \"echeance\": \"Mardi\", \"description\": \"Préparation des horaires fictifs du mardi.\"}",
+          "title": "S08 E complet — contexte fictif",
+          "kind": "workspace",
+          "version": "1",
+          "location": "description"
+        },
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "{\"date\": \"2026-11-03\", \"titre\": \"Réunion fictive sur les horaires du mardi\", \"module\": \"reunions\", \"statut\": null, \"version\": 1, \"echeance\": null, \"description\": \"\"}",
+          "title": "S08 E complet — contexte fictif",
+          "kind": "workspace",
+          "version": "1",
+          "location": "description"
+        },
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Espace uniion : droits de modules et de ressources distincts. Extrait limité aux dossiers sans source classée et aux réunions autorisés, ainsi qu’aux événements visibles. Une absence n’atteste pas l’absence de travail.",
+          "title": "S08 E complet — contexte fictif",
+          "kind": "workspace",
+          "version": "1",
+          "location": "description"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-corrections-1.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "dos-next",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Proposition de suite, sans action exécutée.\n\nFaits disponibles : le dossier porte sur la « Préparation des horaires fictifs du mardi ». Sa création est enregistrée le 31/10/2026 à 08:18. Les sources ne précisent ni le mardi concerné, ni les horaires attendus, ni les personnes compétentes, ni une échéance.\n\nÉtapes proposées : les rôles ci-dessous sont à confirmer. Aucun délai chiffré n’étant fourni, les échéances restent à compléter ; l’ordre indiqué est une suggestion.\n\n1. Clarifier la demande. Responsable proposé : personne à l’origine de la demande, identité [à compléter]. Préciser le mardi concerné, le périmètre des horaires fictifs et le résultat attendu. Délai proposé : avant la préparation du projet ; échéance [à compléter].\n\n2. Réunir les éléments nécessaires. Responsable proposé : personne chargée de préparer les horaires, identité [à compléter]. Recenser les créneaux, contraintes et destinataires prévus, en distinguant les informations confirmées des hypothèses. Délai proposé : après clarification et avant rédaction ; échéance [à compléter].\n\n3. Préparer une version de travail. Responsable proposé : personne chargée de préparer les horaires, à confirmer. Rédiger les horaires fictifs avec la mention « brouillon » et signaler les informations encore manquantes. Délai proposé : après réception des éléments nécessaires ; échéance [à compléter].\n\n4. Organiser la relecture. Responsable proposé : personne compétente pour relire, identité et rôle [à compléter]. Vérifier la cohérence avec la demande et relever les corrections nécessaires, sans envoi ni publication dans le cadre de cette proposition. Délai proposé : après rédaction du brouillon ; échéance [à compléter].\n\nÀ compléter pour rendre ce suivi opérationnel : responsables nommés, mardi concerné, données horaires, critères de relecture et échéance de chaque étape. La source ne permet pas de fixer des délais calendaires.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Préparation des horaires fictifs du mardi.",
+          "title": "Dossier fictif",
+          "kind": "case",
+          "version": "1",
+          "location": "description"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "31/10/2026 08:18 · Dossier créé · Création enregistrée.",
+          "title": "Dossier fictif",
+          "kind": "case",
+          "version": "1",
+          "location": "historique/1"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-corrections-1.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "dos-sum",
+      "status": 200,
+      "persistent": true,
+      "text": "31/10/2026 à 08:18 : création du dossier enregistrée.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "31/10/2026 08:18 · Dossier créé · Création enregistrée.",
+          "title": "Dossier fictif",
+          "kind": "case",
+          "version": "1",
+          "location": "historique/1"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-corrections-1.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "dos-delais",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Identification des délais et échéances\n\nFaits fournis : le dossier concerne la « Préparation des horaires fictifs du mardi. ». Sa création est enregistrée le 31/10/2026 à 08:18. Cette date constitue uniquement un repère documentaire ; les sources ne permettent pas de la considérer comme le point de départ d’un délai légal ou conventionnel.\n\nDélais applicables : [à compléter]. Aucun délai légal ou conventionnel ni aucune échéance ne peut être identifié à partir des seuls éléments fournis. Aucune référence juridique n’est indiquée.\n\nInformations manquantes pour poursuivre l’analyse :\n— pays et régime juridique applicables : [à compléter] ;\n— nature précise du dossier et de l’opération envisagée concernant les horaires : [à compléter] ;\n— convention collective, accord d’entreprise ou autre texte applicable, avec ses dispositions pertinentes : [à compléter] ;\n— date du mardi concerné et date envisagée de prise d’effet des horaires : [à compléter] ;\n— événements susceptibles de déclencher un délai et leurs justificatifs, notamment notification, communication ou consultation : [à compléter].\n\nSuggestions à vérifier : rechercher dans les textes applicables les éventuels délais de prévenance, de communication des horaires ou de consultation, selon la nature exacte du dossier. Pour chaque délai confirmé, renseigner sa source, son événement déclencheur, son mode de calcul et l’échéance correspondante. Aucune date limite ne doit être calculée sur la seule base de la création du dossier.\n\nÉchéances à surveiller : [à compléter après identification des textes et des faits déclencheurs]. Cette proposition d’analyse est à vérifier ; elle ne constitue pas une validation juridique.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Préparation des horaires fictifs du mardi.",
+          "title": "Dossier fictif",
+          "kind": "case",
+          "version": "1",
+          "location": "description"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "31/10/2026 08:18 · Dossier créé · Création enregistrée.",
+          "title": "Dossier fictif",
+          "kind": "case",
+          "version": "1",
+          "location": "historique/1"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-corrections-1.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "dos-mail",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — NON ENVOYÉ\n\nÀ l’attention de la direction [à compléter]\n\nObjet : Demande de précisions sur la préparation des horaires fictifs du mardi\n\nMadame, Monsieur,\n\nLe dossier mentionne la « Préparation des horaires fictifs du mardi. » Il comporte également une entrée datée du 31/10/2026 à 08:18 indiquant sa création.\n\nCes seuls éléments ne permettent pas d’identifier le mardi concerné, les horaires envisagés, les personnes concernées ni une éventuelle difficulté à résoudre : [à compléter]. Aucun manquement ne peut être établi sur cette base.\n\nJe vous demande de bien vouloir préciser par écrit le périmètre de cette préparation, le mardi concerné, les horaires proposés et leur statut, ainsi que les modalités de communication aux personnes concernées. Cette demande constitue une proposition à confirmer avant tout envoi, et non une démarche déjà effectuée.\n\nDélai de réponse proposé, à confirmer avant envoi : au plus tard le [à compléter]. Les sources ne fixent aucun délai de réponse et ne permettent pas d’en présenter un comme obligatoire.\n\nJe vous remercie de nous apporter une réponse précise sur chacun de ces points afin de clarifier le dossier.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n\n[Nom, qualité et coordonnées : à compléter]",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Préparation des horaires fictifs du mardi.",
+          "title": "Dossier fictif",
+          "kind": "case",
+          "version": "1",
+          "location": "description"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "31/10/2026 08:18 · Dossier créé · Création enregistrée.",
+          "title": "Dossier fictif",
+          "kind": "case",
+          "version": "1",
+          "location": "historique/1"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-corrections-1.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "dos-prio",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Classement provisoire proposé\n\nL’ordre ci-dessous est une suggestion d’organisation, non une urgence légale établie ni une validation juridique. Les sources ne permettent pas de départager les dossiers sur une urgence légale ou un enjeu humain démontré.\n\n• Priorité proposée en premier — S1, préparation des horaires fictifs du mardi : le sujet concerne des horaires, ce qui suggère de vérifier en premier les éventuelles contraintes des personnes ; aucune échéance légale ni conséquence humaine n’est documentée (S1, P1).\n• Priorité proposée ensuite — S2, préparation d’une réunion de travail : le texte porte sur une préparation sans décisions ni dates établies ; aucun élément fourni ne démontre une urgence légale ou un enjeu humain supérieur (S2, P1).\n\nÉléments manquants pour confirmer ou modifier ce classement : obligations et références juridiques applicables [à compléter] ; échéances contraignantes [à compléter] ; personnes concernées et conséquences concrètes d’un retard [à compléter] ; éventuels risques pour la santé, la sécurité ou les droits [à compléter]. Le passage S2 évoque une autre source sur les accès, mais celle-ci n’est pas fournie : cette affirmation ne peut pas être tenue pour établie ici. Toute appréciation juridique ultérieure restera une proposition à vérifier. Aucune action n’est exécutée.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Préparation des horaires fictifs du mardi.",
+          "title": "Dossier fictif",
+          "kind": "case",
+          "version": "1",
+          "location": "description"
+        },
+        {
+          "source": "S2",
+          "passage": "P1",
+          "quote": "Question : Dans notre organisation fictive, comment préparer une réunion de travail sans inventer de décisions ni de dates ?",
+          "title": "Dans notre organisation fictive, comment préparer une réunion de travail sans inventer de décisions",
+          "kind": "case",
+          "version": "1",
+          "location": "description"
+        },
+        {
+          "source": "S2",
+          "passage": "P1",
+          "quote": "La source ne permet d’en rapporter aucune.",
+          "title": "Dans notre organisation fictive, comment préparer une réunion de travail sans inventer de décisions",
+          "kind": "case",
+          "version": "1",
+          "location": "description"
+        },
+        {
+          "source": "S2",
+          "passage": "P1",
+          "quote": "La source décrit uniquement la séparation du contrôle des droits. Elle ne fournit ni objectif de réunion, ni liste de participants, ni disponibilités, ni documents de travail, ni décisions, ni échéances.",
+          "title": "Dans notre organisation fictive, comment préparer une réunion de travail sans inventer de décisions",
+          "kind": "case",
+          "version": "1",
+          "location": "description"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex-listes.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "reu-prep",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Aucune action exécutée\n\nRéunion : « Réunion fictive sur les horaires du mardi ».\nDate indiquée : 2026-11-03.\n\nPoint de l’ordre du jour : « Examiner les horaires fictifs ».\n\nFaits disponibles : la source indique le thème et la date de la réunion, mais ne décrit ni les horaires concernés ni une éventuelle modification.\n\nQuestions proposées à poser à la direction :\n1. Quels horaires précis sont soumis à examen, pour quelles équipes et quels jours, et quelles différences présentent-ils par rapport aux horaires actuellement appliqués ?\n2. Quels motifs et besoins justifient les horaires examinés, quels effets sont envisagés sur l’organisation du travail et selon quel calendrier leur éventuelle mise en œuvre serait-elle proposée ?\n\nDocuments proposés à demander :\n- Les tableaux des horaires actuellement appliqués et des horaires soumis à examen, avec le détail par équipe et par jour.\n- La note exposant les motifs, les besoins et les effets attendus de l’organisation envisagée.\n- Le calendrier prévisionnel et, si elles existent, les évaluations des conséquences sur les conditions de travail.\n\nInformations manquantes : horaires actuels et horaires examinés [à compléter] ; équipes et jours concernés [à compléter] ; existence et contenu d’une éventuelle modification [à compléter] ; motifs, effets attendus et calendrier [à compléter]. Les demandes ci-dessus sont des suggestions et ne présument pas que ces documents existent.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "date : 2026-11-03",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "date"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "ordre : [\"Examiner les horaires fictifs\"]",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "ordre"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "reu-dec",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Aucune action exécutée\n\nObjet : Réunion fictive sur les horaires du mardi.\nDate indiquée dans la source : 2026-11-03.\nOrdre du jour : « Examiner les horaires fictifs ».\n\nFAITS DISPONIBLES\nLes données fournies se limitent au titre, à la date et à l’ordre du jour. Elles ne contiennent aucun compte rendu des échanges, aucune délibération ni aucun relevé de conclusions. L’inscription d’un sujet à l’ordre du jour ne permet pas de conclure qu’il a été examiné ou qu’une décision a été prise.\n\nDÉCISIONS\n[à compléter] — Aucune décision n’est documentée dans les passages fournis. Il manque le contenu des décisions éventuelles et leur statut d’adoption.\n\nVOTES\n[à compléter] — Aucun vote n’est documenté. Il manque les propositions soumises au vote, les résultats et les modalités de vote éventuelles.\n\nENGAGEMENTS DE LA DIRECTION\n[à compléter] — Aucun engagement de la direction n’est documenté. Il manque la formulation des engagements éventuels, leurs responsables et leurs échéances.\n\nACTIONS À SUIVRE\nAucune action convenue en réunion ne peut être extraite des seules données disponibles.\n• Qui : [à compléter].\n• Quoi : [à compléter].\n• Quand : [à compléter].\n\nSUGGESTION POUR COMPLÉTER LE BROUILLON\nObtenir le compte rendu des échanges ou le relevé des décisions, votes et engagements, puis renseigner chaque action avec son responsable et son échéance. Cette suggestion n’est pas une décision de la réunion ni un engagement de la direction.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "date : 2026-11-03",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "date"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "ordre : [\"Examiner les horaires fictifs\"]",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "ordre"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "reu-salaries",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Résumé pour les salariés\n\n1. Sujet annoncé : la réunion fictive porte sur les horaires du mardi.\n2. Date indiquée : 2026-11-03. Les sources ne précisent pas si la réunion a eu lieu.\n3. Objectif annoncé : examiner les horaires fictifs. Aucun compte rendu des échanges n’est fourni.\n4. Décisions et conséquences pour les salariés : [à compléter]. Les sources ne permettent pas d’indiquer si des horaires ont été modifiés ni quels salariés seraient concernés.\n5. Suites prévues : [à compléter]. Aucune prochaine étape n’est documentée. Suggestion pour compléter ce brouillon : préciser les décisions éventuelles et leurs conséquences avant de le diffuser.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "date : 2026-11-03",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "date"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "ordre : [\"Examiner les horaires fictifs\"]",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "ordre"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "reu-pv",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON — PROJET DE PROCÈS-VERBAL À RELIRE\nAucune action exécutée.\n\nEN-TÊTE\nIntitulé fourni : Réunion fictive sur les horaires du mardi.\nDate indiquée dans les données : 2026-11-03. La tenue effective de la réunion reste à confirmer : [à compléter].\nLieu, heures d’ouverture et de clôture : [à compléter].\nInstance réunie : [à compléter].\nPrésidence et secrétariat de séance : [à compléter].\n\nPRÉSENTS\nPrésents et qualités : [à compléter].\nAbsents, excusés et personnes représentées : [à compléter].\nLes sources ne contiennent aucune liste de participants ni information sur les représentations.\n\nORDRE DU JOUR\nPoint fourni : « Examiner les horaires fictifs ».\nPrésentation du point : [à compléter].\nSynthèse des échanges et positions exprimées : [à compléter].\nPropositions examinées et éventuelles décisions : [à compléter].\nLes données fournies ne décrivent aucun échange ni aucune décision ; le présent brouillon ne permet donc pas d’en constater.\n\nVOTES\nExistence d’un vote : [à compléter].\nTexte exact de chaque proposition soumise au vote : [à compléter].\nModalités du scrutin et personnes habilitées à voter : [à compléter].\nRésultats — pour, contre, abstentions et autres catégories éventuellement applicables : [à compléter].\nConclusion du vote : [à compléter].\nAucun vote ni résultat n’est documenté dans les sources.\n\nQUESTIONS DIVERSES\nQuestions soulevées, échanges et suites éventuelles : [à compléter].\nLes sources ne permettent pas d’indiquer si des questions diverses ont été abordées.\n\nFINALISATION — SUGGESTIONS DE RÉDACTION\nFaire compléter les rubriques à partir des éléments de séance, puis soumettre le projet à relecture. Les modalités d’approbation et de signature restent à préciser : [à compléter]. Ces indications sont des suggestions, non des faits constatés ni une validation juridique.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "date : 2026-11-03",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "date"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "ordre : [\"Examiner les horaires fictifs\"]",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "ordre"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "doc-relire",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — aucune action exécutée\n\nPassage S1/P1 : « Les horaires fictifs seront examinés mardi. »\n\nFait fourni : le passage annonce un examen des horaires fictifs mardi. Il ne précise ni la date correspondant à ce mardi, ni les personnes chargées de cet examen, ni son objectif.\n\nClarté : « mardi » est ambigu sans date ou contexte. Le sens de « fictifs » mérite également d’être précisé : s’agit-il d’horaires proposés à titre d’exemple ou d’une simulation ? Ces interprétations sont des suggestions, non des faits établis.\n\nTon : la formulation est neutre. La voix passive peut toutefois rendre la responsabilité de l’examen peu claire. Une formulation active est suggérée si les personnes concernées sont connues.\n\nReformulation proposée : « Mardi [date à compléter], [personnes chargées de l’examen à compléter] examineront les horaires fictifs [sens de “fictifs” à compléter] afin de [objectif à compléter]. »",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Les horaires fictifs seront examinés mardi.",
+          "title": "Document fictif",
+          "kind": "document",
+          "version": "1",
+          "location": "bloc/1"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "doc-simpl",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE\n\nLes horaires fictifs seront examinés mardi.\n\nLa date précise du mardi concerné, les horaires examinés et les modalités de cet examen sont [à compléter] : ces informations ne figurent pas dans la source.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Les horaires fictifs seront examinés mardi.",
+          "title": "Document fictif",
+          "kind": "document",
+          "version": "1",
+          "location": "bloc/1"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "doc-risk",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Proposition d’analyse juridique à vérifier, sans validation.\n\nTexte examiné : « Les horaires fictifs seront examinés mardi. »\n\nPropos diffamatoires : aucun propos manifestement diffamatoire repéré dans cet extrait seul. Aucune personne n’y est désignée et aucun comportement répréhensible n’y est allégué. Correction proposée : aucune sur ce point, sous réserve du contexte manquant [à compléter].\n\nInformations confidentielles : le passage évoque des horaires et leur examen, mais ne permet pas de déterminer si cette information est confidentielle. Éléments manquants : nature des horaires, contexte et éventuelles restrictions de diffusion [à compléter]. Correction proposée si la confidentialité est confirmée : retirer la mention de l’examen de la version destinée à être diffusée.\n\nAffirmation à sourcer : l’examen annoncé pour « mardi » est présenté comme certain, sans justificatif fourni. Le caractère « fictif » des horaires est également une qualification non étayée au-delà du passage lui-même. Éléments manquants : confirmation de l’examen, date correspondant à « mardi » et confirmation de la nature fictive des horaires [à compléter].\n\nCorrection proposée, à adapter après vérification : « Un examen des horaires est envisagé, sous réserve de confirmation. Leur caractère fictif et la date de cet examen restent à confirmer [à compléter]. » Cette reformulation est une suggestion, non un fait établi par la source.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Les horaires fictifs seront examinés mardi.",
+          "title": "Document fictif",
+          "kind": "document",
+          "version": "1",
+          "location": "bloc/1"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "doc-idea",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Proposition de trois documents à produire ce mois-ci\n\nFait disponible : la source indique que « Les horaires fictifs seront examinés mardi. » La date exacte de ce mardi, les horaires concernés, les personnes chargées de l’examen et ses modalités sont [à compléter]. Aucun résultat ni aucune décision ne sont fournis.\n\nLes documents ci-dessous sont des suggestions, et non des productions ou des actions exécutées. Leur utilité relative reste à confirmer selon les besoins et le calendrier [à compléter].\n\n1. Note préparatoire à l’examen des horaires fictifs\nPublic proposé : personnes chargées de l’examen et personnes consultées [à compléter].\nMessage clé proposé : préciser les horaires à examiner, les questions à trancher et les informations nécessaires avant l’examen annoncé pour mardi.\nContenu suggéré : objet de l’examen, horaires concernés [à compléter], points à discuter [à compléter], contraintes et contributions attendues [à compléter].\n\n2. Synthèse de l’examen, à rédiger après sa tenue\nPublic proposé : personnes ayant participé à l’examen et responsables du suivi [à compléter].\nMessage clé proposé : distinguer ce qui a été discuté, ce qui reste ouvert et les éventuelles décisions effectivement prises.\nContenu suggéré : date réelle de l’examen [à compléter], participants [à compléter], constats [à compléter], décisions éventuelles [à compléter] et suites proposées [à compléter]. La source ne permet pas d’affirmer que l’examen a eu lieu ni qu’une décision a été prise.\n\n3. Fiche d’information sur les horaires fictifs\nPublic proposé : personnes concernées par ces horaires [à compléter].\nMessage clé proposé : expliquer clairement la situation connue et les points restant à confirmer, sans présenter une proposition comme une décision.\nContenu suggéré : horaires concernés [à compléter], statut après examen [à compléter], éventuels changements [à compléter], date d’application si elle est décidée [à compléter] et interlocuteur pour les questions [à compléter].\n\nLimite du brouillon : la seule source annonce un examen mardi. Elle ne permet pas de situer ce mardi dans le mois visé, de déterminer les publics réels ni de confirmer un besoin de communication. Le choix et le calendrier de ces trois documents sont donc des propositions à relire et à ajuster.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Les horaires fictifs seront examinés mardi.",
+          "title": "Document fictif",
+          "kind": "document",
+          "version": "1",
+          "location": "bloc/1"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex-listes.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "msg-sum",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE\n\nPoints clés — fait rapporté : le fil mentionne une réunion fictive mardi portant sur les horaires. La date exacte, les participants et les horaires concernés sont [à compléter].\n\nDécisions prises : aucune décision n’est indiquée dans le passage fourni. Les éventuelles décisions sont [à compléter].\n\nQuestions restées ouvertes : aucune question n’est explicitement formulée dans la source. Les points à trancher sont [à compléter].\n\nSuggestion de complément : préciser la date de la réunion, les horaires discutés et les éventuelles décisions ou questions en suspens. Ces éléments ne sont pas établis par la source.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Réunion fictive mardi sur les horaires.",
+          "title": "Message 1",
+          "kind": "message",
+          "version": "2026-10-31T07:18:17.326467+00:00",
+          "location": "message/1"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "msg-reply",
+      "status": 200,
+      "persistent": true,
+      "text": "Merci pour l’information concernant la réunion fictive de mardi sur les horaires. Pour préparer cet échange, je propose de préciser l’heure, le lieu et les points à aborder : [à compléter].",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Réunion fictive mardi sur les horaires.",
+          "title": "Message 1",
+          "kind": "message",
+          "version": "2026-10-31T07:18:17.326467+00:00",
+          "location": "message/1"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "ag-prep",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Préparation de la réunion\n\nFaits fournis\nLa réunion intitulée « Réunion fictive », de type « cse », est indiquée le 2026-11-03, de 10:00 à 11:00, en « Salle fictive ». Les notes prévoient d’« Examiner les horaires fictifs ». Les données fournies ne permettent pas de confirmer qu’il s’agit de la prochaine réunion de l’agenda : les autres entrées sont [à compléter].\n\nObjectifs proposés\n- Préciser les horaires fictifs à examiner et les questions auxquelles la réunion doit répondre.\n- Comparer la situation présentée avec les éventuelles modifications envisagées.\n- Identifier les informations manquantes et les suites à proposer, sans présumer d’une décision.\n\nDocuments à relire — suggestions, disponibilité à confirmer\nAucun document n’est joint aux données fournies. Prévoir, s’ils existent :\n- l’ordre du jour et la convocation : [à compléter] ;\n- les horaires concernés et leur présentation actuelle : [à compléter] ;\n- une éventuelle proposition de modification et ses motifs : [à compléter] ;\n- les comptes rendus antérieurs utiles : [à compléter].\n\nPoints de vigilance proposés\n- Clarifier le périmètre : quels horaires, quelles personnes ou équipes, quelles difficultés éventuelles ? Ces faits sont [à compléter].\n- Distinguer les informations établies, les hypothèses et les propositions.\n- Préciser le résultat attendu : échange d’informations, examen d’options ou autre objectif [à compléter]. Le type « cse » ne suffit pas à déterminer la procédure applicable.\n- Ne pas conclure à la conformité d’une procédure : le contexte, les documents applicables et les éventuelles références juridiques ne sont pas fournis. Toute analyse juridique ultérieure serait une proposition à vérifier, jamais une validation.\n\nQuestions suggérées pour la réunion\n- Quel problème l’examen des horaires doit-il permettre de traiter ?\n- Quelles options sont présentées et sur quels éléments reposent-elles ?\n- Quelles pièces ou précisions restent nécessaires avant de déterminer les suites ?\n\nCe brouillon ne constitue ni une convocation, ni un ordre du jour adopté, ni une action exécutée.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive",
+          "title": "Réunion fictive",
+          "kind": "agenda",
+          "version": "1",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "type : cse",
+          "title": "Réunion fictive",
+          "kind": "agenda",
+          "version": "1",
+          "location": "type"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "date : 2026-11-03",
+          "title": "Réunion fictive",
+          "kind": "agenda",
+          "version": "1",
+          "location": "date"
+        },
+        {
+          "source": "S1",
+          "passage": "P4",
+          "quote": "start : 10:00",
+          "title": "Réunion fictive",
+          "kind": "agenda",
+          "version": "1",
+          "location": "start"
+        },
+        {
+          "source": "S1",
+          "passage": "P5",
+          "quote": "end : 11:00",
+          "title": "Réunion fictive",
+          "kind": "agenda",
+          "version": "1",
+          "location": "end"
+        },
+        {
+          "source": "S1",
+          "passage": "P6",
+          "quote": "lieu : Salle fictive",
+          "title": "Réunion fictive",
+          "kind": "agenda",
+          "version": "1",
+          "location": "lieu"
+        },
+        {
+          "source": "S1",
+          "passage": "P7",
+          "quote": "notes : Examiner les horaires fictifs",
+          "title": "Réunion fictive",
+          "kind": "agenda",
+          "version": "1",
+          "location": "notes"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "ag-delais",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Rappel des délais pour la réunion à venir\n\nFaits issus des données fournies : une réunion de type « cse », intitulée « Réunion fictive », est indiquée pour le 2026-11-03, de 10:00 à 11:00, en Salle fictive.\n\nDélais de convocation et de transmission de l’ordre du jour : [à compléter]. Les sources fournies ne contiennent aucune règle de délai ni référence juridique permettant de déterminer les délais applicables. Aucune date limite ne peut donc être établie sur cette seule base.\n\nÉléments manquants : [à compléter] — cadre juridique et régime du CSE concerné, nature de la réunion, dispositions légales et conventionnelles applicables, éventuel accord ou règlement intérieur encadrant la convocation et l’ordre du jour, ainsi que dates et modalités des transmissions déjà réalisées.\n\nSuggestion à vérifier : réunir ces éléments pour distinguer le délai applicable à la convocation de celui applicable à la transmission de l’ordre du jour, puis déterminer leurs dates limites respectives. Toute analyse juridique qui en résulterait resterait une proposition à vérifier, et non une validation de conformité.\n\nCe brouillon ne constitue ni une convocation ni une transmission d’ordre du jour. Aucune action n’a été exécutée.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive",
+          "title": "Réunion fictive",
+          "kind": "agenda",
+          "version": "1",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "type : cse",
+          "title": "Réunion fictive",
+          "kind": "agenda",
+          "version": "1",
+          "location": "type"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "date : 2026-11-03",
+          "title": "Réunion fictive",
+          "kind": "agenda",
+          "version": "1",
+          "location": "date"
+        },
+        {
+          "source": "S1",
+          "passage": "P4",
+          "quote": "start : 10:00",
+          "title": "Réunion fictive",
+          "kind": "agenda",
+          "version": "1",
+          "location": "start"
+        },
+        {
+          "source": "S1",
+          "passage": "P5",
+          "quote": "end : 11:00",
+          "title": "Réunion fictive",
+          "kind": "agenda",
+          "version": "1",
+          "location": "end"
+        },
+        {
+          "source": "S1",
+          "passage": "P6",
+          "quote": "lieu : Salle fictive",
+          "title": "Réunion fictive",
+          "kind": "agenda",
+          "version": "1",
+          "location": "lieu"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "com-month",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Proposition de plan éditorial pour le mois prochain\nAucune publication ni programmation exécutée.\n\nFaits disponibles\nLa source décrit un seul contenu fictif : « Réunion fictive sur les horaires du mardi », daté du 2026-11-03, au format « Post réseau social », sur le canal « Application », avec pour objectif « Informer ». Le texte fourni invite à consulter son espace pour découvrir les informations disponibles. Il ne précise pas les horaires eux-mêmes.\n\nPlan proposé — quatre publications\nLes propositions complémentaires ci-dessous sont des suggestions éditoriales, et non des faits établis ou des contenus approuvés.\n\n• Publication A — Informations sur les horaires fictifs\nDate issue de la source : 2026-11-03 ; maintien au calendrier à confirmer.\nFormat issu de la source : Post réseau social.\nCanal issu de la source : Application.\nObjectif issu de la source : Informer.\nSuggestion : reprendre le texte fourni, après vérification des informations effectivement accessibles dans l’espace : « Consultez votre espace pour découvrir les informations disponibles. »\nÀ compléter : horaires concernés, public visé et accès à l’espace.\n\n• Publication B — Repères pratiques\nDate proposée : [à compléter].\nFormat suggéré : carrousel pédagogique.\nObjectif suggéré : faciliter la compréhension des horaires fictifs, une fois ceux-ci renseignés.\nAngle suggéré : présenter les informations essentielles et indiquer où les retrouver.\nÀ compléter : horaires, modalités utiles, canal et visuels.\n\n• Publication C — Questions et réponses\nDate proposée : [à compléter].\nFormat suggéré : publication FAQ.\nObjectif suggéré : clarifier les modalités de consultation des informations.\nAngle suggéré : expliquer comment accéder à l’espace et où demander une précision, sous réserve de confirmation de ces modalités.\nÀ compléter : questions pertinentes, réponses vérifiées, accès et contact éventuel. Aucune question récurrente n’est documentée dans la source.\n\n• Publication D — Rappel pratique\nDate proposée : [à compléter].\nFormat suggéré : publication courte accompagnée d’un visuel.\nObjectif suggéré : rappeler où consulter les informations disponibles.\nAngle suggéré : invitation concise à consulter l’espace, sans annoncer de changement d’horaires non documenté.\nÀ compléter : canal, destination exacte et contenu du visuel.\n\nLimites du brouillon\nLa source fournit une seule date. Les dates des autres publications restent donc à compléter : un calendrier entièrement daté ne peut pas être établi sans inventer de dates. L’espacement des publications, la pertinence des formats supplémentaires et la disponibilité des informations devront être confirmés à la relecture.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "communication",
+          "version": "2",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "date : 2026-11-03",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "communication",
+          "version": "2",
+          "location": "date"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "fmt : Post réseau social",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "communication",
+          "version": "2",
+          "location": "fmt"
+        },
+        {
+          "source": "S1",
+          "passage": "P4",
+          "quote": "canal : Application",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "communication",
+          "version": "2",
+          "location": "canal"
+        },
+        {
+          "source": "S1",
+          "passage": "P5",
+          "quote": "obj : Informer",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "communication",
+          "version": "2",
+          "location": "obj"
+        },
+        {
+          "source": "S1",
+          "passage": "P7",
+          "quote": "content : {\"appel\": \"\", \"corps\": \"Consultez votre espace pour découvrir les informations disponibles.\", \"titre\": \"Réunion fictive sur les horaires du mardi\", \"visuel\": \"\", \"accroche\": \"\"}",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "communication",
+          "version": "2",
+          "location": "content"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "com-reform",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Proposition de reformulation\n\nRéunion fictive sur les horaires du mardi\n\nRetrouvez les informations sur les horaires fictifs dans votre espace.\n\nPoint à vérifier : cette publication est la seule fournie ; son caractère le plus récent dans le plan reste à confirmer. Les horaires et l’emplacement précis de l’espace ne sont pas indiqués : [à compléter].",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "communication",
+          "version": "2",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P6",
+          "quote": "sujet : Informer sur les horaires fictifs",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "communication",
+          "version": "2",
+          "location": "sujet"
+        },
+        {
+          "source": "S1",
+          "passage": "P7",
+          "quote": "content : {\"appel\": \"\", \"corps\": \"Consultez votre espace pour découvrir les informations disponibles.\", \"titre\": \"Réunion fictive sur les horaires du mardi\", \"visuel\": \"\", \"accroche\": \"\"}",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "communication",
+          "version": "2",
+          "location": "content"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "mob-page",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — proposition de contenu\n\nRéunion fictive sur les horaires du mardi\n\nCette actualité a été modifiée après publication.\n\nHoraires et informations pratiques : [à compléter]. Les éléments fournis ne précisent ni les horaires, ni le lieu, ni les modalités de participation.\n\nAppel à l’action proposé : « Consulter les horaires » — destination du lien : [à compléter] avant publication.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "mobile",
+          "version": "5",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "type : Actualité",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "mobile",
+          "version": "5",
+          "location": "type"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "blocks : [[\"p\", \"Version modifiée après publication.\"]]",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "mobile",
+          "version": "5",
+          "location": "blocks"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "mob-short",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE\n\nRéunion fictive sur les horaires du mardi\n\nVersion modifiée après publication.\n\nInformations pratiques\n\nDate : [à compléter]\nLieu : [à compléter]\nContact : [à compléter]\n\nCes informations ne figurent pas dans les données fournies. Le contenu de la réunion et les horaires concernés sont également [à compléter].",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "mobile",
+          "version": "5",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "blocks : [[\"p\", \"Version modifiée après publication.\"]]",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "mobile",
+          "version": "5",
+          "location": "blocks"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "mob-push",
+      "status": 200,
+      "persistent": true,
+      "text": "Ouvrez l’application pour consulter cette actualité.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "type : Actualité",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "mobile",
+          "version": "5",
+          "location": "type"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "mob-check",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Corrections par ordre de priorité\n\nConstat préalable : la source contient un titre, un type de contenu et un seul paragraphe. Elle ne permet pas de relire une page complète. Les recommandations ci-dessous ne constituent ni une validation juridique ni une autorisation de publication.\n\nPriorité haute — Compléter le contenu à relire\nFait : le seul paragraphe fourni est « Version modifiée après publication. » Aucun compte rendu de réunion n’est fourni.\nCorrection proposée : transmettre le texte complet destiné à l’application FO, ainsi que les éventuelles images, légendes, pièces jointes et liens. Contenu manquant : [à compléter]. La vérification des données personnelles, des affirmations juridiques et du ton reste limitée aux éléments reçus.\n\nPriorité haute — Vérifier les données personnelles\nFait : aucun nom de personne ni aucune coordonnée n’apparaît dans les passages fournis. Cela ne permet pas de conclure sur les éléments absents.\nCorrection proposée : examiner le contenu complet pour repérer les informations permettant d’identifier une personne et proposer le retrait de celles qui ne sont pas nécessaires à l’information publiée. Données concernées et justification de leur présence : [à compléter]. Toute appréciation de conformité au RGPD reste une proposition à vérifier ; aucune référence juridique n’est fournie dans les sources.\n\nPriorité haute — Sourcer les affirmations juridiques\nFait : les passages fournis ne contiennent aucune affirmation juridique sur les horaires.\nCorrection proposée : si le texte complet affirme une obligation, une interdiction ou un droit, demander la source qui soutient précisément cette affirmation. Affirmations et références correspondantes : [à compléter]. Ne pas présenter une interprétation juridique comme acquise sans cette vérification.\n\nPriorité intermédiaire — Clarifier le statut de la version\nFait : le paragraphe indique « Version modifiée après publication. », alors que la demande porte sur une relecture avant publication. Cette mention ne prouve pas qu’une publication a effectivement eu lieu.\nCorrection proposée : préciser s’il s’agit d’une première publication ou d’une mise à jour. Statut réel : [à compléter]. Si la mention est inexacte, la supprimer ou la reformuler après confirmation, sans inventer de date ni d’historique.\n\nPriorité intermédiaire — Préserver un ton non nominatif\nFait : aucune attaque nominative n’apparaît dans les éléments transmis.\nCorrection proposée : vérifier que le contenu manquant décrit les faits et les positions sans mise en cause personnelle. Aucune correction nominative précise ne peut être proposée sur la base de ces seuls passages.\n\nPriorité de présentation — Rendre la page utile sur téléphone\nFait : le titre annonce une réunion fictive sur les horaires du mardi, mais le paragraphe ne donne aucune information sur cette réunion.\nCorrection proposée : conserver un titre court et ajouter un résumé, puis des paragraphes brefs ou des puces distinguant les sujets abordés, les décisions confirmées et les points restant ouverts. Informations correspondantes : [à compléter]. La lisibilité réelle dans l’application n’a pas été vérifiée.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "mobile",
+          "version": "5",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "blocks : [[\"p\", \"Version modifiée après publication.\"]]",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "mobile",
+          "version": "5",
+          "location": "blocks"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "mob-ideas",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Propositions uniquement, sans publication ni action exécutée.\n\nFaits disponibles : la source mentionne une « Réunion fictive sur les horaires du mardi », de type « Actualité », ainsi qu’une « Version modifiée après publication. ». Elle ne précise ni le contenu des échanges, ni les décisions, ni les modalités de réunion. Ces éléments fictifs ne permettent pas de décrire l’actualité réelle de l’organisation.\n\nCinq pages suggérées pour l’application mobile FO :\n\n1. Titre : « Horaires du mardi : point d’information »\nType de page : Actualité.\nPublic visé : adhérents et salariés concernés par les horaires — périmètre [à compléter].\nSuggestion : présenter le sujet et les informations confirmées. Faits manquants : horaires concernés, contexte, état du dossier et interlocuteurs [à compléter]. Ne pas présenter la réunion fictive comme un événement réel.\n\n2. Titre : « Réunions : agenda et préparation »\nType de page : Agenda / réunion.\nPublic visé : participants et représentants FO concernés — périmètre [à compléter].\nSuggestion : centraliser les modalités de participation et les sujets à préparer. Faits manquants : existence de réunions réelles, dates, lieux ou modalités à distance, ordre du jour et public invité [à compléter].\n\n3. Titre : « Dossier horaires : questions et réponses »\nType de page : Dossier / FAQ.\nPublic visé : salariés et adhérents recherchant des explications sur les horaires.\nSuggestion : regrouper les questions reçues et les réponses documentées. Faits manquants : questions effectivement remontées, règles applicables, documents de référence et positions de l’organisation [à compléter]. Toute éventuelle analyse juridique serait une proposition à vérifier, jamais une validation ; aucune référence juridique n’est fournie.\n\n4. Titre : « Suivi des informations mises à jour »\nType de page : Suivi / rectificatif.\nPublic visé : lecteurs des actualités de l’organisation.\nSuggestion : expliquer clairement les corrections apportées à une information. La source comporte une mention de modification après publication, sans préciser ce qui a changé. Faits manquants : publication concernée, contenu initial, modifications, motifs et date de mise à jour [à compléter]. Cette mention fictive ne prouve pas qu’une publication réelle a été corrigée.\n\n5. Titre : « À suivre : dossiers et prochaines informations FO »\nType de page : Programme éditorial.\nPublic visé : adhérents et lecteurs souhaitant suivre les prochains contenus.\nSuggestion : proposer une vue des sujets à traiter, en distinguant les contenus envisagés des rendez-vous confirmés. Faits manquants : dossiers prioritaires, calendrier éditorial, responsables de contenu et réunions confirmées [à compléter].\n\nLimite générale : les sources ne permettent pas d’établir les priorités réelles de l’organisation. Ces cinq propositions constituent une trame éditoriale à relire et à compléter, non un programme de publication validé.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "mobile",
+          "version": "5",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "type : Actualité",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "mobile",
+          "version": "5",
+          "location": "type"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "blocks : [[\"p\", \"Version modifiée après publication.\"]]",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "mobile",
+          "version": "5",
+          "location": "blocks"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "fm-reco",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Recommandations proposées, non exécutées.\n\nFaits fournis : votre rôle est « Élu », votre niveau est « Débutant », le thème est « Préparer une réunion fictive » et votre objectif est de formuler un ordre du jour. Le champ « dur » indique une durée de 30 minutes.\n\nDeux formations suggérées, par ordre d’utilité :\n\n• « Construire un ordre du jour clair » — Intitulé proposé, et non formation identifiée dans un catalogue. Cette formation viserait à transformer les sujets à traiter en points ordonnés, avec un objectif explicite pour chacun. Elle répond directement à votre objectif de formuler un ordre du jour et pourrait être adaptée à un niveau débutant.\n\n• « Préparer une réunion dans son rôle d’élu » — Intitulé proposé, et non formation identifiée dans un catalogue. Cette formation viserait à préparer les sujets, les documents utiles et les interventions envisagées. Elle compléterait la première en reliant l’ordre du jour à la préparation concrète de la réunion fictive.\n\nLimites et éléments à compléter : la nature précise de votre mandat, l’instance concernée et vos responsabilités sont [à compléter]. Aucun catalogue de formations, programme, prérequis ou durée par formation n’est fourni : il n’est donc pas possible de désigner deux offres existantes ni de confirmer leur adéquation à la durée de 30 minutes. Il reste également à préciser si cette durée concerne chaque formation ou l’ensemble du parcours : [à compléter]. Ces recommandations sont pédagogiques et ne constituent pas une validation juridique.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "theme : Préparer une réunion fictive",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "theme"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "dur : 30",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "dur"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "level : Débutant",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "level"
+        },
+        {
+          "source": "S1",
+          "passage": "P4",
+          "quote": "role : Élu",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "role"
+        },
+        {
+          "source": "S1",
+          "passage": "P5",
+          "quote": "goal : Formuler un ordre du jour",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "goal"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex-listes.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "adh-msg",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — aucun envoi effectué\n\nObjet : [à compléter : sujet du message]\n\nBonjour,\n\nNous souhaitons vous informer de [à compléter : information vérifiée à communiquer].\n\nAction proposée : merci de [à compléter : action attendue et modalités de réponse].\n\nCordialement,\n[à compléter : signature de l’auteur]\n\nNote de relecture — Faits fournis : la fiche décrit le destinataire comme « Élu », avec un mandat « Titulaire », rattaché à « Entreprise fictive » et « Site fictif ». Elle ne décrit pas l’auteur. Le sujet, l’information à diffuser, l’objectif et les modalités de l’appel à l’action manquent. Le texte et l’appel à l’action ci-dessus sont des propositions à compléter avant tout envoi.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "poste : Élu",
+          "title": "Fiche membre",
+          "kind": "adherents",
+          "version": "1",
+          "location": "poste"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "ent : Entreprise fictive",
+          "title": "Fiche membre",
+          "kind": "adherents",
+          "version": "1",
+          "location": "ent"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "etab : Site fictif",
+          "title": "Fiche membre",
+          "kind": "adherents",
+          "version": "1",
+          "location": "etab"
+        },
+        {
+          "source": "S1",
+          "passage": "P4",
+          "quote": "mandat : Titulaire",
+          "title": "Fiche membre",
+          "kind": "adherents",
+          "version": "1",
+          "location": "mandat"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex-listes.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "adh-relance",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Proposition de relance, non envoyée\n\nObjet : Point sur votre situation — éléments à compléter\n\nBonjour,\n\nNous souhaitons vous proposer un échange bienveillant afin de faire le point sur votre situation et, si nécessaire, de vous accompagner dans les démarches de régularisation.\n\nLes informations disponibles mentionnent un poste d’Élu et un mandat de Titulaire au sein de l’Entreprise fictive, sur le Site fictif. Elles ne précisent toutefois aucune irrégularité ni démarche attendue. Le besoin de régularisation reste donc à confirmer avant toute utilisation de cette relance.\n\nPour personnaliser ce message, les éléments suivants sont à renseigner :\n— Situation concernée et motif de la régularisation : [à compléter].\n— Éléments factuels permettant de confirmer ce besoin : [à compléter].\n— Démarches attendues et éventuels justificatifs nécessaires : [à compléter].\n— Interlocuteur et coordonnées de contact : [à compléter].\n— Échéance éventuelle et fondement de celle-ci : [à compléter].\n\nSi une démarche est effectivement nécessaire, nous vous proposons de nous signaler toute difficulté ou tout besoin d’accompagnement. Si votre situation a déjà été régularisée, vous pourrez également nous l’indiquer afin que nous puissions en tenir compte.\n\nMerci pour votre retour.\n\nBien cordialement,\n[Signature à compléter]",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "poste : Élu",
+          "title": "Fiche membre",
+          "kind": "adherents",
+          "version": "1",
+          "location": "poste"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "ent : Entreprise fictive",
+          "title": "Fiche membre",
+          "kind": "adherents",
+          "version": "1",
+          "location": "ent"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "etab : Site fictif",
+          "title": "Fiche membre",
+          "kind": "adherents",
+          "version": "1",
+          "location": "etab"
+        },
+        {
+          "source": "S1",
+          "passage": "P4",
+          "quote": "mandat : Titulaire",
+          "title": "Fiche membre",
+          "kind": "adherents",
+          "version": "1",
+          "location": "mandat"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "pol-q",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Proposition de sondage\n\nFaits issus des données : le sujet fourni est une « Réunion fictive sur les horaires du mardi ». La question existante porte sur une préférence d’horaire, avec les options « Matin » et « Après-midi ». Le mode indiqué est « sans-identite » ; ses modalités concrètes sont [à compléter]. Le caractère actuel du sujet pour l’instance est [à compléter] : les données ne permettent pas de le confirmer.\n\nSuggestions — cinq questions proposées, à vérifier avant utilisation :\n\n• Quelle période préférez-vous pour cette réunion du mardi ?\nRéponses proposées : Matin / Après-midi / Sans préférence / Aucune de ces périodes / Ne se prononce pas.\n\n• À quels horaires seriez-vous disponible le mardi pour cette réunion ?\nRéponse libre ; possibilité d’indiquer une absence de disponibilité ou de ne pas répondre.\n\n• Quelle durée de réunion vous conviendrait ?\nRéponse libre ; possibilité d’indiquer une absence de préférence ou de ne pas répondre.\n\n• Quelle fréquence vous conviendrait pour cette réunion ?\nRéponse libre ; possibilité d’indiquer une absence de préférence, de ne souhaiter aucune réunion récurrente ou de ne pas répondre.\n\n• Quels éléments, s’il y en a, souhaiteriez-vous voir pris en compte dans le choix de l’horaire ?\nRéponse libre facultative, sans demander d’informations permettant de vous identifier.\n\nInformations manquantes pour adapter ce brouillon : public concerné [à compléter], objectif de la réunion [à compléter], contraintes horaires [à compléter], durée et fréquence envisagées [à compléter]. Ces propositions ne constituent ni un sondage publié ni une action exécutée.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "sondages",
+          "version": "1",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "question : Quel horaire fictif préférez-vous ?",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "sondages",
+          "version": "1",
+          "location": "question"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "options : [\"Matin\", \"Après-midi\"]",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "sondages",
+          "version": "1",
+          "location": "options"
+        },
+        {
+          "source": "S1",
+          "passage": "P4",
+          "quote": "mode : sans-identite",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "sondages",
+          "version": "1",
+          "location": "mode"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "pol-ana",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Synthèse du sondage sur les horaires du mardi\n\nFaits disponibles\nLe sondage intitulé « Réunion fictive sur les horaires du mardi » pose la question « Quel horaire fictif préférez-vous ? ». Les options proposées sont « Matin » et « Après-midi ». Le mode indiqué est « sans-identite ».\n\nRésultats et limites\nLes données fournies décrivent le sondage, mais ne contiennent aucun résultat. Il est donc impossible d’identifier une préférence, de mesurer la participation ou de conclure à une majorité. Elles ne permettent pas non plus de confirmer que le sondage est actuellement ouvert.\n\nÉléments factuels à compléter avant publication\n– Nombre de réponses pour chaque option : [à compléter].\n– Nombre de participants et modalités de choix unique ou multiple : [à compléter].\n– Statut du sondage et période de collecte : [à compléter].\n– Date de référence des résultats : [à compléter].\n\nSuggestion éditoriale\nAprès réception des résultats, présenter la répartition des réponses et préciser leur caractère provisoire si le sondage est encore ouvert. Ne pas annoncer de créneau retenu sans information confirmant cette décision.\n\nCe brouillon ne constitue pas une synthèse des résultats prête à publier : les résultats et les précisions ci-dessus restent nécessaires.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "sondages",
+          "version": "1",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "question : Quel horaire fictif préférez-vous ?",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "sondages",
+          "version": "1",
+          "location": "question"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "options : [\"Matin\", \"Après-midi\"]",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "sondages",
+          "version": "1",
+          "location": "options"
+        },
+        {
+          "source": "S1",
+          "passage": "P4",
+          "quote": "mode : sans-identite",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "sondages",
+          "version": "1",
+          "location": "mode"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "web-lis",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Évaluation limitée de la lisibilité de l’intranet\n\nFaits observables : la source fournie présente le titre « Réunion fictive sur les horaires du mardi » et un paragraphe « Présentation de la réunion fictive. ». Le titre annonce le sujet, mais le paragraphe ne donne pas d’information pratique sur la réunion.\n\nLimites : ces seuls éléments ne permettent pas de vérifier la lisibilité des pages de l’intranet dans leur ensemble. Il manque les pages complètes, leur rendu visuel et leur structure de navigation. Taille des caractères, contrastes, espacement, affichage sur mobile et organisation des liens : [à compléter]. Aucune vérification sur l’intranet ni modification n’a été effectuée.\n\nTrois améliorations proposées, à examiner avant toute mise en œuvre :\n\n1. Rendre l’introduction informative. Remplacer le paragraphe générique par une présentation précisant l’objectif de la réunion, le public concerné et l’information attendue du lecteur. Proposition : « Cette réunion fictive porte sur les horaires du mardi. Objectif : [à compléter]. Public concerné : [à compléter]. »\n\n2. Structurer les informations pratiques. Sous le titre, prévoir des rubriques explicites : « Objectif », « Informations pratiques » et « Suite à donner ». Leur contenu reste [à compléter] à partir d’informations confirmées. Cette organisation est une suggestion ; la source ne permet pas de connaître la structure actuelle des pages complètes.\n\n3. Prévoir une présentation facile à parcourir. Proposer des paragraphes courts, des listes pour les informations pratiques et des liens dont le libellé décrit la destination. Contrôler ensuite le contraste, la taille du texte et l’affichage sur mobile sur les pages réelles. Il s’agit de pistes à vérifier, et non de défauts constatés dans les données fournies.\n\nPour compléter l’évaluation : fournir des exemples de pages complètes, des captures de leur affichage et les parcours de lecture prioritaires : [à compléter].",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "intranet",
+          "version": "1",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "blocks : [[\"p\", \"Présentation de la réunion fictive.\"]]",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "intranet",
+          "version": "1",
+          "location": "blocks"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "rep-explain",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE\n\nLes données fournies ne contiennent aucun indicateur de tableau de bord. Elles présentent uniquement :\n- un titre : « Réunion fictive sur les horaires du mardi » ;\n- une période : « Octobre 2026 » ;\n- une description : « Une réunion fictive préparée ».\n\nCes éléments donnent un contexte, mais ne permettent pas de mesurer l’activité ni de conclure à une hausse, une baisse ou une stabilité. La description ne permet pas non plus d’affirmer que la réunion a eu lieu.\n\nInformations manquantes :\n- indicateurs et définition de chacun : [à compléter] ;\n- valeurs observées et unités : [à compléter] ;\n- périmètre et méthode de calcul : [à compléter] ;\n- objectifs ou valeurs de comparaison : [à compléter].\n\nSuggestion : fournir le tableau de bord avec ses libellés, ses valeurs et ses éventuelles légendes. Il sera alors possible d’expliquer simplement ce que mesure chaque indicateur et ce que les résultats permettent réellement de dire sur l’activité.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reporting",
+          "version": "1",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "period : Octobre 2026",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reporting",
+          "version": "1",
+          "location": "period"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "description : Une réunion fictive préparée",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reporting",
+          "version": "1",
+          "location": "description"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "rep-bilan",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Trame du bilan annuel d’activité de l’instance\n\nStatut : proposition de structure, sans action exécutée ni validation juridique.\n\n1. Identification et périmètre\nNom de l’instance : [à compléter].\nAnnée couverte par le bilan : [à compléter].\nMissions et périmètre de compétence : [à compléter].\nComposition de l’instance : [à compléter].\n\n2. Synthèse de l’activité\nFaits disponibles : la source S1 mentionne une « Réunion fictive sur les horaires du mardi », associée à la période « Octobre 2026 ». Sa description indique uniquement : « Une réunion fictive préparée ».\nLimites : ces éléments ne permettent pas d’établir que la réunion s’est tenue, ni qu’elle relève de l’instance concernée. Ils ne suffisent pas à dresser un bilan annuel.\nSynthèse annuelle à renseigner : [à compléter].\n\n3. Réunions et travaux\nÉlément à documenter : réunion fictive sur les horaires du mardi.\nPériode mentionnée : octobre 2026.\nRattachement à l’instance : [à compléter].\nDate effective, tenue de la réunion, ordre du jour, participation et compte rendu : [à compléter].\nAutres réunions ou travaux de l’année : [à compléter].\nNombre total de réunions : [à compléter] ; aucun décompte annuel n’est fourni.\n\n4. Sujets examinés et résultats\nLe titre disponible évoque les horaires du mardi, sans préciser les questions abordées.\nSujets effectivement examinés : [à compléter].\nAvis, propositions, décisions ou autres productions de l’instance : [à compléter].\nRésultats observés et éléments permettant de les établir : [à compléter]. Aucune réalisation ni aucun résultat ne peut être déduit de la seule préparation mentionnée.\n\n5. Suivi des travaux et moyens\nSuites données aux travaux : [à compléter].\nÉtat d’avancement, difficultés rencontrées et moyens mobilisés : [à compléter].\nAucune donnée disponible ne permet de renseigner ces rubriques.\n\n6. Perspectives — suggestions à discuter\nProposition : présenter les priorités futures, les travaux envisagés et leurs modalités de suivi dans une section distincte des réalisations constatées.\nPriorités retenues par l’instance : [à compléter].\nCes suggestions ne constituent ni des décisions prises ni des engagements.\n\n7. Informations nécessaires pour finaliser le bilan\nÀ réunir : identification et missions de l’instance, période annuelle exacte, liste exhaustive des réunions et travaux, justificatifs de leur tenue, participation, productions, suites données et moyens mobilisés. Pour l’élément mentionné dans S1, préciser son rattachement à l’instance et distinguer préparation et réalisation effective.\nAucune référence juridique n’est fournie. Si une rubrique juridique est nécessaire, son contenu et les textes applicables restent [à compléter] ; toute analyse proposée devra être vérifiée et ne vaudra pas validation.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reporting",
+          "version": "1",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "period : Octobre 2026",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reporting",
+          "version": "1",
+          "location": "period"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "description : Une réunion fictive préparée",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reporting",
+          "version": "1",
+          "location": "description"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "rac-sugg",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Suggestions de raccourcis\n\nFaits disponibles : la source mentionne une réunion fictive sur les horaires du mardi et un accès au calendrier des réunions fictives. Elle ne précise ni la nature de votre mandat, ni votre territoire, ni les sites officiels pertinents.\n\nSuggestions à adapter, et non faits établis :\n- Le site officiel de l’institution dans laquelle vous exercez votre mandat : [à compléter].\n- Le portail officiel donnant accès aux textes applicables à votre mandat : [à compléter].\n- Le site officiel de l’administration compétente pour votre territoire : [à compléter].\n- Le site officiel de l’organisme chargé de vous accompagner dans vos fonctions : [à compléter].\n- Le calendrier officiel des réunions de votre instance : [à compléter]. La source évoque un calendrier fictif, sans fournir de lien ni établir son caractère officiel.\n\nPour proposer cinq sites précis, il manque la nature du mandat, l’institution concernée, le pays et le territoire d’exercice. Les noms et adresses des sites restent donc à compléter ; leur caractère officiel devra être vérifié avant tout ajout. Aucun raccourci n’a été créé.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "raccourcis",
+          "version": "1",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "description : Accès au calendrier des réunions fictives",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "raccourcis",
+          "version": "1",
+          "location": "description"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "par-help",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Principaux réglages et vérifications prioritaires\n\nFaits fournis\nL’extrait décrit un espace uniion où les droits des modules et ceux des ressources sont distincts. Il précise que les données présentées sont limitées aux dossiers sans source classée, aux réunions autorisées et aux événements visibles. Une absence dans cet extrait ne permet donc pas de conclure à une absence de travail.\n\nExplication simple\nLes droits des modules et les droits des ressources constituent deux niveaux à examiner séparément. L’extrait ne décrit toutefois ni leur fonctionnement détaillé, ni leurs valeurs actuelles, ni les écrans permettant de les consulter : [à compléter]. Il ne permet pas non plus d’établir la liste des autres réglages de l’application.\n\nSuggestions de vérification, par priorité\n• Examiner les droits des modules : quels modules chaque profil devrait-il pouvoir consulter ou utiliser ? Profils concernés, autorisations actuelles et accès attendus : [à compléter].\n• Examiner séparément les droits des ressources : pour chaque dossier ou réunion concerné, comparer les accès attendus aux accès effectivement configurés. Règles et configuration actuelles : [à compléter]. Un droit de module ne doit pas être considéré, sur la seule base de cet extrait, comme une preuve d’accès à toutes ses ressources.\n• Vérifier le périmètre de visibilité avant d’interpréter un élément manquant : déterminer si cette absence tient aux limites de l’extrait ou aux autorisations. Les règles détaillées de visibilité et le sens de « source classée » restent à préciser : [à compléter].\n• Pour expliquer les autres réglages, obtenir une documentation ou une description des écrans de paramètres. Leur liste, leurs valeurs et leurs effets sont absents des sources : [à compléter].\n\nCes vérifications sont des suggestions de relecture, pas des constats de mauvaise configuration. Aucun réglage n’a été modifié et aucune action administrative n’est proposée comme déjà exécutée.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Espace uniion : droits de modules et de ressources distincts. Extrait limité aux dossiers sans source classée et aux réunions autorisés, ainsi qu’aux événements visibles. Une absence n’atteste pas l’absence de travail.",
+          "title": "S08 E complet — contexte fictif",
+          "kind": "workspace",
+          "version": "1",
+          "location": "description"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-corrections-1.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "par-roles",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Proposition de répartition des actions dans uniion pour une petite instance\n\nAucune action exécutée. Cette répartition est une suggestion d’organisation, non une attribution effective de droits ni une validation juridique.\n\nFAITS ISSUS DE L’EXTRAIT\nL’espace distingue les droits de modules et de ressources. L’extrait est limité aux dossiers sans source classée, aux réunions autorisées et aux événements visibles ; une absence n’atteste donc pas l’absence de travail.\nUn « Dossier fictif », au statut « todo », porte sur la préparation des horaires fictifs du mardi. Une « Réunion fictive sur les horaires du mardi » figure également dans l’extrait. Le lien entre ce dossier, cette réunion et l’événement d’agenda reste à confirmer.\n\nRÉPARTITION PROPOSÉE — À DISCUTER\n\nSecrétaire\n• Centraliser les sujets proposés par les élus et préparer un projet d’ordre du jour à relire selon les règles applicables.\n• Organiser les documents utiles à la réunion et préparer un projet de compte rendu.\n• Tenir dans uniion une liste courte des actions convenues, de leurs responsables et des points restant à arbitrer.\n• Pour le dossier sur les horaires : proposer de le rattacher à la préparation de la réunion, après confirmation de leur lien.\n\nTrésorier\n• Suivre les éléments budgétaires et les justificatifs financiers, si ces missions correspondent à l’instance.\n• Signaler les conséquences financières éventuelles d’un sujet, sans présumer qu’elles existent pour le dossier sur les horaires.\n• Proposer une synthèse financière accessible aux personnes habilitées, en distinguant préparation, décision et paiement.\n\nÉlus\n• Faire remonter les questions et besoins du terrain, en limitant les données personnelles au nécessaire.\n• Contribuer aux dossiers et relire les documents préparatoires auxquels ils sont autorisés à accéder.\n• Pour les horaires : documenter les besoins, les questions à poser et les éléments manquants, puis suivre les suites convenues collectivement.\n\nDélégué syndical\n• Apporter les éléments relevant de son mandat et identifier les sujets susceptibles de nécessiter un traitement syndical distinct.\n• Préparer, dans le périmètre approprié, les propositions syndicales éventuelles, sans les confondre avec une position de l’instance.\n• Ne partager dans l’espace commun que les éléments dont le partage est approprié et autorisé ; ne pas présumer d’un accès à tous les dossiers.\n\nFONCTIONNEMENT LÉGER SUGGÉRÉ\n• Pour chaque action : un responsable proposé, un résultat attendu, une échéance confirmée et un statut simple.\n• Éviter les doubles saisies : conserver un dossier de référence et y regrouper les contributions utiles.\n• Prévoir un relais en cas d’absence, sans partage de compte ni extension automatique des accès.\n• Examiner séparément les besoins d’accès au module et à chaque ressource. Cette proposition ne modifie aucun droit.\n• Soumettre les documents et décisions aux procédures applicables, plutôt que considérer leur présence dans uniion comme une approbation.\n\nFAITS MANQUANTS À COMPLÉTER AVANT ADOPTION\n• Nature de l’instance, composition, mandats et éventuels cumuls de rôles : [à compléter].\n• Règles internes, compétences de chaque rôle et procédures de décision : [à compléter].\n• Fonctionnalités disponibles dans uniion et droits actuels sur les modules et ressources : [à compléter].\n• Responsable actuel du dossier, périmètre exact du sujet et documents disponibles : [à compléter].\n• Date précise correspondant à l’échéance « Mardi » : [à compléter] ; le libellé seul ne permet pas de la fixer.\n• Lien entre le dossier, la réunion et l’événement d’agenda : [à compléter].\n• Besoins de confidentialité et conditions de partage : [à compléter].\n\nLes sources ne fournissent ni règles de compétence ni références juridiques permettant de valider cette répartition. Toute interprétation juridique éventuelle reste une proposition à vérifier au regard de l’instance et des textes applicables.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Espace uniion : droits de modules et de ressources distincts. Extrait limité aux dossiers sans source classée et aux réunions autorisés, ainsi qu’aux événements visibles. Une absence n’atteste pas l’absence de travail.",
+          "title": "S08 E complet — contexte fictif",
+          "kind": "workspace",
+          "version": "1",
+          "location": "description"
+        },
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "{\"date\": null, \"titre\": \"Dossier fictif\", \"module\": \"dossiers\", \"statut\": \"todo\", \"version\": 1, \"echeance\": \"Mardi\", \"description\": \"Préparation des horaires fictifs du mardi.\"}",
+          "title": "S08 E complet — contexte fictif",
+          "kind": "workspace",
+          "version": "1",
+          "location": "description"
+        },
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "{\"date\": \"2026-11-03\", \"titre\": \"Réunion fictive sur les horaires du mardi\", \"module\": \"reunions\", \"statut\": null, \"version\": 1, \"echeance\": null, \"description\": \"\"}",
+          "title": "S08 E complet — contexte fictif",
+          "kind": "workspace",
+          "version": "1",
+          "location": "description"
+        }
+      ],
+      "artifact": null,
+      "execution": "qualite-corrections-1.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "formation-feedback",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON à relire : le cadrage de l’exercice est disponible, mais la réponse à évaluer manque. La relecture proposée distingue les éléments établis, les vérifications nécessaires et une piste d’amélioration.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "theme : Préparer une réunion fictive",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "theme"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "level : Débutant",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "level"
+        },
+        {
+          "source": "S1",
+          "passage": "P4",
+          "quote": "role : Élu",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "role"
+        },
+        {
+          "source": "S1",
+          "passage": "P5",
+          "quote": "goal : Formuler un ordre du jour",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "goal"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "dur : 30",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "dur"
+        }
+      ],
+      "artifact": {
+        "text": "BROUILLON — Relecture à compléter\n\nFaits disponibles : l’exercice porte sur la préparation d’une réunion fictive, au niveau débutant, dans le rôle d’un élu. L’objectif est de formuler un ordre du jour. Le champ « dur » indique 30, sans unité précisée.\n\nPoints corrects : [à compléter]. Aucune réponse à l’exercice n’est fournie ; il n’est donc pas possible de relever des réussites effectives.\n\nPoints à vérifier : fournir la réponse rédigée et, s’ils existent, les consignes détaillées et les critères d’évaluation du module courant. Préciser l’unité et la portée du champ « dur ». Vérifier ensuite que la réponse propose bien un ordre du jour adapté à la réunion envisagée.\n\nPiste d’amélioration proposée, non constat d’erreur : organiser l’ordre du jour en sujets clairement nommés, en précisant pour chacun le résultat attendu et, si pertinent, le temps prévu. Cette suggestion devra être adaptée aux consignes manquantes.\n\nÉléments manquants : réponse à relire [à compléter] ; contexte concret de la réunion [à compléter] ; critères d’évaluation [à compléter]."
+      },
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "document-compose",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Document préparatoire concernant l’examen des horaires fictifs. Seul cet examen, annoncé pour mardi, est renseigné ; les autres éléments restent à compléter.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "Les horaires fictifs seront examinés mardi.",
+          "title": "Document fictif",
+          "kind": "document",
+          "version": "1",
+          "location": "bloc/1"
+        }
+      ],
+      "artifact": {
+        "title": "Brouillon — Examen des horaires fictifs",
+        "paragraphs": [
+          "Fait fourni : les horaires fictifs seront examinés mardi. La date précise correspondant à ce mardi est [à compléter].",
+          "Informations manquantes : horaires concernés [à compléter] ; objectif de l’examen [à compléter] ; personnes concernées [à compléter] ; modalités de l’examen [à compléter]. La source ne permet pas de préciser ces éléments ni de présenter une décision comme prise.",
+          "Suggestion à relire : compléter ces informations avant de finaliser le document. Ce brouillon ne constitue ni une convocation ni une décision et ne déclenche aucune action."
+        ]
+      },
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "intranet-compose",
+      "status": 200,
+      "persistent": true,
+      "text": "Brouillon à relire : page de présentation d’une réunion fictive sur les horaires du mardi. Le brief ne précise ni les horaires concernés ni les modalités de la réunion.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "intranet",
+          "version": "1",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "blocks : [[\"p\", \"Présentation de la réunion fictive.\"]]",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "intranet",
+          "version": "1",
+          "location": "blocks"
+        }
+      ],
+      "artifact": {
+        "title": "Réunion fictive sur les horaires du mardi",
+        "paragraphs": [
+          "Présentation de la réunion fictive consacrée aux horaires du mardi.",
+          "Informations manquantes dans le brief : objectif précis, horaires concernés, date, lieu, personnes participantes et modalités de la réunion : [à compléter].",
+          "Suggestion éditoriale à relire : compléter ces informations pour permettre une présentation plus détaillée."
+        ]
+      },
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "meeting-minutes",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON à relire — Projet de procès-verbal de la réunion fictive sur les horaires du mardi. Les sources indiquent une date et un ordre du jour, mais ne rapportent ni déroulement, ni vote, ni décision. Le projet distingue ces éléments et signale les informations manquantes.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "title : Réunion fictive sur les horaires du mardi",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "title"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "date : 2026-11-03",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "date"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "ordre : [\"Examiner les horaires fictifs\"]",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "reunions",
+          "version": "1",
+          "location": "ordre"
+        }
+      ],
+      "artifact": {
+        "title": "BROUILLON — Projet de procès-verbal : Réunion fictive sur les horaires du mardi",
+        "paragraphs": [
+          "Statut du document : projet à relire et à compléter, ne constatant aucune action exécutée.",
+          "Informations figurant dans la source : intitulé « Réunion fictive sur les horaires du mardi » ; date indiquée : 2026-11-03. La tenue effective de la réunion n’est pas attestée par les éléments fournis.",
+          "Ordre du jour : « Examiner les horaires fictifs ». Cet objet ne constitue pas une décision.",
+          "Faits effectivement rapportés : aucun compte rendu des échanges ou du déroulement n’est fourni. Tenue effective, lieu, participants, présidence, secrétariat et contenu des échanges : [à compléter].",
+          "Votes et décisions effectivement rapportés : aucun vote ni aucune décision ne sont mentionnés dans la source. Leur existence éventuelle et leur contenu restent [à compléter] sur la base d’éléments complémentaires ; aucune adoption ou approbation ne peut être constatée dans ce projet.",
+          "Suggestion de rédaction à vérifier : compléter le projet à partir du compte rendu des échanges et, le cas échéant, des décisions effectivement prises, avant de le soumettre à relecture. Cette suggestion ne constitue pas une décision de la réunion."
+        ]
+      },
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "communication-compose",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Proposition de post pour l’application, visant à informer sur les horaires fictifs. Date fournie : 2026-11-03 ; sa fonction reste [à compléter]. Le titre et le corps reprennent les éléments fournis. L’accroche est une suggestion éditoriale. Les horaires précis, le ton souhaité, l’appel et le visuel restent [à compléter]. Aucune publication effectuée.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "date : 2026-11-03",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "communication",
+          "version": "2",
+          "location": "date"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "fmt : Post réseau social",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "communication",
+          "version": "2",
+          "location": "fmt"
+        },
+        {
+          "source": "S1",
+          "passage": "P4",
+          "quote": "canal : Application",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "communication",
+          "version": "2",
+          "location": "canal"
+        },
+        {
+          "source": "S1",
+          "passage": "P6",
+          "quote": "sujet : Informer sur les horaires fictifs",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "communication",
+          "version": "2",
+          "location": "sujet"
+        },
+        {
+          "source": "S1",
+          "passage": "P7",
+          "quote": "content : {\"appel\": \"\", \"corps\": \"Consultez votre espace pour découvrir les informations disponibles.\", \"titre\": \"Réunion fictive sur les horaires du mardi\", \"visuel\": \"\", \"accroche\": \"\"}",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "communication",
+          "version": "2",
+          "location": "content"
+        }
+      ],
+      "artifact": {
+        "titre": "Réunion fictive sur les horaires du mardi",
+        "accroche": "Suggestion : Faites le point sur les horaires fictifs.",
+        "corps": "Consultez votre espace pour découvrir les informations disponibles.\n\nHoraires fictifs : [à compléter].",
+        "appel": "[à compléter]",
+        "visuel": "[à compléter]"
+      },
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "poll-options",
+      "status": 200,
+      "persistent": true,
+      "text": "Brouillon à relire : deux réponses proposées pour la question « Quel horaire fictif préférez-vous ? », reprenant les choix fournis dans la source. Aucune action exécutée.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "question : Quel horaire fictif préférez-vous ?",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "sondages",
+          "version": "1",
+          "location": "question"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "options : [\"Matin\", \"Après-midi\"]",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "sondages",
+          "version": "1",
+          "location": "options"
+        }
+      ],
+      "artifact": {
+        "options": [
+          "Matin",
+          "Après-midi"
+        ]
+      },
+      "execution": "qualite-codex.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    },
+    {
+      "action": "formation-course",
+      "status": 200,
+      "persistent": true,
+      "text": "BROUILLON À RELIRE — Proposition de cours de 30 minutes, niveau débutant, destinée à un élu, sur le thème « Préparer une réunion fictive ». Objectif : formuler un ordre du jour. Les activités et exemples sont des suggestions pédagogiques, non des faits issus des sources. Le contexte de la réunion, les participants et les sujets réels sont [à compléter]. Aucune action n’est exécutée et aucune validation juridique n’est proposée.",
+      "excerpts": [
+        {
+          "source": "S1",
+          "passage": "P1",
+          "quote": "theme : Préparer une réunion fictive",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "theme"
+        },
+        {
+          "source": "S1",
+          "passage": "P2",
+          "quote": "dur : 30",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "dur"
+        },
+        {
+          "source": "S1",
+          "passage": "P3",
+          "quote": "level : Débutant",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "level"
+        },
+        {
+          "source": "S1",
+          "passage": "P4",
+          "quote": "role : Élu",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "role"
+        },
+        {
+          "source": "S1",
+          "passage": "P5",
+          "quote": "goal : Formuler un ordre du jour",
+          "title": "Réunion fictive sur les horaires du mardi",
+          "kind": "formations",
+          "version": "1",
+          "location": "goal"
+        }
+      ],
+      "artifact": {
+        "title": "Préparer une réunion fictive : formuler un ordre du jour",
+        "intro": "Cours proposé pour un élu débutant, d’une durée totale de 30 minutes. La configuration fournie fixe le thème, le public et l’objectif. Le découpage, les méthodes, les exercices et les réponses aux quiz sont des propositions pédagogiques à relire. Les sources ne précisent ni le type d’instance, ni les règles applicables, ni les sujets à traiter : ces éléments restent [à compléter]. Ce cours ne constitue pas une validation juridique.",
+        "modules": [
+          {
+            "title": "Définir ce que la réunion doit permettre",
+            "minutes": 15,
+            "objectif": "Transformer une intention générale en sujets précis à inscrire dans un projet d’ordre du jour.",
+            "points": [
+              {
+                "h": "Partir des informations disponibles",
+                "text": "Faits fournis : le thème est la préparation d’une réunion fictive et l’objectif est de formuler un ordre du jour. Le contexte, les participants et les sujets concrets sont [à compléter]. Ne pas présenter ces informations manquantes comme acquises."
+              },
+              {
+                "h": "Préciser le résultat attendu",
+                "text": "Suggestion : pour chaque sujet envisagé, écrire ce que les participants devraient pouvoir faire à l’issue de l’échange, par exemple comprendre une proposition, exprimer des besoins ou comparer des options. Ces formulations ne préjugent d’aucun pouvoir de décision."
+              },
+              {
+                "h": "Distinguer sujet et formulation",
+                "text": "Suggestion : remplacer un intitulé vague par une formulation qui indique le sujet et le travail proposé. Garder visibles les informations restant à compléter."
+              }
+            ],
+            "exemple": "Exemple inventé pour l’apprentissage : au lieu de « Salle », proposer « Recueillir les besoins concernant l’utilisation d’une salle ». Le lieu concerné, les participants et les contraintes restent [à compléter].",
+            "exercice": "Proposition de répartition : découverte des points pendant 5 minutes, reformulation pendant 7 minutes, retour pendant 3 minutes. Choisissez un sujet fictif, rédigez un intitulé précis et indiquez le résultat attendu. Signalez les informations manquantes par [à compléter].",
+            "quiz": {
+              "q": "Pour cet exercice, quel intitulé rend le travail attendu le plus explicite ?",
+              "choices": [
+                "Divers",
+                "Recueillir les besoins concernant l’utilisation d’une salle",
+                "Salle"
+              ],
+              "answer": 1,
+              "explain": "Dans la méthode proposée, cet intitulé précise à la fois le sujet et l’activité attendue. Il s’agit d’un choix pédagogique, pas d’une exigence juridique établie par les sources."
+            }
+          },
+          {
+            "title": "Assembler et relire un projet d’ordre du jour",
+            "minutes": 15,
+            "objectif": "Rédiger un ordre du jour lisible en distinguant propositions et informations confirmées.",
+            "points": [
+              {
+                "h": "Organiser les sujets",
+                "text": "Suggestion : classer les sujets dans un ordre compréhensible, en plaçant les éléments de contexte avant les échanges qui en dépendent. Ce classement est une proposition à adapter, non une règle attestée par les sources."
+              },
+              {
+                "h": "Construire un brouillon",
+                "text": "Suggestion : présenter une liste de sujets avec, pour chacun, un intitulé et un résultat attendu. Si des documents ou des personnes intervenantes sont nécessaires, les indiquer comme éléments à confirmer."
+              },
+              {
+                "h": "Identifier les limites",
+                "text": "Les sources ne permettent pas de déterminer les modalités de convocation, les délais, les compétences de l’instance ou les conditions d’adoption d’un ordre du jour. Ces faits sont [à compléter]. Toute analyse juridique ultérieure serait une proposition à vérifier, jamais une validation."
+              }
+            ],
+            "exemple": "Brouillon fictif proposé : « Contexte : [à compléter]. Sujet proposé : recueillir les besoins concernant l’utilisation d’une salle. Résultat attendu : établir une liste de besoins à discuter. Autres sujets : [à compléter]. » Ce texte n’est ni une convocation ni un document adopté.",
+            "exercice": "Proposition de répartition : présentation pendant 4 minutes, rédaction pendant 8 minutes, relecture pendant 3 minutes. Assemblez vos sujets en un projet d’ordre du jour. Vérifiez que chaque intitulé est compréhensible et que les informations inconnues restent signalées. Aucun envoi ni aucune adoption ne sont prévus.",
+            "quiz": {
+              "q": "Que faire d’un délai de convocation absent des sources ?",
+              "choices": [
+                "Choisir un délai et le présenter comme obligatoire",
+                "Supprimer toute mention du manque d’information",
+                "Indiquer [à compléter] et signaler que les sources ne permettent pas de le déterminer"
+              ],
+              "answer": 2,
+              "explain": "Le délai ne peut pas être établi à partir des données fournies. Le brouillon doit rendre cette limite visible plutôt qu’inventer une obligation."
+            }
+          }
+        ],
+        "retenir": [
+          "La configuration demande un cours de 30 minutes pour un élu débutant visant à formuler un ordre du jour.",
+          "Les méthodes et exemples proposés sont pédagogiques, non des obligations attestées par les sources.",
+          "Un intitulé peut préciser le sujet et le résultat attendu.",
+          "Les faits manquants restent [à compléter] ; aucune règle juridique ne peut être déduite de cette seule configuration.",
+          "Le résultat demeure un brouillon à relire, sans envoi, adoption ou autre action."
+        ],
+        "sources": "S1, P1 : thème ; P2 : durée de 30 minutes ; P3 : niveau débutant ; P4 : rôle d’élu ; P5 : objectif de formulation d’un ordre du jour. Aucune source juridique ni information sur une instance réelle n’a été fournie."
+      },
+      "execution": "qualite-corrections-1.json",
+      "review": "Relu : faits distingués des propositions, inconnues signalées, aucun effet métier annoncé comme exécuté."
+    }
+  ]
+}

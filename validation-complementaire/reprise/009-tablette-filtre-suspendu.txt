@@ -1,0 +1,53 @@
+Browser tab: 8, Title: "Banc de recette responsive", URL: "http://127.0.0.1:5054/recette-responsive".
+0 AXWebArea Banc de recette responsive, URL: 127.0.0.1:5054/recette-responsive
+	1 container Dimensions de recette
+		2 button Bureau 1280
+		3 button Mobile 390
+		4 button Tablette 768
+		5 button Tablette paysage 1024
+		63 text 768 × 1024
+	7 container Description: Prototype inchangé, ID: prototype
+		8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html
+			9 container dc-root
+				10 container
+					11 text uniion CONSOLE D'ADMINISTRATION
+					37 button Supervision
+						38 image
+						39 text Supervision
+					40 button Organisations
+						41 image
+						42 text Organisations
+					64 button Utilisateurs
+						65 image
+						66 text Utilisateurs
+					46 button Clés API IA
+						47 image
+						48 text Clés API IA
+					49 button Éditeur de l’application
+						50 image
+						51 text Éditeur de l’application
+					52 button Abonnements et paiements
+						53 image
+						54 text Abonnements et paiements
+					67 button Journal d’audit
+						68 image
+						69 text Journal d’audit
+					33 text SA Super administrateur admin@uniion.fr
+					34 button Se déconnecter
+				35 container
+					36 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+					70 heading Utilisateurs, Value: 1
+						71 text Utilisateurs
+					72 text Tous les comptes, toutes organisations confondues.  1 compte  affiché(s).
+					73 text field (settable)
+					83 button Tous
+					75 button Actif
+					84 button Suspendu
+					77 button Invitation en attente
+					78 text CD Claire Dubois claire.dubois@ud59.fr UD 59 — Lille Militante Suspendu Sans MFA  · vu  il y a 28 j
+					79 button Assistance
+					80 button Réinit. MFA
+					81 button Relancer
+					82 button Réactiver
+
+The focused UI element is 8 AXWebArea 127.0.0.1:5054/uniion%20App%20v3.dc.html

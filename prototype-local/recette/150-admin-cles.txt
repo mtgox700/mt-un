@@ -1,0 +1,52 @@
+Browser tab: 2, Title: "127.0.0.1:5051/uniion App v3.dc.html", URL: "http://127.0.0.1:5051/uniion%20App%20v3.dc.html".
+1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html
+	2 container dc-root
+		3 container
+			4 text uniion CONSOLE D'ADMINISTRATION
+			30 button Supervision
+				31 image
+				32 text Supervision
+			33 button Organisations
+				34 image
+				35 text Organisations
+			36 button Utilisateurs
+				37 image
+				38 text Utilisateurs
+			39 button Clés API IA
+				40 image
+				41 text Clés API IA
+			17 button Éditeur de l’application
+				18 image
+				19 text Éditeur de l’application
+			20 button Abonnements et paiements
+				21 image
+				22 text Abonnements et paiements
+			23 button Journal d’audit
+				24 image
+				25 text Journal d’audit
+			26 text SA Super administrateur admin@uniion.fr
+			27 button Se déconnecter
+		28 container
+			29 text Périmètre plateforme — aucun accès au contenu des dossiers, messages ou pièces des organisations. Chaque action ci-dessous est tracée.
+			42 heading Clés API IA, Value: 1
+				43 text Clés API IA
+			44 text Les clés ne quittent jamais la passerelle serveur. Affichage et copie tracés.
+			45 button Créer une clé
+			46 text Production — assistant juridique Mistral (Paris)  · créée le  04/03/2026 Active sk-live••••-••••-••••77b2
+			47 button Afficher
+			48 button Copier
+			49 button Renouveler
+			50 button Révoquer
+			51 text 26 k consommées plafond  40 k req./mois Production — synthèse de documents Mistral (Paris)  · créée le  19/05/2026 Active sk-live••••-••••-••••8ee1
+			52 button Afficher
+			53 button Copier
+			54 button Renouveler
+			55 button Révoquer
+			56 text 9 k consommées plafond  25 k req./mois Recette — bac à sable Scaleway Génératif (Paris)  · créée le  11/01/2026 Révoquée sk-test••••-••••-••••3f51
+			57 button Afficher
+			58 button Copier
+			59 button Renouveler
+			60 button Réactiver
+			61 text 0 k consommées plafond  5 k req./mois
+
+The focused UI element is 1 AXWebArea 127.0.0.1:5051/uniion%20App%20v3.dc.html

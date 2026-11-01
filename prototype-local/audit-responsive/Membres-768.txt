@@ -1,0 +1,51 @@
+Browser tab: 16, Title: "127.0.0.1:5055/uniion App v3.dc.html", URL: "http://127.0.0.1:5055/uniion%20App%20v3.dc.html".
+0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html
+	1 container dc-root
+		2 container
+			3 image uniion
+			4 button ← Retour
+			5 image
+			6 text field (settable)
+			7 button (collapsed) Description: Demander à unii, Secondary Actions: Expand
+			8 button
+				9 image
+			10 button Se déconnecter
+				11 image
+		12 container
+			13 heading Organisation & membres, Value: 1
+				14 text Organisation & membres
+			15 text 5 membres · 4 commissions · plan Fédération
+			16 button + Inviter un membre
+			17 text 24 sièges du plan 3 membres actifs 4 commissions 1 invitation en attente SM Sophie Marchand Admin organisation  ·  en ligne ACTIF
+			18 button Retirer
+			19 button Suspendre
+			20 text JD Jean-Paul Diallo Élu titulaire  ·  il y a 1 h ACTIF
+			21 button Retirer
+			22 button Suspendre
+			23 text LC Leïla Chaïb Commission ASC  ·  hier ACTIF
+			24 button Retirer
+			25 button Suspendre
+			26 text MA Marc Aubert Suppléant  ·  jamais connecté INVITÉ
+			27 button Retirer
+			28 button Relancer
+			29 text CB Cabinet Berger (avocat) Lecture seule  ·  il y a 6 jours SUSPENDU
+			30 button Retirer
+			31 button Réactiver
+		32 container
+			33 button Accueil
+				34 image
+				35 text Accueil
+			36 button Dossiers
+				37 image
+				38 text Dossiers
+			39 button Agenda
+				40 image
+				41 text Agenda
+			42 button Réunions
+				43 image
+				44 text Réunions
+			45 button Réglages
+				46 image
+				47 text Réglages
+
+The focused UI element is 0 AXWebArea 127.0.0.1:5055/uniion%20App%20v3.dc.html

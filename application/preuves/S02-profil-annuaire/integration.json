@@ -1,0 +1,82 @@
+{
+  "checks": [
+    {
+      "test": "anonymous_profile_refused",
+      "ok": true
+    },
+    {
+      "test": "admin_login",
+      "ok": true
+    },
+    {
+      "test": "aal1_directory_refused",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "admin_mfa",
+      "ok": true
+    },
+    {
+      "test": "own_profile",
+      "ok": true
+    },
+    {
+      "test": "directory_authorized",
+      "ok": true
+    },
+    {
+      "test": "accepted_invitation_visible",
+      "ok": true
+    },
+    {
+      "test": "no_invitation_secrets",
+      "ok": true
+    },
+    {
+      "test": "foreign_directory_refused",
+      "ok": true
+    },
+    {
+      "test": "foreign_profile_refused",
+      "ok": true
+    },
+    {
+      "test": "identity_spoof_fields_refused",
+      "ok": true
+    },
+    {
+      "test": "member_login",
+      "ok": true
+    },
+    {
+      "test": "challenge_created",
+      "ok": true
+    },
+    {
+      "test": "member_mfa",
+      "ok": true
+    },
+    {
+      "test": "member_own_profile",
+      "ok": true
+    },
+    {
+      "test": "member_directory_refused",
+      "ok": true
+    },
+    {
+      "test": "direct_rpc_refused",
+      "ok": true
+    },
+    {
+      "test": "no_business_grant",
+      "ok": true
+    }
+  ],
+  "count": 19,
+  "passed": true
+}
