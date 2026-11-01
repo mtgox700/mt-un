@@ -21,7 +21,7 @@ jobs:
       - name: Install declared Python dependencies
         run: |
           python -c 'import tomllib,pathlib; p=tomllib.loads(pathlib.Path("application/pyproject.toml").read_text()); print("\n".join(p["project"]["dependencies"]))' > "$RUNNER_TEMP/uniion-requirements.txt"
-          python -m pip install -r "$RUNNER_TEMP/uniion-requirements.txt"
+          python -m pip install -r "$RUNNER_TEMP/uniion-requirements.txt" -r application/requirements-test.txt
       - run: npm ci --prefix application/frontend
       - name: Frontend build
         working-directory: application/frontend

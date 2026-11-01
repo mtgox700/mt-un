@@ -10,16 +10,16 @@
       "sha256": "ea730b3291033f74cb4d1612af5da29e7ccffc5a8ac1d102e30362e016ac6aa8"
     },
     ".github/workflows/review.yml": {
-      "bytes": 1309,
-      "sha256": "6c156063cb377880ef626ff61e19ffa17fff287917c47dd2265b21add2c7367e"
+      "bytes": 1346,
+      "sha256": "013ac8f061dd60ecd09fa4c5b26893bea5a48d056b95092fe2570419a0547c0d"
     },
     ".gitignore": {
       "bytes": 410,
       "sha256": "3695a3ac203af428234bc96139ce918d2d22cf0922a76068ecca3b7d8c0fae52"
     },
     "README.md": {
-      "bytes": 2735,
-      "sha256": "cefca753fe5543825eed75e0392be30f7ffb08c1594cf595f35b1a33185dbc05"
+      "bytes": 2772,
+      "sha256": "8629707fde967656e37363f29d91926912143ae328a517fc623561b3f6bca694"
     },
     "analyse_uniion/livraison_dev_uniion_v3/00_LIRE_EN_PREMIER.md": {
       "bytes": 10756,
@@ -16176,6 +16176,11 @@
     "validation-etape1/couverture-87-sections.json": {
       "bytes": 38682,
       "sha256": "b01cae43180089faa2c4ecfb377912b130ccf9c4e74130c5cb174eabe827acdb"
+    },
+    "application/requirements-test.txt": {
+      "bytes": 102,
+      "sha256": "255565296887bf6253747098307dcc7076bbded40c67f1a79fbcef77c0d955bf"
     }
-  }
+  },
+  "publication_note": "GitHub CI correction: declare Office fixture test dependencies; application source unchanged from original ZIP."
 }

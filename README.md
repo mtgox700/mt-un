@@ -22,7 +22,7 @@ Python 3.12 et Node 22 sont utilisés dans la configuration CI proposée. Depuis
 python3 -m venv .venv
 . .venv/bin/activate
 python -c 'import tomllib,pathlib; p=tomllib.loads(pathlib.Path("application/pyproject.toml").read_text()); print("\n".join(p["project"]["dependencies"]))' > /tmp/uniion-review-requirements.txt
-python -m pip install -r /tmp/uniion-review-requirements.txt
+python -m pip install -r /tmp/uniion-review-requirements.txt -r application/requirements-test.txt
 npm ci --prefix application/frontend
 npm run build --prefix application/frontend
 cd application
