@@ -1,10 +1,16 @@
 """Real ClamAV INSTREAM scanner, fail closed. Content never leaves loopback."""
 import socket,struct,datetime,time,json,pathlib,threading,subprocess,base64,tempfile,os,uuid,selectors
-ROOT=pathlib.Path(__file__).resolve().parents[3]/'prototype-evolution/organisation-droits-partage'
-PYTHON='/Users/mt/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3'
+def _tool(variable,default,name):
+ # Configurable path (R2): explicit variable, then historical local path, then PATH lookup.
+ import shutil
+ value=os.environ.get(variable)
+ if value:return value
+ return default if os.path.exists(default) else (shutil.which(name) or default)
+ROOT=pathlib.Path(os.environ.get('UNIION_LOCAL_STATE_ROOT',str(pathlib.Path(__file__).resolve().parents[3]/'prototype-evolution/organisation-droits-partage')))
+PYTHON=_tool('UNIION_PYTHON','/Users/mt/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3','python3')
 LOCK=threading.Lock();IDENTITY=None
 RENDERS=threading.BoundedSemaphore(2)
-DOCKER='/Users/mt/.docker/bin/docker'
+DOCKER=_tool('UNIION_DOCKER','/Users/mt/.docker/bin/docker','docker')
 # Immutable local image ID: no runtime image pull or tag replacement.
 RENDER_IMAGE='sha256:bf334ee257e5cd1b985e15f1d4bffd042bf6829c6e7809703181733e3d16a05d'
 class ScanUnavailable(Exception):pass
