@@ -66,6 +66,72 @@ class SessionStore:
         except (ValueError,TypeError,AttributeError):raise Denied() from None
         if factor_id not in [f['id'] for f in user.get('factors',[])]:raise Denied()
         return factor_id
+    def identity_token(self,s):
+        """Under the session lock: authenticate, check business access and rate, return the access token."""
+        user,status=self.authenticate(s)
+        if not status['allowed']:raise Denied()
+        self.limit('identity:'+user['id'],20)
+        return s['access_token']
+    def identity_dispatch(self,path,token,data):
+        """Outside the session lock: business call with an already authorized token (R1)."""
+        s={'access_token':token}
+        if path=='/identity/ai':
+            from .ai_gateway import policy
+            return policy(self.api,s['access_token'],data)
+        if path=='/identity/messaging':
+            from .messaging import dispatch
+            return dispatch(self.api,s['access_token'],data)
+        if path=='/identity/business':
+            from .business_records import dispatch
+            return dispatch(self.api,s['access_token'],data)
+        if path=='/identity/documents':
+            from .documents import dispatch
+            return dispatch(self.api,s['access_token'],data)
+        if path=='/identity/cases':
+            from .cases import dispatch
+            return dispatch(self.api,s['access_token'],data)
+        if path=='/identity/adherents':
+            from .adherents import dispatch
+            return dispatch(self.api,s['access_token'],data)
+        if path=='/identity/agenda/convocations/files':
+            from .agenda import history_files
+            return history_files(self.api,s['access_token'],data)
+        if path=='/identity/agenda/convocations/history':
+            from uuid import UUID
+            if set(data)!={'organization_id'}:raise Denied()
+            try:org=str(UUID(data['organization_id']))
+            except (ValueError,TypeError,AttributeError):raise Denied() from None
+            return self.api.request('/rest/v1/rpc/uniion_convocation_history',s['access_token'],{'p_org':org})
+        if path in ('/identity/agenda/work','/identity/agenda/convocations/send'):
+            from .agenda import workflow
+            return workflow(self.api,s['access_token'],data,send=path.endswith('/send'))
+        if path=='/identity/agenda/export':
+            from .agenda import export
+            return export(self.api,s['access_token'],data)
+        if path in ('/identity/support/files/preview','/identity/support/files/download'):
+            import re
+            from . import attachments
+            preview_mode=path.endswith('/preview')
+            expected={'organization_id','ticket','grant','attachment'}|({'page'} if preview_mode else set())
+            if set(data)!=expected or any(not isinstance(data.get(k),str) or not re.fullmatch('[0-9a-fA-F-]{36}',data[k]) for k in expected-{'page'}):raise Denied()
+            if preview_mode and (type(data['page']) is not int or not 1<=data['page']<=200):raise Denied()
+            return attachments.support_file(self.api,s['access_token'],data['organization_id'],data,preview_mode)
+        if path in ('/identity/attachments/preview','/identity/attachments/download'):
+            import base64,re
+            from . import attachments
+            expected={'organization_id','attachment','share'}|({'page'} if path.endswith('/preview') else set())
+            if set(data)!=expected or any(not isinstance(data.get(k),str) or not re.fullmatch('[0-9a-fA-F-]{36}',data[k]) for k in ('organization_id','attachment')):raise Denied()
+            if data['share'] is not None and (not isinstance(data['share'],str) or not re.fullmatch('[0-9a-fA-F-]{36}',data['share'])):raise Denied()
+            if path.endswith('/preview'):
+                if type(data['page']) is not int or not 1<=data['page']<=200:raise Denied()
+                return attachments.preview(self.api,s['access_token'],data['organization_id'],data)
+            meta,raw=attachments.download(self.api,s['access_token'],data['organization_id'],data)
+            return {'filename':meta['filename'],'mime':meta['mime'],'content':base64.b64encode(raw).decode()}
+        if path in ('/identity/invitations/send','/identity/invitations/resend'):
+            from .local_invitation_mail import send
+            return send(self.api,s['access_token'],data,resend=path.endswith('/resend'))
+        from .identity import dispatch
+        return dispatch(self.api,s['access_token'],path,data)
     def post(self,path,sid,s,data,ip):
         if not s:raise Denied()
         if path=='/auth/recovery/request':
@@ -126,63 +192,7 @@ class SessionStore:
         if path.startswith('/identity/'):
             if not status['allowed']:raise Denied()
             self.limit('identity:'+user['id'],20)
-            if path=='/identity/ai':
-                from .ai_gateway import policy
-                return sid,policy(self.api,s['access_token'],data)
-            if path=='/identity/messaging':
-                from .messaging import dispatch
-                return sid,dispatch(self.api,s['access_token'],data)
-            if path=='/identity/business':
-                from .business_records import dispatch
-                return sid,dispatch(self.api,s['access_token'],data)
-            if path=='/identity/documents':
-                from .documents import dispatch
-                return sid,dispatch(self.api,s['access_token'],data)
-            if path=='/identity/cases':
-                from .cases import dispatch
-                return sid,dispatch(self.api,s['access_token'],data)
-            if path=='/identity/adherents':
-                from .adherents import dispatch
-                return sid,dispatch(self.api,s['access_token'],data)
-            if path=='/identity/agenda/convocations/files':
-                from .agenda import history_files
-                return sid,history_files(self.api,s['access_token'],data)
-            if path=='/identity/agenda/convocations/history':
-                from uuid import UUID
-                if set(data)!={'organization_id'}:raise Denied()
-                try:org=str(UUID(data['organization_id']))
-                except (ValueError,TypeError,AttributeError):raise Denied() from None
-                return sid,self.api.request('/rest/v1/rpc/uniion_convocation_history',s['access_token'],{'p_org':org})
-            if path in ('/identity/agenda/work','/identity/agenda/convocations/send'):
-                from .agenda import workflow
-                return sid,workflow(self.api,s['access_token'],data,send=path.endswith('/send'))
-            if path=='/identity/agenda/export':
-                from .agenda import export
-                return sid,export(self.api,s['access_token'],data)
-            if path in ('/identity/support/files/preview','/identity/support/files/download'):
-                import re
-                from . import attachments
-                preview_mode=path.endswith('/preview')
-                expected={'organization_id','ticket','grant','attachment'}|({'page'} if preview_mode else set())
-                if set(data)!=expected or any(not isinstance(data.get(k),str) or not re.fullmatch('[0-9a-fA-F-]{36}',data[k]) for k in expected-{'page'}):raise Denied()
-                if preview_mode and (type(data['page']) is not int or not 1<=data['page']<=200):raise Denied()
-                return sid,attachments.support_file(self.api,s['access_token'],data['organization_id'],data,preview_mode)
-            if path in ('/identity/attachments/preview','/identity/attachments/download'):
-                import base64,re
-                from . import attachments
-                expected={'organization_id','attachment','share'}|({'page'} if path.endswith('/preview') else set())
-                if set(data)!=expected or any(not isinstance(data.get(k),str) or not re.fullmatch('[0-9a-fA-F-]{36}',data[k]) for k in ('organization_id','attachment')):raise Denied()
-                if data['share'] is not None and (not isinstance(data['share'],str) or not re.fullmatch('[0-9a-fA-F-]{36}',data['share'])):raise Denied()
-                if path.endswith('/preview'):
-                    if type(data['page']) is not int or not 1<=data['page']<=200:raise Denied()
-                    return sid,attachments.preview(self.api,s['access_token'],data['organization_id'],data)
-                meta,raw=attachments.download(self.api,s['access_token'],data['organization_id'],data)
-                return sid,{'filename':meta['filename'],'mime':meta['mime'],'content':base64.b64encode(raw).decode()}
-            if path in ('/identity/invitations/send','/identity/invitations/resend'):
-                from .local_invitation_mail import send
-                return sid,send(self.api,s['access_token'],data,resend=path.endswith('/resend'))
-            from .identity import dispatch
-            return sid,dispatch(self.api,s['access_token'],path,data)
+            return sid,self.identity_dispatch(path,s['access_token'],data)
         if path=='/auth/password':
             if s.get('recovery_until',0)<=self.clock() or not status['allowed']:raise Denied()
             password=data.get('password')

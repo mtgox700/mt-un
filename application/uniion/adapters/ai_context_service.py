@@ -29,33 +29,40 @@ class ContextService:
         result=self.call('/rest/v1/rpc/uniion_ai_recipe',{'p_org':org,'p_action':'check','p_refs':self.snapshot(sources)})
         if result.get('allowed') is not True:raise Denied()
     def catalog(self,org,limit=8):
-        values=self.call('/rest/v1/rpc/uniion_ai_recipe',{'p_org':org,'p_action':'catalog','p_refs':[]})
-        # The registry is not an access grant. Contract read is authoritative.
-        result=[]
+        return [source['ref'] for source in self.catalog_sources(org,limit)]
+    def catalog_sources(self,org,limit=8):
+        """Authorized sources in registry order, stopping at `limit` (R9).
+
+        Candidates are produced lazily: module lists are only read while more
+        sources are needed, and each candidate is still read through its own
+        contract and checked by the recipe. The registry is not an access grant.
+        """
         from .supabase_transport import AccessDenied
-        try:interactive=self.call('/rest/v1/rpc/uniion_ai_interactive',{'p_org':org}).get('allowed') is True
-        except (Denied,AccessDenied):interactive=False
-        if interactive:
-            values=list(values)+[{'kind':'workspace','id':org}]
+        def candidates():
+            yield from self.call('/rest/v1/rpc/uniion_ai_recipe',{'p_org':org,'p_action':'catalog','p_refs':[]})
+            try:interactive=self.call('/rest/v1/rpc/uniion_ai_interactive',{'p_org':org}).get('allowed') is True
+            except (Denied,AccessDenied):interactive=False
+            if not interactive:return
+            yield {'kind':'workspace','id':org}
             for module in ('reunions','communication','mobile','formations','sondages','intranet','reporting','raccourcis'):
-                try:
-                    rows=self.call('/rest/v1/rpc/uniion_business_records',{'p_org':org,'p_module':module,'p_action':'list','p_payload':{}})['rows']
-                    values.extend({'kind':module,'id':row['id']} for row in rows[:64])
+                try:rows=self.call('/rest/v1/rpc/uniion_business_records',{'p_org':org,'p_module':module,'p_action':'list','p_payload':{}})['rows']
                 except (Denied,AccessDenied):continue
+                yield from ({'kind':module,'id':row['id']} for row in rows[:64])
             for endpoint,kind in (('uniion_cases','case'),('uniion_documents','document')):
-                try:
-                    rows=self.call('/rest/v1/rpc/'+endpoint,{'p_org':org,'p_action':'list','p_payload':{}})['rows']
-                    values.extend({'kind':kind,'id':row['id']} for row in rows[:64])
+                try:rows=self.call('/rest/v1/rpc/'+endpoint,{'p_org':org,'p_action':'list','p_payload':{}})['rows']
                 except (Denied,AccessDenied):continue
-        seen=set()
-        for value in values:
+                yield from ({'kind':kind,'id':row['id']} for row in rows[:64])
+        result=[];seen=set()
+        if limit<1:return result
+        for value in candidates():
             key=canonical(value)
             if key in seen:continue
             seen.add(key)
             try:
-                source=self.load(org,[value])[0];self.recipe(org,[source]);result.append(source['ref'])
+                source=self.load(org,[value])[0];self.recipe(org,[source]);result.append(source)
             except (Denied,AccessDenied):continue
-        return result[:limit]
+            if len(result)>=limit:break
+        return result
     def generate(self,org,values,provider,check,cancelled):
         sources=self.load(org,values);context=prepare(sources);snapshot=self.snapshot(sources)
         self.recipe(org,sources)

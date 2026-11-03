@@ -24,6 +24,19 @@ def export(api,token,data):
  row=api.request('/rest/v1/rpc/uniion_agenda_export',token,{'p_org':org,'p_id':event})
  return {'filename':'evenement.ics','mime':'text/calendar;charset=utf-8','content':calendar(row)}
 
+SEND_WORKERS=4
+
+def send_mail(message):
+ """Local mail service (Inbucket) of the fictitious test environment; no redirect followed."""
+ import json,urllib.request
+ class NoRedirect(urllib.request.HTTPRedirectHandler):
+  def redirect_request(self,req,fp,code,msg,headers,newurl):return None
+ try:
+  req=urllib.request.Request('http://127.0.0.1:54324/api/v1/send',data=json.dumps(message).encode(),headers={'Content-Type':'application/json'},method='POST')
+  with urllib.request.build_opener(NoRedirect()).open(req,timeout=8) as response:ok=response.status==200;response.read()
+  return ok
+ except Exception:return False
+
 def workflow(api,token,data,send=False):
  import json,urllib.request
  if set(data)!={'organization_id','event_id','action','payload'} or not isinstance(data['payload'],dict) or data['action'] not in ('files','select_files','upload_file','document','save_document','recipients','prepare','export','status','review','publish','published'):raise Denied()
@@ -78,18 +91,25 @@ def workflow(api,token,data,send=False):
  if attachments and batch['deliveries']:
   from .convocation_archive import persist
   persist(api,org,data['payload']['id'],attachments[:2])
- class NoRedirect(urllib.request.HTTPRedirectHandler):
-  def redirect_request(self,req,fp,code,msg,headers,newurl):return None
- for recipient in batch['deliveries']:
+ def deliver(recipient):
+  # Each recipient keeps its own check -> send -> finish sequence; recipients are independent.
   payload={'id':data['payload']['id'],'user':recipient['user']}
-  rpc('check',payload);ok=False
-  try:
-   message={'From':{'Email':'agenda@uniion-local.example','Name':'uniion — Convocation locale'},'To':[{'Email':recipient['email']}],'Subject':batch['subject'],'Text':batch['body'],'Headers':{'Message-ID':'<'+payload['id']+'.'+payload['user']+'@agenda.uniion.local>'}}
-   if attachments:message['Attachments']=attachments
-   req=urllib.request.Request('http://127.0.0.1:54324/api/v1/send',data=json.dumps(message).encode(),headers={'Content-Type':'application/json'},method='POST')
-   with urllib.request.build_opener(NoRedirect()).open(req,timeout=8) as response:ok=response.status==200;response.read()
-  except Exception:pass
-  rpc('finish',{**payload,'ok':ok});sent+=int(ok);uncertain+=int(not ok)
+  rpc('check',payload)
+  message={'From':{'Email':'agenda@uniion-local.example','Name':'uniion — Convocation locale'},'To':[{'Email':recipient['email']}],'Subject':batch['subject'],'Text':batch['body'],'Headers':{'Message-ID':'<'+payload['id']+'.'+payload['user']+'@agenda.uniion.local>'}}
+  if attachments:message['Attachments']=attachments
+  ok=send_mail(message)
+  rpc('finish',{**payload,'ok':ok});return ok
+ # Bounded parallel delivery (R24): at most SEND_WORKERS connections to the mail service.
+ from concurrent.futures import ThreadPoolExecutor
+ deliveries=batch['deliveries'] or []
+ outcomes=[]
+ if deliveries:
+  with ThreadPoolExecutor(max_workers=min(SEND_WORKERS,len(deliveries)),thread_name_prefix='convocation-send') as pool:
+   futures=[pool.submit(deliver,recipient) for recipient in deliveries]
+  outcomes=[f.exception() or f.result() for f in futures]
+  failure=next((o for o in outcomes if isinstance(o,BaseException)),None)
+  if failure is not None:raise failure
+ sent=sum(1 for o in outcomes if o is True);uncertain=len(outcomes)-sent
  return {'sent':sent,'uncertain':uncertain,'replayed':batch['replayed']}
 
 def history_files(api,token,data):
