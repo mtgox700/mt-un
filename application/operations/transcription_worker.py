@@ -28,7 +28,8 @@ def process_one(api,token):
 
 def main():
  parser=argparse.ArgumentParser();parser.add_argument('--once',action='store_true');args=parser.parse_args()
- config=json.loads((ROOT/'.local-auth/transcription-worker.json').read_text())
+ from uniion.service_credentials import load
+ config=load('UNIION_TRANSCRIPTION',ROOT/'.local-auth/transcription-worker.json')
  api=SupabaseAccess('http://127.0.0.1:54321','',local=True)
  while True:
   try:
