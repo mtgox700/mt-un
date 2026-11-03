@@ -63,7 +63,7 @@ def serve(e, start, store, api, gateway, origin, port):
                 org=str(UUID(data['organization_id']));authorize(org)
                 from uniion.adapters.ai_proposals import CATALOG
                 result={'actions':[{k:a[k] for k in ('id','mod','label','desc','scope') if k in a} for a in CATALOG],
-                        'sources':[{'ref':s['ref'],'title':s['title']} for ref in context.catalog(org,64) for s in context.load(org,[ref])]}
+                        'sources':[{'ref':s['ref'],'title':s['title']} for s in context.catalog_sources(org,64)]}
                 authorize(org)
             else:result=generate_action(gateway,context,authorize,sid,data)
         elif path.endswith('/assistant'):
