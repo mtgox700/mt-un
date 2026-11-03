@@ -5698,9 +5698,12 @@ $$;
 --
 
 CREATE FUNCTION uniion_private.is_scanner() RETURNS boolean
-    LANGUAGE sql STABLE SECURITY DEFINER
+    LANGUAGE plpgsql STABLE SECURITY DEFINER
     SET search_path TO ''
-    AS $$select exists(select 1 from uniion_private.scan_workers where user_id=auth.uid())$$;
+    AS $$
+begin
+ return uniion_private.session_allowed() and exists(select 1 from uniion_private.scan_workers where user_id=auth.uid());
+end$$;
 
 
 --

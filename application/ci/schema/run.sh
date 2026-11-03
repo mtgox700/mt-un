@@ -16,6 +16,7 @@ out=$(docker exec -i "$C" psql -X -At -F'|' -U postgres < check_schema.sql)
 echo "$out"
 if echo "$out" | awk -F'|' '$2!=0{bad=1} END{exit !bad}'; then echo "Invariant de schéma non respecté" >&2; exit 1; fi
 python3 check_restore_journal.py "$C"
+docker exec -i "$C" psql -q -X -U postgres -v ON_ERROR_STOP=1 < check_behaviour.sql
 docker exec "$C" pg_dump -U postgres --schema-only --no-owner --no-privileges -n public -n uniion_private | grep -vE "^\\\\(un)?restrict " > schema.current.sql
 if [ "${1:-}" = "--update" ]; then mv schema.current.sql schema.sql; echo "schema.sql mis à jour"; exit 0; fi
 if ! diff -q schema.sql schema.current.sql >/dev/null; then

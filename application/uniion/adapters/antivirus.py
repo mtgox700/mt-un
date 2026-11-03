@@ -92,6 +92,7 @@ def worker_token(api):
  with LOCK:
   if not IDENTITY or IDENTITY.get('expires_at',0)<time.time()+60:
    try:
-    cfg=json.loads((ROOT/'.local-auth/scanner.json').read_text());IDENTITY=api.login(cfg['email'],cfg['password'])
+    from uniion.service_credentials import load
+    cfg=load('UNIION_SCANNER',ROOT/'.local-auth/scanner.json');IDENTITY=api.login(cfg['email'],cfg['password'])
    except Exception:raise ScanUnavailable('Service de scan indisponible') from None
   return IDENTITY['access_token']

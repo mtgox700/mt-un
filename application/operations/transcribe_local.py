@@ -3,10 +3,12 @@ import os
 os.environ.update(HF_HUB_OFFLINE='1', TRANSFORMERS_OFFLINE='1', HF_HUB_DISABLE_TELEMETRY='1')
 import hashlib, io, json, pathlib, sys, wave
 ROOT=pathlib.Path(__file__).resolve().parents[1]
+# Inside the sandbox the model is mounted read-only and named by this variable (R30).
+MODELS=pathlib.Path(os.environ.get('UNIION_TRANSCRIPTION_MODEL_DIR',str(ROOT/'.local-transcription')))
 def transcribe(raw):
  from faster_whisper import WhisperModel
- manifest=json.loads((ROOT/'.local-transcription/model-manifest.json').read_text())
- model=ROOT/'.local-transcription/model'
+ manifest=json.loads((MODELS/'model-manifest.json').read_text())
+ model=MODELS/'model'
  for name,digest in manifest['files'].items():
   if pathlib.Path(name).name!=name or hashlib.sha256((model/name).read_bytes()).hexdigest()!=digest:
    raise ValueError('Model integrity failure')
