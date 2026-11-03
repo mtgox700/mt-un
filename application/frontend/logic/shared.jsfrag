@@ -2896,7 +2896,7 @@ class Component extends DCLogic {
       count: this.state.shortcuts.length + (this.state.shortcuts.length === 1 ? ' raccourci' : ' raccourcis'),
       empty: this.state.shortcuts.length === 0,
       items: this.state.shortcuts.map((s) => ({
-        label: s.label, url: s.url, note: s.note || host(s.url), host: host(s.url), color: s.color || '#1D4ED8', initial: (s.label || '?').trim().charAt(0).toUpperCase(),
+        label: s.label, url: this.safeHref(s.url), note: s.note || host(s.url), host: host(s.url), color: s.color || '#1D4ED8', initial: (s.label || '?').trim().charAt(0).toUpperCase(),
         armed: this.state.scArmDel === s.id,
         edit: () => this.setState({ scDraft: Object.assign({}, s), scArmDel: null }),
         arm: () => this.setState({ scArmDel: s.id }),
@@ -3422,7 +3422,11 @@ class Component extends DCLogic {
     ];
   }
   pageBlocks(pg) { return pg.blocks || this.defaultBlocks(pg); }
-  esc(s) { return String(s === null || s === undefined ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+  esc(s) { return String(s === null || s === undefined ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;'); }
+  // R42/R46 : seuls les liens web, internes, ancres et mailto sont conservés ; le reste devient une ancre vide.
+  safeHref(u) { const s = String(u === null || u === undefined ? '' : u).trim(); return /^(https?:\/\/|\/(?!\/)|#|mailto:)/i.test(s) ? s : '#'; }
+  // Images : données image encodées ou chemin du même site uniquement.
+  safeSrc(u) { const s = String(u === null || u === undefined ? '' : u).trim(); return /^(data:image\/(png|jpeg|gif|webp);base64,|\/(?!\/))/i.test(s) ? s : ''; }
   pageCss(siteId) {
     const c = this.webCharteDef(siteId);
     const rad = c.radius === 'net' ? 0 : (c.radius === 'rond' ? 22 : 14);
@@ -3555,7 +3559,7 @@ class Component extends DCLogic {
     L.push('<header class="up-head"><div class="up-wrap">');
     L.push('  <a class="up-brand" href="' + (pub ? '/' : '/intranet') + '">');
     const lg = this.siteLogo(site.id);
-    if (c.logo && lg.src) L.push('    <img class="up-logo-img" src="' + e(lg.src) + '" alt="' + e(org.nom || '') + '" width="' + Math.round(44 * lg.scale) + '" />');
+    if (c.logo && this.safeSrc(lg.src)) L.push('    <img class="up-logo-img" src="' + e(this.safeSrc(lg.src)) + '" alt="' + e(org.nom || '') + '" width="' + Math.round(44 * lg.scale) + '" />');
     else L.push('    <span class="up-logo" aria-hidden="true">' + e(sigle.replace(/[^A-Za-zÀ-ÿ]/g, '').slice(0, 3).toUpperCase()) + '</span>');
     L.push('    <span><strong>' + e(org.nom || '') + '</strong><span>' + (pub ? 'Site public de la section' : 'Intranet des salariés') + '</span></span>');
     L.push('  </a>');
@@ -3567,14 +3571,14 @@ class Component extends DCLogic {
     L.push('</div></header>');
 
     L.push('<nav class="up-nav" aria-label="Navigation principale"><div class="up-wrap"><ul>');
-    rubs.forEach(function (x) {
-      L.push('  <li><a href="' + x.path + '"' + (x.id === rub.id ? ' aria-current="page"' : '') + '>' + x.label + '</a></li>');
+    rubs.forEach((x) => {
+      L.push('  <li><a href="' + e(this.safeHref(x.path)) + '"' + (x.id === rub.id ? ' aria-current="page"' : '') + '>' + e(x.label) + '</a></li>');
     });
     L.push('</ul></div></nav>');
 
     L.push('<div class="up-wrap up-crumb"><nav aria-label="Fil d\'ariane"><ol>');
     L.push('  <li><a href="' + (pub ? '/' : '/intranet') + '">Accueil</a></li>');
-    L.push('  <li><a href="' + rub.path + '">' + e(rub.label) + '</a></li>');
+    L.push('  <li><a href="' + e(this.safeHref(rub.path)) + '">' + e(rub.label) + '</a></li>');
     L.push('  <li aria-current="page">' + e(pg.title) + '</li>');
     L.push('</ol></nav></div>');
 
@@ -3596,7 +3600,7 @@ class Component extends DCLogic {
       if (b.t === 'h2') L.push('  <h2 id="' + slug(b.text) + '">' + e(b.text) + '</h2>');
       else if (b.t === 'p') L.push('  <p>' + e(b.text) + '</p>');
       else if (b.t === 'callout') L.push('  <aside class="up-callout"><strong>À retenir</strong>' + e(b.text) + '</aside>');
-      else if (b.t === 'cta') L.push('  <a class="up-cta" href="' + e(b.href) + '">' + e(b.text) + ' <span aria-hidden="true">&#8594;</span></a>');
+      else if (b.t === 'cta') L.push('  <a class="up-cta" href="' + e(this.safeHref(b.href)) + '">' + e(b.text) + ' <span aria-hidden="true">&#8594;</span></a>');
       else if (b.t === 'file') L.push('  <a class="up-file" href="' + (pub ? '/documents/' : '/intranet/fichiers/') + e(pg.slug) + '.pdf" download><span class="up-ext">PDF</span><span>' + e(b.text) + '<small>Télécharger — s\'ouvre dans une nouvelle fenêtre</small></span></a>');
       else if (b.t === 'img') L.push('  <figure>\n    <div class="up-ph" role="img" aria-label="' + e(b.text) + '">visuel à fournir — 1600 × 900</div>\n    <figcaption>' + e(b.text) + '</figcaption>\n  </figure>');
       else if (b.t === 'list') {
@@ -3633,7 +3637,7 @@ class Component extends DCLogic {
       L.push('  <div class="up-card"><h3>Contact presse</h3><p>' + e(pg.author) + '<br />presse@' + e(site.host) + '<br />03 27 00 00 00</p></div>');
     } else {
       L.push('  <div class="up-card"><h3>Permanences</h3><p>Local B12 — mardi 12 h-14 h et jeudi 17 h-18 h 30.</p><a class="up-btn" href="/intranet/contacts">Saisir vos représentants</a></div>');
-      L.push('  <div class="up-card"><h3>Documents liés</h3><ul><li><a href="' + rub.path + '">Toutes les pages de « ' + e(rub.label) + ' »</a></li><li><a href="/intranet/la-section/comptes-rendus">Comptes rendus de séance</a></li><li><a href="/intranet/vos-droits">Fiches pratiques</a></li></ul></div>');
+      L.push('  <div class="up-card"><h3>Documents liés</h3><ul><li><a href="' + e(this.safeHref(rub.path)) + '">Toutes les pages de « ' + e(rub.label) + ' »</a></li><li><a href="/intranet/la-section/comptes-rendus">Comptes rendus de séance</a></li><li><a href="/intranet/vos-droits">Fiches pratiques</a></li></ul></div>');
     }
     L.push('  <div class="up-card"><h3>Mots-clés</h3><p><span class="up-tag">' + e(rub.label) + '</span><span class="up-tag">' + e(pg.slug) + '</span><span class="up-tag">2026</span></p></div>');
     L.push('</aside>');
@@ -3643,7 +3647,7 @@ class Component extends DCLogic {
     L.push('  <div class="up-cols">');
     L.push('    <div class="up-col"><h4>' + e(sigle) + '</h4><p style="margin:0">' + e(org.adresse || '') + '<br />' + e(org.email || '') + '</p></div>');
     L.push('    <div class="up-col"><h4>Rubriques</h4><ul>');
-    rubs.slice(0, 4).forEach(function (x) { L.push('      <li><a href="' + x.path + '">' + x.label + '</a></li>'); });
+    rubs.slice(0, 4).forEach((x) => { L.push('      <li><a href="' + e(this.safeHref(x.path)) + '">' + e(x.label) + '</a></li>'); });
     L.push('    </ul></div>');
     if (pub) {
       L.push('    <div class="up-col"><h4>Agir</h4><ul><li><a href="/adherer">Adhérer</a></li><li><a href="/campagnes">Nos campagnes</a></li><li><a href="/contact">Nous écrire</a></li></ul></div>');
@@ -3874,7 +3878,8 @@ class Component extends DCLogic {
       })),
       isTabPreview: this.state.webTab !== 'code', isTabCode: this.state.webTab === 'code',
       pgx: this.extPageVals(pg, src),
-      webPreview: React.createElement('div', { dangerouslySetInnerHTML: { __html: '<style>' + this.pageCss(this.pageSite(pg)) + '</style>' + src } }),
+      // R42 : aperçu isolé (iframe sandbox sans script ni accès à l'origine de l'application).
+      webPreview: React.createElement('iframe', { title: 'Aperçu de la page', sandbox: '', referrerPolicy: 'no-referrer', style: { width: '100%', height: '560px', border: '0', background: '#fff' }, srcDoc: '<!doctype html><meta charset="utf-8"><style>' + this.pageCss(this.pageSite(pg)) + '</style>' + src }),
       pageSrc: src,
       onPageSrc: (e) => this.setState({ pageHtmlDraft: e.target.value }),
       srcDirty: this.state.pageHtmlDraft !== null && this.state.pageHtmlDraft !== undefined,
