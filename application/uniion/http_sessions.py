@@ -28,43 +28,61 @@ def wrap(resource_app,api,store=None,ai_ledger=None):
                 start('503 Service Unavailable',[('Content-Type','application/json'),('Cache-Control','no-store')]);return [b'{}']
         ai_response=serve_ai(e,start,store,api,ai_gateway,ORIGIN,PORT)
         if ai_response is not None:return ai_response
-        status='200 OK';cookie=None;result={};sid=None;s=None;path=e.get('PATH_INFO','');method=e.get('REQUEST_METHOD')
-        with store.lock:
-            try:
-                if e.get('HTTP_HOST')!='127.0.0.1:'+PORT:raise Denied()
-                if e.get('HTTP_AUTHORIZATION'):raise Denied() # no external bearer bypass of session lifecycle
-                if path=='/health' and method=='GET':return resource_app(e,start)
-                sid,s=store.find(e.get('HTTP_COOKIE',''),create=path=='/auth/session' and method=='GET')
-                if path=='/auth/session' and method=='GET':
-                    try:result=store.public(s)
-                    except (Denied,AccessDenied):
-                        store.sessions.pop(sid,None)
-                        sid,s=store.find('',create=True)
-                        result=store.public(s)
-                    cookie=store.cookie(sid)
-                elif path in POSTS and method=='POST':
-                    if not s or e.get('HTTP_ORIGIN')!=ORIGIN or not secrets.compare_digest(e.get('HTTP_X_UNIION_CSRF',''),s['csrf']):raise Denied()
-                    if e.get('CONTENT_TYPE','').split(';')[0]!='application/json':raise Denied()
-                    n=int(e.get('CONTENT_LENGTH','0'))
-                    limit=8*1024*1024 if path in ('/identity/agenda/work','/identity/adherents','/identity/cases') else (8*1024*1024 if path in ('/identity/documents','/identity/business') else (8*1024*1024 if path=='/identity/messaging' else 16384))
-                    if not 0<n<=limit:raise Denied()
-                    data=json.loads(e['wsgi.input'].read(n))
-                    if not isinstance(data,dict):raise Denied()
-                    sid,result=store.post(path,sid,s,data,e.get('REMOTE_ADDR','unknown'));cookie=store.cookie(sid);hub.wake()
-                elif path.startswith('/api/') and method=='GET':
-                    _,auth=store.authenticate(s)
-                    if not auth['allowed']:raise Denied()
-                    inner={**e,'HTTP_AUTHORIZATION':'Bearer '+s['access_token']}
-                    return resource_app(inner,start)
-                else:status='404 Not Found';result={'error':'Route inconnue'}
-            except PDFContentMissing:status='422 Unprocessable Entity';result={'error':'Ce style ne restitue pas tous les blocs. Choisissez le style Classique.','code':'pdf_content_missing'}
-            except PDFOverflow:status='422 Unprocessable Entity';result={'error':'Le contenu dépasse le gabarit PDF. Raccourcissez-le ou ajoutez un saut de page.','code':'pdf_overflow'}
-            except (Denied,AccessDenied):status='403 Forbidden';result={'error':'Accès refusé ou vérification requise'}
-            except RateLimited:status='429 Too Many Requests';result={'error':'Trop de tentatives. Réessayez plus tard.'}
-            except (ValueError,KeyError,TypeError):status='400 Bad Request';result={'error':'Requête invalide'}
-            except (Unavailable,SupabaseUnavailable):status='503 Service Unavailable';result={'error':'Service indisponible'}
-            except Exception:status='503 Service Unavailable';result={'error':'Service indisponible'}
-            if path in ('/auth/logout','/auth/password') and method=='POST' and s is not None and sid not in store.sessions:cookie=store.cookie('')
+        status='200 OK';cookie=None;result={};sid=None;s=None;path=e.get('PATH_INFO','');method=e.get('REQUEST_METHOD');deferred=None
+        def failure(exc):
+            if isinstance(exc,PDFContentMissing):return '422 Unprocessable Entity',{'error':'Ce style ne restitue pas tous les blocs. Choisissez le style Classique.','code':'pdf_content_missing'}
+            if isinstance(exc,PDFOverflow):return '422 Unprocessable Entity',{'error':'Le contenu dépasse le gabarit PDF. Raccourcissez-le ou ajoutez un saut de page.','code':'pdf_overflow'}
+            if isinstance(exc,(Denied,AccessDenied)):return '403 Forbidden',{'error':'Accès refusé ou vérification requise'}
+            if isinstance(exc,RateLimited):return '429 Too Many Requests',{'error':'Trop de tentatives. Réessayez plus tard.'}
+            if isinstance(exc,(ValueError,KeyError,TypeError)):return '400 Bad Request',{'error':'Requête invalide'}
+            return '503 Service Unavailable',{'error':'Service indisponible'}
+        data=None
+        try:
+            # Request validation and body reading happen before the session lock (R1).
+            if e.get('HTTP_HOST')!='127.0.0.1:'+PORT:raise Denied()
+            if e.get('HTTP_AUTHORIZATION'):raise Denied() # no external bearer bypass of session lifecycle
+            if path in POSTS and method=='POST':
+                if e.get('HTTP_ORIGIN')!=ORIGIN:raise Denied()
+                if e.get('CONTENT_TYPE','').split(';')[0]!='application/json':raise Denied()
+                n=int(e.get('CONTENT_LENGTH','0'))
+                limit=8*1024*1024 if path in ('/identity/agenda/work','/identity/adherents','/identity/cases','/identity/documents','/identity/business','/identity/messaging') else 16384
+                if not 0<n<=limit:raise Denied()
+                data=json.loads(e['wsgi.input'].read(n))
+                if not isinstance(data,dict):raise Denied()
+        except Exception as exc:
+            status,result=failure(exc)
+        if status=='200 OK':
+            with store.lock:
+                try:
+                    if path=='/health' and method=='GET':return resource_app(e,start)
+                    sid,s=store.find(e.get('HTTP_COOKIE',''),create=path=='/auth/session' and method=='GET')
+                    if path=='/auth/session' and method=='GET':
+                        try:result=store.public(s)
+                        except (Denied,AccessDenied):
+                            store.sessions.pop(sid,None)
+                            sid,s=store.find('',create=True)
+                            result=store.public(s)
+                        cookie=store.cookie(sid)
+                    elif path in POSTS and method=='POST':
+                        if not s or not secrets.compare_digest(e.get('HTTP_X_UNIION_CSRF',''),s['csrf']):raise Denied()
+                        if path.startswith('/identity/'):
+                            # Business calls run after the lock is released, with a token authorized now.
+                            deferred=store.identity_token(s);cookie=store.cookie(sid)
+                        else:
+                            sid,result=store.post(path,sid,s,data,e.get('REMOTE_ADDR','unknown'));cookie=store.cookie(sid);hub.wake()
+                    elif path.startswith('/api/') and method=='GET':
+                        _,auth=store.authenticate(s)
+                        if not auth['allowed']:raise Denied()
+                        token=s['access_token']
+                    else:status='404 Not Found';result={'error':'Route inconnue'}
+                except Exception as exc:
+                    status,result=failure(exc);deferred=None
+                if path in ('/auth/logout','/auth/password') and method=='POST' and s is not None and sid not in store.sessions:cookie=store.cookie('')
+            if status=='200 OK' and path.startswith('/api/') and method=='GET':
+                return resource_app({**e,'HTTP_AUTHORIZATION':'Bearer '+token},start)
+            if deferred is not None:
+                try:result=store.identity_dispatch(path,deferred,data);hub.wake()
+                except Exception as exc:status,result=failure(exc)
         raw=json.dumps(result,ensure_ascii=False).encode();headers=[('Content-Type','application/json; charset=utf-8'),('Content-Length',str(len(raw))),('Cache-Control','no-store'),('Pragma','no-cache'),('X-Content-Type-Options','nosniff'),('Referrer-Policy','no-referrer'),('Content-Security-Policy',"default-src 'none'; frame-ancestors 'none'")]
         if cookie:headers.append(('Set-Cookie',cookie))
         start(status,headers);return [raw]
