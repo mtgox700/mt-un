@@ -1,5 +1,7 @@
 """Local launchd runner: encrypted backups, bounded retries, persistent alerts.
-No purge/delete operation. Business data and the application UI are untouched.
+No automatic purge. Expired backups (D07 retention, R37) are reported by monitor;
+only the explicit, approved `shred` command destroys one (key first, then data).
+Business data and the application UI are untouched.
 """
 import argparse,datetime,fcntl,hashlib,json,os,pathlib,signal,subprocess,sys,time,uuid
 
@@ -13,7 +15,10 @@ MESSAGES={
  'integrity':'La dernière sauvegarde vérifiée est absente ou a été modifiée.',
  'interrupted':'La sauvegarde précédente a été interrompue.',
  'recovered':'La sauvegarde locale fonctionne de nouveau.',
- 'scheduler_stale':'Le planificateur local ne donne plus de signe de vie.'}
+ 'scheduler_stale':'Le planificateur local ne donne plus de signe de vie.',
+ 'retention_due':'Des sauvegardes ont dépassé la durée de conservation. Destruction à approuver.',
+ 'backup_shredded':'Une sauvegarde expirée a été détruite après approbation.'}
+RETENTION_DAYS=30 # D07 : sauvegardes base et fichiers 30 jours
 
 def load_config(path):
     c=json.loads(pathlib.Path(path).read_text())
@@ -123,26 +128,60 @@ def tick(config,force=False):
         write(path,s)
         return {'status':'ok' if result else 'failed','backup':result['backup'] if result else None,'active_alerts':list(s['active_alerts'])}
 
+def backups(c):
+    """Backup folders with their snapshot time, oldest first."""
+    found=[]
+    for d in pathlib.Path(c['backup_dir']).glob('*'):
+        try:at=datetime.datetime.strptime(d.name,'%Y%m%dT%H%M%SZ').replace(tzinfo=datetime.timezone.utc).timestamp()
+        except ValueError:continue
+        if d.is_dir():found.append((at,d.name))
+    return sorted(found)
+
+def expired(c,s,now):
+    """Backups older than the retention period, never the last verified one."""
+    limit=now-c.get('retention_days',RETENTION_DAYS)*86400
+    last=s.get('last_verified',{}).get('backup')
+    return [name for at,name in backups(c) if at<limit and name!=last]
+
+def shred(config,stamp,approve=False):
+    """Explicit destruction of one expired backup: key first (crypto-shredding), then ciphertext."""
+    import re,shutil
+    c=load_config(config);directory=pathlib.Path(c['state_dir']);s=read(directory/'state.json',{});now=time.time()
+    if not re.fullmatch(r'[0-9]{8}T[0-9]{6}Z',stamp or ''):raise ValueError('Backup identifier required')
+    if stamp not in expired(c,s,now):raise ValueError('Backup not expired, unknown or last verified')
+    if not approve:return {'status':'approval_required','backup':stamp}
+    key=pathlib.Path(c['key_dir'])/(stamp+'.key')
+    if key.exists():key.unlink()
+    shutil.rmtree(pathlib.Path(c['backup_dir'])/stamp)
+    directory.mkdir(parents=True,exist_ok=True,mode=0o700);event(c,s,'retention','backup_shredded',now);write(directory/'state.json',s)
+    return {'status':'shredded','backup':stamp}
+
 def monitor(config,ack=False):
     c=load_config(config);directory=pathlib.Path(c['state_dir']);s=read(directory/'state.json',{});now=time.time()
     issues=sorted(s.get('active_alerts',{}))
     if now-s.get('last_tick',0)>c['watchdog_seconds']:issues.append('scheduler_stale')
     if now-s.get('last_verified',{}).get('snapshot_at',0)>c['max_age_seconds'] and 'overdue' not in issues:issues.append('overdue')
     if not verify_last(s) and 'integrity' not in issues:issues.append('integrity')
+    due=expired(c,s,now)
+    if due:issues.append('retention_due')
     cursor=read(directory/'monitor-cursor.json',{'sequence':0,'issues':[]})
     try:events=[json.loads(l) for l in (directory/'events.jsonl').read_text().splitlines()]
     except FileNotFoundError:events=[]
     new=[e for e in events if e['id']>cursor['sequence'] and e['kind'] in ('alert','recovery')]
     status={'issues':sorted(set(issues)),'events':new,'changed':bool(new) or sorted(set(issues))!=cursor['issues'],
-      'last_backup':s.get('last_verified',{}).get('backup'),'last_tick':s.get('last_tick'),'automatic_deletion':False}
+      'last_backup':s.get('last_verified',{}).get('backup'),'last_tick':s.get('last_tick'),'automatic_deletion':False,
+      'retention_days':c.get('retention_days',RETENTION_DAYS),'expired_backups':due,
+      # Keys on the same device as the backups do not protect against loss or theft of that device.
+      'keys_same_device':pathlib.Path(c['key_dir']).exists() and pathlib.Path(c['backup_dir']).exists() and os.stat(c['key_dir']).st_dev==os.stat(c['backup_dir']).st_dev}
     if ack:write(directory/'monitor-cursor.json',{'sequence':s.get('sequence',0),'issues':status['issues']})
     return status
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('action',choices=['tick','worker','monitor']);p.add_argument('--config',default=str(DEFAULT));p.add_argument('--ack',action='store_true');p.add_argument('--force',action='store_true');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('action',choices=['tick','worker','monitor','shred']);p.add_argument('--backup');p.add_argument('--approve',action='store_true');p.add_argument('--config',default=str(DEFAULT));p.add_argument('--ack',action='store_true');p.add_argument('--force',action='store_true');a=p.parse_args()
     try:
         if a.action=='worker':result=worker(load_config(a.config))
         elif a.action=='tick':result=tick(a.config,force=a.force)
+        elif a.action=='shred':result=shred(a.config,a.backup,a.approve)
         else:result=monitor(a.config,a.ack)
         print(json.dumps(result))
     except Exception:

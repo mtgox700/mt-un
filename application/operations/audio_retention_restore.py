@@ -6,6 +6,7 @@ remain explicitly recorded. Export while the source is quiescent for real use.
 """
 import json,re
 import backup_restore as b
+import revocation_journal
 TABLES=('audio_retention_batches','audio_retention_items','audio_tombstones','meeting_consents','meeting_audio_grants','business_publications')
 def journal():
     # One SQL statement / MVCC snapshot for the complete restriction journal.
@@ -15,6 +16,8 @@ def journal():
         pieces.append(b.literal(table)+",(select coalesce(jsonb_agg(t),'[]') from (select "+fields+' from uniion_private.'+table+' t)t)')
     for table in ('uniion_memberships','uniion_resource_grants','uniion_permissions','uniion_authorities','uniion_module_access'):
         pieces.append(b.literal(table)+",(select coalesce(jsonb_agg(t),'[]') from public."+table+' t)')
+    # Access controls (R36): suspensions, privileged roles, workers, trusted factors, shares.
+    pieces += revocation_journal.journal_pieces()
     return json.loads(b.sql('select jsonb_build_object('+','.join(pieces)+')'))
 
 def reconcile(result,data):
@@ -47,6 +50,7 @@ def reconcile(result,data):
         # be reissued, not silently widened during restoration.
         rows=data[table]
         q.append('delete from public.'+table+' t where not exists(select 1 from jsonb_array_elements('+b.literal(json.dumps(rows))+"::jsonb) j where j=to_jsonb(t))")
+    q += revocation_journal.statements(data)
     q.append('commit');sql(';\n'.join(q)+';')
     objects=json.loads(sql("select coalesce(json_agg(o),'[]') from storage.objects o where bucket_id='uniion-private' and name in(select a.path from uniion_private.meeting_audio a join uniion_private.audio_tombstones t on t.audio_id=a.id)"))
     for o in objects:
