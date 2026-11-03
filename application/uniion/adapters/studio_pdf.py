@@ -8,8 +8,16 @@ from uniion.core.contracts import Denied,Unavailable,PDFOverflow,PDFContentMissi
 ROOT=Path(__file__).resolve().parents[2]
 ASSETS=ROOT/'uniion/assets'
 LOCK=threading.BoundedSemaphore(2)
-NODE=os.environ.get('UNIION_NODE','/Users/mt/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node')
-CHROME=os.environ.get('UNIION_PDF_CHROME','/Applications/Google Chrome.app/Contents/MacOS/Google Chrome')
+def _tool(variable,default,*names):
+ # Configurable path (R2): explicit variable, then historical local path, then PATH lookup.
+ import shutil
+ value=os.environ.get(variable)
+ if value:return value
+ if os.path.exists(default):return default
+ return next((found for found in map(shutil.which,names) if found),default)
+NODE=_tool('UNIION_NODE','/Users/mt/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node','node')
+CHROME=_tool('UNIION_PDF_CHROME','/Applications/Google Chrome.app/Contents/MacOS/Google Chrome','chromium','chromium-browser','google-chrome')
+GEORGIA_DIR=Path(os.environ.get('UNIION_GEORGIA_DIR','/System/Library/Fonts/Supplemental'))
 
 def render(document,version):
  catalog=json.loads((ASSETS/'studio-catalog.json').read_text())
@@ -27,7 +35,7 @@ def render(document,version):
   for family in ('Philosopher','Inter','Montserrat','Lora','Georgia'):
    for variant,weight,italic in [('Regular',400,'normal'),('Bold',700,'normal'),('Italic',400,'italic')]:
     path=ASSETS/'fonts'/f'{family}-{variant}.ttf'
-    if family=='Georgia':path=Path('/System/Library/Fonts/Supplemental/Georgia'+({'Regular':'','Bold':' Bold','Italic':' Italic'}[variant])+'.ttf')
+    if family=='Georgia':path=GEORGIA_DIR/('Georgia'+({'Regular':'','Bold':' Bold','Italic':' Italic'}[variant])+'.ttf')
     if path.exists():fonts+='@font-face{font-family:'+family+';font-weight:'+str(weight)+';font-style:'+italic+';src:url(data:font/ttf;base64,'+base64.b64encode(path.read_bytes()).decode()+')}';
  if not LOCK.acquire(blocking=False):raise Unavailable()
  try:
