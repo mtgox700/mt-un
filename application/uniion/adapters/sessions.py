@@ -8,11 +8,20 @@ class RateLimited(Exception):pass
 class SessionStore:
     def __init__(self,api,clock=time.time):
         self.api=api;self.clock=clock;self.sessions={};self.attempts={};self.lock=threading.RLock()
-    def limit(self,key,maximum):
+    # R4 : les échecs de code MFA sont comptés sur une heure (10 au plus), dans l'état persistant.
+    MFA_FAILURES=10
+    def window(self,key):return 3600 if key.startswith('mfa-fail:') else 60
+    def prune(self):
         now=self.clock()
-        self.attempts={k:[t for t in v if t>now-60] for k,v in self.attempts.items() if v and v[-1]>now-60}
+        self.attempts={k:[t for t in v if t>now-self.window(k)] for k,v in self.attempts.items() if v and v[-1]>now-self.window(k)}
+    def limit(self,key,maximum):
+        now=self.clock();self.prune()
         if len(self.attempts.get(key,[]))>=maximum:raise RateLimited()
         self.attempts.setdefault(key,[]).append(now)
+    def check_failures(self,key,maximum):
+        self.prune()
+        if len(self.attempts.get(key,[]))>=maximum:raise RateLimited()
+    def record_failure(self,key):self.attempts.setdefault(key,[]).append(self.clock())
     def cookie(self,sid):return 'uniion_s01='+sid+'; HttpOnly; SameSite=Strict; Path=/; Max-Age='+('28800' if sid else '0')
     def find(self,header,create=False):
         c=SimpleCookie()
@@ -225,7 +234,10 @@ class SessionStore:
         if path=='/auth/mfa/verify':
             challenge=s.get('challenge',{});code=data.get('code')
             if challenge.get('factor')!=factor or challenge.get('id')!=data.get('challenge_id') or challenge.get('end',0)<=self.clock() or not isinstance(code,str) or len(code)!=6 or not code.isascii() or not code.isdigit():raise Denied()
-            result=self.api.request('/auth/v1/factors/'+factor+'/verify',s['access_token'],{'challenge_id':challenge['id'],'code':code})
+            failures='mfa-fail:'+user['id'];self.check_failures(failures,self.MFA_FAILURES)
+            try:result=self.api.request('/auth/v1/factors/'+factor+'/verify',s['access_token'],{'challenge_id':challenge['id'],'code':code})
+            except AccessDenied:
+                self.record_failure(failures);raise
             self.update(s,result);s.pop('challenge',None)
             self.api.request('/rest/v1/rpc/uniion_require_mfa',s['access_token'],{})
             sid=self.rotate(sid,s);return sid,self.public(s)
