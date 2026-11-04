@@ -25,3 +25,4 @@ if ! diff -q schema.sql schema.current.sql >/dev/null; then
 fi
 rm -f schema.current.sql; echo "Schéma conforme à schema.sql"
 python3 check_access_equivalence.py
+python3 check_search_equivalence.py

@@ -3479,6 +3479,13 @@ begin
    select m,uniion_private.message_origin(p_org,m.conversation,m.seq) original
    from uniion_private.messages m join titles t on t.id=m.conversation
    where m.organization_id=p_org and (not(p_payload ? 'before') or m.id<(p_payload->>'before')::uuid)
+   -- R19 : l'origine (contrôle d'accès récursif) n'est calculée que pour les candidats possibles :
+   -- titre, corps ou fichier qui contiennent la recherche, ou transfert (dont le texte vient de
+   -- l'original). Pour un message non transféré, l'origine est le message lui-même : le filtre
+   -- final ci-dessous, inchangé, donne donc exactement les mêmes résultats.
+   and (strpos(lower(t.name),q)>0 or strpos(lower(m.body),q)>0
+    or exists(select 1 from uniion_private.message_forwards fw where fw.organization_id=p_org and fw.conversation=m.conversation and fw.seq=m.seq)
+    or exists(select 1 from uniion_private.message_files f join public.uniion_attachments a on a.id=f.attachment where f.organization_id=p_org and f.conversation=m.conversation and f.seq=m.seq and strpos(lower(a.filename),q)>0))
   ), page as materialized (
    select o.m,t.name,t.kind from origins o join titles t on t.id=(o.m).conversation
    where (o.original).id is not null and
@@ -4661,6 +4668,11 @@ declare j uniion_private.transcription_jobs;p uniion_private.transcription_parts
 begin
  if not uniion_private.session_allowed() or not exists(select 1 from uniion_private.transcription_workers where user_id=auth.uid()) or p_action is null or p_action not in ('claim','next','finish','error') then raise insufficient_privilege;end if;
  if p_action='claim' then
+  -- R34 : une tâche en attente dont les sources ne sont plus valides (réunion modifiée, consentement
+  -- re-signé, droits retirés) n'est plus jamais traitée. Elle passe en erreur, visible, au lieu
+  -- d'être réévaluée à chaque prise en charge (au plus 50 par appel).
+  update uniion_private.transcription_jobs t set state='error',error='sources_changed',lease=null,worker=null,updated_at=now()
+   where t.id in (select q.id from uniion_private.transcription_jobs q where q.state='pending' and not uniion_private.transcription_valid(q) order by q.updated_at limit 50 for update skip locked);
   select * into j from uniion_private.transcription_jobs q where (state='pending' or state='running' and updated_at<now()-interval '6 minutes') and uniion_private.transcription_valid(q) order by updated_at for update skip locked limit 1;
   if not found then return '{}'::jsonb;end if;
   update uniion_private.transcription_jobs set state='running',lease=gen_random_uuid(),worker=auth.uid(),updated_at=now(),error=null where id=j.id returning * into j;
