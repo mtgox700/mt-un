@@ -110,6 +110,8 @@ def workflow(api,token,data,send=False):
   failure=next((o for o in outcomes if isinstance(o,BaseException)),None)
   if failure is not None:raise failure
  sent=sum(1 for o in outcomes if o is True);uncertain=len(outcomes)-sent
+ # R25 : au rejeu, les destinataires d'un envoi interrompu sont signalés comme incertains.
+ uncertain+=int(batch.get('uncertain') or 0)
  return {'sent':sent,'uncertain':uncertain,'replayed':batch['replayed']}
 
 def history_files(api,token,data):

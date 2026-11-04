@@ -47,3 +47,9 @@ class ConvocationSendTests(unittest.TestCase):
         api=FakeApi([]);api.request=lambda p,t,b:{'deliveries':[],'subject':'s','body':'b','replayed':True}
         with mock.patch.object(agenda,'send_mail',lambda m:self.fail('aucun envoi attendu')):
             self.assertEqual(run(api),{'sent':0,'uncertain':0,'replayed':True})
+
+class ConvocationReplayTests(unittest.TestCase):
+    def test_interrupted_send_is_reported_as_uncertain(self):
+        api=FakeApi([]);api.request=lambda p,t,b:{'deliveries':[],'subject':'s','body':'b','replayed':True,'uncertain':2}
+        with mock.patch.object(agenda,'send_mail',lambda m:self.fail('aucun renvoi attendu')):
+            self.assertEqual(run(api),{'sent':0,'uncertain':2,'replayed':True})
