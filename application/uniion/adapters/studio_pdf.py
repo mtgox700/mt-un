@@ -19,6 +19,26 @@ NODE=_tool('UNIION_NODE','/Users/mt/.cache/codex-runtimes/codex-primary-runtime/
 CHROME=_tool('UNIION_PDF_CHROME','/Applications/Google Chrome.app/Contents/MacOS/Google Chrome','chromium','chromium-browser','google-chrome')
 GEORGIA_DIR=Path(os.environ.get('UNIION_GEORGIA_DIR','/System/Library/Fonts/Supplemental'))
 
+CHROME_FLAGS=['--headless','--disable-gpu','--no-first-run','--disable-extensions','--disable-background-networking','--disable-component-update','--disable-sync','--no-pdf-header-footer','--run-all-compositor-stages-before-draw','--virtual-time-budget=3000','--host-resolver-rules=MAP * ~NOTFOUND','--proxy-server=http://127.0.0.1:9']
+
+def chrome_command(directory,environ=None):
+ """Chrome command printing directory/document.html to directory/document.pdf (R47).
+
+ With UNIION_PDF_IMAGE, Chrome runs in an isolated container: no network, read-only
+ root, all capabilities dropped, bounded memory/CPU/processes; only the working
+ folder is mounted. Without it, Chrome runs on the host as before (its own sandbox,
+ network blocked by its flags only)."""
+ environ=os.environ if environ is None else environ
+ image=environ.get('UNIION_PDF_IMAGE')
+ if not image:
+  return [CHROME,*CHROME_FLAGS,'--user-data-dir='+str(directory/'profile'),'--print-to-pdf='+str(directory/'document.pdf'),(directory/'document.html').as_uri()]
+ from .antivirus import DOCKER
+ return [environ.get('UNIION_DOCKER',DOCKER),'run','--rm','--network','none','--read-only','--cap-drop','ALL','--security-opt','no-new-privileges',
+  '--memory','768m','--memory-swap','768m','--cpus','1','--pids-limit','128','--shm-size','128m',
+  '--tmpfs','/tmp:rw,noexec,nosuid,size=64m','--user',f'{os.getuid()}:{os.getgid()}','-e','HOME=/tmp','-v',str(directory)+':/work','--entrypoint',environ.get('UNIION_PDF_CHROME_IN_IMAGE','chromium-browser'),image,
+  # The container is the sandbox: Chrome's own sandbox needs privileges the container does not grant.
+  '--no-sandbox','--disable-dev-shm-usage',*CHROME_FLAGS,'--user-data-dir=/tmp/profile','--print-to-pdf=/work/document.pdf','file:///work/document.html']
+
 def render(document,version):
  catalog=json.loads((ASSETS/'studio-catalog.json').read_text())
  if document.get('style') and document.get('style') not in {x['id'] for x in catalog['styles']}:raise Denied()
@@ -45,8 +65,7 @@ def render(document,version):
   with tempfile.TemporaryDirectory(prefix='uniion-pdf-') as folder:
    directory=Path(folder);source=directory/'document.html';source.write_bytes(result.stdout);target=directory/'document.pdf'
    # Dedicated ephemeral profile, no user profile, no remote debugging port, no external URL.
-   args=[CHROME,'--headless','--disable-gpu','--no-first-run','--disable-extensions','--disable-background-networking','--disable-component-update','--disable-sync','--no-pdf-header-footer','--run-all-compositor-stages-before-draw','--virtual-time-budget=3000','--host-resolver-rules=MAP * ~NOTFOUND','--proxy-server=http://127.0.0.1:9','--user-data-dir='+str(directory/'profile'),'--print-to-pdf='+str(target),source.as_uri()]
-   process=subprocess.run(args,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=40)
+   process=subprocess.run(chrome_command(directory),stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=40)
    if process.returncode or not target.exists() or target.stat().st_size>20*1024*1024:raise Unavailable()
    pdf=PdfReader(target)
    if any('UNIION_PDF_OVERFLOW_BLOCKED' in page.extract_text() for page in pdf.pages):raise PDFOverflow()
