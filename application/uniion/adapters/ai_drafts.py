@@ -31,4 +31,8 @@ def dispatch(gateway,context,authorize,actor,data):
         row=gateway.ledger.db.execute('select version,archived from responses where org=? and actor=? and id=?',(org,actor,rid)).fetchone()
         if not row or row['version']!=data['version'] or row['archived']:raise Denied()
         authorize(org);context.recipe(org,[source])
-        return context.call('/rest/v1/rpc/uniion_ai_draft_apply',{'p_org':org,'p_action':'apply','p_payload':{'id':rid,'source':source['ref']['id'],'kind':operation,'version':int(source['version']),'text':response['text']}})
+        # R12 : le brouillon a été rédigé sur une source masquée ; les jetons sont remplacés par
+        # les valeurs de la source actuelle (même empreinte, lue avec les droits de l'utilisateur).
+        from uniion.core.ai_context import token_map,reidentify
+        text=reidentify(response['text'],token_map([source]))
+        return context.call('/rest/v1/rpc/uniion_ai_draft_apply',{'p_org':org,'p_action':'apply','p_payload':{'id':rid,'source':source['ref']['id'],'kind':operation,'version':int(source['version']),'text':text}})

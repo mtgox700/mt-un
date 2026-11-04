@@ -53,10 +53,11 @@ class Masker:
     )
     def __init__(self, names=()):
         self.names=sorted({plain(n) for n in names if isinstance(n,str) and len(n.strip())>=3},key=len,reverse=True)
-        self.tokens={};self.count=0
+        self.tokens={};self.clear={};self.count=0
     def token(self,kind,text):
         key=(kind,text.casefold())
-        if key not in self.tokens:self.tokens[key]=f'[{kind}_{len(self.tokens)+1}]'
+        if key not in self.tokens:
+            self.tokens[key]=f'[{kind}_{len(self.tokens)+1}]';self.clear[self.tokens[key]]=text
         self.count+=1
         return self.tokens[key]
     def mask(self,text):
@@ -85,6 +86,28 @@ def prepare(sources):
     # Refuse oversize context instead of silently truncating cited evidence.
     if sum(len(p['text']) for s in passages for p in s['passages'])>24000:raise Denied('ai_context_too_large')
     return {'sources':passages,'citations':citations,'masked':masker.count}
+
+
+TOKEN=re.compile(r'\[(PERSONNE|COURRIEL|LIEN|IBAN|IDENTIFIANT|TELEPHONE|UUID)_[0-9]+\]')
+
+
+def token_map(sources):
+    """Token -> clear text, by masking the sources exactly as prepare() does (R12).
+
+    Masking is deterministic: for sources whose fingerprint is unchanged, the
+    tokens are those the model saw. Server side only; never sent to the model."""
+    masker=Masker(n for source in sources for n in source.get('names',[]))
+    for source in sources:
+        for item in source['passages']:masker.mask(item['text'])
+        masker.mask(source['title'])
+    return dict(masker.clear)
+
+
+def reidentify(text, mapping):
+    """Replace masking tokens by their clear value; refuse any token that cannot be restored."""
+    restored=TOKEN.sub(lambda m:mapping.get(m[0],m[0]),text)
+    if TOKEN.search(restored):raise Denied('ai_masked_tokens')
+    return restored
 
 
 def verify_excerpts(raw, context):
