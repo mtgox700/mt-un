@@ -1418,7 +1418,7 @@ begin
   for item in select distinct a.meeting_id from uniion_private.meeting_audio a join uniion_private.audio_retention_validations v on v.audio_id=a.id where a.organization_id=p_org and v.validated_at+interval '30 days'<=now() and not exists(select 1 from uniion_private.audio_retention_items i where i.audio_id=a.id) loop
    select array_agg(a.id order by a.id) into ids from uniion_private.meeting_audio a join uniion_private.audio_retention_validations v on v.audio_id=a.id where a.organization_id=p_org and a.meeting_id=item.meeting_id and v.validated_at+interval '30 days'<=now() and not exists(select 1 from uniion_private.audio_retention_items i where i.audio_id=a.id);
    inv=uniion_private.audio_inventory(ids);
-   insert into uniion_private.audio_retention_batches(organization_id,meeting_id,inventory) values(p_org,item.meeting_id,inv) returning id into bid;
+   insert into uniion_private.audio_retention_batches(organization_id,meeting_id,inventory,requested_by) values(p_org,item.meeting_id,inv,auth.uid()) returning id into bid;
    insert into uniion_private.audio_retention_items select unnest(ids),bid;
    insert into public.uniion_security_events(organization_id,actor,event,details) values(p_org,auth.uid(),'meeting.retention.requested',jsonb_build_object('batch',bid,'count',cardinality(ids)));
   end loop;
@@ -1435,6 +1435,10 @@ begin
   update uniion_private.audio_retention_batches set state='held',reason=p_payload->>'reason',hold_until=(p_payload->>'until')::timestamptz where id=b.id;
  else
   if b.hold_until>now() then raise insufficient_privilege;end if;
+  -- R39 : la personne qui a demandé la suppression ne peut pas l'approuver seule.
+  if b.requested_by is not distinct from auth.uid() then raise insufficient_privilege;end if;
+  -- R38 : chaque audio du lot doit encore être éligible (PV publié, non révoqué).
+  if exists(select 1 from uniion_private.audio_retention_items i where i.batch_id=b.id and not exists(select 1 from uniion_private.audio_retention_validations v where v.audio_id=i.audio_id)) then raise insufficient_privilege;end if;
   select array_agg(audio_id order by audio_id) into ids from uniion_private.audio_retention_items where batch_id=b.id;
   if uniion_private.audio_inventory(ids) is distinct from b.inventory then raise insufficient_privilege;end if;
   update uniion_private.audio_retention_batches set state='approved',reason=p_payload->>'reason',approved_by=auth.uid(),approved_at=now() where id=b.id;
@@ -4938,11 +4942,13 @@ CREATE FUNCTION uniion_private.agenda_claim() RETURNS jsonb
 declare j uniion_private.agenda_reminders; address text;
 begin
 perform uniion_private.agenda_enqueue();
+-- R25 : un rappel resté « en cours d'envoi » (worker interrompu) devient incertain, visible, sans renvoi.
+update uniion_private.agenda_reminders set status='uncertain',finished_at=now() where status='sending' and coalesce(sending_at,created_at)<now()-interval '15 minutes';
 select * into j from uniion_private.agenda_reminders where status='pending' order by created_at for update skip locked limit 1;
 if not found then return null;end if;
 select email into address from auth.users where id=j.user_id;
 if address !~ '^[^[:space:]@]+@(uniion-local[.]example|example[.]invalid)$' then update uniion_private.agenda_reminders set status='cancelled',finished_at=now() where id=j.id;return jsonb_build_object('skipped',true);end if;
-update uniion_private.agenda_reminders set status='sending' where id=j.id;
+update uniion_private.agenda_reminders set status='sending',sending_at=now() where id=j.id;
 return jsonb_build_object('id',j.id,'email',address);
 end;$_$;
 
@@ -5101,7 +5107,7 @@ CREATE FUNCTION uniion_private.agenda_work_core(p_org uuid, p_event uuid, p_acti
     LANGUAGE plpgsql SECURITY DEFINER
     SET search_path TO ''
     AS $_$
-declare e uniion_private.agenda_events;d uniion_private.agenda_documents;ident uuid;person uuid;people uuid[];doc jsonb;rows jsonb;item jsonb;
+declare stale_count integer;e uniion_private.agenda_events;d uniion_private.agenda_documents;ident uuid;person uuid;people uuid[];doc jsonb;rows jsonb;item jsonb;
 begin
 perform public.uniion_module_use(p_org,'agenda');
 select * into e from uniion_private.agenda_events where id=p_event and organization_id=p_org;
@@ -5159,7 +5165,14 @@ elsif p_action='prepare' then
   if not uniion_private.agenda_recipient_allowed(p_event,person) or not exists(select 1 from auth.users where id=person and email ~ '^[^[:space:]@]+@(uniion-local[.]example|example[.]invalid)$') then raise insufficient_privilege;end if;
  end loop;
  insert into uniion_private.agenda_convocations values(ident,p_event,e.version,auth.uid(),p_payload-array['id','people','version'],now()) on conflict do nothing;
- if not found then return jsonb_build_object('deliveries','[]'::jsonb,'replayed',true);end if;
+ if not found then
+  -- R25 : au rejeu, les destinataires restés « en cours d'envoi » plus de 10 minutes deviennent
+  -- incertains et sont comptés ; ils ne sont pas renvoyés (au plus une fois).
+  with stale as (update uniion_private.agenda_convocation_deliveries d set status='uncertain' from uniion_private.agenda_convocations c
+   where d.convocation=ident and c.id=ident and d.status='sending' and c.created_at<now()-interval '10 minutes' returning 1)
+  select count(*) into stale_count from stale;
+  return jsonb_build_object('deliveries','[]'::jsonb,'replayed',true,'uncertain',stale_count);
+ end if;
  insert into uniion_private.agenda_convocation_deliveries(convocation,user_id) select ident,unnest(people) on conflict do nothing;
  select jsonb_agg(jsonb_build_object('user',u.id,'email',u.email)) into rows from auth.users u where u.id=any(people);
  insert into public.uniion_security_events(organization_id,actor,event,details) values(p_org,auth.uid(),'agenda.convocation.prepared',jsonb_build_object('id',ident,'count',cardinality(people)));
@@ -5256,6 +5269,20 @@ CREATE FUNCTION uniion_private.audio_inventory(ids uuid[]) RETURNS jsonb
     AS $$
  select jsonb_build_object('scope','audio-bytes-only','audio',coalesce((select jsonb_agg(jsonb_build_object('id',a.id,'path',a.path,'sha256',a.sha256,'size',a.size,'request',a.request_id,'chunks',(select count(*) from uniion_private.meeting_audio_chunks c where c.audio_id=a.id),'original',case when o.audio_id is null then null else jsonb_build_object('size',o.size,'sha256',o.sha256,'parts',(select count(*) from uniion_private.meeting_audio_original_parts p where p.audio_id=a.id)) end) order by a.id) from uniion_private.meeting_audio a left join uniion_private.meeting_audio_originals o on o.audio_id=a.id where a.id=any(ids)),'[]'),
  'retained',jsonb_build_object('transcriptionParts',(select count(*) from uniion_private.transcription_parts where id=any(ids)),'privatePV',(select count(distinct m.resource_id) from uniion_private.meeting_minutes m join uniion_private.transcription_parts p on p.job_id=m.job_id where p.id=any(ids)),'publications',(select count(distinct b.id) from uniion_private.business_publications b join uniion_private.meeting_minutes m on m.resource_id=b.resource_id join uniion_private.transcription_parts p on p.job_id=m.job_id where p.id=any(ids)),'metadata',true,'backups',true,'offlineDevices','unconfirmed'))
+$$;
+
+
+--
+-- Name: audio_published(uuid); Type: FUNCTION; Schema: uniion_private; Owner: -
+--
+
+CREATE FUNCTION uniion_private.audio_published(p_audio uuid) RETURNS boolean
+    LANGUAGE sql STABLE SECURITY DEFINER
+    SET search_path TO ''
+    AS $$
+ select exists(select 1 from uniion_private.transcription_parts p join uniion_private.meeting_minutes m on m.job_id=p.job_id
+  join uniion_private.business_publications b on b.organization_id=m.organization_id and b.resource_id=m.resource_id
+  where p.id=p_audio and b.published_at is not null and b.revoked_at is null)
 $$;
 
 
@@ -6164,11 +6191,18 @@ CREATE FUNCTION uniion_private.record_audio_validation() RETURNS trigger
     SET search_path TO ''
     AS $$
 begin
- -- The existing review RPC already enforces distinct actor and exact version.
- insert into uniion_private.audio_retention_validations(audio_id,validated_at,reviewer,resource_id,version)
- select p.id,new.reviewed_at,new.reviewer,new.resource_id,new.version from uniion_private.meeting_minutes m join uniion_private.transcription_parts p on p.job_id=m.job_id
- where m.resource_id=new.resource_id and m.organization_id=new.organization_id
- on conflict(audio_id) do nothing;
+ -- R38 : le délai de conservation de l'audio court à partir de la publication du PV, pas de sa
+ -- relecture ; une révocation retire l'éligibilité s'il ne reste aucune publication active.
+ if new.published_at is not null and new.revoked_at is null then
+  insert into uniion_private.audio_retention_validations(audio_id,validated_at,reviewer,resource_id,version)
+  select p.id,new.published_at,new.reviewer,new.resource_id,new.version from uniion_private.meeting_minutes m join uniion_private.transcription_parts p on p.job_id=m.job_id
+  where m.resource_id=new.resource_id and m.organization_id=new.organization_id
+  on conflict(audio_id) do nothing;
+ elsif new.revoked_at is not null then
+  delete from uniion_private.audio_retention_validations v where v.audio_id in (
+   select p.id from uniion_private.meeting_minutes m join uniion_private.transcription_parts p on p.job_id=m.job_id where m.resource_id=new.resource_id and m.organization_id=new.organization_id)
+  and not uniion_private.audio_published(v.audio_id);
+ end if;
  return new;
 end$$;
 
@@ -6285,7 +6319,12 @@ begin
  for s in select * from uniion_private.dues_schedules where state='active' and (p_org is null or organization_id=p_org) order by id for update skip locked loop
   select * into a from uniion_private.adherents where id=s.adherent_id and organization_id=s.organization_id for update;
   if a.ended_on is not null and a.ended_on<=today then update uniion_private.dues_schedules set state='stopped' where id=s.id;continue;end if;
-  if not uniion_private.schedule_allowed(s.organization_id,s.actor) then continue;end if;
+  -- R53 : un échéancier dont le créateur a perdu ses droits n'est plus sauté en silence.
+  if not uniion_private.schedule_allowed(s.organization_id,s.actor) then
+   update uniion_private.dues_schedules set state='review' where id=s.id;blocked=blocked+1;
+   insert into public.uniion_security_events(organization_id,actor,event,details) values(s.organization_id,s.actor,'dues.schedule_review',jsonb_build_object('schedule',s.id,'reason','actor_without_rights'));
+   continue;
+  end if;
   if a.joined_on is distinct from s.member_anchor or (a.dues_terms->>'cents')::bigint is distinct from s.amount_cents or (case a.dues_terms->>'period' when 'month' then 1 when 'quarter' then 3 when 'year' then 12 end) is distinct from s.months then
    update uniion_private.dues_schedules set state='review' where id=s.id;blocked=blocked+1;continue;
   end if;
@@ -7027,6 +7066,7 @@ CREATE TABLE uniion_private.agenda_reminders (
     status text DEFAULT 'pending'::text NOT NULL,
     created_at timestamp with time zone DEFAULT now() NOT NULL,
     finished_at timestamp with time zone,
+    sending_at timestamp with time zone,
     CONSTRAINT agenda_reminders_status_check CHECK ((status = ANY (ARRAY['pending'::text, 'sending'::text, 'sent'::text, 'cancelled'::text, 'uncertain'::text])))
 );
 
@@ -7174,6 +7214,7 @@ CREATE TABLE uniion_private.audio_retention_batches (
     approved_by uuid,
     approved_at timestamp with time zone,
     finished_at timestamp with time zone,
+    requested_by uuid,
     CONSTRAINT audio_retention_batches_state_check CHECK ((state = ANY (ARRAY['pending'::text, 'held'::text, 'approved'::text, 'executing'::text, 'done'::text])))
 );
 
@@ -9871,7 +9912,7 @@ CREATE TRIGGER uniion_audio_tombstone BEFORE INSERT OR UPDATE ON uniion_private.
 -- Name: business_publications uniion_audio_validation; Type: TRIGGER; Schema: uniion_private; Owner: -
 --
 
-CREATE TRIGGER uniion_audio_validation AFTER INSERT OR UPDATE OF reviewed_at ON uniion_private.business_publications FOR EACH ROW EXECUTE FUNCTION uniion_private.record_audio_validation();
+CREATE TRIGGER uniion_audio_validation AFTER INSERT OR UPDATE OF reviewed_at, published_at, revoked_at ON uniion_private.business_publications FOR EACH ROW EXECUTE FUNCTION uniion_private.record_audio_validation();
 
 
 --
@@ -10416,6 +10457,14 @@ ALTER TABLE ONLY uniion_private.audio_retention_batches
 
 ALTER TABLE ONLY uniion_private.audio_retention_batches
     ADD CONSTRAINT audio_retention_batches_organization_id_fkey FOREIGN KEY (organization_id) REFERENCES public.uniion_organizations(id);
+
+
+--
+-- Name: audio_retention_batches audio_retention_batches_requested_by_fkey; Type: FK CONSTRAINT; Schema: uniion_private; Owner: -
+--
+
+ALTER TABLE ONLY uniion_private.audio_retention_batches
+    ADD CONSTRAINT audio_retention_batches_requested_by_fkey FOREIGN KEY (requested_by) REFERENCES auth.users(id);
 
 
 --
